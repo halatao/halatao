@@ -6,67 +6,73 @@
     <title>Ondřej Halata - Personal Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #222;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #003366;
             color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
-            padding-top: 50px;
-        }
-        header {
-            text-align: center;
-            padding: 30px 0;
-            background: #333;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-        header h1 {
-            margin: 0;
-            color: #ff5555;
         }
         .section {
-            padding: 50px 0;
-            text-align: center;
-        }
-        .section a {
-            color: #ff5555;
-            text-decoration: none;
-            font-size: 18px;
-            border: 2px solid #ff5555;
-            padding: 10px 20px;
-            display: inline-block;
-            margin: 20px 0;
-            border-radius: 5px;
-            transition: background 0.3s, box-shadow 0.3s;
-        }
-        .section a:hover {
-            background: #ff5555;
-            color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
         }
         .section h2 {
-            color: #ff5555;
+            color: #003366;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .section p {
+            line-height: 1.6;
+            font-size: 1em;
+        }
+        .section a {
+            color: #003366;
+            text-decoration: none;
+            font-size: 18px;
+            border: 2px solid #003366;
+            padding: 10px 20px;
+            display: inline-block;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .section a:hover {
+            background: #003366;
+            color: #fff;
         }
         #contact {
-            background: #333;
+            background: #e6e6e6;
             padding: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid #ddd;
         }
         #contact h2 {
             margin: 0 0 20px 0;
+            color: #003366;
         }
         footer {
             padding: 20px;
             text-align: center;
-            background: #111;
-            color: #888;
+            background: #003366;
+            color: #fff;
         }
         footer a {
-            color: #ff5555;
+            color: #ffcc00;
             text-decoration: none;
         }
     </style>
@@ -77,32 +83,127 @@
     </header>
 
     <div class="container">
-        <section class="section" id="eshop">
-            <h2>My eShop</h2>
-            <a href="https://shop.halatao.cz">Visit my eShop</a>
+        <section class="section" id="profile">
+            <h2>Personal Profile</h2>
+            <p>Experienced .NET Developer with expertise in both frontend and backend technologies. Adept at analyzing, designing, and implementing software solutions. Strong background in IT administration, infrastructure, and end-user support.</p>
+            <p><strong>Location:</strong> Ostrava, Czech Republic</p>
+            <p><strong>Age:</strong> 24</p>
+            <p><strong>Willing to Relocate:</strong> Yes</p>
         </section>
 
-        <section class="section" id="linkedin">
-            <h2>LinkedIn</h2>
-            <a href="https://linkedin.com/in/halatao">Connect with me on LinkedIn</a>
+        <section class="section" id="abilities">
+            <h2>Abilities & Skills</h2>
+            <p><strong>Abilities:</strong></p>
+            <ul>
+                <li>Analysis, design, and implementation of e-commerce software solutions</li>
+                <li>End-user support</li>
+                <li>Analysis and resolution of software, hardware, and network issues</li>
+                <li>Administrative tasks and documentation</li>
+                <li>Coordination and consultation of IT projects</li>
+                <li>Management of PC, AD, DHCP, Firewall, and mobile phones</li>
+            </ul>
+            <p><strong>Technologies & Programming Languages:</strong></p>
+            <ul>
+                <li><strong>Backend:</strong> C#, .NET, ASP.NET, WebForms, Entity Framework, Python, Java</li>
+                <li><strong>Frontend:</strong> React, TypeScript, HTML, CSS, WPF, JavaScript, Bootstrap, Angular, WinForms, jQuery, Vue.js, PHP</li>
+                <li><strong>Databases:</strong> SQL, MSSQL, MySQL</li>
+                <li><strong>Tools:</strong> Jira, Azure DevOps, Git, Sentry, RabbitMQ, Docker, Kubernetes</li>
+            </ul>
         </section>
 
-        <section class="section" id="github">
-            <h2>GitHub</h2>
-            <a href="https://github.com/halatao">See my projects on GitHub</a>
+        <section class="section" id="positions">
+            <h2>Top Positions Capable Of</h2>
+            <ul>
+                <li>.NET Developer</li>
+                <li>Software Engineer</li>
+                <li>IT Coordinator</li>
+                <li>IT Support Specialist</li>
+                <li>Full Stack Developer</li>
+            </ul>
         </section>
-    </div>
 
-    <section id="contact">
-        <div class="container">
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p><strong>Přírodovědecká fakulta, Ostravská univerzita (2020–2023)</strong></p>
+            <p>Bachelor's in Software Systems. Focused on advanced software systems design, development, and implementation.</p>
+            <p><strong>Gymnázium a Střední průmyslová škola elektrotechniky a informatiky, Frenštát pod Radhoštěm (2015–2019)</strong></p>
+            <p>Field of Study: Information Technology. Acquired foundational IT skills, software and hardware knowledge, and networking principles.</p>
+        </section>
+
+        <section class="section" id="experience">
+            <h2>Work Experience</h2>
+            <p><strong>ASTRATEX a. s. (02/2024–present)</strong></p>
+            <p>Position: .NET Developer</p>
+            <ul>
+                <li>Analyzing, designing, and implementing e-commerce software solutions</li>
+                <li>Bug analysis and fixing in e-commerce software</li>
+            </ul>
+            <p><strong>B.PRO CZ, s.r.o. (07/2023–01/2024)</strong></p>
+            <p>Position: IT Coordinator</p>
+            <ul>
+                <li>End-user support</li>
+                <li>Analyzing and solving software, hardware, and network problems</li>
+                <li>Administrative tasks (agendas, guides, analyses, directives)</li>
+                <li>Managing PCs, AD, DHCP, Firewall, mobile phones</li>
+                <li>Implementing, coordinating, and consulting on IT projects</li>
+                <li>Coordinating branch IT processes</li>
+            </ul>
+            <p><strong>B.PRO CZ, s.r.o. (01/2023–06/2023)</strong></p>
+            <p>Position: IT Coordinator (part-time)</p>
+            <ul>
+                <li>End-user support</li>
+                <li>Analyzing and solving software, hardware, and network problems</li>
+                <li>Administrative tasks (agendas, guides, analyses, directives)</li>
+                <li>Managing PCs, AD, DHCP, Firewall, mobile phones</li>
+                <li>Implementing, coordinating, and consulting on IT projects</li>
+                <li>Coordinating branch IT processes</li>
+            </ul>
+            <p><strong>ABB s.r.o (01/2022–03/2022)</strong></p>
+            <p>Position: Associate Software Engineer (part-time)</p>
+            <ul>
+                <li>Technologies Used: .NET, WPF, ReactiveProperty, Material Design, JUnit, Azure DevOps</li>
+            </ul>
+            <p><strong>B.PRO CZ, s.r.o. (11/2019–12/2022)</strong></p>
+            <p>Position: IT Department Assistant (part-time)</p>
+            <ul>
+                <li>End-user support</li>
+                <li>Analyzing and solving software, hardware, and network problems</li>
+                <li>Administrative tasks (agendas, guides, analyses, directives)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>CCNA Routing and Switching: Scaling Networks</li>
+                <li>CCNA Basic Routing and Switching</li>
+            </ul>
+        </section>
+
+        <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English: B2</li>
+                <li>German: A1</li>
+            </ul>
+        </section>
+
+        <section id="contact">
             <h2>Contact Me</h2>
             <p>Email: <a href="mailto:ondrej.halata@gmail.com">ondrej.halata@gmail.com</a></p>
             <p>Phone: +420 732 706 607</p>
-        </div>
-    </section>
+        </section>
+
+        <section class="section" id="links">
+            <h2>Online Profiles</h2>
+            <a href="https://linkedin.com/in/halatao">Connect with me on LinkedIn</a>
+            <a href="https://github.com/halatao">See my projects on GitHub</a>
+            <a href="https://shop.halatao.cz">Visit my eShop</a>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Ondřej Halata. All Rights Reserved.</p>
+        <p>&copy; 2024 Ondřej Halata. All Rights Reserved. <a href="mailto:ondrej.halata@gmail.com">Contact</a></p>
     </footer>
 </body>
 </html>
