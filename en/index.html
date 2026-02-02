@@ -1,403 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>
-    Bc. Ondřej Halata – Full-stack Developer & IT Consultant in Ostrava
-  </title>
-  <meta name="description"
-    content="Ondřej Halata is a full-stack software developer and IT consultant based in Ostrava, Czech Republic. Specialising in custom web development, WordPress, .NET and IT infrastructure for small businesses." />
-  <meta name="keywords"
-    content="Ondřej Halata, software developer Ostrava, IT consultant Czech Republic, web development, WordPress developer, .NET developer, IT support Ostrava" />
-  <meta name="author" content="Ondřej Halata" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYSMGC2M4V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+  <title>Ondřej Halata – Full-stack Web Application Developer</title>
 
-    gtag("config", "G-GYSMGC2M4V");
-  </script>
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c016eaf8-a8fe-4cfe-9693-727411d95ca8"
-    type="text/javascript" async></script>
+  <meta name="description"
+        content="Ondřej Halata is a full-stack developer helping companies design, build and operate reliable web applications long-term." />
+
+  <meta name="author" content="Ondřej Halata" />
+  <meta name="robots" content="index, follow" />
 
   <link rel="canonical" href="https://www.halatao.cz/en/" />
   <link rel="alternate" hreflang="en" href="https://www.halatao.cz/en/" />
   <link rel="alternate" hreflang="cs" href="https://www.halatao.cz/cz/" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bc. Ondřej Halata – Full-stack Developer & IT Consultant in Ostrava" />
-  <meta property="og:description"
-    content="Custom web development, WordPress sites, IT support and consulting services for small businesses in Czechia." />
-  <meta property="og:url" content="https://www.halatao.cz/en/" />
-  <meta property="og:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bc. Ondřej Halata – Full-stack Developer & IT Consultant in Ostrava" />
-  <meta name="twitter:description" content="Web development & IT support services by Ondřej Halata in Czechia." />
-  <meta name="twitter:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/3wSzcKX/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://i.ibb.co/W4x0SKLH/android-chrome-192x192.png" />
   <link rel="apple-touch-icon" href="https://i.ibb.co/W4x0SKLH/android-chrome-192x192.png" />
 
-  <!-- CSS libraries -->
+  <!-- Cookiebot -->
+  <script id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="c016eaf8-a8fe-4cfe-9693-727411d95ca8"
+          type="text/javascript"
+          async></script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M63V79JM');
+  </script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ondřej Halata – Full-stack Developer" />
+  <meta property="og:description"
+        content="Full-stack development and long-term operation of web applications." />
+  <meta property="og:url" content="https://www.halatao.cz/en/" />
+  <meta property="og:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ondřej Halata – Full-stack Developer" />
+  <meta name="twitter:description"
+        content="Full-stack development of web applications." />
+  <meta name="twitter:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
+
+  <!-- Bootstrap + AOS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
+    body { font-family: "Segoe UI", sans-serif; }
 
-    body {
-      font-family: "Segoe UI", sans-serif;
-    }
+    section { padding: 90px 0; }
 
     .hero {
       background: linear-gradient(to right, #4b4bbf, #4747be);
-      color: #fff;
+      color: white;
+      padding: 140px 20px 120px;
       text-align: center;
-      padding: 120px 20px 100px;
     }
 
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 80px 0;
-    }
+    .hero h1 { font-size: 3rem; font-weight: bold; }
 
     .section-title {
-      margin-bottom: 40px;
       text-align: center;
+      margin-bottom: 40px;
     }
 
-    .navbar {
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    .card {
+      border: none;
+      transition: all .2s ease;
     }
 
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(0,0,0,.08);
       background: #f8f9fa;
-      cursor: pointer;
     }
 
-    .footer {
+    .tag {
+      display: inline-block;
+      background: #eef0ff;
+      color: #3b3bbf;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: .85rem;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .logo {
+      max-height: 56px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      opacity: .8;
+    }
+
+    footer {
       background: #f8f9fa;
       padding: 30px;
       text-align: center;
-      font-size: 0.9rem;
       border-top: 1px solid #ddd;
+      font-size: .9rem;
     }
   </style>
 
   <!-- Structured data -->
   <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Bc. Ondřej Halata",
-        "jobTitle": "Full-stack Developer & IT Consultant",
-        "url": "https://www.halatao.cz/",
-        "image": "https://i.ibb.co/Vp5SXxhw/New-Project.png",
-        "email": "mailto:ondrej.halata@gmail.com",
-        "telephone": "+420602690920",
-        "sameAs": [
-          "https://www.linkedin.com/in/halatao/",
-          "https://github.com/halatao/"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Ostrava",
-          "addressCountry": "CZ"
-        }
-      }
-    </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ondřej Halata",
+    "jobTitle": "Full-stack Web Application Developer",
+    "url": "https://www.halatao.cz/",
+    "image": "https://i.ibb.co/Vp5SXxhw/New-Project.png",
+    "email": "mailto:ondrej.halata@gmail.com",
+    "telephone": "+420602690920",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ostrava",
+      "addressCountry": "CZ"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/halatao/",
+      "https://github.com/halatao/"
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M63V79JM" height="0" width="0"
-      style="display: none; visibility: hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#home">Bc. Ondřej Halata</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item ms-lg-3">
-            <a href="/cz/" class="d-flex align-items-center nav-link" title="Čeština">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
-                alt="Čeština" style="height: 1.2rem; width: 1.8rem; object-fit: cover" />&nbsp;CZ
-            </a>
-          </li>
-        </ul>
+
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M63V79JM"
+          height="0" width="0"
+          style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Ondřej Halata</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#references">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="nav-link" href="/cz/">CZ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="container">
+    <h1 data-aos="fade-up">Hi, I'm Ondřej</h1>
+    <p class="lead mt-3" data-aos="fade-up" data-aos-delay="150">
+      I help companies design, build and operate
+      web applications that make sense technically and long-term.
+    </p>
+    <button class="btn btn-light btn-lg mt-4"
+            data-aos="fade-up" data-aos-delay="300"
+            onclick="window.location.href='#contact'">
+      Get in touch
+    </button>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-right">About Me</h2>
+    <p class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+      I’m a full-stack developer with hands-on experience
+      in building and running web applications in real production environments.
+      <br><br>
+      I focus not only on writing code, but also on architecture,
+      maintainability and operational reality.
+      <br><br>
+      I work independently as well as part of development teams.
+    </p>
+  </div>
+</section>
+
+<section id="services" class="bg-light">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-left">What I Do</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4" data-aos="zoom-in">
+        <div class="card h-100 p-4">
+          <h5>Web Applications</h5>
+          <p>Full-stack development from architecture to production.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card h-100 p-4">
+          <h5>System Integrations</h5>
+          <p>Connecting internal systems, APIs and data flows.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card h-100 p-4">
+          <h5>Deployment & Operations</h5>
+          <p>Linux servers, CI/CD pipelines and production stability.</p>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+</section>
 
-  <!-- Hero -->
-  <section class="hero" id="home">
-    <div class="container">
-      <h1 data-aos="fade-up">Hi, I'm Ondřej</h1>
-      <p class="lead mt-3" data-aos="fade-up" data-aos-delay="200">
-        Full-stack Developer & IT Consultant for small businesses and
-        companies
-      </p>
-      <button class="btn btn-light btn-lg mt-4" data-aos="fade-up" data-aos-delay="400"
-        onclick="window.location.href='#contact'">
-        Get in Touch
-      </button>
-    </div>
-  </section>
+<section id="references">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Projects & Experience</h2>
 
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-right">About Me</h2>
-      <p class="text-center col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">
-        I'm a versatile developer with a strong foundation in both software
-        engineering and IT infrastructure located in Ostrava, Czechia. I help
-        clients build professional websites, custom applications, and maintain
-        a stable, scalable tech environment — whether through full-stack
-        development or on-site IT setup and support.
-      </p>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="bg-light">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-left">Services</h2>
-
-      <div class="mb-5">
-        <h3 class="text-center text-primary mb-4" data-aos="fade-up">
-          Website Development
-        </h3>
-        <div class="row text-center">
-          <div class="col-md-4 mb-4" data-aos="zoom-in">
-            <a href="mailto:ondrej.halata@gmail.com?subject=Static%20Websites" class="text-decoration-none text-dark">
-              <div class="card h-100 p-4">
-                <h5>Static Websites</h5>
-                <p>
-                  Fast and lightweight HTML/CSS websites — ideal for small
-                  businesses that need a clean, simple web presence.
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-            <a href="mailto:ondrej.halata@gmail.com?subject=WordPress%20Websites"
-              class="text-decoration-none text-dark">
-              <div class="card h-100 p-4">
-                <h5>WordPress Websites</h5>
-                <p>
-                  Easy-to-manage websites built on WordPress — perfect for
-                  blogs, service businesses, or content-heavy sites.
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-            <a href="mailto:ondrej.halata@gmail.com?subject=Custom%20Web%20Applications"
-              class="text-decoration-none text-dark">
-              <div class="card h-100 p-4">
-                <h5>Custom Web Applications</h5>
-                <p>
-                  Fully custom front- and back-ends using React, Next.js &
-                  .NET — with integrations for shipping, payments, Google
-                  APIs, and more.
-                </p>
-              </div>
-            </a>
+    <div class="row justify-content-center mb-5" data-aos="fade-up">
+      <div class="col-lg-8">
+        <div class="card p-4">
+          <h4>End-to-end Application Delivery</h4>
+          <p>
+            Projects with responsibility for the entire lifecycle —
+            architecture, development, deployment and long-term operation.
+          </p>
+          <img src="https://storage.googleapis.com/kasanpelcovafileserver/files/553eacd9-8684-4abe-be76-b97db259688e"
+               class="logo my-3" alt="Project" />
+          <div>
+            <span class="tag">full-stack</span>
+            <span class="tag">architecture</span>
+            <span class="tag">deployment</span>
+            <span class="tag">operations</span>
           </div>
         </div>
       </div>
+    </div>
 
-      <h3 class="text-center text-primary mb-4" data-aos="fade-up">
-        IT Consulting & Infrastructure
-      </h3>
-      <div class="row text-center">
-        <div class="col-md-4 mb-4" data-aos="zoom-in">
-          <a href="mailto:ondrej.halata@gmail.com?subject=Network%20and%20Cabling"
-            class="text-decoration-none text-dark">
-            <div class="card h-100 p-4">
-              <h5>Network & Cabling Setup</h5>
-              <p>
-                Wired and wireless network setup for homes or small offices,
-                including router configuration and secure cabling.
-              </p>
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+      <div class="col-lg-8">
+        <div class="card p-4">
+          <h4>Team Collaboration</h4>
+          <p>Working as part of development teams on commercial projects.</p>
+          <div class="row text-center my-4">
+            <div class="col-6 col-md-3 mb-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/ABB_logo.svg" class="logo" alt="ABB">
             </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-          <a href="mailto:ondrej.halata@gmail.com?subject=PC%20and%20Office%20Setup"
-            class="text-decoration-none text-dark">
-            <div class="card h-100 p-4">
-              <h5>PC & Office Setup</h5>
-              <p>
-                Custom-built PCs, workstation setup, printer installation, and
-                full environment readiness for productivity.
-              </p>
+            <div class="col-6 col-md-3 mb-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Astratex_logo.jpg" class="logo" alt="Astratex">
             </div>
-          </a>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-          <a href="mailto:ondrej.halata@gmail.com?subject=Ongoing%20IT%20Support"
-            class="text-decoration-none text-dark">
-            <div class="card h-100 p-4">
-              <h5>Ongoing IT Support</h5>
-              <p>
-                Long-term tech support, troubleshooting, and consulting for
-                small businesses without in-house IT teams.
-              </p>
+            <div class="col-6 col-md-3 mb-3">
+              <img src="https://i.ytimg.com/vi/d5DunF5l-AE/maxresdefault.jpg" class="logo" alt="Linksoft">
             </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section id="portfolio">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Portfolio</h2>
-
-      <!-- Collaborative Development -->
-      <div class="mb-5">
-        <h3 class="text-center text-primary mb-4" data-aos="fade-up">
-          Development Work
-        </h3>
-
-        <h5 class="text-center text-secondary mb-3" data-aos="fade-up">
-          Collaborative Development
-        </h5>
-
-        <div class="row justify-content-center align-items-center text-center">
-          <div class="col-4 col-md-2 mb-4" data-aos="fade-in">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/2560px-ABB_logo.svg.png"
-              alt="ABB – custom application" class="img-fluid" style="max-height: 50px" />
-          </div>
-          <div class="col-4 col-md-2 mb-4" data-aos="fade-in" data-aos-delay="100">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Astratex_logo.jpg"
-              alt="Astratex – e-commerce integration" class="img-fluid"
-              style="max-height: 50px; width: auto; object-fit: contain" />
-          </div>
-          <div class="col-4 col-md-2 mb-4" data-aos="fade-in" data-aos-delay="200">
-            <img src="https://i.ytimg.com/vi/d5DunF5l-AE/maxresdefault.jpg" alt="Linksoft – internal system"
-              class="img-fluid" style="max-height: 50px" />
-          </div>
-        </div>
-      </div>
-
-      <!-- Client Work -->
-      <div class="mb-5">
-        <h5 class="text-center text-secondary mb-3" data-aos="fade-up">
-          Client Work
-        </h5>
-
-        <div class="row justify-content-center align-items-center text-center">
-          <!-- Kasan a Pelcová -->
-          <div class="col-6 col-md-3 mb-4" data-aos="fade-in">
-            <a href="https://www.kasanpelcova.cz/" target="_blank">
-              <img
-                src="https://storage.googleapis.com/kasanpelcovafileserver/files/553eacd9-8684-4abe-be76-b97db259688e"
-                alt="Kasan a Pelcová realitní služby" class="img-fluid rounded shadow-sm"
-                style="max-height: 80px; object-fit: contain" />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-4">
-        <h3 class="text-center text-primary mb-4" data-aos="fade-up">
-          IT Infrastructure & Consulting
-        </h3>
-        <div class="row justify-content-center">
-          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
-            <div class="card p-4">
-              <p>
-                Over 4 years I’ve provided hands-on IT support and
-                infrastructure services for branch-based businesses —
-                including end-user support, device and network administration
-                (PCs, AD, DHCP, firewalls, mobile), internal IT documentation,
-                and coordination of implementation projects across multiple
-                sites.
-              </p>
+            <div class="col-6 col-md-3 mb-3">
+              <img src="https://www.magicware.cz/Public/2015-magicware/img/mw_logo_menu.png" class="logo" alt="Magicware">
             </div>
           </div>
+          <div>
+            <span class="tag">full-stack</span>
+            <span class="tag">team collaboration</span>
+          </div>
         </div>
       </div>
-
-      <p class="text-center mt-4" data-aos="fade-up" data-aos-delay="200">
-        <a href="https://www.linkedin.com/in/halatao/" target="_blank">See more on my LinkedIn →</a>
-      </p>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="bg-light">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Contact</h2>
-      <p class="text-center" data-aos="fade-up" data-aos-delay="100">
-        Need a reliable tech partner? Let’s work together.
-      </p>
-      <div class="text-center mt-3" data-aos="fade-up" data-aos-delay="200">
-        <p>
-          Email:
-          <a href="mailto:ondrej.halata@gmail.com">ondrej.halata@gmail.com</a>
-        </p>
-        <p>Phone: <a href="tel:+420602690920">+420 602 690 920</a></p>
-        <p>
-          <a href="https://www.linkedin.com/in/halatao/" target="_blank">LinkedIn</a>
-          | <a href="https://github.com/halatao/" target="_blank">GitHub</a>
-        </p>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      © 2025 Bc. Ondřej Halata. All rights reserved.
-    </div>
-  </footer>
+<section id="contact" class="bg-light">
+  <div class="container text-center">
+    <h2 class="section-title" data-aos="fade-up">Contact</h2>
+    <p data-aos="fade-up" data-aos-delay="100">
+      Have a project that needs reliable development?
+      Let’s talk.
+    </p>
+    <p class="mt-3" data-aos="fade-up" data-aos-delay="200">
+      <a href="mailto:ondrej.halata@gmail.com">ondrej.halata@gmail.com</a><br>
+      <a href="tel:+420602690920">+420&nbsp;602&nbsp;690&nbsp;920</a>
+    </p>
+  </div>
+</section>
 
-  <!-- JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+<footer>
+  © 202^ Ondřej Halata ·
+  <a href="https://www.linkedin.com/in/halatao/" target="_blank">LinkedIn</a> ·
+  <a href="https://github.com/halatao/" target="_blank">GitHub</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
 </body>
-
 </html>
