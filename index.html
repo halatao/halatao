@@ -68,10 +68,7 @@
   </style>
   <script>
     (function () {
-      const langs = navigator.languages || [navigator.language || "en"];
-      const target = langs.some((l) => /^cs|^sk/i.test(l))
-        ? "/cz/"
-        : "/cz/";
+      const target = "/cz/";
       if (!location.pathname.startsWith(target)) location.replace(target);
     })();
   </script>
