@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Děkuji – automatizační audit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Calendly embed script -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+<section class="min-h-screen flex items-center justify-center px-6 py-20">
+  <div class="max-w-4xl w-full bg-white rounded-xl shadow-lg p-10">
+
+    <h1 class="text-3xl font-bold mb-4 text-center">
+      Děkuji, ozvu se.
+    </h1>
+
+    <p class="text-lg text-gray-600 mb-10 text-center">
+      Informace jsem obdržel.<br>
+      Pokud chcete proces urychlit, můžete si rovnou domluvit termín hovoru.
+    </p>
+
+    <!-- Calendly embed -->
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/ondrej-halata/30min"
+      style="min-width:320px;height:700px;">
+    </div>
+
+    <!-- Fallback link -->
+    <p class="text-sm text-gray-500 mt-8 text-center">
+      Pokud se kalendář nezobrazí, můžete použít
+      <a href="https://calendly.com/ondrej-halata/30min"
+         target="_blank"
+         class="text-indigo-600 underline hover:text-indigo-800">
+        tento odkaz
+      </a>.
+    </p>
+
+  </div>
+</section>
+
+<footer class="text-center text-gray-400 text-sm py-6">
+  © Bc. Ondřej Halata
+</footer>
+
+</body>
+</html>

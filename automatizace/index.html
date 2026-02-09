@@ -188,6 +188,7 @@
 </section>
 
 <!-- COST OF INACTION + CTA -->
+<!-- COST OF INACTION + CTA -->
 <section id="cta" class="py-40 bg-indigo-700 text-white">
   <div class="max-w-4xl mx-auto px-6 text-center">
 
@@ -203,13 +204,98 @@
       vůbec nemusí existovat.
     </p>
 
-    <a href="mailto:ondrej.halata@gmail.com?subject=Automatizační audit – úvodní konzultace&body=Dobrý den,%0D%0A%0D%0Arád bych si ujasnil, zda u nás ve firmě dává smysl automatizace procesů.%0D%0A%0D%0AStručně o firmě:%0D%0A-%20počet lidí:%0D%0A-%20typ činností:%0D%0A-%20kde dnes trávíme nejvíc času:%0D%0A%0D%0ADěkuji"
-       class="bg-white text-indigo-700 px-14 py-6 rounded-lg text-lg font-semibold hover:bg-gray-100 transition">
-      Domluvit úvodní konzultaci
-    </a>
+    <div class="max-w-2xl mx-auto bg-white text-gray-900 rounded-xl p-8 shadow-lg text-left">
+      <h3 class="text-2xl font-bold mb-2 text-center">
+        Zjistit, kde zbytečně ztrácíte čas
+      </h3>
+      <p class="text-gray-600 mb-8 text-center">
+        Stačí pár informací, ať můžeme navrhnout další postup.<br>
+        Nezávazná úvodní konzultace.
+      </p>
+
+      <form action="https://formspree.io/f/maqdndyk" method="POST" class="space-y-6">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+        <input type="hidden" name="_next" value="https://www.halatao.cz/automatizace/dekuji.html" />
+        <input type="hidden" name="_subject" value="Automatizační audit – nový kontakt z webu" />
+
+        <div>
+          <label for="email" class="block font-semibold mb-2">E-mail</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            placeholder="např. jan.novak@firma.cz"
+            class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+
+        <div>
+        <label for="phone" class="block font-semibold mb-2">
+            Telefon <span class="text-sm font-normal text-gray-500">(pokud chcete rychlejší reakci)</span>
+        </label>
+        <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="+420 602 123 456"
+            class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        />
+        </div>
+
+        <div>
+          <label for="companySize" class="block font-semibold mb-2">
+            Kolik lidí ve firmě pracuje?
+          </label>
+          <select
+            id="companySize"
+            name="company_size"
+            required
+            class="w-full rounded-lg border border-gray-300 px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          >
+            <option value="" disabled selected>Vyberte…</option>
+            <option>1–4</option>
+            <option>5–10</option>
+            <option>11–30</option>
+            <option>31–100</option>
+            <option>100+</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="pain" class="block font-semibold mb-2">
+            Kde dnes ve firmě trávíte nejvíc času ručně?
+          </label>
+          <textarea
+            id="pain"
+            name="pain_point"
+            required
+            rows="5"
+            placeholder="Např. administrace objednávek, přepisování dat mezi systémy, e-maily, reporting, kontrola plateb…"
+            class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-indigo-600 text-white px-6 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition"
+        >
+          Odeslat a domluvit úvodní konzultaci
+        </button>
+
+        <p class="text-sm text-gray-500 text-center">
+          Ozvu se osobně do 1 pracovního dne.
+        </p>
+      </form>
+    </div>
 
   </div>
 </section>
+
+
+  </div>
+</section>
+
 
 <footer class="text-center text-gray-500 py-10 text-sm">
   © Bc. Ondřej Halata
