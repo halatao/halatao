@@ -8,16 +8,19 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.halatao.cz/automatizace/" />
   <link rel="alternate" hreflang="cs" href="https://www.halatao.cz/automatizace/" />
+
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="cs_CZ" />
   <meta property="og:title" content="Automatizace firemních procesů | Audit neefektivity" />
   <meta property="og:description" content="Zjistěte, kde firma ztrácí čas manuální operativou, a získejte návrh konkrétního postupu automatizace." />
   <meta property="og:url" content="https://www.halatao.cz/automatizace/" />
   <meta property="og:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Automatizace firemních procesů | Audit neefektivity" />
   <meta name="twitter:description" content="Praktický audit neefektivity a návrh automatizace procesů ve firmě." />
   <meta name="twitter:image" content="https://i.ibb.co/Vp5SXxhw/New-Project.png" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -37,6 +40,7 @@
     "description": "Audit manuálních činností a návrh automatizace procesů pro firmy a e-shopy."
   }
   </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -62,11 +66,17 @@
       které už ruční být nemusí.
     </p>
 
-    <p class="text-lg text-gray-500 max-w-3xl mx-auto mb-14">
+    <p class="text-lg text-gray-500 max-w-3xl mx-auto mb-10">
       Tahle stránka vám pomůže zjistit,
       kde ve firmě mizí čas a peníze —
       a proč se to samo nespraví.
     </p>
+
+    <!-- SEO ukotvení bez spamování -->
+    <h2 class="text-base md:text-lg font-semibold text-gray-700 max-w-3xl mx-auto mb-14">
+      Automatizace firemních procesů začíná tím, že přesně pojmenujete,
+      co ve firmě vzniká jen proto, že chybí systém.
+    </h2>
 
     <a href="#cta"
        class="inline-block bg-indigo-600 text-white px-12 py-5 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition">
@@ -127,36 +137,7 @@
   </div>
 </section>
 
-<!-- VIDEO – AUTORITA -->
-<!-- <section class="py-36 bg-gray-100">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-
-    <h2 class="text-3xl font-bold mb-10">
-      Krátké vysvětlení
-    </h2>
-
-    <p class="text-lg text-gray-600 mb-12">
-      Proč většina firem ztrácí čas – a proč to není chyba lidí
-    </p>
-
-    <div class="relative aspect-video rounded-xl overflow-hidden shadow-lg">
-      <iframe
-        class="absolute inset-0 w-full h-full"
-        src="https://www.youtube.com/embed/VIDEO_ID"
-        title="Automatizace podnikání"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <p class="text-sm text-gray-500 mt-6">
-      1 minuta. Bez prodeje.
-    </p>
-
-  </div>
-</section> -->
-
-
+<!-- PŘÍSTUP -->
 <section class="py-36 bg-white">
   <div class="max-w-5xl mx-auto px-6">
 
@@ -179,6 +160,12 @@
           Řeším jen to,
           co firmě skutečně bere čas a energii.
         </p>
+
+        <!-- jemný proof bez case studies -->
+        <p class="mt-8 text-gray-600">
+          V praxi často stačí odstranit a zautomatizovat pár opakujících se kroků —
+          a firmě se uvolní desítky hodin měsíčně.
+        </p>
       </div>
 
       <div class="bg-gray-50 p-12 rounded-xl">
@@ -194,6 +181,30 @@
   </div>
 </section>
 
+<!-- CO ZÍSKÁTE -->
+<section class="py-36 bg-gray-50">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold text-center mb-20">
+      Co získáte z automatizačního auditu
+    </h2>
+
+    <div class="bg-white p-14 rounded-xl shadow text-lg text-gray-700">
+      <ul class="space-y-5">
+        <li>• Seznam míst, kde vzniká nejvíc ruční práce (a proč)</li>
+        <li>• Prioritizaci: co řešit hned vs. co nechat být</li>
+        <li>• Návrh konkrétního postupu automatizace (kroky + odpovědnosti)</li>
+        <li>• Doporučení nástrojů pouze tam, kde mají skutečný ROI</li>
+      </ul>
+
+      <p class="mt-10 text-gray-600">
+        Výsledek není „další projekt“. Je to jasný plán, co odstranit,
+        co zautomatizovat a co zjednodušit, aby firma přestala brzdit sama sebe.
+      </p>
+    </div>
+
+  </div>
+</section>
 
 <!-- PRO KOHO / BADGE OF HONOR -->
 <section class="py-36 bg-gray-100">
@@ -220,7 +231,6 @@
   </div>
 </section>
 
-<!-- COST OF INACTION + CTA -->
 <!-- COST OF INACTION + CTA -->
 <section id="cta" class="py-40 bg-indigo-700 text-white">
   <div class="max-w-4xl mx-auto px-6 text-center">
@@ -264,16 +274,14 @@
         </div>
 
         <div>
-        <label for="phone" class="block font-semibold mb-2">
-            Telefon
-        </label>
-        <input
+          <label for="phone" class="block font-semibold mb-2">Telefon</label>
+          <input
             id="phone"
             name="phone"
             type="tel"
             placeholder="+420 602 123 456"
             class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        />
+          />
         </div>
 
         <div>
@@ -309,6 +317,20 @@
           ></textarea>
         </div>
 
+        <!-- volitelná kvalifikace -->
+        <div>
+          <label for="whyNow" class="block font-semibold mb-2">
+            Proč to chcete řešit právě teď? (volitelné)
+          </label>
+          <textarea
+            id="whyNow"
+            name="why_now"
+            rows="3"
+            placeholder="Např. roste objem práce, nabíráme lidi, nestíháme expedici, roste počet chyb…"
+            class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          ></textarea>
+        </div>
+
         <button
           type="submit"
           class="w-full bg-indigo-600 text-white px-6 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition"
@@ -325,16 +347,9 @@
   </div>
 </section>
 
-
-  </div>
-</section>
-
-
 <footer class="text-center text-gray-500 py-10 text-sm">
   © Bc. Ondřej Halata
 </footer>
 
 </body>
 </html>
-
-
