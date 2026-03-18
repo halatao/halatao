@@ -7,7 +7,7 @@ export const siteConfig = {
   legalName: "Bc. Ondřej Halata",
   displayName: "Ondřej Halata",
   siteUrl: "https://www.halatao.cz",
-  email: "ondrej.halata@gmail.com",
+  email: "ondrej@halatao.cz",
   phone: "+420602690920",
   phoneDisplay: "+420 602 690 920",
   linkedIn: "https://www.linkedin.com/in/halatao/",
