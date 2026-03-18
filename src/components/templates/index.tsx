@@ -275,7 +275,12 @@ function HomeTemplateBody({ page }: TemplateProps) {
   const fit = page.locale === "cs" ? ["Klientské portály a business aplikace", "Interní systémy pro operativu a reporting", "Rozpracované nebo problematické aplikace", "Procesy s ruční prací mezi více systémy"] : (page.sections[1]?.bullets ?? []);
   const process = page.locale === "cs" ? ["Rychlé zorientování v cíli a omezeních", "Návrh rozumné první etapy", "Průběžná realizace po menších krocích", "Důraz na provoz, ne jen na demo funkcí"] : (page.sections[2]?.bullets ?? []);
   const outcomes = page.locale === "cs" ? ["Stabilnější aplikace a jasnější technický směr", "Lepší kontrola nad rozsahem a prioritami", "Bezpečnější převzetí nebo rozvoj systému", "Software, který lze dál udržitelně rozvíjet"] : (page.sections[3]?.bullets ?? []);
+  const credibility = page.sections[4];
+  const engagement = page.sections[5];
   const ref = page.locale === "cs" ? refContent.cs : refContent.en;
+  const referenceSupportCopy = page.locale === "cs"
+    ? "Jde o typy spolupráce, které vyžadují víc než samotnou implementaci: architekturu, samostatnost, provozní realitu a schopnost navázat na existující tým nebo systém."
+    : "These are delivery situations that need more than implementation alone: architecture judgement, autonomy, operational awareness, and the ability to work on top of an existing team or system.";
 
   return (
     <>
@@ -286,7 +291,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
             <p>{page.hero.subtitle}</p>
             <div className="hero-actions">
               <Link className="button button-primary" href={page.cta.href}>
-                {page.locale === "cs" ? "Nezávazně probrat spolupráci" : "Discuss your project"}
+                {page.locale === "cs" ? "Popsat projekt" : "Discuss project"}
               </Link>
               {page.hero.secondaryCta ? (
                 <Link className="button button-secondary" href={page.hero.secondaryCta.href}>
@@ -302,9 +307,9 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-about-copy">
             <h2 className="section-kicker">{page.locale === "cs" ? "O mně" : "About"}</h2>
-            <h3 className="section-title">{page.locale === "cs" ? "Jsem full-stack vývojář se zkušeností s vývojem a provozem webových aplikací v reálném firemním prostředí." : "I am a full-stack developer with hands-on experience building and operating web applications in real business environments."}</h3>
+            <h3 className="section-title">{page.locale === "cs" ? "Dodávám webové aplikace a takeover projekty tam, kde software řeší důležitý firemní proces." : "I deliver custom web applications and takeover work where software supports an important business process."}</h3>
             <div className="section-copy">
-              {page.intro.slice(1).map((p) => (
+              {page.intro.map((p) => (
                 <p key={p}>{p}</p>
               ))}
             </div>
@@ -316,7 +321,9 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-section-intro">
             <h2 className="section-kicker">{page.locale === "cs" ? "S čím pomáhám" : "What I help with"}</h2>
-            <p className="section-lead">{page.sections[0]?.body[0]}</p>
+            {page.sections[0]?.body.map((paragraph) => (
+              <p className="section-lead" key={paragraph}>{paragraph}</p>
+            ))}
           </div>
           <div className="home-services-grid">
             {services.map((service, i) => (
@@ -329,34 +336,85 @@ function HomeTemplateBody({ page }: TemplateProps) {
         </div>
       </section>
 
+      {credibility ? (
+        <section className="home-proof-section">
+          <div className="shell">
+            <div className="home-about-copy">
+              <h2 className="section-kicker">{page.locale === "cs" ? "Jak spolupráce funguje v praxi" : "How the work usually works in practice"}</h2>
+              <h3 className="section-title">{credibility.title}</h3>
+              <div className="section-copy">
+                {credibility.body.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+              {credibility.bullets ? (
+                <ul className="home-proof-list">
+                  {credibility.bullets.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="home-dark-section">
         <div className="shell">
           <div className="home-dark-intro">
             <p className="section-kicker section-kicker-dark">{page.locale === "cs" ? "Typické projektové situace" : "Typical project situations"}</p>
             <p className="home-dark-title">{page.locale === "cs" ? "Největší smysl má spolupráce tam, kde aplikace řeší důležitý firemní proces a potřebuje technicky i provozně rozumné vedení." : "The strongest fit is work tied to important business processes where technical decisions have operational consequences."}</p>
+            <p className="home-dark-support">{page.sections[1]?.body[0]}</p>
           </div>
           <div className="home-dark-grid">
             <div className="home-dark-column">
               <h4 className="home-dark-heading"><span>1</span>{page.locale === "cs" ? "Kde to dává největší smysl" : "Where this fits best"}</h4>
+              <p className="home-dark-copy">{page.sections[1]?.body[1]}</p>
               <ul className="home-dark-list">{fit.map((item) => <li key={item}>{check("home-icon home-icon-blue")}<span>{item}</span></li>)}</ul>
             </div>
             <div className="home-dark-column">
               <h4 className="home-dark-heading"><span>2</span>{page.locale === "cs" ? "Jak spolupráce typicky vypadá" : "How the work usually runs"}</h4>
+              <p className="home-dark-copy">{page.sections[2]?.body[1]}</p>
               <ul className="home-dark-list">{process.map((item) => <li key={item}>{arrow("home-icon home-icon-slate")}<span>{item}</span></li>)}</ul>
             </div>
             <div className="home-dark-column">
               <h4 className="home-dark-heading"><span>3</span>{page.locale === "cs" ? "Co klient obvykle získá" : "What clients usually get"}</h4>
+              <p className="home-dark-copy">{page.sections[3]?.body[1]}</p>
               <ul className="home-dark-list">{outcomes.map((item) => <li key={item}>{check("home-icon home-icon-green")}<span>{item}</span></li>)}</ul>
             </div>
           </div>
         </div>
       </section>
 
+      {engagement ? (
+        <section className="home-proof-section home-proof-section-soft">
+          <div className="shell">
+            <div className="home-about-copy">
+              <h2 className="section-kicker">{page.locale === "cs" ? "Model spolupráce" : "Engagement model"}</h2>
+              <h3 className="section-title">{engagement.title}</h3>
+              <div className="section-copy">
+                {engagement.body.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+              {engagement.bullets ? (
+                <ul className="home-proof-list">
+                  {engagement.bullets.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="home-references-section" id="references">
         <div className="shell">
           <div className="home-section-intro">
             <h2 className="section-kicker">{page.locale === "cs" ? "Projekty a reference" : "Projects and references"}</h2>
             <p className="section-lead">{page.locale === "cs" ? "Původní web stál na konkrétních projektových zkušenostech. Tuhle vrstvu vracím i sem, bez nafukování a bez vymyšlených metrik." : "The original site leaned on real delivery experience. That layer belongs here too, without inflated claims or invented metrics."}</p>
+            <p className="section-lead">{referenceSupportCopy}</p>
           </div>
           <div className="home-references-grid">
             <div className="home-reference-card">
@@ -455,7 +513,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
           </div>
           <div className="contact-cta">
             <Link className="button button-dark" href={page.cta.href}>
-              {page.locale === "cs" ? "Nezávazně se ozvat" : "Discuss your project"}
+              {page.locale === "cs" ? "Kontakt" : "Contact"}
             </Link>
           </div>
         </div>

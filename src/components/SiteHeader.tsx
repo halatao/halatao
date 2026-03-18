@@ -44,7 +44,7 @@ export function SiteHeader({ locale, currentPage }: { locale: Locale; currentPag
             {locale === "cs" ? "EN" : "CS"}
           </Link>
           <Link className="nav-cta" href={locale === "cs" ? "/cs/popsat-projekt" : "/en/discuss-your-project"}>
-            {locale === "cs" ? "Nez\u00e1vazn\u011b se ozvat" : "Discuss your project"}
+            {locale === "cs" ? "Kontakt" : "Contact"}
           </Link>
         </nav>
       </div>

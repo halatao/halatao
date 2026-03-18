@@ -14,6 +14,12 @@ function home(locale: Locale, input: {
   fit: string[];
   process: string[];
   outcomes: string[];
+  proofTitle: string;
+  proofBody: string[];
+  proofBullets: string[];
+  engagementTitle: string;
+  engagementBody: string[];
+  engagementBullets: string[];
   faq: FAQItem[];
   related: string[];
 }): ContentPage {
@@ -35,14 +41,40 @@ function home(locale: Locale, input: {
       title: input.heroTitle,
       subtitle: input.heroSubtitle,
       primaryCta: { label: isCs ? "Popsat projekt" : "Discuss your project", href: buildInquiryHref(locale) },
-      secondaryCta: { label: isCs ? "Jak spolupráce probíhá" : "How delivery works", href: isCs ? "/cs/jak-spoluprace-probiha" : "/en/how-project-delivery-works" },
+      secondaryCta: { label: isCs ? "Jak to funguje" : "How it works", href: isCs ? "/cs/jak-spoluprace-probiha" : "/en/how-project-delivery-works" },
     },
     intro: input.intro,
     sections: [
-      { title: isCs ? "S čím pomohu" : "What I help with", body: [isCs ? "Nejde o portfolio pro nábor. Web je postavený pro firmy, které řeší konkrétní software projekt nebo potřebují spolehlivou externí kapacitu do existujícího týmu." : "This is not a job-seeking portfolio. The site is built for companies that need a custom software partner or senior contract support inside an existing delivery setup."], bullets: input.services },
-      { title: isCs ? "Pro jaké situace je spolupráce vhodná" : "What situations are a good fit", body: [isCs ? "Největší smysl má spolupráce tam, kde software řeší důležitý firemní proces a potřebujete přemýšlet nejen o kódu, ale i o provozu a dalších krocích." : "The best fit is software tied to an important business process where delivery quality, maintainability, and operational stability matter."], bullets: input.fit },
-      { title: isCs ? "Jak typicky probíhá spolupráce" : "How delivery usually works", body: [isCs ? "Na začátku se potřebujeme rychle zorientovat v procesu, rozsahu a rizicích. Další práce pak běží po menších krocích s viditelným postupem a jasnými prioritami." : "The first step is understanding the process, scope, and risk. From there the work moves in smaller, visible delivery steps with clear priorities."], bullets: input.process },
-      { title: isCs ? "Jaké výsledky klienti obvykle chtějí" : "What outcomes buyers usually want", body: [isCs ? "Cílem není jen dodat software. Důležité je, aby šel bezpečně provozovat a dál rozvíjet." : "The goal is not feature output alone. The result should be software that is safer to operate and easier to improve over time."], bullets: input.outcomes },
+      { title: isCs ? "S čím pomohu" : "What I help with", body: isCs ? [
+        "Web je postavený pro firmy, které řeší konkrétní software projekt, potřebují převzít existující systém nebo hledají seniorní delivery kapacitu do důležité fáze vývoje.",
+        "Nejde o obecné portfolio. Důležitý je fit mezi obchodní situací, typem aplikace, provozním rizikem a rozsahem práce, který dává smysl jako první krok.",
+      ] : [
+        "This site is built for companies that need to ship a meaningful software project, take over an existing system, or add senior delivery capability to an important phase of execution.",
+        "It is not a general portfolio. The real question is whether the project, operating risk, and first delivery step fit a practical collaboration model.",
+      ], bullets: input.services },
+      { title: isCs ? "Pro jaké situace je spolupráce vhodná" : "What situations are a good fit", body: isCs ? [
+        "Největší smysl má spolupráce tam, kde software řeší důležitý firemní proces a potřebujete přemýšlet nejen o kódu, ale i o provozu, změnovém riziku a dlouhodobém směru aplikace.",
+        "Typicky jde o klientské portály, interní workflow systémy, reportingové nástroje, rozpracované aplikace po dodavateli nebo procesy, kde se stále ručně přepisují data mezi více systémy.",
+      ] : [
+        "The strongest fit is software tied to an important business process where delivery quality, operating safety, and maintainability matter as much as shipping features.",
+        "Typical examples include client portals, internal workflow systems, reporting tools, inherited applications after a supplier change, and manual cross-system processes that should be automated.",
+      ], bullets: input.fit },
+      { title: isCs ? "Jak typicky probíhá spolupráce" : "How delivery usually works", body: isCs ? [
+        "Na začátku se potřebujeme rychle zorientovat v cíli, rozsahu, omezeních a rizicích. V takeover situaci to často znamená audit, srovnání reality systému a návrh první bezpečné etapy.",
+        "Další práce pak běží po menších krocích s viditelným postupem, průběžným rozhodováním a důrazem na to, aby software šel opravdu nasadit, provozovat a dál rozvíjet.",
+      ] : [
+        "The first step is getting clear on the target outcome, constraints, operating risk, and the current state of the system. In takeover work that often means a short audit and a safer first phase.",
+        "From there the work moves in smaller visible steps with regular decision points and a focus on software that can actually be deployed, operated, and improved over time.",
+      ], bullets: input.process },
+      { title: isCs ? "Jaké výsledky klienti obvykle chtějí" : "What outcomes buyers usually want", body: isCs ? [
+        "Cílem není jen dodat software. Klienti obvykle potřebují stabilnější systém, jasnější technický směr, lepší kontrolu nad prioritami a menší riziko při změnách nebo převzetí aplikace.",
+        "To se týká jak nového vývoje, tak rozvoje existujících systémů, automatizací a kontraktní spolupráce v týmu, kde je potřeba rychle posílit ownership a delivery kvalitu.",
+      ] : [
+        "The goal is not feature output alone. Buyers usually want a more stable system, clearer technical direction, better control over priorities, and lower delivery risk during change or takeover.",
+        "That applies to greenfield work, inherited systems, workflow automation, and contract support inside a team that needs stronger ownership and delivery judgement.",
+      ], bullets: input.outcomes },
+      { title: input.proofTitle, body: input.proofBody, bullets: input.proofBullets },
+      { title: input.engagementTitle, body: input.engagementBody, bullets: input.engagementBullets },
     ],
     faq: input.faq,
     related: input.related,
@@ -115,20 +147,46 @@ function simplePage(locale: Locale, input: {
 
 export const corePages: ContentPage[] = [
   home("cs", {
-    title: "Ondřej Halata | Webové aplikace na míru a kontraktní vývoj pro firmy",
-    h1: "Ahoj, jsem Ondřej",
-    description: "Ondřej Halata pomáhá firmám s vývojem a dlouhodobým provozem webových aplikací, převzetím existujících systémů, automatizací a kontraktní spoluprací.",
-    heroTitle: "Ahoj, jsem Ondřej",
-    heroSubtitle: "Pomáhám firmám vyvíjet a dlouhodobě provozovat webové aplikace, které dávají smysl technicky i byznysově.",
+    title: "Webové aplikace na míru a takeover | Bc. Ondřej Halata",
+    h1: "Bc. Ondřej Halata: webové aplikace na míru, takeover a automatizace pro firmy",
+    description: "Webové aplikace na míru, takeover existujících systémů, workflow automatizace a seniorní delivery podpora pro firmy.",
+    heroTitle: "Vyvíjím, přebírám a posouvám webové aplikace dál",
+    heroSubtitle: "Zakázkové webové aplikace, převzetí existujících systémů, automatizace procesů a seniorní delivery podpora pro firmy, které potřebují posun.",
     intro: [
-      "Jsem full-stack vývojář se zkušeností s vývojem a provozem webových aplikací v reálném firemním prostředí.",
-      "Neřeším jen funkční kód, ale i architekturu, dlouhodobou udržitelnost a provozní realitu. Část projektů stavím od nuly, část přebírám a rozvíjím v již běžících systémech.",
-      "Pracuji samostatně i jako součást vývojových týmů. Největší smysl to má tam, kde aplikace řeší důležitý proces a potřebuje stabilní technické vedení.",
+      "Jsem full-stack vývojář se zkušeností s návrhem, vývojem a provozem webových aplikací v reálném firemním prostředí.",
+      "Část projektů stavím od nuly, část přebírám po předchozím dodavateli nebo interním týmu. V obou případech je důležité rychle rozlišit, co je skutečný obchodní cíl, kde je technický dluh a co je potřeba vyřešit nejdřív.",
+      "Neřeším jen funkční kód. Důležitá je i architektura, provozní realita, bezpečnost změn, release proces a to, jestli aplikace zůstane udržitelná i po další etapě.",
+      "Největší smysl to má tam, kde aplikace nebo interní systém řeší důležitý firemní proces, má dopad na obchod nebo operativu a potřebuje seniorní technické vedení místo čistě kapacitního vývoje.",
+      "Pracuji samostatně i jako součást existujících týmů. Mohu dodat samostatný workstream, takeover fázi, audit, návrh první etapy i průběžnou delivery podporu v situaci, kdy je potřeba rychle posílit ownership.",
     ],
     services: ["Webové aplikace na míru", "Převzetí a rozvoj existující aplikace", "Integrace systémů a automatizace", "Nasazení, provoz a kontraktní spolupráce"],
     fit: ["klientské portály a business aplikace", "interní systémy pro operativu a reporting", "rozpracované nebo problematické aplikace", "procesy s ruční prací mezi více systémy"],
     process: ["rychlé zorientování v cíli a omezeních", "návrh rozumné první etapy", "průběžná realizace po menších krocích", "důraz na provoz, ne jen na demo funkcí"],
     outcomes: ["stabilnější aplikace a jasnější technický směr", "lepší kontrola nad rozsahem a prioritami", "bezpečnější převzetí nebo rozvoj systému", "software, který lze dál udržitelně rozvíjet"],
+    proofTitle: "Co obvykle potřebuji rychle srovnat na začátku projektu nebo takeoveru",
+    proofBody: [
+      "Když se navazuje na existující systém, první hodnota často nevzniká novou funkcí, ale srovnáním reality. Je potřeba pochopit, jak aplikace funguje v provozu, kde vzniká riziko a co je bezpečné měnit jako první.",
+      "U nového projektu je zase důležité odlišit skutečné MVP od přání bez priorit. To pomáhá nastavit první etapu tak, aby rychle přinesla užitek a nevytvářela zbytečný scope dluh hned od začátku.",
+    ],
+    proofBullets: [
+      "kritická workflow a provozní závislosti",
+      "stav codebase, release procesu a přístupů",
+      "místa, kde vzniká ruční práce nebo zbytečné přepisy dat",
+      "reálný cíl první etapy a co zatím odložit",
+      "role mezi klientem, interním týmem a externí delivery kapacitou",
+    ],
+    engagementTitle: "Jak obvykle vypadá spolupráce po prvním kontaktu",
+    engagementBody: [
+      "Pokud dává spolupráce smysl, další krok nebývá univerzální. Někdy je správné začít krátkým technickým a provozním auditem, jindy se vyplatí navrhnout první release pro nový produkt nebo interní workflow. Cílem je najít první etapu, která sníží riziko a zároveň přinese reálný posun.",
+      "U stávajících systémů často řešíme takeover, stabilizaci, orientaci v codebase, release procesu, přístupech a klíčových workflow. U nového projektu bývá důležitější scope první verze, role uživatelů, datový model, integrace a to, co se má ověřit dřív, než se rozběhne větší implementace.",
+      "Spolupráce může pokračovat jako samostatný stream, průběžná dodávka po menších etapách nebo seniorní kontraktní zapojení do existujícího týmu. Důležitější než forma je, aby odpovědnost, priority a další krok byly od začátku srozumitelné.",
+    ],
+    engagementBullets: [
+      "krátké úvodní srovnání cíle, omezení a rizik",
+      "návrh první etapy s jasným obchodním smyslem",
+      "průběžná realizace s viditelným postupem",
+      "důraz na provoz, maintainability a bezpečné změny",
+    ],
     faq: [
       { question: "Děláte i menší navazující zásahy, nebo jen velké projekty?", answer: "Obojí. Někdy dává největší smysl převzít a stabilizovat konkrétní část systému, jindy vzniká nový produkt nebo interní nástroj od nuly." },
       { question: "Je spolupráce vhodná i pro firmy, které už mají vlastní tým?", answer: "Ano. Mohu dodat samostatný workstream nebo fungovat jako seniorní kontraktor v existujícím týmu." },
@@ -144,20 +202,46 @@ export const corePages: ContentPage[] = [
     ],
   }),
   home("en", {
-    title: "Ondřej Halata | Custom web application delivery and contract development",
-    h1: "Hi, I'm Ondřej",
-    description: "Ondřej Halata helps companies build and operate web applications, take over existing systems, automate workflows, and strengthen delivery with senior contract support.",
-    heroTitle: "Hi, I'm Ondřej",
-    heroSubtitle: "I help companies build and run web applications that make sense both technically and commercially.",
+    title: "Custom web apps and takeover | Bc. Ondřej Halata",
+    h1: "Bc. Ondřej Halata: custom web apps, takeover, and automation for companies",
+    description: "Custom web applications, inherited system takeover, workflow automation, and senior delivery support for companies.",
+    heroTitle: "Build, fix, and move web apps forward",
+    heroSubtitle: "Custom web applications, inherited system takeover, workflow automation, and senior delivery support for companies that need momentum.",
     intro: [
-      "I am a full-stack developer with hands-on experience building and operating web applications in real business environments.",
-      "The work is not only about shipping code. It is also about architecture, maintainability, deployment, and the reality of keeping an application useful over time.",
-      "I work independently and as part of existing delivery teams, especially where a business-critical application needs safer technical ownership.",
+      "I am a full-stack developer with hands-on experience designing, building, and operating web applications in real business environments.",
+      "Some projects are greenfield builds, while others start with inherited software after a supplier handover, internal team change, or a product phase that needs stronger technical direction.",
+      "The work is not only about shipping code. It also includes architecture, release safety, maintainability, operating reality, and making sure the application remains useful after the next phase of delivery.",
+      "The strongest fit is software tied to an important business process where the buyer needs practical senior judgement rather than anonymous capacity alone.",
+      "I work independently and inside existing teams. That can mean a standalone workstream, a takeover phase, an audit, a realistic first release plan, or direct delivery support where ownership needs to improve quickly.",
     ],
     services: ["Custom web applications", "Existing app takeover", "Integrations and workflow automations", "Deployment, operations, and contract support"],
     fit: ["client portals and business applications", "internal tools for operations and reporting", "unfinished or inherited apps", "manual workflows split across several systems"],
     process: ["fast orientation in goals and constraints", "a realistic first delivery phase", "incremental implementation", "focus on operations, not only feature demos"],
     outcomes: ["more stable applications and clearer technical direction", "better control over scope and priorities", "safer takeover and improvement work", "software that can evolve without unnecessary friction"],
+    proofTitle: "What I usually need to clarify early in a new project or takeover",
+    proofBody: [
+      "In takeover work, the first value often comes from reducing uncertainty rather than building a new feature immediately. The team needs to understand how the system behaves in production, where delivery risk sits, and what can be changed safely first.",
+      "In greenfield work, the equivalent challenge is separating a practical first release from a large wish list. That helps define a first phase with business value instead of creating scope debt from the start.",
+    ],
+    proofBullets: [
+      "critical workflows and operating dependencies",
+      "state of the codebase, release process, and access setup",
+      "manual work and unnecessary data copying between systems",
+      "the real objective of the first phase and what should wait",
+      "clear ownership between the buyer, internal team, and external delivery support",
+    ],
+    engagementTitle: "What working together usually looks like after the first conversation",
+    engagementBody: [
+      "If the project is a strong fit, the next step is not always the same. Sometimes the right move is a short technical and operating audit, while in other cases it makes more sense to define the first release for a new product or internal workflow. The point is to choose a first phase that lowers risk and creates real movement.",
+      "In existing systems that often means takeover, stabilisation, understanding the codebase, release flow, access setup, and the workflows that matter most to operations. In greenfield projects the bigger questions are first-release scope, user roles, data structure, integrations, and what needs to be validated before larger implementation starts.",
+      "The work can continue as an owned stream, phased delivery in smaller increments, or senior contract support inside an existing team. The format matters less than making responsibility, priorities, and the next step clear from the start.",
+    ],
+    engagementBullets: [
+      "a short orientation in goals, constraints, and delivery risk",
+      "a first phase with clear business value",
+      "incremental implementation with visible checkpoints",
+      "focus on operations, maintainability, and safer change",
+    ],
     faq: [
       { question: "Do you only take on greenfield builds?", answer: "No. Existing app takeover and structured improvement are a core part of the offer." },
       { question: "Can you join an existing team rather than run the whole project?", answer: "Yes. I can work as a senior contract developer inside an existing team or own a defined stream independently." },
@@ -415,6 +499,3 @@ export const corePages: ContentPage[] = [
     indexable: false,
   }),
 ];
-
-
-

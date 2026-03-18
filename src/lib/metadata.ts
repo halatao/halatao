@@ -7,17 +7,30 @@ import { getAlternatePages } from "@/content/registry";
 import { absoluteUrl, buildPagePath } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
+function metadataIcons() {
+  return {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/apple-icon" }],
+  };
+}
+
 export function buildMetadataForPage(page: ContentPage): Metadata {
   const canonicalPath = buildPagePath(page);
   const shareImage = page.seo.image ?? siteConfig.ogImage;
-  const alternates = Object.fromEntries(
+  const alternatePages = Object.fromEntries(
     getAlternatePages(page).map((alternate) => [alternate.locale, absoluteUrl(buildPagePath(alternate))]),
   );
+  const alternates = {
+    [page.locale]: absoluteUrl(canonicalPath),
+    ...alternatePages,
+  };
 
   return {
     metadataBase: new URL(siteConfig.siteUrl),
     title: page.seo.title,
     description: page.seo.description,
+    icons: metadataIcons(),
     alternates: {
       canonical: absoluteUrl(canonicalPath),
       languages: {
@@ -32,12 +45,15 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
       title: page.seo.title,
       description: page.seo.description,
       url: absoluteUrl(canonicalPath),
-      siteName: siteConfig.name,
+      siteName: siteConfig.shortDisplayName,
       images: [
         {
           url: shareImage,
           width: 1200,
           height: 630,
+          alt: page.locale === "cs"
+            ? siteConfig.ogImageAlt
+            : "Bc. Ondřej Halata - custom web apps, takeover, and automations for companies",
         },
       ],
     },
@@ -45,6 +61,7 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
       card: "summary_large_image",
       title: page.seo.title,
       description: page.seo.description,
+      site: siteConfig.shortDisplayName,
       images: [shareImage],
     },
   };
@@ -53,31 +70,40 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
 export function buildRootMetadata(): Metadata {
   return {
     metadataBase: new URL(siteConfig.siteUrl),
-    title: `${siteConfig.name} | Custom web applications, takeover, internal tools, and automations`,
+    title: "Custom web apps and takeover | Bc. Ondřej Halata",
     description:
-      `Bilingual landing page for ${siteConfig.name}. Choose Czech or English and explore custom web application work, existing app takeover, internal tools, and automations.`,
+      "Custom web applications, system takeover, workflow automations, and senior delivery support for companies in Czech and English.",
+    icons: metadataIcons(),
     alternates: {
       canonical: absoluteUrl("/"),
       languages: {
+        "x-default": absoluteUrl("/"),
         cs: absoluteUrl("/cs"),
         en: absoluteUrl("/en"),
-        "x-default": absoluteUrl("/"),
       },
     },
     openGraph: {
       type: "website",
       url: absoluteUrl("/"),
-      siteName: siteConfig.name,
-      title: siteConfig.name,
+      siteName: siteConfig.shortDisplayName,
+      title: "Custom web apps and takeover | Bc. Ondřej Halata",
       description:
-        "Independent software partner for custom web applications, app takeover, internal tools, automations, and contract support.",
-      images: [siteConfig.ogImage],
+        "Custom web applications, system takeover, workflow automations, and senior delivery support for companies.",
+      images: [
+        {
+          url: siteConfig.ogImage,
+          width: 1200,
+          height: 630,
+          alt: siteConfig.ogImageAlt,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
-      title: siteConfig.name,
+      title: "Custom web apps and takeover | Bc. Ondřej Halata",
       description:
-        "Independent software partner for custom web applications, app takeover, internal tools, automations, and contract support.",
+        "Custom web applications, system takeover, workflow automations, and senior delivery support for companies.",
+      site: siteConfig.shortDisplayName,
       images: [siteConfig.ogImage],
     },
   };
