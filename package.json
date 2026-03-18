@@ -1,0 +1,35 @@
+{
+  "name": "halatao",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "validate:content": "tsx scripts/validate-content.ts"
+  },
+  "keywords": [
+    "nextjs",
+    "static-site",
+    "bilingual"
+  ],
+  "author": "Ondrej Halata",
+  "license": "UNLICENSED",
+  "description": "Commercial bilingual Next.js website for Halatao.cz",
+  "dependencies": {
+    "next": "^16.1.7",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.1.7",
+    "tsx": "^4.21.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
