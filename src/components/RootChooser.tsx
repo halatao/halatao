@@ -1,8 +1,38 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 import { siteConfig } from "@/lib/site";
 
+function detectPreferredLocale() {
+  if (typeof navigator === "undefined") {
+    return "cs";
+  }
+
+  const candidates = [
+    navigator.language,
+    ...(Array.isArray(navigator.languages) ? navigator.languages : []),
+  ]
+    .filter(Boolean)
+    .map((value) => value.toLowerCase());
+
+  if (candidates.some((value) => value.startsWith("cs") || value.startsWith("sk"))) {
+    return "cs";
+  }
+
+  return "en";
+}
+
 export function RootChooser() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const targetLocale = detectPreferredLocale();
+    router.replace(targetLocale === "cs" ? "/cs" : "/en");
+  }, [router]);
+
   return (
     <main className="shell chooser-shell">
       <section className="hero-panel hero-home chooser-panel">
@@ -15,8 +45,8 @@ export function RootChooser() {
         <div className="content-card chooser-copy">
           <h2>Choose the language that fits your buying context</h2>
           <p>
-            Czech is the broader business entry point. English is narrower and aimed at contract development, app takeover,
-            and project delivery support.
+            Czech visitors are redirected to the Czech version by default. Everyone else is sent to English. If that guess is
+            wrong, choose manually below.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/cs">
