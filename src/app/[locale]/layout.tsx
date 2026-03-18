@@ -30,7 +30,11 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html className={`${sans.variable} ${serif.variable}`} lang={definition.code}>
+    <html
+      className={`${sans.variable} ${serif.variable}`}
+      data-scroll-behavior="smooth"
+      lang={definition.code}
+    >
       <body>
         <AnalyticsScripts />
         <AnalyticsNoScript />

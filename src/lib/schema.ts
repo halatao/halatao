@@ -4,6 +4,43 @@ import type { ContentPage } from "@/content/types";
 import { absoluteUrl, buildPagePath, getBreadcrumbItems } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
+const countrySchema = {
+  "@type": "Country",
+  name: siteConfig.serviceAreaCountry,
+};
+
+function serviceAreaSchemas() {
+  const regionSchemas = siteConfig.serviceAreaRegions.map((region) => ({
+    "@type": "AdministrativeArea",
+    name: region,
+    containedInPlace: countrySchema,
+  }));
+
+  const citySchemas = siteConfig.serviceAreaCities.map((city) => ({
+    "@type": "City",
+    name: city,
+    containedInPlace: countrySchema,
+  }));
+
+  return [countrySchema, ...regionSchemas, ...citySchemas];
+}
+
+function providerSchema() {
+  return {
+    name: siteConfig.name,
+    founder: {
+      "@type": "Person",
+      name: siteConfig.legalName,
+    },
+    email: siteConfig.email,
+    telephone: siteConfig.phone,
+    url: siteConfig.siteUrl,
+    sameAs: [siteConfig.linkedIn, siteConfig.github],
+    availableLanguage: siteConfig.availableLanguages,
+    areaServed: serviceAreaSchemas(),
+  };
+}
+
 function breadcrumbSchema(page: ContentPage) {
   const breadcrumbItems = getBreadcrumbItems(page);
   const itemListElement = breadcrumbItems.map((item, index) => ({
@@ -42,12 +79,9 @@ function serviceSchema(page: ContentPage) {
     serviceType: page.h1,
     name: page.h1,
     description: page.description,
-    provider: {
-      "@type": "ProfessionalService",
-      name: siteConfig.name,
-      url: siteConfig.siteUrl,
-    },
-    areaServed: ["CZ", "EU", "Remote"],
+    provider: providerSchema(),
+    availableLanguage: siteConfig.availableLanguages,
+    areaServed: serviceAreaSchemas(),
     url: absoluteUrl(buildPagePath(page)),
   };
 }
@@ -64,16 +98,7 @@ export function getGlobalSchemas() {
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      name: siteConfig.name,
-      founder: {
-        "@type": "Person",
-        name: siteConfig.legalName,
-      },
-      email: siteConfig.email,
-      telephone: siteConfig.phone,
-      url: siteConfig.siteUrl,
-      sameAs: [siteConfig.linkedIn, siteConfig.github],
-      areaServed: ["CZ", "EU", "Remote"],
+      ...providerSchema(),
     },
   ];
 }
@@ -101,6 +126,7 @@ export function getPageSchemas(page: ContentPage) {
       url: siteConfig.siteUrl,
       email: `mailto:${siteConfig.email}`,
       telephone: siteConfig.phone,
+      knowsLanguage: siteConfig.availableLanguages,
       sameAs: [siteConfig.linkedIn, siteConfig.github],
     });
   }

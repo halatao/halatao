@@ -4,7 +4,6 @@ import Link from "next/link";
 import { AutomationAuditLanding } from "@/components/AutomationAuditLanding";
 import { AutomationThankYou } from "@/components/AutomationThankYou";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { InquiryForm } from "@/components/InquiryForm";
 import { getRelatedPages, getSectionChildren } from "@/content/registry";
 import type { ContentPage } from "@/content/types";
 import { buildPagePath } from "@/lib/routing";
@@ -68,7 +67,10 @@ const refContent = {
   },
 };
 
-const BaseStack = ({ children }: { children: ReactNode }) => <div className="page-stack">{children}</div>;
+const BaseStack = ({ children, className }: { children: ReactNode; className?: string }) => {
+  const stackClassName = className ? `page-stack ${className}` : "page-stack";
+  return <div className={stackClassName}>{children}</div>;
+};
 
 const icon = (d: string, c: string) => (
   <svg className={c} fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -81,9 +83,17 @@ const arrow = (c: string) => icon("M9 5l7 7-7 7", c);
 const mail = (c: string) => icon("M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z", c);
 const phone = (c: string) => icon("M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z", c);
 
+function resolvePrimaryActionHref(page: ContentPage) {
+  if (page.pageType === "inquiry" && page.translationKey === "inquiry") {
+    return `mailto:${siteConfig.email}`;
+  }
+
+  return page.cta.href;
+}
+
 function renderSections(page: ContentPage) {
   return page.sections.map((section) => (
-    <article className="content-card" key={section.title}>
+    <article className="content-card section-card" key={section.title}>
       <h2>{section.title}</h2>
       {section.body.map((p) => (
         <p key={p}>{p}</p>
@@ -100,6 +110,10 @@ function renderSections(page: ContentPage) {
 }
 
 function PageLead({ page, tone = "default" }: TemplateProps & { tone?: string }) {
+  const primaryHref = page.pageType === "inquiry"
+    ? resolvePrimaryActionHref(page)
+    : page.hero.primaryCta.href;
+
   return (
     <section className={`hero-panel hero-${tone}`}>
       <div className="hero-inner">
@@ -108,7 +122,7 @@ function PageLead({ page, tone = "default" }: TemplateProps & { tone?: string })
         <h1>{page.hero.title}</h1>
         <p className="hero-copy">{page.hero.subtitle}</p>
         <div className="hero-actions">
-          <Link className="button button-primary" href={page.hero.primaryCta.href}>
+          <Link className="button button-primary" href={primaryHref}>
             {page.hero.primaryCta.label}
           </Link>
           {page.hero.secondaryCta ? (
@@ -124,34 +138,42 @@ function PageLead({ page, tone = "default" }: TemplateProps & { tone?: string })
 
 function Intro({ page }: TemplateProps) {
   return (
-    <section className="content-card intro-card">
-      {page.note ? <p className="content-note">{page.note}</p> : null}
-      {page.intro.map((p) => (
-        <p key={p}>{p}</p>
-      ))}
+    <section className="band-section band-section-soft">
+      <div className="band-shell">
+        <div className="content-card intro-card">
+          {page.note ? <p className="content-note">{page.note}</p> : null}
+          {page.intro.map((p) => (
+            <p key={p}>{p}</p>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
 
 function FitBlock({ page }: TemplateProps) {
   return (
-    <section className="fit-grid">
-      <article className="content-card fit-card fit-good">
-        <h2>{page.locale === "cs" ? "Pro koho je to vhodné" : "Who this is for"}</h2>
-        <ul className="bullet-list">
-          {page.fit.for.map((i) => (
-            <li key={i}>{i}</li>
-          ))}
-        </ul>
-      </article>
-      <article className="content-card fit-card fit-bad">
-        <h2>{page.locale === "cs" ? "Kdy to vhodné není" : "Who it is not for"}</h2>
-        <ul className="bullet-list">
-          {page.fit.notFor.map((i) => (
-            <li key={i}>{i}</li>
-          ))}
-        </ul>
-      </article>
+    <section className="band-section">
+      <div className="band-shell">
+        <div className="fit-grid">
+          <article className="content-card fit-card fit-good">
+            <h2>{page.locale === "cs" ? "Pro koho je to vhodné" : "Who this is for"}</h2>
+            <ul className="bullet-list">
+              {page.fit.for.map((i) => (
+                <li key={i}>{i}</li>
+              ))}
+            </ul>
+          </article>
+          <article className="content-card fit-card fit-bad">
+            <h2>{page.locale === "cs" ? "Kdy to vhodné není" : "Who it is not for"}</h2>
+            <ul className="bullet-list">
+              {page.fit.notFor.map((i) => (
+                <li key={i}>{i}</li>
+              ))}
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
   );
 }
@@ -159,31 +181,63 @@ function FitBlock({ page }: TemplateProps) {
 function FAQBlock({ page }: TemplateProps) {
   if (!page.faq.length) return null;
   return (
-    <section className="content-card">
-      <h2>FAQ</h2>
-      <div className="faq-list">
-        {page.faq.map((item) => (
-          <details key={item.question}>
-            <summary>{item.question}</summary>
-            <p>{item.answer}</p>
-          </details>
-        ))}
+    <section className="band-section band-section-soft">
+      <div className="band-shell">
+        <div className="content-card faq-section">
+          <h2>FAQ</h2>
+          <div className="faq-list">
+            {page.faq.map((item) => (
+              <details key={item.question}>
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function InquiryContactBlock({ page }: TemplateProps) {
+  return (
+    <section className="band-section">
+      <div className="band-shell">
+        <div className="content-card inquiry-contact-card">
+          <h2>{page.locale === "cs" ? "Kontakt" : "Contact"}</h2>
+          <p>
+            {page.locale === "cs"
+              ? "Nejrychlejší je napsat stručný kontext e-mailem nebo rovnou zavolat."
+              : "The fastest option is to send a concise project summary by email or call directly."}
+          </p>
+          <div className="contact-links">
+            <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
+            <span className="contact-divider" aria-hidden="true">|</span>
+            <a href={`tel:${siteConfig.phone}`}>{phone("contact-icon")}<span>{siteConfig.phoneDisplay}</span></a>
+          </div>
+        </div>
       </div>
     </section>
   );
 }
 
 function CTA({ page }: TemplateProps) {
+  const primaryHref = resolvePrimaryActionHref(page);
+
   return (
-    <section className="cta-panel">
-      <div>
-        <p className="eyebrow">{page.locale === "cs" ? "Další krok" : "Next step"}</p>
-        <h2>{page.locale === "cs" ? "Máte podobnou situaci?" : "Have a similar situation?"}</h2>
-        <p>{page.cta.note}</p>
+    <section className="band-section">
+      <div className="band-shell">
+        <div className="cta-panel">
+          <div>
+            <p className="eyebrow">{page.locale === "cs" ? "Další krok" : "Next step"}</p>
+            <h2>{page.locale === "cs" ? "Máte podobnou situaci?" : "Have a similar situation?"}</h2>
+            <p>{page.cta.note}</p>
+          </div>
+          <Link className="button button-primary" href={primaryHref}>
+            {page.cta.label}
+          </Link>
+        </div>
       </div>
-      <Link className="button button-primary" href={page.cta.href}>
-        {page.cta.label}
-      </Link>
     </section>
   );
 }
@@ -192,15 +246,19 @@ function RelatedLinks({ page }: TemplateProps) {
   if (page.pageType === "hub") return null;
   const heading = page.locale === "cs" ? "Související stránky" : "Related pages";
   return (
-    <section className="content-card">
-      <h2>{heading}</h2>
-      <div className="link-grid">
-        {getRelatedPages(page).map((r) => (
-          <Link className="link-card" href={buildPagePath(r)} key={r.id}>
-            <strong>{r.h1}</strong>
-            <span>{r.description}</span>
-          </Link>
-        ))}
+    <section className="band-section">
+      <div className="band-shell">
+        <div className="content-card related-section">
+          <h2>{heading}</h2>
+          <div className="link-grid">
+            {getRelatedPages(page).map((r) => (
+              <Link className="link-card" href={buildPagePath(r)} key={r.id}>
+                <strong>{r.h1}</strong>
+                <span>{r.description}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -397,11 +455,17 @@ function HomeTemplateBody({ page }: TemplateProps) {
 
 function GenericTemplate({ page, tone = "default" }: TemplateProps & { tone?: string }) {
   return (
-    <BaseStack>
+    <BaseStack className={`page-stack-generic page-type-${page.pageType}`}>
       <PageLead page={page} tone={tone} />
       <Intro page={page} />
-      {page.pageType !== "home" ? <section className="content-grid">{renderSections(page)}</section> : null}
-      {page.pageType === "inquiry" ? <InquiryForm locale={page.locale} /> : null}
+      {page.pageType !== "home" ? (
+        <section className="band-section">
+          <div className="band-shell">
+            <div className="content-grid">{renderSections(page)}</div>
+          </div>
+        </section>
+      ) : null}
+      {page.pageType === "inquiry" ? <InquiryContactBlock page={page} /> : null}
       {page.pageType !== "inquiry" ? <FitBlock page={page} /> : null}
       <FAQBlock page={page} />
       <RelatedLinks page={page} />
@@ -417,13 +481,21 @@ export function HomeTemplate({ page }: TemplateProps) {
 export function HubTemplate({ page }: TemplateProps) {
   const children = getSectionChildren(page);
   return (
-    <BaseStack>
+    <BaseStack className="page-stack-generic page-type-hub">
       <PageLead page={page} tone="hub" />
       <Intro page={page} />
-      <section className="content-grid">{renderSections(page)}</section>
-      <section className="content-card">
-        <h2>{page.locale === "cs" ? "Všechny důležité stránky v této sekci" : "All important pages in this section"}</h2>
-        <div className="link-grid">{children.map((c) => <Link className="link-card" href={buildPagePath(c)} key={c.id}><strong>{c.h1}</strong><span>{c.description}</span></Link>)}</div>
+      <section className="band-section">
+        <div className="band-shell">
+          <div className="content-grid">{renderSections(page)}</div>
+        </div>
+      </section>
+      <section className="band-section">
+        <div className="band-shell">
+          <div className="content-card related-section">
+            <h2>{page.locale === "cs" ? "Všechny důležité stránky v této sekci" : "All important pages in this section"}</h2>
+            <div className="link-grid">{children.map((c) => <Link className="link-card" href={buildPagePath(c)} key={c.id}><strong>{c.h1}</strong><span>{c.description}</span></Link>)}</div>
+          </div>
+        </div>
       </section>
       <FAQBlock page={page} />
       <CTA page={page} />
@@ -449,23 +521,25 @@ export function ProcessTemplate({ page }: TemplateProps) { return <GenericTempla
 export function InquiryTemplate({ page }: TemplateProps) {
   if (page.translationKey === "thank-you" && page.locale === "cs") return <AutomationThankYou />;
   return (
-    <BaseStack>
+    <BaseStack className="page-stack-generic page-type-inquiry page-contact-layout">
       <PageLead page={page} tone="inquiry" />
       <Intro page={page} />
-      <section className="content-grid content-grid-emphasis">
-        <article className="content-card">
-          <h2>{page.locale === "cs" ? "Kdy je projekt silný fit" : "When the project is a strong fit"}</h2>
-          <ul className="bullet-list">{page.fit.for.map((i) => <li key={i}>{i}</li>)}</ul>
-        </article>
-        <article className="content-card">
-          <h2>{page.locale === "cs" ? "Kdy je lepší říct ne" : "When it is better to say no"}</h2>
-          <ul className="bullet-list">{page.fit.notFor.map((i) => <li key={i}>{i}</li>)}</ul>
-        </article>
+      <section className="band-section">
+        <div className="band-shell">
+          <div className="content-grid content-grid-emphasis">
+            <article className="content-card">
+              <h2>{page.locale === "cs" ? "Kdy je projekt silný fit" : "When the project is a strong fit"}</h2>
+              <ul className="bullet-list">{page.fit.for.map((i) => <li key={i}>{i}</li>)}</ul>
+            </article>
+            <article className="content-card">
+              <h2>{page.locale === "cs" ? "Kdy je lepší říct ne" : "When it is better to say no"}</h2>
+              <ul className="bullet-list">{page.fit.notFor.map((i) => <li key={i}>{i}</li>)}</ul>
+            </article>
+          </div>
+        </div>
       </section>
-      {page.translationKey === "inquiry" ? <InquiryForm locale={page.locale} /> : null}
+      {page.translationKey === "inquiry" ? <InquiryContactBlock page={page} /> : null}
       <FAQBlock page={page} />
-      <RelatedLinks page={page} />
-      <CTA page={page} />
     </BaseStack>
   );
 }

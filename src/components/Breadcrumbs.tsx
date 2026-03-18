@@ -16,7 +16,7 @@ export function Breadcrumbs({ page }: { page: ContentPage }) {
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
           return (
-            <li key={item.href}>
+            <li key={`${item.href}-${index}`}>
               {isLast ? (
                 <span aria-current="page">{item.label}</span>
               ) : (

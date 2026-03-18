@@ -77,7 +77,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   }
 
   return (
-    <section className="content-card form-card">
+    <section className="content-card form-card" id="project-inquiry-form">
       <div className="form-copy">
         <h2>{labels.heading}</h2>
         <p>{labels.note}</p>

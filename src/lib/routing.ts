@@ -61,6 +61,10 @@ export function getBreadcrumbItems(page: ContentPage): LinkRecord[] {
     return [home, { label: page.h1, href: buildPagePath(page) }];
   }
 
+  if (page.segments.length === 1) {
+    return [home, { label: page.h1, href: buildPagePath(page) }];
+  }
+
   const sectionSegment = page.segments[0];
   const sectionLabel = getSectionLabel(page.locale, sectionSegment);
 
