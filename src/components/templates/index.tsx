@@ -82,6 +82,7 @@ const check = (c: string) => icon("M5 13l4 4L19 7", c);
 const arrow = (c: string) => icon("M9 5l7 7-7 7", c);
 const mail = (c: string) => icon("M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z", c);
 const phone = (c: string) => icon("M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z", c);
+const calendar = (c: string) => icon("M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v11a2 2 0 002 2z", c);
 
 function resolvePrimaryActionHref(page: ContentPage) {
   if (page.pageType === "inquiry" && page.translationKey === "inquiry") {
@@ -214,6 +215,11 @@ function InquiryContactBlock({ page }: TemplateProps) {
             <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
             <span className="contact-divider" aria-hidden="true">|</span>
             <a href={`tel:${siteConfig.phone}`}>{phone("contact-icon")}<span>{siteConfig.phoneDisplay}</span></a>
+            <span className="contact-divider" aria-hidden="true">|</span>
+            <a href={siteConfig.calendly} target="_blank" rel="noreferrer">
+              {calendar("contact-icon")}
+              <span>{page.locale === "cs" ? "Naplánovat schůzku" : "Book a call"}</span>
+            </a>
           </div>
         </div>
       </div>
@@ -441,6 +447,11 @@ function HomeTemplateBody({ page }: TemplateProps) {
             <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
             <span className="contact-divider" aria-hidden="true">|</span>
             <a href={`tel:${siteConfig.phone}`}>{phone("contact-icon")}<span>{siteConfig.phoneDisplay}</span></a>
+            <span className="contact-divider" aria-hidden="true">|</span>
+            <a href={siteConfig.calendly} target="_blank" rel="noreferrer">
+              {calendar("contact-icon")}
+              <span>{page.locale === "cs" ? "Naplánovat schůzku" : "Book a call"}</span>
+            </a>
           </div>
           <div className="contact-cta">
             <Link className="button button-dark" href={page.cta.href}>
