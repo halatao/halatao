@@ -23,7 +23,7 @@ type UseCaseSeed = {
   fitNot: string[];
 };
 
-function useCase(seed: UseCaseSeed): ContentPage {
+function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
   const isCs = seed.locale === "cs";
 
   return definePage({
@@ -98,7 +98,7 @@ function useCase(seed: UseCaseSeed): ContentPage {
 }
 
 export const growthUseCasePages: ContentPage[] = [
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-b2b-client-portal",
     locale: "cs",
     slug: "b2b-klientsky-portal",
@@ -139,7 +139,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["B2B firmy s opakovanou klientskou komunikací", "služby a provozy s dokumenty, stavy a samoobsluhou", "týmy, které chtějí snížit support overhead"],
     fitNot: ["jednorázová prezentační microsite", "portál bez návaznosti na interní data", "projekty bez jasného provozního use case"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-internal-approval-system",
     locale: "cs",
     slug: "interni-schvalovaci-system",
@@ -180,7 +180,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["firmy s více rolemi a schvalovací logikou", "procesy s auditní stopou a výjimkami", "týmy, které chtějí snížit ruční dohled nad stavem"],
     fitNot: ["jednoduchý proces bez rolí a pravidel", "firma bez ownera schvalovacího workflow", "nákup hotového formuláře bez integrací"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-management-dashboard",
     locale: "cs",
     slug: "dashboard-pro-management",
@@ -221,7 +221,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["firmy s daty rozptýlenými v několika systémech", "management, který dnes spoléhá na ruční reporting", "týmy, které potřebují jednotnější pohled na stav firmy"],
     fitNot: ["dashboard bez důvěryhodného zdroje dat", "jednorázový reporting bez provozního dopadu", "projekty bez ownera na straně businessu"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-workflow-app-for-teams",
     locale: "cs",
     slug: "workflow-aplikace-pro-tym",
@@ -262,7 +262,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["týmy s opakovaným multi-step procesem", "provozy s více rolemi a výjimkami", "firmy, které chtějí zkrátit průchod a zlepšit dohled"],
     fitNot: ["jednoduchý seznam úkolů bez workflow", "proces bez jasných stavů a odpovědností", "projekty bez ochoty popsat skutečný provoz"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-b2b-client-portal",
     locale: "en",
     slug: "b2b-client-portal",
@@ -303,7 +303,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["B2B companies with repeated client communication", "services with document and status handling", "teams that want to reduce support cost through self-service"],
     fitNot: ["one-off brochure sites", "a portal with no internal data connection", "projects with no operational use case behind them"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-internal-approval-system",
     locale: "en",
     slug: "internal-approval-system",
@@ -344,7 +344,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["companies with repeated approval logic", "multi-role workflows with audit needs", "teams trying to reduce manual follow-up and delays"],
     fitNot: ["simple single-step approval flows", "buyers with no process owner", "form tools with no integration or rules"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-management-dashboard",
     locale: "en",
     slug: "management-dashboard",
@@ -385,7 +385,7 @@ export const growthUseCasePages: ContentPage[] = [
     fitFor: ["companies with several fragmented data sources", "leadership teams relying on manual reporting", "teams that need a more shared view of business state"],
     fitNot: ["dashboards with no reliable data source", "one-off reporting with no operational value", "projects with no business owner for the numbers"],
   }),
-  useCase({
+  defineGrowthUseCasePage({
     translationKey: "use-case-workflow-app-for-teams",
     locale: "en",
     slug: "workflow-app-for-teams",

@@ -21,7 +21,7 @@ type UseCaseSeed = {
   related: string[];
 };
 
-function useCase(seed: UseCaseSeed): ContentPage {
+function defineUseCasePage(seed: UseCaseSeed): ContentPage {
   const isCs = seed.locale === "cs";
   return definePage({
     translationKey: seed.translationKey,
@@ -57,7 +57,7 @@ function useCase(seed: UseCaseSeed): ContentPage {
 }
 
 export const useCasePages: ContentPage[] = [
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-client-portal",
     locale: "cs",
     slug: "klientsky-portal",
@@ -79,7 +79,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-custom-web-app-development", "comparison-custom-vs-saas", "guide-how-to-scope-a-custom-web-application", "inquiry"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-internal-admin-system",
     locale: "cs",
     slug: "interni-admin-system",
@@ -104,7 +104,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-internal-tools-development", "case-study-internal-tool-for-operations", "problem-internal-tool", "location-brno"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-reporting-dashboard",
     locale: "cs",
     slug: "reporting-dashboard",
@@ -129,7 +129,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-internal-tools-development", "service-automations-and-integrations", "technology-api-integrations", "guide-how-to-estimate-a-custom-web-app"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-workflow-automation-tools",
     locale: "cs",
     slug: "workflow-automatizace",
@@ -154,7 +154,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-automations-and-integrations", "problem-system-integrations", "case-study-multi-system-integration", "tool-api-integration-checklist"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-client-portal",
     locale: "en",
     slug: "client-portal-development",
@@ -179,7 +179,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-custom-web-app-development", "comparison-custom-vs-saas", "guide-how-to-scope-a-custom-web-application", "inquiry"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-internal-admin-system",
     locale: "en",
     slug: "internal-admin-system",
@@ -204,7 +204,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-internal-tools-development", "case-study-internal-tool-for-operations", "problem-internal-tool", "comparison-custom-vs-saas"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-reporting-dashboard",
     locale: "en",
     slug: "reporting-dashboard-development",
@@ -229,7 +229,7 @@ export const useCasePages: ContentPage[] = [
     ],
     related: ["service-internal-tools-development", "service-automations-and-integrations", "technology-api-integrations", "guide-how-to-estimate-a-custom-web-app"],
   }),
-  useCase({
+  defineUseCasePage({
     translationKey: "use-case-workflow-automation-tools",
     locale: "en",
     slug: "workflow-automation-tools",
@@ -255,6 +255,5 @@ export const useCasePages: ContentPage[] = [
     related: ["service-automations-and-integrations", "problem-system-integrations", "case-study-multi-system-integration", "tool-api-integration-checklist"],
   }),
 ];
-
 
 

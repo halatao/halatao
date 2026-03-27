@@ -1,6 +1,6 @@
 ﻿# Migration Summary
 
-Generated on 2026-03-17 during the static-to-Next.js migration.
+Updated on 2026-03-27 after content expansion and SEO iteration work.
 
 ## Legacy mapping
 - `index.html` -> `/`
@@ -12,9 +12,9 @@ Generated on 2026-03-17 during the static-to-Next.js migration.
 - `sitemap.xml` -> `/sitemap.xml`
 
 ## Page totals
-- Total pages: 75 content pages, plus root chooser, sitemap, robots, llms.txt, and 404.
-- Locale totals: 39 Czech pages, 36 English pages.
-- By type: 2 home, 10 service, 6 problem, 8 comparison, 8 use case, 6 case study, 12 guide, 8 technology, 6 tool, 3 location, 2 process, 4 inquiry.
+- Total pages: 117 content pages, plus root chooser, sitemap, robots, llms.txt, and 404.
+- Locale totals: 60 Czech pages, 57 English pages.
+- By type: 2 home, 2 process, 4 inquiry, 10 service, 16 hub, 14 problem, 8 comparison, 16 use case, 6 case study, 18 guide, 8 technology, 10 tool, 3 location.
 
 ## SEO and GEO utilities
 - `src/lib/metadata.ts`
