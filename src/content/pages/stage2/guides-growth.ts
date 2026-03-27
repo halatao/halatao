@@ -141,7 +141,7 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Co cenu takeoveru nejvíc ovlivňuje?", answer: "Čitelnost systému, dostupnost přístupů, kritičnost provozu, technický dluh a to, jak dobře je známý release proces." },
       { question: "Je audit jen další zdržení před prací?", answer: "Ne. U takeoveru bývá audit nejrychlejší cesta k tomu, aby další práce nebyla postavená na odhadech naslepo." },
     ],
-    related: ["service-existing-app-takeover", "problem-app-takeover", "tool-app-takeover-checklist", "inquiry"],
+    related: ["service-existing-app-takeover", "guide-how-to-take-over-an-existing-app-safely", "problem-app-takeover", "inquiry"],
     fitFor: ["firmy přebírající běžící nebo rozpracovanou aplikaci", "buyery, kteří potřebují rozpočet s menší mírou nejistoty", "týmy řešící vendor change nebo ztrátu znalosti"],
     fitNot: ["greenfield projekt bez takeover kontextu", "buyer očekávající přesnou cenu bez přístupů a mapování", "čistě náborová poptávka"],
   }),

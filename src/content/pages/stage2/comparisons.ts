@@ -76,6 +76,7 @@ export const comparisonPages: ContentPage[] = [
     heroSubtitle: "SaaS je někdy správná volba. Jindy jen oddaluje problém a vytváří drahé obcházení omezení.",
     intro: [
       "SaaS nástroj bývá rychlejší start a menší počáteční investice. Vývoj na míru dává smysl tehdy, když by univerzální nástroj nutil firmu kroutit vlastní procesy.",
+      "Krátká odpověď je jednoduchá: pokud je software součástí důležitého procesu a limity SaaS vytvářejí drahé obcházení, bývá vývoj na míru dlouhodobě rozumnější volba.",
       "Rozhodnutí není jen technické. Je hlavně provozní a ekonomické: kolik stojí obcházení omezení, ruční práce a ztracená flexibilita.",
     ],
     optionA: "Kdy je lepší SaaS",
@@ -90,7 +91,7 @@ export const comparisonPages: ContentPage[] = [
       { question: "Kdy je custom development zbytečně brzy?", answer: "Když firma ještě neví, jak přesně bude proces vypadat, a standardní nástroj pokryje většinu práce bez větších kompromisů." },
       { question: "Lze kombinovat SaaS a vlastní vývoj?", answer: "Ano. Často je rozumné nechat standardní části v hotovém nástroji a vlastní logiku řešit na míru kolem něj." },
     ],
-    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-when-internal-tool-better-than-saas", "use-case-b2b-client-portal", "inquiry"],
+    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-how-to-scope-a-custom-web-application", "use-case-b2b-client-portal", "inquiry"],
   }),
   comparison({
     translationKey: "comparison-contractor-vs-agency",
@@ -268,6 +269,5 @@ export const comparisonPages: ContentPage[] = [
     related: ["service-existing-app-takeover", "problem-rescue-incomplete-project", "guide-how-to-price-an-app-takeover", "case-study-existing-app-takeover", "inquiry"],
   }),
 ];
-
 
 

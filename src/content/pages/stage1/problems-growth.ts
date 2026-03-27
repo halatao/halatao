@@ -197,7 +197,7 @@ export const growthProblemPages: ContentPage[] = [
       { question: "Dá se podobná situace zvládnout i s interním týmem?", answer: "Ano. Často právě kombinace externího takeoveru a interní znalosti domény dává nejsilnější výsledek." },
       { question: "Můžete pak pokračovat i jako kontraktní podpora v týmu?", answer: "Ano. Podle situace mohu navázat takeover delivery etapou nebo seniorním zapojením uvnitř týmu." },
     ],
-    related: ["service-existing-app-takeover", "contract-support", "case-study-existing-app-takeover", "inquiry"],
+    related: ["service-existing-app-takeover", "contract-support", "problem-app-takeover", "guide-how-to-price-an-app-takeover", "inquiry"],
     fitFor: ["rozpracované projekty bez důvěryhodného dalšího kroku", "firmy, které už investovaly a potřebují získat zpět kontrolu", "situace, kde je potřeba spojit takeover a nový delivery rámec"],
     fitNot: ["projekty bez přístupu ke kódu nebo zadání", "buyer, který chce jen potvrdit předem daný rewrite", "čistě náborová poptávka bez projektového kontextu"],
   }),

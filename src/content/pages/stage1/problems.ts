@@ -114,7 +114,7 @@ export const problemPages: ContentPage[] = [
       { question: "Dá se převzetí zvládnout i během běžícího provozu?", answer: "Ano. U většiny takeover projektů je to nutnost. Právě proto preferuji postupné mapování a stabilizaci místo tvrdých řezů bez kontextu." },
       { question: "Můžete pak pokračovat i realizací?", answer: "Ano. Mohu navázat dlouhodobější spoluprací nebo předat strukturovaný plán vašemu internímu týmu." },
     ],
-    related: ["service-existing-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "guide-how-to-take-over-an-existing-app-safely", "case-study-existing-app-takeover", "inquiry"],
+    related: ["service-existing-app-takeover", "guide-how-to-take-over-an-existing-app-safely", "guide-how-to-price-an-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "inquiry"],
     fitFor: ["firmy po změně dodavatele", "produkty s nejasnou technickou situací", "týmy, které potřebují znovu získat kontrolu nad aplikací"],
     fitNot: ["čistě obsahové weby bez aplikace", "okamžitý redesign bez technického zásahu", "situace bez přístupu do zdrojů a prostředí"],
   }),
@@ -264,6 +264,5 @@ export const problemPages: ContentPage[] = [
     fitNot: ["isolated tools with no dependencies", "projects with no access to source systems", "simple licence purchases with no process change"],
   }),
 ];
-
 
 

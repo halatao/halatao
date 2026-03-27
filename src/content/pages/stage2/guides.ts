@@ -100,6 +100,7 @@ export const guidePages: ContentPage[] = [
     heroSubtitle: "Smyslem není popsat každé tlačítko, ale ujasnit problém, cíl, role, omezení a prioritu první verze.",
     intro: [
       "Mnoho firem odkládá start projektu, protože nemají perfektní specifikaci. Ve skutečnosti je důležitější dobrý rámec než nekonečný dokument.",
+      "Krátká odpověď je, že pro dobré zadání nepotřebujete román. Potřebujete jasně popsat problém, cílový výsledek, role a hranice první etapy.",
       "Když je jasný problém, cílový výsledek a hranice první etapy, lze projekt rozumně odstartovat a průběžně zpřesňovat bez ztráty kontroly.",
       "Nejčastější chyba je snaha nadiktovat všechny detaily předem bez vazby na skutečnou prioritu a provozní realitu.",
     ],
@@ -140,6 +141,7 @@ export const guidePages: ContentPage[] = [
     heroSubtitle: "Důležité je vědět, co běží, kde jsou rizika, jak funguje release a co si projekt může dovolit změnit jako první.",
     intro: [
       "Převzetí aplikace není jen předání repozitáře. Jde o přístup k prostředí, znalost release procesu, rizik a důležitých částí produktu.",
+      "Krátká odpověď je, že bezpečný takeover začíná auditem, checklistem přístupů a ochranou kritických workflow, ne prvním velkým zásahem do kódu.",
       "Když se takeover uspěchá, firma snadno podcení skryté závislosti a dostane se do horší situace než před změnou dodavatele.",
       "Dobrá takeover fáze vrací projektu přehled a umožní rozhodnout, co řešit hned a co až později.",
     ],
@@ -166,7 +168,7 @@ export const guidePages: ContentPage[] = [
       { question: "Má smysl řešit testy hned?", answer: "Ano, ale podle priority. Nejprve je potřeba chránit nejrizikovější části systému a release flow." },
       { question: "Lze takeover udělat i za běhu produkce?", answer: "Ano. To je běžný stav a právě proto je důležité držet první kroky pod kontrolou." },
     ],
-    related: ["service-existing-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "tool-app-takeover-checklist", "case-study-existing-app-takeover"],
+    related: ["service-existing-app-takeover", "guide-how-to-price-an-app-takeover", "tool-app-takeover-checklist", "inquiry"],
   }),
   guide({
     translationKey: "guide-when-custom-development-makes-sense",
