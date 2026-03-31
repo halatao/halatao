@@ -355,4 +355,126 @@ export const growthGuidePages: ContentPage[] = [
     fitFor: ["product and internal teams with a blocked delivery area", "companies after a key team change", "projects needing stronger senior ownership quickly"],
     fitNot: ["recruiting processes", "commodity staffing with no responsibility boundary", "projects with no internal owner or business decision-maker"],
   }),
+  guide({
+    translationKey: "guide-when-ai-integration-makes-sense",
+    locale: "cs",
+    slug: "kdy-dava-smysl-ai-ve-firme",
+    title: "Kdy dává smysl AI ve firmě a kdy ne | Bc. Ondřej Halata (halatao.cz)",
+    h1: "Kdy dává smysl AI ve firmě a kdy ne",
+    description:
+      "Praktický průvodce pro firmy, které zvažují AI ve firemním procesu a chtějí rozlišit, kdy dává smysl jako rozšíření workflow, dokumentů nebo automatizace a kdy jen přidá další složitost.",
+    primaryQuery: "kdy dává smysl ai ve firmě",
+    heroTitle: "AI není řešení na všechno. Hodnotu má až v procesu, který už má nějaký tvar.",
+    heroSubtitle:
+      "Pro firmy, které chtějí pochopit, kdy AI navazuje na reálný provoz a kdy je lepší nejdřív vyřešit workflow, data nebo odpovědnost.",
+    intro: [
+      "AI se často prezentuje jako univerzální vrstva pro zrychlení firmy. V praxi ale funguje dobře jen tam, kde navazuje na jasný proces, rozumné vstupy a konkrétní provozní bolest.",
+      "Pokud je workflow nejasné, data roztříštěná a lidé už dnes zachraňují situaci ručně, AI obvykle nepřinese zjednodušení. Jen zrychlí chaos nebo přidá další místo, které se musí ručně hlídat.",
+    ],
+    answer:
+      "AI ve firmě dává smysl tam, kde existuje opakovaný proces, dostupné vstupy a konkrétní místo, kde práce s texty, dokumenty nebo požadavky zbytečně zatěžuje lidi.",
+    steps: [
+      "pojmenujte opakovaný proces a místo největší ztráty času",
+      "ověřte, jak kvalitní jsou vstupní data nebo dokumenty",
+      "porovnejte AI s jednodušší automatizací nebo úpravou workflow",
+      "navrhněte menší první use case místo velkého AI programu",
+    ],
+    mistakes: [
+      "čekat, že AI opraví nejasný proces sama",
+      "začínat technologií místo provozního problému",
+      "neřešit kvalitu vstupů, dokumentů nebo odpovědností",
+      "spouštět velkou AI iniciativu bez malé první validace",
+    ],
+    outcome: [
+      "lepší rozhodnutí, kde AI dává smysl a kde ne",
+      "realističtější očekávání od první AI etapy",
+      "nižší riziko slepé investice do hype řešení",
+      "silnější návaznost AI na interní systémy, workflow a data",
+    ],
+    faq: [
+      { question: "Je AI vhodná i pro menší firmu?", answer: "Ano, pokud se opakují stejné typy práce s dokumenty, textem nebo požadavky a ruční zpracování už bere lidem příliš času." },
+      { question: "Musí mít firma předem perfektní data?", answer: "Ne, ale bez alespoň rozumně použitelných vstupů a jasného procesu bývá přínos AI slabý nebo nestabilní." },
+      { question: "Je lepší začít chatbotem nebo interním use casem?", answer: "Často je silnější začít interním nebo provozním use casem, kde lze rychleji ověřit reálný přínos a kvalitu výsledku." },
+    ],
+    related: [
+      "service-ai-automation-and-integrations",
+      "problem-ai-in-business-process",
+      "service-automations-and-integrations",
+      "service-internal-tools-development",
+      "use-case-ai-internal-documents",
+      "use-case-ai-intake-triage",
+      "inquiry",
+    ],
+    fitFor: [
+      "firmy zvažující první AI use case",
+      "buyery, kteří chtějí rozhodnout mezi AI a jednodušší automatizací",
+      "situace, kde je potřeba odfiltrovat hype od reálného provozního přínosu",
+    ],
+    fitNot: [
+      "čistě trendové rozhodnutí bez konkrétního procesu",
+      "AI projekt bez ownera a bez přístupu k použitelným vstupům",
+      "snaha nasadit AI jako náhradu za chybějící procesní disciplínu",
+    ],
+  }),
+  guide({
+    translationKey: "guide-when-ai-integration-makes-sense",
+    locale: "en",
+    slug: "when-ai-makes-sense-in-a-company",
+    title: "When AI makes sense in a company and when it does not | Bc. Ondřej Halata (halatao.cz)",
+    h1: "When AI makes sense in a company and when it does not",
+    description:
+      "A practical guide for companies considering AI in business processes and trying to separate useful workflow and document use cases from extra complexity that adds little operational value.",
+    primaryQuery: "when ai makes sense in a company",
+    heroTitle: "AI is not the answer to everything. It creates value only when it has a real process to attach to.",
+    heroSubtitle:
+      "For companies that want to understand when AI fits real operations and when workflow, data, or ownership need attention first.",
+    intro: [
+      "AI is often presented as a universal acceleration layer for the business. In practice it works well only where it builds on a clear process, usable inputs, and a specific source of operational waste.",
+      "If the workflow is unclear, the data is fragmented, and people already keep the process alive through manual effort, AI usually does not simplify anything. It only speeds up chaos or adds another layer to supervise.",
+    ],
+    answer:
+      "AI makes sense in a company when there is a repeated process, usable inputs, and a specific point where document, text, or request-heavy work is consuming too much team capacity.",
+    steps: [
+      "define the repeated process and the biggest time sink",
+      "check the quality of documents, data, or other inputs",
+      "compare AI with simpler automation or workflow improvement",
+      "start with one focused first use case instead of a big AI programme",
+    ],
+    mistakes: [
+      "expecting AI to repair an unclear process on its own",
+      "starting from the technology instead of the operating problem",
+      "ignoring input quality, document structure, or ownership",
+      "launching a large AI initiative with no focused validation step",
+    ],
+    outcome: [
+      "stronger judgement on where AI fits and where it does not",
+      "more realistic expectations for the first AI release",
+      "lower risk of spending on hype with weak payoff",
+      "better alignment between AI, internal tooling, workflow, and data",
+    ],
+    faq: [
+      { question: "Is AI useful for smaller companies too?", answer: "Yes, especially when the same document, text, or request types repeat often enough that manual handling already costs too much time." },
+      { question: "Do we need perfect data before doing anything?", answer: "No, but without at least reasonably usable inputs and a clear process, AI tends to be unstable or underwhelming." },
+      { question: "Should we start with a chatbot or an internal use case?", answer: "An internal or operations use case is often the better first step because value and result quality are easier to validate." },
+    ],
+    related: [
+      "service-ai-automation-and-integrations",
+      "problem-ai-in-business-process",
+      "service-automations-and-integrations",
+      "service-internal-tools-development",
+      "use-case-ai-internal-documents",
+      "use-case-ai-intake-triage",
+      "inquiry",
+    ],
+    fitFor: [
+      "companies evaluating a first AI use case",
+      "buyers comparing AI with simpler automation",
+      "situations where hype needs to be filtered out from operating value",
+    ],
+    fitNot: [
+      "trend-driven decisions with no real process behind them",
+      "AI projects with no owner or no usable inputs",
+      "trying to use AI as a substitute for missing process discipline",
+    ],
+  }),
 ];
