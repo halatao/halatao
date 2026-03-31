@@ -126,7 +126,7 @@ export const caseStudyPages: ContentPage[] = [
       { question: "Musí se hned měnit celá architektura?", answer: "Většinou ne. U běžících aplikací bývá lepší řešit nejdřív kritická místa a schopnost bezpečně doručovat další změny." },
       { question: "Je takový projekt vhodný i pro interní tým klienta?", answer: "Ano. Takeover může probíhat společně s interním týmem a pomoct mu získat rychlejší kontrolu nad systémem." },
     ],
-    related: ["service-existing-app-takeover", "problem-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "guide-how-to-take-over-an-existing-app-safely", "inquiry"],
+    related: ["service-existing-app-takeover", "problem-app-takeover", "problem-modernize-legacy-app", "guide-how-to-take-over-an-existing-app-safely", "guide-how-to-run-app-takeover-audit", "comparison-rewrite-vs-incremental-app-improvement", "inquiry"],
   }),
   caseStudy({
     translationKey: "case-study-internal-tool-for-operations",
@@ -165,7 +165,7 @@ export const caseStudyPages: ContentPage[] = [
       { question: "Lze navázat na stávající data a procesy?", answer: "Ano. Právě návaznost na reálný provoz bývá pro úspěch důležitější než samotná technologie." },
       { question: "Dá se z takového projektu postupně udělat širší interní systém?", answer: "Ano. Pokud je první verze navržená rozumně, může se stát základem pro další rozvoj." },
     ],
-    related: ["service-internal-tools-development", "problem-internal-tool", "use-case-internal-admin-system", "guide-how-to-scope-a-custom-web-application", "inquiry"],
+    related: ["service-internal-tools-development", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "use-case-internal-admin-system", "use-case-service-team-ops-system", "guide-how-to-scope-a-custom-web-application", "inquiry"],
   }),
   caseStudy({
     translationKey: "case-study-multi-system-integration",
@@ -243,7 +243,7 @@ export const caseStudyPages: ContentPage[] = [
       { question: "Do you need to redesign the whole architecture immediately?", answer: "Usually not. For running apps, it is often better to secure the risky parts and improve delivery confidence first." },
       { question: "Can this work alongside the client’s internal team?", answer: "Yes. That is often the best way to rebuild control over the system quickly." },
     ],
-    related: ["service-existing-app-takeover", "problem-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "guide-how-to-take-over-an-existing-app-safely", "inquiry"],
+    related: ["service-existing-app-takeover", "problem-app-takeover", "problem-modernize-legacy-app", "guide-how-to-take-over-an-existing-app-safely", "guide-how-to-run-app-takeover-audit", "comparison-rewrite-vs-incremental-app-improvement", "inquiry"],
   }),
   caseStudy({
     translationKey: "case-study-internal-tool-for-operations",
@@ -282,7 +282,7 @@ export const caseStudyPages: ContentPage[] = [
       { question: "Can it build on existing data and processes?", answer: "Yes. Alignment with real operations matters more than technology fashion." },
       { question: "Can this grow into a broader internal system over time?", answer: "Yes. With a sound first version, the tool can become the base for wider process support." },
     ],
-    related: ["service-internal-tools-development", "problem-internal-tool", "use-case-internal-admin-system", "guide-how-to-scope-a-custom-web-application", "inquiry"],
+    related: ["service-internal-tools-development", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "use-case-internal-admin-system", "use-case-service-team-ops-system", "guide-how-to-scope-a-custom-web-application", "inquiry"],
   }),
   caseStudy({
     translationKey: "case-study-multi-system-integration",
@@ -321,6 +321,6 @@ export const caseStudyPages: ContentPage[] = [
       { question: "Can this be delivered in stages?", answer: "Yes. That is often the most practical way to reduce risk and prove value early." },
       { question: "Does it make sense to start with a diagnostic phase?", answer: "Yes. Without understanding the data flow and failure impact, it is easy to automate the wrong thing." },
     ],
-    related: ["service-automations-and-integrations", "problem-system-integrations", "use-case-workflow-automation-tools", "tool-api-integration-checklist", "inquiry"],
+    related: ["service-automations-and-integrations", "guide-how-to-run-automation-discovery", "problem-system-integrations", "use-case-workflow-automation-tools", "tool-api-integration-checklist", "inquiry"],
   }),
 ];

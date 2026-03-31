@@ -65,6 +65,34 @@ function comparison(seed: ComparisonSeed): ContentPage {
 
 export const comparisonPages: ContentPage[] = [
   comparison({
+    translationKey: "comparison-internal-tool-vs-spreadsheets",
+    locale: "cs",
+    slug: "interni-system-vs-excel-a-email",
+    title: "Interni system vs Excel a e-mail | Bc. Ondrej Halata (halatao.cz)",
+    h1: "Interni system vs Excel a e-mail: kdy zacina davat smysl vlastni nastroj",
+    description: "Prakticke srovnani interniho systemu s kombinaci Excelu a e-mailu pro firmy, ktere resi workflow, schvalovani a sdilenou operativu.",
+    primaryQuery: "interni system vs excel a email",
+    heroTitle: "Nejde o to, jestli tabulka staci dnes. Jde o to, co bude stat zitra.",
+    heroSubtitle: "Excel a e-mail jsou casto dobry zacatek. Ve slozitejsim provozu ale zacnou zdrazovat koordinaci, zvysovat chybovost a brzdit dalsi rust.",
+    intro: [
+      "Tabulka sama o sobe neni spatne. Problem zacina ve chvili, kdy ma proces vice roli, stavu, vyjimek a navaznosti a koordinace se rozpada mezi e-mail, chat a rucni dohledavani.",
+      "Kratka odpoved je jednoducha: pokud proces uz nezvladate udrzet prehledne a spolehlive v tabulkach, dava interni system smysl driv, nez chaos dal zdrazi provoz.",
+    ],
+    optionA: "Kdy je Excel a e-mail jeste v poradku",
+    optionB: "Kdy je lepsi interni system",
+    optionAText: "Excel a e-mail mohou stacit tam, kde je proces jednoduchy, malo frekventovany, s malym poctem roli a bez citlivych schvalovacich nebo auditnich naroku.",
+    optionBText: "Interni system dava smysl tam, kde proces potrebuje jasne role, workflow, dohledatelnost, napojeni na dalsi systemy nebo rychlejsi a bezpecnejsi pruchod mezi kroky.",
+    criteria: ["pocet roli a stridani odpovednosti", "mira vyjimek a schvalovani", "dopad chyb a zpozdeni na provoz", "potreba datove historie, reportingu a integraci"],
+    verdict: "Pokud tabulky a e-maily uz nevytvareji prehled, ale spise zmatek, interni system byva levnejsi nez dalsi roky rucni koordinace. Pokud je proces opravdu jednoduchy, tabulka muze stale davat smysl.",
+    faq: [
+      { question: "Neni vlastni interni system zbytecne drahy?", answer: "Nekdy by byl. Pokud ale rucni koordinace, chybovost a zavislost na lidech uz firmu realne stoji cas a penize, muze byt vlastni system dlouhodobe levnejsi." },
+      { question: "Da se zacit mensi prvni verzi?", answer: "Ano. U internich systemu je to casto nejlepsi cesta, jak nahradit nejslabsi cast procesu bez zbytecneho prescopovani." },
+      { question: "Co kdyz firma nechce opustit Excel uplne?", answer: "To je v poradku. Nekdy dava smysl ponechat tabulky pro vedlejsi evidenci a prenest do systemu jen klicovy workflow." },
+      { question: "Jak poznat, ze je cas prestat to drzet rucne?", answer: "Ve chvili, kdy neni jasne, kde se proces zasekl, kdo ma dalsi krok, ktera data jsou spravne a chyba uz ma provozni nebo financni dopad." },
+    ],
+    related: ["service-internal-tools-development", "problem-replace-spreadsheets-in-process", "guide-when-internal-tool-better-than-saas", "inquiry"],
+  }),
+  comparison({
     translationKey: "comparison-custom-vs-saas",
     locale: "cs",
     slug: "vyvoj-na-miru-vs-saas",
@@ -268,6 +296,32 @@ export const comparisonPages: ContentPage[] = [
     ],
     related: ["service-existing-app-takeover", "problem-rescue-incomplete-project", "guide-how-to-price-an-app-takeover", "case-study-existing-app-takeover", "inquiry"],
   }),
+  comparison({
+    translationKey: "comparison-internal-tool-vs-spreadsheets",
+    locale: "en",
+    slug: "internal-tool-vs-spreadsheets-and-email",
+    title: "Internal tool vs spreadsheets and email | Bc. Ondrej Halata (halatao.cz)",
+    h1: "Internal tool vs spreadsheets and email: when custom operations software starts making sense",
+    description: "A practical comparison of internal-tool software with spreadsheets and email for teams handling workflow, approvals, and shared operational work.",
+    primaryQuery: "internal tool vs spreadsheets and email",
+    heroTitle: "The question is not whether spreadsheets still work today. It is what they will cost tomorrow.",
+    heroSubtitle: "Spreadsheets and email are often a reasonable starting point. In a more complex operation they begin to increase coordination cost, error rate, and delivery drag.",
+    intro: [
+      "The spreadsheet itself is not the issue. The issue begins when a workflow with multiple roles, states, exceptions, and handoffs still depends on email threads and manual state tracking.",
+      "The short answer is simple: if the process can no longer be kept reliable and visible in spreadsheets, an internal tool often makes sense before the operational chaos gets even more expensive.",
+    ],
+    optionA: "When spreadsheets and email are still enough",
+    optionB: "When an internal tool is the better move",
+    optionAText: "Spreadsheets and email can still work when the process is simple, infrequent, low-risk, and involves few roles with no serious audit, approval, or integration demands.",
+    optionBText: "An internal tool becomes the stronger option when the workflow needs clearer ownership, state control, traceability, integrations, and safer movement between steps.",
+    criteria: ["number of roles and ownership handoffs", "volume of exceptions and approvals", "operational cost of delay and error", "need for history, reporting, and integration"],
+    verdict: "If spreadsheets and email no longer create clarity but instead create confusion, an internal tool is often cheaper than years of manual coordination. If the process is truly simple, the spreadsheet may still be enough.",
+    faq: [
+      { question: "Is a custom internal tool unnecessarily expensive?", answer: "Sometimes it would be. But once manual coordination, error rate, and dependence on people start costing real time and money, the internal tool can become the cheaper long-term path." },
+      { question: "Can we start with a smaller first version?", answer: "Yes. That is often the right way to replace the weakest part of the process without overscoping the project." },
+      { question: "What if the company does not want to abandon spreadsheets entirely?", answer: "That is fine. Side tracking can remain in spreadsheets while the critical workflow moves into the system." },
+      { question: "How do we know it is time to stop managing this manually?", answer: "When nobody can clearly see where the process is stuck, who owns the next step, which data is correct, and errors start having operational or financial consequences." },
+    ],
+    related: ["service-internal-tools-development", "problem-replace-spreadsheets-in-process", "guide-when-internal-tool-better-than-saas", "inquiry"],
+  }),
 ];
-
-

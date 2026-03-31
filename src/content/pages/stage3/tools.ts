@@ -97,7 +97,7 @@ export const toolPages: ContentPage[] = [
       { question: "Je to užitečné i pro interní tým?", answer: "Ano. I interní tým často potřebuje takeover strukturovat, pokud znalost odešla s konkrétním člověkem nebo vendor kontaktem." },
       { question: "Co když část přístupů chybí?", answer: "Právě to je cenný výstup checklistu. Chybějící přístupy je lepší odhalit hned na začátku než během krizového release." },
     ],
-    related: ["guide-how-to-take-over-an-existing-app-safely", "service-existing-app-takeover", "problem-app-takeover", "case-study-existing-app-takeover", "inquiry"],
+    related: ["guide-how-to-take-over-an-existing-app-safely", "guide-how-to-run-app-takeover-audit", "service-existing-app-takeover", "problem-app-takeover", "tool-release-stabilization-checklist", "case-study-existing-app-takeover", "inquiry"],
   }),
   tool({
     translationKey: "tool-api-integration-checklist",
@@ -118,7 +118,7 @@ export const toolPages: ContentPage[] = [
       { question: "Nahrazuje checklist architektonický návrh?", answer: "Ne. Je to vstupní pomůcka, která pomáhá návrh udělat kvalitněji a s menším rizikem slepých míst." },
       { question: "Lze ho použít i pro interní workflow integrace?", answer: "Ano. Právě tam bývá velmi praktický." },
     ],
-    related: ["technology-api-integrations", "service-automations-and-integrations", "problem-system-integrations", "case-study-multi-system-integration", "inquiry"],
+    related: ["technology-api-integrations", "service-automations-and-integrations", "guide-how-to-run-automation-discovery", "problem-system-integrations", "use-case-service-team-ops-system", "case-study-multi-system-integration", "inquiry"],
   }),
   tool({
     translationKey: "tool-web-app-project-brief-template",
@@ -160,7 +160,7 @@ export const toolPages: ContentPage[] = [
       { question: "Is this useful for internal teams as well?", answer: "Yes. Internal teams also need structure when important knowledge has left with a specific person or vendor." },
       { question: "What if some access is missing?", answer: "That is exactly the kind of issue the checklist should surface immediately." },
     ],
-    related: ["guide-how-to-take-over-an-existing-app-safely", "service-existing-app-takeover", "problem-app-takeover", "case-study-existing-app-takeover", "inquiry"],
+    related: ["guide-how-to-take-over-an-existing-app-safely", "guide-how-to-run-app-takeover-audit", "service-existing-app-takeover", "problem-app-takeover", "tool-release-stabilization-checklist", "case-study-existing-app-takeover", "inquiry"],
   }),
   tool({
     translationKey: "tool-api-integration-checklist",
@@ -181,8 +181,7 @@ export const toolPages: ContentPage[] = [
       { question: "Does the checklist replace architecture work?", answer: "No. It is an input tool that helps the architecture work start from a better position." },
       { question: "Can it be used for internal workflow integrations too?", answer: "Yes. That is one of the most practical uses for it." },
     ],
-    related: ["technology-api-integrations", "service-automations-and-integrations", "problem-system-integrations", "case-study-multi-system-integration", "inquiry"],
+    related: ["technology-api-integrations", "service-automations-and-integrations", "guide-how-to-run-automation-discovery", "problem-system-integrations", "use-case-service-team-ops-system", "case-study-multi-system-integration", "inquiry"],
   }),
 ];
-
 

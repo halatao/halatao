@@ -168,7 +168,7 @@ export const guidePages: ContentPage[] = [
       { question: "Má smysl řešit testy hned?", answer: "Ano, ale podle priority. Nejprve je potřeba chránit nejrizikovější části systému a release flow." },
       { question: "Lze takeover udělat i za běhu produkce?", answer: "Ano. To je běžný stav a právě proto je důležité držet první kroky pod kontrolou." },
     ],
-    related: ["service-existing-app-takeover", "guide-how-to-price-an-app-takeover", "tool-app-takeover-checklist", "inquiry"],
+    related: ["service-existing-app-takeover", "guide-how-to-run-app-takeover-audit", "guide-how-to-price-an-app-takeover", "tool-app-takeover-checklist", "tool-release-stabilization-checklist", "inquiry"],
   }),
   guide({
     translationKey: "guide-when-custom-development-makes-sense",
@@ -285,7 +285,7 @@ export const guidePages: ContentPage[] = [
       { question: "Should tests be addressed immediately?", answer: "Yes, in priority order. The first goal is to protect the riskiest areas and improve release confidence." },
       { question: "Can takeover happen while production stays live?", answer: "Yes. That is the normal situation and one reason the first phase needs discipline." },
     ],
-    related: ["service-existing-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "tool-app-takeover-checklist", "case-study-existing-app-takeover"],
+    related: ["service-existing-app-takeover", "guide-how-to-run-app-takeover-audit", "comparison-rewrite-vs-incremental-app-improvement", "tool-app-takeover-checklist", "tool-release-stabilization-checklist", "case-study-existing-app-takeover"],
   }),
   guide({
     translationKey: "guide-when-custom-development-makes-sense",
