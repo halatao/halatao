@@ -393,7 +393,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-ai-automation-and-integrations",
     locale: "cs",
     slug: "ai-automatizace-a-integrace",
-    title: "AI automatizace procesů a integrace pro firmy | Bc. Ondřej Halata (halatao.cz)",
+    title: "AI automatizace procesů a integrace pro firmy",
     h1: "AI automatizace procesů a integrace pro firmy",
     description:
       "Pomohu firmám využít AI tam, kde navazuje na reálný proces, interní systém nebo integraci mezi nástroji a dokáže snížit ruční práci, chybovost nebo čas ztracený dohledáváním informací.",
@@ -457,7 +457,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-ai-automation-and-integrations",
     locale: "en",
     slug: "ai-automation-and-integrations",
-    title: "AI process automation and integrations for companies | Bc. Ondřej Halata (halatao.cz)",
+    title: "AI process automation and integrations for companies",
     h1: "AI process automation and integrations for companies",
     description:
       "I help companies use AI where it builds on a real process, internal system, or system integration and can reduce manual work, error rate, or time lost to repetitive document and information handling.",

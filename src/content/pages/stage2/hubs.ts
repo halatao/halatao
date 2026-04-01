@@ -177,7 +177,7 @@ export const stage2HubPages: ContentPage[] = [
     segment: "priklady",
     title: "Příklady řešení: portály, interní systémy, dashboardy a workflow | Bc. Ondřej Halata (halatao.cz)",
     h1: "Příklady typů aplikací, které dávají ve firmách největší smysl",
-    description: "Přehled use-case stránek pro klientské portály, interní systémy, dashboardy, schvalovací workflow a další typické business aplikace.",
+    description: "Přehled use-case stránek pro klientské portály, interní systémy, dashboardy, schvalovací workflow, AI práci s dokumenty a další typické business aplikace.",
     heroTitle: "Příklady řešení jako rozhodovací pomůcka, ne galerie screenshotů",
     heroSubtitle: "Sekce pro firmy, které vědí, že potřebují systém, ale chtějí si lépe představit jeho správný tvar a první rozsah.",
     intro: [
@@ -206,6 +206,8 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-management-dashboard",
       "use-case-workflow-app-for-teams",
       "use-case-workflow-automation-tools",
+      "use-case-ai-internal-documents",
+      "use-case-ai-intake-triage",
     ],
   }),
   hub({
@@ -215,14 +217,14 @@ export const stage2HubPages: ContentPage[] = [
     segment: "use-cases",
     title: "Use cases: portals, internal systems, dashboards, and workflow apps | Bc. Ondřej Halata (halatao.cz)",
     h1: "Use cases for the kinds of business applications companies actually buy",
-    description: "Overview of use-case pages for client portals, internal tools, dashboards, approval systems, and workflow apps for business operations.",
+    description: "Overview of use-case pages for client portals, internal tools, dashboards, approval systems, workflow apps, and practical AI-assisted operating workflows.",
     heroTitle: "Representative solution shapes instead of fake product theatre",
     heroSubtitle: "Useful when the company knows it needs a system but wants to clarify the right application shape before detailed scoping.",
     intro: [
       "Use-case pages help buyers picture the type of system they need without pretending to be named client showcases.",
       "They are most useful when a team is clear on the problem but still wants to define the right model of application, first scope, and business fit.",
     ],
-    overview: "The section covers client portals, internal admin systems, dashboards, approval systems, and workflow applications built around common business needs.",
+    overview: "The section covers client portals, internal admin systems, dashboards, approval systems, workflow applications, and AI-supported operating scenarios built around common business needs.",
     fit: [
       "buyers exploring the right solution shape",
       "teams aligning internally on the likely scope of a new system",
@@ -244,6 +246,8 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-management-dashboard",
       "use-case-workflow-app-for-teams",
       "use-case-workflow-automation-tools",
+      "use-case-ai-internal-documents",
+      "use-case-ai-intake-triage",
     ],
   }),
   hub({
@@ -325,12 +329,12 @@ export const stage2HubPages: ContentPage[] = [
     segment: "pruvodce",
     title: "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Halata (halatao.cz)",
     h1: "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
-    description: "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS a potřebu seniorní kontraktní kapacity.",
+    description: "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity.",
     heroTitle: "Průvodce pro rozhodnutí před projektem, ne generický dev blog",
-    heroSubtitle: "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy nebo otázku externí seniorní kapacity ještě před realizací.",
+    heroSubtitle: "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy, AI fit nebo otázku externí seniorní kapacity ještě před realizací.",
     intro: [
       "Guide pages pomáhají buyerovi udělat lepší první rozhodnutí a zkrátit cestu k rozumnému dalšímu kroku.",
-      "Najdete tu průvodce pro zadání aplikace, takeover, pricing takeoveru, interní systém místo SaaS i posouzení potřeby seniorní kontraktní kapacity.",
+      "Najdete tu průvodce pro zadání aplikace, takeover, pricing takeoveru, interní systém místo SaaS i posouzení, kdy ve firmě dává smysl AI a kdy je lepší začít jednodušší automatizací nebo úpravou workflow.",
     ],
     overview: "Obsah je strukturovaný kolem přímé odpovědi, doporučeného postupu, častých chyb a formy výsledku, který má podobné rozhodnutí přinést.",
     fit: [
@@ -354,6 +358,7 @@ export const stage2HubPages: ContentPage[] = [
       "guide-how-to-price-an-app-takeover",
       "guide-when-internal-tool-better-than-saas",
       "guide-when-project-needs-senior-contract-support",
+      "guide-when-ai-integration-makes-sense",
     ],
   }),
   hub({
@@ -363,12 +368,12 @@ export const stage2HubPages: ContentPage[] = [
     segment: "guides",
     title: "Guides for scoping, takeover, and software buying decisions | Bc. Ondřej Halata (halatao.cz)",
     h1: "Guides for companies clarifying a project before delivery starts",
-    description: "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, and deciding on senior contract support.",
+    description: "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and deciding on senior contract support.",
     heroTitle: "Guides for pre-project clarity, not generic developer-blog traffic",
-    heroSubtitle: "For buyers trying to clarify scope, takeover, build-vs-buy, or the need for senior contract capacity before delivery starts.",
+    heroSubtitle: "For buyers trying to clarify scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",
     intro: [
       "These guide pages are designed to improve the quality of early project decisions and reduce avoidable delivery confusion.",
-      "The section covers project scoping, inherited-app takeover, takeover pricing, internal tool vs SaaS, and the question of senior contract support.",
+      "The section covers project scoping, inherited-app takeover, takeover pricing, internal tool vs SaaS, and the question of when AI fits a business process versus when simpler automation or workflow changes should come first.",
     ],
     overview: "Each guide is organised around a direct answer, a recommended approach, common mistakes, and the kind of decision result the guide should create.",
     fit: [
@@ -392,6 +397,7 @@ export const stage2HubPages: ContentPage[] = [
       "guide-how-to-price-an-app-takeover",
       "guide-when-internal-tool-better-than-saas",
       "guide-when-project-needs-senior-contract-support",
+      "guide-when-ai-integration-makes-sense",
     ],
   }),
 ];

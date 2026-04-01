@@ -359,7 +359,7 @@ export const growthGuidePages: ContentPage[] = [
     translationKey: "guide-when-ai-integration-makes-sense",
     locale: "cs",
     slug: "kdy-dava-smysl-ai-ve-firme",
-    title: "Kdy dává smysl AI ve firmě a kdy ne | Bc. Ondřej Halata (halatao.cz)",
+    title: "Kdy dává smysl AI ve firmě a kdy ne",
     h1: "Kdy dává smysl AI ve firmě a kdy ne",
     description:
       "Praktický průvodce pro firmy, které zvažují AI ve firemním procesu a chtějí rozlišit, kdy dává smysl jako rozšíření workflow, dokumentů nebo automatizace a kdy jen přidá další složitost.",
@@ -420,7 +420,7 @@ export const growthGuidePages: ContentPage[] = [
     translationKey: "guide-when-ai-integration-makes-sense",
     locale: "en",
     slug: "when-ai-makes-sense-in-a-company",
-    title: "When AI makes sense in a company and when it does not | Bc. Ondřej Halata (halatao.cz)",
+    title: "When AI makes sense in a company and when it does not",
     h1: "When AI makes sense in a company and when it does not",
     description:
       "A practical guide for companies considering AI in business processes and trying to separate useful workflow and document use cases from extra complexity that adds little operational value.",

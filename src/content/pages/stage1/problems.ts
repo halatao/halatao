@@ -267,7 +267,7 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-ai-in-business-process",
     locale: "cs",
     slug: "chceme-vyuzit-ai-ve-firemnim-procesu",
-    title: "Chceme využít AI ve firemním procesu | Kde dává smysl a kde ne",
+    title: "Chceme využít AI ve firemním procesu",
     h1: "Jak využít AI ve firemním procesu bez dalšího chaosu",
     description:
       "Pomohu firmám vyhodnotit, kde má AI ve firemním procesu reálný přínos, kde je lepší začít automatizací nebo úpravou workflow a jak se vyhnout další vrstvě provozní složitosti.",
@@ -325,7 +325,7 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-ai-in-business-process",
     locale: "en",
     slug: "want-to-use-ai-in-a-business-process",
-    title: "We want to use AI in a business process | Where it makes sense and where it does not",
+    title: "We want to use AI in a business process",
     h1: "How to use AI in a business process without adding another layer of chaos",
     description:
       "I help companies assess where AI has real value inside a business process, where automation or workflow improvement should come first, and how to avoid adding complexity without operational payoff.",
