@@ -101,12 +101,12 @@ export const stage1HubPages: ContentPage[] = [
     segment: "sluzby",
     title: "Služby pro webové aplikace, takeover a interní systémy | Bc. Ondřej Halata (halatao.cz)",
     h1: "Služby pro firmy, které potřebují dodat, převzít nebo zlepšit důležitou aplikaci",
-    description: "Přehled hlavních služeb: vývoj webových aplikací na míru, převzetí existující aplikace, interní systémy, automatizace, integrace a kontraktní spolupráce.",
+    description: "Přehled hlavních služeb: vývoj webových aplikací na míru, převzetí existující aplikace, interní systémy, systémy pro poptávky, nabídky a realizaci zakázek, automatizace, integrace a kontraktní spolupráce.",
     heroTitle: "Vyberte službu podle projektové situace, ne podle buzzwordu",
     heroSubtitle: "Sekce pro firmy a týmy, které řeší nový vývoj, takeover, interní systém, automatizace nebo potřebu seniorní kontraktní kapacity.",
     intro: [
       "Tato sekce je hlavní komerční vstup pro buyery, kteří už vědí, že řeší software projekt nebo delivery problém s reálným dopadem na firmu.",
-      "Najdete tu služby pro nový vývoj, převzetí existující aplikace, interní nástroje, automatizace a integrace i přímou kontraktní spolupráci uvnitř týmu.",
+      "Najdete tu služby pro nový vývoj, převzetí existující aplikace, interní nástroje, systémy pro poptávky, nabídky a realizaci, automatizace a integrace i přímou kontraktní spolupráci uvnitř týmu.",
     ],
     overview: "Každá child page vysvětluje, kdy daná služba dává smysl, jaké typy zadání mívají dobrý fit, co typicky dodávám a jak vypadá rozumný další krok.",
     fit: [
@@ -130,6 +130,7 @@ export const stage1HubPages: ContentPage[] = [
       "service-custom-web-app-development",
       "service-existing-app-takeover",
       "service-internal-tools-development",
+      "service-request-offer-delivery-system",
       "service-automations-and-integrations",
       "contract-support",
     ],
@@ -141,12 +142,12 @@ export const stage1HubPages: ContentPage[] = [
     segment: "services",
     title: "Services for custom apps, takeover, internal tools, and contract support | Bc. Ondřej Halata (halatao.cz)",
     h1: "Services for companies that need to build, take over, or improve important software",
-    description: "Overview of custom web application development, existing app takeover, internal tools, automations, integrations, and senior contract development support.",
+    description: "Overview of custom web application development, existing app takeover, internal tools, request-offer-delivery systems, automations, integrations, and senior contract development support.",
     heroTitle: "Choose the service by the delivery situation, not the buzzword",
     heroSubtitle: "A commercial overview for companies facing new product delivery, inherited-app risk, internal-tool needs, automation pressure, or the need for senior contract capacity.",
     intro: [
       "This section is the main commercial entry point for buyers who already know they have a real software delivery problem or a project with operational weight.",
-      "It covers greenfield delivery, existing app takeover, internal tooling, automations and integrations, and senior contract support inside an existing team.",
+      "It covers greenfield delivery, existing app takeover, internal tooling, systems for requests, offers, and delivery jobs, automations and integrations, and senior contract support inside an existing team.",
     ],
     overview: "Each child page explains where the service fits, which kinds of projects are a strong match, what the work typically includes, and what the next sensible step should be.",
     fit: [
@@ -170,6 +171,7 @@ export const stage1HubPages: ContentPage[] = [
       "service-custom-web-app-development",
       "service-existing-app-takeover",
       "service-internal-tools-development",
+      "service-request-offer-delivery-system",
       "service-automations-and-integrations",
       "contract-support",
     ],
@@ -211,6 +213,7 @@ export const stage1HubPages: ContentPage[] = [
       "problem-slow-hard-to-maintain-app",
       "problem-senior-contract-capacity",
       "problem-client-portal",
+      "problem-requests-offers-delivery-in-spreadsheets",
     ],
   }),
   hub({
@@ -250,6 +253,7 @@ export const stage1HubPages: ContentPage[] = [
       "problem-slow-hard-to-maintain-app",
       "problem-senior-contract-capacity",
       "problem-client-portal",
+      "problem-requests-offers-delivery-in-spreadsheets",
     ],
   }),
 ];

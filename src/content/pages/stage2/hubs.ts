@@ -208,7 +208,7 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",
-      "use-case-request-offer-delivery-system",
+      "use-case-request-offer-delivery-workflow",
     ],
   }),
   hub({
@@ -249,7 +249,7 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",
-      "use-case-request-offer-delivery-system",
+      "use-case-request-offer-delivery-workflow",
     ],
   }),
   hub({
