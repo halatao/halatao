@@ -522,7 +522,7 @@ export const servicePages: ContentPage[] = [
     locale: "cs",
     slug: "system-pro-rizeni-poptavek-a-zakazek",
     title: "Systém pro evidenci poptávek a zakázek ve firmě",
-    h1: "Systém pro řízení poptávek, nabídek a realizace",
+    h1: "Systém pro evidenci poptávek a zakázek ve firmě",
     description: "Navrhuji a vyvíjím interní systém pro evidenci poptávek, tvorbu nabídek a řízení realizace zakázek tam, kde dnes proces drží Excel, e-mail a ruční koordinace.",
     primaryQuery: "evidence poptávek a zakázek",
     heroTitle: "Mějte poptávky, nabídky a zakázky pod kontrolou na jednom místě",
