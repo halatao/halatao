@@ -16,7 +16,7 @@ export const siteConfig = {
   calendly: "https://calendly.com/ondrej-halata/30min",
   cookiebotId: "c016eaf8-a8fe-4cfe-9693-727411d95ca8",
   gtmId: "GTM-M63V79JM",
-  gaMeasurementId: "G-GYSMGC2M4V",
+  gaMeasurementId: "G-81431TQEDR",
   ogImage: "/og/halatao-social.svg",
   ogImageAlt: "Bc. Ondřej Halata - webové aplikace na míru, takeover a automatizace pro firmy",
   locales: ["cs", "en"] as Locale[],
