@@ -13,16 +13,16 @@ type TemplateProps = { page: ContentPage };
 
 const homeDescriptions = {
   cs: [
-    "Full-stack vývoj od návrhu architektury po produkční provoz.",
-    "Bezpečné navázání na rozpracovaný systém, stabilizace a další rozvoj.",
-    "Propojování interních systémů, API a datových toků bez zbytečné ruční práce.",
-    "Linux servery, CI/CD, monitoring a seniorní kapacita do důležité fáze projektu.",
+    "Návrh a vývoj aplikace pro proces, který už běžné nástroje nepokrývají.",
+    "Rozvoj, zjednodušení nebo stabilizace systému, který má dál sloužit provozu.",
+    "Propojení interních nástrojů, dat a externích systémů bez zbytečné ruční práce.",
+    "Automatizace workflow nebo seniorní zapojení do důležité fáze projektu.",
   ],
   en: [
-    "Full-stack delivery from architecture decisions to production operation.",
-    "Safe takeover of an inherited system, stabilisation, and structured improvement.",
-    "Connecting internal systems, APIs, and data flows without unnecessary manual work.",
-    "Linux operations, CI/CD, monitoring, and senior contract support in critical project phases.",
+    "Design and build an application for a process that standard tools no longer cover.",
+    "Improve, simplify, or stabilise a system that needs to keep supporting operations.",
+    "Connect internal tools, data, and external systems without unnecessary manual work.",
+    "Automate workflows or add senior involvement to an important project phase.",
   ],
 };
 
@@ -271,16 +271,16 @@ function RelatedLinks({ page }: TemplateProps) {
 }
 
 function HomeTemplateBody({ page }: TemplateProps) {
-  const services = page.locale === "cs" ? ["Webové aplikace na míru", "Převzetí a rozvoj existující aplikace", "Integrace systémů a automatizace", "Nasazení, provoz a kontraktní spolupráce"] : (page.sections[0]?.bullets ?? []);
-  const fit = page.locale === "cs" ? ["Klientské portály a business aplikace", "Interní systémy pro operativu a reporting", "Rozpracované nebo problematické aplikace", "Procesy s ruční prací mezi více systémy"] : (page.sections[1]?.bullets ?? []);
-  const process = page.locale === "cs" ? ["Rychlé zorientování v cíli a omezeních", "Návrh rozumné první etapy", "Průběžná realizace po menších krocích", "Důraz na provoz, ne jen na demo funkcí"] : (page.sections[2]?.bullets ?? []);
-  const outcomes = page.locale === "cs" ? ["Stabilnější aplikace a jasnější technický směr", "Lepší kontrola nad rozsahem a prioritami", "Bezpečnější převzetí nebo rozvoj systému", "Software, který lze dál udržitelně rozvíjet"] : (page.sections[3]?.bullets ?? []);
+  const services = page.sections[0]?.bullets ?? [];
+  const fit = page.sections[1]?.bullets ?? [];
+  const process = page.sections[2]?.bullets ?? [];
+  const outcomes = page.sections[3]?.bullets ?? [];
   const credibility = page.sections[4];
   const engagement = page.sections[5];
   const ref = page.locale === "cs" ? refContent.cs : refContent.en;
   const referenceSupportCopy = page.locale === "cs"
-    ? "Jde o typy spolupráce, které vyžadují víc než samotnou implementaci: architekturu, samostatnost, provozní realitu a schopnost navázat na existující tým nebo systém."
-    : "These are delivery situations that need more than implementation alone: architecture judgement, autonomy, operational awareness, and the ability to work on top of an existing team or system.";
+    ? "Typicky jde o interní systémy, klientské portály, integrační logiku, automatizace workflow, takeover nebo další rozvoj existujících aplikací."
+    : "Typical work includes internal systems, client portals, integration logic, workflow automation, takeover, and ongoing development of existing applications.";
 
   return (
     <>
@@ -291,7 +291,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
             <p>{page.hero.subtitle}</p>
             <div className="hero-actions">
               <Link className="button button-primary" href={page.cta.href}>
-                {page.locale === "cs" ? "Popsat projekt" : "Discuss project"}
+                {page.locale === "cs" ? "Popsat projekt" : "Describe project"}
               </Link>
               {page.hero.secondaryCta ? (
                 <Link className="button button-secondary" href={page.hero.secondaryCta.href}>
@@ -307,7 +307,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-about-copy">
             <h2 className="section-kicker">{page.locale === "cs" ? "O mně" : "About"}</h2>
-            <h3 className="section-title">{page.locale === "cs" ? "Dodávám webové aplikace a takeover projekty tam, kde software řeší důležitý firemní proces." : "I deliver custom web applications and takeover work where software supports an important business process."}</h3>
+            <h3 className="section-title">{page.locale === "cs" ? "Seniorní technický partner pro vývoj, převzetí a rozvoj firemních webových aplikací." : "Senior technical partner for building, taking over, and improving business web applications."}</h3>
             <div className="section-copy">
               {page.intro.map((p) => (
                 <p key={p}>{p}</p>
@@ -413,7 +413,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-section-intro">
             <h2 className="section-kicker">{page.locale === "cs" ? "Projekty a reference" : "Projects and references"}</h2>
-            <p className="section-lead">{page.locale === "cs" ? "Původní web stál na konkrétních projektových zkušenostech. Tuhle vrstvu vracím i sem, bez nafukování a bez vymyšlených metrik." : "The original site leaned on real delivery experience. That layer belongs here too, without inflated claims or invented metrics."}</p>
+            <p className="section-lead">{page.locale === "cs" ? "Pracuji na projektech, kde software není jen prezentační vrstva, ale součást reálného provozu firmy." : "I work on projects where software is not just a presentation layer, but part of how the company operates."}</p>
             <p className="section-lead">{referenceSupportCopy}</p>
           </div>
           <div className="home-references-grid">
@@ -499,8 +499,8 @@ function HomeTemplateBody({ page }: TemplateProps) {
 
       <section className="home-contact-section" id="contact">
         <div className="shell contact-shell">
-          <h2>{page.locale === "cs" ? "Máte projekt, který potřebuje stabilní vývoj, takeover nebo seniorní kapacitu?" : "Do you have a project that needs stable delivery, app takeover, or senior contract support?"}</h2>
-          <p>{page.locale === "cs" ? "Ozvěte se a probereme další krok." : "Reach out and we can discuss the next step."}</p>
+          <h2>{page.locale === "cs" ? "Máte konkrétní projekt nebo situaci?" : "Do you have a specific project or situation?"}</h2>
+          <p>{page.locale === "cs" ? "Napište pár vět. Navrhnu další krok nebo řeknu otevřeně, pokud spolupráce nebude dávat smysl." : "Send a short description. I will suggest the next step or say directly if the collaboration is not a good fit."}</p>
           <div className="contact-links">
             <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
             <span className="contact-divider" aria-hidden="true">|</span>
@@ -513,7 +513,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
           </div>
           <div className="contact-cta">
             <Link className="button button-dark" href={page.cta.href}>
-              {page.locale === "cs" ? "Kontakt" : "Contact"}
+              {page.locale === "cs" ? "Popsat projekt" : "Describe project"}
             </Link>
           </div>
         </div>

@@ -308,7 +308,7 @@ img {
   grid-template-columns: 1fr;
 }
 
-.page-stack > section:not(.home-dark-section):not(.home-faq-section):not(.home-about-section):not(.home-hero-section):not(.home-services-section):not(.home-references-section):not(.home-contact-section) {
+.page-stack > section:not(.home-dark-section):not(.home-faq-section):not(.home-about-section):not(.home-hero-section):not(.home-services-section):not(.home-proof-section):not(.home-references-section):not(.home-contact-section) {
   width: min(100% - 2rem, 80rem);
   margin: 0 auto;
 }
@@ -585,6 +585,15 @@ img {
   color: #475569;
   font-size: 1.125rem;
   line-height: 1.7;
+}
+
+.section-copy p {
+  margin: 0;
+}
+
+.home-about-section .section-copy {
+  gap: 0.65rem;
+  line-height: 1.6;
 }
 
 .home-services-section,
@@ -1383,7 +1392,7 @@ img {
 
 @media (max-width: 640px) {
   .shell,
-  .page-stack > section:not(.home-dark-section):not(.home-faq-section):not(.home-about-section):not(.home-hero-section):not(.home-services-section):not(.home-references-section):not(.home-contact-section),
+  .page-stack > section:not(.home-dark-section):not(.home-faq-section):not(.home-about-section):not(.home-hero-section):not(.home-services-section):not(.home-proof-section):not(.home-references-section):not(.home-contact-section),
   .chooser-panel,
   .band-shell,
   .page-stack-generic .hero-inner {
