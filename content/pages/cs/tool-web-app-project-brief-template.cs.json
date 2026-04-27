@@ -1,0 +1,241 @@
+{
+  "id": "tool-web-app-project-brief-template.cs",
+  "locale": "cs",
+  "slug": "/sablony/brief-na-webovou-aplikaci",
+  "title": "Brief na webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Brief na webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Šablona briefu pro webovou aplikaci na míru: problém, cíle, role, první workflow a omezení projektu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-web-app-project-brief-template",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "brief-na-webovou-aplikaci",
+          "segments": [
+            "sablony",
+            "brief-na-webovou-aplikaci"
+          ],
+          "title": "Brief na webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Brief na webovou aplikaci: co si ujasnit před startem projektu",
+          "description": "Šablona briefu pro webovou aplikaci na míru: problém, cíle, role, první workflow a omezení projektu.",
+          "primaryQuery": "brief na webovou aplikaci",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Krátký brief často ušetří týdny chaosu",
+            "subtitle": "Stačí pojmenovat problém, cíl, uživatele a první důležitý workflow. Není potřeba psát stostránkovou specifikaci.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Dobře připravený brief pomůže sladit očekávání a zkrátit cestu k první smysluplné etapě.",
+            "Nejde o formální dokument pro výběrové řízení. Jde o praktický podklad pro rozhodnutí, jak projekt uchopit a kde začít."
+          ],
+          "sections": [
+            {
+              "title": "Co má šablona pokrýt",
+              "body": [
+                "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku."
+              ],
+              "bullets": [
+                "jaký problém má aplikace řešit",
+                "kdo ji bude používat",
+                "jaký workflow musí zvládnout první verze",
+                "jaká jsou technická a provozní omezení"
+              ]
+            },
+            {
+              "title": "Jak ji použít v praxi",
+              "body": [
+                "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede."
+              ],
+              "bullets": [
+                "před úvodním hovorem",
+                "při interním srovnání priorit",
+                "jako podklad pro první scope workshop"
+              ]
+            },
+            {
+              "title": "Jaký výsledek to má přinést",
+              "body": [
+                "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku."
+              ],
+              "bullets": [
+                "rychlejší orientace v projektu",
+                "méně nejasností kolem první etapy",
+                "lepší očekávání na obou stranách"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí brief obsahovat všechny funkce?",
+              "answer": "Ne. Důležitější je problém, cíl, role a první důležitý workflow."
+            },
+            {
+              "question": "Je to vhodné i pro takeover projekt?",
+              "answer": "Částečně ano, ale takeover obvykle potřebuje navíc technický checklist, přístupy a mapu rizik."
+            },
+            {
+              "question": "Může brief připravit i netechnický člověk?",
+              "answer": "Ano. Business pohled je pro začátek často nejdůležitější."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "inquiry",
+            "process-delivery"
+          ],
+          "fit": {
+            "for": [
+              "rychlejší orientace v projektu",
+              "méně nejasností kolem první etapy",
+              "lepší očekávání na obou stranách"
+            ],
+            "notFor": [
+              "sběr detailů bez dalšího rozhodnutí"
+            ]
+          },
+          "seo": {
+            "title": "Brief na webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Šablona briefu pro webovou aplikaci na míru: problém, cíle, role, první workflow a omezení projektu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-web-app-project-brief-template.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Krátký brief často ušetří týdny chaosu",
+        "body": "Stačí pojmenovat problém, cíl, uživatele a první důležitý workflow. Není potřeba psát stostránkovou specifikaci.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Dobře připravený brief pomůže sladit očekávání a zkrátit cestu k první smysluplné etapě.\n\nNejde o formální dokument pro výběrové řízení. Jde o praktický podklad pro rozhodnutí, jak projekt uchopit a kde začít."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má šablona pokrýt",
+        "body": "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku.",
+        "items": [
+          "jaký problém má aplikace řešit",
+          "kdo ji bude používat",
+          "jaký workflow musí zvládnout první verze",
+          "jaká jsou technická a provozní omezení"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ji použít v praxi",
+        "body": "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede.",
+        "items": [
+          "před úvodním hovorem",
+          "při interním srovnání priorit",
+          "jako podklad pro první scope workshop"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek to má přinést",
+        "body": "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku.",
+        "items": [
+          "rychlejší orientace v projektu",
+          "méně nejasností kolem první etapy",
+          "lepší očekávání na obou stranách"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí brief obsahovat všechny funkce?",
+            "answer": "Ne. Důležitější je problém, cíl, role a první důležitý workflow."
+          },
+          {
+            "question": "Je to vhodné i pro takeover projekt?",
+            "answer": "Částečně ano, ale takeover obvykle potřebuje navíc technický checklist, přístupy a mapu rizik."
+          },
+          {
+            "question": "Může brief připravit i netechnický člověk?",
+            "answer": "Ano. Business pohled je pro začátek často nejdůležitější."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

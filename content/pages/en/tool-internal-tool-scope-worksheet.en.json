@@ -1,0 +1,245 @@
+{
+  "id": "tool-internal-tool-scope-worksheet.en",
+  "locale": "en",
+  "slug": "/templates/internal-tool-scope-worksheet",
+  "title": "Internal tool scope worksheet | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal tool scope worksheet | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical scope worksheet for internal tools covering workflow, roles, states, exceptions, data sources, and the boundary of the first release.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-internal-tool-scope-worksheet",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "internal-tool-scope-worksheet",
+          "segments": [
+            "templates",
+            "internal-tool-scope-worksheet"
+          ],
+          "title": "Internal tool scope worksheet | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Internal tool scope worksheet for custom operations software",
+          "description": "A practical scope worksheet for internal tools covering workflow, roles, states, exceptions, data sources, and the boundary of the first release.",
+          "primaryQuery": "internal tool scope worksheet",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "Internal tools are scoped better when you start with the process, not a screen list",
+            "subtitle": "A working template for companies that need to clarify roles, workflow, exception paths, and the first delivery boundary for an internal system.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "This worksheet helps turn a scattered internal process into a workable project frame. It is useful when the company knows it needs an internal tool but wants to avoid drifting into a giant wish list.",
+            "The important part is not the feature catalogue. It is clarifying who does what, which states matter, where exceptions appear, and what the first release must actually solve."
+          ],
+          "sections": [
+            {
+              "title": "What the asset should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision."
+              ],
+              "bullets": [
+                "main roles and responsibility boundaries",
+                "core workflow and process states",
+                "exceptions, approvals, and handoffs",
+                "data sources and the first-release boundary"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake."
+              ],
+              "bullets": [
+                "before a scoping workshop",
+                "for internal alignment between business and delivery",
+                "as input to the first estimate and technical framing"
+              ]
+            },
+            {
+              "title": "What result it should create",
+              "body": [
+                "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions."
+              ],
+              "bullets": [
+                "a more realistic first scope",
+                "less overscoping pressure",
+                "better conversations about first-release priorities",
+                "a stronger base for an internal tool or workflow app"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is it useful without an internal engineering team?",
+              "answer": "Yes. It is especially useful for business owners and operations stakeholders shaping the brief before technical work starts."
+            },
+            {
+              "question": "Does the worksheet replace deeper analysis?",
+              "answer": "No. It is a working input that improves the quality of the later scoping and decision work."
+            },
+            {
+              "question": "Is it still useful for a smaller first phase?",
+              "answer": "Yes. That is exactly where the worksheet helps separate must-haves from the rest."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "guide-when-internal-tool-better-than-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies scoping an internal tool for the first time",
+              "teams trying to narrow the first version",
+              "projects with several roles and workflow states"
+            ],
+            "notFor": [
+              "simple record-keeping with no process logic",
+              "projects with no business owner",
+              "design-only work with no operational context"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If you want help turning this into an actual delivery plan, a short context summary is enough."
+          },
+          "seo": {
+            "title": "Internal tool scope worksheet | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical scope worksheet for internal tools covering workflow, roles, states, exceptions, data sources, and the boundary of the first release."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-internal-tool-scope-worksheet.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "Internal tools are scoped better when you start with the process, not a screen list",
+        "body": "A working template for companies that need to clarify roles, workflow, exception paths, and the first delivery boundary for an internal system.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "This worksheet helps turn a scattered internal process into a workable project frame. It is useful when the company knows it needs an internal tool but wants to avoid drifting into a giant wish list.\n\nThe important part is not the feature catalogue. It is clarifying who does what, which states matter, where exceptions appear, and what the first release must actually solve."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the asset should cover",
+        "body": "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision.",
+        "items": [
+          "main roles and responsibility boundaries",
+          "core workflow and process states",
+          "exceptions, approvals, and handoffs",
+          "data sources and the first-release boundary"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake.",
+        "items": [
+          "before a scoping workshop",
+          "for internal alignment between business and delivery",
+          "as input to the first estimate and technical framing"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What result it should create",
+        "body": "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions.",
+        "items": [
+          "a more realistic first scope",
+          "less overscoping pressure",
+          "better conversations about first-release priorities",
+          "a stronger base for an internal tool or workflow app"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is it useful without an internal engineering team?",
+            "answer": "Yes. It is especially useful for business owners and operations stakeholders shaping the brief before technical work starts."
+          },
+          {
+            "question": "Does the worksheet replace deeper analysis?",
+            "answer": "No. It is a working input that improves the quality of the later scoping and decision work."
+          },
+          {
+            "question": "Is it still useful for a smaller first phase?",
+            "answer": "Yes. That is exactly where the worksheet helps separate must-haves from the rest."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If you want help turning this into an actual delivery plan, a short context summary is enough.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

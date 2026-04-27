@@ -1,0 +1,10 @@
+{
+  "name": "Siteflow Website",
+  "defaultLocale": "cs",
+  "seo": {
+    "title": "Siteflow Website",
+    "description": "A CMS-ready static website powered by repository content.",
+    "indexable": true
+  },
+  "theme": "light"
+}

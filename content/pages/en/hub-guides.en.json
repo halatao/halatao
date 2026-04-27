@@ -1,0 +1,230 @@
+{
+  "id": "hub-guides.en",
+  "locale": "en",
+  "slug": "/guides",
+  "title": "Guides for scoping, takeover, and software buying decisions | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Guides for scoping, takeover, and software buying decisions | Bc. O...",
+    "description": "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and d...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-guides",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "guides",
+          "segments": [
+            "guides"
+          ],
+          "title": "Guides for scoping, takeover, and software buying decisions | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Guides for companies clarifying a project before delivery starts",
+          "description": "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and deciding on senior contract support.",
+          "primaryQuery": "Guides for companies clarifying a project before delivery starts",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Guides for pre-project clarity, not generic developer-blog traffic",
+            "subtitle": "For buyers trying to clarify scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These guide pages are designed to improve the quality of early project decisions and reduce avoidable delivery confusion.",
+            "The section covers project scoping, inherited-app takeover, takeover pricing, internal tool vs SaaS, and the question of when AI fits a business process versus when simpler automation or workflow changes should come first."
+          ],
+          "sections": [
+            {
+              "title": "What this section covers",
+              "body": [
+                "Each guide is organised around a direct answer, a recommended approach, common mistakes, and the kind of decision result the guide should create."
+              ]
+            },
+            {
+              "title": "When this section is most useful",
+              "body": [
+                "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction."
+              ],
+              "bullets": [
+                "buyers preparing the first serious delivery phase",
+                "teams clarifying scope or takeover decisions",
+                "companies pressure-testing build-vs-buy or staffing choices"
+              ]
+            },
+            {
+              "title": "How to continue",
+              "body": [
+                "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path."
+              ],
+              "bullets": [
+                "open the guide that matches the current uncertainty",
+                "continue into the linked service or template pages",
+                "move to inquiry once the decision is concrete enough to discuss directly"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Are these guides aimed only at technical teams?",
+              "answer": "No. They are written for commercial and delivery-side readers as much as for engineers."
+            },
+            {
+              "question": "Do they connect back to the services?",
+              "answer": "Yes. Every guide is linked to the most relevant commercial path."
+            },
+            {
+              "question": "Are they useful in urgent situations?",
+              "answer": "Yes, especially for inherited-app takeover and takeover pricing decisions."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-price-an-app-takeover",
+            "guide-when-internal-tool-better-than-saas",
+            "guide-when-project-needs-senior-contract-support",
+            "guide-when-ai-integration-makes-sense"
+          ],
+          "fit": {
+            "for": [
+              "buyers preparing the first serious delivery phase",
+              "teams clarifying scope or takeover decisions",
+              "companies pressure-testing build-vs-buy or staffing choices"
+            ],
+            "notFor": [
+              "passive reading with no live project context"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If this section matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "Guides for scoping, takeover, and software buying decisions | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and deciding on senior contract support."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-guides.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Guides for pre-project clarity, not generic developer-blog traffic",
+        "body": "For buyers trying to clarify scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These guide pages are designed to improve the quality of early project decisions and reduce avoidable delivery confusion.\n\nThe section covers project scoping, inherited-app takeover, takeover pricing, internal tool vs SaaS, and the question of when AI fits a business process versus when simpler automation or workflow changes should come first."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What this section covers",
+        "body": "Each guide is organised around a direct answer, a recommended approach, common mistakes, and the kind of decision result the guide should create."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this section is most useful",
+        "body": "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction.",
+        "items": [
+          "buyers preparing the first serious delivery phase",
+          "teams clarifying scope or takeover decisions",
+          "companies pressure-testing build-vs-buy or staffing choices"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue",
+        "body": "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path.",
+        "items": [
+          "open the guide that matches the current uncertainty",
+          "continue into the linked service or template pages",
+          "move to inquiry once the decision is concrete enough to discuss directly"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Are these guides aimed only at technical teams?",
+            "answer": "No. They are written for commercial and delivery-side readers as much as for engineers."
+          },
+          {
+            "question": "Do they connect back to the services?",
+            "answer": "Yes. Every guide is linked to the most relevant commercial path."
+          },
+          {
+            "question": "Are they useful in urgent situations?",
+            "answer": "Yes, especially for inherited-app takeover and takeover pricing decisions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If this section matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "problem-replace-spreadsheets-in-process.en",
+  "locale": "en",
+  "slug": "/problems/we-need-to-replace-spreadsheets-in-an-operational-process",
+  "title": "Replace spreadsheets in an operational process | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Replace spreadsheets in an operational process | Bc. Ondrej Halata...",
+    "description": "I help companies move an operationally important process out of spreadsheets, shared email, and manual tracking into a system with clear workflow and ownership.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-replace-spreadsheets-in-process",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "problem",
+          "slug": "we-need-to-replace-spreadsheets-in-an-operational-process",
+          "segments": [
+            "problems",
+            "we-need-to-replace-spreadsheets-in-an-operational-process"
+          ],
+          "title": "Replace spreadsheets in an operational process | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "We need to replace spreadsheets in an operational process without adding more chaos",
+          "description": "I help companies move an operationally important process out of spreadsheets, shared email, and manual tracking into a system with clear workflow and ownership.",
+          "primaryQuery": "replace spreadsheets in an operational process",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situation",
+            "title": "Spreadsheets were a good start, but now they are slowing the process down",
+            "subtitle": "A common situation where shared spreadsheets, email, and manual state tracking increase errors and waste time across several roles.",
+            "primaryCta": {
+              "label": "Discuss this situation",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Spreadsheets are not the problem by themselves. The problem starts when shared sheets are acting as the system of record for states, ownership, approvals, and handoffs.",
+            "The stronger first move is not designing a broad internal tool. It is identifying where spreadsheets and email create the most friction and shaping a first migration phase around that bottleneck."
+          ],
+          "sections": [
+            {
+              "title": "Typical symptoms",
+              "body": [
+                "If an important operational process stays in spreadsheets for too long, the cost is not only frustration. Coordination gets more expensive, error rates rise, and the company becomes dependent on the people who know how to hold it together manually."
+              ],
+              "bullets": [
+                "the same data is re-entered across spreadsheets, email, and other tools",
+                "ownership of the next step or current state is unclear",
+                "different people work from different versions of reality",
+                "exceptions and approvals create avoidable operational errors"
+              ]
+            },
+            {
+              "title": "How I approach it",
+              "body": [
+                "I start by mapping sheets, fields, manual steps, exceptions, and the points where information splits apart. Only then does it make sense to design the first migration phase into a system that simplifies operations instead of copying the spreadsheet into a new UI."
+              ]
+            },
+            {
+              "title": "What a good outcome looks like",
+              "body": [
+                "The goal is not a quick patch. The goal is to restore control, confidence, and a practical next step."
+              ],
+              "bullets": [
+                "less manual coordination and re-entry",
+                "clearer ownership of the workflow state",
+                "better traceability of exceptions and decisions",
+                "a stronger base for reporting and automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do we need to replace every spreadsheet at once?",
+              "answer": "No. It is often better to start with one operationally critical part of the process and build the first internal-system phase around that."
+            },
+            {
+              "question": "Would stricter spreadsheet discipline be cheaper?",
+              "answer": "Sometimes in the short term. But once the process involves roles, exceptions, and handoffs, better discipline rarely removes the underlying operational complexity."
+            },
+            {
+              "question": "Is this relevant for a smaller company too?",
+              "answer": "Yes, if the process is already slowing people down, creating errors, or causing too much dependence on manual coordination."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "comparison-internal-tool-vs-spreadsheets",
+            "tool-internal-tool-scope-worksheet",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies running an important workflow in spreadsheets and email",
+              "teams with several roles, states, and exceptions",
+              "situations where manual coordination needs to be replaced with owned software"
+            ],
+            "notFor": [
+              "simple one-off tracking with no workflow",
+              "processes with no owner or decision-maker",
+              "attempts to digitise chaos without understanding how operations really work"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the current state and the main risk is enough to start."
+          },
+          "seo": {
+            "title": "Replace spreadsheets in an operational process | Bc. Ondrej Halata (halatao.cz)",
+            "description": "I help companies move an operationally important process out of spreadsheets, shared email, and manual tracking into a system with clear workflow and ownership."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-replace-spreadsheets-in-process.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situation",
+        "heading": "Spreadsheets were a good start, but now they are slowing the process down",
+        "body": "A common situation where shared spreadsheets, email, and manual state tracking increase errors and waste time across several roles.",
+        "ctaLabel": "Discuss this situation",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Spreadsheets are not the problem by themselves. The problem starts when shared sheets are acting as the system of record for states, ownership, approvals, and handoffs.\n\nThe stronger first move is not designing a broad internal tool. It is identifying where spreadsheets and email create the most friction and shaping a first migration phase around that bottleneck."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical symptoms",
+        "body": "If an important operational process stays in spreadsheets for too long, the cost is not only frustration. Coordination gets more expensive, error rates rise, and the company becomes dependent on the people who know how to hold it together manually.",
+        "items": [
+          "the same data is re-entered across spreadsheets, email, and other tools",
+          "ownership of the next step or current state is unclear",
+          "different people work from different versions of reality",
+          "exceptions and approvals create avoidable operational errors"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I approach it",
+        "body": "I start by mapping sheets, fields, manual steps, exceptions, and the points where information splits apart. Only then does it make sense to design the first migration phase into a system that simplifies operations instead of copying the spreadsheet into a new UI."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a good outcome looks like",
+        "body": "The goal is not a quick patch. The goal is to restore control, confidence, and a practical next step.",
+        "items": [
+          "less manual coordination and re-entry",
+          "clearer ownership of the workflow state",
+          "better traceability of exceptions and decisions",
+          "a stronger base for reporting and automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do we need to replace every spreadsheet at once?",
+            "answer": "No. It is often better to start with one operationally critical part of the process and build the first internal-system phase around that."
+          },
+          {
+            "question": "Would stricter spreadsheet discipline be cheaper?",
+            "answer": "Sometimes in the short term. But once the process involves roles, exceptions, and handoffs, better discipline rarely removes the underlying operational complexity."
+          },
+          {
+            "question": "Is this relevant for a smaller company too?",
+            "answer": "Yes, if the process is already slowing people down, creating errors, or causing too much dependence on manual coordination."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the current state and the main risk is enough to start.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

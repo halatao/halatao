@@ -1,0 +1,286 @@
+{
+  "id": "service-internal-tools-development.cs",
+  "locale": "cs",
+  "slug": "/sluzby/interni-systemy-na-miru",
+  "title": "Interní systém na míru | Workflow, reporting a nahrazení Excelu",
+  "seo": {
+    "title": "Interní systém na míru | Workflow, reporting a nahrazení Excelu",
+    "description": "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, ruční operativu nebo nepřehlednou kombinaci více nástrojů.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-internal-tools-development",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "interni-systemy-na-miru",
+          "segments": [
+            "sluzby",
+            "interni-systemy-na-miru"
+          ],
+          "title": "Interní systém na míru | Workflow, reporting a nahrazení Excelu",
+          "h1": "Interní systém na míru pro operativu, workflow a reporting",
+          "description": "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, ruční operativu nebo nepřehlednou kombinaci více nástrojů.",
+          "primaryQuery": "interní systém na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Služba",
+            "title": "Interní systém na míru místo Excelu, e-mailů a ruční koordinace",
+            "subtitle": "Pro operativu, administrativu, reporting a schvalovací procesy, které už nefungují ve sdílených tabulkách ani v poslepované sadě nástrojů.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Jak spolupráce probíhá",
+              "href": "/cs/jak-spoluprace-probiha"
+            }
+          },
+          "intro": [
+            "Interní systém na míru má smysl tam, kde se opakuje ruční práce, přepisují se data, ztrácí se odpovědnost mezi odděleními nebo vedení nevidí aktuální stav bez ručně skládaných reportů.",
+            "Dobře navržený interní nástroj neslouží jako technologická hračka. Má zrychlit práci lidí, omezit chybovost a dát firmě lepší kontrolu nad důležitým procesem.",
+            "Často není potřeba obrovský projekt, ale první verze, která nahradí Excel, e-maily a ruční operativu v nejslabším místě provozu a vytvoří základ pro další etapy."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tato služba dává smysl",
+              "body": [
+                "Silný fit bývá tam, kde sdílené tabulky, e-maily a několik nespojených nástrojů už přestávají být únosné."
+              ],
+              "bullets": [
+                "interní administrace a backoffice",
+                "workflow a schvalování",
+                "evidence případů, úkolů nebo zakázek",
+                "reporting a manažerské přehledy"
+              ]
+            },
+            {
+              "title": "Co typicky řeším a dodávám",
+              "body": [
+                "Řeším návrh dat, role uživatelů, klíčové obrazovky, vazby na další systémy i to, jak má první verze opravdu pomoci denní práci."
+              ],
+              "bullets": [
+                "procesní návrh a rozpad scope",
+                "full-stack interní systém",
+                "migrace nebo napojení dat",
+                "postupné rozšiřování podle reálného provozu"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Nejčastěji začneme procesním rozsahem, prioritami a první etapou, která má řešit skutečný provozní problém místo nekonečného sběru požadavků."
+              ]
+            },
+            {
+              "title": "Jaký výsledek má spolupráce přinést",
+              "body": [
+                "Výsledek má ulevit operativě, zpřehlednit odpovědnosti a umožnit firmě pracovat s daty i workflow pod vlastní kontrolou."
+              ],
+              "bullets": [
+                "méně přepisování a ruční koordinace",
+                "nižší chybovost",
+                "lepší dohledatelnost stavu práce",
+                "pevnější základ pro reporting a další automatizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Není levnější koupit hotový interní nástroj?",
+              "answer": "Někdy ano. Pokud ale potřebujete vlastní logiku, více oddělení, specifické role nebo integrace, bývá vlastní systém dlouhodobě praktičtější."
+            },
+            {
+              "question": "Musí být interní systém velký projekt?",
+              "answer": "Nemusí. Často dává smysl začít jednou oblastí, která firmu brzdí nejvíc, a teprve potom přidávat další moduly."
+            },
+            {
+              "question": "Pomůžete i s převodem z tabulek nebo starých nástrojů?",
+              "answer": "Ano. Součástí může být migrace dat, napojení na stávající systémy i postupný přechod bez tvrdého vypnutí starého řešení."
+            },
+            {
+              "question": "Dá se interní systém spojit s reportingem?",
+              "answer": "Ano. Reporting dává největší smysl tam, kde stojí na kvalitních datech z každodenního provozu."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "comparison-internal-tool-vs-spreadsheets",
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "use-case-internal-admin-system",
+            "use-case-service-team-ops-system",
+            "service-ai-automation-and-integrations",
+            "use-case-ai-internal-documents",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy, kterým nestačí sdílené tabulky a e-maily",
+              "provozy s více rolemi a odpovědnostmi",
+              "týmy, které chtějí lepší dohled nad operativou"
+            ],
+            "notFor": [
+              "jednoduchá evidence pro jednoho uživatele",
+              "projekty bez vlastníka procesu na straně klienta",
+              "nákup hotového SaaS bez potřeby přizpůsobení"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku."
+          },
+          "seo": {
+            "title": "Interní systém na míru | Workflow, reporting a nahrazení Excelu",
+            "description": "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, ruční operativu nebo nepřehlednou kombinaci více nástrojů."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-internal-tools-development.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Služba",
+        "heading": "Interní systém na míru místo Excelu, e-mailů a ruční koordinace",
+        "body": "Pro operativu, administrativu, reporting a schvalovací procesy, které už nefungují ve sdílených tabulkách ani v poslepované sadě nástrojů.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Jak spolupráce probíhá",
+        "secondaryCtaHref": "/cs/jak-spoluprace-probiha"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Interní systém na míru má smysl tam, kde se opakuje ruční práce, přepisují se data, ztrácí se odpovědnost mezi odděleními nebo vedení nevidí aktuální stav bez ručně skládaných reportů.\n\nDobře navržený interní nástroj neslouží jako technologická hračka. Má zrychlit práci lidí, omezit chybovost a dát firmě lepší kontrolu nad důležitým procesem.\n\nČasto není potřeba obrovský projekt, ale první verze, která nahradí Excel, e-maily a ruční operativu v nejslabším místě provozu a vytvoří základ pro další etapy."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tato služba dává smysl",
+        "body": "Silný fit bývá tam, kde sdílené tabulky, e-maily a několik nespojených nástrojů už přestávají být únosné.",
+        "items": [
+          "interní administrace a backoffice",
+          "workflow a schvalování",
+          "evidence případů, úkolů nebo zakázek",
+          "reporting a manažerské přehledy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co typicky řeším a dodávám",
+        "body": "Řeším návrh dat, role uživatelů, klíčové obrazovky, vazby na další systémy i to, jak má první verze opravdu pomoci denní práci.",
+        "items": [
+          "procesní návrh a rozpad scope",
+          "full-stack interní systém",
+          "migrace nebo napojení dat",
+          "postupné rozšiřování podle reálného provozu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Nejčastěji začneme procesním rozsahem, prioritami a první etapou, která má řešit skutečný provozní problém místo nekonečného sběru požadavků."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek má spolupráce přinést",
+        "body": "Výsledek má ulevit operativě, zpřehlednit odpovědnosti a umožnit firmě pracovat s daty i workflow pod vlastní kontrolou.",
+        "items": [
+          "méně přepisování a ruční koordinace",
+          "nižší chybovost",
+          "lepší dohledatelnost stavu práce",
+          "pevnější základ pro reporting a další automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Není levnější koupit hotový interní nástroj?",
+            "answer": "Někdy ano. Pokud ale potřebujete vlastní logiku, více oddělení, specifické role nebo integrace, bývá vlastní systém dlouhodobě praktičtější."
+          },
+          {
+            "question": "Musí být interní systém velký projekt?",
+            "answer": "Nemusí. Často dává smysl začít jednou oblastí, která firmu brzdí nejvíc, a teprve potom přidávat další moduly."
+          },
+          {
+            "question": "Pomůžete i s převodem z tabulek nebo starých nástrojů?",
+            "answer": "Ano. Součástí může být migrace dat, napojení na stávající systémy i postupný přechod bez tvrdého vypnutí starého řešení."
+          },
+          {
+            "question": "Dá se interní systém spojit s reportingem?",
+            "answer": "Ano. Reporting dává největší smysl tam, kde stojí na kvalitních datech z každodenního provozu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "problem-app-takeover.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci",
+  "title": "Převzetí rozpracované aplikace | Jak bezpečně převzít cizí systém",
+  "seo": {
+    "title": "Převzetí rozpracované aplikace | Jak bezpečně převzít cizí systém",
+    "description": "Pomohu firmě bezpečně převzít rozpracovanou nebo cizí aplikaci, zmapovat technická a provozní rizika a navrhnout další postup bez zbytečného chaosu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-app-takeover",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-prevzit-rozpracovanou-aplikaci",
+          "segments": [
+            "problemy",
+            "potrebujeme-prevzit-rozpracovanou-aplikaci"
+          ],
+          "title": "Převzetí rozpracované aplikace | Jak bezpečně převzít cizí systém",
+          "h1": "Jak bezpečně převzít rozpracovanou nebo cizí aplikaci",
+          "description": "Pomohu firmě bezpečně převzít rozpracovanou nebo cizí aplikaci, zmapovat technická a provozní rizika a navrhnout další postup bez zbytečného chaosu.",
+          "primaryQuery": "převzetí rozpracované aplikace",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Rozpracovaná aplikace běží, ale další krok je riskantní",
+            "subtitle": "Typická situace po změně dodavatele, odchodu vývojáře nebo u projektu, kde chybí technické vedení a jistota dalšího postupu.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Převzetí cizí nebo rozpracované aplikace je citlivý moment. Firma potřebuje pokračovat, ale zároveň nechce rozbít provoz ani investovat do technického směru, který se za pár měsíců ukáže jako slepá ulička.",
+            "Největší riziko bývá v neznámých závislostech, nepřehledném release procesu a v tom, že důležité znalosti zůstaly u původního dodavatele.",
+            "Proto dává smysl nejdřív zmapovat realitu systému a až potom rozhodovat, co stabilizovat, co zjednodušit a co případně přepsat."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Bez úvodního zmapování se snadno opravují jen viditelné symptomy a zůstávají skryté provozní i rozvojové blokátory."
+              ],
+              "bullets": [
+                "kód bez dokumentace a bez jasné architektury",
+                "nejistota kolem nasazení a prostředí",
+                "strach sahat do funkční části systému",
+                "roadmapa stojí kvůli technickým neznámým"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám orientací v systému, závislostech, provozu a kritických scénářích. Z toho vznikne prioritizovaný plán, který kombinuje stabilizaci, zrychlení dalšího vývoje a realistickou míru změn."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty."
+              ],
+              "bullets": [
+                "jasnější přehled o rizicích",
+                "bezpečnější rozhodování o změnách",
+                "rychlejší navázání dalšího vývoje",
+                "menší tlak na nepromyšlený rewrite"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je potřeba kompletní přístup ke všemu hned na začátku?",
+              "answer": "Ideálně ano, ale často se postupuje po vrstvách. Nejdůležitější jsou repozitáře, prostředí, deployment a lidé, kteří znají byznys kontext."
+            },
+            {
+              "question": "Jak rychle poznáme, jestli je nutný větší zásah?",
+              "answer": "První audit obvykle rychle ukáže, kde je skutečné riziko. Teprve pak má smysl bavit se o větším refaktoru nebo rewritu."
+            },
+            {
+              "question": "Dá se převzetí zvládnout i během běžícího provozu?",
+              "answer": "Ano. U většiny takeover projektů je to nutnost. Právě proto preferuji postupné mapování a stabilizaci místo tvrdých řezů bez kontextu."
+            },
+            {
+              "question": "Můžete pak pokračovat i realizací?",
+              "answer": "Ano. Mohu navázat dlouhodobější spoluprací nebo předat strukturovaný plán vašemu internímu týmu."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-modernize-legacy-app",
+            "problem-rescue-incomplete-project",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "guide-how-to-decide-app-needs-rewrite",
+            "tool-release-stabilization-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy po změně dodavatele",
+              "produkty s nejasnou technickou situací",
+              "týmy, které potřebují znovu získat kontrolu nad aplikací"
+            ],
+            "notFor": [
+              "čistě obsahové weby bez aplikace",
+              "okamžitý redesign bez technického zásahu",
+              "situace bez přístupu do zdrojů a prostředí"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte."
+          },
+          "seo": {
+            "title": "Převzetí rozpracované aplikace | Jak bezpečně převzít cizí systém",
+            "description": "Pomohu firmě bezpečně převzít rozpracovanou nebo cizí aplikaci, zmapovat technická a provozní rizika a navrhnout další postup bez zbytečného chaosu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-app-takeover.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Rozpracovaná aplikace běží, ale další krok je riskantní",
+        "body": "Typická situace po změně dodavatele, odchodu vývojáře nebo u projektu, kde chybí technické vedení a jistota dalšího postupu.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Převzetí cizí nebo rozpracované aplikace je citlivý moment. Firma potřebuje pokračovat, ale zároveň nechce rozbít provoz ani investovat do technického směru, který se za pár měsíců ukáže jako slepá ulička.\n\nNejvětší riziko bývá v neznámých závislostech, nepřehledném release procesu a v tom, že důležité znalosti zůstaly u původního dodavatele.\n\nProto dává smysl nejdřív zmapovat realitu systému a až potom rozhodovat, co stabilizovat, co zjednodušit a co případně přepsat."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Bez úvodního zmapování se snadno opravují jen viditelné symptomy a zůstávají skryté provozní i rozvojové blokátory.",
+        "items": [
+          "kód bez dokumentace a bez jasné architektury",
+          "nejistota kolem nasazení a prostředí",
+          "strach sahat do funkční části systému",
+          "roadmapa stojí kvůli technickým neznámým"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám orientací v systému, závislostech, provozu a kritických scénářích. Z toho vznikne prioritizovaný plán, který kombinuje stabilizaci, zrychlení dalšího vývoje a realistickou míru změn."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty.",
+        "items": [
+          "jasnější přehled o rizicích",
+          "bezpečnější rozhodování o změnách",
+          "rychlejší navázání dalšího vývoje",
+          "menší tlak na nepromyšlený rewrite"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je potřeba kompletní přístup ke všemu hned na začátku?",
+            "answer": "Ideálně ano, ale často se postupuje po vrstvách. Nejdůležitější jsou repozitáře, prostředí, deployment a lidé, kteří znají byznys kontext."
+          },
+          {
+            "question": "Jak rychle poznáme, jestli je nutný větší zásah?",
+            "answer": "První audit obvykle rychle ukáže, kde je skutečné riziko. Teprve pak má smysl bavit se o větším refaktoru nebo rewritu."
+          },
+          {
+            "question": "Dá se převzetí zvládnout i během běžícího provozu?",
+            "answer": "Ano. U většiny takeover projektů je to nutnost. Právě proto preferuji postupné mapování a stabilizaci místo tvrdých řezů bez kontextu."
+          },
+          {
+            "question": "Můžete pak pokračovat i realizací?",
+            "answer": "Ano. Mohu navázat dlouhodobější spoluprací nebo předat strukturovaný plán vašemu internímu týmu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

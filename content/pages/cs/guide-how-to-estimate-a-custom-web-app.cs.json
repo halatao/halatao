@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-estimate-a-custom-web-app.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-nacenit-webovou-aplikaci",
+  "title": "Jak nacenit webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak nacenit webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce, jak přemýšlet o nacenění webové aplikace na míru bez nereálných slibů a bez slepého střílení hodin.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-estimate-a-custom-web-app",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-nacenit-webovou-aplikaci",
+          "segments": [
+            "pruvodce",
+            "jak-nacenit-webovou-aplikaci"
+          ],
+          "title": "Jak nacenit webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak nacenit webovou aplikaci bez falešné přesnosti",
+          "description": "Praktický průvodce, jak přemýšlet o nacenění webové aplikace na míru bez nereálných slibů a bez slepého střílení hodin.",
+          "primaryQuery": "jak nacenit webovou aplikaci",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "Dobrá cena nevzniká z věštění, ale z rozumného rozdělení rizika",
+            "subtitle": "Smysl má chápat hlavní cost drivers, rozsah první etapy a to, co je ještě neznámé.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Odhad webové aplikace nebývá přesný proto, že by vývojáři neuměli počítat. Nepřesnost vzniká hlavně z nejasného scope a z neznámých rizik.",
+            "Rozumný odhad proto stojí na dělení projektu do etap a na pojmenování toho, co je jisté, co je přibližné a co je zatím hypotéza."
+          ],
+          "sections": [
+            {
+              "title": "Co cenu ovlivňuje nejvíc",
+              "body": [
+                "Nejde jen o počet obrazovek. Důležitější bývá komplexita workflow, role, integrace, datový model a požadavky na provoz."
+              ],
+              "bullets": [
+                "více rolí a oprávnění",
+                "integrace a import/export dat",
+                "výjimky ve workflow",
+                "provozní a bezpečnostní nároky"
+              ]
+            },
+            {
+              "title": "Jak odhad zpřesnit bez zbytečné byrokracie",
+              "body": [
+                "Nejlepší cesta bývá rozpad na první etapu, jasný cíl a pojmenování rizik, která se musí ověřit v praxi."
+              ]
+            },
+            {
+              "title": "Čemu se vyhnout",
+              "body": [
+                "Nejhorší variantou je trvat na velmi přesném čísle ve chvíli, kdy ještě není jasné, co přesně má být dodané a co se ukáže až během práce."
+              ]
+            },
+            {
+              "title": "Jak s odhadem pracovat v projektu",
+              "body": [
+                "Odhad není jednorázový akt. Měl by se zpřesňovat s tím, jak se potvrzují priority a poznává realita projektu."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Lze dát cenu bez specifikace?",
+              "answer": "Lze dát rámcový odhad nebo návrh první etapy. Přesné číslo bez kontextu bývá spíš iluze než užitečná informace."
+            },
+            {
+              "question": "Co je lepší: fixní cena nebo průběžná spolupráce?",
+              "answer": "Záleží na jistotě scope. U vyšší nejistoty bývá bezpečnější dobře řízená etapová spolupráce."
+            },
+            {
+              "question": "Má smysl nacenit nejdřív jen MVP?",
+              "answer": "Ano. To je často nejrozumnější forma prvního odhadu."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "use-case-reporting-dashboard",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "guide-how-to-scope-a-custom-web-application",
+              "service-custom-web-app-development",
+              "use-case-reporting-dashboard",
+              "inquiry"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Jak nacenit webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce, jak přemýšlet o nacenění webové aplikace na míru bez nereálných slibů a bez slepého střílení hodin."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-estimate-a-custom-web-app.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "Dobrá cena nevzniká z věštění, ale z rozumného rozdělení rizika",
+        "body": "Smysl má chápat hlavní cost drivers, rozsah první etapy a to, co je ještě neznámé.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Odhad webové aplikace nebývá přesný proto, že by vývojáři neuměli počítat. Nepřesnost vzniká hlavně z nejasného scope a z neznámých rizik.\n\nRozumný odhad proto stojí na dělení projektu do etap a na pojmenování toho, co je jisté, co je přibližné a co je zatím hypotéza."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co cenu ovlivňuje nejvíc",
+        "body": "Nejde jen o počet obrazovek. Důležitější bývá komplexita workflow, role, integrace, datový model a požadavky na provoz.",
+        "items": [
+          "více rolí a oprávnění",
+          "integrace a import/export dat",
+          "výjimky ve workflow",
+          "provozní a bezpečnostní nároky"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak odhad zpřesnit bez zbytečné byrokracie",
+        "body": "Nejlepší cesta bývá rozpad na první etapu, jasný cíl a pojmenování rizik, která se musí ověřit v praxi."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Čemu se vyhnout",
+        "body": "Nejhorší variantou je trvat na velmi přesném čísle ve chvíli, kdy ještě není jasné, co přesně má být dodané a co se ukáže až během práce."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak s odhadem pracovat v projektu",
+        "body": "Odhad není jednorázový akt. Měl by se zpřesňovat s tím, jak se potvrzují priority a poznává realita projektu."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Lze dát cenu bez specifikace?",
+            "answer": "Lze dát rámcový odhad nebo návrh první etapy. Přesné číslo bez kontextu bývá spíš iluze než užitečná informace."
+          },
+          {
+            "question": "Co je lepší: fixní cena nebo průběžná spolupráce?",
+            "answer": "Záleží na jistotě scope. U vyšší nejistoty bývá bezpečnější dobře řízená etapová spolupráce."
+          },
+          {
+            "question": "Má smysl nacenit nejdřív jen MVP?",
+            "answer": "Ano. To je často nejrozumnější forma prvního odhadu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

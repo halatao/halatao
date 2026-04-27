@@ -1,0 +1,239 @@
+{
+  "id": "problem-requests-offers-delivery-in-spreadsheets.cs",
+  "locale": "cs",
+  "slug": "/problemy/poptavky-nabidky-a-realizace-v-tabulkach-a-emailu",
+  "title": "Poptávky, nabídky a realizace v tabulkách a e-mailu",
+  "seo": {
+    "title": "Poptávky, nabídky a realizace v tabulkách a e-mailu",
+    "description": "Pomohu firmám, kde poptávky, nabídky a realizace zakázek běží přes tabulky, e-mail a ruční dohledávání a celý proces už začíná být nepřehledný a nespolehlivý.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-requests-offers-delivery-in-spreadsheets",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "poptavky-nabidky-a-realizace-v-tabulkach-a-emailu",
+          "segments": [
+            "problemy",
+            "poptavky-nabidky-a-realizace-v-tabulkach-a-emailu"
+          ],
+          "title": "Poptávky, nabídky a realizace v tabulkách a e-mailu",
+          "h1": "Poptávky, nabídky a realizace už se v tabulkách a e-mailu rozpadají",
+          "description": "Pomohu firmám, kde poptávky, nabídky a realizace zakázek běží přes tabulky, e-mail a ruční dohledávání a celý proces už začíná být nepřehledný a nespolehlivý.",
+          "primaryQuery": "poptávky nabídky realizace v excelu",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Proces ještě funguje, ale každý další případ ho víc láme",
+            "subtitle": "Tabulky a e-mail byly dobrý začátek. Teď už ale zvyšují chaos, chybovost a tlak na ruční koordinaci.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tabulky a e-mail bývají přirozený začátek. Problém nastává ve chvíli, kdy se nad stejnou zakázkou potkává více lidí, více stavů a více návazných kroků.",
+            "Pak přestává být jasné, kde je aktuální informace, kdo má další krok, jaká nabídka platí a v jakém stavu je realizace."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Když proces stojí na tabulkách a ruční koordinaci příliš dlouho, neroste jen administrativní zátěž. Roste i riziko chyb, zpoždění a ztracených informací mezi obchodem a realizací."
+              ],
+              "bullets": [
+                "poptávky nejsou v jednom spolehlivém přehledu",
+                "nabídky existují v různých verzích bez jasné návaznosti",
+                "obchod a realizace pracují s jiným pohledem na stejnou zakázku",
+                "stav zakázky se zjišťuje přes e-mail, telefon nebo dotaz na kolegu",
+                "odpovědnost za další krok není jednoznačná"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Nejdřív je potřeba pojmenovat, kde proces nejvíc ztrácí přehled a kde vzniká největší tření. Teprve potom dává smysl rozhodnout, co má zůstat jednoduché a co už potřebuje vlastní systém."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "jasnější přehled o tom, kde se proces rozpadá",
+                "lepší rozhodnutí, co řešit systémově a co ještě nechat mimo",
+                "nižší závislost na ručním dohledávání informací",
+                "silnější základ pro systém, který propojí poptávku, nabídku a realizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je problém už samotný Excel?",
+              "answer": "Ne. Problém je až ve chvíli, kdy tabulka nahrazuje workflow, odpovědnost a návaznost mezi více rolemi a kroky."
+            },
+            {
+              "question": "Dá se začít jen jednou částí procesu?",
+              "answer": "Ano. Často je nejlepší začít tam, kde je dnes největší chaos nebo nejvyšší provozní ztráta."
+            },
+            {
+              "question": "Musí se hned řešit celý nový systém?",
+              "answer": "Nemusí. Někdy dává smysl nejdřív proces zpřehlednit a až potom navrhnout první etapu interního systému."
+            }
+          ],
+          "related": [
+            "service-request-offer-delivery-system",
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-replace-spreadsheets-in-process",
+            "use-case-request-offer-delivery-workflow",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy se zakázkovým obchodem a navazující realizací",
+              "týmy, které už nezvládají držet přehled v tabulkách a e-mailu",
+              "situace, kde je potřeba propojit obchodní a realizační část procesu"
+            ],
+            "notFor": [
+              "jednoduchý jednofázový proces bez návazností",
+              "čistě marketingové poptávky bez další realizace",
+              "organizace, které chtějí jen nový template místo workflow řešení"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Poptávky, nabídky a realizace v tabulkách a e-mailu",
+            "description": "Pomohu firmám, kde poptávky, nabídky a realizace zakázek běží přes tabulky, e-mail a ruční dohledávání a celý proces už začíná být nepřehledný a nespolehlivý."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-requests-offers-delivery-in-spreadsheets.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Proces ještě funguje, ale každý další případ ho víc láme",
+        "body": "Tabulky a e-mail byly dobrý začátek. Teď už ale zvyšují chaos, chybovost a tlak na ruční koordinaci.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tabulky a e-mail bývají přirozený začátek. Problém nastává ve chvíli, kdy se nad stejnou zakázkou potkává více lidí, více stavů a více návazných kroků.\n\nPak přestává být jasné, kde je aktuální informace, kdo má další krok, jaká nabídka platí a v jakém stavu je realizace."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Když proces stojí na tabulkách a ruční koordinaci příliš dlouho, neroste jen administrativní zátěž. Roste i riziko chyb, zpoždění a ztracených informací mezi obchodem a realizací.",
+        "items": [
+          "poptávky nejsou v jednom spolehlivém přehledu",
+          "nabídky existují v různých verzích bez jasné návaznosti",
+          "obchod a realizace pracují s jiným pohledem na stejnou zakázku",
+          "stav zakázky se zjišťuje přes e-mail, telefon nebo dotaz na kolegu",
+          "odpovědnost za další krok není jednoznačná"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Nejdřív je potřeba pojmenovat, kde proces nejvíc ztrácí přehled a kde vzniká největší tření. Teprve potom dává smysl rozhodnout, co má zůstat jednoduché a co už potřebuje vlastní systém."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "jasnější přehled o tom, kde se proces rozpadá",
+          "lepší rozhodnutí, co řešit systémově a co ještě nechat mimo",
+          "nižší závislost na ručním dohledávání informací",
+          "silnější základ pro systém, který propojí poptávku, nabídku a realizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je problém už samotný Excel?",
+            "answer": "Ne. Problém je až ve chvíli, kdy tabulka nahrazuje workflow, odpovědnost a návaznost mezi více rolemi a kroky."
+          },
+          {
+            "question": "Dá se začít jen jednou částí procesu?",
+            "answer": "Ano. Často je nejlepší začít tam, kde je dnes největší chaos nebo nejvyšší provozní ztráta."
+          },
+          {
+            "question": "Musí se hned řešit celý nový systém?",
+            "answer": "Nemusí. Někdy dává smysl nejdřív proces zpřehlednit a až potom navrhnout první etapu interního systému."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

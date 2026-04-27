@@ -1,0 +1,248 @@
+{
+  "id": "comparison-contractor-vs-agency.cs",
+  "locale": "cs",
+  "slug": "/srovnani/externi-vyvojar-vs-agentura",
+  "title": "Externí vývojář vs agentura | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Externí vývojář vs agentura | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Srovnání externího seniorního vývojáře a agenturní dodávky pro firmy, které řeší webovou aplikaci, takeover nebo interní systém.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-contractor-vs-agency",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "comparison",
+          "slug": "externi-vyvojar-vs-agentura",
+          "segments": [
+            "srovnani",
+            "externi-vyvojar-vs-agentura"
+          ],
+          "title": "Externí vývojář vs agentura | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Externí vývojář vs agentura: co je pro projekt vhodnější",
+          "description": "Srovnání externího seniorního vývojáře a agenturní dodávky pro firmy, které řeší webovou aplikaci, takeover nebo interní systém.",
+          "primaryQuery": "externí vývojář vs agentura",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Srovnání",
+            "title": "Rozhodnutí není o velikosti dodavatele, ale o typu odpovědnosti",
+            "subtitle": "Někdy je lepší menší seniorní zapojení. Jindy dává smysl větší tým a širší dodávka.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Rozdíl není jen v ceně. Jde hlavně o to, zda projekt potřebuje osobní seniorní zapojení, nebo širší dodavatelský aparát.",
+            "U takeover a složitějších produktových situací bývá často silnější přímé zapojení člověka, který nese technické rozhodování osobně."
+          ],
+          "sections": [
+            {
+              "title": "Kdy dává smysl externí seniorní vývojář",
+              "body": [
+                "Silný fit je tam, kde je potřeba převzít konkrétní technickou oblast, rychle navázat na existující tým nebo řešit citlivou produktovou situaci bez těžkého procesního aparátu."
+              ]
+            },
+            {
+              "title": "Kdy je lepší agentura",
+              "body": [
+                "Agentura dává větší smysl tam, kde potřebujete širší kapacitu více rolí najednou, pevnější dodavatelský rámec nebo kompletní servis kolem většího projektu."
+              ]
+            },
+            {
+              "title": "Podle čeho rozhodovat",
+              "body": [
+                "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady."
+              ],
+              "bullets": [
+                "potřeba seniorního rozhodování",
+                "šíře rolí a kapacit",
+                "citlivost takeover situace",
+                "požadovaná míra osobní odpovědnosti"
+              ]
+            },
+            {
+              "title": "Praktický závěr",
+              "body": [
+                "Pokud projekt potřebuje seniorní technické vedení a přímé zapojení do existujícího týmu, bývá externí kontraktor silnější volba. Pro větší outsourcingový model může být vhodnější agentura."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Není agentura bezpečnější?",
+              "answer": "Někdy ano, ale bezpečí nevychází jen z velikosti. U složitých aplikací je často cennější osobní seniorní ownership a rychlejší rozhodování."
+            },
+            {
+              "question": "Může externí vývojář dodat i samostatný celek?",
+              "answer": "Ano. Záleží na rozsahu. U jasně vymezené oblasti nebo menšího projektu to bývá běžné."
+            },
+            {
+              "question": "Co když časem budeme potřebovat větší tým?",
+              "answer": "I to lze řešit postupně. Důležité je zvolit model, který odpovídá aktuální situaci projektu."
+            },
+            {
+              "question": "Je kontraktní spolupráce jen o programování?",
+              "answer": "Ne. U seniorního kontraktu bývá důležitá i architektura, prioritizace, takeover a zjednodušení delivery."
+            }
+          ],
+          "related": [
+            "contract-support",
+            "problem-senior-contract-capacity",
+            "guide-when-project-needs-senior-contract-support",
+            "service-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "potřeba seniorního rozhodování",
+              "šíře rolí a kapacit",
+              "citlivost takeover situace",
+              "požadovaná míra osobní odpovědnosti"
+            ],
+            "notFor": [
+              "teoretické technologické debaty bez business cíle"
+            ]
+          },
+          "seo": {
+            "title": "Externí vývojář vs agentura | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Srovnání externího seniorního vývojáře a agenturní dodávky pro firmy, které řeší webovou aplikaci, takeover nebo interní systém."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-contractor-vs-agency.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Srovnání",
+        "heading": "Rozhodnutí není o velikosti dodavatele, ale o typu odpovědnosti",
+        "body": "Někdy je lepší menší seniorní zapojení. Jindy dává smysl větší tým a širší dodávka.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Rozdíl není jen v ceně. Jde hlavně o to, zda projekt potřebuje osobní seniorní zapojení, nebo širší dodavatelský aparát.\n\nU takeover a složitějších produktových situací bývá často silnější přímé zapojení člověka, který nese technické rozhodování osobně."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy dává smysl externí seniorní vývojář",
+        "body": "Silný fit je tam, kde je potřeba převzít konkrétní technickou oblast, rychle navázat na existující tým nebo řešit citlivou produktovou situaci bez těžkého procesního aparátu."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je lepší agentura",
+        "body": "Agentura dává větší smysl tam, kde potřebujete širší kapacitu více rolí najednou, pevnější dodavatelský rámec nebo kompletní servis kolem většího projektu."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Podle čeho rozhodovat",
+        "body": "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady.",
+        "items": [
+          "potřeba seniorního rozhodování",
+          "šíře rolí a kapacit",
+          "citlivost takeover situace",
+          "požadovaná míra osobní odpovědnosti"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Praktický závěr",
+        "body": "Pokud projekt potřebuje seniorní technické vedení a přímé zapojení do existujícího týmu, bývá externí kontraktor silnější volba. Pro větší outsourcingový model může být vhodnější agentura."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Není agentura bezpečnější?",
+            "answer": "Někdy ano, ale bezpečí nevychází jen z velikosti. U složitých aplikací je často cennější osobní seniorní ownership a rychlejší rozhodování."
+          },
+          {
+            "question": "Může externí vývojář dodat i samostatný celek?",
+            "answer": "Ano. Záleží na rozsahu. U jasně vymezené oblasti nebo menšího projektu to bývá běžné."
+          },
+          {
+            "question": "Co když časem budeme potřebovat větší tým?",
+            "answer": "I to lze řešit postupně. Důležité je zvolit model, který odpovídá aktuální situaci projektu."
+          },
+          {
+            "question": "Je kontraktní spolupráce jen o programování?",
+            "answer": "Ne. U seniorního kontraktu bývá důležitá i architektura, prioritizace, takeover a zjednodušení delivery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

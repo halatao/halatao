@@ -1,0 +1,249 @@
+{
+  "id": "use-case-ai-intake-triage.cs",
+  "locale": "cs",
+  "slug": "/priklady/ai-zpracovani-prichozi-agendy",
+  "title": "AI zpracování příchozí agendy a požadavků",
+  "seo": {
+    "title": "AI zpracování příchozí agendy a požadavků",
+    "description": "Příklad využití AI pro třídění a zpracování příchozí agendy, e-mailů nebo požadavků tam, kde firma potřebuje omezit ruční přeposílání, doplňování dat a zdrže...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-ai-intake-triage",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "ai-zpracovani-prichozi-agendy",
+          "segments": [
+            "priklady",
+            "ai-zpracovani-prichozi-agendy"
+          ],
+          "title": "AI zpracování příchozí agendy a požadavků",
+          "h1": "AI zpracování příchozí agendy a požadavků",
+          "description": "Příklad využití AI pro třídění a zpracování příchozí agendy, e-mailů nebo požadavků tam, kde firma potřebuje omezit ruční přeposílání, doplňování dat a zdržení v operativě.",
+          "primaryQuery": "ai zpracování příchozí agendy",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Příchozí agenda bez ručního třídění a přeposílání mezi lidmi",
+            "subtitle": "Vhodné pro support, servis, backoffice nebo jiné týmy, kde se opakují podobné požadavky a ruční třídění začíná brzdit provoz.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Typická situace je jednoduchá: e-maily, formuláře nebo požadavky přicházejí na jedno místo a lidé je pak ručně čtou, třídí, přeposílají a doplňují do dalších systémů.",
+            "AI může v takovém workflow fungovat jako první vrstva pro klasifikaci, doplnění kontextu nebo předpřipravení dalšího kroku. Smysl ale dává hlavně tehdy, když navazuje na jasný proces a odpovědnosti."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "příchozí e-maily a požadavky se ručně třídí mezi více lidí nebo týmů",
+                "stejné typy požadavků se opakují a mají podobný další postup",
+                "operativa ztrácí čas doplňováním dat do CRM, ticketingu nebo interního systému",
+                "firma potřebuje rychlejší reakci a menší chybovost v první fázi zpracování"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "návrh AI vrstvy pro třídění, klasifikaci nebo přípravu dalšího kroku",
+                "napojení na e-mail, formulář, ticketing nebo interní systém",
+                "doplnění pravidel, validace a předání člověku tam, kde je potřeba",
+                "ověření prvního use case a ladění podle reálných požadavků"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "méně ruční práce v první fázi zpracování agendy",
+                "rychlejší přiřazení požadavků správnému týmu nebo procesu",
+                "nižší chybovost při třídění a přepisu dat",
+                "lepší základ pro další workflow automatizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné i pro menší objem požadavků?",
+              "answer": "Ano, pokud je ruční třídění opakované, bere lidem čas a zdržuje další kroky. Nemusí jít jen o velké call centrum."
+            },
+            {
+              "question": "Musí AI rozhodovat úplně sama?",
+              "answer": "Ne. Často je lepší, když připraví návrh, doplní kontext nebo zařazení a finální kontrolu si v kritických situacích nechá člověk."
+            },
+            {
+              "question": "Lze to napojit na existující systémy?",
+              "answer": "Ano. Právě návaznost na ticketing, CRM, interní systém nebo další workflow bývá klíčová pro reálný přínos."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-automations-and-integrations",
+            "problem-ai-in-business-process",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "support, servis nebo backoffice s opakovanou příchozí agendou",
+              "firmy, kde se požadavky ručně třídí a přeposílají mezi rolemi",
+              "procesy, kde AI může urychlit první fázi workflow bez ztráty kontroly"
+            ],
+            "notFor": [
+              "jednorázové požadavky bez opakovatelného vzoru",
+              "proces bez návazného workflow nebo systému pro další krok",
+              "očekávání plně autonomního rozhodování bez lidské kontroly tam, kde to nedává smysl"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "AI zpracování příchozí agendy a požadavků",
+            "description": "Příklad využití AI pro třídění a zpracování příchozí agendy, e-mailů nebo požadavků tam, kde firma potřebuje omezit ruční přeposílání, doplňování dat a zdržení v operativě."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-ai-intake-triage.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Příchozí agenda bez ručního třídění a přeposílání mezi lidmi",
+        "body": "Vhodné pro support, servis, backoffice nebo jiné týmy, kde se opakují podobné požadavky a ruční třídění začíná brzdit provoz.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Typická situace je jednoduchá: e-maily, formuláře nebo požadavky přicházejí na jedno místo a lidé je pak ručně čtou, třídí, přeposílají a doplňují do dalších systémů.\n\nAI může v takovém workflow fungovat jako první vrstva pro klasifikaci, doplnění kontextu nebo předpřipravení dalšího kroku. Smysl ale dává hlavně tehdy, když navazuje na jasný proces a odpovědnosti."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "příchozí e-maily a požadavky se ručně třídí mezi více lidí nebo týmů",
+          "stejné typy požadavků se opakují a mají podobný další postup",
+          "operativa ztrácí čas doplňováním dat do CRM, ticketingu nebo interního systému",
+          "firma potřebuje rychlejší reakci a menší chybovost v první fázi zpracování"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "návrh AI vrstvy pro třídění, klasifikaci nebo přípravu dalšího kroku",
+          "napojení na e-mail, formulář, ticketing nebo interní systém",
+          "doplnění pravidel, validace a předání člověku tam, kde je potřeba",
+          "ověření prvního use case a ladění podle reálných požadavků"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "méně ruční práce v první fázi zpracování agendy",
+          "rychlejší přiřazení požadavků správnému týmu nebo procesu",
+          "nižší chybovost při třídění a přepisu dat",
+          "lepší základ pro další workflow automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné i pro menší objem požadavků?",
+            "answer": "Ano, pokud je ruční třídění opakované, bere lidem čas a zdržuje další kroky. Nemusí jít jen o velké call centrum."
+          },
+          {
+            "question": "Musí AI rozhodovat úplně sama?",
+            "answer": "Ne. Často je lepší, když připraví návrh, doplní kontext nebo zařazení a finální kontrolu si v kritických situacích nechá člověk."
+          },
+          {
+            "question": "Lze to napojit na existující systémy?",
+            "answer": "Ano. Právě návaznost na ticketing, CRM, interní systém nebo další workflow bývá klíčová pro reálný přínos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-run-app-takeover-audit.en",
+  "locale": "en",
+  "slug": "/guides/how-to-run-an-app-takeover-audit",
+  "title": "How to run an app takeover audit | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to run an app takeover audit | Bc. Ondrej Halata (halatao.cz)",
+    "description": "A practical guide to app takeover audits: what to verify before inheriting a system, how to frame risks, and how to shape the first credible next step.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-run-app-takeover-audit",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-run-an-app-takeover-audit",
+          "segments": [
+            "guides",
+            "how-to-run-an-app-takeover-audit"
+          ],
+          "title": "How to run an app takeover audit | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "How to run an app takeover audit before inheriting an existing system",
+          "description": "A practical guide to app takeover audits: what to verify before inheriting a system, how to frame risks, and how to shape the first credible next step.",
+          "primaryQuery": "app takeover audit",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "Before taking over an application, you need more than repository access",
+            "subtitle": "A strong takeover audit separates technical risk, operational dependency, and first-phase priorities from the illusion that handover alone will solve the situation.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Taking over an existing application is not only about code. You need to understand how the system runs, where the operational dependencies sit, how release works, and what a bad first change could break.",
+            "A takeover audit is therefore not about creating a thick document. It is about getting a fast, reliable picture of risks, weak spots, and the most credible next step."
+          ],
+          "sections": [
+            {
+              "title": "What the audit has to clarify",
+              "body": [
+                "The audit should map not only the application itself, but also environment, release path, access, data, integrations, and the knowledge concentration around the system."
+              ],
+              "bullets": [
+                "access to repositories, hosting, and third parties",
+                "critical workflows and operational risk",
+                "release process, monitoring, and rollback options",
+                "state of documentation, knowledge, and ownership"
+              ]
+            },
+            {
+              "title": "How to separate facts from assumptions",
+              "body": [
+                "Inherited systems often come with many claims based on impressions. A practical audit needs to distinguish what is confirmed, what is still a hypothesis, and what needs further verification."
+              ]
+            },
+            {
+              "title": "What should follow the audit",
+              "body": [
+                "The point is not the audit itself. The output should be a prioritised next step: what to stabilise first, what to address for delivery speed, and what can wait."
+              ]
+            },
+            {
+              "title": "What to avoid",
+              "body": [
+                "The weakest option is to skip the audit and immediately promise fixes, a rewrite, or a fast takeover without understanding the operational and release risk."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do we still need an audit if we already have code access?",
+              "answer": "Yes. Code access alone says very little about release risk, operational dependency, or how people actually use the system."
+            },
+            {
+              "question": "How detailed should the audit be?",
+              "answer": "Detailed enough to support the first reliable decision about takeover, stabilisation, and next priorities. Not necessarily detailed enough to document every corner of the product."
+            },
+            {
+              "question": "Can the audit conclude that incremental improvement is better than a rewrite?",
+              "answer": "Yes. That is often the most valuable conclusion because it separates the actual problem from frustration with inherited code."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "tool-app-takeover-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-existing-app-takeover",
+              "guide-how-to-take-over-an-existing-app-safely",
+              "tool-app-takeover-checklist",
+              "inquiry"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "How to run an app takeover audit | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical guide to app takeover audits: what to verify before inheriting a system, how to frame risks, and how to shape the first credible next step."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-run-app-takeover-audit.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "Before taking over an application, you need more than repository access",
+        "body": "A strong takeover audit separates technical risk, operational dependency, and first-phase priorities from the illusion that handover alone will solve the situation.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Taking over an existing application is not only about code. You need to understand how the system runs, where the operational dependencies sit, how release works, and what a bad first change could break.\n\nA takeover audit is therefore not about creating a thick document. It is about getting a fast, reliable picture of risks, weak spots, and the most credible next step."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the audit has to clarify",
+        "body": "The audit should map not only the application itself, but also environment, release path, access, data, integrations, and the knowledge concentration around the system.",
+        "items": [
+          "access to repositories, hosting, and third parties",
+          "critical workflows and operational risk",
+          "release process, monitoring, and rollback options",
+          "state of documentation, knowledge, and ownership"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to separate facts from assumptions",
+        "body": "Inherited systems often come with many claims based on impressions. A practical audit needs to distinguish what is confirmed, what is still a hypothesis, and what needs further verification."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What should follow the audit",
+        "body": "The point is not the audit itself. The output should be a prioritised next step: what to stabilise first, what to address for delivery speed, and what can wait."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to avoid",
+        "body": "The weakest option is to skip the audit and immediately promise fixes, a rewrite, or a fast takeover without understanding the operational and release risk."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do we still need an audit if we already have code access?",
+            "answer": "Yes. Code access alone says very little about release risk, operational dependency, or how people actually use the system."
+          },
+          {
+            "question": "How detailed should the audit be?",
+            "answer": "Detailed enough to support the first reliable decision about takeover, stabilisation, and next priorities. Not necessarily detailed enough to document every corner of the product."
+          },
+          {
+            "question": "Can the audit conclude that incremental improvement is better than a rewrite?",
+            "answer": "Yes. That is often the most valuable conclusion because it separates the actual problem from frustration with inherited code."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

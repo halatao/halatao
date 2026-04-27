@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-estimate-a-custom-web-app.en",
+  "locale": "en",
+  "slug": "/guides/how-to-estimate-a-custom-web-app",
+  "title": "How to estimate a custom web app | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to estimate a custom web app | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to estimating a custom web application without pretending the project is fully known before delivery starts.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-estimate-a-custom-web-app",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-estimate-a-custom-web-app",
+          "segments": [
+            "guides",
+            "how-to-estimate-a-custom-web-app"
+          ],
+          "title": "How to estimate a custom web app | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to estimate a custom web app without fake precision",
+          "description": "A practical guide to estimating a custom web application without pretending the project is fully known before delivery starts.",
+          "primaryQuery": "how to estimate a custom web app",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "A good estimate is about risk framing, not fortune telling",
+            "subtitle": "What matters most is understanding the major cost drivers, the first delivery phase, and what is still unknown.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Application estimates are rarely wrong because engineers cannot count. They are wrong because scope, risk, and hidden complexity are unclear.",
+            "A useful estimate therefore breaks the work into stages and separates what is known from what still needs validation."
+          ],
+          "sections": [
+            {
+              "title": "What drives cost the most",
+              "body": [
+                "Screen count matters less than workflow complexity, permissions, integrations, data shape, and operational requirements."
+              ],
+              "bullets": [
+                "multiple roles and permission layers",
+                "integrations and imports/exports",
+                "workflow exceptions",
+                "operational and security requirements"
+              ]
+            },
+            {
+              "title": "How to improve estimate quality",
+              "body": [
+                "The best method is usually to scope a meaningful first phase and explicitly list the risk areas that need to be validated during delivery."
+              ]
+            },
+            {
+              "title": "What to avoid",
+              "body": [
+                "Demanding a highly precise number while the real scope is still unclear creates false confidence rather than useful decision support."
+              ]
+            },
+            {
+              "title": "How to use estimates inside delivery",
+              "body": [
+                "An estimate should evolve as the team confirms priorities and learns more about the actual system or workflow."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can you price a project without a full specification?",
+              "answer": "You can price a first phase or give a range. A precise headline number without context is often misleading."
+            },
+            {
+              "question": "What is better: fixed price or staged collaboration?",
+              "answer": "That depends on scope certainty. With more unknowns, a well-run staged model is usually safer."
+            },
+            {
+              "question": "Is it sensible to estimate only the MVP first?",
+              "answer": "Yes. That is often the most useful and honest first estimate."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "use-case-reporting-dashboard",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "guide-how-to-scope-a-custom-web-application",
+              "service-custom-web-app-development",
+              "use-case-reporting-dashboard",
+              "inquiry"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "How to estimate a custom web app | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to estimating a custom web application without pretending the project is fully known before delivery starts."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-estimate-a-custom-web-app.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "A good estimate is about risk framing, not fortune telling",
+        "body": "What matters most is understanding the major cost drivers, the first delivery phase, and what is still unknown.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Application estimates are rarely wrong because engineers cannot count. They are wrong because scope, risk, and hidden complexity are unclear.\n\nA useful estimate therefore breaks the work into stages and separates what is known from what still needs validation."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What drives cost the most",
+        "body": "Screen count matters less than workflow complexity, permissions, integrations, data shape, and operational requirements.",
+        "items": [
+          "multiple roles and permission layers",
+          "integrations and imports/exports",
+          "workflow exceptions",
+          "operational and security requirements"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to improve estimate quality",
+        "body": "The best method is usually to scope a meaningful first phase and explicitly list the risk areas that need to be validated during delivery."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to avoid",
+        "body": "Demanding a highly precise number while the real scope is still unclear creates false confidence rather than useful decision support."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use estimates inside delivery",
+        "body": "An estimate should evolve as the team confirms priorities and learns more about the actual system or workflow."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can you price a project without a full specification?",
+            "answer": "You can price a first phase or give a range. A precise headline number without context is often misleading."
+          },
+          {
+            "question": "What is better: fixed price or staged collaboration?",
+            "answer": "That depends on scope certainty. With more unknowns, a well-run staged model is usually safer."
+          },
+          {
+            "question": "Is it sensible to estimate only the MVP first?",
+            "answer": "Yes. That is often the most useful and honest first estimate."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

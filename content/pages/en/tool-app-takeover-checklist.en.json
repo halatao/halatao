@@ -1,0 +1,244 @@
+{
+  "id": "tool-app-takeover-checklist.en",
+  "locale": "en",
+  "slug": "/templates/app-takeover-checklist",
+  "title": "App takeover checklist | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "App takeover checklist | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical checklist for taking over an existing application: access, environments, release flow, risks, and critical workflows.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-app-takeover-checklist",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "app-takeover-checklist",
+          "segments": [
+            "templates",
+            "app-takeover-checklist"
+          ],
+          "title": "App takeover checklist | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "App takeover checklist after a supplier or team change",
+          "description": "A practical checklist for taking over an existing application: access, environments, release flow, risks, and critical workflows.",
+          "primaryQuery": "app takeover checklist",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "Takeover without a checklist leaves too many blind spots",
+            "subtitle": "The checklist helps surface what is missing for safe continuation of delivery and operation.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Application takeovers are rarely only about the code. They often break down because access, environment visibility, release knowledge, or operational context is incomplete.",
+            "A practical checklist reveals the blind spots early instead of letting them appear later as costly surprises."
+          ],
+          "sections": [
+            {
+              "title": "What the template should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots."
+              ],
+              "bullets": [
+                "repositories, hosting, and access",
+                "deployment flow and environments",
+                "critical scenarios and risk areas",
+                "monitoring, logs, and operational contacts"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The template should work as a practical aid before an introductory call, scoping session, or takeover phase."
+              ],
+              "bullets": [
+                "during supplier transition",
+                "before a takeover review",
+                "as input to first-phase prioritisation"
+              ]
+            },
+            {
+              "title": "What outcome it should create",
+              "body": [
+                "A good template shortens the path to the first useful project decision."
+              ],
+              "bullets": [
+                "lower takeover risk",
+                "faster orientation in the system",
+                "clearer control over missing pieces"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is the checklist enough without an audit?",
+              "answer": "Often not. It is a great starting point, but complex applications usually need technical review and prioritisation too."
+            },
+            {
+              "question": "Is this useful for internal teams as well?",
+              "answer": "Yes. Internal teams also need structure when important knowledge has left with a specific person or vendor."
+            },
+            {
+              "question": "What if some access is missing?",
+              "answer": "That is exactly the kind of issue the checklist should surface immediately."
+            }
+          ],
+          "related": [
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "service-existing-app-takeover",
+            "problem-app-takeover",
+            "tool-release-stabilization-checklist",
+            "case-study-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "lower takeover risk",
+              "faster orientation in the system",
+              "clearer control over missing pieces"
+            ],
+            "notFor": [
+              "collecting detail with no decision attached"
+            ]
+          },
+          "seo": {
+            "title": "App takeover checklist | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical checklist for taking over an existing application: access, environments, release flow, risks, and critical workflows."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-app-takeover-checklist.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "Takeover without a checklist leaves too many blind spots",
+        "body": "The checklist helps surface what is missing for safe continuation of delivery and operation.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Application takeovers are rarely only about the code. They often break down because access, environment visibility, release knowledge, or operational context is incomplete.\n\nA practical checklist reveals the blind spots early instead of letting them appear later as costly surprises."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the template should cover",
+        "body": "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots.",
+        "items": [
+          "repositories, hosting, and access",
+          "deployment flow and environments",
+          "critical scenarios and risk areas",
+          "monitoring, logs, and operational contacts"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The template should work as a practical aid before an introductory call, scoping session, or takeover phase.",
+        "items": [
+          "during supplier transition",
+          "before a takeover review",
+          "as input to first-phase prioritisation"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What outcome it should create",
+        "body": "A good template shortens the path to the first useful project decision.",
+        "items": [
+          "lower takeover risk",
+          "faster orientation in the system",
+          "clearer control over missing pieces"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is the checklist enough without an audit?",
+            "answer": "Often not. It is a great starting point, but complex applications usually need technical review and prioritisation too."
+          },
+          {
+            "question": "Is this useful for internal teams as well?",
+            "answer": "Yes. Internal teams also need structure when important knowledge has left with a specific person or vendor."
+          },
+          {
+            "question": "What if some access is missing?",
+            "answer": "That is exactly the kind of issue the checklist should surface immediately."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-decide-app-needs-rewrite.en",
+  "locale": "en",
+  "slug": "/guides/how-to-decide-if-an-app-needs-a-rewrite",
+  "title": "Does the app need a rewrite? | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Does the app need a rewrite? | Bc. Ondrej Halata (halatao.cz)",
+    "description": "A practical guide for companies considering a rewrite and trying to separate real technical reasons from frustration with slow delivery.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-decide-app-needs-rewrite",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-decide-if-an-app-needs-a-rewrite",
+          "segments": [
+            "guides",
+            "how-to-decide-if-an-app-needs-a-rewrite"
+          ],
+          "title": "Does the app need a rewrite? | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "How to decide whether an application really needs a rewrite",
+          "description": "A practical guide for companies considering a rewrite and trying to separate real technical reasons from frustration with slow delivery.",
+          "primaryQuery": "when an app needs a rewrite",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "A rewrite should be the result of clear reasons, not relief from frustration",
+            "subtitle": "When an application becomes painful to change, a clean restart is tempting. Without identifying the real causes, the rewrite may simply move the same risk into new code.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A full rewrite can make sense, but only when the current system is truly blocking operations or future delivery so badly that targeted improvement no longer works.",
+            "A stronger decision does not come from the feeling that the code is old or unpleasant. It comes from the business impact, release risk, delivery drag, and cost of further intervention."
+          ],
+          "sections": [
+            {
+              "title": "Signals that may justify a rewrite",
+              "body": [
+                "The important signs are not aesthetic complaints about the code. They are repeated situations where architecture or data structure makes safe operation and change unreasonably hard."
+              ],
+              "bullets": [
+                "critical workflows cannot be stabilised through targeted improvement",
+                "architecture is consistently blocking change",
+                "release risk remains unacceptably high",
+                "incremental fixes cost more than establishing a new base with the same knowledge"
+              ]
+            },
+            {
+              "title": "When incremental improvement is better",
+              "body": [
+                "If the application still supports important operations and the worst issues are concentrated in a smaller set of areas, stabilisation and targeted refactoring are often safer and cheaper."
+              ]
+            },
+            {
+              "title": "What to verify before deciding",
+              "body": [
+                "A practical decision needs an audit of dependencies, data shape, release path, operational constraints, and the company's ability to absorb parallel rebuild work."
+              ]
+            },
+            {
+              "title": "How to avoid being pushed into the wrong answer",
+              "body": [
+                "The weakest reason for a rewrite is fatigue with inherited code. The strongest reason is a repeatedly confirmed operational, security, or delivery impact that can no longer be handled incrementally."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is old technology alone a reason to rewrite?",
+              "answer": "No. What matters is the concrete effect on operation, security, and delivery speed."
+            },
+            {
+              "question": "Can it be right to rewrite only part of the system?",
+              "answer": "Yes. Selective rewrite or extraction of the most problematic areas is often more practical than a full restart."
+            },
+            {
+              "question": "Should the decision start with an audit?",
+              "answer": "For a running business application, yes. Without that, it is hard to separate genuine need from strong frustration."
+            }
+          ],
+          "related": [
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "service-existing-app-takeover",
+            "problem-modernize-legacy-app",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "comparison-rewrite-vs-incremental-app-improvement",
+              "service-existing-app-takeover",
+              "problem-modernize-legacy-app",
+              "inquiry"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "Does the app need a rewrite? | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical guide for companies considering a rewrite and trying to separate real technical reasons from frustration with slow delivery."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-decide-app-needs-rewrite.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "A rewrite should be the result of clear reasons, not relief from frustration",
+        "body": "When an application becomes painful to change, a clean restart is tempting. Without identifying the real causes, the rewrite may simply move the same risk into new code.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A full rewrite can make sense, but only when the current system is truly blocking operations or future delivery so badly that targeted improvement no longer works.\n\nA stronger decision does not come from the feeling that the code is old or unpleasant. It comes from the business impact, release risk, delivery drag, and cost of further intervention."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Signals that may justify a rewrite",
+        "body": "The important signs are not aesthetic complaints about the code. They are repeated situations where architecture or data structure makes safe operation and change unreasonably hard.",
+        "items": [
+          "critical workflows cannot be stabilised through targeted improvement",
+          "architecture is consistently blocking change",
+          "release risk remains unacceptably high",
+          "incremental fixes cost more than establishing a new base with the same knowledge"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When incremental improvement is better",
+        "body": "If the application still supports important operations and the worst issues are concentrated in a smaller set of areas, stabilisation and targeted refactoring are often safer and cheaper."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to verify before deciding",
+        "body": "A practical decision needs an audit of dependencies, data shape, release path, operational constraints, and the company's ability to absorb parallel rebuild work."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to avoid being pushed into the wrong answer",
+        "body": "The weakest reason for a rewrite is fatigue with inherited code. The strongest reason is a repeatedly confirmed operational, security, or delivery impact that can no longer be handled incrementally."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is old technology alone a reason to rewrite?",
+            "answer": "No. What matters is the concrete effect on operation, security, and delivery speed."
+          },
+          {
+            "question": "Can it be right to rewrite only part of the system?",
+            "answer": "Yes. Selective rewrite or extraction of the most problematic areas is often more practical than a full restart."
+          },
+          {
+            "question": "Should the decision start with an audit?",
+            "answer": "For a running business application, yes. Without that, it is hard to separate genuine need from strong frustration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

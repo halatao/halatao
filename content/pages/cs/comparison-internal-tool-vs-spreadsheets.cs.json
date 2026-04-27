@@ -1,0 +1,247 @@
+{
+  "id": "comparison-internal-tool-vs-spreadsheets.cs",
+  "locale": "cs",
+  "slug": "/srovnani/interni-system-vs-excel-a-email",
+  "title": "Interní systém vs Excel a e-mail | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Interní systém vs Excel a e-mail | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktické srovnání interního systému s kombinací Excelu a e-mailu pro firmy, které řeší workflow, schvalování a sdílenou operativu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-internal-tool-vs-spreadsheets",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "comparison",
+          "slug": "interni-system-vs-excel-a-email",
+          "segments": [
+            "srovnani",
+            "interni-system-vs-excel-a-email"
+          ],
+          "title": "Interní systém vs Excel a e-mail | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Interní systém vs Excel a e-mail: kdy začíná dávat smysl vlastní nástroj",
+          "description": "Praktické srovnání interního systému s kombinací Excelu a e-mailu pro firmy, které řeší workflow, schvalování a sdílenou operativu.",
+          "primaryQuery": "interni system vs excel a email",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Srovnání",
+            "title": "Nejde o to, jestli tabulka stačí dnes. Jde o to, co bude stát zítra.",
+            "subtitle": "Excel a e-mail jsou často dobrý začátek. Ve složitějším provozu ale začnou zdražovat koordinaci, zvyšovat chybovost a brzdit další růst.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tabulka sama o sobě není špatně. Problém začíná ve chvíli, kdy má proces více rolí, stavů, výjimek a návazností a koordinace se rozpadá mezi e-mail, chat a ruční dohledávání.",
+            "Krátká odpověď je jednoduchá: pokud proces už nezvládáte udržet přehledně a spolehlivě v tabulkách, dává interní systém smysl dřív, než chaos dál zdraží provoz."
+          ],
+          "sections": [
+            {
+              "title": "Kdy je Excel a e-mail ještě v pořádku",
+              "body": [
+                "Excel a e-mail mohou stačit tam, kde je proces jednoduchý, málo frekventovaný, s malým počtem rolí a bez citlivých schvalovacích nebo auditních nároků."
+              ]
+            },
+            {
+              "title": "Kdy je lepší interní systém",
+              "body": [
+                "Interní systém dává smysl tam, kde proces potřebuje jasné role, workflow, dohledatelnost, napojení na další systémy nebo rychlejší a bezpečnější průchod mezi kroky."
+              ]
+            },
+            {
+              "title": "Podle čeho rozhodovat",
+              "body": [
+                "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady."
+              ],
+              "bullets": [
+                "počet rolí a střídání odpovědnosti",
+                "míra výjimek a schvalování",
+                "dopad chyb a zpoždění na provoz",
+                "potřeba datové historie, reportingu a integrací"
+              ]
+            },
+            {
+              "title": "Praktický závěr",
+              "body": [
+                "Pokud tabulky a e-maily už nevytvářejí přehled, ale spíše zmatek, interní systém bývá levnější než další roky ruční koordinace. Pokud je proces opravdu jednoduchý, tabulka může stále dávat smysl."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Není vlastní interní systém zbytečně drahý?",
+              "answer": "Někdy by byl. Pokud ale ruční koordinace, chybovost a závislost na lidech už firmu reálně stojí čas a peníze, může být vlastní systém dlouhodobě levnější."
+            },
+            {
+              "question": "Dá se začít menší první verzí?",
+              "answer": "Ano. U interních systémů je to často nejlepší cesta, jak nahradit nejslabší část procesu bez zbytečného přescopování."
+            },
+            {
+              "question": "Co když firma nechce opustit Excel úplně?",
+              "answer": "To je v pořádku. Někdy dává smysl ponechat tabulky pro vedlejší evidenci a přenést do systému jen klíčový workflow."
+            },
+            {
+              "question": "Jak poznat, že je čas přestat to držet ručně?",
+              "answer": "Ve chvíli, kdy není jasné, kde se proces zasekl, kdo má další krok, která data jsou správně a chyba už má provozní nebo finanční dopad."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "guide-when-internal-tool-better-than-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "počet rolí a střídání odpovědnosti",
+              "míra výjimek a schvalování",
+              "dopad chyb a zpoždění na provoz",
+              "potřeba datové historie, reportingu a integrací"
+            ],
+            "notFor": [
+              "teoretické technologické debaty bez business cíle"
+            ]
+          },
+          "seo": {
+            "title": "Interní systém vs Excel a e-mail | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktické srovnání interního systému s kombinací Excelu a e-mailu pro firmy, které řeší workflow, schvalování a sdílenou operativu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-internal-tool-vs-spreadsheets.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Srovnání",
+        "heading": "Nejde o to, jestli tabulka stačí dnes. Jde o to, co bude stát zítra.",
+        "body": "Excel a e-mail jsou často dobrý začátek. Ve složitějším provozu ale začnou zdražovat koordinaci, zvyšovat chybovost a brzdit další růst.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tabulka sama o sobě není špatně. Problém začíná ve chvíli, kdy má proces více rolí, stavů, výjimek a návazností a koordinace se rozpadá mezi e-mail, chat a ruční dohledávání.\n\nKrátká odpověď je jednoduchá: pokud proces už nezvládáte udržet přehledně a spolehlivě v tabulkách, dává interní systém smysl dřív, než chaos dál zdraží provoz."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je Excel a e-mail ještě v pořádku",
+        "body": "Excel a e-mail mohou stačit tam, kde je proces jednoduchý, málo frekventovaný, s malým počtem rolí a bez citlivých schvalovacích nebo auditních nároků."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je lepší interní systém",
+        "body": "Interní systém dává smysl tam, kde proces potřebuje jasné role, workflow, dohledatelnost, napojení na další systémy nebo rychlejší a bezpečnější průchod mezi kroky."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Podle čeho rozhodovat",
+        "body": "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady.",
+        "items": [
+          "počet rolí a střídání odpovědnosti",
+          "míra výjimek a schvalování",
+          "dopad chyb a zpoždění na provoz",
+          "potřeba datové historie, reportingu a integrací"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Praktický závěr",
+        "body": "Pokud tabulky a e-maily už nevytvářejí přehled, ale spíše zmatek, interní systém bývá levnější než další roky ruční koordinace. Pokud je proces opravdu jednoduchý, tabulka může stále dávat smysl."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Není vlastní interní systém zbytečně drahý?",
+            "answer": "Někdy by byl. Pokud ale ruční koordinace, chybovost a závislost na lidech už firmu reálně stojí čas a peníze, může být vlastní systém dlouhodobě levnější."
+          },
+          {
+            "question": "Dá se začít menší první verzí?",
+            "answer": "Ano. U interních systémů je to často nejlepší cesta, jak nahradit nejslabší část procesu bez zbytečného přescopování."
+          },
+          {
+            "question": "Co když firma nechce opustit Excel úplně?",
+            "answer": "To je v pořádku. Někdy dává smysl ponechat tabulky pro vedlejší evidenci a přenést do systému jen klíčový workflow."
+          },
+          {
+            "question": "Jak poznat, že je čas přestat to držet ručně?",
+            "answer": "Ve chvíli, kdy není jasné, kde se proces zasekl, kdo má další krok, která data jsou správně a chyba už má provozní nebo finanční dopad."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

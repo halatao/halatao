@@ -1,0 +1,256 @@
+{
+  "id": "use-case-workflow-automation-tools.cs",
+  "locale": "cs",
+  "slug": "/priklady/workflow-automatizace",
+  "title": "Workflow automatizace ve firmě | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Workflow automatizace ve firmě | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad workflow automatizace pro firmy, které chtějí snížit ruční práci, lépe řídit schvalování a zrychlit návazné kroky mezi systémy.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-workflow-automation-tools",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "workflow-automatizace",
+          "segments": [
+            "priklady",
+            "workflow-automatizace"
+          ],
+          "title": "Workflow automatizace ve firmě | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Workflow automatizace a nástroje pro opakované procesy",
+          "description": "Příklad workflow automatizace pro firmy, které chtějí snížit ruční práci, lépe řídit schvalování a zrychlit návazné kroky mezi systémy.",
+          "primaryQuery": "workflow automatizace",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad použití",
+            "title": "Proces, který už nemusí stát na ručním hlídání",
+            "subtitle": "Pro opakované firemní workflow, kde se schvaluje, přepisuje, kontroluje a dohledává víc, než je zdravé.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Workflow automatizace je vhodná tam, kde se opakují stejné kroky, rozhodovací pravidla a návaznosti mezi lidmi a systémy.",
+            "Nejde jen o automatické spouštění. Důležité je vědět, co má být plně automatické, co má zůstat pod kontrolou lidí a jak řešit výjimky."
+          ],
+          "sections": [
+            {
+              "title": "Jaký problém tento typ aplikace řeší",
+              "body": [
+                "Use case dává smysl tam, kde je potřeba převést důležitý proces do přehledného systému s jasnou rolí uživatelů a dat."
+              ],
+              "bullets": [
+                "pomalé schvalovací řetězce",
+                "ruční přepisování mezi systémy",
+                "zpoždění kvůli nejasnému vlastníkovi kroku",
+                "složitá dohledatelnost, kde se proces zasekl"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale základ bývá podobný: role, workflow, přehled stavu, oprávnění a napojení na další systémy."
+              ],
+              "bullets": [
+                "workflow pravidla a stavy",
+                "notifikace a eskalace",
+                "integrace na zdrojové systémy",
+                "kontrolní rozhraní pro výjimky a audit"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen digitalizovat starý chaos. Důležité je zjednodušit práci lidí, zpřehlednit odpovědnosti a zlepšit kontrolu nad procesem."
+              ],
+              "bullets": [
+                "rychlejší průchod procesem",
+                "menší ruční koordinace",
+                "lepší dohled nad výjimkami",
+                "vyšší spolehlivost opakované agendy"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je workflow automatizace vhodná i bez velkého ERP?",
+              "answer": "Ano. Důležitější než velikost systému je opakovanost procesu a množství ruční koordinace."
+            },
+            {
+              "question": "Lze zachovat ruční schválení tam, kde je potřeba?",
+              "answer": "Ano. Smyslem není automatizovat všechno, ale rozlišit pravidla a výjimky."
+            },
+            {
+              "question": "Co když dnes proces není dobře popsaný?",
+              "answer": "To je běžné. První krok je proces zmapovat a teprve potom automatizovat."
+            },
+            {
+              "question": "Může být výsledkem i menší interní nástroj?",
+              "answer": "Ano. Často je potřeba workflow podpořit i jednoduchým interním rozhraním pro lidi."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "problem-system-integrations",
+            "case-study-multi-system-integration",
+            "use-case-service-team-ops-system",
+            "tool-api-integration-checklist"
+          ],
+          "fit": {
+            "for": [
+              "rychlejší průchod procesem",
+              "menší ruční koordinace",
+              "lepší dohled nad výjimkami",
+              "vyšší spolehlivost opakované agendy"
+            ],
+            "notFor": [
+              "pouhé přenesení chaosu do nové obrazovky"
+            ]
+          },
+          "seo": {
+            "title": "Workflow automatizace ve firmě | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad workflow automatizace pro firmy, které chtějí snížit ruční práci, lépe řídit schvalování a zrychlit návazné kroky mezi systémy."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-workflow-automation-tools.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad použití",
+        "heading": "Proces, který už nemusí stát na ručním hlídání",
+        "body": "Pro opakované firemní workflow, kde se schvaluje, přepisuje, kontroluje a dohledává víc, než je zdravé.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Workflow automatizace je vhodná tam, kde se opakují stejné kroky, rozhodovací pravidla a návaznosti mezi lidmi a systémy.\n\nNejde jen o automatické spouštění. Důležité je vědět, co má být plně automatické, co má zůstat pod kontrolou lidí a jak řešit výjimky."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký problém tento typ aplikace řeší",
+        "body": "Use case dává smysl tam, kde je potřeba převést důležitý proces do přehledného systému s jasnou rolí uživatelů a dat.",
+        "items": [
+          "pomalé schvalovací řetězce",
+          "ruční přepisování mezi systémy",
+          "zpoždění kvůli nejasnému vlastníkovi kroku",
+          "složitá dohledatelnost, kde se proces zasekl"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale základ bývá podobný: role, workflow, přehled stavu, oprávnění a napojení na další systémy.",
+        "items": [
+          "workflow pravidla a stavy",
+          "notifikace a eskalace",
+          "integrace na zdrojové systémy",
+          "kontrolní rozhraní pro výjimky a audit"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen digitalizovat starý chaos. Důležité je zjednodušit práci lidí, zpřehlednit odpovědnosti a zlepšit kontrolu nad procesem.",
+        "items": [
+          "rychlejší průchod procesem",
+          "menší ruční koordinace",
+          "lepší dohled nad výjimkami",
+          "vyšší spolehlivost opakované agendy"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je workflow automatizace vhodná i bez velkého ERP?",
+            "answer": "Ano. Důležitější než velikost systému je opakovanost procesu a množství ruční koordinace."
+          },
+          {
+            "question": "Lze zachovat ruční schválení tam, kde je potřeba?",
+            "answer": "Ano. Smyslem není automatizovat všechno, ale rozlišit pravidla a výjimky."
+          },
+          {
+            "question": "Co když dnes proces není dobře popsaný?",
+            "answer": "To je běžné. První krok je proces zmapovat a teprve potom automatizovat."
+          },
+          {
+            "question": "Může být výsledkem i menší interní nástroj?",
+            "answer": "Ano. Často je potřeba workflow podpořit i jednoduchým interním rozhraním pro lidi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

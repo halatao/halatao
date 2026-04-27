@@ -1,0 +1,280 @@
+{
+  "id": "service-request-offer-delivery-system.en",
+  "locale": "en",
+  "slug": "/services/request-offer-delivery-system",
+  "title": "A simple system for managing requests, offers and jobs",
+  "seo": {
+    "title": "A simple system for managing requests, offers and jobs",
+    "description": "I design and build a simple internal system for teams that need to manage requests, offers, and delivery jobs in one place instead of relying on spreadsheets...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-request-offer-delivery-system",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "request-offer-delivery-system",
+          "segments": [
+            "services",
+            "request-offer-delivery-system"
+          ],
+          "title": "A simple system for managing requests, offers and jobs",
+          "h1": "A simple system for managing requests, offers and jobs",
+          "description": "I design and build a simple internal system for teams that need to manage requests, offers, and delivery jobs in one place instead of relying on spreadsheets, email, and manual coordination.",
+          "primaryQuery": "request offer delivery system",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "One place for requests, offers, and delivery jobs",
+            "subtitle": "No more spreadsheet sprawl, lost emails, or unclear job status. A system built around how your team actually works.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "Most companies do not start with a broken process. They start with spreadsheets, email, and manual coordination — and for a while, that works.",
+            "The real problems begin when request volume grows, more people get involved, and the same job moves across sales, offer preparation, and delivery.",
+            "That is where a simple internal system starts to make sense: one place where the team can see the same status, the same history, and the next step clearly."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "This is a strong fit where sales and delivery both work on the same job but do not share one reliable operational view."
+              ],
+              "bullets": [
+                "requests come in through email or forms and are not tracked in one place",
+                "offers exist in multiple versions and nobody is sure which one is current",
+                "approved work is handed over into delivery manually",
+                "job status has to be reconstructed from spreadsheets, email threads, and notes",
+                "it is unclear who owns the next step and where the process is blocked"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "The system usually connects sales and delivery into one workflow with shared visibility, history, and responsibility."
+              ],
+              "bullets": [
+                "tracking of incoming requests and their statuses",
+                "clear connection between the request and the offer",
+                "handoff from approved offer into delivery",
+                "visibility into ownership, deadlines, history, and notes",
+                "possible integration with email, CRM, invoicing, or internal tools"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "The first step is to understand how the current process works, where information gets lost, and where the system should create the biggest relief."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "The best outcome is not just a new tool. It is less coordination overhead, fewer mistakes, and a clearer shared view of every job."
+              ],
+              "bullets": [
+                "better visibility across requests and jobs",
+                "less manual coordination between sales and delivery",
+                "lower risk of lost information and unclear status",
+                "a stronger base for reporting or later automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this useful for a small team too?",
+              "answer": "Yes, especially when requests and jobs already repeat often enough that the current setup slows people down or creates avoidable confusion."
+            },
+            {
+              "question": "Does the system need to cover the full process from day one?",
+              "answer": "No. It is often better to start with one stage and expand later."
+            },
+            {
+              "question": "Can it connect to other systems?",
+              "answer": "Yes. Typical integrations include email, CRM, invoicing, or other internal tools so the system does not stay isolated."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-requests-offers-delivery-in-spreadsheets",
+            "problem-replace-spreadsheets-in-process",
+            "use-case-request-offer-delivery-workflow",
+            "use-case-workflow-app-for-teams",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "small teams handling repeatable request-to-delivery work",
+              "companies connecting sales, offers, and execution",
+              "processes that have clearly outgrown spreadsheets and email"
+            ],
+            "notFor": [
+              "very simple single-step tracking",
+              "basic SaaS buying with no process tailoring",
+              "micro processes with no real handoff between roles"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "A simple system for managing requests, offers and jobs",
+            "description": "I design and build a simple internal system for teams that need to manage requests, offers, and delivery jobs in one place instead of relying on spreadsheets, email, and manual coordination."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-request-offer-delivery-system.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "One place for requests, offers, and delivery jobs",
+        "body": "No more spreadsheet sprawl, lost emails, or unclear job status. A system built around how your team actually works.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Most companies do not start with a broken process. They start with spreadsheets, email, and manual coordination — and for a while, that works.\n\nThe real problems begin when request volume grows, more people get involved, and the same job moves across sales, offer preparation, and delivery.\n\nThat is where a simple internal system starts to make sense: one place where the team can see the same status, the same history, and the next step clearly."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "This is a strong fit where sales and delivery both work on the same job but do not share one reliable operational view.",
+        "items": [
+          "requests come in through email or forms and are not tracked in one place",
+          "offers exist in multiple versions and nobody is sure which one is current",
+          "approved work is handed over into delivery manually",
+          "job status has to be reconstructed from spreadsheets, email threads, and notes",
+          "it is unclear who owns the next step and where the process is blocked"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "The system usually connects sales and delivery into one workflow with shared visibility, history, and responsibility.",
+        "items": [
+          "tracking of incoming requests and their statuses",
+          "clear connection between the request and the offer",
+          "handoff from approved offer into delivery",
+          "visibility into ownership, deadlines, history, and notes",
+          "possible integration with email, CRM, invoicing, or internal tools"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "The first step is to understand how the current process works, where information gets lost, and where the system should create the biggest relief."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "The best outcome is not just a new tool. It is less coordination overhead, fewer mistakes, and a clearer shared view of every job.",
+        "items": [
+          "better visibility across requests and jobs",
+          "less manual coordination between sales and delivery",
+          "lower risk of lost information and unclear status",
+          "a stronger base for reporting or later automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this useful for a small team too?",
+            "answer": "Yes, especially when requests and jobs already repeat often enough that the current setup slows people down or creates avoidable confusion."
+          },
+          {
+            "question": "Does the system need to cover the full process from day one?",
+            "answer": "No. It is often better to start with one stage and expand later."
+          },
+          {
+            "question": "Can it connect to other systems?",
+            "answer": "Yes. Typical integrations include email, CRM, invoicing, or other internal tools so the system does not stay isolated."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

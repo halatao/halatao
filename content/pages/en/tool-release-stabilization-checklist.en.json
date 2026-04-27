@@ -1,0 +1,245 @@
+{
+  "id": "tool-release-stabilization-checklist.en",
+  "locale": "en",
+  "slug": "/templates/release-process-stabilization-checklist",
+  "title": "Release process stabilisation checklist | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Release process stabilisation checklist | Bc. Ondrej Halata (halata...",
+    "description": "A practical checklist for companies that want to stabilise their application release process, lower deployment risk, and create a stronger base for future de...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-release-stabilization-checklist",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "release-process-stabilization-checklist",
+          "segments": [
+            "templates",
+            "release-process-stabilization-checklist"
+          ],
+          "title": "Release process stabilisation checklist | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "Checklist for stabilising an application release process before further growth",
+          "description": "A practical checklist for companies that want to stabilise their application release process, lower deployment risk, and create a stronger base for future delivery.",
+          "primaryQuery": "release process stabilization checklist",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "The biggest release problem is rarely just the deploy script",
+            "subtitle": "A working checklist for teams trying to lower deployment risk, clarify ownership, and remove weak points before the next critical delivery phase.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A fragile release process is not just a technical detail. It shows up as slower delivery, higher anxiety around change, and less confidence that the next release will land cleanly.",
+            "This checklist helps teams quickly review where release still depends on improvisation, weak access setup, missing monitoring, or knowledge concentrated in one person."
+          ],
+          "sections": [
+            {
+              "title": "What the asset should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision."
+              ],
+              "bullets": [
+                "release steps, ownership, and approval flow",
+                "access, environments, rollback, and operational dependencies",
+                "monitoring, logging, and post-release verification",
+                "points where release still relies on manual improvisation or hidden knowledge"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake."
+              ],
+              "bullets": [
+                "before an app takeover or stabilisation phase",
+                "when reviewing release process before an important launch",
+                "as input to an operational and delivery risk audit"
+              ]
+            },
+            {
+              "title": "What result it should create",
+              "body": [
+                "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions."
+              ],
+              "bullets": [
+                "better visibility into release weaknesses and ownership",
+                "lower deployment and regression risk",
+                "faster orientation during takeover or stabilisation",
+                "a stronger base for future delivery work"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this useful even if release works but feels slow?",
+              "answer": "Yes. Slow release is often a sign of too much manual caution, unclear ownership, or weak confidence in the process."
+            },
+            {
+              "question": "Does this help even without fully automated deploys?",
+              "answer": "Yes. The goal is to understand weak points and risk first. Automation is a later move, not the only one."
+            },
+            {
+              "question": "Is this relevant during app takeover?",
+              "answer": "Yes. Takeover is exactly when teams often need a fast map of release risk before larger delivery work begins."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "teams with fragile or slow release process",
+              "companies before a takeover or stabilisation phase",
+              "projects where release risk is already slowing change"
+            ],
+            "notFor": [
+              "projects with no access to the real release environment and owners",
+              "purely theoretical improvement work detached from real deployment",
+              "situations where the problem is only backlog priority, not release itself"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If you want help turning this into an actual delivery plan, a short context summary is enough."
+          },
+          "seo": {
+            "title": "Release process stabilisation checklist | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical checklist for companies that want to stabilise their application release process, lower deployment risk, and create a stronger base for future delivery."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-release-stabilization-checklist.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "The biggest release problem is rarely just the deploy script",
+        "body": "A working checklist for teams trying to lower deployment risk, clarify ownership, and remove weak points before the next critical delivery phase.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A fragile release process is not just a technical detail. It shows up as slower delivery, higher anxiety around change, and less confidence that the next release will land cleanly.\n\nThis checklist helps teams quickly review where release still depends on improvisation, weak access setup, missing monitoring, or knowledge concentrated in one person."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the asset should cover",
+        "body": "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision.",
+        "items": [
+          "release steps, ownership, and approval flow",
+          "access, environments, rollback, and operational dependencies",
+          "monitoring, logging, and post-release verification",
+          "points where release still relies on manual improvisation or hidden knowledge"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake.",
+        "items": [
+          "before an app takeover or stabilisation phase",
+          "when reviewing release process before an important launch",
+          "as input to an operational and delivery risk audit"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What result it should create",
+        "body": "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions.",
+        "items": [
+          "better visibility into release weaknesses and ownership",
+          "lower deployment and regression risk",
+          "faster orientation during takeover or stabilisation",
+          "a stronger base for future delivery work"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this useful even if release works but feels slow?",
+            "answer": "Yes. Slow release is often a sign of too much manual caution, unclear ownership, or weak confidence in the process."
+          },
+          {
+            "question": "Does this help even without fully automated deploys?",
+            "answer": "Yes. The goal is to understand weak points and risk first. Automation is a later move, not the only one."
+          },
+          {
+            "question": "Is this relevant during app takeover?",
+            "answer": "Yes. Takeover is exactly when teams often need a fast map of release risk before larger delivery work begins."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If you want help turning this into an actual delivery plan, a short context summary is enough.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

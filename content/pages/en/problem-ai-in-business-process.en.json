@@ -1,0 +1,246 @@
+{
+  "id": "problem-ai-in-business-process.en",
+  "locale": "en",
+  "slug": "/problems/want-to-use-ai-in-a-business-process",
+  "title": "We want to use AI in a business process",
+  "seo": {
+    "title": "We want to use AI in a business process",
+    "description": "I help companies assess where AI has real value inside a business process, where automation or workflow improvement should come first, and how to avoid addin...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-ai-in-business-process",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "problem",
+          "slug": "want-to-use-ai-in-a-business-process",
+          "segments": [
+            "problems",
+            "want-to-use-ai-in-a-business-process"
+          ],
+          "title": "We want to use AI in a business process",
+          "h1": "How to use AI in a business process without adding another layer of chaos",
+          "description": "I help companies assess where AI has real value inside a business process, where automation or workflow improvement should come first, and how to avoid adding complexity without operational payoff.",
+          "primaryQuery": "using ai in a business process",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situation",
+            "title": "We want AI, but not another tool with no real operational gain",
+            "subtitle": "A typical situation where the company sees AI potential but is not yet sure where it truly fits and where it would only add more complexity.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Many companies know AI could help. What they often do not have yet is a clear use case grounded in a real process.",
+            "That is where problems start. If the workflow is unclear, the inputs are weak, and the team cannot point to the real source of wasted time or repeated errors, AI usually becomes an extra layer instead of a useful one."
+          ],
+          "sections": [
+            {
+              "title": "Typical symptoms",
+              "body": [
+                "When AI is introduced without operational fit, the problem is not only disappointing results. It can also increase process complexity, manual oversight, and scepticism toward future improvement work."
+              ],
+              "bullets": [
+                "the company wants AI but cannot define a focused use case",
+                "people expect AI to fix an unclear or chaotic process",
+                "it is not obvious whether the real issue is data, workflow, or manual operations",
+                "there is no clear first step for a practical pilot or first release"
+              ]
+            },
+            {
+              "title": "How I approach it",
+              "body": [
+                "I start with the process, not the technology. First we identify where time is lost, where the same work repeats, and where AI should be compared against simpler automation or internal-tool changes."
+              ]
+            },
+            {
+              "title": "What a good outcome looks like",
+              "body": [
+                "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery."
+              ],
+              "bullets": [
+                "clearer decision on whether AI makes sense right now",
+                "one practical first use case instead of a vague hype brief",
+                "lower risk of spending on unnecessary complexity",
+                "better alignment between AI, process, data, and ownership"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does the solution always need AI?",
+              "answer": "No. In some cases the stronger first step is simpler automation, clearer workflow, or an internal-tool change. That is still a good outcome."
+            },
+            {
+              "question": "Where does AI work best inside a company?",
+              "answer": "Often around document handling, request triage, knowledge retrieval, or repeated work on text and structured data."
+            },
+            {
+              "question": "Should we start with a large AI project?",
+              "answer": "Usually not. A smaller first use case is often better for validating value and exposing operational limits early."
+            },
+            {
+              "question": "What if we learn AI is not the right fit?",
+              "answer": "That is still valuable. It is better to learn that early than to invest in a layer that will not create enough business value."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-automations-and-integrations",
+            "service-internal-tools-development",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-ai-internal-documents",
+            "use-case-ai-intake-triage",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies looking for a first realistic AI use case",
+              "teams with recurring admin, document, or intake-heavy work",
+              "buyers wanting practical AI rather than hype"
+            ],
+            "notFor": [
+              "purely experimental AI with no operating goal",
+              "projects with no process owner or no access to usable inputs",
+              "situations where AI is expected to solve undefined chaos by itself"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "Share the current state, the main risk, and what needs to change next."
+          },
+          "seo": {
+            "title": "We want to use AI in a business process",
+            "description": "I help companies assess where AI has real value inside a business process, where automation or workflow improvement should come first, and how to avoid adding complexity without operational payoff."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-ai-in-business-process.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situation",
+        "heading": "We want AI, but not another tool with no real operational gain",
+        "body": "A typical situation where the company sees AI potential but is not yet sure where it truly fits and where it would only add more complexity.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Many companies know AI could help. What they often do not have yet is a clear use case grounded in a real process.\n\nThat is where problems start. If the workflow is unclear, the inputs are weak, and the team cannot point to the real source of wasted time or repeated errors, AI usually becomes an extra layer instead of a useful one."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical symptoms",
+        "body": "When AI is introduced without operational fit, the problem is not only disappointing results. It can also increase process complexity, manual oversight, and scepticism toward future improvement work.",
+        "items": [
+          "the company wants AI but cannot define a focused use case",
+          "people expect AI to fix an unclear or chaotic process",
+          "it is not obvious whether the real issue is data, workflow, or manual operations",
+          "there is no clear first step for a practical pilot or first release"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I approach it",
+        "body": "I start with the process, not the technology. First we identify where time is lost, where the same work repeats, and where AI should be compared against simpler automation or internal-tool changes."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a good outcome looks like",
+        "body": "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery.",
+        "items": [
+          "clearer decision on whether AI makes sense right now",
+          "one practical first use case instead of a vague hype brief",
+          "lower risk of spending on unnecessary complexity",
+          "better alignment between AI, process, data, and ownership"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Does the solution always need AI?",
+            "answer": "No. In some cases the stronger first step is simpler automation, clearer workflow, or an internal-tool change. That is still a good outcome."
+          },
+          {
+            "question": "Where does AI work best inside a company?",
+            "answer": "Often around document handling, request triage, knowledge retrieval, or repeated work on text and structured data."
+          },
+          {
+            "question": "Should we start with a large AI project?",
+            "answer": "Usually not. A smaller first use case is often better for validating value and exposing operational limits early."
+          },
+          {
+            "question": "What if we learn AI is not the right fit?",
+            "answer": "That is still valuable. It is better to learn that early than to invest in a layer that will not create enough business value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the current state, the main risk, and what needs to change next.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

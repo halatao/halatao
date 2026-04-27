@@ -1,0 +1,251 @@
+{
+  "id": "use-case-request-offer-delivery-system.cs",
+  "locale": "cs",
+  "slug": "/priklady/system-pro-poptavky-nabidky-a-realizaci",
+  "title": "Systém pro poptávky, nabídky a realizaci zakázek",
+  "seo": {
+    "title": "Systém pro poptávky, nabídky a realizaci zakázek",
+    "description": "Příklad interního systému pro firmy, které potřebují propojit evidenci poptávek, tvorbu nabídek a následnou realizaci zakázek bez chaosu mezi obchodem a prov...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-request-offer-delivery-system",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "system-pro-poptavky-nabidky-a-realizaci",
+          "segments": [
+            "priklady",
+            "system-pro-poptavky-nabidky-a-realizaci"
+          ],
+          "title": "Systém pro poptávky, nabídky a realizaci zakázek",
+          "h1": "Systém pro poptávky, nabídky a realizaci zakázek",
+          "description": "Příklad interního systému pro firmy, které potřebují propojit evidenci poptávek, tvorbu nabídek a následnou realizaci zakázek bez chaosu mezi obchodem a provozem.",
+          "primaryQuery": "systém pro poptávky nabídky a realizaci",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Jeden systém místo tabulek, e-mailů a ručního dohledávání zakázek",
+            "subtitle": "Vhodné pro firmy, kde se nad jednou zakázkou potkává obchod, příprava nabídky a následná realizace.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tento typ systému dává smysl tam, kde firma nechce řídit zakázku ve třech oddělených světech. Poptávka, nabídka i realizace na sebe navazují a lidé potřebují pracovat nad jedním přehledem.",
+            "Typický cíl není digitalizovat všechno najednou, ale dát obchodní a realizační části procesu jeden společný rámec, stavy a návaznost dalších kroků."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "poptávka přichází e-mailem nebo formulářem a dál se zpracovává ručně",
+                "nabídka vzniká mimo hlavní evidenci a ztrácí se návaznost na zakázku",
+                "po schválení nabídky přechází informace do realizace neúplně nebo ručně",
+                "stav zakázky není snadno dohledatelný napříč obchodem a provozem"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "evidence poptávek a jejich stavů",
+                "návaznost nabídky na konkrétní poptávku",
+                "převod do realizace a řízení dalšího průběhu",
+                "přehled odpovědnosti, termínů, historie a poznámek",
+                "možnost napojení na další firemní nástroje"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "lepší přehled nad celým průchodem zakázky",
+                "méně ruční koordinace mezi obchodem a realizací",
+                "nižší riziko ztracených informací a nejasných stavů",
+                "silnější základ pro další reporting nebo automatizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné jen pro velké firmy?",
+              "answer": "Ne. Smysl to má i pro menší firmu, pokud se proces opakuje dost často a současné řešení už začíná být nepřehledné."
+            },
+            {
+              "question": "Musí se řešit celý proces najednou?",
+              "answer": "Nemusí. Často dává smysl začít jednou etapou, například evidencí poptávek a převodem do realizace."
+            },
+            {
+              "question": "Lze systém rozšířit i později?",
+              "answer": "Ano. Dobře navržený interní systém se dá rozšiřovat podle toho, jak se proces ve firmě vyvíjí."
+            }
+          ],
+          "related": [
+            "service-request-offer-delivery-system",
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-requests-offers-delivery-in-spreadsheets",
+            "problem-replace-spreadsheets-in-process",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy se zakázkovým obchodem a navazující realizací",
+              "týmy, kde se propojuje poptávka, nabídka a zakázka",
+              "procesy, které už přerůstají tabulky a e-mail"
+            ],
+            "notFor": [
+              "jednoduchá evidence bez návaznosti více kroků",
+              "čistě CRM-only proces bez realizace",
+              "týmy, které nechtějí popsat skutečný průběh procesu"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Systém pro poptávky, nabídky a realizaci zakázek",
+            "description": "Příklad interního systému pro firmy, které potřebují propojit evidenci poptávek, tvorbu nabídek a následnou realizaci zakázek bez chaosu mezi obchodem a provozem."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-request-offer-delivery-system.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Jeden systém místo tabulek, e-mailů a ručního dohledávání zakázek",
+        "body": "Vhodné pro firmy, kde se nad jednou zakázkou potkává obchod, příprava nabídky a následná realizace.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tento typ systému dává smysl tam, kde firma nechce řídit zakázku ve třech oddělených světech. Poptávka, nabídka i realizace na sebe navazují a lidé potřebují pracovat nad jedním přehledem.\n\nTypický cíl není digitalizovat všechno najednou, ale dát obchodní a realizační části procesu jeden společný rámec, stavy a návaznost dalších kroků."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "poptávka přichází e-mailem nebo formulářem a dál se zpracovává ručně",
+          "nabídka vzniká mimo hlavní evidenci a ztrácí se návaznost na zakázku",
+          "po schválení nabídky přechází informace do realizace neúplně nebo ručně",
+          "stav zakázky není snadno dohledatelný napříč obchodem a provozem"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "evidence poptávek a jejich stavů",
+          "návaznost nabídky na konkrétní poptávku",
+          "převod do realizace a řízení dalšího průběhu",
+          "přehled odpovědnosti, termínů, historie a poznámek",
+          "možnost napojení na další firemní nástroje"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "lepší přehled nad celým průchodem zakázky",
+          "méně ruční koordinace mezi obchodem a realizací",
+          "nižší riziko ztracených informací a nejasných stavů",
+          "silnější základ pro další reporting nebo automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné jen pro velké firmy?",
+            "answer": "Ne. Smysl to má i pro menší firmu, pokud se proces opakuje dost často a současné řešení už začíná být nepřehledné."
+          },
+          {
+            "question": "Musí se řešit celý proces najednou?",
+            "answer": "Nemusí. Často dává smysl začít jednou etapou, například evidencí poptávek a převodem do realizace."
+          },
+          {
+            "question": "Lze systém rozšířit i později?",
+            "answer": "Ano. Dobře navržený interní systém se dá rozšiřovat podle toho, jak se proces ve firmě vyvíjí."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

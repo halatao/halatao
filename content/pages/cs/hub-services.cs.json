@@ -1,0 +1,236 @@
+{
+  "id": "hub-services.cs",
+  "locale": "cs",
+  "slug": "/sluzby",
+  "title": "Služby pro webové aplikace, takeover a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Služby pro webové aplikace, takeover a interní systémy | Bc. Ondřej...",
+    "description": "Přehled hlavních služeb: vývoj webových aplikací na míru, převzetí existující aplikace, interní systémy, systémy pro poptávky, nabídky a realizaci zakázek, a...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-services",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "sluzby",
+          "segments": [
+            "sluzby"
+          ],
+          "title": "Služby pro webové aplikace, takeover a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Služby pro firmy, které potřebují dodat, převzít nebo zlepšit důležitou aplikaci",
+          "description": "Přehled hlavních služeb: vývoj webových aplikací na míru, převzetí existující aplikace, interní systémy, systémy pro poptávky, nabídky a realizaci zakázek, automatizace, integrace a kontraktní spolupráce.",
+          "primaryQuery": "Služby pro firmy, které potřebují dodat, převzít nebo zlepšit důležitou aplikaci",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Vyberte službu podle projektové situace, ne podle buzzwordu",
+            "subtitle": "Sekce pro firmy a týmy, které řeší nový vývoj, takeover, interní systém, automatizace nebo potřebu seniorní kontraktní kapacity.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tato sekce je hlavní komerční vstup pro buyery, kteří už vědí, že řeší software projekt nebo delivery problém s reálným dopadem na firmu.",
+            "Najdete tu služby pro nový vývoj, převzetí existující aplikace, interní nástroje, systémy pro poptávky, nabídky a realizaci, automatizace a integrace i přímou kontraktní spolupráci uvnitř týmu."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Každá child page vysvětluje, kdy daná služba dává smysl, jaké typy zadání mívají dobrý fit, co typicky dodávám a jak vypadá rozumný další krok."
+              ]
+            },
+            {
+              "title": "Kdy začít právě tady",
+              "body": [
+                "Tato sekce funguje jako komerční rozcestník. Pomůže vám vybrat správný typ spolupráce podle projektové situace, ne podle náhodného technologického štítku."
+              ],
+              "bullets": [
+                "nový software pro důležitý proces",
+                "běžící aplikace po dodavateli nebo bez ownershipu",
+                "interní workflow a reporting, které už neudrží tabulky",
+                "manuální práce a přepisování mezi několika systémy",
+                "projekt, kterému chybí seniorní technický ownership"
+              ]
+            },
+            {
+              "title": "Jak pokračovat dál",
+              "body": [
+                "Nejlepší další krok je otevřít stránku nejbližší aktuální situaci a odtud pokračovat do souvisejícího problému, srovnání nebo inquiry flow."
+              ],
+              "bullets": [
+                "začněte službou nejbližší aktuální situaci",
+                "pokračujte na související problem page nebo comparison page",
+                "pokud už je fit jasný, přejděte rovnou na popis projektu"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jak vybrat správnou službu?",
+              "answer": "Podle hlavního tlaku v projektu: nový build, takeover, interní systém, automatizace nebo doplnění seniorní kapacity do týmu."
+            },
+            {
+              "question": "Lze služby kombinovat?",
+              "answer": "Ano. Běžná kombinace je takeover a navazující rozvoj, interní systém s integracemi nebo kontraktní podpora uvnitř existujícího týmu."
+            },
+            {
+              "question": "Je kontraktní spolupráce součástí stejné nabídky?",
+              "answer": "Ano. Jde o samostatný model zapojení pro týmy, které potřebují seniorní delivery podporu bez plně agenturního setupu."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "service-internal-tools-development",
+            "service-request-offer-delivery-system",
+            "service-automations-and-integrations",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "nový software pro důležitý proces",
+              "běžící aplikace po dodavateli nebo bez ownershipu",
+              "interní workflow a reporting, které už neudrží tabulky",
+              "manuální práce a přepisování mezi několika systémy",
+              "projekt, kterému chybí seniorní technický ownership"
+            ],
+            "notFor": [
+              "pasivní procházení bez konkrétní projektové otázky"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí stručně popsat projektovou situaci, cíl a omezení. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Služby pro webové aplikace, takeover a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled hlavních služeb: vývoj webových aplikací na míru, převzetí existující aplikace, interní systémy, systémy pro poptávky, nabídky a realizaci zakázek, automatizace, integrace a kontraktní spolupráce."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-services.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Vyberte službu podle projektové situace, ne podle buzzwordu",
+        "body": "Sekce pro firmy a týmy, které řeší nový vývoj, takeover, interní systém, automatizace nebo potřebu seniorní kontraktní kapacity.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tato sekce je hlavní komerční vstup pro buyery, kteří už vědí, že řeší software projekt nebo delivery problém s reálným dopadem na firmu.\n\nNajdete tu služby pro nový vývoj, převzetí existující aplikace, interní nástroje, systémy pro poptávky, nabídky a realizaci, automatizace a integrace i přímou kontraktní spolupráci uvnitř týmu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Každá child page vysvětluje, kdy daná služba dává smysl, jaké typy zadání mívají dobrý fit, co typicky dodávám a jak vypadá rozumný další krok."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy začít právě tady",
+        "body": "Tato sekce funguje jako komerční rozcestník. Pomůže vám vybrat správný typ spolupráce podle projektové situace, ne podle náhodného technologického štítku.",
+        "items": [
+          "nový software pro důležitý proces",
+          "běžící aplikace po dodavateli nebo bez ownershipu",
+          "interní workflow a reporting, které už neudrží tabulky",
+          "manuální práce a přepisování mezi několika systémy",
+          "projekt, kterému chybí seniorní technický ownership"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak pokračovat dál",
+        "body": "Nejlepší další krok je otevřít stránku nejbližší aktuální situaci a odtud pokračovat do souvisejícího problému, srovnání nebo inquiry flow.",
+        "items": [
+          "začněte službou nejbližší aktuální situaci",
+          "pokračujte na související problem page nebo comparison page",
+          "pokud už je fit jasný, přejděte rovnou na popis projektu"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jak vybrat správnou službu?",
+            "answer": "Podle hlavního tlaku v projektu: nový build, takeover, interní systém, automatizace nebo doplnění seniorní kapacity do týmu."
+          },
+          {
+            "question": "Lze služby kombinovat?",
+            "answer": "Ano. Běžná kombinace je takeover a navazující rozvoj, interní systém s integracemi nebo kontraktní podpora uvnitř existujícího týmu."
+          },
+          {
+            "question": "Je kontraktní spolupráce součástí stejné nabídky?",
+            "answer": "Ano. Jde o samostatný model zapojení pro týmy, které potřebují seniorní delivery podporu bez plně agenturního setupu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí stručně popsat projektovou situaci, cíl a omezení. Navrhnu rozumný další krok.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

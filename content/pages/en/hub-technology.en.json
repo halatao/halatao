@@ -1,0 +1,228 @@
+{
+  "id": "hub-technology.en",
+  "locale": "en",
+  "slug": "/technology",
+  "title": "Technology decisions for business apps, portals, and internal tools | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Technology decisions for business apps, portals, and internal tools...",
+    "description": "Overview of technology pages covering Next.js, TypeScript, API integrations, and PostgreSQL in the context of business software and internal tools.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-technology",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "technology",
+          "segments": [
+            "technology"
+          ],
+          "title": "Technology decisions for business apps, portals, and internal tools | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Technology decision pages for business applications and internal systems",
+          "description": "Overview of technology pages covering Next.js, TypeScript, API integrations, and PostgreSQL in the context of business software and internal tools.",
+          "primaryQuery": "Technology decision pages for business applications and internal systems",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Technology explained through project fit rather than trend chasing",
+            "subtitle": "Useful when a buyer or team needs to understand why a stack choice or integration approach is commercially sensible for the project at hand.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These pages are not a tool catalogue. They are decision content for the moment when a team needs to justify a stack or integration direction in business terms.",
+            "The section covers Next.js, TypeScript, API integrations, and PostgreSQL in the context of business applications, portals, and internal systems."
+          ],
+          "sections": [
+            {
+              "title": "What this section covers",
+              "body": [
+                "Each child page explains where the technology is strong, what to watch out for, and which type of business project benefits most from it."
+              ]
+            },
+            {
+              "title": "Who this section helps most",
+              "body": [
+                "This section works as a supporting authority layer for buyers and teams that need better decisions around technology, templates, or local commercial context."
+              ],
+              "bullets": [
+                "buyers who need technology translated into business terms",
+                "internal teams validating an architecture direction",
+                "projects focused on integrations, maintainability, or long-term stack choices"
+              ]
+            },
+            {
+              "title": "How to continue from here",
+              "body": [
+                "Open the child page closest to the current decision and then continue into the relevant service, comparison, or inquiry path."
+              ],
+              "bullets": [
+                "open the technology page tied to the current decision",
+                "follow into the relevant comparison or service page",
+                "move to inquiry if you need advice grounded in your actual project context"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Are these pages only for technical readers?",
+              "answer": "No. They are written to help commercial and delivery stakeholders understand stack decisions too."
+            },
+            {
+              "question": "Do they connect back to services?",
+              "answer": "Yes. Every technology page links into the commercial context where it is most relevant."
+            },
+            {
+              "question": "Are they useful in inherited-app situations?",
+              "answer": "Yes. They can help frame whether the current stack still supports the product well."
+            }
+          ],
+          "related": [
+            "technology-nextjs-for-business-applications",
+            "technology-typescript-for-large-web-projects",
+            "technology-api-integrations",
+            "technology-postgresql-for-internal-tools"
+          ],
+          "fit": {
+            "for": [
+              "buyers who need technology translated into business terms",
+              "internal teams validating an architecture direction",
+              "projects focused on integrations, maintainability, or long-term stack choices"
+            ],
+            "notFor": [
+              "reading with no connection to a real software decision"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If this section connects to a live project, I can help frame the next step against your context."
+          },
+          "seo": {
+            "title": "Technology decisions for business apps, portals, and internal tools | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Overview of technology pages covering Next.js, TypeScript, API integrations, and PostgreSQL in the context of business software and internal tools."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-technology.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Technology explained through project fit rather than trend chasing",
+        "body": "Useful when a buyer or team needs to understand why a stack choice or integration approach is commercially sensible for the project at hand.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These pages are not a tool catalogue. They are decision content for the moment when a team needs to justify a stack or integration direction in business terms.\n\nThe section covers Next.js, TypeScript, API integrations, and PostgreSQL in the context of business applications, portals, and internal systems."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What this section covers",
+        "body": "Each child page explains where the technology is strong, what to watch out for, and which type of business project benefits most from it."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Who this section helps most",
+        "body": "This section works as a supporting authority layer for buyers and teams that need better decisions around technology, templates, or local commercial context.",
+        "items": [
+          "buyers who need technology translated into business terms",
+          "internal teams validating an architecture direction",
+          "projects focused on integrations, maintainability, or long-term stack choices"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue from here",
+        "body": "Open the child page closest to the current decision and then continue into the relevant service, comparison, or inquiry path.",
+        "items": [
+          "open the technology page tied to the current decision",
+          "follow into the relevant comparison or service page",
+          "move to inquiry if you need advice grounded in your actual project context"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Are these pages only for technical readers?",
+            "answer": "No. They are written to help commercial and delivery stakeholders understand stack decisions too."
+          },
+          {
+            "question": "Do they connect back to services?",
+            "answer": "Yes. Every technology page links into the commercial context where it is most relevant."
+          },
+          {
+            "question": "Are they useful in inherited-app situations?",
+            "answer": "Yes. They can help frame whether the current stack still supports the product well."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If this section connects to a live project, I can help frame the next step against your context.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-plan-an-mvp-web-application.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-naplanovat-mvp-webove-aplikace",
+  "title": "Jak naplánovat MVP webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak naplánovat MVP webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický pruvodce, jak navrhnout MVP webové aplikace tak, aby rešilo duležitý problém a nevypadalo jako nedokoncený produkt.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-plan-an-mvp-web-application",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-naplanovat-mvp-webove-aplikace",
+          "segments": [
+            "pruvodce",
+            "jak-naplanovat-mvp-webove-aplikace"
+          ],
+          "title": "Jak naplánovat MVP webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak naplánovat MVP webové aplikace, které není jen polotovar",
+          "description": "Praktický pruvodce, jak navrhnout MVP webové aplikace tak, aby rešilo duležitý problém a nevypadalo jako nedokoncený produkt.",
+          "primaryQuery": "jak naplánovat mvp webové aplikace",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "MVP není co nejméne funkcí. Je to co nejmenší užitecný celek.",
+            "subtitle": "První verze musí zvládnout duležitý workflow, ne jen ukázku obrazovek.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Nejslabší MVP bývá to, které je malé jen na papíre, ale v praxi nereší celý duležitý scénár. Výsledek pak nikoho nepresvedcí a jen zvyšuje neduveru k projektu.",
+            "Silné MVP je dost úzké na rychlé dodání, ale dost úplné na overení reálného používání."
+          ],
+          "sections": [
+            {
+              "title": "Jak vybírat první workflow",
+              "body": [
+                "MVP by melo rešit jeden duležitý proces od zacátku do konce, ne deset rozpracovaných polotovaru."
+              ],
+              "bullets": [
+                "vysoký provozní dopad",
+                "jasný vlastník",
+                "rozumné riziko",
+                "možnost rychlé zpetné vazby"
+              ]
+            },
+            {
+              "title": "Co do MVP nepatrí",
+              "body": [
+                "Funkce bez jasné návaznosti na hlavní workflow, prémium doplnky, které nic neoverují, a sekundární scénáre, které jen nafukují scope."
+              ]
+            },
+            {
+              "title": "Jak poznat, že MVP funguje",
+              "body": [
+                "Ne podle poctu funkcí, ale podle toho, jestli lidé dokážou s první verzí vyrešit konkrétní problém rychleji a jisteji než predtím."
+              ]
+            },
+            {
+              "title": "Jak pripravit další etapy",
+              "body": [
+                "Dobré MVP usnadní rozhodnutí, co pridat dál, protože už stojí na reálném používání, ne na hypotézách."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Muže být MVP interní systém?",
+              "answer": "Ano. U interních nástroju bývá MVP velmi praktický zpusob, jak rychle odlehcit hlavnímu bottlenecku."
+            },
+            {
+              "question": "Má být MVP designove hotové?",
+              "answer": "Melo by být dost duveryhodné a použitelné pro reálnou práci, ale nemusí obsahovat každou okrajovou vrstvu produktu."
+            },
+            {
+              "question": "Jak dlouho má plánování MVP trvat?",
+              "answer": "Méne, než si firmy obvykle myslí. Duležitejší než dlouhé plánování je správný výber prvního workflow."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "use-case-client-portal",
+            "comparison-custom-vs-saas"
+          ],
+          "fit": {
+            "for": [
+              "guide-how-to-scope-a-custom-web-application",
+              "service-custom-web-app-development",
+              "use-case-client-portal",
+              "comparison-custom-vs-saas"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Jak naplánovat MVP webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický pruvodce, jak navrhnout MVP webové aplikace tak, aby rešilo duležitý problém a nevypadalo jako nedokoncený produkt."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-plan-an-mvp-web-application.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "MVP není co nejméne funkcí. Je to co nejmenší užitecný celek.",
+        "body": "První verze musí zvládnout duležitý workflow, ne jen ukázku obrazovek.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Nejslabší MVP bývá to, které je malé jen na papíre, ale v praxi nereší celý duležitý scénár. Výsledek pak nikoho nepresvedcí a jen zvyšuje neduveru k projektu.\n\nSilné MVP je dost úzké na rychlé dodání, ale dost úplné na overení reálného používání."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak vybírat první workflow",
+        "body": "MVP by melo rešit jeden duležitý proces od zacátku do konce, ne deset rozpracovaných polotovaru.",
+        "items": [
+          "vysoký provozní dopad",
+          "jasný vlastník",
+          "rozumné riziko",
+          "možnost rychlé zpetné vazby"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co do MVP nepatrí",
+        "body": "Funkce bez jasné návaznosti na hlavní workflow, prémium doplnky, které nic neoverují, a sekundární scénáre, které jen nafukují scope."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak poznat, že MVP funguje",
+        "body": "Ne podle poctu funkcí, ale podle toho, jestli lidé dokážou s první verzí vyrešit konkrétní problém rychleji a jisteji než predtím."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak pripravit další etapy",
+        "body": "Dobré MVP usnadní rozhodnutí, co pridat dál, protože už stojí na reálném používání, ne na hypotézách."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Muže být MVP interní systém?",
+            "answer": "Ano. U interních nástroju bývá MVP velmi praktický zpusob, jak rychle odlehcit hlavnímu bottlenecku."
+          },
+          {
+            "question": "Má být MVP designove hotové?",
+            "answer": "Melo by být dost duveryhodné a použitelné pro reálnou práci, ale nemusí obsahovat každou okrajovou vrstvu produktu."
+          },
+          {
+            "question": "Jak dlouho má plánování MVP trvat?",
+            "answer": "Méne, než si firmy obvykle myslí. Duležitejší než dlouhé plánování je správný výber prvního workflow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

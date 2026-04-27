@@ -1,0 +1,264 @@
+{
+  "id": "guide-how-to-price-an-app-takeover.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-nacenit-prevzeti-aplikace",
+  "title": "Jak nacenit převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak nacenit převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce, jak přemýšlet o nacenění převzetí existující aplikace: co ovlivňuje cenu, jak snížit nejistotu a proč je první takeover fáze důležitější...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-price-an-app-takeover",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-nacenit-prevzeti-aplikace",
+          "segments": [
+            "pruvodce",
+            "jak-nacenit-prevzeti-aplikace"
+          ],
+          "title": "Jak nacenit převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak nacenit převzetí aplikace bez slepých míst",
+          "description": "Praktický průvodce, jak přemýšlet o nacenění převzetí existující aplikace: co ovlivňuje cenu, jak snížit nejistotu a proč je první takeover fáze důležitější než přesnost od stolu.",
+          "primaryQuery": "jak nacenit převzetí aplikace",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Takeover se nenaceňuje podle počtu obrazovek, ale podle nejistoty a rizika",
+            "subtitle": "Pro firmy, které přebírají existující aplikaci a chtějí rozumět tomu, co jde odhadnout předem a co se musí ověřit první fází.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Převzetí aplikace má jinou logiku než greenfield projekt. Cena nestojí jen na rozsahu funkcí, ale hlavně na technické čitelnosti systému, provozním riziku a tom, co je potřeba chránit hned.",
+            "Smyslem dobrého nacenění není tvářit se, že všechno víte předem. Smyslem je oddělit ověřitelnou část od nejistoty a navrhnout první krok, který ji zmenší."
+          ],
+          "sections": [
+            {
+              "title": "Krátká odpověď",
+              "body": [
+                "Nejpřesnější rozpočet takeoveru obvykle nevzniká před auditem, ale po krátké úvodní fázi, která zmapuje systém, release, přístupy a kritická workflow."
+              ]
+            },
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok."
+              ],
+              "bullets": [
+                "oddělte takeover audit od navazujícího rozvoje",
+                "zjistěte, jaké části systému jsou provozně kritické",
+                "ověřte přístupy, prostředí, release a monitoring",
+                "počítejte zvlášť stabilizaci, zvlášť další delivery"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi."
+              ],
+              "bullets": [
+                "snaha dát pevnou cenu bez mapování systému",
+                "podcenění provozních rizik a chybějících přístupů",
+                "míchání takeoveru a velkého rozvoje do jednoho balíku",
+                "rewrite jako výchozí předpoklad místo varianty po zjištění reality"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "realističtější první rozpočet a plán",
+                "menší rozhodovací nejistota",
+                "jasnější oddělení auditu, stabilizace a rozvoje",
+                "nižší riziko drahého omylu v první fázi"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Lze takeover nacenit fixně od stolu?",
+              "answer": "U jednodušších situací částečně ano, ale u většiny běžících aplikací je bezpečnější nejdřív menší auditní fáze."
+            },
+            {
+              "question": "Co cenu takeoveru nejvíc ovlivňuje?",
+              "answer": "Čitelnost systému, dostupnost přístupů, kritičnost provozu, technický dluh a to, jak dobře je známý release proces."
+            },
+            {
+              "question": "Je audit jen další zdržení před prací?",
+              "answer": "Ne. U takeoveru bývá audit nejrychlejší cesta k tomu, aby další práce nebyla postavená na odhadech naslepo."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "problem-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy přebírající běžící nebo rozpracovanou aplikaci",
+              "buyery, kteří potřebují rozpočet s menší mírou nejistoty",
+              "týmy řešící vendor change nebo ztrátu znalosti"
+            ],
+            "notFor": [
+              "greenfield projekt bez takeover kontextu",
+              "buyer očekávající přesnou cenu bez přístupů a mapování",
+              "čistě náborová poptávka"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Jak nacenit převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce, jak přemýšlet o nacenění převzetí existující aplikace: co ovlivňuje cenu, jak snížit nejistotu a proč je první takeover fáze důležitější než přesnost od stolu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-price-an-app-takeover.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Takeover se nenaceňuje podle počtu obrazovek, ale podle nejistoty a rizika",
+        "body": "Pro firmy, které přebírají existující aplikaci a chtějí rozumět tomu, co jde odhadnout předem a co se musí ověřit první fází.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Převzetí aplikace má jinou logiku než greenfield projekt. Cena nestojí jen na rozsahu funkcí, ale hlavně na technické čitelnosti systému, provozním riziku a tom, co je potřeba chránit hned.\n\nSmyslem dobrého nacenění není tvářit se, že všechno víte předem. Smyslem je oddělit ověřitelnou část od nejistoty a navrhnout první krok, který ji zmenší."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Krátká odpověď",
+        "body": "Nejpřesnější rozpočet takeoveru obvykle nevzniká před auditem, ale po krátké úvodní fázi, která zmapuje systém, release, přístupy a kritická workflow."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok.",
+        "items": [
+          "oddělte takeover audit od navazujícího rozvoje",
+          "zjistěte, jaké části systému jsou provozně kritické",
+          "ověřte přístupy, prostředí, release a monitoring",
+          "počítejte zvlášť stabilizaci, zvlášť další delivery"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi.",
+        "items": [
+          "snaha dát pevnou cenu bez mapování systému",
+          "podcenění provozních rizik a chybějících přístupů",
+          "míchání takeoveru a velkého rozvoje do jednoho balíku",
+          "rewrite jako výchozí předpoklad místo varianty po zjištění reality"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu.",
+        "items": [
+          "realističtější první rozpočet a plán",
+          "menší rozhodovací nejistota",
+          "jasnější oddělení auditu, stabilizace a rozvoje",
+          "nižší riziko drahého omylu v první fázi"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Lze takeover nacenit fixně od stolu?",
+            "answer": "U jednodušších situací částečně ano, ale u většiny běžících aplikací je bezpečnější nejdřív menší auditní fáze."
+          },
+          {
+            "question": "Co cenu takeoveru nejvíc ovlivňuje?",
+            "answer": "Čitelnost systému, dostupnost přístupů, kritičnost provozu, technický dluh a to, jak dobře je známý release proces."
+          },
+          {
+            "question": "Je audit jen další zdržení před prací?",
+            "answer": "Ne. U takeoveru bývá audit nejrychlejší cesta k tomu, aby další práce nebyla postavená na odhadech naslepo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

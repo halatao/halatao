@@ -1,0 +1,247 @@
+{
+  "id": "problem-app-takeover.en",
+  "locale": "en",
+  "slug": "/problems/we-need-to-take-over-an-existing-app",
+  "title": "We need to take over an existing app | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "We need to take over an existing app | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I help companies take over existing or partially delivered web applications, map delivery risk, and define the next steps without forcing a rewrite first.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-app-takeover",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "problem",
+          "slug": "we-need-to-take-over-an-existing-app",
+          "segments": [
+            "problems",
+            "we-need-to-take-over-an-existing-app"
+          ],
+          "title": "We need to take over an existing app | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "We need to take over an existing app safely",
+          "description": "I help companies take over existing or partially delivered web applications, map delivery risk, and define the next steps without forcing a rewrite first.",
+          "primaryQuery": "we need to take over an existing app",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situation",
+            "title": "The app is important, but the next change feels risky",
+            "subtitle": "A common situation after a supplier change, a team transition, or a period without strong technical ownership.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Taking over an inherited application is a sensitive moment. The company needs progress, but it also needs to avoid breaking operations or investing in the wrong technical direction.",
+            "The real risk is usually in hidden dependencies, unclear release flow, and knowledge that remained with the previous supplier or team.",
+            "That is why the first step should be structured discovery, not dramatic rebuilding."
+          ],
+          "sections": [
+            {
+              "title": "Typical symptoms",
+              "body": [
+                "Without an initial map of the system, teams often fix visible symptoms while the underlying operational and delivery risks remain untouched."
+              ],
+              "bullets": [
+                "little or no documentation",
+                "unclear deployment or environment setup",
+                "fear of touching working parts of the system",
+                "roadmap blocked by technical uncertainty"
+              ]
+            },
+            {
+              "title": "How I approach it",
+              "body": [
+                "I start with codebase orientation, dependency review, environment checks, and the most critical business workflows. From there we can set priorities grounded in impact instead of guesswork."
+              ]
+            },
+            {
+              "title": "What a good outcome looks like",
+              "body": [
+                "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery."
+              ],
+              "bullets": [
+                "clearer view of risk",
+                "safer change decisions",
+                "faster onboarding into the inherited stack",
+                "less pressure to rewrite by default"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do you need full access from day one?",
+              "answer": "Ideally yes, but many handovers happen in stages. Source code, infrastructure, release flow, and business context are the most important starting points."
+            },
+            {
+              "question": "How quickly can we tell whether larger changes are needed?",
+              "answer": "A focused review usually shows the main risks quickly. Bigger refactors or rewrites should come only after that picture is clear."
+            },
+            {
+              "question": "Can takeover work happen while the app stays live?",
+              "answer": "Yes. That is the normal case. It is one reason I prefer staged stabilisation over abrupt rebuild decisions."
+            },
+            {
+              "question": "Can you stay involved after the review?",
+              "answer": "Yes. I can continue with delivery or hand over a structured plan to your internal team."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-modernize-legacy-app",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "guide-how-to-run-app-takeover-audit",
+            "guide-how-to-decide-app-needs-rewrite",
+            "tool-release-stabilization-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies after a supplier or team change",
+              "products with unclear technical ownership",
+              "buyers who need control before committing to bigger change"
+            ],
+            "notFor": [
+              "simple content sites with no application logic",
+              "visual redesign-only projects",
+              "situations with no access to code or environments"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "Share the current state, the main risk, and what needs to change next."
+          },
+          "seo": {
+            "title": "We need to take over an existing app | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I help companies take over existing or partially delivered web applications, map delivery risk, and define the next steps without forcing a rewrite first."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-app-takeover.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situation",
+        "heading": "The app is important, but the next change feels risky",
+        "body": "A common situation after a supplier change, a team transition, or a period without strong technical ownership.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Taking over an inherited application is a sensitive moment. The company needs progress, but it also needs to avoid breaking operations or investing in the wrong technical direction.\n\nThe real risk is usually in hidden dependencies, unclear release flow, and knowledge that remained with the previous supplier or team.\n\nThat is why the first step should be structured discovery, not dramatic rebuilding."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical symptoms",
+        "body": "Without an initial map of the system, teams often fix visible symptoms while the underlying operational and delivery risks remain untouched.",
+        "items": [
+          "little or no documentation",
+          "unclear deployment or environment setup",
+          "fear of touching working parts of the system",
+          "roadmap blocked by technical uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I approach it",
+        "body": "I start with codebase orientation, dependency review, environment checks, and the most critical business workflows. From there we can set priorities grounded in impact instead of guesswork."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a good outcome looks like",
+        "body": "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery.",
+        "items": [
+          "clearer view of risk",
+          "safer change decisions",
+          "faster onboarding into the inherited stack",
+          "less pressure to rewrite by default"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do you need full access from day one?",
+            "answer": "Ideally yes, but many handovers happen in stages. Source code, infrastructure, release flow, and business context are the most important starting points."
+          },
+          {
+            "question": "How quickly can we tell whether larger changes are needed?",
+            "answer": "A focused review usually shows the main risks quickly. Bigger refactors or rewrites should come only after that picture is clear."
+          },
+          {
+            "question": "Can takeover work happen while the app stays live?",
+            "answer": "Yes. That is the normal case. It is one reason I prefer staged stabilisation over abrupt rebuild decisions."
+          },
+          {
+            "question": "Can you stay involved after the review?",
+            "answer": "Yes. I can continue with delivery or hand over a structured plan to your internal team."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the current state, the main risk, and what needs to change next.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

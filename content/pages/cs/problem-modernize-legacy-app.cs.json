@@ -1,0 +1,235 @@
+{
+  "id": "problem-modernize-legacy-app.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-modernizovat-legacy-aplikaci",
+  "title": "Modernizace legacy aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Modernizace legacy aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Pomohu firmám modernizovat legacy aplikaci postupně a bezpečně, když je systém stále provozně důležitý, ale další změny jsou příliš drahé, pomalé nebo riskan...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-modernize-legacy-app",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-modernizovat-legacy-aplikaci",
+          "segments": [
+            "problemy",
+            "potrebujeme-modernizovat-legacy-aplikaci"
+          ],
+          "title": "Modernizace legacy aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Potřebujeme modernizovat legacy aplikaci bez rozbití provozu",
+          "description": "Pomohu firmám modernizovat legacy aplikaci postupně a bezpečně, když je systém stále provozně důležitý, ale další změny jsou příliš drahé, pomalé nebo riskantní.",
+          "primaryQuery": "modernizace legacy aplikace",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Běžící legacy aplikace potřebuje plán modernizace, ne další improvizaci",
+            "subtitle": "Typická situace, kdy aplikaci už tým zná a provozuje ji, ale další rozvoj je pomalý, nejistý a zbytečně drahý.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Legacy aplikace není problém jen proto, že je starší. Problém nastává tehdy, kdy ji tým sice provozuje, ale každá další změna je pomalá, drahá a plná nejistoty.",
+            "Praktická modernizace proto nezačíná převzetím cizího kódu ani přáním čistého startu, ale rozlišením, co má smysl stabilizovat, co oddělit, co přepsat a co zatím ponechat v provozu."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Pokud legacy systém zůstane bez plánu modernizace, firma platí vyšší cenu za každou další změnu, roste provozní riziko a tlak na velké rozhodnutí bez dostatečného podkladu."
+              ],
+              "bullets": [
+                "každá změna nese velkou nejistotu nebo regresní riziko",
+                "architektura a závislosti jsou pro tým špatně čitelné",
+                "technický dluh blokuje další roadmapu",
+                "systém je důležitý pro provoz, ale chybí realistický plán zlepšování"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám mapováním kritických závislostí, provozních rizik, release slabin a míst, kde dává modernizace největší poměr dopadu k riziku. Teprve pak dává smysl rozhodovat mezi postupnou modernizací a větším přepisem."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "realističtější plán modernizace bez velkých gest",
+                "menší provozní riziko při dalších změnách",
+                "lepší orientace v architektuře a prioritách",
+                "silnější základ pro další rozvoj nebo selektivní rewrite"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je legacy aplikace automaticky kandidát na rewrite?",
+              "answer": "Ne. Důležité je, jaké konkrétní provozní a delivery problémy způsobuje, ne jen její stáří nebo technologie."
+            },
+            {
+              "question": "Lze modernizovat jen nejkritičtější části?",
+              "answer": "Ano. U mnoha běžících aplikací je to bezpečnější a ekonomicky rozumnější než velký restart."
+            },
+            {
+              "question": "Je to jen jiný název pro takeover aplikace?",
+              "answer": "Ne. Tato stránka míří hlavně na situace, kdy tým už aplikaci provozuje nebo ji má pod kontrolou, ale potřebuje rozumný plán modernizace bez velkého restartu."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "guide-how-to-decide-app-needs-rewrite",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s běžící legacy aplikací, která pořád drží provoz",
+              "týmy, které chtějí modernizovat bez ztráty kontroly",
+              "situace, kde je třeba spojit takeover, stabilizaci a další rozvoj"
+            ],
+            "notFor": [
+              "projekty s předem nařízeným rewrite bez analýzy",
+              "aplikace bez přístupu ke kódu nebo prostředí",
+              "čistě kosmetické redesigny bez provozního dopadu"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Modernizace legacy aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Pomohu firmám modernizovat legacy aplikaci postupně a bezpečně, když je systém stále provozně důležitý, ale další změny jsou příliš drahé, pomalé nebo riskantní."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-modernize-legacy-app.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Běžící legacy aplikace potřebuje plán modernizace, ne další improvizaci",
+        "body": "Typická situace, kdy aplikaci už tým zná a provozuje ji, ale další rozvoj je pomalý, nejistý a zbytečně drahý.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Legacy aplikace není problém jen proto, že je starší. Problém nastává tehdy, kdy ji tým sice provozuje, ale každá další změna je pomalá, drahá a plná nejistoty.\n\nPraktická modernizace proto nezačíná převzetím cizího kódu ani přáním čistého startu, ale rozlišením, co má smysl stabilizovat, co oddělit, co přepsat a co zatím ponechat v provozu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Pokud legacy systém zůstane bez plánu modernizace, firma platí vyšší cenu za každou další změnu, roste provozní riziko a tlak na velké rozhodnutí bez dostatečného podkladu.",
+        "items": [
+          "každá změna nese velkou nejistotu nebo regresní riziko",
+          "architektura a závislosti jsou pro tým špatně čitelné",
+          "technický dluh blokuje další roadmapu",
+          "systém je důležitý pro provoz, ale chybí realistický plán zlepšování"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám mapováním kritických závislostí, provozních rizik, release slabin a míst, kde dává modernizace největší poměr dopadu k riziku. Teprve pak dává smysl rozhodovat mezi postupnou modernizací a větším přepisem."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "realističtější plán modernizace bez velkých gest",
+          "menší provozní riziko při dalších změnách",
+          "lepší orientace v architektuře a prioritách",
+          "silnější základ pro další rozvoj nebo selektivní rewrite"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je legacy aplikace automaticky kandidát na rewrite?",
+            "answer": "Ne. Důležité je, jaké konkrétní provozní a delivery problémy způsobuje, ne jen její stáří nebo technologie."
+          },
+          {
+            "question": "Lze modernizovat jen nejkritičtější části?",
+            "answer": "Ano. U mnoha běžících aplikací je to bezpečnější a ekonomicky rozumnější než velký restart."
+          },
+          {
+            "question": "Je to jen jiný název pro takeover aplikace?",
+            "answer": "Ne. Tato stránka míří hlavně na situace, kdy tým už aplikaci provozuje nebo ji má pod kontrolou, ale potřebuje rozumný plán modernizace bez velkého restartu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

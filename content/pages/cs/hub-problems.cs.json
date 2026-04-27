@@ -1,0 +1,233 @@
+{
+  "id": "hub-problems.cs",
+  "locale": "cs",
+  "slug": "/problemy",
+  "title": "Projektové problémy: takeover, interní systém, integrace a rescue | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Projektové problémy: takeover, interní systém, integrace a rescue |...",
+    "description": "Přehled problémových stránek pro takeover aplikace, interní systém, integrace, záchranu rozdělaného projektu, pomalou aplikaci nebo potřebu seniorní kapacity.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-problems",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "problemy",
+          "segments": [
+            "problemy"
+          ],
+          "title": "Projektové problémy: takeover, interní systém, integrace a rescue | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Typické projektové situace, které firmy řeší dřív než konkrétní technologii",
+          "description": "Přehled problémových stránek pro takeover aplikace, interní systém, integrace, záchranu rozdělaného projektu, pomalou aplikaci nebo potřebu seniorní kapacity.",
+          "primaryQuery": "Typické projektové situace, které firmy řeší dřív než konkrétní technologii",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Začněte podle problému, ne podle technologie",
+            "subtitle": "Sekce pro chvíli, kdy ještě není jasné, jaký model spolupráce nebo řešení bude správný, ale tlak v projektu už je zřejmý.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Problem pages pomáhají buyerovi nejdřív pojmenovat situaci a riziko, teprve potom vybírat konkrétní službu nebo technický směr.",
+            "Najdete tu běžné situace kolem převzetí aplikace, interního systému, integrací, chybějící seniorní kapacity, klientského portálu i záchrany rozdělaného projektu."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Každá child page popisuje typické symptomy, proč je rizikové nic nedělat, jak poznat dobrý fit a jaký první krok obvykle dává smysl."
+              ]
+            },
+            {
+              "title": "Kdy začít právě tady",
+              "body": [
+                "Tato sekce funguje jako komerční rozcestník. Pomůže vám vybrat správný typ spolupráce podle projektové situace, ne podle náhodného technologického štítku."
+              ],
+              "bullets": [
+                "situace, kde je nejprve potřeba srovnat problém",
+                "projekty s nejasným delivery modelem",
+                "firmy řešící kombinaci technického a provozního tlaku",
+                "buyery, kteří potřebují lepší rámec před budgetem nebo scopem"
+              ]
+            },
+            {
+              "title": "Jak pokračovat dál",
+              "body": [
+                "Nejlepší další krok je otevřít stránku nejbližší aktuální situaci a odtud pokračovat do souvisejícího problému, srovnání nebo inquiry flow."
+              ],
+              "bullets": [
+                "otevřete problém nejbližší aktuální realitě",
+                "z něj pokračujte na odpovídající service page nebo guide",
+                "pokud je situace dost konkrétní, přejděte na popis projektu"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je lepší začít problémovou nebo službovou stránkou?",
+              "answer": "Pokud si nejste jistí správným modelem spolupráce, problémová stránka bývá lepší start než služba."
+            },
+            {
+              "question": "Jsou tyto stránky jen SEO rozcestník?",
+              "answer": "Ne. Jsou psané jako rozhodovací obsah pro reálné delivery situace a vedou dál na konkrétní komerční další krok."
+            },
+            {
+              "question": "Vedou problémové stránky i na služby a inquiry?",
+              "answer": "Ano. Každá je propojená s nejbližší službou, relevantním průvodcem a inquiry flow."
+            }
+          ],
+          "related": [
+            "problem-app-takeover",
+            "problem-rescue-incomplete-project",
+            "problem-slow-hard-to-maintain-app",
+            "problem-senior-contract-capacity",
+            "problem-client-portal",
+            "problem-requests-offers-delivery-in-spreadsheets"
+          ],
+          "fit": {
+            "for": [
+              "situace, kde je nejprve potřeba srovnat problém",
+              "projekty s nejasným delivery modelem",
+              "firmy řešící kombinaci technického a provozního tlaku",
+              "buyery, kteří potřebují lepší rámec před budgetem nebo scopem"
+            ],
+            "notFor": [
+              "pasivní procházení bez konkrétní projektové otázky"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí stručně popsat projektovou situaci, cíl a omezení. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Projektové problémy: takeover, interní systém, integrace a rescue | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled problémových stránek pro takeover aplikace, interní systém, integrace, záchranu rozdělaného projektu, pomalou aplikaci nebo potřebu seniorní kapacity."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-problems.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Začněte podle problému, ne podle technologie",
+        "body": "Sekce pro chvíli, kdy ještě není jasné, jaký model spolupráce nebo řešení bude správný, ale tlak v projektu už je zřejmý.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Problem pages pomáhají buyerovi nejdřív pojmenovat situaci a riziko, teprve potom vybírat konkrétní službu nebo technický směr.\n\nNajdete tu běžné situace kolem převzetí aplikace, interního systému, integrací, chybějící seniorní kapacity, klientského portálu i záchrany rozdělaného projektu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Každá child page popisuje typické symptomy, proč je rizikové nic nedělat, jak poznat dobrý fit a jaký první krok obvykle dává smysl."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy začít právě tady",
+        "body": "Tato sekce funguje jako komerční rozcestník. Pomůže vám vybrat správný typ spolupráce podle projektové situace, ne podle náhodného technologického štítku.",
+        "items": [
+          "situace, kde je nejprve potřeba srovnat problém",
+          "projekty s nejasným delivery modelem",
+          "firmy řešící kombinaci technického a provozního tlaku",
+          "buyery, kteří potřebují lepší rámec před budgetem nebo scopem"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak pokračovat dál",
+        "body": "Nejlepší další krok je otevřít stránku nejbližší aktuální situaci a odtud pokračovat do souvisejícího problému, srovnání nebo inquiry flow.",
+        "items": [
+          "otevřete problém nejbližší aktuální realitě",
+          "z něj pokračujte na odpovídající service page nebo guide",
+          "pokud je situace dost konkrétní, přejděte na popis projektu"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je lepší začít problémovou nebo službovou stránkou?",
+            "answer": "Pokud si nejste jistí správným modelem spolupráce, problémová stránka bývá lepší start než služba."
+          },
+          {
+            "question": "Jsou tyto stránky jen SEO rozcestník?",
+            "answer": "Ne. Jsou psané jako rozhodovací obsah pro reálné delivery situace a vedou dál na konkrétní komerční další krok."
+          },
+          {
+            "question": "Vedou problémové stránky i na služby a inquiry?",
+            "answer": "Ano. Každá je propojená s nejbližší službou, relevantním průvodcem a inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí stručně popsat projektovou situaci, cíl a omezení. Navrhnu rozumný další krok.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

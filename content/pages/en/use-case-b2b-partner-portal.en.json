@@ -1,0 +1,247 @@
+{
+  "id": "use-case-b2b-partner-portal.en",
+  "locale": "en",
+  "slug": "/use-cases/partner-portal-for-b2b-company",
+  "title": "Partner portal for a B2B company | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Partner portal for a B2B company | Bc. Ondrej Halata (halatao.cz)",
+    "description": "A partner-portal use case for B2B companies that need one place for documents, requests, collaboration status, and self-service actions for distributors, res...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-b2b-partner-portal",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "partner-portal-for-b2b-company",
+          "segments": [
+            "use-cases",
+            "partner-portal-for-b2b-company"
+          ],
+          "title": "Partner portal for a B2B company | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "Partner portal for a B2B company and shared operational visibility",
+          "description": "A partner-portal use case for B2B companies that need one place for documents, requests, collaboration status, and self-service actions for distributors, resellers, or business partners.",
+          "primaryQuery": "partner portal for b2b company",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "One place for partners instead of email threads and manual follow-up",
+            "subtitle": "Useful when partners repeatedly need documents, request status, order context, or guided next steps connected to the company's internal process.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A partner portal is a strong use case where the company is not just serving one-off client requests but supporting ongoing work with distributors, commercial partners, or a partner network.",
+            "The strongest first version usually starts with a few scenarios that have the biggest impact on partner experience and internal operations rather than trying to digitise the whole relationship at once."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "partners repeatedly need status visibility for requests, orders, or service cases",
+                "documents, pricing, or support materials are still shared manually",
+                "the company wants self-service steps for partners without extra internal overhead",
+                "commercial or operations teams spend too much time on repetitive partner support"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "partner accounts, roles, and access boundaries",
+                "status visibility for requests, collaboration, or orders",
+                "document handling, notifications, and next-step actions",
+                "integration with internal systems, CRM, or back-office workflow"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "less manual partner support and follow-up",
+                "better information access for partners",
+                "greater trust in the operational and service process",
+                "a stronger base for future digital partner services"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is a partner portal different from a client portal?",
+              "answer": "Often yes. Partner collaboration usually has different roles, permissions, and a longer operational relationship with the internal process."
+            },
+            {
+              "question": "Does the portal need to cover every partner scenario from day one?",
+              "answer": "No. It is usually better to start with the few interactions that reduce support load and improve clarity fastest."
+            },
+            {
+              "question": "Can the portal connect to existing internal systems?",
+              "answer": "Yes. The link to internal data and workflow is usually what makes the portal genuinely useful."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "use-case-b2b-client-portal",
+            "problem-client-portal",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "B2B companies working with recurring partner interactions",
+              "teams trying to reduce support overhead around partners",
+              "situations where the portal clearly connects to internal process and data"
+            ],
+            "notFor": [
+              "simple presentation-only partner areas",
+              "portals with no connection to internal systems",
+              "projects with no owner for the partner workflow"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "Partner portal for a B2B company | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A partner-portal use case for B2B companies that need one place for documents, requests, collaboration status, and self-service actions for distributors, resellers, or business partners."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-b2b-partner-portal.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "One place for partners instead of email threads and manual follow-up",
+        "body": "Useful when partners repeatedly need documents, request status, order context, or guided next steps connected to the company's internal process.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A partner portal is a strong use case where the company is not just serving one-off client requests but supporting ongoing work with distributors, commercial partners, or a partner network.\n\nThe strongest first version usually starts with a few scenarios that have the biggest impact on partner experience and internal operations rather than trying to digitise the whole relationship at once."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "partners repeatedly need status visibility for requests, orders, or service cases",
+          "documents, pricing, or support materials are still shared manually",
+          "the company wants self-service steps for partners without extra internal overhead",
+          "commercial or operations teams spend too much time on repetitive partner support"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "partner accounts, roles, and access boundaries",
+          "status visibility for requests, collaboration, or orders",
+          "document handling, notifications, and next-step actions",
+          "integration with internal systems, CRM, or back-office workflow"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "less manual partner support and follow-up",
+          "better information access for partners",
+          "greater trust in the operational and service process",
+          "a stronger base for future digital partner services"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is a partner portal different from a client portal?",
+            "answer": "Often yes. Partner collaboration usually has different roles, permissions, and a longer operational relationship with the internal process."
+          },
+          {
+            "question": "Does the portal need to cover every partner scenario from day one?",
+            "answer": "No. It is usually better to start with the few interactions that reduce support load and improve clarity fastest."
+          },
+          {
+            "question": "Can the portal connect to existing internal systems?",
+            "answer": "Yes. The link to internal data and workflow is usually what makes the portal genuinely useful."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

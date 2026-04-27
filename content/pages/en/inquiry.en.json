@@ -1,0 +1,231 @@
+{
+  "id": "inquiry.en",
+  "locale": "en",
+  "slug": "/discuss-your-project",
+  "title": "Discuss your project | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Discuss your project | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Send a concise overview of the project, product, or process. I will reply with the most sensible next step and an honest fit assessment.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "inquiry",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "inquiry",
+          "slug": "discuss-your-project",
+          "segments": [
+            "discuss-your-project"
+          ],
+          "title": "Discuss your project | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Discuss your project and assess the fit",
+          "description": "Send a concise overview of the project, product, or process. I will reply with the most sensible next step and an honest fit assessment.",
+          "primaryQuery": "discuss your project",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "A short project summary is enough to assess the fit",
+            "subtitle": "You do not need a finished specification. The most useful inputs are the current problem, the target outcome, and the main delivery constraints.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The first contact does not need to be heavy. A practical summary of what is not working, what should change, and whether this is a new build, takeover, internal tool, or integration project is usually enough.",
+            "If the fit is strong, I will suggest the next step. If it is not, I will say that directly rather than stretch out the process.",
+            "If you already know the timeline, team setup, current stack, or operational risk, that context helps shape the conversation faster."
+          ],
+          "sections": [
+            {
+              "title": "What is useful to include",
+              "body": [
+                "The more concrete the context, the easier it is to recommend the right next step."
+              ],
+              "bullets": [
+                "brief project situation",
+                "target business outcome",
+                "important deadline or constraint",
+                "details about the current system or workflow"
+              ]
+            },
+            {
+              "title": "How I usually respond",
+              "body": [
+                "The response may suggest an introductory call, an app takeover review, a scoping phase, or a focused implementation step depending on the situation."
+              ]
+            },
+            {
+              "title": "Where the fit is strongest",
+              "body": [
+                "The strongest fit is business web applications, internal tools, inherited app situations, and automation or integration work with real operational importance."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can I reach out without a detailed spec?",
+              "answer": "Yes. The detailed spec is not the starting requirement. Business context and intended outcome matter more at first."
+            },
+            {
+              "question": "Do you handle urgent stabilisation or takeover work?",
+              "answer": "Yes. Existing-app situations often need a fast first step focused on risk reduction."
+            },
+            {
+              "question": "Can we book a call directly?",
+              "answer": "Yes. You can book a time through Calendly from this page and from the thank-you page after submission."
+            },
+            {
+              "question": "What if the project is not a good fit?",
+              "answer": "I will say so directly. The goal is clarity, not pushing an engagement that should not happen."
+            }
+          ],
+          "related": [
+            "process-delivery",
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "service-automations-and-integrations"
+          ],
+          "fit": {
+            "for": [
+              "new business applications",
+              "takeover and stabilisation work",
+              "internal tools and automation projects"
+            ],
+            "notFor": [
+              "recruiter outreach",
+              "general career questions",
+              "requests with no business context"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "A short project summary is enough to start the conversation."
+          },
+          "seo": {
+            "title": "Discuss your project | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Send a concise overview of the project, product, or process. I will reply with the most sensible next step and an honest fit assessment."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "inquiry.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "inquiry",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "A short project summary is enough to assess the fit",
+        "body": "You do not need a finished specification. The most useful inputs are the current problem, the target outcome, and the main delivery constraints.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The first contact does not need to be heavy. A practical summary of what is not working, what should change, and whether this is a new build, takeover, internal tool, or integration project is usually enough.\n\nIf the fit is strong, I will suggest the next step. If it is not, I will say that directly rather than stretch out the process.\n\nIf you already know the timeline, team setup, current stack, or operational risk, that context helps shape the conversation faster."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What is useful to include",
+        "body": "The more concrete the context, the easier it is to recommend the right next step.",
+        "items": [
+          "brief project situation",
+          "target business outcome",
+          "important deadline or constraint",
+          "details about the current system or workflow"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I usually respond",
+        "body": "The response may suggest an introductory call, an app takeover review, a scoping phase, or a focused implementation step depending on the situation."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where the fit is strongest",
+        "body": "The strongest fit is business web applications, internal tools, inherited app situations, and automation or integration work with real operational importance."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can I reach out without a detailed spec?",
+            "answer": "Yes. The detailed spec is not the starting requirement. Business context and intended outcome matter more at first."
+          },
+          {
+            "question": "Do you handle urgent stabilisation or takeover work?",
+            "answer": "Yes. Existing-app situations often need a fast first step focused on risk reduction."
+          },
+          {
+            "question": "Can we book a call directly?",
+            "answer": "Yes. You can book a time through Calendly from this page and from the thank-you page after submission."
+          },
+          {
+            "question": "What if the project is not a good fit?",
+            "answer": "I will say so directly. The goal is clarity, not pushing an engagement that should not happen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short project summary is enough to start the conversation.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

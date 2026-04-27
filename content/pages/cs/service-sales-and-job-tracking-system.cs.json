@@ -1,0 +1,280 @@
+{
+  "id": "service-sales-and-job-tracking-system.cs",
+  "locale": "cs",
+  "slug": "/sluzby/system-pro-rizeni-poptavek-a-zakazek",
+  "title": "Systém pro evidenci poptávek a zakázek ve firmě",
+  "seo": {
+    "title": "Systém pro evidenci poptávek a zakázek ve firmě",
+    "description": "Navrhuji a vyvíjím interní systém pro evidenci poptávek, tvorbu nabídek a řízení realizace zakázek tam, kde dnes proces drží Excel, e-mail a ruční koordinace.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-sales-and-job-tracking-system",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "system-pro-rizeni-poptavek-a-zakazek",
+          "segments": [
+            "sluzby",
+            "system-pro-rizeni-poptavek-a-zakazek"
+          ],
+          "title": "Systém pro evidenci poptávek a zakázek ve firmě",
+          "h1": "Systém pro evidenci poptávek a zakázek ve firmě",
+          "description": "Navrhuji a vyvíjím interní systém pro evidenci poptávek, tvorbu nabídek a řízení realizace zakázek tam, kde dnes proces drží Excel, e-mail a ruční koordinace.",
+          "primaryQuery": "evidence poptávek a zakázek",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Služba",
+            "title": "Mějte poptávky, nabídky a zakázky pod kontrolou na jednom místě",
+            "subtitle": "Konec Excelů, e-mailů a nejasného stavu zakázek. Řešení na míru procesu, který dnes firmu zbytečně brzdí.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Jak spolupráce probíhá",
+              "href": "/cs/jak-spoluprace-probiha"
+            }
+          },
+          "intro": [
+            "Ve většině firem nevzniká chaos proto, že by lidé nechtěli mít pořádek. Vzniká ve chvíli, kdy poptávky, nabídky a realizace žijí v různých tabulkách, e-mailech a hlavách lidí.",
+            "Výsledkem bývá nejasný stav zakázky, ruční dohledávání informací, ztracená odpovědnost a vyšší chybovost mezi obchodem a realizací.",
+            "Systém na míru dává smysl tam, kde firma potřebuje držet celý proces od první poptávky po realizaci na jednom místě a přizpůsobit ho svému reálnému workflow."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tato služba dává smysl",
+              "body": [
+                "Nejčastěji jde o firmy, kde obchod a realizace pracují nad stejnou zakázkou, ale každý tým má jiný pohled, jiná data a jiný způsob evidence."
+              ],
+              "bullets": [
+                "poptávky chodí do e-mailu a nejsou systematicky evidované",
+                "nabídky existují v několika verzích a není jasné, která je aktuální",
+                "realizace zakázky běží bokem mimo obchodní část procesu",
+                "stav zakázky se dohledává ručně mezi tabulkami, e-maily a poznámkami",
+                "není jasné, kdo má další krok a kde se proces zasekl"
+              ]
+            },
+            {
+              "title": "Co typicky řeším a dodávám",
+              "body": [
+                "Řešení typicky sjednotí obchodní i realizační část procesu do jednoho přehledu a doplní workflow, historii a odpovědnost."
+              ],
+              "bullets": [
+                "evidence poptávek a jejich stavů",
+                "návaznost poptávky na nabídku a další kroky",
+                "převod schválené nabídky do realizace zakázky",
+                "přehled stavů, odpovědnosti, termínů a historie",
+                "možnost napojení na e-mail, CRM, fakturaci nebo další interní nástroje"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Nejdřív je potřeba popsat, jak proces funguje dnes, kde se ztrácí informace a kde má systém přinést největší úlevu. Teprve potom dává smysl navrhnout první verzi řešení."
+              ]
+            },
+            {
+              "title": "Jaký výsledek má spolupráce přinést",
+              "body": [
+                "Dobrý výsledek není jen nový systém. Dobrý výsledek je přehlednější proces, méně ručního dohledávání a jasnější odpovědnost mezi obchodem a realizací."
+              ],
+              "bullets": [
+                "lepší přehled nad stavem poptávek a zakázek",
+                "méně chaosu mezi obchodem a realizací",
+                "nižší závislost na tabulkách, e-mailech a ruční koordinaci",
+                "jasnější workflow, role a návaznost dalších kroků"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné i pro menší firmu?",
+              "answer": "Ano, pokud už se opakuje větší množství poptávek a zakázek a současný způsob evidence začíná brzdit práci nebo zvyšovat chybovost."
+            },
+            {
+              "question": "Musí systém pokrýt celý proces od začátku?",
+              "answer": "Nemusí. Často dává smysl začít první etapou na nejslabším místě procesu a až potom systém rozšiřovat dál."
+            },
+            {
+              "question": "Lze to napojit na další systémy?",
+              "answer": "Ano. Typicky na e-mail, CRM, fakturaci nebo jiné interní nástroje, aby systém nezůstával izolovaný."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-replace-spreadsheets-in-process",
+            "problem-requests-offers-delivery-in-spreadsheets",
+            "use-case-request-offer-delivery-workflow",
+            "use-case-workflow-app-for-teams",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy se zakázkovým obchodem nebo realizací",
+              "týmy, kde se propojuje obchod, nabídka a následná realizace",
+              "situace, kde Excel a e-mail přestávají stačit na řízení zakázek"
+            ],
+            "notFor": [
+              "jednoduchá evidence bez workflow a více rolí",
+              "nákup hotového CRM bez potřeby přizpůsobení procesu",
+              "mikroproces bez návaznosti mezi obchodem a realizací"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku."
+          },
+          "seo": {
+            "title": "Systém pro evidenci poptávek a zakázek ve firmě",
+            "description": "Navrhuji a vyvíjím interní systém pro evidenci poptávek, tvorbu nabídek a řízení realizace zakázek tam, kde dnes proces drží Excel, e-mail a ruční koordinace."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-sales-and-job-tracking-system.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Služba",
+        "heading": "Mějte poptávky, nabídky a zakázky pod kontrolou na jednom místě",
+        "body": "Konec Excelů, e-mailů a nejasného stavu zakázek. Řešení na míru procesu, který dnes firmu zbytečně brzdí.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Jak spolupráce probíhá",
+        "secondaryCtaHref": "/cs/jak-spoluprace-probiha"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Ve většině firem nevzniká chaos proto, že by lidé nechtěli mít pořádek. Vzniká ve chvíli, kdy poptávky, nabídky a realizace žijí v různých tabulkách, e-mailech a hlavách lidí.\n\nVýsledkem bývá nejasný stav zakázky, ruční dohledávání informací, ztracená odpovědnost a vyšší chybovost mezi obchodem a realizací.\n\nSystém na míru dává smysl tam, kde firma potřebuje držet celý proces od první poptávky po realizaci na jednom místě a přizpůsobit ho svému reálnému workflow."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tato služba dává smysl",
+        "body": "Nejčastěji jde o firmy, kde obchod a realizace pracují nad stejnou zakázkou, ale každý tým má jiný pohled, jiná data a jiný způsob evidence.",
+        "items": [
+          "poptávky chodí do e-mailu a nejsou systematicky evidované",
+          "nabídky existují v několika verzích a není jasné, která je aktuální",
+          "realizace zakázky běží bokem mimo obchodní část procesu",
+          "stav zakázky se dohledává ručně mezi tabulkami, e-maily a poznámkami",
+          "není jasné, kdo má další krok a kde se proces zasekl"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co typicky řeším a dodávám",
+        "body": "Řešení typicky sjednotí obchodní i realizační část procesu do jednoho přehledu a doplní workflow, historii a odpovědnost.",
+        "items": [
+          "evidence poptávek a jejich stavů",
+          "návaznost poptávky na nabídku a další kroky",
+          "převod schválené nabídky do realizace zakázky",
+          "přehled stavů, odpovědnosti, termínů a historie",
+          "možnost napojení na e-mail, CRM, fakturaci nebo další interní nástroje"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Nejdřív je potřeba popsat, jak proces funguje dnes, kde se ztrácí informace a kde má systém přinést největší úlevu. Teprve potom dává smysl navrhnout první verzi řešení."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek má spolupráce přinést",
+        "body": "Dobrý výsledek není jen nový systém. Dobrý výsledek je přehlednější proces, méně ručního dohledávání a jasnější odpovědnost mezi obchodem a realizací.",
+        "items": [
+          "lepší přehled nad stavem poptávek a zakázek",
+          "méně chaosu mezi obchodem a realizací",
+          "nižší závislost na tabulkách, e-mailech a ruční koordinaci",
+          "jasnější workflow, role a návaznost dalších kroků"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné i pro menší firmu?",
+            "answer": "Ano, pokud už se opakuje větší množství poptávek a zakázek a současný způsob evidence začíná brzdit práci nebo zvyšovat chybovost."
+          },
+          {
+            "question": "Musí systém pokrýt celý proces od začátku?",
+            "answer": "Nemusí. Často dává smysl začít první etapou na nejslabším místě procesu a až potom systém rozšiřovat dál."
+          },
+          {
+            "question": "Lze to napojit na další systémy?",
+            "answer": "Ano. Typicky na e-mail, CRM, fakturaci nebo jiné interní nástroje, aby systém nezůstával izolovaný."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

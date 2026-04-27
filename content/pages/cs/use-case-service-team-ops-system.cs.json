@@ -1,0 +1,249 @@
+{
+  "id": "use-case-service-team-ops-system.cs",
+  "locale": "cs",
+  "slug": "/priklady/operativni-system-pro-servisni-tym",
+  "title": "Operativní systém pro servisní tým | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Operativní systém pro servisní tým | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad operativního systému pro servisní tým, který potřebuje řídit požadavky, stavy, termíny a odpovědnost bez roztříštěných tabulek a chatu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-service-team-ops-system",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "operativni-system-pro-servisni-tym",
+          "segments": [
+            "priklady",
+            "operativni-system-pro-servisni-tym"
+          ],
+          "title": "Operativní systém pro servisní tým | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Operativní systém pro servisní tým místo tabulek a ruční koordinace",
+          "description": "Příklad operativního systému pro servisní tým, který potřebuje řídit požadavky, stavy, termíny a odpovědnost bez roztříštěných tabulek a chatu.",
+          "primaryQuery": "operativni system pro servisni tym",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Jeden systém pro servisní operativu místo ručního přeposílání a dohledávání",
+            "subtitle": "Vhodné tam, kde servisní tým řeší opakované požadavky, předává práci mezi rolemi a potřebuje lepší dohled nad stavem a výjimkami.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Operativní systém pro servisní tým dává smysl ve chvíli, kdy už nestačí tabulka, sdílený inbox a ruční předávání informací mezi lidmi.",
+            "Nejdůležitější není nahradit jeden formulář novou obrazovkou. Důležité je zkrátit průchod procesem, zpřehlednit odpovědnost a omezit místa, kde se servisní práce zasekává."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "servisní požadavky se předávají mezi více rolemi a odděleními",
+                "není jasné, kde se případ zastavil a kdo má další krok",
+                "termíny, výjimky a eskalace se hlídají ručně",
+                "tým potřebuje napojení na další interní nebo externí systémy"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "pracovní frontu, stavy a pravidla předávání mezi rolemi",
+                "detail případu, historii, termíny a auditní stopu",
+                "notifikace, eskalace a dohled nad výjimkami",
+                "napojení na CRM, ERP, servisní evidenci nebo skladový tok"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "vyšší průchodnost servisního procesu",
+                "nižší závislost na ruční koordinaci a dohledávání",
+                "lepší přehled o výjimkách, SLA a zpožděních",
+                "pevnější základ pro další automatizaci servisního workflow"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné i pro menší servisní tým?",
+              "answer": "Ano, pokud se stejný proces opakuje dost často na to, aby ruční koordinace začala brzdit kapacitu nebo kvalitu obsluhy."
+            },
+            {
+              "question": "Musí systém od začátku pokrýt všechny typy případů?",
+              "answer": "Nemusí. Často dává smysl začít jedním typem workflow nebo jednou provozně nejbolestivější oblastí."
+            },
+            {
+              "question": "Lze ho propojit s dalšími firemními nástroji?",
+              "answer": "Ano. U servisní operativy bývá návaznost na další systémy často důležitá pro rychlost i spolehlivost procesu."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-ai-automation-and-integrations",
+            "use-case-ai-intake-triage",
+            "use-case-workflow-automation-tools",
+            "problem-replace-spreadsheets-in-process",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "servisní nebo provozní týmy s opakovaným workflow",
+              "firmy, které chtějí zkrátit ruční koordinaci a zlepšit dohled",
+              "procesy s více rolemi, termíny a výjimkami"
+            ],
+            "notFor": [
+              "jednoduchá evidence bez návazného workflow",
+              "projekty bez ownera servisního procesu",
+              "situace, kde jde jen o kosmetický redesign bez provozní změny"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Operativní systém pro servisní tým | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad operativního systému pro servisní tým, který potřebuje řídit požadavky, stavy, termíny a odpovědnost bez roztříštěných tabulek a chatu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-service-team-ops-system.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Jeden systém pro servisní operativu místo ručního přeposílání a dohledávání",
+        "body": "Vhodné tam, kde servisní tým řeší opakované požadavky, předává práci mezi rolemi a potřebuje lepší dohled nad stavem a výjimkami.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Operativní systém pro servisní tým dává smysl ve chvíli, kdy už nestačí tabulka, sdílený inbox a ruční předávání informací mezi lidmi.\n\nNejdůležitější není nahradit jeden formulář novou obrazovkou. Důležité je zkrátit průchod procesem, zpřehlednit odpovědnost a omezit místa, kde se servisní práce zasekává."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "servisní požadavky se předávají mezi více rolemi a odděleními",
+          "není jasné, kde se případ zastavil a kdo má další krok",
+          "termíny, výjimky a eskalace se hlídají ručně",
+          "tým potřebuje napojení na další interní nebo externí systémy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "pracovní frontu, stavy a pravidla předávání mezi rolemi",
+          "detail případu, historii, termíny a auditní stopu",
+          "notifikace, eskalace a dohled nad výjimkami",
+          "napojení na CRM, ERP, servisní evidenci nebo skladový tok"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "vyšší průchodnost servisního procesu",
+          "nižší závislost na ruční koordinaci a dohledávání",
+          "lepší přehled o výjimkách, SLA a zpožděních",
+          "pevnější základ pro další automatizaci servisního workflow"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné i pro menší servisní tým?",
+            "answer": "Ano, pokud se stejný proces opakuje dost často na to, aby ruční koordinace začala brzdit kapacitu nebo kvalitu obsluhy."
+          },
+          {
+            "question": "Musí systém od začátku pokrýt všechny typy případů?",
+            "answer": "Nemusí. Často dává smysl začít jedním typem workflow nebo jednou provozně nejbolestivější oblastí."
+          },
+          {
+            "question": "Lze ho propojit s dalšími firemními nástroji?",
+            "answer": "Ano. U servisní operativy bývá návaznost na další systémy často důležitá pro rychlost i spolehlivost procesu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

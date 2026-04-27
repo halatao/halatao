@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-run-app-takeover-audit.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-pripravit-takeover-audit-aplikace",
+  "title": "Jak připravit takeover audit aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak připravit takeover audit aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce takeover auditem aplikace: co zjistit před převzetím, jak pojmenovat rizika a jak připravit první realistický další krok.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-run-app-takeover-audit",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-pripravit-takeover-audit-aplikace",
+          "segments": [
+            "pruvodce",
+            "jak-pripravit-takeover-audit-aplikace"
+          ],
+          "title": "Jak připravit takeover audit aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak připravit takeover audit aplikace před převzetím cizího systému",
+          "description": "Praktický průvodce takeover auditem aplikace: co zjistit před převzetím, jak pojmenovat rizika a jak připravit první realistický další krok.",
+          "primaryQuery": "takeover audit aplikace",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "Před převzetím aplikace potřebujete víc než jen přístup do repozitáře",
+            "subtitle": "Dobře připravený takeover audit pomáhá oddělit technická rizika, provozní závislosti a priority první etapy od dojmu, že se situace vyřeší sama po handoveru.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Převzetí cizí aplikace není jen otázka kódu. Důležité je zjistit, jak systém opravdu běží, kde jsou provozní závislosti, jak vypadá release a co se stane, když se udělá špatný první zásah.",
+            "Takeover audit proto neslouží k vytvoření tlusté dokumentace. Jeho smyslem je rychle získat přehled o rizicích, slabých místech a o tom, co má být první důvěryhodný další krok."
+          ],
+          "sections": [
+            {
+              "title": "Co si audit musí vyjasnit",
+              "body": [
+                "Nejdřív je potřeba zmapovat nejen aplikaci samotnou, ale i prostředí, release cestu, přístupy, data, integrace a znalost lidí, na kterých dnes systém stojí."
+              ],
+              "bullets": [
+                "přístupy do repozitářů, hostingu a třetích stran",
+                "kritické workflow a provozní rizika",
+                "release proces, monitoring a rollback možnosti",
+                "stav dokumentace, znalostí a ownershipu"
+              ]
+            },
+            {
+              "title": "Jak oddělit fakta od odhadu",
+              "body": [
+                "U takeoveru bývá hodně tvrzení založených na dojmu. Praktický audit potřebuje rozlišit, co je potvrzené, co je hypotéza a co je zatím skryté riziko vyžadující další ověření."
+              ]
+            },
+            {
+              "title": "Na co navázat po auditu",
+              "body": [
+                "Cílem není audit pro audit. Výstupem má být prioritizace: co řešit kvůli stabilitě hned, co kvůli rychlosti delivery a co zatím nechat být."
+              ]
+            },
+            {
+              "title": "Čemu se vyhnout",
+              "body": [
+                "Nejslabší varianta je přeskočit audit a rovnou slibovat fixy, přepis nebo rychlý takeover bez pochopení provozu, release rizik a skrytých závislostí."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je takeover audit potřeba i když máme přístup do kódu?",
+              "answer": "Ano. Přístup do kódu sám o sobě neříká nic o release riziku, provozních závislostech ani o tom, jak systém opravdu používají lidé."
+            },
+            {
+              "question": "Jak detailní má audit být?",
+              "answer": "Tak detailní, aby z něj šlo udělat první spolehlivé rozhodnutí o převzetí, stabilizaci a prioritách další etapy. Ne nutně tak detailní, aby popsal každou část systému."
+            },
+            {
+              "question": "Může audit skončit doporučením postupného rozvoje místo rewritu?",
+              "answer": "Ano. U mnoha aplikací je to právě nejcennější závěr, protože oddělí skutečný problém od frustrace z cizího kódu."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "tool-app-takeover-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-existing-app-takeover",
+              "guide-how-to-take-over-an-existing-app-safely",
+              "tool-app-takeover-checklist",
+              "inquiry"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Jak připravit takeover audit aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce takeover auditem aplikace: co zjistit před převzetím, jak pojmenovat rizika a jak připravit první realistický další krok."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-run-app-takeover-audit.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "Před převzetím aplikace potřebujete víc než jen přístup do repozitáře",
+        "body": "Dobře připravený takeover audit pomáhá oddělit technická rizika, provozní závislosti a priority první etapy od dojmu, že se situace vyřeší sama po handoveru.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Převzetí cizí aplikace není jen otázka kódu. Důležité je zjistit, jak systém opravdu běží, kde jsou provozní závislosti, jak vypadá release a co se stane, když se udělá špatný první zásah.\n\nTakeover audit proto neslouží k vytvoření tlusté dokumentace. Jeho smyslem je rychle získat přehled o rizicích, slabých místech a o tom, co má být první důvěryhodný další krok."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co si audit musí vyjasnit",
+        "body": "Nejdřív je potřeba zmapovat nejen aplikaci samotnou, ale i prostředí, release cestu, přístupy, data, integrace a znalost lidí, na kterých dnes systém stojí.",
+        "items": [
+          "přístupy do repozitářů, hostingu a třetích stran",
+          "kritické workflow a provozní rizika",
+          "release proces, monitoring a rollback možnosti",
+          "stav dokumentace, znalostí a ownershipu"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak oddělit fakta od odhadu",
+        "body": "U takeoveru bývá hodně tvrzení založených na dojmu. Praktický audit potřebuje rozlišit, co je potvrzené, co je hypotéza a co je zatím skryté riziko vyžadující další ověření."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Na co navázat po auditu",
+        "body": "Cílem není audit pro audit. Výstupem má být prioritizace: co řešit kvůli stabilitě hned, co kvůli rychlosti delivery a co zatím nechat být."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Čemu se vyhnout",
+        "body": "Nejslabší varianta je přeskočit audit a rovnou slibovat fixy, přepis nebo rychlý takeover bez pochopení provozu, release rizik a skrytých závislostí."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je takeover audit potřeba i když máme přístup do kódu?",
+            "answer": "Ano. Přístup do kódu sám o sobě neříká nic o release riziku, provozních závislostech ani o tom, jak systém opravdu používají lidé."
+          },
+          {
+            "question": "Jak detailní má audit být?",
+            "answer": "Tak detailní, aby z něj šlo udělat první spolehlivé rozhodnutí o převzetí, stabilizaci a prioritách další etapy. Ne nutně tak detailní, aby popsal každou část systému."
+          },
+          {
+            "question": "Může audit skončit doporučením postupného rozvoje místo rewritu?",
+            "answer": "Ano. U mnoha aplikací je to právě nejcennější závěr, protože oddělí skutečný problém od frustrace z cizího kódu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

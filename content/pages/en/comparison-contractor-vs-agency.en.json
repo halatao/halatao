@@ -1,0 +1,248 @@
+{
+  "id": "comparison-contractor-vs-agency.en",
+  "locale": "en",
+  "slug": "/comparisons/contract-developer-vs-agency",
+  "title": "Contract developer vs agency | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Contract developer vs agency | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical comparison of senior contract development support and agency delivery for companies working on custom software, takeovers, or internal systems.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-contractor-vs-agency",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "comparison",
+          "slug": "contract-developer-vs-agency",
+          "segments": [
+            "comparisons",
+            "contract-developer-vs-agency"
+          ],
+          "title": "Contract developer vs agency | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Contract developer vs agency: which model fits the project",
+          "description": "A practical comparison of senior contract development support and agency delivery for companies working on custom software, takeovers, or internal systems.",
+          "primaryQuery": "contract developer vs agency",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Comparison",
+            "title": "The right choice depends on responsibility, not vendor size",
+            "subtitle": "Sometimes direct senior involvement is the stronger option. In other cases broader agency capacity is the better fit.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The difference is not just cost. The bigger question is whether the project needs direct senior ownership or a wider supplier setup with multiple roles.",
+            "Inherited apps and complex product situations often benefit from direct technical ownership rather than heavier delivery theatre."
+          ],
+          "sections": [
+            {
+              "title": "When a contract developer is the stronger fit",
+              "body": [
+                "This works best when the company needs a senior person to take ownership of a defined technical area, plug into an existing team quickly, or stabilise a sensitive project situation."
+              ]
+            },
+            {
+              "title": "When an agency makes more sense",
+              "body": [
+                "An agency can be the better fit when the project truly needs a broader set of roles at once, a larger supplier framework, or a fuller outsourcing model."
+              ]
+            },
+            {
+              "title": "How to decide",
+              "body": [
+                "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost."
+              ],
+              "bullets": [
+                "need for direct senior judgement",
+                "breadth of roles required",
+                "sensitivity of the takeover or delivery context",
+                "desired level of personal accountability"
+              ]
+            },
+            {
+              "title": "Practical conclusion",
+              "body": [
+                "If the project needs senior technical ownership and close integration with an existing team, a contract developer is often the stronger model. If the company needs wider supplier coverage, an agency may be the better option."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is an agency automatically safer?",
+              "answer": "Not always. Safety depends on capability, ownership, and fit. In difficult application work, direct senior accountability can be more valuable than team size alone."
+            },
+            {
+              "question": "Can a contract developer deliver a whole workstream?",
+              "answer": "Yes. For a well-defined technical area or a smaller project slice, that is often the right setup."
+            },
+            {
+              "question": "What if we later need broader capacity?",
+              "answer": "The delivery model can evolve. The key is choosing the model that fits the current project reality rather than future hypotheticals."
+            },
+            {
+              "question": "Is contract work only about coding?",
+              "answer": "No. In senior engagements it often includes architecture, prioritisation, takeover work, and delivery simplification."
+            }
+          ],
+          "related": [
+            "contract-support",
+            "problem-senior-contract-capacity",
+            "guide-when-project-needs-senior-contract-support",
+            "service-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "need for direct senior judgement",
+              "breadth of roles required",
+              "sensitivity of the takeover or delivery context",
+              "desired level of personal accountability"
+            ],
+            "notFor": [
+              "abstract technology debates with no business context"
+            ]
+          },
+          "seo": {
+            "title": "Contract developer vs agency | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical comparison of senior contract development support and agency delivery for companies working on custom software, takeovers, or internal systems."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-contractor-vs-agency.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Comparison",
+        "heading": "The right choice depends on responsibility, not vendor size",
+        "body": "Sometimes direct senior involvement is the stronger option. In other cases broader agency capacity is the better fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The difference is not just cost. The bigger question is whether the project needs direct senior ownership or a wider supplier setup with multiple roles.\n\nInherited apps and complex product situations often benefit from direct technical ownership rather than heavier delivery theatre."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When a contract developer is the stronger fit",
+        "body": "This works best when the company needs a senior person to take ownership of a defined technical area, plug into an existing team quickly, or stabilise a sensitive project situation."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When an agency makes more sense",
+        "body": "An agency can be the better fit when the project truly needs a broader set of roles at once, a larger supplier framework, or a fuller outsourcing model."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to decide",
+        "body": "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost.",
+        "items": [
+          "need for direct senior judgement",
+          "breadth of roles required",
+          "sensitivity of the takeover or delivery context",
+          "desired level of personal accountability"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Practical conclusion",
+        "body": "If the project needs senior technical ownership and close integration with an existing team, a contract developer is often the stronger model. If the company needs wider supplier coverage, an agency may be the better option."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is an agency automatically safer?",
+            "answer": "Not always. Safety depends on capability, ownership, and fit. In difficult application work, direct senior accountability can be more valuable than team size alone."
+          },
+          {
+            "question": "Can a contract developer deliver a whole workstream?",
+            "answer": "Yes. For a well-defined technical area or a smaller project slice, that is often the right setup."
+          },
+          {
+            "question": "What if we later need broader capacity?",
+            "answer": "The delivery model can evolve. The key is choosing the model that fits the current project reality rather than future hypotheticals."
+          },
+          {
+            "question": "Is contract work only about coding?",
+            "answer": "No. In senior engagements it often includes architecture, prioritisation, takeover work, and delivery simplification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

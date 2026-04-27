@@ -1,0 +1,249 @@
+{
+  "id": "use-case-ai-intake-triage.en",
+  "locale": "en",
+  "slug": "/use-cases/ai-intake-processing-and-triage",
+  "title": "AI intake processing and request triage",
+  "seo": {
+    "title": "AI intake processing and request triage",
+    "description": "An example of using AI for incoming-request triage, email handling, or intake processing where the company needs to reduce manual forwarding, repeated data e...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-ai-intake-triage",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "ai-intake-processing-and-triage",
+          "segments": [
+            "use-cases",
+            "ai-intake-processing-and-triage"
+          ],
+          "title": "AI intake processing and request triage",
+          "h1": "AI intake processing and request triage",
+          "description": "An example of using AI for incoming-request triage, email handling, or intake processing where the company needs to reduce manual forwarding, repeated data entry, and delays in operations.",
+          "primaryQuery": "ai intake processing",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "Incoming work without manual triage and endless forwarding",
+            "subtitle": "A strong fit for support, service, back-office, or similar teams where repeated request types are slowing down operations.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The pattern is common: emails, forms, or requests arrive in one place, and people then read them manually, classify them, forward them, and copy the necessary details into other tools.",
+            "AI can work here as a first layer for classification, enrichment, or next-step preparation. It creates the most value when it is tied to a clear process and responsibility model."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "incoming emails and requests are manually routed between several people or teams",
+                "the same request types repeat and follow similar next steps",
+                "operations teams lose time entering data into CRM, ticketing, or internal tools",
+                "the business needs faster response and lower error rate in the first handling stage"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "design of an AI layer for triage, classification, or next-step preparation",
+                "integration with email, forms, ticketing, or internal tools",
+                "rules, validation, and handoff to people where needed",
+                "first use-case validation and refinement based on real requests"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "less manual work in the first intake stage",
+                "faster routing to the right team or workflow",
+                "lower error rate in classification and data transfer",
+                "a better base for further workflow automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this useful for smaller request volumes too?",
+              "answer": "Yes, if the manual sorting is repetitive, consumes time, and slows down the next step. It does not need to be a large support centre."
+            },
+            {
+              "question": "Does AI need to decide everything on its own?",
+              "answer": "No. In many cases it is better for AI to prepare classification or context while critical cases still keep a human validation step."
+            },
+            {
+              "question": "Can this connect to current systems?",
+              "answer": "Yes. The integration with ticketing, CRM, internal tools, or the rest of the workflow is usually what makes the solution actually valuable."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-automations-and-integrations",
+            "problem-ai-in-business-process",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "support, service, or back-office teams with recurring intake work",
+              "companies manually routing requests between roles",
+              "processes where AI can accelerate the first workflow stage without removing control"
+            ],
+            "notFor": [
+              "one-off requests with no recurring pattern",
+              "processes with no downstream workflow or system",
+              "expecting fully autonomous decisions where human review is still needed"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "AI intake processing and request triage",
+            "description": "An example of using AI for incoming-request triage, email handling, or intake processing where the company needs to reduce manual forwarding, repeated data entry, and delays in operations."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-ai-intake-triage.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "Incoming work without manual triage and endless forwarding",
+        "body": "A strong fit for support, service, back-office, or similar teams where repeated request types are slowing down operations.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The pattern is common: emails, forms, or requests arrive in one place, and people then read them manually, classify them, forward them, and copy the necessary details into other tools.\n\nAI can work here as a first layer for classification, enrichment, or next-step preparation. It creates the most value when it is tied to a clear process and responsibility model."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "incoming emails and requests are manually routed between several people or teams",
+          "the same request types repeat and follow similar next steps",
+          "operations teams lose time entering data into CRM, ticketing, or internal tools",
+          "the business needs faster response and lower error rate in the first handling stage"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "design of an AI layer for triage, classification, or next-step preparation",
+          "integration with email, forms, ticketing, or internal tools",
+          "rules, validation, and handoff to people where needed",
+          "first use-case validation and refinement based on real requests"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "less manual work in the first intake stage",
+          "faster routing to the right team or workflow",
+          "lower error rate in classification and data transfer",
+          "a better base for further workflow automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this useful for smaller request volumes too?",
+            "answer": "Yes, if the manual sorting is repetitive, consumes time, and slows down the next step. It does not need to be a large support centre."
+          },
+          {
+            "question": "Does AI need to decide everything on its own?",
+            "answer": "No. In many cases it is better for AI to prepare classification or context while critical cases still keep a human validation step."
+          },
+          {
+            "question": "Can this connect to current systems?",
+            "answer": "Yes. The integration with ticketing, CRM, internal tools, or the rest of the workflow is usually what makes the solution actually valuable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

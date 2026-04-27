@@ -1,0 +1,228 @@
+{
+  "id": "hub-technology.cs",
+  "locale": "cs",
+  "slug": "/technologie",
+  "title": "Technologie pro business aplikace, portály a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Technologie pro business aplikace, portály a interní systémy | Bc....",
+    "description": "Přehled technologických stránek pro Next.js, TypeScript, API integrace a PostgreSQL v business aplikacích a interních systémech.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-technology",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "technologie",
+          "segments": [
+            "technologie"
+          ],
+          "title": "Technologie pro business aplikace, portály a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Technologické stránky pro business aplikace a interní systémy",
+          "description": "Přehled technologických stránek pro Next.js, TypeScript, API integrace a PostgreSQL v business aplikacích a interních systémech.",
+          "primaryQuery": "Technologické stránky pro business aplikace a interní systémy",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Technologie vysvětlené podle projektového fitu, ne podle trendového seznamu",
+            "subtitle": "Sekce pro chvíli, kdy buyer nebo tým potřebuje rozumět tomu, proč konkrétní stack nebo integrační přístup dává smysl právě pro jejich projekt.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Technologické stránky nejsou katalog nástrojů. Jsou psané jako rozhodovací obsah pro chvilku, kdy je potřeba vysvětlit vhodnost stacku nebo přístupu v business jazyce.",
+            "Najdete tu témata kolem Next.js, TypeScriptu, API integrací a PostgreSQL v kontextu business aplikací, portálů a interních systémů."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Každá child page popisuje, kdy je technologie silný fit, na co si dát pozor a jaký typ byznys projektu z ní obvykle získá největší hodnotu."
+              ]
+            },
+            {
+              "title": "Komu tato sekce nejvíc pomůže",
+              "body": [
+                "Tato sekce slouží jako podpůrná autoritativní vrstva pro buyery a týmy, které potřebují lépe rozhodovat o technologiích, šablonách nebo lokálním kontextu."
+              ],
+              "bullets": [
+                "buyer chce porozumět technologické volbě v obchodním jazyce",
+                "interní tým potřebuje srovnat architektonické rozhodnutí s provozní realitou",
+                "projekt řeší integrace, dlouhodobou udržitelnost nebo stack pro business aplikaci"
+              ]
+            },
+            {
+              "title": "Jak z ní pokračovat dál",
+              "body": [
+                "Vyberte child page nejbližší aktuálnímu rozhodnutí a potom pokračujte na související službu, srovnání nebo inquiry."
+              ],
+              "bullets": [
+                "otevřete technologii, která je součástí aktuálního rozhodnutí",
+                "pokračujte na související comparison page nebo service page",
+                "pokud potřebujete doporučení pro vlastní kontext, přejděte na inquiry"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jsou tyto stránky psané i pro netechnické buyery?",
+              "answer": "Ano. Cílem je vysvětlit technologické rozhodnutí přes delivery dopad, provoz a udržitelnost."
+            },
+            {
+              "question": "Vedou technologické stránky zpět na služby?",
+              "answer": "Ano. Každá child page je propojená s komerčním kontextem, kde daná technologie typicky dává smysl."
+            },
+            {
+              "question": "Mají smysl i pro takeover projekty?",
+              "answer": "Ano. Hlavně ve chvíli, kdy je potřeba posoudit vhodnost současného stacku nebo integrační vrstvy."
+            }
+          ],
+          "related": [
+            "technology-nextjs-for-business-applications",
+            "technology-typescript-for-large-web-projects",
+            "technology-api-integrations",
+            "technology-postgresql-for-internal-tools"
+          ],
+          "fit": {
+            "for": [
+              "buyer chce porozumět technologické volbě v obchodním jazyce",
+              "interní tým potřebuje srovnat architektonické rozhodnutí s provozní realitou",
+              "projekt řeší integrace, dlouhodobou udržitelnost nebo stack pro business aplikaci"
+            ],
+            "notFor": [
+              "čtení bez návaznosti na reálné software rozhodnutí"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud už řešíte konkrétní projekt, navrhnu další krok podle vašeho kontextu a priorit."
+          },
+          "seo": {
+            "title": "Technologie pro business aplikace, portály a interní systémy | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled technologických stránek pro Next.js, TypeScript, API integrace a PostgreSQL v business aplikacích a interních systémech."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-technology.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Technologie vysvětlené podle projektového fitu, ne podle trendového seznamu",
+        "body": "Sekce pro chvíli, kdy buyer nebo tým potřebuje rozumět tomu, proč konkrétní stack nebo integrační přístup dává smysl právě pro jejich projekt.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Technologické stránky nejsou katalog nástrojů. Jsou psané jako rozhodovací obsah pro chvilku, kdy je potřeba vysvětlit vhodnost stacku nebo přístupu v business jazyce.\n\nNajdete tu témata kolem Next.js, TypeScriptu, API integrací a PostgreSQL v kontextu business aplikací, portálů a interních systémů."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Každá child page popisuje, kdy je technologie silný fit, na co si dát pozor a jaký typ byznys projektu z ní obvykle získá největší hodnotu."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Komu tato sekce nejvíc pomůže",
+        "body": "Tato sekce slouží jako podpůrná autoritativní vrstva pro buyery a týmy, které potřebují lépe rozhodovat o technologiích, šablonách nebo lokálním kontextu.",
+        "items": [
+          "buyer chce porozumět technologické volbě v obchodním jazyce",
+          "interní tým potřebuje srovnat architektonické rozhodnutí s provozní realitou",
+          "projekt řeší integrace, dlouhodobou udržitelnost nebo stack pro business aplikaci"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak z ní pokračovat dál",
+        "body": "Vyberte child page nejbližší aktuálnímu rozhodnutí a potom pokračujte na související službu, srovnání nebo inquiry.",
+        "items": [
+          "otevřete technologii, která je součástí aktuálního rozhodnutí",
+          "pokračujte na související comparison page nebo service page",
+          "pokud potřebujete doporučení pro vlastní kontext, přejděte na inquiry"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jsou tyto stránky psané i pro netechnické buyery?",
+            "answer": "Ano. Cílem je vysvětlit technologické rozhodnutí přes delivery dopad, provoz a udržitelnost."
+          },
+          {
+            "question": "Vedou technologické stránky zpět na služby?",
+            "answer": "Ano. Každá child page je propojená s komerčním kontextem, kde daná technologie typicky dává smysl."
+          },
+          {
+            "question": "Mají smysl i pro takeover projekty?",
+            "answer": "Ano. Hlavně ve chvíli, kdy je potřeba posoudit vhodnost současného stacku nebo integrační vrstvy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud už řešíte konkrétní projekt, navrhnu další krok podle vašeho kontextu a priorit.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

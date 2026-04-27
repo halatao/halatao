@@ -1,0 +1,245 @@
+{
+  "id": "tool-excel-to-internal-tool-migration-checklist.en",
+  "locale": "en",
+  "slug": "/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool",
+  "title": "Checklist for migrating from spreadsheets to an internal tool | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Checklist for migrating from spreadsheets to an internal tool | Bc....",
+    "description": "A practical checklist for companies moving an important process out of spreadsheets into an internal tool, covering data, workflow, ownership, and first-phas...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-excel-to-internal-tool-migration-checklist",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "checklist-for-migrating-from-spreadsheets-to-an-internal-tool",
+          "segments": [
+            "templates",
+            "checklist-for-migrating-from-spreadsheets-to-an-internal-tool"
+          ],
+          "title": "Checklist for migrating from spreadsheets to an internal tool | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "Checklist: what to prepare before moving from spreadsheets to an internal tool",
+          "description": "A practical checklist for companies moving an important process out of spreadsheets into an internal tool, covering data, workflow, ownership, and first-phase boundaries.",
+          "primaryQuery": "migrating from spreadsheets to an internal tool",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "Spreadsheet migration is not just copying rows into a new screen",
+            "subtitle": "A working checklist for teams moving an important workflow from spreadsheets into an internal tool without overscoping the first phase.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Spreadsheet migration usually goes wrong when the company simply tries to redraw the existing sheet in a new UI without understanding workflow, exceptions, and ownership.",
+            "This checklist helps separate what actually needs to move, which data is meaningful, where the real problems sit, and what the first version should solve."
+          ],
+          "sections": [
+            {
+              "title": "What the asset should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision."
+              ],
+              "bullets": [
+                "core workflow, roles, and ownership boundaries",
+                "source data, duplication, and manual re-entry points",
+                "exceptions, approvals, and links to other tools",
+                "the first-phase boundary and what should stay out for now"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake."
+              ],
+              "bullets": [
+                "before internal-tool scoping",
+                "when deciding what to migrate from spreadsheets first",
+                "as input for a workshop or first estimate"
+              ]
+            },
+            {
+              "title": "What result it should create",
+              "body": [
+                "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions."
+              ],
+              "bullets": [
+                "a more realistic first scope",
+                "less risk of moving the current chaos into the system",
+                "better prioritisation of the first phase",
+                "a stronger base for data migration and future workflow improvement"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do we need to migrate every spreadsheet at once?",
+              "answer": "No. It is often better to start with one critical workflow and then expand from there."
+            },
+            {
+              "question": "Should we address data quality before migration?",
+              "answer": "Yes. If poor or duplicated data is moved into the new system without review, the same problem simply appears in a new place."
+            },
+            {
+              "question": "Does the checklist replace deeper analysis and solution design?",
+              "answer": "No. It is a working input that improves the quality of later scoping, prioritisation, and technical design."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "tool-internal-tool-scope-worksheet",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies moving an important process out of spreadsheets",
+              "teams trying to narrow the first migration phase",
+              "projects with several roles, data sources, and system dependencies"
+            ],
+            "notFor": [
+              "simple spreadsheet use with no workflow impact",
+              "projects with no process owner",
+              "attempts to mechanically redraw a spreadsheet without changing how the work is done"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If you want help turning this into an actual delivery plan, a short context summary is enough."
+          },
+          "seo": {
+            "title": "Checklist for migrating from spreadsheets to an internal tool | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical checklist for companies moving an important process out of spreadsheets into an internal tool, covering data, workflow, ownership, and first-phase boundaries."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-excel-to-internal-tool-migration-checklist.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "Spreadsheet migration is not just copying rows into a new screen",
+        "body": "A working checklist for teams moving an important workflow from spreadsheets into an internal tool without overscoping the first phase.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Spreadsheet migration usually goes wrong when the company simply tries to redraw the existing sheet in a new UI without understanding workflow, exceptions, and ownership.\n\nThis checklist helps separate what actually needs to move, which data is meaningful, where the real problems sit, and what the first version should solve."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the asset should cover",
+        "body": "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision.",
+        "items": [
+          "core workflow, roles, and ownership boundaries",
+          "source data, duplication, and manual re-entry points",
+          "exceptions, approvals, and links to other tools",
+          "the first-phase boundary and what should stay out for now"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake.",
+        "items": [
+          "before internal-tool scoping",
+          "when deciding what to migrate from spreadsheets first",
+          "as input for a workshop or first estimate"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What result it should create",
+        "body": "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions.",
+        "items": [
+          "a more realistic first scope",
+          "less risk of moving the current chaos into the system",
+          "better prioritisation of the first phase",
+          "a stronger base for data migration and future workflow improvement"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do we need to migrate every spreadsheet at once?",
+            "answer": "No. It is often better to start with one critical workflow and then expand from there."
+          },
+          {
+            "question": "Should we address data quality before migration?",
+            "answer": "Yes. If poor or duplicated data is moved into the new system without review, the same problem simply appears in a new place."
+          },
+          {
+            "question": "Does the checklist replace deeper analysis and solution design?",
+            "answer": "No. It is a working input that improves the quality of later scoping, prioritisation, and technical design."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If you want help turning this into an actual delivery plan, a short context summary is enough.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

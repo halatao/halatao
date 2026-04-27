@@ -1,0 +1,284 @@
+{
+  "id": "service-existing-app-takeover.cs",
+  "locale": "cs",
+  "slug": "/sluzby/prevzeti-a-rozvoj-existujici-aplikace",
+  "title": "Převzetí a rozvoj existující aplikace | Audit, stabilizace a takeover",
+  "seo": {
+    "title": "Převzetí a rozvoj existující aplikace | Audit, stabilizace a takeover",
+    "description": "Pomohu bezpečně převzít existující nebo rozpracovanou aplikaci, zmapovat technická a provozní rizika, stabilizovat kritická místa a navázat dalším vývojem.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-existing-app-takeover",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "prevzeti-a-rozvoj-existujici-aplikace",
+          "segments": [
+            "sluzby",
+            "prevzeti-a-rozvoj-existujici-aplikace"
+          ],
+          "title": "Převzetí a rozvoj existující aplikace | Audit, stabilizace a takeover",
+          "h1": "Převzetí a rozvoj existující aplikace",
+          "description": "Pomohu bezpečně převzít existující nebo rozpracovanou aplikaci, zmapovat technická a provozní rizika, stabilizovat kritická místa a navázat dalším vývojem.",
+          "primaryQuery": "převzetí a rozvoj existující aplikace",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Služba",
+            "title": "Převzetí aplikace bez chaosu a unáhleného rewritu",
+            "subtitle": "Pro situace po změně dodavatele, odchodu vývojáře nebo u systému, který běží, ale další změny jsou riskantní.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Jak spolupráce probíhá",
+              "href": "/cs/jak-spoluprace-probiha"
+            }
+          },
+          "intro": [
+            "Firmy často potřebují převzít aplikaci po původním dodavateli, odcházejícím vývojáři nebo po období, kdy se systém rozvíjel bez jasného technického vedení.",
+            "Největší problém nebývá jen v kódu, ale v nejistotě, co je bezpečné měnit, kde už hrozí dopad do provozu a jak rychle vrátit projektu důvěryhodný další krok.",
+            "První krok proto není velké přepisování. Nejdřív je potřeba zmapovat architekturu, závislosti, nasazení, data a skutečný dopad známých problémů."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tato služba dává smysl",
+              "body": [
+                "Tato služba dává smysl, když aplikace běží nebo je rozpracovaná, ale firma potřebuje znovu získat kontrolu nad technickým směrem a riziky."
+              ],
+              "bullets": [
+                "handover po původním dodavateli",
+                "rozpracovaný produkt bez technického vedení",
+                "provozované řešení s nejasnými riziky",
+                "aplikace, která zpomaluje další roadmapu"
+              ]
+            },
+            {
+              "title": "Co typicky řeším a dodávám",
+              "body": [
+                "V úvodní fázi řeším orientaci v systému, audit kritických míst, revizi release procesu a návrh priorit, které mají reálný provozní dopad."
+              ],
+              "bullets": [
+                "zmapování kódu a závislostí",
+                "audit provozních rizik",
+                "revize prostředí a deploymentu",
+                "prioritizace stabilizačních a rozvojových kroků"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Po úvodním mapování vznikne realistický backlog: co řešit hned kvůli stabilitě, co kvůli rychlosti dalšího vývoje a co vůbec nepřepisovat."
+              ]
+            },
+            {
+              "title": "Jaký výsledek má spolupráce přinést",
+              "body": [
+                "Cílem je bezpečné převzetí, menší rozhodovací nejistota a rozumný další postup bez zbytečných technických gest."
+              ],
+              "bullets": [
+                "jasnější přehled o rizicích a prioritách",
+                "rychlejší orientace v systému",
+                "menší tlak na rewrite jako první reflex",
+                "stabilnější základ pro další vývoj"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Můžete převzít i aplikaci bez dokumentace?",
+              "answer": "Ano. To je běžná situace, jen je potřeba počítat s úvodní fází mapování přes kód, infrastrukturu a znalost lidí uvnitř firmy."
+            },
+            {
+              "question": "Co když je aplikace technicky zastaralá?",
+              "answer": "Zastaralost sama o sobě neznamená nutný rewrite. Důležité je, jaké konkrétní problémy způsobuje provozu, bezpečnosti nebo rychlosti dalšího vývoje."
+            },
+            {
+              "question": "Přebíráte i odpovědnost za další vývoj?",
+              "answer": "Ano. Lze navázat jednorázovou stabilizací i dlouhodobější spoluprací podle rozsahu a potřeb týmu."
+            },
+            {
+              "question": "Dokážete spolupracovat s interním týmem?",
+              "answer": "Ano. U takeover projektů je to často klíčové, protože interní znalost procesu a technické mapování se musí spojit."
+            }
+          ],
+          "related": [
+            "problem-app-takeover",
+            "problem-modernize-legacy-app",
+            "problem-rescue-incomplete-project",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "guide-how-to-decide-app-needs-rewrite",
+            "tool-release-stabilization-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "běžící aplikace po původním dodavateli",
+              "rozpracované projekty bez technického vedení",
+              "systémy, které potřebují stabilizaci před dalším růstem"
+            ],
+            "notFor": [
+              "projekty bez přístupu do repozitářů a infrastruktury",
+              "čistě kosmetické redesigny",
+              "okamžitý rewrite bez auditu a priorit"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku."
+          },
+          "seo": {
+            "title": "Převzetí a rozvoj existující aplikace | Audit, stabilizace a takeover",
+            "description": "Pomohu bezpečně převzít existující nebo rozpracovanou aplikaci, zmapovat technická a provozní rizika, stabilizovat kritická místa a navázat dalším vývojem."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-existing-app-takeover.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Služba",
+        "heading": "Převzetí aplikace bez chaosu a unáhleného rewritu",
+        "body": "Pro situace po změně dodavatele, odchodu vývojáře nebo u systému, který běží, ale další změny jsou riskantní.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Jak spolupráce probíhá",
+        "secondaryCtaHref": "/cs/jak-spoluprace-probiha"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Firmy často potřebují převzít aplikaci po původním dodavateli, odcházejícím vývojáři nebo po období, kdy se systém rozvíjel bez jasného technického vedení.\n\nNejvětší problém nebývá jen v kódu, ale v nejistotě, co je bezpečné měnit, kde už hrozí dopad do provozu a jak rychle vrátit projektu důvěryhodný další krok.\n\nPrvní krok proto není velké přepisování. Nejdřív je potřeba zmapovat architekturu, závislosti, nasazení, data a skutečný dopad známých problémů."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tato služba dává smysl",
+        "body": "Tato služba dává smysl, když aplikace běží nebo je rozpracovaná, ale firma potřebuje znovu získat kontrolu nad technickým směrem a riziky.",
+        "items": [
+          "handover po původním dodavateli",
+          "rozpracovaný produkt bez technického vedení",
+          "provozované řešení s nejasnými riziky",
+          "aplikace, která zpomaluje další roadmapu"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co typicky řeším a dodávám",
+        "body": "V úvodní fázi řeším orientaci v systému, audit kritických míst, revizi release procesu a návrh priorit, které mají reálný provozní dopad.",
+        "items": [
+          "zmapování kódu a závislostí",
+          "audit provozních rizik",
+          "revize prostředí a deploymentu",
+          "prioritizace stabilizačních a rozvojových kroků"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Po úvodním mapování vznikne realistický backlog: co řešit hned kvůli stabilitě, co kvůli rychlosti dalšího vývoje a co vůbec nepřepisovat."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek má spolupráce přinést",
+        "body": "Cílem je bezpečné převzetí, menší rozhodovací nejistota a rozumný další postup bez zbytečných technických gest.",
+        "items": [
+          "jasnější přehled o rizicích a prioritách",
+          "rychlejší orientace v systému",
+          "menší tlak na rewrite jako první reflex",
+          "stabilnější základ pro další vývoj"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Můžete převzít i aplikaci bez dokumentace?",
+            "answer": "Ano. To je běžná situace, jen je potřeba počítat s úvodní fází mapování přes kód, infrastrukturu a znalost lidí uvnitř firmy."
+          },
+          {
+            "question": "Co když je aplikace technicky zastaralá?",
+            "answer": "Zastaralost sama o sobě neznamená nutný rewrite. Důležité je, jaké konkrétní problémy způsobuje provozu, bezpečnosti nebo rychlosti dalšího vývoje."
+          },
+          {
+            "question": "Přebíráte i odpovědnost za další vývoj?",
+            "answer": "Ano. Lze navázat jednorázovou stabilizací i dlouhodobější spoluprací podle rozsahu a potřeb týmu."
+          },
+          {
+            "question": "Dokážete spolupracovat s interním týmem?",
+            "answer": "Ano. U takeover projektů je to často klíčové, protože interní znalost procesu a technické mapování se musí spojit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

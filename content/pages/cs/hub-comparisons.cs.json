@@ -1,0 +1,231 @@
+{
+  "id": "hub-comparisons.cs",
+  "locale": "cs",
+  "slug": "/srovnani",
+  "title": "Srovnání pro software rozhodnutí a výběr modelu spolupráce | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Srovnání pro software rozhodnutí a výběr modelu spolupráce | Bc. On...",
+    "description": "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-comparisons",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "srovnani",
+          "segments": [
+            "srovnani"
+          ],
+          "title": "Srovnání pro software rozhodnutí a výběr modelu spolupráce | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
+          "description": "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace.",
+          "primaryQuery": "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Rozhodovací stránky pro chvíli, kdy nestačí obecný názor z internetu",
+            "subtitle": "Sekce pro buyery, kteří potřebují porovnat dvě realistické varianty a pochopit jejich dopad na delivery, náklady a provoz.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Comparison pages jsou psané pro reálná obchodní a delivery rozhodnutí, ne pro technologické flamewary.",
+            "Pomáhají tam, kde je potřeba udělat build-vs-buy rozhodnutí, vybrat model spolupráce, zhodnotit architektonický směr nebo rozhodnout mezi rewrite a postupným rozvojem."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Každá child page dává přímou odpověď, kdy je silnější varianta A, kdy varianta B, a podle čeho má buyer rozhodovat v reálném kontextu projektu."
+              ]
+            },
+            {
+              "title": "Kdy je tato sekce nejužitečnější",
+              "body": [
+                "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem."
+              ],
+              "bullets": [
+                "výběr mezi SaaS a vývojem na míru",
+                "volba kontraktora nebo agentury",
+                "rozhodnutí o architektuře business aplikace",
+                "posouzení rewrite vs inkrementálního rozvoje"
+              ]
+            },
+            {
+              "title": "Jak navázat dál",
+              "body": [
+                "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry."
+              ],
+              "bullets": [
+                "otevřete srovnání, které dnes blokuje rozhodnutí",
+                "použijte ho jako rámec pro interní debatu nebo budget",
+                "po rozhodnutí pokračujte na service page nebo inquiry"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jsou srovnání neutrální za každou cenu?",
+              "answer": "Ne. Jsou praktická a poctivě říkají, kdy která varianta dává větší smysl."
+            },
+            {
+              "question": "Mají smysl i pro netechnický management?",
+              "answer": "Ano. Jazyk je vedený hlavně přes provozní dopad, risk a economics, ne přes framework tribalismus."
+            },
+            {
+              "question": "Vedou srovnání na další komerční krok?",
+              "answer": "Ano. Každá stránka vede na odpovídající služby, case studies nebo inquiry flow."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "comparison-contractor-vs-agency",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "comparison-nextjs-vs-spa"
+          ],
+          "fit": {
+            "for": [
+              "výběr mezi SaaS a vývojem na míru",
+              "volba kontraktora nebo agentury",
+              "rozhodnutí o architektuře business aplikace",
+              "posouzení rewrite vs inkrementálního rozvoje"
+            ],
+            "notFor": [
+              "pasivní čtení bez návaznosti na reálný projekt"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Srovnání pro software rozhodnutí a výběr modelu spolupráce | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-comparisons.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Rozhodovací stránky pro chvíli, kdy nestačí obecný názor z internetu",
+        "body": "Sekce pro buyery, kteří potřebují porovnat dvě realistické varianty a pochopit jejich dopad na delivery, náklady a provoz.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Comparison pages jsou psané pro reálná obchodní a delivery rozhodnutí, ne pro technologické flamewary.\n\nPomáhají tam, kde je potřeba udělat build-vs-buy rozhodnutí, vybrat model spolupráce, zhodnotit architektonický směr nebo rozhodnout mezi rewrite a postupným rozvojem."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Každá child page dává přímou odpověď, kdy je silnější varianta A, kdy varianta B, a podle čeho má buyer rozhodovat v reálném kontextu projektu."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je tato sekce nejužitečnější",
+        "body": "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem.",
+        "items": [
+          "výběr mezi SaaS a vývojem na míru",
+          "volba kontraktora nebo agentury",
+          "rozhodnutí o architektuře business aplikace",
+          "posouzení rewrite vs inkrementálního rozvoje"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak navázat dál",
+        "body": "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry.",
+        "items": [
+          "otevřete srovnání, které dnes blokuje rozhodnutí",
+          "použijte ho jako rámec pro interní debatu nebo budget",
+          "po rozhodnutí pokračujte na service page nebo inquiry"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jsou srovnání neutrální za každou cenu?",
+            "answer": "Ne. Jsou praktická a poctivě říkají, kdy která varianta dává větší smysl."
+          },
+          {
+            "question": "Mají smysl i pro netechnický management?",
+            "answer": "Ano. Jazyk je vedený hlavně přes provozní dopad, risk a economics, ne přes framework tribalismus."
+          },
+          {
+            "question": "Vedou srovnání na další komerční krok?",
+            "answer": "Ano. Každá stránka vede na odpovídající služby, case studies nebo inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

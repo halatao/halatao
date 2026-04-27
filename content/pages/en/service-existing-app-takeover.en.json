@@ -1,0 +1,283 @@
+{
+  "id": "service-existing-app-takeover.en",
+  "locale": "en",
+  "slug": "/services/existing-app-takeover",
+  "title": "Existing app takeover | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Existing app takeover | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I take over existing or partially delivered web applications, reduce delivery risk, stabilise the stack, and create a realistic path for ongoing improvement.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-existing-app-takeover",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "existing-app-takeover",
+          "segments": [
+            "services",
+            "existing-app-takeover"
+          ],
+          "title": "Existing app takeover | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Existing app takeover and structured improvement",
+          "description": "I take over existing or partially delivered web applications, reduce delivery risk, stabilise the stack, and create a realistic path for ongoing improvement.",
+          "primaryQuery": "existing app takeover",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "Take over the app without betting the business on a rewrite",
+            "subtitle": "Useful when a supplier changed, a product is stuck, or the codebase works just well enough to be risky to touch.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "Many teams need help after a vendor handover, an unfinished delivery, or a period where the application kept moving without strong technical ownership.",
+            "The hardest part is rarely the code alone. It is the uncertainty around what can change safely and what might break operations.",
+            "That is why the first step is not a dramatic rebuild. The right first move is to map dependencies, release flow, operational risk, and the real business pressure around the system."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "This service is valuable when the system is already important to the business but future delivery feels risky, opaque, or overly dependent on inherited knowledge."
+              ],
+              "bullets": [
+                "vendor or team handover",
+                "unfinished delivery with no technical lead",
+                "running app with unclear operational risk",
+                "product roadmap blocked by technical uncertainty"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "The first phase focuses on codebase orientation, deployment review, risk mapping, and a prioritised plan grounded in business impact rather than technical aesthetics."
+              ],
+              "bullets": [
+                "codebase and dependency review",
+                "deployment and environment assessment",
+                "risk mapping for critical workflows",
+                "stabilisation priorities based on impact"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "Once the system is mapped, we can define what needs immediate protection, what should be improved incrementally, and whether any bigger rewrite is actually justified."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "The main outcome is decision confidence: you understand the risk, the practical next steps, and the technical cost of different delivery paths."
+              ],
+              "bullets": [
+                "clearer technical picture",
+                "less rewrite pressure by default",
+                "faster onboarding into the inherited stack",
+                "safer basis for ongoing product work"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can you take over an app with little or no documentation?",
+              "answer": "Yes. That is common. It requires a structured discovery phase based on the codebase, infrastructure, release flow, and people who know the business process."
+            },
+            {
+              "question": "Does an older stack automatically mean we should rebuild?",
+              "answer": "No. The right question is what concrete risk or delivery friction the current stack creates. Age alone is not a business case for a rewrite."
+            },
+            {
+              "question": "Can you continue with ongoing development after the audit?",
+              "answer": "Yes. I can stay on for stabilisation and delivery, or support an internal team with architecture, implementation, and technical direction."
+            },
+            {
+              "question": "Can you work alongside internal staff?",
+              "answer": "Yes. Existing-app takeovers work best when technical discovery and internal process knowledge are combined."
+            }
+          ],
+          "related": [
+            "problem-app-takeover",
+            "problem-modernize-legacy-app",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "guide-how-to-run-app-takeover-audit",
+            "guide-how-to-decide-app-needs-rewrite",
+            "tool-release-stabilization-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "running applications after a vendor or team change",
+              "unfinished products that need structure and technical ownership",
+              "systems that need stabilisation before bigger roadmap work"
+            ],
+            "notFor": [
+              "projects with no access to infrastructure or source code",
+              "pure visual redesigns without technical ownership",
+              "rewrite-first mandates with no discovery phase"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "Existing app takeover | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I take over existing or partially delivered web applications, reduce delivery risk, stabilise the stack, and create a realistic path for ongoing improvement."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-existing-app-takeover.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "Take over the app without betting the business on a rewrite",
+        "body": "Useful when a supplier changed, a product is stuck, or the codebase works just well enough to be risky to touch.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Many teams need help after a vendor handover, an unfinished delivery, or a period where the application kept moving without strong technical ownership.\n\nThe hardest part is rarely the code alone. It is the uncertainty around what can change safely and what might break operations.\n\nThat is why the first step is not a dramatic rebuild. The right first move is to map dependencies, release flow, operational risk, and the real business pressure around the system."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "This service is valuable when the system is already important to the business but future delivery feels risky, opaque, or overly dependent on inherited knowledge.",
+        "items": [
+          "vendor or team handover",
+          "unfinished delivery with no technical lead",
+          "running app with unclear operational risk",
+          "product roadmap blocked by technical uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "The first phase focuses on codebase orientation, deployment review, risk mapping, and a prioritised plan grounded in business impact rather than technical aesthetics.",
+        "items": [
+          "codebase and dependency review",
+          "deployment and environment assessment",
+          "risk mapping for critical workflows",
+          "stabilisation priorities based on impact"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "Once the system is mapped, we can define what needs immediate protection, what should be improved incrementally, and whether any bigger rewrite is actually justified."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "The main outcome is decision confidence: you understand the risk, the practical next steps, and the technical cost of different delivery paths.",
+        "items": [
+          "clearer technical picture",
+          "less rewrite pressure by default",
+          "faster onboarding into the inherited stack",
+          "safer basis for ongoing product work"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can you take over an app with little or no documentation?",
+            "answer": "Yes. That is common. It requires a structured discovery phase based on the codebase, infrastructure, release flow, and people who know the business process."
+          },
+          {
+            "question": "Does an older stack automatically mean we should rebuild?",
+            "answer": "No. The right question is what concrete risk or delivery friction the current stack creates. Age alone is not a business case for a rewrite."
+          },
+          {
+            "question": "Can you continue with ongoing development after the audit?",
+            "answer": "Yes. I can stay on for stabilisation and delivery, or support an internal team with architecture, implementation, and technical direction."
+          },
+          {
+            "question": "Can you work alongside internal staff?",
+            "answer": "Yes. Existing-app takeovers work best when technical discovery and internal process knowledge are combined."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

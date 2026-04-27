@@ -1,0 +1,246 @@
+{
+  "id": "technology-typescript-for-large-web-projects.cs",
+  "locale": "cs",
+  "slug": "/technologie/typescript-pro-vetsi-projekty",
+  "title": "TypeScript pro vetší projekty | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "TypeScript pro vetší projekty | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Kdy a proc dává TypeScript smysl ve vetších webových projektech, interních systémech a týmech s delším horizontem vývoje.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-typescript-for-large-web-projects",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "technology",
+          "slug": "typescript-pro-vetsi-projekty",
+          "segments": [
+            "technologie",
+            "typescript-pro-vetsi-projekty"
+          ],
+          "title": "TypeScript pro vetší projekty | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "TypeScript pro vetší webové projekty a dlouhodobý rozvoj",
+          "description": "Kdy a proc dává TypeScript smysl ve vetších webových projektech, interních systémech a týmech s delším horizontem vývoje.",
+          "primaryQuery": "typescript pro vetší projekty",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technologie",
+            "title": "TypeScript není samoúcelná prísnost. Je to nástroj na snížení zmatku.",
+            "subtitle": "Nejvetší prínos má tam, kde systém roste, zapojuje se více lidí a chyby v datech nebo rozhraních jsou drahé.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Ve vetších projektech bývá problém méne v syntaxi a více v tom, že nikdo presne neví, co kam tece a co co ocekává.",
+            "TypeScript pomáhá vytváret pevnejší hranice mezi cástmi systému a snižuje množství chyb, které se jinak ukážou až v provozu."
+          ],
+          "sections": [
+            {
+              "title": "Kde tato technologie dává smysl",
+              "body": [
+                "Technologie má dávat smysl projektu, ne jen preferenci vývojáre."
+              ],
+              "bullets": [
+                "vetší tým nebo delší horizont vývoje",
+                "složitejší data a integracní rozhraní",
+                "casté refaktory a rozvoj",
+                "potreba bezpecnejších zmen"
+              ]
+            },
+            {
+              "title": "Na co si dát pozor",
+              "body": [
+                "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury."
+              ],
+              "bullets": [
+                "prílišná typová byrokracie bez hodnoty",
+                "slabá disciplína kolem sdílených typu",
+                "mylná predstava, že typy vyreší architekturu"
+              ]
+            },
+            {
+              "title": "Typický fit pro business projekt",
+              "body": [
+                "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu."
+              ],
+              "bullets": [
+                "vetší webová aplikace",
+                "interní systém s více moduly",
+                "produkt s více integracemi",
+                "týmová spolupráce nad jedním kódem"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je TypeScript nutný i pro menší projekt?",
+              "answer": "Ne vždy. Nejvíc pomáhá tam, kde je vyšší komplexita nebo delší životnost systému."
+            },
+            {
+              "question": "Není TypeScript pomalejší na vývoj?",
+              "answer": "Krátkodobe muže pridat disciplínu navíc, ale u vetších projektu se to casto vrátí v jistote a menší chybovosti."
+            },
+            {
+              "question": "Reší TypeScript i kvalitu návrhu?",
+              "answer": "Ne sám o sobe. Je to podpurný nástroj, ne náhrada za architekturu."
+            }
+          ],
+          "related": [
+            "guide-how-to-stabilize-a-slow-business-app",
+            "service-existing-app-takeover",
+            "contract-support",
+            "comparison-rewrite-vs-incremental-app-improvement"
+          ],
+          "fit": {
+            "for": [
+              "vetší webová aplikace",
+              "interní systém s více moduly",
+              "produkt s více integracemi",
+              "týmová spolupráce nad jedním kódem"
+            ],
+            "notFor": [
+              "prílišná typová byrokracie bez hodnoty",
+              "slabá disciplína kolem sdílených typu",
+              "mylná predstava, že typy vyreší architekturu"
+            ]
+          },
+          "seo": {
+            "title": "TypeScript pro vetší projekty | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Kdy a proc dává TypeScript smysl ve vetších webových projektech, interních systémech a týmech s delším horizontem vývoje."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-typescript-for-large-web-projects.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technologie",
+        "heading": "TypeScript není samoúcelná prísnost. Je to nástroj na snížení zmatku.",
+        "body": "Nejvetší prínos má tam, kde systém roste, zapojuje se více lidí a chyby v datech nebo rozhraních jsou drahé.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Ve vetších projektech bývá problém méne v syntaxi a více v tom, že nikdo presne neví, co kam tece a co co ocekává.\n\nTypeScript pomáhá vytváret pevnejší hranice mezi cástmi systému a snižuje množství chyb, které se jinak ukážou až v provozu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kde tato technologie dává smysl",
+        "body": "Technologie má dávat smysl projektu, ne jen preferenci vývojáre.",
+        "items": [
+          "vetší tým nebo delší horizont vývoje",
+          "složitejší data a integracní rozhraní",
+          "casté refaktory a rozvoj",
+          "potreba bezpecnejších zmen"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Na co si dát pozor",
+        "body": "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury.",
+        "items": [
+          "prílišná typová byrokracie bez hodnoty",
+          "slabá disciplína kolem sdílených typu",
+          "mylná predstava, že typy vyreší architekturu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typický fit pro business projekt",
+        "body": "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu.",
+        "items": [
+          "vetší webová aplikace",
+          "interní systém s více moduly",
+          "produkt s více integracemi",
+          "týmová spolupráce nad jedním kódem"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je TypeScript nutný i pro menší projekt?",
+            "answer": "Ne vždy. Nejvíc pomáhá tam, kde je vyšší komplexita nebo delší životnost systému."
+          },
+          {
+            "question": "Není TypeScript pomalejší na vývoj?",
+            "answer": "Krátkodobe muže pridat disciplínu navíc, ale u vetších projektu se to casto vrátí v jistote a menší chybovosti."
+          },
+          {
+            "question": "Reší TypeScript i kvalitu návrhu?",
+            "answer": "Ne sám o sobe. Je to podpurný nástroj, ne náhrada za architekturu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "hub-comparisons.en",
+  "locale": "en",
+  "slug": "/comparisons",
+  "title": "Comparisons for software buying and delivery decisions | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Comparisons for software buying and delivery decisions | Bc. Ondřej...",
+    "description": "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-comparisons",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "comparisons",
+          "segments": [
+            "comparisons"
+          ],
+          "title": "Comparisons for software buying and delivery decisions | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Comparison pages for buyers making a real software decision",
+          "description": "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement.",
+          "primaryQuery": "Comparison pages for buyers making a real software decision",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Decision support when generic internet advice is not enough",
+            "subtitle": "For buyers who need to compare two realistic paths and understand the impact on delivery, cost, and operations.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These pages are written for practical buying and delivery decisions rather than technical culture-war traffic.",
+            "They help with build-vs-buy choices, supplier model evaluation, architecture direction, and the question of rewrite versus incremental improvement."
+          ],
+          "sections": [
+            {
+              "title": "What this section covers",
+              "body": [
+                "Each child page gives a direct answer, shows where option A is stronger, where option B is stronger, and which criteria should shape the decision in a live project."
+              ]
+            },
+            {
+              "title": "When this section is most useful",
+              "body": [
+                "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction."
+              ],
+              "bullets": [
+                "build-vs-buy decisions",
+                "agency vs contract model evaluation",
+                "architecture direction for a business application",
+                "rewrite vs stabilisation decisions"
+              ]
+            },
+            {
+              "title": "How to continue",
+              "body": [
+                "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path."
+              ],
+              "bullets": [
+                "open the comparison closest to the blocked decision",
+                "use it as a frame for internal alignment or budget discussion",
+                "continue into the relevant service or inquiry path once direction is clearer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Are the comparison pages neutral at all costs?",
+              "answer": "No. They are practical and explicit about where each option is stronger."
+            },
+            {
+              "question": "Are they useful for non-technical buyers too?",
+              "answer": "Yes. The framing is built around operational impact, risk, and economics rather than framework tribalism."
+            },
+            {
+              "question": "Do they connect to commercial next steps?",
+              "answer": "Yes. Every page links onward to the relevant services, supporting content, and inquiry flow."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "comparison-contractor-vs-agency",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "comparison-nextjs-vs-spa"
+          ],
+          "fit": {
+            "for": [
+              "build-vs-buy decisions",
+              "agency vs contract model evaluation",
+              "architecture direction for a business application",
+              "rewrite vs stabilisation decisions"
+            ],
+            "notFor": [
+              "passive reading with no live project context"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If this section matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "Comparisons for software buying and delivery decisions | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-comparisons.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Decision support when generic internet advice is not enough",
+        "body": "For buyers who need to compare two realistic paths and understand the impact on delivery, cost, and operations.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These pages are written for practical buying and delivery decisions rather than technical culture-war traffic.\n\nThey help with build-vs-buy choices, supplier model evaluation, architecture direction, and the question of rewrite versus incremental improvement."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What this section covers",
+        "body": "Each child page gives a direct answer, shows where option A is stronger, where option B is stronger, and which criteria should shape the decision in a live project."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this section is most useful",
+        "body": "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction.",
+        "items": [
+          "build-vs-buy decisions",
+          "agency vs contract model evaluation",
+          "architecture direction for a business application",
+          "rewrite vs stabilisation decisions"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue",
+        "body": "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path.",
+        "items": [
+          "open the comparison closest to the blocked decision",
+          "use it as a frame for internal alignment or budget discussion",
+          "continue into the relevant service or inquiry path once direction is clearer"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Are the comparison pages neutral at all costs?",
+            "answer": "No. They are practical and explicit about where each option is stronger."
+          },
+          {
+            "question": "Are they useful for non-technical buyers too?",
+            "answer": "Yes. The framing is built around operational impact, risk, and economics rather than framework tribalism."
+          },
+          {
+            "question": "Do they connect to commercial next steps?",
+            "answer": "Yes. Every page links onward to the relevant services, supporting content, and inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If this section matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

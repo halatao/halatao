@@ -1,0 +1,247 @@
+{
+  "id": "comparison-nextjs-vs-spa.en",
+  "locale": "en",
+  "slug": "/comparisons/nextjs-vs-spa-for-business-apps",
+  "title": "Next.js vs SPA for business apps | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Next.js vs SPA for business apps | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical comparison of Next.js and classic SPA architecture for business web applications, internal systems, and client portals.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-nextjs-vs-spa",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "comparison",
+          "slug": "nextjs-vs-spa-for-business-apps",
+          "segments": [
+            "comparisons",
+            "nextjs-vs-spa-for-business-apps"
+          ],
+          "title": "Next.js vs SPA for business apps | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Next.js vs SPA for business applications",
+          "description": "A practical comparison of Next.js and classic SPA architecture for business web applications, internal systems, and client portals.",
+          "primaryQuery": "nextjs vs spa for business apps",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Comparison",
+            "title": "This is not a framework popularity contest",
+            "subtitle": "The right choice depends on how the software is discovered, loaded, operated, and evolved.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A classic SPA is not wrong. It is simply not the best answer for every business application.",
+            "Next.js is often useful where the product mixes content and application behaviour, needs SEO, or benefits from flexible rendering modes."
+          ],
+          "sections": [
+            {
+              "title": "When Next.js is the better fit",
+              "body": [
+                "Next.js works well when the product combines commercial pages and application logic, needs SEO, benefits from static generation, or requires server-rendered entry points."
+              ]
+            },
+            {
+              "title": "When a classic SPA is fine",
+              "body": [
+                "A classic SPA is often enough for internal tools with no SEO requirements and no strong need to combine content and application delivery in one stack."
+              ]
+            },
+            {
+              "title": "How to decide",
+              "body": [
+                "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost."
+              ],
+              "bullets": [
+                "SEO and discoverability",
+                "first-load experience",
+                "need to mix content and app flows",
+                "deployment and architecture complexity"
+              ]
+            },
+            {
+              "title": "Practical conclusion",
+              "body": [
+                "For business sites, portals, and products with discovery requirements, Next.js is often the more practical choice. For a purely internal app, SPA can be completely reasonable."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is Next.js always technically better?",
+              "answer": "No. It is only better when its rendering and routing model match the needs of the product."
+            },
+            {
+              "question": "Does SPA create SEO issues?",
+              "answer": "It can, especially when discoverability, indexing, or first render quality matter."
+            },
+            {
+              "question": "Can internal tools be built in Next.js too?",
+              "answer": "Yes. The question is whether the project actually benefits from what Next.js brings."
+            },
+            {
+              "question": "Is framework choice the main architecture decision?",
+              "answer": "No. Data model, release flow, integration design, and implementation quality matter more in the long run."
+            }
+          ],
+          "related": [
+            "technology-nextjs-for-business-applications",
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application"
+          ],
+          "fit": {
+            "for": [
+              "SEO and discoverability",
+              "first-load experience",
+              "need to mix content and app flows",
+              "deployment and architecture complexity"
+            ],
+            "notFor": [
+              "abstract technology debates with no business context"
+            ]
+          },
+          "seo": {
+            "title": "Next.js vs SPA for business apps | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical comparison of Next.js and classic SPA architecture for business web applications, internal systems, and client portals."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-nextjs-vs-spa.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Comparison",
+        "heading": "This is not a framework popularity contest",
+        "body": "The right choice depends on how the software is discovered, loaded, operated, and evolved.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A classic SPA is not wrong. It is simply not the best answer for every business application.\n\nNext.js is often useful where the product mixes content and application behaviour, needs SEO, or benefits from flexible rendering modes."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When Next.js is the better fit",
+        "body": "Next.js works well when the product combines commercial pages and application logic, needs SEO, benefits from static generation, or requires server-rendered entry points."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When a classic SPA is fine",
+        "body": "A classic SPA is often enough for internal tools with no SEO requirements and no strong need to combine content and application delivery in one stack."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to decide",
+        "body": "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost.",
+        "items": [
+          "SEO and discoverability",
+          "first-load experience",
+          "need to mix content and app flows",
+          "deployment and architecture complexity"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Practical conclusion",
+        "body": "For business sites, portals, and products with discovery requirements, Next.js is often the more practical choice. For a purely internal app, SPA can be completely reasonable."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is Next.js always technically better?",
+            "answer": "No. It is only better when its rendering and routing model match the needs of the product."
+          },
+          {
+            "question": "Does SPA create SEO issues?",
+            "answer": "It can, especially when discoverability, indexing, or first render quality matter."
+          },
+          {
+            "question": "Can internal tools be built in Next.js too?",
+            "answer": "Yes. The question is whether the project actually benefits from what Next.js brings."
+          },
+          {
+            "question": "Is framework choice the main architecture decision?",
+            "answer": "No. Data model, release flow, integration design, and implementation quality matter more in the long run."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

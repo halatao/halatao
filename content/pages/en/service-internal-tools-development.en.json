@@ -1,0 +1,284 @@
+{
+  "id": "service-internal-tools-development.en",
+  "locale": "en",
+  "slug": "/services/internal-tools-development",
+  "title": "Internal tools development | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal tools development | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I build internal tools for teams that need to replace spreadsheets, fragmented admin work, and slow manual coordination with a system built around real opera...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-internal-tools-development",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "internal-tools-development",
+          "segments": [
+            "services",
+            "internal-tools-development"
+          ],
+          "title": "Internal tools development | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Internal tools development for operations, approvals, and reporting",
+          "description": "I build internal tools for teams that need to replace spreadsheets, fragmented admin work, and slow manual coordination with a system built around real operations.",
+          "primaryQuery": "internal tools development",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "Internal tools that match how the company actually works",
+            "subtitle": "A strong fit for operations-heavy teams, admin workflows, approvals, dashboards, and processes that no longer belong in spreadsheets and inboxes.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "Internal tools become necessary when repeated manual work, spreadsheet handoffs, and disconnected admin tools start slowing down operations.",
+            "The cost is not only time. It also shows up as poor visibility, inconsistent data, and work that depends on specific people remembering specific steps.",
+            "That can start as a focused first release around one painful workflow rather than a giant programme with unclear payback."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "The strongest fit is a business process handled by several people or teams where visibility, responsibility, and data quality are currently weak."
+              ],
+              "bullets": [
+                "backoffice administration",
+                "workflow and approvals",
+                "internal case or order tracking",
+                "management reporting views"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "I usually work on process framing, data structure, roles, key workflows, and the first release that already improves real day-to-day operations."
+              ],
+              "bullets": [
+                "process and scope design",
+                "full-stack internal tool delivery",
+                "data migration or system integration",
+                "phased rollout based on operational value"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "We define the process scope, the important roles, and the first meaningful release. That first release should solve a real operational problem, not sit in discovery for months."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "A strong internal tool reduces manual coordination, improves accountability, and gives the company a system it can evolve under its own priorities."
+              ],
+              "bullets": [
+                "less spreadsheet and inbox dependency",
+                "lower error rate",
+                "better work-in-progress visibility",
+                "cleaner foundation for reporting and automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Would an off-the-shelf admin product be cheaper?",
+              "answer": "Sometimes, yes. But if the process, data, roles, or integration needs are specific enough, a custom internal tool is often the cleaner long-term choice."
+            },
+            {
+              "question": "Does an internal tool have to be a large programme?",
+              "answer": "No. It is often smarter to start with one workflow or one department and expand once the first release proves useful."
+            },
+            {
+              "question": "Can you help migrate from spreadsheets or old tools?",
+              "answer": "Yes. That can include staged migration, data import, and integration work so the new tool supports the transition instead of disrupting it."
+            },
+            {
+              "question": "Can internal tools include dashboards and reporting?",
+              "answer": "Yes. Reporting is often most valuable when it sits on top of better operational data collected through the tool itself."
+            }
+          ],
+          "related": [
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "comparison-internal-tool-vs-spreadsheets",
+            "use-case-internal-approval-system",
+            "service-ai-automation-and-integrations",
+            "use-case-ai-internal-documents",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "operations-heavy teams replacing spreadsheets and inboxes",
+              "companies with multi-role internal workflows",
+              "buyers who want a long-term internal system instead of patchwork tooling"
+            ],
+            "notFor": [
+              "single-user micro tools",
+              "projects without a clear process owner on the client side",
+              "simple SaaS purchases with no tailoring requirement"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "Internal tools development | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I build internal tools for teams that need to replace spreadsheets, fragmented admin work, and slow manual coordination with a system built around real operations."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-internal-tools-development.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "Internal tools that match how the company actually works",
+        "body": "A strong fit for operations-heavy teams, admin workflows, approvals, dashboards, and processes that no longer belong in spreadsheets and inboxes.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Internal tools become necessary when repeated manual work, spreadsheet handoffs, and disconnected admin tools start slowing down operations.\n\nThe cost is not only time. It also shows up as poor visibility, inconsistent data, and work that depends on specific people remembering specific steps.\n\nThat can start as a focused first release around one painful workflow rather than a giant programme with unclear payback."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "The strongest fit is a business process handled by several people or teams where visibility, responsibility, and data quality are currently weak.",
+        "items": [
+          "backoffice administration",
+          "workflow and approvals",
+          "internal case or order tracking",
+          "management reporting views"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "I usually work on process framing, data structure, roles, key workflows, and the first release that already improves real day-to-day operations.",
+        "items": [
+          "process and scope design",
+          "full-stack internal tool delivery",
+          "data migration or system integration",
+          "phased rollout based on operational value"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "We define the process scope, the important roles, and the first meaningful release. That first release should solve a real operational problem, not sit in discovery for months."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "A strong internal tool reduces manual coordination, improves accountability, and gives the company a system it can evolve under its own priorities.",
+        "items": [
+          "less spreadsheet and inbox dependency",
+          "lower error rate",
+          "better work-in-progress visibility",
+          "cleaner foundation for reporting and automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Would an off-the-shelf admin product be cheaper?",
+            "answer": "Sometimes, yes. But if the process, data, roles, or integration needs are specific enough, a custom internal tool is often the cleaner long-term choice."
+          },
+          {
+            "question": "Does an internal tool have to be a large programme?",
+            "answer": "No. It is often smarter to start with one workflow or one department and expand once the first release proves useful."
+          },
+          {
+            "question": "Can you help migrate from spreadsheets or old tools?",
+            "answer": "Yes. That can include staged migration, data import, and integration work so the new tool supports the transition instead of disrupting it."
+          },
+          {
+            "question": "Can internal tools include dashboards and reporting?",
+            "answer": "Yes. Reporting is often most valuable when it sits on top of better operational data collected through the tool itself."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

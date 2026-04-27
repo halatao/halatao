@@ -1,0 +1,280 @@
+{
+  "id": "service-sales-and-job-tracking-system.en",
+  "locale": "en",
+  "slug": "/services/sales-offers-and-job-tracking-system",
+  "title": "System for tracking incoming requests and jobs",
+  "seo": {
+    "title": "System for tracking incoming requests and jobs",
+    "description": "I design and build an internal system for tracking incoming requests, preparing offers, and managing delivery where the process is currently held together by...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-sales-and-job-tracking-system",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "sales-offers-and-job-tracking-system",
+          "segments": [
+            "services",
+            "sales-offers-and-job-tracking-system"
+          ],
+          "title": "System for tracking incoming requests and jobs",
+          "h1": "System for managing incoming requests, offers, and delivery",
+          "description": "I design and build an internal system for tracking incoming requests, preparing offers, and managing delivery where the process is currently held together by spreadsheets, email, and manual coordination.",
+          "primaryQuery": "request and job tracking system",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "Keep incoming requests, offers, and jobs under control in one place",
+            "subtitle": "No more spreadsheet sprawl, email chaos, and unclear job status. A system shaped around the way your process actually works.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "In many companies the problem is not a lack of effort. The problem starts when incoming requests, offers, and delivery live across spreadsheets, email threads, and individual people.",
+            "That creates unclear job status, manual lookup work, weak accountability, and friction between sales and delivery.",
+            "A tailored internal system makes sense where the business needs one shared process from the first incoming request through offer creation and final delivery."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "This is a strong fit where sales and delivery both work on the same job but do not share one reliable operational view."
+              ],
+              "bullets": [
+                "incoming requests arrive by email and are not tracked systematically",
+                "several offer versions exist and nobody is sure which one is current",
+                "delivery work runs separately from the sales side of the process",
+                "job status has to be reconstructed manually from spreadsheets, emails, and notes",
+                "it is unclear who owns the next step and where the process is blocked"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "The system usually brings sales and delivery into one workflow with shared visibility, history, and responsibility."
+              ],
+              "bullets": [
+                "tracking of incoming requests and their statuses",
+                "connection between the request, offer, and next step",
+                "conversion of an approved offer into a delivery job",
+                "visibility into status, ownership, deadlines, and history",
+                "possible integration with email, CRM, invoicing, or internal tools"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "The first step is to map how the current process works, where information gets lost, and where the system should create the biggest relief. Only then does the first delivery scope make sense."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "The best outcome is not just a new system. It is a clearer process, less manual coordination, and stronger accountability between sales and delivery."
+              ],
+              "bullets": [
+                "better visibility over incoming requests and jobs",
+                "less chaos between sales and delivery",
+                "lower dependence on spreadsheets, email, and manual coordination",
+                "clearer workflow, ownership, and next-step logic"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this useful for a smaller company too?",
+              "answer": "Yes, especially when incoming requests and jobs already repeat often enough that the current tracking method slows people down or creates avoidable mistakes."
+            },
+            {
+              "question": "Does the system need to cover the full process from day one?",
+              "answer": "No. It is often better to start with the weakest part of the workflow and expand the system in later stages."
+            },
+            {
+              "question": "Can it connect to other systems?",
+              "answer": "Yes. Typical integrations include email, CRM, invoicing, or other internal tools so the system does not stay isolated."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-replace-spreadsheets-in-process",
+            "problem-requests-offers-delivery-in-spreadsheets",
+            "use-case-request-offer-delivery-workflow",
+            "use-case-workflow-app-for-teams",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with project-based sales or delivery work",
+              "teams connecting sales, offers, and execution",
+              "situations where spreadsheets and email no longer support reliable job control"
+            ],
+            "notFor": [
+              "very simple tracking with no workflow or multiple roles",
+              "basic SaaS buying with no process tailoring",
+              "micro processes with no real handoff between sales and delivery"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "System for tracking incoming requests and jobs",
+            "description": "I design and build an internal system for tracking incoming requests, preparing offers, and managing delivery where the process is currently held together by spreadsheets, email, and manual coordination."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-sales-and-job-tracking-system.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "Keep incoming requests, offers, and jobs under control in one place",
+        "body": "No more spreadsheet sprawl, email chaos, and unclear job status. A system shaped around the way your process actually works.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "In many companies the problem is not a lack of effort. The problem starts when incoming requests, offers, and delivery live across spreadsheets, email threads, and individual people.\n\nThat creates unclear job status, manual lookup work, weak accountability, and friction between sales and delivery.\n\nA tailored internal system makes sense where the business needs one shared process from the first incoming request through offer creation and final delivery."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "This is a strong fit where sales and delivery both work on the same job but do not share one reliable operational view.",
+        "items": [
+          "incoming requests arrive by email and are not tracked systematically",
+          "several offer versions exist and nobody is sure which one is current",
+          "delivery work runs separately from the sales side of the process",
+          "job status has to be reconstructed manually from spreadsheets, emails, and notes",
+          "it is unclear who owns the next step and where the process is blocked"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "The system usually brings sales and delivery into one workflow with shared visibility, history, and responsibility.",
+        "items": [
+          "tracking of incoming requests and their statuses",
+          "connection between the request, offer, and next step",
+          "conversion of an approved offer into a delivery job",
+          "visibility into status, ownership, deadlines, and history",
+          "possible integration with email, CRM, invoicing, or internal tools"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "The first step is to map how the current process works, where information gets lost, and where the system should create the biggest relief. Only then does the first delivery scope make sense."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "The best outcome is not just a new system. It is a clearer process, less manual coordination, and stronger accountability between sales and delivery.",
+        "items": [
+          "better visibility over incoming requests and jobs",
+          "less chaos between sales and delivery",
+          "lower dependence on spreadsheets, email, and manual coordination",
+          "clearer workflow, ownership, and next-step logic"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this useful for a smaller company too?",
+            "answer": "Yes, especially when incoming requests and jobs already repeat often enough that the current tracking method slows people down or creates avoidable mistakes."
+          },
+          {
+            "question": "Does the system need to cover the full process from day one?",
+            "answer": "No. It is often better to start with the weakest part of the workflow and expand the system in later stages."
+          },
+          {
+            "question": "Can it connect to other systems?",
+            "answer": "Yes. Typical integrations include email, CRM, invoicing, or other internal tools so the system does not stay isolated."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

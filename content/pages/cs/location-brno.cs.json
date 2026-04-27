@@ -1,0 +1,246 @@
+{
+  "id": "location-brno.cs",
+  "locale": "cs",
+  "slug": "/lokality/brno",
+  "title": "Vývoj webových aplikací Brno | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Vývoj webových aplikací Brno | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Vývoj webových aplikací, interních systému, takeover projektu a automatizací pro firmy a týmy v Brne.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "location-brno",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "location",
+          "slug": "brno",
+          "segments": [
+            "lokality",
+            "brno"
+          ],
+          "title": "Vývoj webových aplikací Brno | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Vývoj webových aplikací a interních systému pro firmy v Brne",
+          "description": "Vývoj webových aplikací, interních systému, takeover projektu a automatizací pro firmy a týmy v Brne.",
+          "primaryQuery": "Brno vývoj webových aplikací",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Lokalita",
+            "title": "Vývoj webových aplikací a interních systému pro Brno",
+            "subtitle": "Spolupráce muže probíhat na dálku i osobne podle potreby projektu. Duležitejší než adresa je schopnost rychle se zorientovat v problému a dodat bezpecný další krok.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Brnenské firmy casto reší kombinaci interní operativy, produktového vývoje a napojení více systému. To je presne prostredí, kde dává smysl vývoj na míru nebo takeover existující aplikace.",
+            "Duležitý je praktický prístup: rychle se zorientovat v problému a navrhnout první etapu, která má reálný provozní prínos."
+          ],
+          "sections": [
+            {
+              "title": "Kdy dává spolupráce v Brno smysl",
+              "body": [
+                "Nejde o lokální SEO stránku bez obsahu. Stránka je urcená firmám, které hledají partnera pro konkrétní projektovou situaci: nový vývoj, takeover, interní systém nebo automatizaci."
+              ],
+              "bullets": [
+                "interní nástroje a admin systémy",
+                "produktové aplikace v rustu",
+                "potreba lepšího delivery a takeoveru",
+                "workflow a reporting"
+              ]
+            },
+            {
+              "title": "S cím lze navázat",
+              "body": [
+                "Typicky jde o webové aplikace na míru, prevzetí existujících aplikací, interní nástroje, automatizace a externí kontraktní spolupráci na projektu."
+              ],
+              "bullets": [
+                "interní systémy na míru",
+                "vývoj aplikací na míru",
+                "automatizace a integrace",
+                "externí kontraktní spolupráce",
+                "stabilizace a prevzetí aplikací"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Úvodní cást lze rešit vzdálene. Pokud dává smysl osobní setkání nebo workshop, lze ho domluvit podle povahy projektu."
+              ],
+              "bullets": [
+                "úvodní call nebo workshop",
+                "návrh první etapy",
+                "prubežná realizace v menších krocích"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Rešíte i menší první etapy nebo jen velké projekty?",
+              "answer": "Ano. Casto zacínáme práve menší etapou, která overí fit a prinese první hodnotu."
+            },
+            {
+              "question": "Je možné navázat na existující vývojový tým v Brne?",
+              "answer": "Ano. Kontraktní spolupráce uvnitr existujícího týmu je bežný model."
+            },
+            {
+              "question": "Pomužete i s interním systémem z tabulek a e-mailu?",
+              "answer": "Ano. To je velmi typický scénár pro interní nástroj na míru."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "use-case-internal-admin-system",
+            "service-custom-web-app-development",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "interní nástroje a admin systémy",
+              "produktové aplikace v rustu",
+              "potreba lepšího delivery a takeoveru",
+              "workflow a reporting"
+            ],
+            "notFor": [
+              "obecný adresár firem bez projektového kontextu"
+            ]
+          },
+          "seo": {
+            "title": "Vývoj webových aplikací Brno | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Vývoj webových aplikací, interních systému, takeover projektu a automatizací pro firmy a týmy v Brne."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "location-brno.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "location",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Lokalita",
+        "heading": "Vývoj webových aplikací a interních systému pro Brno",
+        "body": "Spolupráce muže probíhat na dálku i osobne podle potreby projektu. Duležitejší než adresa je schopnost rychle se zorientovat v problému a dodat bezpecný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Brnenské firmy casto reší kombinaci interní operativy, produktového vývoje a napojení více systému. To je presne prostredí, kde dává smysl vývoj na míru nebo takeover existující aplikace.\n\nDuležitý je praktický prístup: rychle se zorientovat v problému a navrhnout první etapu, která má reálný provozní prínos."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy dává spolupráce v Brno smysl",
+        "body": "Nejde o lokální SEO stránku bez obsahu. Stránka je urcená firmám, které hledají partnera pro konkrétní projektovou situaci: nový vývoj, takeover, interní systém nebo automatizaci.",
+        "items": [
+          "interní nástroje a admin systémy",
+          "produktové aplikace v rustu",
+          "potreba lepšího delivery a takeoveru",
+          "workflow a reporting"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "S cím lze navázat",
+        "body": "Typicky jde o webové aplikace na míru, prevzetí existujících aplikací, interní nástroje, automatizace a externí kontraktní spolupráci na projektu.",
+        "items": [
+          "interní systémy na míru",
+          "vývoj aplikací na míru",
+          "automatizace a integrace",
+          "externí kontraktní spolupráce",
+          "stabilizace a prevzetí aplikací"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Úvodní cást lze rešit vzdálene. Pokud dává smysl osobní setkání nebo workshop, lze ho domluvit podle povahy projektu.",
+        "items": [
+          "úvodní call nebo workshop",
+          "návrh první etapy",
+          "prubežná realizace v menších krocích"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Rešíte i menší první etapy nebo jen velké projekty?",
+            "answer": "Ano. Casto zacínáme práve menší etapou, která overí fit a prinese první hodnotu."
+          },
+          {
+            "question": "Je možné navázat na existující vývojový tým v Brne?",
+            "answer": "Ano. Kontraktní spolupráce uvnitr existujícího týmu je bežný model."
+          },
+          {
+            "question": "Pomužete i s interním systémem z tabulek a e-mailu?",
+            "answer": "Ano. To je velmi typický scénár pro interní nástroj na míru."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "use-case-internal-admin-system.en",
+  "locale": "en",
+  "slug": "/use-cases/internal-admin-system",
+  "title": "Internal admin system development | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal admin system development | Bc. Ondřej Halata (halatao.cz)",
+    "description": "An internal admin system use case for companies that need better operational control, clearer states, role-based work, and structured daily administration.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-internal-admin-system",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "internal-admin-system",
+          "segments": [
+            "use-cases",
+            "internal-admin-system"
+          ],
+          "title": "Internal admin system development | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Internal admin system for operations and process control",
+          "description": "An internal admin system use case for companies that need better operational control, clearer states, role-based work, and structured daily administration.",
+          "primaryQuery": "internal admin system",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "One working system instead of several half-working ones",
+            "subtitle": "A strong fit when the team needs a shared operational view and the current setup is fragmented across spreadsheets, email, and old tooling.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Internal admin systems usually appear when operations grow faster than the tools supporting them.",
+            "The goal is not prettier forms. It is faster work, clearer ownership, and a more reliable operating model for the team."
+          ],
+          "sections": [
+            {
+              "title": "What problem this type of app solves",
+              "body": [
+                "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership."
+              ],
+              "bullets": [
+                "unclear case or order status",
+                "manual checks and copying",
+                "different answers depending on who looks",
+                "hard onboarding for new team members"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations."
+              ],
+              "bullets": [
+                "roles and permissions",
+                "lists, case detail, and workflow",
+                "filters, audit trail, and notifications",
+                "integration with other internal or external systems"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control."
+              ],
+              "bullets": [
+                "faster operations",
+                "lower error rate",
+                "better traceability",
+                "readiness for further automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is an admin system just a nicer spreadsheet?",
+              "answer": "It should not be. A useful admin system also handles workflow, permissions, validation, and process continuity."
+            },
+            {
+              "question": "Should we redesign the old admin or build a new one?",
+              "answer": "That depends on the technical state and business priority. Sometimes incremental improvement is enough. Sometimes a new module is cleaner."
+            },
+            {
+              "question": "Does the system need reporting?",
+              "answer": "Not always, but it often matters if operational or management decisions depend on the data."
+            },
+            {
+              "question": "Can it be rolled out in stages?",
+              "answer": "Yes. Phased rollout is often the safest path for internal operational tools."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "case-study-internal-tool-for-operations",
+            "problem-internal-tool",
+            "comparison-custom-vs-saas"
+          ],
+          "fit": {
+            "for": [
+              "faster operations",
+              "lower error rate",
+              "better traceability",
+              "readiness for further automation"
+            ],
+            "notFor": [
+              "moving the same chaos into a new UI"
+            ]
+          },
+          "seo": {
+            "title": "Internal admin system development | Bc. Ondřej Halata (halatao.cz)",
+            "description": "An internal admin system use case for companies that need better operational control, clearer states, role-based work, and structured daily administration."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-internal-admin-system.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "One working system instead of several half-working ones",
+        "body": "A strong fit when the team needs a shared operational view and the current setup is fragmented across spreadsheets, email, and old tooling.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Internal admin systems usually appear when operations grow faster than the tools supporting them.\n\nThe goal is not prettier forms. It is faster work, clearer ownership, and a more reliable operating model for the team."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What problem this type of app solves",
+        "body": "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership.",
+        "items": [
+          "unclear case or order status",
+          "manual checks and copying",
+          "different answers depending on who looks",
+          "hard onboarding for new team members"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations.",
+        "items": [
+          "roles and permissions",
+          "lists, case detail, and workflow",
+          "filters, audit trail, and notifications",
+          "integration with other internal or external systems"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control.",
+        "items": [
+          "faster operations",
+          "lower error rate",
+          "better traceability",
+          "readiness for further automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is an admin system just a nicer spreadsheet?",
+            "answer": "It should not be. A useful admin system also handles workflow, permissions, validation, and process continuity."
+          },
+          {
+            "question": "Should we redesign the old admin or build a new one?",
+            "answer": "That depends on the technical state and business priority. Sometimes incremental improvement is enough. Sometimes a new module is cleaner."
+          },
+          {
+            "question": "Does the system need reporting?",
+            "answer": "Not always, but it often matters if operational or management decisions depend on the data."
+          },
+          {
+            "question": "Can it be rolled out in stages?",
+            "answer": "Yes. Phased rollout is often the safest path for internal operational tools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

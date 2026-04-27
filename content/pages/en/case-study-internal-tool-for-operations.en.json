@@ -1,0 +1,250 @@
+{
+  "id": "case-study-internal-tool-for-operations.en",
+  "locale": "en",
+  "slug": "/case-studies/internal-tool-for-operations",
+  "title": "Internal tool for operations case study | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal tool for operations case study | Bc. Ondřej Halata (halata...",
+    "description": "An anonymised case-study scenario showing how an internal tool can replace fragmented operational workflows and improve visibility.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "case-study-internal-tool-for-operations",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "case_study",
+          "slug": "internal-tool-for-operations",
+          "segments": [
+            "case-studies",
+            "internal-tool-for-operations"
+          ],
+          "title": "Internal tool for operations case study | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Case study: an internal operations tool replacing spreadsheets and coordination overhead",
+          "description": "An anonymised case-study scenario showing how an internal tool can replace fragmented operational workflows and improve visibility.",
+          "primaryQuery": "internal tool for operations case study",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Case study",
+            "title": "Operations were growing faster than the tooling around them",
+            "subtitle": "A common scenario where spreadsheets and manual coordination stop scaling across several users and case states.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The team needed a better way to handle repeated operational work and keep a reliable view of who was doing what and what state each item was in.",
+            "The goal was not a massive system from day one. It was a first useful release that improved the weakest part of the workflow."
+          ],
+          "sections": [
+            {
+              "title": "Starting situation",
+              "body": [
+                "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story."
+              ],
+              "bullets": [
+                "state scattered across several tools",
+                "manual checks and data copying",
+                "unclear ownership between roles",
+                "limited operational reporting"
+              ]
+            },
+            {
+              "title": "How the work was approached",
+              "body": [
+                "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase."
+              ],
+              "bullets": [
+                "identify the core workflow",
+                "design roles, states, and key screens",
+                "deliver a useful first phase rather than a giant scope",
+                "prepare the system for future automation"
+              ]
+            },
+            {
+              "title": "What changed",
+              "body": [
+                "The point is not to fake exact numbers. It is to show the kind of change a similar project can create."
+              ],
+              "bullets": [
+                "faster team operation",
+                "lower error rate",
+                "better traceability of work",
+                "stronger base for reporting and next modules"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does an internal tool need to be delivered all at once?",
+              "answer": "No. These projects usually benefit from a smaller first phase with clear operational value."
+            },
+            {
+              "question": "Can it build on existing data and processes?",
+              "answer": "Yes. Alignment with real operations matters more than technology fashion."
+            },
+            {
+              "question": "Can this grow into a broader internal system over time?",
+              "answer": "Yes. With a sound first version, the tool can become the base for wider process support."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "use-case-internal-admin-system",
+            "use-case-service-team-ops-system",
+            "guide-how-to-scope-a-custom-web-application",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "faster team operation",
+              "lower error rate",
+              "better traceability of work",
+              "stronger base for reporting and next modules"
+            ],
+            "notFor": [
+              "inflated vanity-metric storytelling"
+            ]
+          },
+          "seo": {
+            "title": "Internal tool for operations case study | Bc. Ondřej Halata (halatao.cz)",
+            "description": "An anonymised case-study scenario showing how an internal tool can replace fragmented operational workflows and improve visibility."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "note": "Representative anonymised scenario with no invented client metrics.",
+          "id": "case-study-internal-tool-for-operations.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "case_study",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Case study",
+        "heading": "Operations were growing faster than the tooling around them",
+        "body": "A common scenario where spreadsheets and manual coordination stop scaling across several users and case states.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The team needed a better way to handle repeated operational work and keep a reliable view of who was doing what and what state each item was in.\n\nThe goal was not a massive system from day one. It was a first useful release that improved the weakest part of the workflow."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Starting situation",
+        "body": "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story.",
+        "items": [
+          "state scattered across several tools",
+          "manual checks and data copying",
+          "unclear ownership between roles",
+          "limited operational reporting"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work was approached",
+        "body": "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase.",
+        "items": [
+          "identify the core workflow",
+          "design roles, states, and key screens",
+          "deliver a useful first phase rather than a giant scope",
+          "prepare the system for future automation"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What changed",
+        "body": "The point is not to fake exact numbers. It is to show the kind of change a similar project can create.",
+        "items": [
+          "faster team operation",
+          "lower error rate",
+          "better traceability of work",
+          "stronger base for reporting and next modules"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Does an internal tool need to be delivered all at once?",
+            "answer": "No. These projects usually benefit from a smaller first phase with clear operational value."
+          },
+          {
+            "question": "Can it build on existing data and processes?",
+            "answer": "Yes. Alignment with real operations matters more than technology fashion."
+          },
+          {
+            "question": "Can this grow into a broader internal system over time?",
+            "answer": "Yes. With a sound first version, the tool can become the base for wider process support."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

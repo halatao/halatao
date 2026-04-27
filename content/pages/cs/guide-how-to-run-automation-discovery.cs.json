@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-run-automation-discovery.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace",
+  "title": "Jak připravit discovery pro automatizaci a integrace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak připravit discovery pro automatizaci a integrace | Bc. Ondřej H...",
+    "description": "Praktický průvodce discovery fází pro automatizace a integrace: jak zmapovat proces, výjimky, ownership a vybrat první smysluplný zásah.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-run-automation-discovery",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-pripravit-discovery-pro-automatizaci-a-integrace",
+          "segments": [
+            "pruvodce",
+            "jak-pripravit-discovery-pro-automatizaci-a-integrace"
+          ],
+          "title": "Jak připravit discovery pro automatizaci a integrace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak připravit discovery pro automatizaci a integrace, aby projekt nezačal chaosem",
+          "description": "Praktický průvodce discovery fází pro automatizace a integrace: jak zmapovat proces, výjimky, ownership a vybrat první smysluplný zásah.",
+          "primaryQuery": "discovery pro automatizaci a integrace",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "Ne každá ruční práce je dobrý kandidát na automatizaci",
+            "subtitle": "Silná discovery fáze pomáhá odlišit smysluplnou automatizaci od drahé digitalizace nejasného procesu a špatně rozdělené odpovědnosti.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Automatizace a integrace často vypadají jako technický projekt. Ve skutečnosti ale obvykle začínají procesním problémem, nejasným ownershipem nebo množstvím výjimek, které v systému nikdo pořádně nepojmenoval.",
+            "Discovery fáze proto nemá být administrativní mezikrok. Je to způsob, jak zúžit první zásah tak, aby měl reálný provozní dopad a nevytvořil další vrstvu chaosu."
+          ],
+          "sections": [
+            {
+              "title": "Co je potřeba zmapovat jako první",
+              "body": [
+                "Nejdřív je nutné porozumět skutečnému procesu, ručním krokům, výjimkám a tomu, kde dnes vzniká zpoždění, přepisování dat nebo závislost na konkrétních lidech."
+              ],
+              "bullets": [
+                "průběh procesu mezi systémy a rolemi",
+                "výjimky, schválení a chybové stavy",
+                "zdroje dat a místa, kde se data rozcházejí",
+                "ownership a dopad automatizace na běžný provoz"
+              ]
+            },
+            {
+              "title": "Jak vybrat první automatizační zásah",
+              "body": [
+                "Nejsilnější první krok bývá tam, kde je zároveň vysoká četnost ruční práce, jasné procesní hranice a rozumné riziko implementace."
+              ]
+            },
+            {
+              "title": "Kdy ještě neautomatizovat",
+              "body": [
+                "Pokud není jasný vlastník procesu, pravidla se často mění nebo se tým neshodne ani na tom, jak dnes práce skutečně probíhá, bývá lepší nejdřív ujasnit proces než automatizovat."
+              ]
+            },
+            {
+              "title": "Co má být výstupem discovery",
+              "body": [
+                "Výstupem nemá být jen seznam nápadů. Potřebujete prioritizovaný první zásah, pojmenovaná rizika a realistický další krok pro implementaci."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je discovery potřeba i pro menší automatizaci?",
+              "answer": "Ano, pokud se automatizace dotýká více rolí, systémů nebo výjimek. I menší zásah může bez dobrého pochopení procesu vytvořit nové problémy."
+            },
+            {
+              "question": "Není rychlejší začít rovnou integrační implementací?",
+              "answer": "Krátkodobě možná ano. Dlouhodobě ale hrozí, že implementujete špatně vybraný zásah nebo obejdete skutečný provozní problém."
+            },
+            {
+              "question": "Může discovery vést k tomu, že automatizace zatím nedává smysl?",
+              "answer": "Ano. A to je cenný výsledek, pokud ušetří drahý projekt bez jasného dopadu."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "tool-automation-discovery-checklist",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-automations-and-integrations",
+              "tool-automation-discovery-checklist",
+              "tool-api-integration-checklist",
+              "inquiry"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Jak připravit discovery pro automatizaci a integrace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce discovery fází pro automatizace a integrace: jak zmapovat proces, výjimky, ownership a vybrat první smysluplný zásah."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-run-automation-discovery.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "Ne každá ruční práce je dobrý kandidát na automatizaci",
+        "body": "Silná discovery fáze pomáhá odlišit smysluplnou automatizaci od drahé digitalizace nejasného procesu a špatně rozdělené odpovědnosti.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automatizace a integrace často vypadají jako technický projekt. Ve skutečnosti ale obvykle začínají procesním problémem, nejasným ownershipem nebo množstvím výjimek, které v systému nikdo pořádně nepojmenoval.\n\nDiscovery fáze proto nemá být administrativní mezikrok. Je to způsob, jak zúžit první zásah tak, aby měl reálný provozní dopad a nevytvořil další vrstvu chaosu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co je potřeba zmapovat jako první",
+        "body": "Nejdřív je nutné porozumět skutečnému procesu, ručním krokům, výjimkám a tomu, kde dnes vzniká zpoždění, přepisování dat nebo závislost na konkrétních lidech.",
+        "items": [
+          "průběh procesu mezi systémy a rolemi",
+          "výjimky, schválení a chybové stavy",
+          "zdroje dat a místa, kde se data rozcházejí",
+          "ownership a dopad automatizace na běžný provoz"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak vybrat první automatizační zásah",
+        "body": "Nejsilnější první krok bývá tam, kde je zároveň vysoká četnost ruční práce, jasné procesní hranice a rozumné riziko implementace."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy ještě neautomatizovat",
+        "body": "Pokud není jasný vlastník procesu, pravidla se často mění nebo se tým neshodne ani na tom, jak dnes práce skutečně probíhá, bývá lepší nejdřív ujasnit proces než automatizovat."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má být výstupem discovery",
+        "body": "Výstupem nemá být jen seznam nápadů. Potřebujete prioritizovaný první zásah, pojmenovaná rizika a realistický další krok pro implementaci."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je discovery potřeba i pro menší automatizaci?",
+            "answer": "Ano, pokud se automatizace dotýká více rolí, systémů nebo výjimek. I menší zásah může bez dobrého pochopení procesu vytvořit nové problémy."
+          },
+          {
+            "question": "Není rychlejší začít rovnou integrační implementací?",
+            "answer": "Krátkodobě možná ano. Dlouhodobě ale hrozí, že implementujete špatně vybraný zásah nebo obejdete skutečný provozní problém."
+          },
+          {
+            "question": "Může discovery vést k tomu, že automatizace zatím nedává smysl?",
+            "answer": "Ano. A to je cenný výsledek, pokud ušetří drahý projekt bez jasného dopadu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

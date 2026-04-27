@@ -19,10 +19,11 @@ import { technologyPages } from "@/content/pages/stage3/technologies";
 import { toolPages } from "@/content/pages/stage3/tools";
 import { growthToolPages } from "@/content/pages/stage3/tools-growth";
 import type { ContentPage, Locale, PageType } from "@/content/types";
+import { loadSiteflowContentPages } from "@/cms/content-loader";
 import { validateContentPages } from "@/lib/content-validation";
 import { buildLocalizedPath, buildPagePath } from "@/lib/routing";
 
-const allPages = [
+const legacyPages = [
   ...corePages,
   ...stage1HubPages,
   ...servicePages,
@@ -42,6 +43,9 @@ const allPages = [
   ...growthToolPages,
   ...locationPages,
 ] satisfies ContentPage[];
+
+const siteflowPages = process.env.SITEFLOW_EXPORT_LEGACY === "1" ? [] : loadSiteflowContentPages();
+const allPages = siteflowPages.length > 0 ? siteflowPages : legacyPages;
 
 validateContentPages(allPages);
 

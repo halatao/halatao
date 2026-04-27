@@ -1,0 +1,264 @@
+{
+  "id": "guide-when-project-needs-senior-contract-support.en",
+  "locale": "en",
+  "slug": "/guides/how-to-know-when-a-project-needs-senior-contract-support",
+  "title": "How to know when a project needs senior contract support | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to know when a project needs senior contract support | Bc. Ondř...",
+    "description": "A practical guide for teams deciding whether a project needs senior contract capacity instead of another standard developer hire or a broader agency model.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-project-needs-senior-contract-support",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-know-when-a-project-needs-senior-contract-support",
+          "segments": [
+            "guides",
+            "how-to-know-when-a-project-needs-senior-contract-support"
+          ],
+          "title": "How to know when a project needs senior contract support | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to know when a project needs senior contract support",
+          "description": "A practical guide for teams deciding whether a project needs senior contract capacity instead of another standard developer hire or a broader agency model.",
+          "primaryQuery": "how to know when a project needs senior contract support",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "The bottleneck is often not headcount. It is ownership and judgement.",
+            "subtitle": "For teams that can handle routine implementation but keep getting blocked on architecture, takeover, release confidence, or risky delivery areas.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Senior contract support becomes the right model when the project does not just need more hands. It needs someone who can take responsibility for a difficult technical area or a sensitive delivery phase.",
+            "The signal is often a busy team that still leaves the hardest decisions open for too long or keeps revisiting them without stronger ownership."
+          ],
+          "sections": [
+            {
+              "title": "Short answer",
+              "body": [
+                "Senior contract support is usually the right fit when the bottleneck is ownership, architecture, takeover, or safe delivery of risky changes rather than raw implementation capacity alone."
+              ]
+            },
+            {
+              "title": "Recommended approach",
+              "body": [
+                "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be."
+              ],
+              "bullets": [
+                "identify which part of the project has no true owner",
+                "check whether the problem is work volume or decision quality",
+                "define a clear workstream or responsibility boundary",
+                "set expectations for the first phase and what it should improve"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase."
+              ],
+              "bullets": [
+                "trying to solve a senior problem with another junior hire",
+                "using generic staff augmentation with no ownership scope",
+                "asking for broad help with no defined delivery pressure",
+                "choosing a large vendor model where direct senior ownership is what is actually missing"
+              ]
+            },
+            {
+              "title": "What a strong result looks like",
+              "body": [
+                "The guide should improve a real project decision, not just add another document with no operational effect."
+              ],
+              "bullets": [
+                "a clearer decision between contractor, hire, and agency",
+                "stronger technical ownership in a critical phase",
+                "faster movement in the blocked area",
+                "less pressure on the internal team where routine capacity is no longer enough"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "How do we know this is not just an understaffed team?",
+              "answer": "Usually when day-to-day work continues, but architecture, risky changes, or takeover responsibility remain persistently blocked."
+            },
+            {
+              "question": "Can senior contract support be short-term?",
+              "answer": "Yes. Shorter engagements are often useful for takeover, stabilisation, or helping one critical phase land well."
+            },
+            {
+              "question": "Would an agency be better?",
+              "answer": "Sometimes. But when the real need is direct senior ownership inside the team, contract support is often the stronger and leaner model."
+            }
+          ],
+          "related": [
+            "contract-support",
+            "problem-senior-contract-capacity",
+            "comparison-contractor-vs-agency",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "product and internal teams with a blocked delivery area",
+              "companies after a key team change",
+              "projects needing stronger senior ownership quickly"
+            ],
+            "notFor": [
+              "recruiting processes",
+              "commodity staffing with no responsibility boundary",
+              "projects with no internal owner or business decision-maker"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If the guide matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "How to know when a project needs senior contract support | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide for teams deciding whether a project needs senior contract capacity instead of another standard developer hire or a broader agency model."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-project-needs-senior-contract-support.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "The bottleneck is often not headcount. It is ownership and judgement.",
+        "body": "For teams that can handle routine implementation but keep getting blocked on architecture, takeover, release confidence, or risky delivery areas.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Senior contract support becomes the right model when the project does not just need more hands. It needs someone who can take responsibility for a difficult technical area or a sensitive delivery phase.\n\nThe signal is often a busy team that still leaves the hardest decisions open for too long or keeps revisiting them without stronger ownership."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Short answer",
+        "body": "Senior contract support is usually the right fit when the bottleneck is ownership, architecture, takeover, or safe delivery of risky changes rather than raw implementation capacity alone."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be.",
+        "items": [
+          "identify which part of the project has no true owner",
+          "check whether the problem is work volume or decision quality",
+          "define a clear workstream or responsibility boundary",
+          "set expectations for the first phase and what it should improve"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase.",
+        "items": [
+          "trying to solve a senior problem with another junior hire",
+          "using generic staff augmentation with no ownership scope",
+          "asking for broad help with no defined delivery pressure",
+          "choosing a large vendor model where direct senior ownership is what is actually missing"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a strong result looks like",
+        "body": "The guide should improve a real project decision, not just add another document with no operational effect.",
+        "items": [
+          "a clearer decision between contractor, hire, and agency",
+          "stronger technical ownership in a critical phase",
+          "faster movement in the blocked area",
+          "less pressure on the internal team where routine capacity is no longer enough"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "How do we know this is not just an understaffed team?",
+            "answer": "Usually when day-to-day work continues, but architecture, risky changes, or takeover responsibility remain persistently blocked."
+          },
+          {
+            "question": "Can senior contract support be short-term?",
+            "answer": "Yes. Shorter engagements are often useful for takeover, stabilisation, or helping one critical phase land well."
+          },
+          {
+            "question": "Would an agency be better?",
+            "answer": "Sometimes. But when the real need is direct senior ownership inside the team, contract support is often the stronger and leaner model."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If the guide matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

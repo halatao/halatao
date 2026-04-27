@@ -1,0 +1,230 @@
+{
+  "id": "hub-guides.cs",
+  "locale": "cs",
+  "slug": "/pruvodce",
+  "title": "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Ha...",
+    "description": "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-guides",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "pruvodce",
+          "segments": [
+            "pruvodce"
+          ],
+          "title": "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
+          "description": "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity.",
+          "primaryQuery": "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Průvodce pro rozhodnutí před projektem, ne generický dev blog",
+            "subtitle": "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy, AI fit nebo otázku externí seniorní kapacity ještě před realizací.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Guide pages pomáhají buyerovi udělat lepší první rozhodnutí a zkrátit cestu k rozumnému dalšímu kroku.",
+            "Najdete tu průvodce pro zadání aplikace, takeover, pricing takeoveru, interní systém místo SaaS i posouzení, kdy ve firmě dává smysl AI a kdy je lepší začít jednodušší automatizací nebo úpravou workflow."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Obsah je strukturovaný kolem přímé odpovědi, doporučeného postupu, častých chyb a formy výsledku, který má podobné rozhodnutí přinést."
+              ]
+            },
+            {
+              "title": "Kdy je tato sekce nejužitečnější",
+              "body": [
+                "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem."
+              ],
+              "bullets": [
+                "firmy ve fázi před prvním větším rozhodnutím",
+                "týmy, které si chtějí srovnat scope nebo takeover",
+                "buyery, kteří chtějí zlepšit kvalitu zadání a méně střílet naslepo"
+              ]
+            },
+            {
+              "title": "Jak navázat dál",
+              "body": [
+                "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry."
+              ],
+              "bullets": [
+                "otevřete průvodce podle toho, co je právě nejasné",
+                "pokračujte na související service page nebo tool page",
+                "jakmile je rozhodnutí dost konkrétní, přejděte na inquiry"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jsou průvodci určené i pro netechnické zadavatele?",
+              "answer": "Ano. Jsou psané hlavně pro business a delivery rozhodnutí, ne pro čistě technické publikum."
+            },
+            {
+              "question": "Mají průvodci návaznost na komerční stránky?",
+              "answer": "Ano. Každý je propojený s relevantní službou, comparison page nebo tool page."
+            },
+            {
+              "question": "Mají smysl i u urgentních takeover situací?",
+              "answer": "Ano, hlavně takeover průvodci. Pomohou rychleji srovnat priority a formu první etapy."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-price-an-app-takeover",
+            "guide-when-internal-tool-better-than-saas",
+            "guide-when-project-needs-senior-contract-support",
+            "guide-when-ai-integration-makes-sense"
+          ],
+          "fit": {
+            "for": [
+              "firmy ve fázi před prvním větším rozhodnutím",
+              "týmy, které si chtějí srovnat scope nebo takeover",
+              "buyery, kteří chtějí zlepšit kvalitu zadání a méně střílet naslepo"
+            ],
+            "notFor": [
+              "pasivní čtení bez návaznosti na reálný projekt"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-guides.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Průvodce pro rozhodnutí před projektem, ne generický dev blog",
+        "body": "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy, AI fit nebo otázku externí seniorní kapacity ještě před realizací.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Guide pages pomáhají buyerovi udělat lepší první rozhodnutí a zkrátit cestu k rozumnému dalšímu kroku.\n\nNajdete tu průvodce pro zadání aplikace, takeover, pricing takeoveru, interní systém místo SaaS i posouzení, kdy ve firmě dává smysl AI a kdy je lepší začít jednodušší automatizací nebo úpravou workflow."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Obsah je strukturovaný kolem přímé odpovědi, doporučeného postupu, častých chyb a formy výsledku, který má podobné rozhodnutí přinést."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je tato sekce nejužitečnější",
+        "body": "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem.",
+        "items": [
+          "firmy ve fázi před prvním větším rozhodnutím",
+          "týmy, které si chtějí srovnat scope nebo takeover",
+          "buyery, kteří chtějí zlepšit kvalitu zadání a méně střílet naslepo"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak navázat dál",
+        "body": "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry.",
+        "items": [
+          "otevřete průvodce podle toho, co je právě nejasné",
+          "pokračujte na související service page nebo tool page",
+          "jakmile je rozhodnutí dost konkrétní, přejděte na inquiry"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jsou průvodci určené i pro netechnické zadavatele?",
+            "answer": "Ano. Jsou psané hlavně pro business a delivery rozhodnutí, ne pro čistě technické publikum."
+          },
+          {
+            "question": "Mají průvodci návaznost na komerční stránky?",
+            "answer": "Ano. Každý je propojený s relevantní službou, comparison page nebo tool page."
+          },
+          {
+            "question": "Mají smysl i u urgentních takeover situací?",
+            "answer": "Ano, hlavně takeover průvodci. Pomohou rychleji srovnat priority a formu první etapy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

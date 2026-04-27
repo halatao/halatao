@@ -1,0 +1,248 @@
+{
+  "id": "use-case-b2b-client-portal.cs",
+  "locale": "cs",
+  "slug": "/priklady/b2b-klientsky-portal",
+  "title": "B2B klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "B2B klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad B2B klientského portálu na míru pro firmy, které chtějí sjednotit komunikaci, dokumenty, stavy zakázek a samoobslužné kroky partnerů nebo klientů.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-b2b-client-portal",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "b2b-klientsky-portal",
+          "segments": [
+            "priklady",
+            "b2b-klientsky-portal"
+          ],
+          "title": "B2B klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "B2B klientský portál pro zakázky, dokumenty a samoobsluhu",
+          "description": "Příklad B2B klientského portálu na míru pro firmy, které chtějí sjednotit komunikaci, dokumenty, stavy zakázek a samoobslužné kroky partnerů nebo klientů.",
+          "primaryQuery": "B2B klientský portál na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Jeden portál místo e-mailových vláken a ručního posílání informací",
+            "subtitle": "Vhodné pro B2B služby a provozy, kde klienti opakovaně řeší stav zakázky, dokumenty, požadavky nebo další kroky.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "B2B klientský portál dává smysl ve chvíli, kdy firma obsluhuje opakované klientské interakce a nechce je dál držet v e-mailech, sdílených složkách a ruční podpoře.",
+            "Silná první verze obvykle nezačíná širokým seznamem funkcí, ale několika klíčovými scénáři s největším dopadem na klientský servis i interní operativu."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "klienti opakovaně žádají stav zakázky nebo služby",
+                "dokumenty a přílohy se posílají ručně",
+                "firma potřebuje bezpečnější samoobslužné úkony pro klienta",
+                "obchodní nebo operativní tým tráví moc času podporou opakujících se dotazů"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "uživatelské účty, role a přístupy",
+                "přehled stavu, historie a dalších kroků",
+                "správu dokumentů, notifikace a akce",
+                "napojení na interní systém, CRM nebo fakturační tok"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "méně ruční klientské podpory",
+                "lepší dostupnost informací pro klienta",
+                "důvěryhodnější servisní proces",
+                "pevnější základ pro další digitální služby"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí být portál rozsáhlý od začátku?",
+              "answer": "Nemusí. U B2B portálů bývá nejlepší začít několika nejčastějšími klientskými scénáři."
+            },
+            {
+              "question": "Lze portál napojit na stávající interní systém?",
+              "answer": "Ano. Právě návaznost na interní data a workflow je pro podobný projekt klíčová."
+            },
+            {
+              "question": "Je portál vhodný i bez interní administrace?",
+              "answer": "Většinou ne. Dobře fungující portál bývá navázaný na rozumné backoffice rozhraní."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "problem-client-portal",
+            "use-case-b2b-partner-portal",
+            "comparison-custom-vs-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "B2B firmy s opakovanou klientskou komunikací",
+              "služby a provozy s dokumenty, stavy a samoobsluhou",
+              "týmy, které chtějí snížit support overhead"
+            ],
+            "notFor": [
+              "jednorázová prezentační microsite",
+              "portál bez návaznosti na interní data",
+              "projekty bez jasného provozního use case"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "B2B klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad B2B klientského portálu na míru pro firmy, které chtějí sjednotit komunikaci, dokumenty, stavy zakázek a samoobslužné kroky partnerů nebo klientů."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-b2b-client-portal.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Jeden portál místo e-mailových vláken a ručního posílání informací",
+        "body": "Vhodné pro B2B služby a provozy, kde klienti opakovaně řeší stav zakázky, dokumenty, požadavky nebo další kroky.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "B2B klientský portál dává smysl ve chvíli, kdy firma obsluhuje opakované klientské interakce a nechce je dál držet v e-mailech, sdílených složkách a ruční podpoře.\n\nSilná první verze obvykle nezačíná širokým seznamem funkcí, ale několika klíčovými scénáři s největším dopadem na klientský servis i interní operativu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "klienti opakovaně žádají stav zakázky nebo služby",
+          "dokumenty a přílohy se posílají ručně",
+          "firma potřebuje bezpečnější samoobslužné úkony pro klienta",
+          "obchodní nebo operativní tým tráví moc času podporou opakujících se dotazů"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "uživatelské účty, role a přístupy",
+          "přehled stavu, historie a dalších kroků",
+          "správu dokumentů, notifikace a akce",
+          "napojení na interní systém, CRM nebo fakturační tok"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "méně ruční klientské podpory",
+          "lepší dostupnost informací pro klienta",
+          "důvěryhodnější servisní proces",
+          "pevnější základ pro další digitální služby"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí být portál rozsáhlý od začátku?",
+            "answer": "Nemusí. U B2B portálů bývá nejlepší začít několika nejčastějšími klientskými scénáři."
+          },
+          {
+            "question": "Lze portál napojit na stávající interní systém?",
+            "answer": "Ano. Právě návaznost na interní data a workflow je pro podobný projekt klíčová."
+          },
+          {
+            "question": "Je portál vhodný i bez interní administrace?",
+            "answer": "Většinou ne. Dobře fungující portál bývá navázaný na rozumné backoffice rozhraní."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

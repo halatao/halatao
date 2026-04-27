@@ -1,0 +1,264 @@
+{
+  "id": "guide-how-to-price-an-app-takeover.en",
+  "locale": "en",
+  "slug": "/guides/how-to-price-an-app-takeover",
+  "title": "How to price an app takeover | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to price an app takeover | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to pricing an existing app takeover: what drives cost, how to reduce uncertainty, and why the first takeover phase matters more than artifi...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-price-an-app-takeover",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-price-an-app-takeover",
+          "segments": [
+            "guides",
+            "how-to-price-an-app-takeover"
+          ],
+          "title": "How to price an app takeover | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to price an app takeover without blind spots",
+          "description": "A practical guide to pricing an existing app takeover: what drives cost, how to reduce uncertainty, and why the first takeover phase matters more than artificial upfront precision.",
+          "primaryQuery": "how to price an app takeover",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "Takeover is not priced by counting screens. It is priced by uncertainty and risk.",
+            "subtitle": "For companies taking over an existing application and trying to understand what can be estimated upfront and what needs a first discovery phase.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Existing-app takeover follows a different logic than greenfield delivery. Cost depends not only on feature scope but also on technical readability, operational risk, and what must be protected immediately.",
+            "Good pricing is not pretending everything is known from day one. It is separating what can be estimated from what first needs to be verified."
+          ],
+          "sections": [
+            {
+              "title": "Short answer",
+              "body": [
+                "The most reliable takeover estimate usually appears after a focused first phase that maps the system, release flow, access, and critical business workflows."
+              ]
+            },
+            {
+              "title": "Recommended approach",
+              "body": [
+                "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be."
+              ],
+              "bullets": [
+                "separate takeover review from later development",
+                "identify which parts of the system are operationally critical",
+                "verify access, environments, release, and monitoring",
+                "estimate stabilisation separately from future delivery work"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase."
+              ],
+              "bullets": [
+                "trying to force a fixed price before discovery",
+                "underestimating missing access or operational risk",
+                "mixing takeover and major new scope into one opaque budget",
+                "assuming rewrite first instead of leaving it as an informed option"
+              ]
+            },
+            {
+              "title": "What a strong result looks like",
+              "body": [
+                "The guide should improve a real project decision, not just add another document with no operational effect."
+              ],
+              "bullets": [
+                "a more realistic first budget and plan",
+                "lower decision uncertainty",
+                "clearer separation between review, stabilisation, and improvement",
+                "less risk of an expensive wrong first move"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can takeover be priced upfront as a fixed amount?",
+              "answer": "Partly, in simpler cases. But for most live systems a smaller first review phase is the safer basis."
+            },
+            {
+              "question": "What affects takeover cost most?",
+              "answer": "System readability, access availability, operational criticality, technical debt, and how well the release flow is understood."
+            },
+            {
+              "question": "Is discovery just another delay before real work?",
+              "answer": "No. In takeover work discovery is usually the fastest path to avoiding a much more expensive wrong assumption."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-app-takeover",
+            "tool-app-takeover-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies taking over live or unfinished applications",
+              "buyers who need better estimate discipline",
+              "teams facing vendor change or knowledge loss"
+            ],
+            "notFor": [
+              "greenfield projects with no inherited stack",
+              "buyers expecting exact pricing with no access or visibility",
+              "recruiter-style outreach"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If the guide matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "How to price an app takeover | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to pricing an existing app takeover: what drives cost, how to reduce uncertainty, and why the first takeover phase matters more than artificial upfront precision."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-price-an-app-takeover.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "Takeover is not priced by counting screens. It is priced by uncertainty and risk.",
+        "body": "For companies taking over an existing application and trying to understand what can be estimated upfront and what needs a first discovery phase.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Existing-app takeover follows a different logic than greenfield delivery. Cost depends not only on feature scope but also on technical readability, operational risk, and what must be protected immediately.\n\nGood pricing is not pretending everything is known from day one. It is separating what can be estimated from what first needs to be verified."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Short answer",
+        "body": "The most reliable takeover estimate usually appears after a focused first phase that maps the system, release flow, access, and critical business workflows."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be.",
+        "items": [
+          "separate takeover review from later development",
+          "identify which parts of the system are operationally critical",
+          "verify access, environments, release, and monitoring",
+          "estimate stabilisation separately from future delivery work"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase.",
+        "items": [
+          "trying to force a fixed price before discovery",
+          "underestimating missing access or operational risk",
+          "mixing takeover and major new scope into one opaque budget",
+          "assuming rewrite first instead of leaving it as an informed option"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a strong result looks like",
+        "body": "The guide should improve a real project decision, not just add another document with no operational effect.",
+        "items": [
+          "a more realistic first budget and plan",
+          "lower decision uncertainty",
+          "clearer separation between review, stabilisation, and improvement",
+          "less risk of an expensive wrong first move"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can takeover be priced upfront as a fixed amount?",
+            "answer": "Partly, in simpler cases. But for most live systems a smaller first review phase is the safer basis."
+          },
+          {
+            "question": "What affects takeover cost most?",
+            "answer": "System readability, access availability, operational criticality, technical debt, and how well the release flow is understood."
+          },
+          {
+            "question": "Is discovery just another delay before real work?",
+            "answer": "No. In takeover work discovery is usually the fastest path to avoiding a much more expensive wrong assumption."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If the guide matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

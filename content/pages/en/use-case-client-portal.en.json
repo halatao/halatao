@@ -1,0 +1,254 @@
+{
+  "id": "use-case-client-portal.en",
+  "locale": "en",
+  "slug": "/use-cases/client-portal-development",
+  "title": "Client portal development | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Client portal development | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A client portal use case for companies that want one place for customer communication, customer documents, status tracking, and self-service actions.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-client-portal",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "client-portal-development",
+          "segments": [
+            "use-cases",
+            "client-portal-development"
+          ],
+          "title": "Client portal development | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Client portal development for communication, visibility, and self-service",
+          "description": "A client portal use case for companies that want one place for customer communication, customer documents, status tracking, and self-service actions.",
+          "primaryQuery": "client portal development",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "A client portal instead of fragmented communication",
+            "subtitle": "Useful when end customers or clients need a clearer place for status, documents, messages, and next steps.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A client portal makes sense when the same communication with customers repeats around case status, documents, service progress, or self-service actions.",
+            "Instead of email threads and manual updates, customers can use one structured interface with history, access control, and clearer next steps."
+          ],
+          "sections": [
+            {
+              "title": "What problem this type of app solves",
+              "body": [
+                "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership."
+              ],
+              "bullets": [
+                "repeated customer status questions",
+                "manual document sharing",
+                "poor communication history",
+                "need for customer self-service actions"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations."
+              ],
+              "bullets": [
+                "accounts and permissions",
+                "status and history views",
+                "documents, actions, and notifications",
+                "integration with CRM or internal systems"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control."
+              ],
+              "bullets": [
+                "less manual support load",
+                "better customer visibility",
+                "more credible service delivery",
+                "cleaner foundation for future service development"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is a client portal relevant for a smaller company?",
+              "answer": "Yes, if the same customer requests and updates keep repeating and the portal can reduce support overhead."
+            },
+            {
+              "question": "Does the portal need to be large from day one?",
+              "answer": "No. A focused first version around the most common interactions is often the best start."
+            },
+            {
+              "question": "Can it connect to an existing app?",
+              "answer": "Yes. In most cases the portal is only valuable if it connects to existing data and workflow."
+            },
+            {
+              "question": "Do we also need an internal admin side?",
+              "answer": "Usually yes. A useful client portal normally depends on a sensible internal backoffice layer too."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "less manual support load",
+              "better customer visibility",
+              "more credible service delivery",
+              "cleaner foundation for future service development"
+            ],
+            "notFor": [
+              "moving the same chaos into a new UI"
+            ]
+          },
+          "seo": {
+            "title": "Client portal development | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A client portal use case for companies that want one place for customer communication, customer documents, status tracking, and self-service actions."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-client-portal.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "A client portal instead of fragmented communication",
+        "body": "Useful when end customers or clients need a clearer place for status, documents, messages, and next steps.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A client portal makes sense when the same communication with customers repeats around case status, documents, service progress, or self-service actions.\n\nInstead of email threads and manual updates, customers can use one structured interface with history, access control, and clearer next steps."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What problem this type of app solves",
+        "body": "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership.",
+        "items": [
+          "repeated customer status questions",
+          "manual document sharing",
+          "poor communication history",
+          "need for customer self-service actions"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations.",
+        "items": [
+          "accounts and permissions",
+          "status and history views",
+          "documents, actions, and notifications",
+          "integration with CRM or internal systems"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control.",
+        "items": [
+          "less manual support load",
+          "better customer visibility",
+          "more credible service delivery",
+          "cleaner foundation for future service development"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is a client portal relevant for a smaller company?",
+            "answer": "Yes, if the same customer requests and updates keep repeating and the portal can reduce support overhead."
+          },
+          {
+            "question": "Does the portal need to be large from day one?",
+            "answer": "No. A focused first version around the most common interactions is often the best start."
+          },
+          {
+            "question": "Can it connect to an existing app?",
+            "answer": "Yes. In most cases the portal is only valuable if it connects to existing data and workflow."
+          },
+          {
+            "question": "Do we also need an internal admin side?",
+            "answer": "Usually yes. A useful client portal normally depends on a sensible internal backoffice layer too."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

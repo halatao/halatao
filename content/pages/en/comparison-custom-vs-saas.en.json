@@ -1,0 +1,248 @@
+{
+  "id": "comparison-custom-vs-saas.en",
+  "locale": "en",
+  "slug": "/comparisons/custom-web-app-vs-saas-tool",
+  "title": "Custom web app vs SaaS tool | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Custom web app vs SaaS tool | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical comparison of custom web application development and SaaS tools for companies evaluating internal systems, workflow-heavy software, or client por...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-custom-vs-saas",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "comparison",
+          "slug": "custom-web-app-vs-saas-tool",
+          "segments": [
+            "comparisons",
+            "custom-web-app-vs-saas-tool"
+          ],
+          "title": "Custom web app vs SaaS tool | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Custom web app vs SaaS tool: which makes more sense",
+          "description": "A practical comparison of custom web application development and SaaS tools for companies evaluating internal systems, workflow-heavy software, or client portals.",
+          "primaryQuery": "custom web app vs saas tool",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Comparison",
+            "title": "The real question is where the compromise will be cheaper",
+            "subtitle": "SaaS is sometimes the right choice. In other cases it only postpones the problem and makes the workflow harder over time.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "SaaS usually means faster start and lower upfront commitment. Custom development makes more sense when the generic tool would force the company to distort an important business process.",
+            "This is not only a technology decision. It is mainly an operational and economic one."
+          ],
+          "sections": [
+            {
+              "title": "When SaaS is the better option",
+              "body": [
+                "SaaS is a good fit when the process is fairly standard, the team needs to move quickly, and the tool covers most needs without expensive workarounds."
+              ]
+            },
+            {
+              "title": "When custom development wins",
+              "body": [
+                "Custom development is stronger when the company needs unique workflow logic, multiple roles, integrations, or long-term control over software that matters to operations."
+              ]
+            },
+            {
+              "title": "How to decide",
+              "body": [
+                "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost."
+              ],
+              "bullets": [
+                "how specialised the process is",
+                "cost of workarounds",
+                "integration and permission complexity",
+                "need for long-term product control"
+              ]
+            },
+            {
+              "title": "Practical conclusion",
+              "body": [
+                "If the software directly supports a business-critical process, custom development is often more sensible than spending years around SaaS limitations. If the need is standard and speed matters most, SaaS may be the right starting point."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is SaaS always cheaper?",
+              "answer": "No. The entry cost is often lower, but long-term cost can rise through manual workarounds, add-ons, integration complexity, and product constraints."
+            },
+            {
+              "question": "Does it make sense to start with SaaS and move later?",
+              "answer": "Sometimes yes, but it helps to understand migration cost and lock-in risk before using that path as the default answer."
+            },
+            {
+              "question": "When is custom development too early?",
+              "answer": "When the process is still unclear and a standard tool would cover most of the real work without painful compromise."
+            },
+            {
+              "question": "Can companies combine SaaS and custom software?",
+              "answer": "Yes. Many practical setups keep commodity functions in SaaS and build custom logic around the parts that are genuinely differentiating."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-internal-tools-development",
+            "guide-when-internal-tool-better-than-saas",
+            "use-case-b2b-client-portal",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "how specialised the process is",
+              "cost of workarounds",
+              "integration and permission complexity",
+              "need for long-term product control"
+            ],
+            "notFor": [
+              "abstract technology debates with no business context"
+            ]
+          },
+          "seo": {
+            "title": "Custom web app vs SaaS tool | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical comparison of custom web application development and SaaS tools for companies evaluating internal systems, workflow-heavy software, or client portals."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-custom-vs-saas.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Comparison",
+        "heading": "The real question is where the compromise will be cheaper",
+        "body": "SaaS is sometimes the right choice. In other cases it only postpones the problem and makes the workflow harder over time.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "SaaS usually means faster start and lower upfront commitment. Custom development makes more sense when the generic tool would force the company to distort an important business process.\n\nThis is not only a technology decision. It is mainly an operational and economic one."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When SaaS is the better option",
+        "body": "SaaS is a good fit when the process is fairly standard, the team needs to move quickly, and the tool covers most needs without expensive workarounds."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When custom development wins",
+        "body": "Custom development is stronger when the company needs unique workflow logic, multiple roles, integrations, or long-term control over software that matters to operations."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to decide",
+        "body": "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost.",
+        "items": [
+          "how specialised the process is",
+          "cost of workarounds",
+          "integration and permission complexity",
+          "need for long-term product control"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Practical conclusion",
+        "body": "If the software directly supports a business-critical process, custom development is often more sensible than spending years around SaaS limitations. If the need is standard and speed matters most, SaaS may be the right starting point."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is SaaS always cheaper?",
+            "answer": "No. The entry cost is often lower, but long-term cost can rise through manual workarounds, add-ons, integration complexity, and product constraints."
+          },
+          {
+            "question": "Does it make sense to start with SaaS and move later?",
+            "answer": "Sometimes yes, but it helps to understand migration cost and lock-in risk before using that path as the default answer."
+          },
+          {
+            "question": "When is custom development too early?",
+            "answer": "When the process is still unclear and a standard tool would cover most of the real work without painful compromise."
+          },
+          {
+            "question": "Can companies combine SaaS and custom software?",
+            "answer": "Yes. Many practical setups keep commodity functions in SaaS and build custom logic around the parts that are genuinely differentiating."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

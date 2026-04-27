@@ -1,0 +1,267 @@
+{
+  "id": "guide-when-internal-tool-better-than-saas.en",
+  "locale": "en",
+  "slug": "/guides/when-an-internal-tool-is-better-than-saas",
+  "title": "When an internal tool is better than SaaS | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "When an internal tool is better than SaaS | Bc. Ondřej Halata (hala...",
+    "description": "A practical guide for companies deciding between another SaaS tool and a purpose-built internal system, with a focus on workflow fit, hidden costs, and long-...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-internal-tool-better-than-saas",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "when-an-internal-tool-is-better-than-saas",
+          "segments": [
+            "guides",
+            "when-an-internal-tool-is-better-than-saas"
+          ],
+          "title": "When an internal tool is better than SaaS | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "When an internal tool is better than another SaaS product",
+          "description": "A practical guide for companies deciding between another SaaS tool and a purpose-built internal system, with a focus on workflow fit, hidden costs, and long-term control.",
+          "primaryQuery": "when an internal tool is better than saas",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "The goal is not to own software for its own sake. The goal is to reduce the cost of compromise.",
+            "subtitle": "For companies whose workflow, roles, and integrations are no longer fitting cleanly inside another generic SaaS tool.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "SaaS is often the right starting point. The problem begins when the company keeps adding exceptions, workarounds, and side systems because the core process no longer fits the tool well.",
+            "An internal system makes sense when the process is important, repeated, and specific enough that the cost of compromise becomes more expensive than building the right operating layer."
+          ],
+          "sections": [
+            {
+              "title": "Short answer",
+              "body": [
+                "An internal tool is usually the better option when workflow, roles, integrations, and ownership create expensive workarounds around the limits of a standard SaaS product."
+              ]
+            },
+            {
+              "title": "Recommended approach",
+              "body": [
+                "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be."
+              ],
+              "bullets": [
+                "measure the cost of manual workarounds",
+                "check how specific the process and roles really are",
+                "include integrations and rule complexity in the decision",
+                "start with a focused first version rather than a giant programme"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase."
+              ],
+              "bullets": [
+                "comparing only SaaS licence price",
+                "ignoring the cost of work happening outside the tool",
+                "trying to digitise the whole operation at once",
+                "starting an internal system with no process owner or first-phase discipline"
+              ]
+            },
+            {
+              "title": "What a strong result looks like",
+              "body": [
+                "The guide should improve a real project decision, not just add another document with no operational effect."
+              ],
+              "bullets": [
+                "a stronger build-vs-buy decision",
+                "more realistic expectations for the first internal release",
+                "less risk of overscoping",
+                "a clearer business case for internal tooling"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does the internal system need to replace everything?",
+              "answer": "No. It is often smarter to start with the workflow or team where the compromise cost is highest."
+            },
+            {
+              "question": "Can SaaS and internal tooling be combined?",
+              "answer": "Yes. Many strong setups keep standard functions in SaaS and build custom internal logic around the differentiating parts."
+            },
+            {
+              "question": "How do we know it is still too early?",
+              "answer": "Usually when the process is still unstable, the roles are simple, and the SaaS option covers most of the real work without painful workarounds."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "comparison-internal-tool-vs-spreadsheets",
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies evaluating internal tool investment",
+              "teams working around SaaS limits",
+              "buyers who want to calculate the cost of compromise"
+            ],
+            "notFor": [
+              "simple workflows with minimal integration or exception logic",
+              "projects with no internal process owner",
+              "buying decisions based only on lowest licence price"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If the guide matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "When an internal tool is better than SaaS | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide for companies deciding between another SaaS tool and a purpose-built internal system, with a focus on workflow fit, hidden costs, and long-term control."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-internal-tool-better-than-saas.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "The goal is not to own software for its own sake. The goal is to reduce the cost of compromise.",
+        "body": "For companies whose workflow, roles, and integrations are no longer fitting cleanly inside another generic SaaS tool.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "SaaS is often the right starting point. The problem begins when the company keeps adding exceptions, workarounds, and side systems because the core process no longer fits the tool well.\n\nAn internal system makes sense when the process is important, repeated, and specific enough that the cost of compromise becomes more expensive than building the right operating layer."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Short answer",
+        "body": "An internal tool is usually the better option when workflow, roles, integrations, and ownership create expensive workarounds around the limits of a standard SaaS product."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "The value is not theory. The value is deciding what to check, what to price, and what the first practical next step should be.",
+        "items": [
+          "measure the cost of manual workarounds",
+          "check how specific the process and roles really are",
+          "include integrations and rule complexity in the decision",
+          "start with a focused first version rather than a giant programme"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The most common problem is sequencing decisions badly. Teams go too deep into detail before clarifying the frame of the first phase.",
+        "items": [
+          "comparing only SaaS licence price",
+          "ignoring the cost of work happening outside the tool",
+          "trying to digitise the whole operation at once",
+          "starting an internal system with no process owner or first-phase discipline"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a strong result looks like",
+        "body": "The guide should improve a real project decision, not just add another document with no operational effect.",
+        "items": [
+          "a stronger build-vs-buy decision",
+          "more realistic expectations for the first internal release",
+          "less risk of overscoping",
+          "a clearer business case for internal tooling"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Does the internal system need to replace everything?",
+            "answer": "No. It is often smarter to start with the workflow or team where the compromise cost is highest."
+          },
+          {
+            "question": "Can SaaS and internal tooling be combined?",
+            "answer": "Yes. Many strong setups keep standard functions in SaaS and build custom internal logic around the differentiating parts."
+          },
+          {
+            "question": "How do we know it is still too early?",
+            "answer": "Usually when the process is still unstable, the roles are simple, and the SaaS option covers most of the real work without painful workarounds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If the guide matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

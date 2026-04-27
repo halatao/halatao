@@ -1,0 +1,245 @@
+{
+  "id": "tool-release-stabilization-checklist.cs",
+  "locale": "cs",
+  "slug": "/sablony/checklist-stabilizace-release-procesu-aplikace",
+  "title": "Checklist stabilizace release procesu aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Checklist stabilizace release procesu aplikace | Bc. Ondřej Halata...",
+    "description": "Praktický checklist pro firmy, které chtějí stabilizovat release proces aplikace, snížit riziko nasazení a získat jistější základ pro další vývoj.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-release-stabilization-checklist",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "checklist-stabilizace-release-procesu-aplikace",
+          "segments": [
+            "sablony",
+            "checklist-stabilizace-release-procesu-aplikace"
+          ],
+          "title": "Checklist stabilizace release procesu aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Checklist pro stabilizaci release procesu aplikace před dalším rozvojem",
+          "description": "Praktický checklist pro firmy, které chtějí stabilizovat release proces aplikace, snížit riziko nasazení a získat jistější základ pro další vývoj.",
+          "primaryQuery": "stabilizace release procesu aplikace",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Největší release problém často není v deploy scriptu, ale v nejistotě kolem celého procesu",
+            "subtitle": "Pracovní checklist pro týmy, které chtějí snížit riziko nasazení, zpřehlednit ownership a odstranit slabá místa dřív, než začne další kritická etapa vývoje.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Křehký release proces nebývá jen technický detail. Promítá se do pomalejšího delivery, vyšší opatrnosti při změnách a menší důvěry v to, že další krok nepřinese nový incident.",
+            "Checklist pomáhá rychle projít, kde release stojí na improvizaci, slabých přístupech, chybějícím monitoringu nebo na znalosti jednoho člověka."
+          ],
+          "sections": [
+            {
+              "title": "Co má asset pokrýt",
+              "body": [
+                "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí."
+              ],
+              "bullets": [
+                "přehled release kroků, ownershipu a schvalování",
+                "přístupy, prostředí, rollback a provozní závislosti",
+                "monitoring, logování a ověření po nasazení",
+                "místa, kde release dnes stojí na ruční improvizaci nebo skryté znalosti"
+              ]
+            },
+            {
+              "title": "Jak ho použít v praxi",
+              "body": [
+                "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv."
+              ],
+              "bullets": [
+                "před takeoverem nebo stabilizační etapou aplikace",
+                "při revizi release procesu před důležitým releasem",
+                "jako podklad pro audit provozních a delivery rizik"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl přinést",
+              "body": [
+                "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu."
+              ],
+              "bullets": [
+                "lepší přehled o release slabinách a ownershipu",
+                "nižší riziko nasazení a regresí",
+                "rychlejší orientace při takeoveru nebo stabilizaci",
+                "pevnější základ pro další delivery etapy"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je checklist užitečný i když release funguje, jen je pomalý?",
+              "answer": "Ano. Pomalý release bývá často signál, že proces stojí na příliš velké opatrnosti, ručních krocích nebo nejasném ownershipu."
+            },
+            {
+              "question": "Pomůže i bez plně automatizovaného deploye?",
+              "answer": "Ano. Smyslem je nejdřív pochopit slabá místa a rizika. Automatizace release je až další krok, ne jediný cíl."
+            },
+            {
+              "question": "Je to vhodné i při převzetí cizí aplikace?",
+              "answer": "Ano. Právě takeover je častá situace, kdy je potřeba release proces rychle zmapovat a stabilizovat dřív, než začne větší rozvoj."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "týmy s křehkým nebo pomalým release procesem",
+              "firmy před takeoverem nebo stabilizační etapou aplikace",
+              "projekty, kde release riziko brzdí další změny"
+            ],
+            "notFor": [
+              "projekty bez přístupu k provoznímu prostředí a ownerům release procesu",
+              "čistě teoretické zlepšování bez vazby na reálné nasazování",
+              "situace, kde je problém jen v prioritách backlogu, ne v release modelu"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Checklist stabilizace release procesu aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický checklist pro firmy, které chtějí stabilizovat release proces aplikace, snížit riziko nasazení a získat jistější základ pro další vývoj."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-release-stabilization-checklist.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Největší release problém často není v deploy scriptu, ale v nejistotě kolem celého procesu",
+        "body": "Pracovní checklist pro týmy, které chtějí snížit riziko nasazení, zpřehlednit ownership a odstranit slabá místa dřív, než začne další kritická etapa vývoje.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Křehký release proces nebývá jen technický detail. Promítá se do pomalejšího delivery, vyšší opatrnosti při změnách a menší důvěry v to, že další krok nepřinese nový incident.\n\nChecklist pomáhá rychle projít, kde release stojí na improvizaci, slabých přístupech, chybějícím monitoringu nebo na znalosti jednoho člověka."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má asset pokrýt",
+        "body": "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí.",
+        "items": [
+          "přehled release kroků, ownershipu a schvalování",
+          "přístupy, prostředí, rollback a provozní závislosti",
+          "monitoring, logování a ověření po nasazení",
+          "místa, kde release dnes stojí na ruční improvizaci nebo skryté znalosti"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ho použít v praxi",
+        "body": "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv.",
+        "items": [
+          "před takeoverem nebo stabilizační etapou aplikace",
+          "při revizi release procesu před důležitým releasem",
+          "jako podklad pro audit provozních a delivery rizik"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl přinést",
+        "body": "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu.",
+        "items": [
+          "lepší přehled o release slabinách a ownershipu",
+          "nižší riziko nasazení a regresí",
+          "rychlejší orientace při takeoveru nebo stabilizaci",
+          "pevnější základ pro další delivery etapy"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je checklist užitečný i když release funguje, jen je pomalý?",
+            "answer": "Ano. Pomalý release bývá často signál, že proces stojí na příliš velké opatrnosti, ručních krocích nebo nejasném ownershipu."
+          },
+          {
+            "question": "Pomůže i bez plně automatizovaného deploye?",
+            "answer": "Ano. Smyslem je nejdřív pochopit slabá místa a rizika. Automatizace release je až další krok, ne jediný cíl."
+          },
+          {
+            "question": "Je to vhodné i při převzetí cizí aplikace?",
+            "answer": "Ano. Právě takeover je častá situace, kdy je potřeba release proces rychle zmapovat a stabilizovat dřív, než začne větší rozvoj."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

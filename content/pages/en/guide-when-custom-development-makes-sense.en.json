@@ -1,0 +1,246 @@
+{
+  "id": "guide-when-custom-development-makes-sense.en",
+  "locale": "en",
+  "slug": "/guides/when-custom-development-makes-sense",
+  "title": "When custom development makes sense | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "When custom development makes sense | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to deciding when custom software is worth the investment and when an existing tool or lighter approach is the better choice.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-custom-development-makes-sense",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "when-custom-development-makes-sense",
+          "segments": [
+            "guides",
+            "when-custom-development-makes-sense"
+          ],
+          "title": "When custom development makes sense | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "When custom development makes sense and when it does not",
+          "description": "A practical guide to deciding when custom software is worth the investment and when an existing tool or lighter approach is the better choice.",
+          "primaryQuery": "when custom development makes sense",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "Custom development should be justified, not romanticised",
+            "subtitle": "It makes sense when software supports an important process and off-the-shelf tools would create more expensive long-term compromise.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Custom software is not the right answer to every problem. If the process is standard and an existing tool fits well, building from scratch may be unnecessary.",
+            "But when the workflow is specialised, integration-heavy, or trapped in manual workarounds, custom development is often the stronger business decision."
+          ],
+          "sections": [
+            {
+              "title": "Recommended approach",
+              "body": [
+                "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase."
+              ],
+              "bullets": [
+                "measure how specialised the process really is",
+                "count the cost of workarounds",
+                "include integration and role complexity",
+                "consider long-term ownership of the system"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase."
+              ],
+              "bullets": [
+                "comparing options only by startup cost",
+                "ignoring the cost of manual work",
+                "underestimating lock-in",
+                "starting custom work with no first-phase focus"
+              ]
+            },
+            {
+              "title": "What the outcome should be",
+              "body": [
+                "The guide should help you make a better project decision, not add another document with no delivery impact."
+              ],
+              "bullets": [
+                "better SaaS vs custom decisions",
+                "lower risk of overscoping",
+                "clearer business case",
+                "better expectations for the first phase"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can custom development make sense for a smaller company too?",
+              "answer": "Yes, if it supports a repeated high-value process and standard tools force costly workarounds."
+            },
+            {
+              "question": "Can the first step be a small MVP?",
+              "answer": "Yes. That is often the most sensible way to validate priorities without overshooting the investment."
+            },
+            {
+              "question": "Can companies combine standard tools and custom software?",
+              "answer": "Yes. In practice that is often the strongest model."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "service-custom-web-app-development",
+            "use-case-b2b-client-portal",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "better SaaS vs custom decisions",
+              "lower risk of overscoping",
+              "clearer business case",
+              "better expectations for the first phase"
+            ],
+            "notFor": [
+              "generic career advice"
+            ]
+          },
+          "seo": {
+            "title": "When custom development makes sense | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to deciding when custom software is worth the investment and when an existing tool or lighter approach is the better choice."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-custom-development-makes-sense.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "Custom development should be justified, not romanticised",
+        "body": "It makes sense when software supports an important process and off-the-shelf tools would create more expensive long-term compromise.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Custom software is not the right answer to every problem. If the process is standard and an existing tool fits well, building from scratch may be unnecessary.\n\nBut when the workflow is specialised, integration-heavy, or trapped in manual workarounds, custom development is often the stronger business decision."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase.",
+        "items": [
+          "measure how specialised the process really is",
+          "count the cost of workarounds",
+          "include integration and role complexity",
+          "consider long-term ownership of the system"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase.",
+        "items": [
+          "comparing options only by startup cost",
+          "ignoring the cost of manual work",
+          "underestimating lock-in",
+          "starting custom work with no first-phase focus"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the outcome should be",
+        "body": "The guide should help you make a better project decision, not add another document with no delivery impact.",
+        "items": [
+          "better SaaS vs custom decisions",
+          "lower risk of overscoping",
+          "clearer business case",
+          "better expectations for the first phase"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can custom development make sense for a smaller company too?",
+            "answer": "Yes, if it supports a repeated high-value process and standard tools force costly workarounds."
+          },
+          {
+            "question": "Can the first step be a small MVP?",
+            "answer": "Yes. That is often the most sensible way to validate priorities without overshooting the investment."
+          },
+          {
+            "question": "Can companies combine standard tools and custom software?",
+            "answer": "Yes. In practice that is often the strongest model."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

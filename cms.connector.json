@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Siteflow Website",
+    "framework": "nextjs",
+    "router": "app",
+    "language": "typescript",
+    "styling": "tailwind"
+  },
+  "content": {
+    "root": "content",
+    "pages": "pages",
+    "site": "site.json",
+    "navigation": "navigation.json",
+    "assets": "public/uploads"
+  },
+  "localization": {
+    "enabled": true,
+    "defaultLocale": "cs",
+    "locales": [
+      "cs",
+      "en"
+    ]
+  },
+  "build": {
+    "validateCommand": "siteflow validate"
+  },
+  "publishing": {
+    "provider": "github",
+    "mode": "pull-request"
+  },
+  "features": {},
+  "editable": {
+    "files": [
+      "content/**/*.json",
+      "public/uploads/**/*"
+    ]
+  },
+  "blocks": {
+    "hero": {},
+    "text": {},
+    "textImage": {},
+    "features": {},
+    "faq": {},
+    "cta": {}
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "id": "problem-slow-hard-to-maintain-app.cs",
+  "locale": "cs",
+  "slug": "/problemy/aplikace-je-pomala-a-tezko-se-udrzuje",
+  "title": "Aplikace je pomalá a těžko se udržuje | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Aplikace je pomalá a těžko se udržuje | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Pomohu zmapovat, proč je business aplikace pomalá a těžko udržitelná, a navrhnout stabilizační postup bez zbytečného rewritu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-slow-hard-to-maintain-app",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "aplikace-je-pomala-a-tezko-se-udrzuje",
+          "segments": [
+            "problemy",
+            "aplikace-je-pomala-a-tezko-se-udrzuje"
+          ],
+          "title": "Aplikace je pomalá a těžko se udržuje | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Aplikace je pomalá, křehká a těžko se dál rozvíjí",
+          "description": "Pomohu zmapovat, proč je business aplikace pomalá a těžko udržitelná, a navrhnout stabilizační postup bez zbytečného rewritu.",
+          "primaryQuery": "aplikace je pomalá a těžko se udržuje",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Každá změna trvá dlouho a výkon už bolí i byznys",
+            "subtitle": "Typická situace u starší nebo přerostlé aplikace, kde se kombinuje technický dluh, slabší architektura a nejistý release.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Pomalá a křehká aplikace není jen technický problém. Promítá se do práce lidí, delšího delivery cyklu a slabší důvěry v další rozvoj.",
+            "Častou chybou je skočit rovnou do rewritu. Bez pochopení skutečných bottlenecků ale jen přesunete riziko jinam."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Pokud se situace nechá být, roste cena každé další změny a aplikace se stává bottleneckem místo opory pro byznys."
+              ],
+              "bullets": [
+                "pomalé načítání nebo chování klíčových workflow",
+                "změny se nasazují s velkou nejistotou",
+                "technický dluh blokuje roadmapu",
+                "v týmu chybí dobrá viditelnost do výkonu a rizik"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám mapováním kritických míst, release rizik a částí systému, které dnes nejvíc blokují další delivery. Teprve potom dává smysl rozhodovat mezi stabilizací, refaktorem a větší změnou."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "lepší výkon v důležitých částech systému",
+                "menší nejistota kolem release a změn",
+                "realističtější plán další stabilizace",
+                "silnější základ pro další rozvoj"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je pomalost automaticky důvod pro rewrite?",
+              "answer": "Ne. Nejprve je potřeba pochopit, co výkon opravdu brzdí a jaký dopad to má na provoz a delivery."
+            },
+            {
+              "question": "Co když chybí dobré metriky nebo monitoring?",
+              "answer": "To je samo o sobě důležité zjištění. Část stabilizační práce často spočívá i v lepší viditelnosti do systému."
+            },
+            {
+              "question": "Dá se stabilizace dělat postupně?",
+              "answer": "Ano. U většiny business aplikací je to praktičtější a bezpečnější než velký zásah naráz."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-stabilize-a-slow-business-app",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "běžící aplikace, které už brzdí delivery",
+              "týmy s tlakem na výkon i stabilitu",
+              "produkty, kde technický dluh dopadá do byznysu"
+            ],
+            "notFor": [
+              "čistě marketingové weby bez provozní logiky",
+              "projekty bez vůle řešit provozní příčiny problému",
+              "požadavek na okamžitý rewrite bez analýzy"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Aplikace je pomalá a těžko se udržuje | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Pomohu zmapovat, proč je business aplikace pomalá a těžko udržitelná, a navrhnout stabilizační postup bez zbytečného rewritu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-slow-hard-to-maintain-app.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Každá změna trvá dlouho a výkon už bolí i byznys",
+        "body": "Typická situace u starší nebo přerostlé aplikace, kde se kombinuje technický dluh, slabší architektura a nejistý release.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Pomalá a křehká aplikace není jen technický problém. Promítá se do práce lidí, delšího delivery cyklu a slabší důvěry v další rozvoj.\n\nČastou chybou je skočit rovnou do rewritu. Bez pochopení skutečných bottlenecků ale jen přesunete riziko jinam."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Pokud se situace nechá být, roste cena každé další změny a aplikace se stává bottleneckem místo opory pro byznys.",
+        "items": [
+          "pomalé načítání nebo chování klíčových workflow",
+          "změny se nasazují s velkou nejistotou",
+          "technický dluh blokuje roadmapu",
+          "v týmu chybí dobrá viditelnost do výkonu a rizik"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám mapováním kritických míst, release rizik a částí systému, které dnes nejvíc blokují další delivery. Teprve potom dává smysl rozhodovat mezi stabilizací, refaktorem a větší změnou."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "lepší výkon v důležitých částech systému",
+          "menší nejistota kolem release a změn",
+          "realističtější plán další stabilizace",
+          "silnější základ pro další rozvoj"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je pomalost automaticky důvod pro rewrite?",
+            "answer": "Ne. Nejprve je potřeba pochopit, co výkon opravdu brzdí a jaký dopad to má na provoz a delivery."
+          },
+          {
+            "question": "Co když chybí dobré metriky nebo monitoring?",
+            "answer": "To je samo o sobě důležité zjištění. Část stabilizační práce často spočívá i v lepší viditelnosti do systému."
+          },
+          {
+            "question": "Dá se stabilizace dělat postupně?",
+            "answer": "Ano. U většiny business aplikací je to praktičtější a bezpečnější než velký zásah naráz."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "technology-typescript-for-large-web-projects.en",
+  "locale": "en",
+  "slug": "/technology/typescript-for-large-web-projects",
+  "title": "TypeScript for large web projects | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "TypeScript for large web projects | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Why TypeScript is often worth using in larger web projects, internal systems, and products with multiple contributors or complex integrations.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-typescript-for-large-web-projects",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "technology",
+          "slug": "typescript-for-large-web-projects",
+          "segments": [
+            "technology",
+            "typescript-for-large-web-projects"
+          ],
+          "title": "TypeScript for large web projects | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "TypeScript for larger web projects and long-term product work",
+          "description": "Why TypeScript is often worth using in larger web projects, internal systems, and products with multiple contributors or complex integrations.",
+          "primaryQuery": "typescript for large web projects",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technology",
+            "title": "TypeScript is not strictness for its own sake",
+            "subtitle": "Its real value appears when systems grow, several people work in the codebase, and data or interface mistakes become expensive.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "In larger projects the problem is rarely syntax. It is uncertainty about what flows where and what each part of the system expects.",
+            "TypeScript helps create clearer boundaries across the codebase and reduces the class of mistakes that would otherwise appear only at runtime."
+          ],
+          "sections": [
+            {
+              "title": "Where this technology is a strong fit",
+              "body": [
+                "Technology should fit the product and delivery reality, not just developer preference."
+              ],
+              "bullets": [
+                "larger teams or longer product life",
+                "more complex data and integration boundaries",
+                "frequent refactoring and continued development",
+                "need for safer changes"
+              ]
+            },
+            {
+              "title": "What to be careful about",
+              "body": [
+                "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture."
+              ],
+              "bullets": [
+                "type bureaucracy with no payoff",
+                "weak shared-type discipline",
+                "believing types replace architecture"
+              ]
+            },
+            {
+              "title": "Typical fit for a business project",
+              "body": [
+                "The choice should support delivery speed, maintainability, and operational confidence over time."
+              ],
+              "bullets": [
+                "larger web applications",
+                "modular internal systems",
+                "products with several integrations",
+                "team-based ownership of one codebase"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is TypeScript necessary for small projects too?",
+              "answer": "Not always. Its value grows with complexity, collaboration, and long-term maintenance needs."
+            },
+            {
+              "question": "Does TypeScript slow development down?",
+              "answer": "It can add discipline in the short term, but in larger projects that is often paid back through lower error rates and safer change."
+            },
+            {
+              "question": "Does TypeScript guarantee good architecture?",
+              "answer": "No. It is a support tool, not a substitute for sound design."
+            }
+          ],
+          "related": [
+            "guide-how-to-stabilize-a-slow-business-app",
+            "service-existing-app-takeover",
+            "contract-support",
+            "comparison-rewrite-vs-incremental-app-improvement"
+          ],
+          "fit": {
+            "for": [
+              "larger web applications",
+              "modular internal systems",
+              "products with several integrations",
+              "team-based ownership of one codebase"
+            ],
+            "notFor": [
+              "type bureaucracy with no payoff",
+              "weak shared-type discipline",
+              "believing types replace architecture"
+            ]
+          },
+          "seo": {
+            "title": "TypeScript for large web projects | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Why TypeScript is often worth using in larger web projects, internal systems, and products with multiple contributors or complex integrations."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-typescript-for-large-web-projects.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technology",
+        "heading": "TypeScript is not strictness for its own sake",
+        "body": "Its real value appears when systems grow, several people work in the codebase, and data or interface mistakes become expensive.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "In larger projects the problem is rarely syntax. It is uncertainty about what flows where and what each part of the system expects.\n\nTypeScript helps create clearer boundaries across the codebase and reduces the class of mistakes that would otherwise appear only at runtime."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this technology is a strong fit",
+        "body": "Technology should fit the product and delivery reality, not just developer preference.",
+        "items": [
+          "larger teams or longer product life",
+          "more complex data and integration boundaries",
+          "frequent refactoring and continued development",
+          "need for safer changes"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to be careful about",
+        "body": "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture.",
+        "items": [
+          "type bureaucracy with no payoff",
+          "weak shared-type discipline",
+          "believing types replace architecture"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical fit for a business project",
+        "body": "The choice should support delivery speed, maintainability, and operational confidence over time.",
+        "items": [
+          "larger web applications",
+          "modular internal systems",
+          "products with several integrations",
+          "team-based ownership of one codebase"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is TypeScript necessary for small projects too?",
+            "answer": "Not always. Its value grows with complexity, collaboration, and long-term maintenance needs."
+          },
+          {
+            "question": "Does TypeScript slow development down?",
+            "answer": "It can add discipline in the short term, but in larger projects that is often paid back through lower error rates and safer change."
+          },
+          {
+            "question": "Does TypeScript guarantee good architecture?",
+            "answer": "No. It is a support tool, not a substitute for sound design."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "use-case-management-dashboard.en",
+  "locale": "en",
+  "slug": "/use-cases/management-dashboard",
+  "title": "Management dashboard development | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Management dashboard development | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A management dashboard use case for companies that need a more reliable operational and leadership view across several systems.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-management-dashboard",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "management-dashboard",
+          "segments": [
+            "use-cases",
+            "management-dashboard"
+          ],
+          "title": "Management dashboard development | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Management dashboard across several business systems",
+          "description": "A management dashboard use case for companies that need a more reliable operational and leadership view across several systems.",
+          "primaryQuery": "management dashboard development",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "A leadership dashboard that does not rely on manually stitched exports",
+            "subtitle": "Useful when management decisions depend on fragmented reports, conflicting numbers, or late visibility into operational issues.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A management dashboard is valuable when important decisions rely on reports assembled by hand or on data that is always one step behind reality.",
+            "The value is not the chart itself. It is confidence in where the numbers come from and whether they reflect the live business well enough to act on."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "leadership reporting assembled from several tools",
+                "conflicting numbers across systems",
+                "poor visibility into exceptions or delays",
+                "operations and management using different versions of reality"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "unification of the key data sources",
+                "role-based views and access",
+                "KPIs, trends, and alerts",
+                "integration with internal tooling or BI layers"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "faster and more confident decisions",
+                "less manual reporting work",
+                "higher trust in operational data",
+                "earlier visibility into issues"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Would off-the-shelf BI be better?",
+              "answer": "Sometimes. But when the dashboard needs product-specific roles, workflow context, or close integration with your internal system, custom work can be the better fit."
+            },
+            {
+              "question": "Do we need cleaner data first?",
+              "answer": "At least in the critical areas, yes. Otherwise the dashboard simply visualises the existing confusion."
+            },
+            {
+              "question": "Is this only for leadership?",
+              "answer": "Not always. Operational teams often benefit just as much from timely visibility and exception monitoring."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "use-case-reporting-dashboard",
+            "service-automations-and-integrations",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with several fragmented data sources",
+              "leadership teams relying on manual reporting",
+              "teams that need a more shared view of business state"
+            ],
+            "notFor": [
+              "dashboards with no reliable data source",
+              "one-off reporting with no operational value",
+              "projects with no business owner for the numbers"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "Management dashboard development | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A management dashboard use case for companies that need a more reliable operational and leadership view across several systems."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-management-dashboard.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "A leadership dashboard that does not rely on manually stitched exports",
+        "body": "Useful when management decisions depend on fragmented reports, conflicting numbers, or late visibility into operational issues.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A management dashboard is valuable when important decisions rely on reports assembled by hand or on data that is always one step behind reality.\n\nThe value is not the chart itself. It is confidence in where the numbers come from and whether they reflect the live business well enough to act on."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "leadership reporting assembled from several tools",
+          "conflicting numbers across systems",
+          "poor visibility into exceptions or delays",
+          "operations and management using different versions of reality"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "unification of the key data sources",
+          "role-based views and access",
+          "KPIs, trends, and alerts",
+          "integration with internal tooling or BI layers"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "faster and more confident decisions",
+          "less manual reporting work",
+          "higher trust in operational data",
+          "earlier visibility into issues"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Would off-the-shelf BI be better?",
+            "answer": "Sometimes. But when the dashboard needs product-specific roles, workflow context, or close integration with your internal system, custom work can be the better fit."
+          },
+          {
+            "question": "Do we need cleaner data first?",
+            "answer": "At least in the critical areas, yes. Otherwise the dashboard simply visualises the existing confusion."
+          },
+          {
+            "question": "Is this only for leadership?",
+            "answer": "Not always. Operational teams often benefit just as much from timely visibility and exception monitoring."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

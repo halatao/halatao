@@ -1,0 +1,267 @@
+{
+  "id": "guide-when-internal-tool-better-than-saas.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/kdy-dava-smysl-interni-system-misto-saas",
+  "title": "Kdy dává smysl interní systém místo SaaS | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Kdy dává smysl interní systém místo SaaS | Bc. Ondřej Halata (halat...",
+    "description": "Praktický průvodce pro firmy, které zvažují vlastní interní systém místo SaaS nástroje a chtějí rozumět kompromisům, nákladům a provoznímu fitu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-internal-tool-better-than-saas",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "kdy-dava-smysl-interni-system-misto-saas",
+          "segments": [
+            "pruvodce",
+            "kdy-dava-smysl-interni-system-misto-saas"
+          ],
+          "title": "Kdy dává smysl interní systém místo SaaS | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Kdy dává smysl interní systém místo dalšího SaaS nástroje",
+          "description": "Praktický průvodce pro firmy, které zvažují vlastní interní systém místo SaaS nástroje a chtějí rozumět kompromisům, nákladům a provoznímu fitu.",
+          "primaryQuery": "kdy dává smysl interní systém místo saas",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Nejde o to mít vlastní software za každou cenu. Jde o cenu kompromisů.",
+            "subtitle": "Pro firmy, kde se proces, role a integrace už nevejdou rozumně do dalšího generického SaaS nástroje.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "SaaS je často správný start. Problém přichází ve chvíli, kdy firma přidává výjimky, obchází limity nástroje a část procesu stejně drží bokem v tabulkách a manuálních zásazích.",
+            "Interní systém dává smysl tam, kde je proces důležitý, opakovaný a natolik specifický, že cena kompromisů začíná převyšovat cenu vlastního řešení."
+          ],
+          "sections": [
+            {
+              "title": "Krátká odpověď",
+              "body": [
+                "Interní systém dává větší smysl než SaaS ve chvíli, kdy workflow, role, integrace a ownership procesu vytvářejí drahé obcházení limitů standardního nástroje."
+              ]
+            },
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok."
+              ],
+              "bullets": [
+                "spočítejte, kolik stojí ruční obcházení omezení",
+                "zjistěte, jak specifické jsou role a workflow",
+                "zvažte potřebu integrací a vlastních pravidel",
+                "navrhněte menší první verzi místo velkého interního programu"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi."
+              ],
+              "bullets": [
+                "porovnávání jen podle licenční ceny SaaS",
+                "ignorování času lidí stráveného mimo nástroj",
+                "snahy digitalizovat celý provoz naráz",
+                "interní systém bez ownera procesu a priorit první etapy"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "lepší build-vs-buy rozhodnutí",
+                "realističtější očekávání od první interní verze",
+                "nižší riziko přestřeleného scope",
+                "silnější business case pro vlastní systém"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí interní systém nahradit všechno najednou?",
+              "answer": "Nemusí. Často je nejlepší začít jedním workflow nebo oddělením s největším dopadem."
+            },
+            {
+              "question": "Lze kombinovat SaaS a interní systém?",
+              "answer": "Ano. Běžné je ponechat standardní části v SaaS a vlastní logiku řešit na míru kolem nich."
+            },
+            {
+              "question": "Jak poznat, že je ještě brzy na vlastní systém?",
+              "answer": "Když je proces stále nejasný, role jsou jednoduché a SaaS nástroj pokrývá většinu práce bez drahých obcházek."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "comparison-internal-tool-vs-spreadsheets",
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy zvažující vlastní interní nástroj",
+              "situace s rostoucí ruční koordinací mimo SaaS",
+              "buyery, kteří chtějí spočítat cenu kompromisů"
+            ],
+            "notFor": [
+              "jednoduchý proces bez integrací a výjimek",
+              "projekty bez ownera interního workflow",
+              "nákupní rozhodnutí čistě podle nejnižší licence"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Kdy dává smysl interní systém místo SaaS | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce pro firmy, které zvažují vlastní interní systém místo SaaS nástroje a chtějí rozumět kompromisům, nákladům a provoznímu fitu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-internal-tool-better-than-saas.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Nejde o to mít vlastní software za každou cenu. Jde o cenu kompromisů.",
+        "body": "Pro firmy, kde se proces, role a integrace už nevejdou rozumně do dalšího generického SaaS nástroje.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "SaaS je často správný start. Problém přichází ve chvíli, kdy firma přidává výjimky, obchází limity nástroje a část procesu stejně drží bokem v tabulkách a manuálních zásazích.\n\nInterní systém dává smysl tam, kde je proces důležitý, opakovaný a natolik specifický, že cena kompromisů začíná převyšovat cenu vlastního řešení."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Krátká odpověď",
+        "body": "Interní systém dává větší smysl než SaaS ve chvíli, kdy workflow, role, integrace a ownership procesu vytvářejí drahé obcházení limitů standardního nástroje."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok.",
+        "items": [
+          "spočítejte, kolik stojí ruční obcházení omezení",
+          "zjistěte, jak specifické jsou role a workflow",
+          "zvažte potřebu integrací a vlastních pravidel",
+          "navrhněte menší první verzi místo velkého interního programu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi.",
+        "items": [
+          "porovnávání jen podle licenční ceny SaaS",
+          "ignorování času lidí stráveného mimo nástroj",
+          "snahy digitalizovat celý provoz naráz",
+          "interní systém bez ownera procesu a priorit první etapy"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu.",
+        "items": [
+          "lepší build-vs-buy rozhodnutí",
+          "realističtější očekávání od první interní verze",
+          "nižší riziko přestřeleného scope",
+          "silnější business case pro vlastní systém"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí interní systém nahradit všechno najednou?",
+            "answer": "Nemusí. Často je nejlepší začít jedním workflow nebo oddělením s největším dopadem."
+          },
+          {
+            "question": "Lze kombinovat SaaS a interní systém?",
+            "answer": "Ano. Běžné je ponechat standardní části v SaaS a vlastní logiku řešit na míru kolem nich."
+          },
+          {
+            "question": "Jak poznat, že je ještě brzy na vlastní systém?",
+            "answer": "Když je proces stále nejasný, role jsou jednoduché a SaaS nástroj pokrývá většinu práce bez drahých obcházek."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

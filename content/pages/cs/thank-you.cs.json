@@ -1,0 +1,172 @@
+{
+  "id": "thank-you.cs",
+  "locale": "cs",
+  "slug": "/popsat-projekt/dekuji",
+  "title": "Děkuji – automatizační audit",
+  "seo": {
+    "title": "Děkuji – automatizační audit",
+    "description": "Potvrzení odeslání formuláře pro automatizační audit a navazující stránka s možností rovnou si domluvit termín úvodního hovoru.",
+    "indexable": false
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "thank-you",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "inquiry",
+          "slug": "dekuji",
+          "segments": [
+            "popsat-projekt",
+            "dekuji"
+          ],
+          "title": "Děkuji – automatizační audit",
+          "h1": "Děkuji – automatizační audit",
+          "description": "Potvrzení odeslání formuláře pro automatizační audit a navazující stránka s možností rovnou si domluvit termín úvodního hovoru.",
+          "primaryQuery": "děkuji za zprávu",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Zprávu mám. Další krok už může být konkrétní.",
+            "subtitle": "Pokud chcete proces urychlit, můžete si rovnou vybrat termín krátkého úvodního hovoru.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Děkuji za zprávu. Jakmile si projdu kontext, ozvu se s návrhem dalšího postupu nebo s upřesňující otázkou.",
+            "Pokud je pro vás rychlejší domluvit si termín hovoru rovnou, můžete to udělat přes Calendly."
+          ],
+          "sections": [
+            {
+              "title": "Co bude následovat",
+              "body": [
+                "Zhodnotím situaci, sílu fitu a navrhnu další krok. U takeover nebo urgentních případů se soustředím hlavně na riziko a prioritu první etapy."
+              ]
+            },
+            {
+              "title": "Jak urychlit první kontakt",
+              "body": [
+                "Pokud potřebujete řešit věc rychle, domluvte si termín hovoru. Pomůže i doplnění repo přístupů, prostředí nebo krátké technické poznámky po e-mailu."
+              ]
+            },
+            {
+              "title": "Na co se připravit",
+              "body": [
+                "Na úvodním hovoru typicky řešíme kontext projektu, současný stav, co je největší riziko a jak vypadá realistický další krok."
+              ]
+            }
+          ],
+          "faq": [],
+          "related": [
+            "inquiry",
+            "process-delivery",
+            "service-existing-app-takeover",
+            "service-automations-and-integrations"
+          ],
+          "fit": {
+            "for": [
+              "firmy, které už poslaly první kontext",
+              "projekty s potřebou rychlého úvodního hovoru"
+            ],
+            "notFor": [
+              "indexační landing page"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí základní kontext. Ozvu se s realistickým dalším krokem."
+          },
+          "seo": {
+            "title": "Děkuji – automatizační audit",
+            "description": "Potvrzení odeslání formuláře pro automatizační audit a navazující stránka s možností rovnou si domluvit termín úvodního hovoru."
+          },
+          "schema": {
+            "includeFaq": false
+          },
+          "indexable": false,
+          "id": "thank-you.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "inquiry",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Zprávu mám. Další krok už může být konkrétní.",
+        "body": "Pokud chcete proces urychlit, můžete si rovnou vybrat termín krátkého úvodního hovoru.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Děkuji za zprávu. Jakmile si projdu kontext, ozvu se s návrhem dalšího postupu nebo s upřesňující otázkou.\n\nPokud je pro vás rychlejší domluvit si termín hovoru rovnou, můžete to udělat přes Calendly."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bude následovat",
+        "body": "Zhodnotím situaci, sílu fitu a navrhnu další krok. U takeover nebo urgentních případů se soustředím hlavně na riziko a prioritu první etapy."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak urychlit první kontakt",
+        "body": "Pokud potřebujete řešit věc rychle, domluvte si termín hovoru. Pomůže i doplnění repo přístupů, prostředí nebo krátké technické poznámky po e-mailu."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Na co se připravit",
+        "body": "Na úvodním hovoru typicky řešíme kontext projektu, současný stav, co je největší riziko a jak vypadá realistický další krok."
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí základní kontext. Ozvu se s realistickým dalším krokem.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "guide-how-to-take-over-an-existing-app-safely.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika",
+  "title": "Jak převzít existující aplikaci bez rizika | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak převzít existující aplikaci bez rizika | Bc. Ondřej Halata (hal...",
+    "description": "Praktický průvodce pro firmy, které přebírají existující webovou aplikaci po dodavateli, odcházejícím vývojáři nebo nejasném interním období.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-take-over-an-existing-app-safely",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-prevzit-existujici-aplikaci-bez-rizika",
+          "segments": [
+            "pruvodce",
+            "jak-prevzit-existujici-aplikaci-bez-rizika"
+          ],
+          "title": "Jak převzít existující aplikaci bez rizika | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak převzít existující aplikaci bez zbytečného rizika",
+          "description": "Praktický průvodce pro firmy, které přebírají existující webovou aplikaci po dodavateli, odcházejícím vývojáři nebo nejasném interním období.",
+          "primaryQuery": "jak převzít existující aplikaci bez rizika",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Takeover bez auditu je sázka naslepo",
+            "subtitle": "Důležité je vědět, co běží, kde jsou rizika, jak funguje release a co si projekt může dovolit změnit jako první.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Převzetí aplikace není jen předání repozitáře. Jde o přístup k prostředí, znalost release procesu, rizik a důležitých částí produktu.",
+            "Krátká odpověď je, že bezpečný takeover začíná auditem, checklistem přístupů a ochranou kritických workflow, ne prvním velkým zásahem do kódu.",
+            "Když se takeover uspěchá, firma snadno podcení skryté závislosti a dostane se do horší situace než před změnou dodavatele.",
+            "Dobrá takeover fáze vrací projektu přehled a umožní rozhodnout, co řešit hned a co až později."
+          ],
+          "sections": [
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu."
+              ],
+              "bullets": [
+                "získat přístupy a mapu prostředí",
+                "zjistit kritické scénáře a rizika",
+                "ověřit release a monitoring",
+                "prioritizovat stabilizaci před většími změnami"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy."
+              ],
+              "bullets": [
+                "rewrite jako první reflex",
+                "převzetí bez ověření deploymentu",
+                "ignorování provozních rolí a lidí, kteří systém používají",
+                "neexistující plán první etapy po takeoveru"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "bezpečnější navázání vývoje",
+                "menší rozhodovací nejistota",
+                "realističtější backlog",
+                "silnější kontrola nad provozem aplikace"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je dokumentace nutná?",
+              "answer": "Pomáhá, ale není podmínkou. Důležité je přistupovat takeoveru strukturovaně a nespoléhat se jen na ústní předání."
+            },
+            {
+              "question": "Má smysl řešit testy hned?",
+              "answer": "Ano, ale podle priority. Nejprve je potřeba chránit nejrizikovější části systému a release flow."
+            },
+            {
+              "question": "Lze takeover udělat i za běhu produkce?",
+              "answer": "Ano. To je běžný stav a právě proto je důležité držet první kroky pod kontrolou."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-run-app-takeover-audit",
+            "guide-how-to-price-an-app-takeover",
+            "tool-app-takeover-checklist",
+            "tool-release-stabilization-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "bezpečnější navázání vývoje",
+              "menší rozhodovací nejistota",
+              "realističtější backlog",
+              "silnější kontrola nad provozem aplikace"
+            ],
+            "notFor": [
+              "obecné kariérní rady"
+            ]
+          },
+          "seo": {
+            "title": "Jak převzít existující aplikaci bez rizika | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce pro firmy, které přebírají existující webovou aplikaci po dodavateli, odcházejícím vývojáři nebo nejasném interním období."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-take-over-an-existing-app-safely.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Takeover bez auditu je sázka naslepo",
+        "body": "Důležité je vědět, co běží, kde jsou rizika, jak funguje release a co si projekt může dovolit změnit jako první.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Převzetí aplikace není jen předání repozitáře. Jde o přístup k prostředí, znalost release procesu, rizik a důležitých částí produktu.\n\nKrátká odpověď je, že bezpečný takeover začíná auditem, checklistem přístupů a ochranou kritických workflow, ne prvním velkým zásahem do kódu.\n\nKdyž se takeover uspěchá, firma snadno podcení skryté závislosti a dostane se do horší situace než před změnou dodavatele.\n\nDobrá takeover fáze vrací projektu přehled a umožní rozhodnout, co řešit hned a co až později."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu.",
+        "items": [
+          "získat přístupy a mapu prostředí",
+          "zjistit kritické scénáře a rizika",
+          "ověřit release a monitoring",
+          "prioritizovat stabilizaci před většími změnami"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy.",
+        "items": [
+          "rewrite jako první reflex",
+          "převzetí bez ověření deploymentu",
+          "ignorování provozních rolí a lidí, kteří systém používají",
+          "neexistující plán první etapy po takeoveru"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu.",
+        "items": [
+          "bezpečnější navázání vývoje",
+          "menší rozhodovací nejistota",
+          "realističtější backlog",
+          "silnější kontrola nad provozem aplikace"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je dokumentace nutná?",
+            "answer": "Pomáhá, ale není podmínkou. Důležité je přistupovat takeoveru strukturovaně a nespoléhat se jen na ústní předání."
+          },
+          {
+            "question": "Má smysl řešit testy hned?",
+            "answer": "Ano, ale podle priority. Nejprve je potřeba chránit nejrizikovější části systému a release flow."
+          },
+          {
+            "question": "Lze takeover udělat i za běhu produkce?",
+            "answer": "Ano. To je běžný stav a právě proto je důležité držet první kroky pod kontrolou."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

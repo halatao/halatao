@@ -1,0 +1,244 @@
+{
+  "id": "tool-app-takeover-checklist.cs",
+  "locale": "cs",
+  "slug": "/sablony/checklist-prevzeti-aplikace",
+  "title": "Checklist převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Checklist převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický checklist pro převzetí existující aplikace: přístupy, prostředí, release proces, rizika a kritické workflow.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-app-takeover-checklist",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "checklist-prevzeti-aplikace",
+          "segments": [
+            "sablony",
+            "checklist-prevzeti-aplikace"
+          ],
+          "title": "Checklist převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Checklist převzetí aplikace po dodavateli nebo týmu",
+          "description": "Praktický checklist pro převzetí existující aplikace: přístupy, prostředí, release proces, rizika a kritické workflow.",
+          "primaryQuery": "checklist převzetí aplikace",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Takeover bez checklistu bývá plný slepých míst",
+            "subtitle": "Smyslem checklistu je rychle odhalit, co chybí pro bezpečné navázání vývoje a provozu.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Převzetí aplikace nebývá problém jen v kódu. Často chybí přístupy, popis prostředí, znalost release procesu nebo přehled o kritických scénářích.",
+            "Checklist pomůže rychle odhalit slepá místa, která by později zbytečně prodražila další práci nebo zablokovala první etapu."
+          ],
+          "sections": [
+            {
+              "title": "Co má šablona pokrýt",
+              "body": [
+                "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku."
+              ],
+              "bullets": [
+                "repozitáře, hosting a přístupy",
+                "deploy a prostředí",
+                "kritické scénáře a rizika",
+                "monitoring, logy a provozní kontakty"
+              ]
+            },
+            {
+              "title": "Jak ji použít v praxi",
+              "body": [
+                "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede."
+              ],
+              "bullets": [
+                "při změně dodavatele",
+                "před takeover auditem",
+                "jako podklad pro prioritizaci první etapy"
+              ]
+            },
+            {
+              "title": "Jaký výsledek to má přinést",
+              "body": [
+                "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku."
+              ],
+              "bullets": [
+                "menší takeover riziko",
+                "rychlejší orientace v systému",
+                "lepší kontrola nad tím, co ještě chybí"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Stačí checklist bez auditu?",
+              "answer": "Často ne. Checklist je výborný start, ale u složitějších aplikací je potřeba i technické zmapování, prioritizace a realistický plán první fáze."
+            },
+            {
+              "question": "Je to užitečné i pro interní tým?",
+              "answer": "Ano. I interní tým často potřebuje takeover strukturovat, pokud znalost odešla s konkrétním člověkem nebo vendor kontaktem."
+            },
+            {
+              "question": "Co když část přístupů chybí?",
+              "answer": "Právě to je cenný výstup checklistu. Chybějící přístupy je lepší odhalit hned na začátku než během krizového release."
+            }
+          ],
+          "related": [
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "service-existing-app-takeover",
+            "problem-app-takeover",
+            "tool-release-stabilization-checklist",
+            "case-study-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "menší takeover riziko",
+              "rychlejší orientace v systému",
+              "lepší kontrola nad tím, co ještě chybí"
+            ],
+            "notFor": [
+              "sběr detailů bez dalšího rozhodnutí"
+            ]
+          },
+          "seo": {
+            "title": "Checklist převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický checklist pro převzetí existující aplikace: přístupy, prostředí, release proces, rizika a kritické workflow."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-app-takeover-checklist.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Takeover bez checklistu bývá plný slepých míst",
+        "body": "Smyslem checklistu je rychle odhalit, co chybí pro bezpečné navázání vývoje a provozu.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Převzetí aplikace nebývá problém jen v kódu. Často chybí přístupy, popis prostředí, znalost release procesu nebo přehled o kritických scénářích.\n\nChecklist pomůže rychle odhalit slepá místa, která by později zbytečně prodražila další práci nebo zablokovala první etapu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má šablona pokrýt",
+        "body": "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku.",
+        "items": [
+          "repozitáře, hosting a přístupy",
+          "deploy a prostředí",
+          "kritické scénáře a rizika",
+          "monitoring, logy a provozní kontakty"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ji použít v praxi",
+        "body": "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede.",
+        "items": [
+          "při změně dodavatele",
+          "před takeover auditem",
+          "jako podklad pro prioritizaci první etapy"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek to má přinést",
+        "body": "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku.",
+        "items": [
+          "menší takeover riziko",
+          "rychlejší orientace v systému",
+          "lepší kontrola nad tím, co ještě chybí"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Stačí checklist bez auditu?",
+            "answer": "Často ne. Checklist je výborný start, ale u složitějších aplikací je potřeba i technické zmapování, prioritizace a realistický plán první fáze."
+          },
+          {
+            "question": "Je to užitečné i pro interní tým?",
+            "answer": "Ano. I interní tým často potřebuje takeover strukturovat, pokud znalost odešla s konkrétním člověkem nebo vendor kontaktem."
+          },
+          {
+            "question": "Co když část přístupů chybí?",
+            "answer": "Právě to je cenný výstup checklistu. Chybějící přístupy je lepší odhalit hned na začátku než během krizového release."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "guide-when-custom-development-makes-sense.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/kdy-dava-smysl-vyvoj-na-miru",
+  "title": "Kdy dává smysl vývoj na míru | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Kdy dává smysl vývoj na míru | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce, kdy se firmě vyplatí vlastní vývoj webové aplikace a kdy je lepší hotový nástroj nebo menší úpravy stávajícího řešení.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-custom-development-makes-sense",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "kdy-dava-smysl-vyvoj-na-miru",
+          "segments": [
+            "pruvodce",
+            "kdy-dava-smysl-vyvoj-na-miru"
+          ],
+          "title": "Kdy dává smysl vývoj na míru | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Kdy dává smysl vývoj na míru a kdy ne",
+          "description": "Praktický průvodce, kdy se firmě vyplatí vlastní vývoj webové aplikace a kdy je lepší hotový nástroj nebo menší úpravy stávajícího řešení.",
+          "primaryQuery": "kdy dává smysl vývoj na míru",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Vývoj na míru není prestižní volba. Má být rozumná.",
+            "subtitle": "Smysl dává tam, kde software řeší důležitý proces a hotový nástroj by znamenal dlouhodobě dražší kompromisy.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Vlastní vývoj není správná odpověď na každou potřebu. Pokud proces není specifický a standardní nástroj funguje dobře, custom řešení může být zbytečně drahé.",
+            "Naopak tam, kde se opakují workflow výjimky, integrace, role a ruční obcházení limitů, bývá vývoj na míru ekonomicky i provozně silnější volba."
+          ],
+          "sections": [
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu."
+              ],
+              "bullets": [
+                "zvážit specifika procesu a výjimek",
+                "spočítat cenu obcházení omezení",
+                "zohlednit potřebu integrací a vlastních rolí",
+                "zjistit, kdo bude systém dlouhodobě vlastnit"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy."
+              ],
+              "bullets": [
+                "porovnávání jen podle startovní ceny",
+                "ignorování nákladu ruční práce",
+                "podcenění vendor lock-inu",
+                "custom vývoj bez jasného cíle první verze"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "lepší rozhodnutí mezi SaaS a custom řešením",
+                "nižší riziko přestřeleného scope",
+                "jasnější business case",
+                "lepší očekávání od první etapy"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je vývoj na míru vhodný i pro menší firmu?",
+              "answer": "Ano, pokud řeší opakovaný důležitý proces a hotové nástroje vytvářejí drahé kompromisy."
+            },
+            {
+              "question": "Může být první krok jen menší prototyp nebo MVP?",
+              "answer": "Ano. To je často nejrozumnější způsob, jak ověřit prioritu bez zbytečného přestřelení projektu."
+            },
+            {
+              "question": "Lze kombinovat hotový nástroj a vývoj na míru?",
+              "answer": "Ano. V praxi to bývá velmi rozumná kombinace."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "service-custom-web-app-development",
+            "use-case-b2b-client-portal",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "lepší rozhodnutí mezi SaaS a custom řešením",
+              "nižší riziko přestřeleného scope",
+              "jasnější business case",
+              "lepší očekávání od první etapy"
+            ],
+            "notFor": [
+              "obecné kariérní rady"
+            ]
+          },
+          "seo": {
+            "title": "Kdy dává smysl vývoj na míru | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce, kdy se firmě vyplatí vlastní vývoj webové aplikace a kdy je lepší hotový nástroj nebo menší úpravy stávajícího řešení."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-custom-development-makes-sense.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Vývoj na míru není prestižní volba. Má být rozumná.",
+        "body": "Smysl dává tam, kde software řeší důležitý proces a hotový nástroj by znamenal dlouhodobě dražší kompromisy.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Vlastní vývoj není správná odpověď na každou potřebu. Pokud proces není specifický a standardní nástroj funguje dobře, custom řešení může být zbytečně drahé.\n\nNaopak tam, kde se opakují workflow výjimky, integrace, role a ruční obcházení limitů, bývá vývoj na míru ekonomicky i provozně silnější volba."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu.",
+        "items": [
+          "zvážit specifika procesu a výjimek",
+          "spočítat cenu obcházení omezení",
+          "zohlednit potřebu integrací a vlastních rolí",
+          "zjistit, kdo bude systém dlouhodobě vlastnit"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy.",
+        "items": [
+          "porovnávání jen podle startovní ceny",
+          "ignorování nákladu ruční práce",
+          "podcenění vendor lock-inu",
+          "custom vývoj bez jasného cíle první verze"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu.",
+        "items": [
+          "lepší rozhodnutí mezi SaaS a custom řešením",
+          "nižší riziko přestřeleného scope",
+          "jasnější business case",
+          "lepší očekávání od první etapy"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je vývoj na míru vhodný i pro menší firmu?",
+            "answer": "Ano, pokud řeší opakovaný důležitý proces a hotové nástroje vytvářejí drahé kompromisy."
+          },
+          {
+            "question": "Může být první krok jen menší prototyp nebo MVP?",
+            "answer": "Ano. To je často nejrozumnější způsob, jak ověřit prioritu bez zbytečného přestřelení projektu."
+          },
+          {
+            "question": "Lze kombinovat hotový nástroj a vývoj na míru?",
+            "answer": "Ano. V praxi to bývá velmi rozumná kombinace."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "problem-system-integrations.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-napojit-nekolik-systemu",
+  "title": "Napojení systémů a API integrace | Méně ručního přepisování dat",
+  "seo": {
+    "title": "Napojení systémů a API integrace | Méně ručního přepisování dat",
+    "description": "Pomohu navrhnout a dodat napojení systémů, API integrace a automatizace tam, kde firma trpí na přepisování dat, ruční kontroly a nejasný tok informací.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-system-integrations",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-napojit-nekolik-systemu",
+          "segments": [
+            "problemy",
+            "potrebujeme-napojit-nekolik-systemu"
+          ],
+          "title": "Napojení systémů a API integrace | Méně ručního přepisování dat",
+          "h1": "Napojení systémů bez ručního přepisování dat",
+          "description": "Pomohu navrhnout a dodat napojení systémů, API integrace a automatizace tam, kde firma trpí na přepisování dat, ruční kontroly a nejasný tok informací.",
+          "primaryQuery": "napojení systémů",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Data dnes obcházejí lidi místo propojených systémů",
+            "subtitle": "Nejčastěji mezi ERP, CRM, e-shopem, interním systémem, účetnictvím a reportingem.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Když mezi systémy neexistuje spolehlivé propojení, firma si začne pomáhat ručně. Vznikají tabulky navíc, kontroly navíc a rozhodování nad neúplnými daty.",
+            "Takový stav dlouho vypadá jako drobná neefektivita, ale časem se stane provozním limitem a zdrojem chyb, které se těžko dohledávají.",
+            "Praktický začátek je zjistit, která propojení mají největší dopad a kde je problém spíš v procesu než v samotné technologii."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Bez jasného toku dat se ruční práce násobí a firma si často nevšimne, kolik kapacity mizí v činnostech bez skutečné přidané hodnoty."
+              ],
+              "bullets": [
+                "ruční přepisování mezi systémy",
+                "nejasné vlastnictví dat",
+                "opakované kontroly stavu objednávek, plateb nebo případů",
+                "reporting z několika zdrojů bez jistoty správnosti"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Nejdřív mapuji proces, zdroje dat, výjimky a dopad chyb. Až potom navrhuji integraci, automatizaci nebo doplňkový interní nástroj."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty."
+              ],
+              "bullets": [
+                "méně přepisování a dohledávání",
+                "lepší návaznost mezi nástroji",
+                "spolehlivější podklad pro reporting",
+                "přehlednější rozhodování o dalších úpravách"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Stačí na to vždy jen API integrace?",
+              "answer": "Ne. Často je potřeba zároveň upravit workflow, validace nebo interní rozhraní, aby tok dat dával smysl i lidem."
+            },
+            {
+              "question": "Má smysl automatizovat všechno najednou?",
+              "answer": "Většinou ne. Lepší je začít místy s největším dopadem a nejmenším rizikem."
+            },
+            {
+              "question": "Lze kombinovat audit a následnou implementaci?",
+              "answer": "Ano. Úvodní diagnostika může přejít přímo do realizace prioritních kroků."
+            },
+            {
+              "question": "Pomůžete i s interním systémem kolem integrací?",
+              "answer": "Ano. Někdy samotné propojení nestačí a je potřeba doplnit i rozhraní pro lidi nebo kontrolní workflow."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "service-internal-tools-development",
+            "service-ai-automation-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "use-case-workflow-automation-tools",
+            "use-case-service-team-ops-system",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s více systémy a ruční koordinací",
+              "procesy s vysokou chybovostí při přenosu dat",
+              "týmy, které chtějí lépe řídit opakované workflow"
+            ],
+            "notFor": [
+              "izolovaný nástroj bez návazností",
+              "projekty bez přístupu k datovým zdrojům",
+              "pouhé pořízení licence bez změny procesu"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte."
+          },
+          "seo": {
+            "title": "Napojení systémů a API integrace | Méně ručního přepisování dat",
+            "description": "Pomohu navrhnout a dodat napojení systémů, API integrace a automatizace tam, kde firma trpí na přepisování dat, ruční kontroly a nejasný tok informací."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-system-integrations.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Data dnes obcházejí lidi místo propojených systémů",
+        "body": "Nejčastěji mezi ERP, CRM, e-shopem, interním systémem, účetnictvím a reportingem.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Když mezi systémy neexistuje spolehlivé propojení, firma si začne pomáhat ručně. Vznikají tabulky navíc, kontroly navíc a rozhodování nad neúplnými daty.\n\nTakový stav dlouho vypadá jako drobná neefektivita, ale časem se stane provozním limitem a zdrojem chyb, které se těžko dohledávají.\n\nPraktický začátek je zjistit, která propojení mají největší dopad a kde je problém spíš v procesu než v samotné technologii."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Bez jasného toku dat se ruční práce násobí a firma si často nevšimne, kolik kapacity mizí v činnostech bez skutečné přidané hodnoty.",
+        "items": [
+          "ruční přepisování mezi systémy",
+          "nejasné vlastnictví dat",
+          "opakované kontroly stavu objednávek, plateb nebo případů",
+          "reporting z několika zdrojů bez jistoty správnosti"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Nejdřív mapuji proces, zdroje dat, výjimky a dopad chyb. Až potom navrhuji integraci, automatizaci nebo doplňkový interní nástroj."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty.",
+        "items": [
+          "méně přepisování a dohledávání",
+          "lepší návaznost mezi nástroji",
+          "spolehlivější podklad pro reporting",
+          "přehlednější rozhodování o dalších úpravách"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Stačí na to vždy jen API integrace?",
+            "answer": "Ne. Často je potřeba zároveň upravit workflow, validace nebo interní rozhraní, aby tok dat dával smysl i lidem."
+          },
+          {
+            "question": "Má smysl automatizovat všechno najednou?",
+            "answer": "Většinou ne. Lepší je začít místy s největším dopadem a nejmenším rizikem."
+          },
+          {
+            "question": "Lze kombinovat audit a následnou implementaci?",
+            "answer": "Ano. Úvodní diagnostika může přejít přímo do realizace prioritních kroků."
+          },
+          {
+            "question": "Pomůžete i s interním systémem kolem integrací?",
+            "answer": "Ano. Někdy samotné propojení nestačí a je potřeba doplnit i rozhraní pro lidi nebo kontrolní workflow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

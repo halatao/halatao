@@ -1,0 +1,235 @@
+{
+  "id": "problem-senior-contract-capacity.cs",
+  "locale": "cs",
+  "slug": "/problemy/chybi-seniorni-kapacita-do-tymu",
+  "title": "Chybí seniorní kapacita do týmu | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Chybí seniorní kapacita do týmu | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Pomohu firmám a produktovým týmům ve chvíli, kdy delivery stojí, chybí technické vedení nebo je potřeba převzít problematickou oblast uvnitř existujícího týmu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-senior-contract-capacity",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "chybi-seniorni-kapacita-do-tymu",
+          "segments": [
+            "problemy",
+            "chybi-seniorni-kapacita-do-tymu"
+          ],
+          "title": "Chybí seniorní kapacita do týmu | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Projektu chybí seniorní kapacita do týmu",
+          "description": "Pomohu firmám a produktovým týmům ve chvíli, kdy delivery stojí, chybí technické vedení nebo je potřeba převzít problematickou oblast uvnitř existujícího týmu.",
+          "primaryQuery": "chybí seniorní kapacita do týmu",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Tým pracuje, ale důležitá technická rozhodnutí nikdo skutečně nedrží",
+            "subtitle": "Typická situace, kdy backlog roste, složitější změny se odkládají a tým potřebuje zkušenější technický ownership, ne jen další ruce.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Ne každá delivery situace potřebuje agenturu nebo nový vendor model. Často stačí doplnit seniornější kapacitu přímo do existujícího týmu a převzít konkrétní odpovědnost.",
+            "Silný signál je chvíle, kdy tým zvládá běžný provoz, ale zasekává se na architektuře, takeoveru nebo technicky citlivých změnách."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Bez seniornější kapacity se projekt často hýbe dál jen za cenu vyššího technického dluhu, slabšího rozhodování a unaveného delivery týmu."
+              ],
+              "bullets": [
+                "složitější změny se odsouvají nebo vrací",
+                "chybí owner pro rizikové části systému",
+                "technické rozhodování je pomalé nebo nekonzistentní",
+                "projekt potřebuje takeover, stabilizaci nebo silnější architektonický směr"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Místo neurčitého bodyshoppingu preferuji jasně vymezený přínos: převzetí konkrétní oblasti, stabilizaci problematického workstreamu nebo posílení technického rozhodování v důležité fázi projektu."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "rychlejší posun v blokované části projektu",
+                "silnější technický ownership",
+                "menší tlak na interní tým v kritické fázi",
+                "jasnější vazba mezi technickým a business rozhodováním"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné i pro menší tým?",
+              "answer": "Ano, pokud je potřeba rychle doplnit zkušenost, převzít problémovou oblast nebo dodat citlivou etapu projektu."
+            },
+            {
+              "question": "Může jít i o kratší kontrakt?",
+              "answer": "Ano. Někdy stačí několik týdnů na takeover, stabilizaci nebo rozjezd další etapy."
+            },
+            {
+              "question": "Jak poznat, že nestačí jen další vývojář?",
+              "answer": "Ve chvíli, kdy problém není v množství práce, ale v ownershipu, architektuře, prioritizaci rizik nebo bezpečném delivery citlivých změn."
+            }
+          ],
+          "related": [
+            "contract-support",
+            "comparison-contractor-vs-agency",
+            "guide-when-project-needs-senior-contract-support",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "produktové a interní týmy v důležité delivery fázi",
+              "projekty, kde chybí technický ownership",
+              "situace, kdy je potřeba převzít rizikovou oblast uvnitř týmu"
+            ],
+            "notFor": [
+              "čistě náborová poptávka",
+              "commodity staff augmentation bez scope odpovědnosti",
+              "projekty bez ownera nebo rozhodovatele na straně klienta"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Chybí seniorní kapacita do týmu | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Pomohu firmám a produktovým týmům ve chvíli, kdy delivery stojí, chybí technické vedení nebo je potřeba převzít problematickou oblast uvnitř existujícího týmu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-senior-contract-capacity.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Tým pracuje, ale důležitá technická rozhodnutí nikdo skutečně nedrží",
+        "body": "Typická situace, kdy backlog roste, složitější změny se odkládají a tým potřebuje zkušenější technický ownership, ne jen další ruce.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Ne každá delivery situace potřebuje agenturu nebo nový vendor model. Často stačí doplnit seniornější kapacitu přímo do existujícího týmu a převzít konkrétní odpovědnost.\n\nSilný signál je chvíle, kdy tým zvládá běžný provoz, ale zasekává se na architektuře, takeoveru nebo technicky citlivých změnách."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Bez seniornější kapacity se projekt často hýbe dál jen za cenu vyššího technického dluhu, slabšího rozhodování a unaveného delivery týmu.",
+        "items": [
+          "složitější změny se odsouvají nebo vrací",
+          "chybí owner pro rizikové části systému",
+          "technické rozhodování je pomalé nebo nekonzistentní",
+          "projekt potřebuje takeover, stabilizaci nebo silnější architektonický směr"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Místo neurčitého bodyshoppingu preferuji jasně vymezený přínos: převzetí konkrétní oblasti, stabilizaci problematického workstreamu nebo posílení technického rozhodování v důležité fázi projektu."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "rychlejší posun v blokované části projektu",
+          "silnější technický ownership",
+          "menší tlak na interní tým v kritické fázi",
+          "jasnější vazba mezi technickým a business rozhodováním"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné i pro menší tým?",
+            "answer": "Ano, pokud je potřeba rychle doplnit zkušenost, převzít problémovou oblast nebo dodat citlivou etapu projektu."
+          },
+          {
+            "question": "Může jít i o kratší kontrakt?",
+            "answer": "Ano. Někdy stačí několik týdnů na takeover, stabilizaci nebo rozjezd další etapy."
+          },
+          {
+            "question": "Jak poznat, že nestačí jen další vývojář?",
+            "answer": "Ve chvíli, kdy problém není v množství práce, ale v ownershipu, architektuře, prioritizaci rizik nebo bezpečném delivery citlivých změn."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

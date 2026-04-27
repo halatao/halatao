@@ -1,0 +1,248 @@
+{
+  "id": "process-delivery.en",
+  "locale": "en",
+  "slug": "/how-project-delivery-works",
+  "title": "How project delivery works | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How project delivery works | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical overview of how I approach custom software work, from the first conversation through delivery phases and ongoing improvement.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "process-delivery",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "process",
+          "slug": "how-project-delivery-works",
+          "segments": [
+            "how-project-delivery-works"
+          ],
+          "title": "How project delivery works | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How project delivery usually works",
+          "description": "A practical overview of how I approach custom software work, from the first conversation through delivery phases and ongoing improvement.",
+          "primaryQuery": "how project delivery works",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Clear delivery structure without agency theatre",
+            "subtitle": "Fast orientation, a realistic first phase, visible progress, and decisions tied to actual business impact.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "You do not need a perfect specification to start the conversation. What matters first is the business situation, the desired outcome, the current system reality, and the constraints around delivery.",
+            "From that, we shape the first phase. In existing apps this often means discovery and stabilisation. In greenfield work it usually means a realistic MVP or first workflow release.",
+            "The following work moves in smaller steps with visible progress and room for informed decisions instead of a large opaque build cycle."
+          ],
+          "sections": [
+            {
+              "title": "1. Context and risk review",
+              "body": [
+                "We look at the current situation, goals, constraints, risks, and the practical shape of the problem. If the fit is weak, it is better to know early."
+              ],
+              "bullets": [
+                "business goal",
+                "current stack or process",
+                "operational risk",
+                "first meaningful next step"
+              ]
+            },
+            {
+              "title": "2. First delivery phase",
+              "body": [
+                "The output should be a concrete next phase with real value, not an endless requirements bucket. Larger projects usually benefit from a narrower first release."
+              ]
+            },
+            {
+              "title": "3. Implementation with visible checkpoints",
+              "body": [
+                "I prefer smaller delivery steps and regular decision points so the buyer sees progress and risk stays manageable."
+              ]
+            },
+            {
+              "title": "4. Improvement after release",
+              "body": [
+                "That can include further features, performance work, technical debt reduction, operational hardening, or support for the internal team."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "How long does the initial discovery usually take?",
+              "answer": "It depends on the project, but the goal is to reach a practical next-step decision quickly rather than drag out discovery for its own sake."
+            },
+            {
+              "question": "Does the scope have to be fully fixed from the start?",
+              "answer": "Not always. For most software work it is better to lock the objective of the first phase and refine detail with better information as the project moves."
+            },
+            {
+              "question": "How do you handle change during the project?",
+              "answer": "Change is normal. The important thing is to assess it against business value, risk, and the purpose of the current phase."
+            },
+            {
+              "question": "Can the work start with an audit or takeover phase?",
+              "answer": "Yes. For existing applications that is often the safest way to reduce risk before larger delivery decisions."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "inquiry",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "new projects and inherited-app situations",
+              "buyers who want visible progress and practical decisions",
+              "teams that need senior technical judgement"
+            ],
+            "notFor": [
+              "projects with no decision-maker",
+              "work with no willingness to prioritise",
+              "anonymous commodity staffing requests"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "A short project summary is enough to start the conversation."
+          },
+          "seo": {
+            "title": "How project delivery works | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical overview of how I approach custom software work, from the first conversation through delivery phases and ongoing improvement."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "process-delivery.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "process",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Clear delivery structure without agency theatre",
+        "body": "Fast orientation, a realistic first phase, visible progress, and decisions tied to actual business impact.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "You do not need a perfect specification to start the conversation. What matters first is the business situation, the desired outcome, the current system reality, and the constraints around delivery.\n\nFrom that, we shape the first phase. In existing apps this often means discovery and stabilisation. In greenfield work it usually means a realistic MVP or first workflow release.\n\nThe following work moves in smaller steps with visible progress and room for informed decisions instead of a large opaque build cycle."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "1. Context and risk review",
+        "body": "We look at the current situation, goals, constraints, risks, and the practical shape of the problem. If the fit is weak, it is better to know early.",
+        "items": [
+          "business goal",
+          "current stack or process",
+          "operational risk",
+          "first meaningful next step"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "2. First delivery phase",
+        "body": "The output should be a concrete next phase with real value, not an endless requirements bucket. Larger projects usually benefit from a narrower first release."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "3. Implementation with visible checkpoints",
+        "body": "I prefer smaller delivery steps and regular decision points so the buyer sees progress and risk stays manageable."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "4. Improvement after release",
+        "body": "That can include further features, performance work, technical debt reduction, operational hardening, or support for the internal team."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "How long does the initial discovery usually take?",
+            "answer": "It depends on the project, but the goal is to reach a practical next-step decision quickly rather than drag out discovery for its own sake."
+          },
+          {
+            "question": "Does the scope have to be fully fixed from the start?",
+            "answer": "Not always. For most software work it is better to lock the objective of the first phase and refine detail with better information as the project moves."
+          },
+          {
+            "question": "How do you handle change during the project?",
+            "answer": "Change is normal. The important thing is to assess it against business value, risk, and the purpose of the current phase."
+          },
+          {
+            "question": "Can the work start with an audit or takeover phase?",
+            "answer": "Yes. For existing applications that is often the safest way to reduce risk before larger delivery decisions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short project summary is enough to start the conversation.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

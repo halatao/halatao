@@ -1,0 +1,285 @@
+{
+  "id": "service-automations-and-integrations.en",
+  "locale": "en",
+  "slug": "/services/automations-and-integrations",
+  "title": "Automations and integrations | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Automations and integrations | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I help companies reduce manual work, connect disconnected systems, and design practical automations that improve operations instead of adding another layer o...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-automations-and-integrations",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "automations-and-integrations",
+          "segments": [
+            "services",
+            "automations-and-integrations"
+          ],
+          "title": "Automations and integrations | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Automations and integrations for messy business workflows",
+          "description": "I help companies reduce manual work, connect disconnected systems, and design practical automations that improve operations instead of adding another layer of chaos.",
+          "primaryQuery": "automations and integrations",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "Connect the systems and remove the repetitive manual work",
+            "subtitle": "Useful when teams are re-entering data, checking statuses by hand, building reports from multiple sources, or relying on people to keep workflows moving manually.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "Automation creates the most value when a company is repeatedly losing time on manual handoffs between systems.",
+            "The symptoms are usually visible in re-entered data, email-based approvals, manual checks, exception handling, or reporting stitched together from multiple tools.",
+            "The first step is to understand which losses matter most, where the data breaks, and what should remain under human control."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "The strongest signals are repeated work, fragmented system ownership, and business processes that slow down because information has to be found, copied, or verified manually."
+              ],
+              "bullets": [
+                "ERP, CRM, ecommerce, and spreadsheet handoffs",
+                "manual status or payment checks",
+                "reporting across disconnected tools",
+                "approval chains with no consistent rules"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "The work can include the analysis, the integration design, and the implementation itself. API work is only one part of the picture; process and data structure matter just as much."
+              ],
+              "bullets": [
+                "automation diagnostic and prioritisation",
+                "integration layer design",
+                "implementation of focused automations",
+                "iterative follow-up based on operational value"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "The focus is the process and the data model, not a fashionable automation platform. If the underlying flow is unclear, automation only spreads the confusion faster."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "The right outcome is not maximum automation. It is a cleaner flow of data, less avoidable manual work, and better control over the process."
+              ],
+              "bullets": [
+                "time saved on repetitive work",
+                "fewer transfer mistakes",
+                "better system-to-system continuity",
+                "clearer case for future investment"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is automation relevant for smaller companies too?",
+              "answer": "Yes. Company size matters less than repetition, friction, and dependency on manual coordination."
+            },
+            {
+              "question": "Do you only handle API integrations?",
+              "answer": "No. API work is part of it, but many useful automation projects also require workflow changes, better data structure, or a supporting internal interface."
+            },
+            {
+              "question": "Can you implement the changes after the review?",
+              "answer": "Yes. I can stay involved from the initial mapping stage through delivery and follow-up improvement work."
+            },
+            {
+              "question": "What if the real problem is a broken process, not missing automation?",
+              "answer": "That is still a useful outcome. It is better to identify a process issue early than to spend money automating something that will remain inefficient."
+            }
+          ],
+          "related": [
+            "problem-system-integrations",
+            "guide-how-to-run-automation-discovery",
+            "use-case-workflow-app-for-teams",
+            "use-case-service-team-ops-system",
+            "service-ai-automation-and-integrations",
+            "problem-ai-in-business-process",
+            "use-case-ai-intake-triage",
+            "tool-automation-discovery-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with manual cross-system work",
+              "teams relying on repetitive status checks or spreadsheet transfers",
+              "buyers who want practical automation, not tooling theatre"
+            ],
+            "notFor": [
+              "automation with no process ownership",
+              "throwaway scripts with no operational accountability",
+              "no-code licence purchases with no integration strategy"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "Automations and integrations | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I help companies reduce manual work, connect disconnected systems, and design practical automations that improve operations instead of adding another layer of chaos."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-automations-and-integrations.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "Connect the systems and remove the repetitive manual work",
+        "body": "Useful when teams are re-entering data, checking statuses by hand, building reports from multiple sources, or relying on people to keep workflows moving manually.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automation creates the most value when a company is repeatedly losing time on manual handoffs between systems.\n\nThe symptoms are usually visible in re-entered data, email-based approvals, manual checks, exception handling, or reporting stitched together from multiple tools.\n\nThe first step is to understand which losses matter most, where the data breaks, and what should remain under human control."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "The strongest signals are repeated work, fragmented system ownership, and business processes that slow down because information has to be found, copied, or verified manually.",
+        "items": [
+          "ERP, CRM, ecommerce, and spreadsheet handoffs",
+          "manual status or payment checks",
+          "reporting across disconnected tools",
+          "approval chains with no consistent rules"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "The work can include the analysis, the integration design, and the implementation itself. API work is only one part of the picture; process and data structure matter just as much.",
+        "items": [
+          "automation diagnostic and prioritisation",
+          "integration layer design",
+          "implementation of focused automations",
+          "iterative follow-up based on operational value"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "The focus is the process and the data model, not a fashionable automation platform. If the underlying flow is unclear, automation only spreads the confusion faster."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "The right outcome is not maximum automation. It is a cleaner flow of data, less avoidable manual work, and better control over the process.",
+        "items": [
+          "time saved on repetitive work",
+          "fewer transfer mistakes",
+          "better system-to-system continuity",
+          "clearer case for future investment"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is automation relevant for smaller companies too?",
+            "answer": "Yes. Company size matters less than repetition, friction, and dependency on manual coordination."
+          },
+          {
+            "question": "Do you only handle API integrations?",
+            "answer": "No. API work is part of it, but many useful automation projects also require workflow changes, better data structure, or a supporting internal interface."
+          },
+          {
+            "question": "Can you implement the changes after the review?",
+            "answer": "Yes. I can stay involved from the initial mapping stage through delivery and follow-up improvement work."
+          },
+          {
+            "question": "What if the real problem is a broken process, not missing automation?",
+            "answer": "That is still a useful outcome. It is better to identify a process issue early than to spend money automating something that will remain inefficient."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

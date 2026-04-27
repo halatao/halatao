@@ -1,0 +1,229 @@
+{
+  "id": "hub-templates.en",
+  "locale": "en",
+  "slug": "/templates",
+  "title": "Templates and checklists for scoping, takeover, and automation work | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Templates and checklists for scoping, takeover, and automation work...",
+    "description": "Overview of practical templates for web app briefs, app takeover, API integrations, internal tool scoping, and automation discovery.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-templates",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "templates",
+          "segments": [
+            "templates"
+          ],
+          "title": "Templates and checklists for scoping, takeover, and automation work | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Templates and checklists that shorten the path to a better first project decision",
+          "description": "Overview of practical templates for web app briefs, app takeover, API integrations, internal tool scoping, and automation discovery.",
+          "primaryQuery": "Templates and checklists that shorten the path to a better first project decision",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Practical templates for getting structure around the project before confusion spreads",
+            "subtitle": "This section gathers useful working assets for scoping, takeover, internal tooling, and automation projects. The goal is clarity, not paperwork.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These pages provide practical working inputs for early project decisions. They help buyers and teams organise the right questions before implementation or takeover begins.",
+            "The section includes a web app brief template, app takeover checklist, API checklist, internal tool scope worksheet, and automation discovery checklist."
+          ],
+          "sections": [
+            {
+              "title": "What this section covers",
+              "body": [
+                "Each child page explains what the asset should cover, how to use it, and what type of decision quality it should improve."
+              ]
+            },
+            {
+              "title": "Who this section helps most",
+              "body": [
+                "This section works as a supporting authority layer for buyers and teams that need better decisions around technology, templates, or local commercial context."
+              ],
+              "bullets": [
+                "preparing for an intro call or scoping session",
+                "taking over an inherited application or incomplete project",
+                "internal tool and automation work with several unknowns"
+              ]
+            },
+            {
+              "title": "How to continue from here",
+              "body": [
+                "Open the child page closest to the current decision and then continue into the relevant service, comparison, or inquiry path."
+              ],
+              "bullets": [
+                "choose the asset closest to the project situation",
+                "use it as a working input, not a decorative document",
+                "move to inquiry when you want help turning it into delivery"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do these templates replace architecture or project planning?",
+              "answer": "No. They improve the quality of the starting frame but do not replace deeper technical and delivery work."
+            },
+            {
+              "question": "Are they useful without an internal engineering team?",
+              "answer": "Yes. They help business-side buyers ask better questions and reduce blind spots early."
+            },
+            {
+              "question": "Do they link into commercial next steps?",
+              "answer": "Yes. Every page connects back to the relevant services, guides, and inquiry path."
+            }
+          ],
+          "related": [
+            "tool-web-app-project-brief-template",
+            "tool-app-takeover-checklist",
+            "tool-api-integration-checklist",
+            "tool-internal-tool-scope-worksheet",
+            "tool-automation-discovery-checklist"
+          ],
+          "fit": {
+            "for": [
+              "preparing for an intro call or scoping session",
+              "taking over an inherited application or incomplete project",
+              "internal tool and automation work with several unknowns"
+            ],
+            "notFor": [
+              "reading with no connection to a real software decision"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If this section connects to a live project, I can help frame the next step against your context."
+          },
+          "seo": {
+            "title": "Templates and checklists for scoping, takeover, and automation work | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Overview of practical templates for web app briefs, app takeover, API integrations, internal tool scoping, and automation discovery."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-templates.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Practical templates for getting structure around the project before confusion spreads",
+        "body": "This section gathers useful working assets for scoping, takeover, internal tooling, and automation projects. The goal is clarity, not paperwork.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These pages provide practical working inputs for early project decisions. They help buyers and teams organise the right questions before implementation or takeover begins.\n\nThe section includes a web app brief template, app takeover checklist, API checklist, internal tool scope worksheet, and automation discovery checklist."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What this section covers",
+        "body": "Each child page explains what the asset should cover, how to use it, and what type of decision quality it should improve."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Who this section helps most",
+        "body": "This section works as a supporting authority layer for buyers and teams that need better decisions around technology, templates, or local commercial context.",
+        "items": [
+          "preparing for an intro call or scoping session",
+          "taking over an inherited application or incomplete project",
+          "internal tool and automation work with several unknowns"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue from here",
+        "body": "Open the child page closest to the current decision and then continue into the relevant service, comparison, or inquiry path.",
+        "items": [
+          "choose the asset closest to the project situation",
+          "use it as a working input, not a decorative document",
+          "move to inquiry when you want help turning it into delivery"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do these templates replace architecture or project planning?",
+            "answer": "No. They improve the quality of the starting frame but do not replace deeper technical and delivery work."
+          },
+          {
+            "question": "Are they useful without an internal engineering team?",
+            "answer": "Yes. They help business-side buyers ask better questions and reduce blind spots early."
+          },
+          {
+            "question": "Do they link into commercial next steps?",
+            "answer": "Yes. Every page connects back to the relevant services, guides, and inquiry path."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If this section connects to a live project, I can help frame the next step against your context.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

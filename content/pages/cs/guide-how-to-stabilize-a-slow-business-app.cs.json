@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-stabilize-a-slow-business-app.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-stabilizovat-pomalou-aplikaci",
+  "title": "Jak stabilizovat pomalou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak stabilizovat pomalou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický pruvodce stabilizací pomalé nebo krehké business aplikace bez unáhleného rewritu a bez kosmetických zásahu bez dopadu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-stabilize-a-slow-business-app",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-stabilizovat-pomalou-aplikaci",
+          "segments": [
+            "pruvodce",
+            "jak-stabilizovat-pomalou-aplikaci"
+          ],
+          "title": "Jak stabilizovat pomalou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak stabilizovat pomalou webovou aplikaci pro byznys",
+          "description": "Praktický pruvodce stabilizací pomalé nebo krehké business aplikace bez unáhleného rewritu a bez kosmetických zásahu bez dopadu.",
+          "primaryQuery": "jak stabilizovat pomalou aplikaci",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "Pomalá aplikace nebývá jen problém výkonu",
+            "subtitle": "Casto jde i o nejasné priority, krehké dotazy, špatnou práci s daty a release proces, který brzdí opravy.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Když je aplikace pomalá, tým casto sahá po rychlých mikro-optimalizacích. Jenže uživatelé vnímají problém jako celek: výkon, stabilitu i pocit jistoty pri používání.",
+            "Praktická stabilizace proto zacíná merením dopadu a prioritizací nejbolestivejších míst."
+          ],
+          "sections": [
+            {
+              "title": "Kde hledat hlavní prícinu",
+              "body": [
+                "Nejde jen o frontend. Problém bývá v dotazech, datech, cachování, infrastrukture i v tom, jak aplikace roste bez pravidel."
+              ],
+              "bullets": [
+                "dotazy a práce s databází",
+                "zbytecne težké obrazovky",
+                "slabé cachování nebo paging",
+                "release proces brzdící opravy"
+              ]
+            },
+            {
+              "title": "Jak postupovat",
+              "body": [
+                "Nejdrív zmerit a potvrdit dopad. Pak rešit nekolik nejkritictejších míst s jasným prínosem, ne plošný refaktor bez smeru."
+              ]
+            },
+            {
+              "title": "Co bývá rychlá výhra",
+              "body": [
+                "Lepší práce s daty, omezení zbytecných dotazu, úprava nejpomalejších workflow a odstranení nejvetších technických bottlenecku."
+              ]
+            },
+            {
+              "title": "Kdy uvažovat o vetší zmene",
+              "body": [
+                "Až když se ukáže, že problém není v nekolika uzlech, ale v samotném tvaru architektury nebo datového modelu."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je pomalá aplikace duvod pro rewrite?",
+              "answer": "Ne automaticky. Nejprve je potreba zjistit, co výkon opravdu brzdí a jaký je dopad jednotlivých problému."
+            },
+            {
+              "question": "Co když nejsou dobré metriky?",
+              "answer": "I to je cenné zjištení. Cást stabilizace bývá práve doplnení merení a lepšího pozorování systému."
+            },
+            {
+              "question": "Lze výkon rešit i prubežne bez velkého projektu?",
+              "answer": "Ano. U mnoha aplikací je to nejpraktictejší cesta."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "technology-typescript-for-large-web-projects",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-existing-app-takeover",
+              "comparison-rewrite-vs-incremental-app-improvement",
+              "technology-typescript-for-large-web-projects",
+              "inquiry"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Jak stabilizovat pomalou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický pruvodce stabilizací pomalé nebo krehké business aplikace bez unáhleného rewritu a bez kosmetických zásahu bez dopadu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-stabilize-a-slow-business-app.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "Pomalá aplikace nebývá jen problém výkonu",
+        "body": "Casto jde i o nejasné priority, krehké dotazy, špatnou práci s daty a release proces, který brzdí opravy.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Když je aplikace pomalá, tým casto sahá po rychlých mikro-optimalizacích. Jenže uživatelé vnímají problém jako celek: výkon, stabilitu i pocit jistoty pri používání.\n\nPraktická stabilizace proto zacíná merením dopadu a prioritizací nejbolestivejších míst."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kde hledat hlavní prícinu",
+        "body": "Nejde jen o frontend. Problém bývá v dotazech, datech, cachování, infrastrukture i v tom, jak aplikace roste bez pravidel.",
+        "items": [
+          "dotazy a práce s databází",
+          "zbytecne težké obrazovky",
+          "slabé cachování nebo paging",
+          "release proces brzdící opravy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak postupovat",
+        "body": "Nejdrív zmerit a potvrdit dopad. Pak rešit nekolik nejkritictejších míst s jasným prínosem, ne plošný refaktor bez smeru."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá rychlá výhra",
+        "body": "Lepší práce s daty, omezení zbytecných dotazu, úprava nejpomalejších workflow a odstranení nejvetších technických bottlenecku."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy uvažovat o vetší zmene",
+        "body": "Až když se ukáže, že problém není v nekolika uzlech, ale v samotném tvaru architektury nebo datového modelu."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je pomalá aplikace duvod pro rewrite?",
+            "answer": "Ne automaticky. Nejprve je potreba zjistit, co výkon opravdu brzdí a jaký je dopad jednotlivých problému."
+          },
+          {
+            "question": "Co když nejsou dobré metriky?",
+            "answer": "I to je cenné zjištení. Cást stabilizace bývá práve doplnení merení a lepšího pozorování systému."
+          },
+          {
+            "question": "Lze výkon rešit i prubežne bez velkého projektu?",
+            "answer": "Ano. U mnoha aplikací je to nejpraktictejší cesta."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

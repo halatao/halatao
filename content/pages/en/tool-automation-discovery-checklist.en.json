@@ -1,0 +1,245 @@
+{
+  "id": "tool-automation-discovery-checklist.en",
+  "locale": "en",
+  "slug": "/templates/automation-discovery-checklist",
+  "title": "Automation discovery checklist | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Automation discovery checklist | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical checklist for automation discovery covering process flow, exception paths, ownership, source data, and operational impact before implementation b...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-automation-discovery-checklist",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "automation-discovery-checklist",
+          "segments": [
+            "templates",
+            "automation-discovery-checklist"
+          ],
+          "title": "Automation discovery checklist | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Automation discovery checklist for workflow and integration projects",
+          "description": "A practical checklist for automation discovery covering process flow, exception paths, ownership, source data, and operational impact before implementation begins.",
+          "primaryQuery": "automation discovery checklist",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "Before automating, understand the process, the exceptions, and the ownership",
+            "subtitle": "A working checklist for companies trying to distinguish useful automation from expensive digitalised chaos.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Automation without discovery often just accelerates a broken process. This checklist helps map where automation is actually useful and where the real issue is process design or ownership.",
+            "It is most valuable when several systems, manual steps, and exception paths are already creating delivery friction, but the first priority is still unclear."
+          ],
+          "sections": [
+            {
+              "title": "What the asset should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision."
+              ],
+              "bullets": [
+                "the actual process map and manual steps",
+                "exceptions, approvals, and failure states",
+                "source data, ownership, and accountability",
+                "the operational impact of each automation opportunity"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake."
+              ],
+              "bullets": [
+                "before an automation or integration discovery phase",
+                "when prioritising automation opportunities",
+                "as input to the first workshop or diagnostic review"
+              ]
+            },
+            {
+              "title": "What result it should create",
+              "body": [
+                "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions."
+              ],
+              "bullets": [
+                "a better choice of the first automation target",
+                "less risk of automating the wrong problem",
+                "clearer connection between process reality and technical delivery",
+                "a stronger base for implementation planning"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this the same as an API checklist?",
+              "answer": "Not exactly. This one puts more weight on process, exceptions, and business ownership before the technical integration design starts."
+            },
+            {
+              "question": "Is it useful without an internal technical team?",
+              "answer": "Yes. It helps the business side clarify the important questions before moving into technical solution mode."
+            },
+            {
+              "question": "Can implementation follow directly from the checklist?",
+              "answer": "Yes. The checklist can lead straight into prioritisation and delivery of the first automation steps."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "problem-system-integrations",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with manual cross-system workflow",
+              "teams trying to prioritise automation by business impact",
+              "projects with several exception and ownership questions"
+            ],
+            "notFor": [
+              "simple one-off integrations with no process complexity",
+              "projects treated only as a no-code licence purchase",
+              "situations with no access to the people who actually run the process"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If you want help turning this into an actual delivery plan, a short context summary is enough."
+          },
+          "seo": {
+            "title": "Automation discovery checklist | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical checklist for automation discovery covering process flow, exception paths, ownership, source data, and operational impact before implementation begins."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-automation-discovery-checklist.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "Before automating, understand the process, the exceptions, and the ownership",
+        "body": "A working checklist for companies trying to distinguish useful automation from expensive digitalised chaos.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automation without discovery often just accelerates a broken process. This checklist helps map where automation is actually useful and where the real issue is process design or ownership.\n\nIt is most valuable when several systems, manual steps, and exception paths are already creating delivery friction, but the first priority is still unclear."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the asset should cover",
+        "body": "The point is not paperwork for its own sake. The value is revealing blind spots early and improving the first serious project decision.",
+        "items": [
+          "the actual process map and manual steps",
+          "exceptions, approvals, and failure states",
+          "source data, ownership, and accountability",
+          "the operational impact of each automation opportunity"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The asset should work as a practical tool before scoping, discovery, or an intro call rather than as a final document for its own sake.",
+        "items": [
+          "before an automation or integration discovery phase",
+          "when prioritising automation opportunities",
+          "as input to the first workshop or diagnostic review"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What result it should create",
+        "body": "When used well, the template shortens the path to the first sensible next step and reduces the risk of starting the project on weak assumptions.",
+        "items": [
+          "a better choice of the first automation target",
+          "less risk of automating the wrong problem",
+          "clearer connection between process reality and technical delivery",
+          "a stronger base for implementation planning"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this the same as an API checklist?",
+            "answer": "Not exactly. This one puts more weight on process, exceptions, and business ownership before the technical integration design starts."
+          },
+          {
+            "question": "Is it useful without an internal technical team?",
+            "answer": "Yes. It helps the business side clarify the important questions before moving into technical solution mode."
+          },
+          {
+            "question": "Can implementation follow directly from the checklist?",
+            "answer": "Yes. The checklist can lead straight into prioritisation and delivery of the first automation steps."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If you want help turning this into an actual delivery plan, a short context summary is enough.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

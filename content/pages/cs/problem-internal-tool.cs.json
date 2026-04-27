@@ -1,0 +1,247 @@
+{
+  "id": "problem-internal-tool.cs",
+  "locale": "cs",
+  "slug": "/problemy/chceme-vyvinout-interni-system",
+  "title": "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
+  "seo": {
+    "title": "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
+    "description": "Pomohu navrhnout a dodat interní systém na míru tam, kde firma potřebuje sjednotit workflow, role, data a odpovědnost v jednom vlastním nástroji.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-internal-tool",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "chceme-vyvinout-interni-system",
+          "segments": [
+            "problemy",
+            "chceme-vyvinout-interni-system"
+          ],
+          "title": "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
+          "h1": "Kdy dává interní systém na míru smysl",
+          "description": "Pomohu navrhnout a dodat interní systém na míru tam, kde firma potřebuje sjednotit workflow, role, data a odpovědnost v jednom vlastním nástroji.",
+          "primaryQuery": "interní systém na míru pro firmu",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Interní systém na míru pro důležitý firemní proces",
+            "subtitle": "Dává smysl ve chvíli, kdy je potřeba sjednotit workflow, role, data a odpovědnost, ne jen nahradit jednu tabulku.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Potřeba interního systému obvykle nevzniká proto, že firma chce vlastní software za každou cenu. Vzniká ve chvíli, kdy důležitý proces potřebuje jeden vlastní nástroj se srozumitelnými rolemi, stavy a daty.",
+            "Největší přínos nebývá jen v rychlosti práce, ale v tom, že proces přestane viset na jednotlivcích, různé týmy začnou pracovat nad stejnou realitou a vedení uvidí skutečný stav bez ručně skládaných reportů.",
+            "Dobrý start je popsat, který proces dnes nejvíc bolí, kdo v něm pracuje a co musí první verze zlepšit."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Když je proces rozptýlený v několika nástrojích, firma ztrácí čas, chybovost roste a změna workflow je čím dál dražší."
+              ],
+              "bullets": [
+                "více lidí pracuje nad stejnými daty bez jednotného stavu",
+                "důležité kroky se řeší přes e-mail nebo chat",
+                "reporting se skládá ručně",
+                "odpovědnost mezi odděleními je nejasná"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Nejdřív dává smysl vyjasnit proces, role, data a první reálnou etapu. Teprve potom navrhovat konkrétní obrazovky a další moduly."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty."
+              ],
+              "bullets": [
+                "menší provozní chaos",
+                "lepší viditelnost stavu práce",
+                "pevnější základ pro reporting",
+                "systém, který lze dál rozšiřovat bez provizorií"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jak poznat, že už nestačí SaaS nebo tabulky?",
+              "answer": "Ve chvíli, kdy vzniká moc ruční práce, role mají rozdílné potřeby, data jsou v několika místech a obcházení omezení začíná být dražší než vlastní řešení."
+            },
+            {
+              "question": "Musí mít interní systém všechny funkce hned?",
+              "answer": "Nemusí. Naopak je lepší začít menší verzí, která zlepší nejkritičtější část procesu."
+            },
+            {
+              "question": "Co když si nejsme jistí rozsahem?",
+              "answer": "To je běžné. Na začátku potřebujeme hlavně provozní kontext, priority a hranici první etapy."
+            },
+            {
+              "question": "Lze systém napojit na další nástroje?",
+              "answer": "Ano. U interních systémů je to často klíčové, protože bez napojení by se jen přesunula ruční práce jinam."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "comparison-internal-tool-vs-spreadsheets",
+            "use-case-internal-admin-system",
+            "use-case-service-team-ops-system",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s rostoucí operativní agendou",
+              "týmy s více rolemi a workflow",
+              "procesy, kde chybí jeden spolehlivý zdroj pravdy"
+            ],
+            "notFor": [
+              "jednoduchá evidence pro jednu osobu",
+              "projekty bez vlastníka procesu",
+              "čistě designový redesign bez změny fungování"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte."
+          },
+          "seo": {
+            "title": "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
+            "description": "Pomohu navrhnout a dodat interní systém na míru tam, kde firma potřebuje sjednotit workflow, role, data a odpovědnost v jednom vlastním nástroji."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-internal-tool.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Interní systém na míru pro důležitý firemní proces",
+        "body": "Dává smysl ve chvíli, kdy je potřeba sjednotit workflow, role, data a odpovědnost, ne jen nahradit jednu tabulku.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Potřeba interního systému obvykle nevzniká proto, že firma chce vlastní software za každou cenu. Vzniká ve chvíli, kdy důležitý proces potřebuje jeden vlastní nástroj se srozumitelnými rolemi, stavy a daty.\n\nNejvětší přínos nebývá jen v rychlosti práce, ale v tom, že proces přestane viset na jednotlivcích, různé týmy začnou pracovat nad stejnou realitou a vedení uvidí skutečný stav bez ručně skládaných reportů.\n\nDobrý start je popsat, který proces dnes nejvíc bolí, kdo v něm pracuje a co musí první verze zlepšit."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Když je proces rozptýlený v několika nástrojích, firma ztrácí čas, chybovost roste a změna workflow je čím dál dražší.",
+        "items": [
+          "více lidí pracuje nad stejnými daty bez jednotného stavu",
+          "důležité kroky se řeší přes e-mail nebo chat",
+          "reporting se skládá ručně",
+          "odpovědnost mezi odděleními je nejasná"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Nejdřív dává smysl vyjasnit proces, role, data a první reálnou etapu. Teprve potom navrhovat konkrétní obrazovky a další moduly."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty.",
+        "items": [
+          "menší provozní chaos",
+          "lepší viditelnost stavu práce",
+          "pevnější základ pro reporting",
+          "systém, který lze dál rozšiřovat bez provizorií"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jak poznat, že už nestačí SaaS nebo tabulky?",
+            "answer": "Ve chvíli, kdy vzniká moc ruční práce, role mají rozdílné potřeby, data jsou v několika místech a obcházení omezení začíná být dražší než vlastní řešení."
+          },
+          {
+            "question": "Musí mít interní systém všechny funkce hned?",
+            "answer": "Nemusí. Naopak je lepší začít menší verzí, která zlepší nejkritičtější část procesu."
+          },
+          {
+            "question": "Co když si nejsme jistí rozsahem?",
+            "answer": "To je běžné. Na začátku potřebujeme hlavně provozní kontext, priority a hranici první etapy."
+          },
+          {
+            "question": "Lze systém napojit na další nástroje?",
+            "answer": "Ano. U interních systémů je to často klíčové, protože bez napojení by se jen přesunula ruční práce jinam."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

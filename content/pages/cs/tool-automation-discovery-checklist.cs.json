@@ -1,0 +1,245 @@
+{
+  "id": "tool-automation-discovery-checklist.cs",
+  "locale": "cs",
+  "slug": "/sablony/discovery-checklist-pro-automatizace",
+  "title": "Discovery checklist pro automatizace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Discovery checklist pro automatizace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický checklist pro discovery fázi automatizací: proces, výjimky, ownership, datové zdroje a provozní dopad před startem integračního projektu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-automation-discovery-checklist",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "discovery-checklist-pro-automatizace",
+          "segments": [
+            "sablony",
+            "discovery-checklist-pro-automatizace"
+          ],
+          "title": "Discovery checklist pro automatizace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Discovery checklist pro automatizace a workflow integrace",
+          "description": "Praktický checklist pro discovery fázi automatizací: proces, výjimky, ownership, datové zdroje a provozní dopad před startem integračního projektu.",
+          "primaryQuery": "discovery checklist pro automatizace",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Než začnete automatizovat, potřebujete rozumět procesu, výjimkám a ownershipu",
+            "subtitle": "Pracovní checklist pro firmy, které chtějí odlišit smysluplnou automatizaci od drahé digitalizace chaosu.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Automatizace bez discovery fáze často jen zrychlí špatně nastavený proces. Tento checklist pomáhá zmapovat, kde automatizace opravdu dává smysl a kde je problém spíš v ownershipu nebo workflow.",
+            "Je užitečný hlavně tam, kde mezi systémy vznikají ruční kroky, výjimky a závislost na konkrétních lidech, ale firma ještě nemá jasnou prioritu prvního zásahu."
+          ],
+          "sections": [
+            {
+              "title": "Co má asset pokrýt",
+              "body": [
+                "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí."
+              ],
+              "bullets": [
+                "mapu procesu a ručních kroků",
+                "výjimky, schválení a chybové stavy",
+                "zdrojová data, ownership a odpovědnosti",
+                "dopad automatizace na provoz a další systémy"
+              ]
+            },
+            {
+              "title": "Jak ho použít v praxi",
+              "body": [
+                "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv."
+              ],
+              "bullets": [
+                "před integračním nebo automatizačním discovery",
+                "při prioritizaci automatizačních příležitostí",
+                "jako podklad pro první workshop nebo audit"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl přinést",
+              "body": [
+                "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu."
+              ],
+              "bullets": [
+                "lepší výběr prvního automatizačního zásahu",
+                "méně rizika, že automatizace obejde skutečný problém",
+                "jasnější návaznost mezi procesem a technickým řešením",
+                "lepší podklad pro následnou implementaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Není to totéž jako API checklist?",
+              "answer": "Ne úplně. Tady je větší důraz na proces, výjimky a business ownership ještě před technickým návrhem integrace."
+            },
+            {
+              "question": "Je checklist použitelný i bez technického týmu?",
+              "answer": "Ano. Pomůže pojmenovat důležité otázky ještě před tím, než se začne řešit konkrétní technické řešení."
+            },
+            {
+              "question": "Lze na checklist navázat implementací?",
+              "answer": "Ano. Discovery checklist může plynule přejít do návrhu priorit a realizace prvních automatizací."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "problem-system-integrations",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s ručním workflow mezi více systémy",
+              "týmy, které chtějí prioritizovat automatizace podle dopadu",
+              "projekty s více výjimkami a ownership otázkami"
+            ],
+            "notFor": [
+              "jednoduchá jednorázová integrace bez procesu",
+              "projekty řešené čistě nákupem no-code licence",
+              "situace bez přístupu k lidem, kteří proces skutečně dělají"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Discovery checklist pro automatizace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický checklist pro discovery fázi automatizací: proces, výjimky, ownership, datové zdroje a provozní dopad před startem integračního projektu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-automation-discovery-checklist.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Než začnete automatizovat, potřebujete rozumět procesu, výjimkám a ownershipu",
+        "body": "Pracovní checklist pro firmy, které chtějí odlišit smysluplnou automatizaci od drahé digitalizace chaosu.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automatizace bez discovery fáze často jen zrychlí špatně nastavený proces. Tento checklist pomáhá zmapovat, kde automatizace opravdu dává smysl a kde je problém spíš v ownershipu nebo workflow.\n\nJe užitečný hlavně tam, kde mezi systémy vznikají ruční kroky, výjimky a závislost na konkrétních lidech, ale firma ještě nemá jasnou prioritu prvního zásahu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má asset pokrýt",
+        "body": "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí.",
+        "items": [
+          "mapu procesu a ručních kroků",
+          "výjimky, schválení a chybové stavy",
+          "zdrojová data, ownership a odpovědnosti",
+          "dopad automatizace na provoz a další systémy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ho použít v praxi",
+        "body": "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv.",
+        "items": [
+          "před integračním nebo automatizačním discovery",
+          "při prioritizaci automatizačních příležitostí",
+          "jako podklad pro první workshop nebo audit"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl přinést",
+        "body": "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu.",
+        "items": [
+          "lepší výběr prvního automatizačního zásahu",
+          "méně rizika, že automatizace obejde skutečný problém",
+          "jasnější návaznost mezi procesem a technickým řešením",
+          "lepší podklad pro následnou implementaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Není to totéž jako API checklist?",
+            "answer": "Ne úplně. Tady je větší důraz na proces, výjimky a business ownership ještě před technickým návrhem integrace."
+          },
+          {
+            "question": "Je checklist použitelný i bez technického týmu?",
+            "answer": "Ano. Pomůže pojmenovat důležité otázky ještě před tím, než se začne řešit konkrétní technické řešení."
+          },
+          {
+            "question": "Lze na checklist navázat implementací?",
+            "answer": "Ano. Discovery checklist může plynule přejít do návrhu priorit a realizace prvních automatizací."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

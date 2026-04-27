@@ -1,0 +1,237 @@
+{
+  "id": "problem-client-portal.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-klientsky-portal",
+  "title": "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
+  "seo": {
+    "title": "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
+    "description": "Pomohu firmám navrhnout klientský portál na míru tam, kde se opakuje komunikace o stavu zakázek, dokumentech, požadavcích nebo samoobslužných úkonech.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-client-portal",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-klientsky-portal",
+          "segments": [
+            "problemy",
+            "potrebujeme-klientsky-portal"
+          ],
+          "title": "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
+          "h1": "Klientský portál na míru pro komunikaci, data a klientskou samoobsluhu",
+          "description": "Pomohu firmám navrhnout klientský portál na míru tam, kde se opakuje komunikace o stavu zakázek, dokumentech, požadavcích nebo samoobslužných úkonech.",
+          "primaryQuery": "klientský portál na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Klientský portál místo e-mailového chaosu a ručního posílání dokumentů",
+            "subtitle": "Typická situace, kdy se opakují stejné dotazy, dokumenty se posílají ručně a firma chce dát klientovi přehlednější samoobslužný vstup.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Klientský portál na míru dává smysl ve chvíli, kdy firma opakovaně řeší stav služby, dokumenty, požadavky nebo další kroky přes e-mail, telefon a ruční zásahy podpory.",
+            "Silný první krok je vybrat, které klientské interakce mají největší dopad, a postavit první verzi právě kolem nich."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Bez portálové vrstvy zůstává podpora drahá, komunikace roztříštěná a klientský zážitek závislý na tom, kdo má právě čas odpovědět nebo dohledat správný stav."
+              ],
+              "bullets": [
+                "opakované dotazy klientů na stav služby nebo zakázky",
+                "ruční sdílení dokumentů a příloh",
+                "nepřehledná historie komunikace",
+                "potřeba samoobslužných kroků bez interní asistence"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Pomohu vybrat nejdůležitější klientské scénáře, navrhnout role, přístupy a vazbu na interní procesy tak, aby portál nebyl jen další vrstva bez skutečné hodnoty."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "méně opakované klientské podpory",
+                "lepší dostupnost informací pro klienta",
+                "větší důvěryhodnost procesu",
+                "silnější základ pro další rozvoj služeb"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je klientský portál vhodný i pro menší firmu?",
+              "answer": "Ano, pokud se opakují stejné dotazy, dokumenty nebo úkony a portál může odlehčit obsluhu i zlepšit klientský zážitek."
+            },
+            {
+              "question": "Musí být portál rozsáhlý od začátku?",
+              "answer": "Nemusí. Často je nejlepší začít menší verzí zaměřenou na nejčastější interakce."
+            },
+            {
+              "question": "Potřebujeme k portálu i interní administraci?",
+              "answer": "Velmi často ano. Portál dává smysl jen tehdy, když má i rozumné backoffice zázemí."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-internal-tools-development",
+            "use-case-b2b-client-portal",
+            "use-case-b2b-partner-portal",
+            "comparison-custom-vs-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s opakovanou klientskou komunikací nad stavem služby",
+              "produkty a služby, kde dává smysl samoobsluha",
+              "týmy, které chtějí propojit klientský vstup s interním procesem"
+            ],
+            "notFor": [
+              "jednorázové marketingové microsite",
+              "portál bez návaznosti na interní proces nebo data",
+              "projekty s očekáváním čistě vizuálního efektu bez provozní změny"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
+            "description": "Pomohu firmám navrhnout klientský portál na míru tam, kde se opakuje komunikace o stavu zakázek, dokumentech, požadavcích nebo samoobslužných úkonech."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-client-portal.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Klientský portál místo e-mailového chaosu a ručního posílání dokumentů",
+        "body": "Typická situace, kdy se opakují stejné dotazy, dokumenty se posílají ručně a firma chce dát klientovi přehlednější samoobslužný vstup.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Klientský portál na míru dává smysl ve chvíli, kdy firma opakovaně řeší stav služby, dokumenty, požadavky nebo další kroky přes e-mail, telefon a ruční zásahy podpory.\n\nSilný první krok je vybrat, které klientské interakce mají největší dopad, a postavit první verzi právě kolem nich."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Bez portálové vrstvy zůstává podpora drahá, komunikace roztříštěná a klientský zážitek závislý na tom, kdo má právě čas odpovědět nebo dohledat správný stav.",
+        "items": [
+          "opakované dotazy klientů na stav služby nebo zakázky",
+          "ruční sdílení dokumentů a příloh",
+          "nepřehledná historie komunikace",
+          "potřeba samoobslužných kroků bez interní asistence"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Pomohu vybrat nejdůležitější klientské scénáře, navrhnout role, přístupy a vazbu na interní procesy tak, aby portál nebyl jen další vrstva bez skutečné hodnoty."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "méně opakované klientské podpory",
+          "lepší dostupnost informací pro klienta",
+          "větší důvěryhodnost procesu",
+          "silnější základ pro další rozvoj služeb"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je klientský portál vhodný i pro menší firmu?",
+            "answer": "Ano, pokud se opakují stejné dotazy, dokumenty nebo úkony a portál může odlehčit obsluhu i zlepšit klientský zážitek."
+          },
+          {
+            "question": "Musí být portál rozsáhlý od začátku?",
+            "answer": "Nemusí. Často je nejlepší začít menší verzí zaměřenou na nejčastější interakce."
+          },
+          {
+            "question": "Potřebujeme k portálu i interní administraci?",
+            "answer": "Velmi často ano. Portál dává smysl jen tehdy, když má i rozumné backoffice zázemí."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

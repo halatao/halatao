@@ -1,0 +1,283 @@
+{
+  "id": "service-custom-web-app-development.cs",
+  "locale": "cs",
+  "slug": "/sluzby/vyvoj-webovych-aplikaci-na-miru",
+  "title": "Vývoj webové aplikace na míru | Firemní aplikace, portály a workflow",
+  "seo": {
+    "title": "Vývoj webové aplikace na míru | Firemní aplikace, portály a workflow",
+    "description": "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní workflow, klientský portál, interní systém nebo napojení na další systémy.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-custom-web-app-development",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "vyvoj-webovych-aplikaci-na-miru",
+          "segments": [
+            "sluzby",
+            "vyvoj-webovych-aplikaci-na-miru"
+          ],
+          "title": "Vývoj webové aplikace na míru | Firemní aplikace, portály a workflow",
+          "h1": "Vývoj webové aplikace na míru pro firmy",
+          "description": "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní workflow, klientský portál, interní systém nebo napojení na další systémy.",
+          "primaryQuery": "vývoj webové aplikace na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Služba",
+            "title": "Webová aplikace na míru pro firmy, kterým hotový software nestačí",
+            "subtitle": "Nejčastěji pro klientské portály, interní systémy, operativní workflow a aplikace s více rolemi, daty a integracemi.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Jak spolupráce probíhá",
+              "href": "/cs/jak-spoluprace-probiha"
+            }
+          },
+          "intro": [
+            "Vývoj webové aplikace na míru dává smysl ve chvíli, kdy firma potřebuje vlastní workflow, role, schvalování nebo napojení na další systémy a hotový nástroj už vytváří víc omezení než hodnoty.",
+            "Nejde jen o napsání funkcí. Důležitý je návrh dat, oprávnění, hranic systému a provozu tak, aby šla aplikace bezpečně rozvíjet i za rok nebo dva bez drahých obcházek.",
+            "Pomohu od zadání přes návrh MVP až po realizaci a další rozvoj. Pokud už máte tým, mohu navázat i uvnitř rozpracovaného produktu."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tato služba dává smysl",
+              "body": [
+                "Silný fit bývá tam, kde aplikace řeší provozně důležitý proces a firma potřebuje systém podle vlastní reality, ne další obcházení omezení hotového nástroje."
+              ],
+              "bullets": [
+                "klientský portál nebo extranet",
+                "interní administrace a operativa",
+                "workflow a schvalování",
+                "dashboardy a reporting nad vlastními daty"
+              ]
+            },
+            {
+              "title": "Co typicky řeším a dodávám",
+              "body": [
+                "Součástí typicky není jen frontend. Řeším i backendovou logiku, datový model, integrace, release proces a technická rozhodnutí pro další etapy."
+              ],
+              "bullets": [
+                "technický návrh a rozpad MVP",
+                "full-stack vývoj a průběžné nasazování",
+                "napojení API a externích služeb",
+                "stabilizace výkonu, chyb a provozu"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Na začátku potřebujeme pochopit problém, současný proces a priority první verze. Pak preferuji menší iterace a rozhodování nad konkrétním softwarem, ne nad nekonečným backlogem."
+              ]
+            },
+            {
+              "title": "Jaký výsledek má spolupráce přinést",
+              "body": [
+                "Výsledkem má být použitelný systém, který pomáhá byznysu, drží technicky pohromadě a dá se bezpečně rozšiřovat."
+              ],
+              "bullets": [
+                "méně provozních obcházek a ruční práce",
+                "větší jistota dalšího rozvoje",
+                "lepší práce s rolemi a daty",
+                "jasnější architektura než u ad hoc řešení"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Kolik detailů musíme mít připravených před startem?",
+              "answer": "Stačí popsat problém, současný proces a cílový výsledek. Kompletní specifikace nebývá na začátku nutná."
+            },
+            {
+              "question": "Umíte navázat i na existující tým?",
+              "answer": "Ano. Mohu dodat ucelenou část řešení samostatně nebo doplnit interní tým jako seniorní kontraktor."
+            },
+            {
+              "question": "Je možné začít jen MVP verzí?",
+              "answer": "Ano. U větších projektů je to často nejlepší cesta, jak ověřit priority a dostat první hodnotu do provozu bez zbytečného přeplnění scope."
+            },
+            {
+              "question": "Pomůžete i po spuštění?",
+              "answer": "Ano. Běžná spolupráce zahrnuje další rozvoj, technické dluhy, opravy i rozhodování o dalším směru."
+            }
+          ],
+          "related": [
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application",
+            "use-case-b2b-client-portal",
+            "use-case-b2b-partner-portal",
+            "problem-client-portal",
+            "problem-internal-tool",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s vlastním workflow a více rolemi",
+              "projekty, kde SaaS nástroj vytváří zbytečné kompromisy",
+              "týmy, které chtějí aplikaci dlouhodobě rozvíjet"
+            ],
+            "notFor": [
+              "jednoduché prezentační weby",
+              "jednorázové microsites bez logiky",
+              "projekty řízené jen nejnižší cenou bez ownershipu"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku."
+          },
+          "seo": {
+            "title": "Vývoj webové aplikace na míru | Firemní aplikace, portály a workflow",
+            "description": "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní workflow, klientský portál, interní systém nebo napojení na další systémy."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-custom-web-app-development.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Služba",
+        "heading": "Webová aplikace na míru pro firmy, kterým hotový software nestačí",
+        "body": "Nejčastěji pro klientské portály, interní systémy, operativní workflow a aplikace s více rolemi, daty a integracemi.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Jak spolupráce probíhá",
+        "secondaryCtaHref": "/cs/jak-spoluprace-probiha"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Vývoj webové aplikace na míru dává smysl ve chvíli, kdy firma potřebuje vlastní workflow, role, schvalování nebo napojení na další systémy a hotový nástroj už vytváří víc omezení než hodnoty.\n\nNejde jen o napsání funkcí. Důležitý je návrh dat, oprávnění, hranic systému a provozu tak, aby šla aplikace bezpečně rozvíjet i za rok nebo dva bez drahých obcházek.\n\nPomohu od zadání přes návrh MVP až po realizaci a další rozvoj. Pokud už máte tým, mohu navázat i uvnitř rozpracovaného produktu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tato služba dává smysl",
+        "body": "Silný fit bývá tam, kde aplikace řeší provozně důležitý proces a firma potřebuje systém podle vlastní reality, ne další obcházení omezení hotového nástroje.",
+        "items": [
+          "klientský portál nebo extranet",
+          "interní administrace a operativa",
+          "workflow a schvalování",
+          "dashboardy a reporting nad vlastními daty"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co typicky řeším a dodávám",
+        "body": "Součástí typicky není jen frontend. Řeším i backendovou logiku, datový model, integrace, release proces a technická rozhodnutí pro další etapy.",
+        "items": [
+          "technický návrh a rozpad MVP",
+          "full-stack vývoj a průběžné nasazování",
+          "napojení API a externích služeb",
+          "stabilizace výkonu, chyb a provozu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Na začátku potřebujeme pochopit problém, současný proces a priority první verze. Pak preferuji menší iterace a rozhodování nad konkrétním softwarem, ne nad nekonečným backlogem."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek má spolupráce přinést",
+        "body": "Výsledkem má být použitelný systém, který pomáhá byznysu, drží technicky pohromadě a dá se bezpečně rozšiřovat.",
+        "items": [
+          "méně provozních obcházek a ruční práce",
+          "větší jistota dalšího rozvoje",
+          "lepší práce s rolemi a daty",
+          "jasnější architektura než u ad hoc řešení"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Kolik detailů musíme mít připravených před startem?",
+            "answer": "Stačí popsat problém, současný proces a cílový výsledek. Kompletní specifikace nebývá na začátku nutná."
+          },
+          {
+            "question": "Umíte navázat i na existující tým?",
+            "answer": "Ano. Mohu dodat ucelenou část řešení samostatně nebo doplnit interní tým jako seniorní kontraktor."
+          },
+          {
+            "question": "Je možné začít jen MVP verzí?",
+            "answer": "Ano. U větších projektů je to často nejlepší cesta, jak ověřit priority a dostat první hodnotu do provozu bez zbytečného přeplnění scope."
+          },
+          {
+            "question": "Pomůžete i po spuštění?",
+            "answer": "Ano. Běžná spolupráce zahrnuje další rozvoj, technické dluhy, opravy i rozhodování o dalším směru."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

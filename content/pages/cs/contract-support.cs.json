@@ -1,0 +1,248 @@
+{
+  "id": "contract-support.cs",
+  "locale": "cs",
+  "slug": "/spoluprace-na-kontrakt",
+  "title": "Externí spolupráce na kontrakt | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Externí spolupráce na kontrakt | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Seniorní kontraktní spolupráce pro firmy a týmy, které potřebují posílit vývoj, takeover, architekturu nebo delivery v důležité webové aplikaci.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "contract-support",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "spoluprace-na-kontrakt",
+          "segments": [
+            "spoluprace-na-kontrakt"
+          ],
+          "title": "Externí spolupráce na kontrakt | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Externí spolupráce na kontrakt pro firmy a produktové týmy",
+          "description": "Seniorní kontraktní spolupráce pro firmy a týmy, které potřebují posílit vývoj, takeover, architekturu nebo delivery v důležité webové aplikaci.",
+          "primaryQuery": "externí spolupráce na kontrakt",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Když tým potřebuje zkušenější kapacitu, ne dalšího juniora na backlog",
+            "subtitle": "Vhodné pro firmy, které mají vlastní tým nebo produkt, ale potřebují převzít konkrétní technickou oblast, zrychlit delivery nebo stabilizovat problémový projekt.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Ne každá spolupráce musí být čistě dodavatelský model. Často dává největší smysl zapojit se jako seniorní kontraktor do existujícího týmu a převzít konkrétní zodpovědnost.",
+            "To může znamenat převzetí části aplikace, návrh architektury, stabilizaci problémové oblasti, vedení implementace nebo dočasné doplnění týmu v klíčové fázi projektu.",
+            "Smyslem není prodávat hodinovou kapacitu bez kontextu, ale skutečně pomoct projektu posunout se dál."
+          ],
+          "sections": [
+            {
+              "title": "Kdy kontraktní spolupráce dává smysl",
+              "body": [
+                "Typicky ve chvíli, kdy tým potřebuje rychle doplnit seniornější vývoj, technické vedení nebo takeover konkrétní části systému."
+              ],
+              "bullets": [
+                "dočasné posílení delivery",
+                "převzetí odpovědnosti za konkrétní oblast",
+                "stabilizace po odchodu člověka",
+                "podpora při technickém rozhodování"
+              ]
+            },
+            {
+              "title": "Jaký typ přínosu obvykle dodávám",
+              "body": [
+                "Kromě implementace jde často i o návrh, prioritizaci, zjednodušení technických rozhodnutí a lepší propojení mezi technikou a business potřebou."
+              ]
+            },
+            {
+              "title": "Jak spolupráce funguje v praxi",
+              "body": [
+                "Spolupráci lze nastavit jako pravidelnou kapacitu i jako jasně vymezený workstream. Důležité je, aby byl známý cíl, odpovědnost a způsob spolupráce s interním týmem."
+              ]
+            },
+            {
+              "title": "Jak vypadá rozumný první krok",
+              "body": [
+                "Na začátku potřebujeme rychle vyjasnit, kde přesně chybí seniorní ownership, jakou část projektu má smysl převzít a podle čeho poznáme, že první fáze přinesla reálný posun."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je to vhodné i pro menší tým?",
+              "answer": "Ano, pokud je potřeba rychle doplnit zkušenost, převzít problémovou oblast nebo dodat projekt v citlivé fázi."
+            },
+            {
+              "question": "Umíte fungovat přímo uvnitř existujícího delivery procesu?",
+              "answer": "Ano. Běžně navazuji na existující repo, ticketing, release proces i týmovou komunikaci."
+            },
+            {
+              "question": "Musí jít o dlouhodobý kontrakt?",
+              "answer": "Nemusí. Někdy stačí několik týdnů na takeover, stabilizaci nebo rozjezd další etapy."
+            },
+            {
+              "question": "Je to totéž jako agenturní dodávka?",
+              "answer": "Ne. Smyslem je osobní seniorní zapojení do konkrétní projektové situace, ne anonymní přeposílání kapacity."
+            }
+          ],
+          "related": [
+            "comparison-contractor-vs-agency",
+            "problem-senior-contract-capacity",
+            "guide-when-project-needs-senior-contract-support",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s vlastním produktem nebo týmem",
+              "projekty, které potřebují seniornější technickou oporu",
+              "situace s tlakem na rychlé navázání"
+            ],
+            "notFor": [
+              "čistě náborová poptávka",
+              "bodyshopping bez kontextu projektu",
+              "požadavek na plně agenturní model"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí základní kontext. Ozvu se s realistickým dalším krokem."
+          },
+          "seo": {
+            "title": "Externí spolupráce na kontrakt | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Seniorní kontraktní spolupráce pro firmy a týmy, které potřebují posílit vývoj, takeover, architekturu nebo delivery v důležité webové aplikaci."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "contract-support.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Když tým potřebuje zkušenější kapacitu, ne dalšího juniora na backlog",
+        "body": "Vhodné pro firmy, které mají vlastní tým nebo produkt, ale potřebují převzít konkrétní technickou oblast, zrychlit delivery nebo stabilizovat problémový projekt.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Ne každá spolupráce musí být čistě dodavatelský model. Často dává největší smysl zapojit se jako seniorní kontraktor do existujícího týmu a převzít konkrétní zodpovědnost.\n\nTo může znamenat převzetí části aplikace, návrh architektury, stabilizaci problémové oblasti, vedení implementace nebo dočasné doplnění týmu v klíčové fázi projektu.\n\nSmyslem není prodávat hodinovou kapacitu bez kontextu, ale skutečně pomoct projektu posunout se dál."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy kontraktní spolupráce dává smysl",
+        "body": "Typicky ve chvíli, kdy tým potřebuje rychle doplnit seniornější vývoj, technické vedení nebo takeover konkrétní části systému.",
+        "items": [
+          "dočasné posílení delivery",
+          "převzetí odpovědnosti za konkrétní oblast",
+          "stabilizace po odchodu člověka",
+          "podpora při technickém rozhodování"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký typ přínosu obvykle dodávám",
+        "body": "Kromě implementace jde často i o návrh, prioritizaci, zjednodušení technických rozhodnutí a lepší propojení mezi technikou a business potřebou."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce funguje v praxi",
+        "body": "Spolupráci lze nastavit jako pravidelnou kapacitu i jako jasně vymezený workstream. Důležité je, aby byl známý cíl, odpovědnost a způsob spolupráce s interním týmem."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak vypadá rozumný první krok",
+        "body": "Na začátku potřebujeme rychle vyjasnit, kde přesně chybí seniorní ownership, jakou část projektu má smysl převzít a podle čeho poznáme, že první fáze přinesla reálný posun."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je to vhodné i pro menší tým?",
+            "answer": "Ano, pokud je potřeba rychle doplnit zkušenost, převzít problémovou oblast nebo dodat projekt v citlivé fázi."
+          },
+          {
+            "question": "Umíte fungovat přímo uvnitř existujícího delivery procesu?",
+            "answer": "Ano. Běžně navazuji na existující repo, ticketing, release proces i týmovou komunikaci."
+          },
+          {
+            "question": "Musí jít o dlouhodobý kontrakt?",
+            "answer": "Nemusí. Někdy stačí několik týdnů na takeover, stabilizaci nebo rozjezd další etapy."
+          },
+          {
+            "question": "Je to totéž jako agenturní dodávka?",
+            "answer": "Ne. Smyslem je osobní seniorní zapojení do konkrétní projektové situace, ne anonymní přeposílání kapacity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí základní kontext. Ozvu se s realistickým dalším krokem.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

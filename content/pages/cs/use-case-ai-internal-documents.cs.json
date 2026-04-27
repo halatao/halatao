@@ -1,0 +1,249 @@
+{
+  "id": "use-case-ai-internal-documents.cs",
+  "locale": "cs",
+  "slug": "/priklady/ai-nad-internimi-dokumenty",
+  "title": "AI nad interními dokumenty a znalostmi firmy",
+  "seo": {
+    "title": "AI nad interními dokumenty a znalostmi firmy",
+    "description": "Příklad využití AI nad interními dokumenty a znalostmi firmy pro rychlejší dohledání informací, lepší onboarding a menší závislost týmu na ručním předávání z...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-ai-internal-documents",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "ai-nad-internimi-dokumenty",
+          "segments": [
+            "priklady",
+            "ai-nad-internimi-dokumenty"
+          ],
+          "title": "AI nad interními dokumenty a znalostmi firmy",
+          "h1": "AI nad interními dokumenty a znalostmi firmy",
+          "description": "Příklad využití AI nad interními dokumenty a znalostmi firmy pro rychlejší dohledání informací, lepší onboarding a menší závislost týmu na ručním předávání znalostí.",
+          "primaryQuery": "ai nad interními dokumenty",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Najít správnou informaci místo jejího zdlouhavého dohledávání",
+            "subtitle": "Vhodné tam, kde tým tráví čas hledáním odpovědí v dokumentech, poznámkách, návodech nebo roztříštěných interních materiálech.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Firmy často mají důležité informace rozptýlené v dokumentech, e-mailech, poznámkách a hlavách lidí. Problém pak není jen dostupnost informací, ale i čas, který jejich dohledání stojí.",
+            "AI dává v tomto use casu smysl jako vrstva nad existujícími dokumenty nebo interní znalostní bází. Ne jako náhrada procesu, ale jako rychlejší cesta k tomu, co už ve firmě existuje."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "noví lidé se dlouho orientují v interních materiálech",
+                "support nebo obchod opakovaně dohledává stejné informace",
+                "návody, dokumenty a pravidla jsou rozptýlené v několika úložištích",
+                "firma je závislá na konkrétních lidech, kteří vědí, kde co najít"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "návrh AI vrstvy nad dokumenty nebo interní knowledge base",
+                "napojení na interní zdroje a relevantní dokumenty",
+                "omezení odpovědí na určený kontext a zdroje",
+                "ověření prvního provozního scénáře a návaznost na týmové workflow"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "rychlejší dohledání informací v interních materiálech",
+                "menší závislost na ručním předávání znalostí",
+                "lepší onboarding a podpora interních týmů",
+                "silnější základ pro další práci s dokumenty a interní znalostí"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí být všechny dokumenty perfektně připravené?",
+              "answer": "Nemusí, ale čím lepší je struktura a kvalita podkladů, tím spolehlivější bývá výsledek. Často dává smysl začít jen vybranou částí dokumentace."
+            },
+            {
+              "question": "Je to vhodné i bez plnohodnotné knowledge base?",
+              "answer": "Ano. V řadě případů lze začít nad dokumenty, návody nebo interními materiály, které už firma má, a teprve postupně zlepšovat jejich strukturu."
+            },
+            {
+              "question": "Nahradí to zkušené lidi v týmu?",
+              "answer": "Ne. Cílem je zkrátit dohledávání a snížit rutinní závislost na konkrétních lidech, ne nahradit jejich know-how."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-internal-tools-development",
+            "problem-ai-in-business-process",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s dokumenty, návody a interními znalostmi rozptýlenými mezi nástroji",
+              "týmy, které opakovaně hledají stejné odpovědi",
+              "situace, kde je potřeba zrychlit onboarding nebo interní podporu"
+            ],
+            "notFor": [
+              "projekty bez použitelných interních zdrojů",
+              "očekávání, že AI nahradí chybějící dokumentaci úplně sama",
+              "use case bez ownera interního obsahu a odpovědnosti za zdroje"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "AI nad interními dokumenty a znalostmi firmy",
+            "description": "Příklad využití AI nad interními dokumenty a znalostmi firmy pro rychlejší dohledání informací, lepší onboarding a menší závislost týmu na ručním předávání znalostí."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-ai-internal-documents.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Najít správnou informaci místo jejího zdlouhavého dohledávání",
+        "body": "Vhodné tam, kde tým tráví čas hledáním odpovědí v dokumentech, poznámkách, návodech nebo roztříštěných interních materiálech.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Firmy často mají důležité informace rozptýlené v dokumentech, e-mailech, poznámkách a hlavách lidí. Problém pak není jen dostupnost informací, ale i čas, který jejich dohledání stojí.\n\nAI dává v tomto use casu smysl jako vrstva nad existujícími dokumenty nebo interní znalostní bází. Ne jako náhrada procesu, ale jako rychlejší cesta k tomu, co už ve firmě existuje."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "noví lidé se dlouho orientují v interních materiálech",
+          "support nebo obchod opakovaně dohledává stejné informace",
+          "návody, dokumenty a pravidla jsou rozptýlené v několika úložištích",
+          "firma je závislá na konkrétních lidech, kteří vědí, kde co najít"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "návrh AI vrstvy nad dokumenty nebo interní knowledge base",
+          "napojení na interní zdroje a relevantní dokumenty",
+          "omezení odpovědí na určený kontext a zdroje",
+          "ověření prvního provozního scénáře a návaznost na týmové workflow"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "rychlejší dohledání informací v interních materiálech",
+          "menší závislost na ručním předávání znalostí",
+          "lepší onboarding a podpora interních týmů",
+          "silnější základ pro další práci s dokumenty a interní znalostí"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí být všechny dokumenty perfektně připravené?",
+            "answer": "Nemusí, ale čím lepší je struktura a kvalita podkladů, tím spolehlivější bývá výsledek. Často dává smysl začít jen vybranou částí dokumentace."
+          },
+          {
+            "question": "Je to vhodné i bez plnohodnotné knowledge base?",
+            "answer": "Ano. V řadě případů lze začít nad dokumenty, návody nebo interními materiály, které už firma má, a teprve postupně zlepšovat jejich strukturu."
+          },
+          {
+            "question": "Nahradí to zkušené lidi v týmu?",
+            "answer": "Ne. Cílem je zkrátit dohledávání a snížit rutinní závislost na konkrétních lidech, ne nahradit jejich know-how."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "hub-templates.cs",
+  "locale": "cs",
+  "slug": "/sablony",
+  "title": "Šablony a checklisty pro zadání aplikace, takeover a automatizace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Šablony a checklisty pro zadání aplikace, takeover a automatizace |...",
+    "description": "Přehled šablon a checklistů pro brief webové aplikace, takeover, interní systémy, API integrace a discovery automatizací.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-templates",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "sablony",
+          "segments": [
+            "sablony"
+          ],
+          "title": "Šablony a checklisty pro zadání aplikace, takeover a automatizace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Šablony a checklisty, které zkracují cestu k lepšímu prvnímu rozhodnutí",
+          "description": "Přehled šablon a checklistů pro brief webové aplikace, takeover, interní systémy, API integrace a discovery automatizací.",
+          "primaryQuery": "Šablony a checklisty, které zkracují cestu k lepšímu prvnímu rozhodnutí",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Praktické šablony pro chvíli, kdy projekt potřebuje řád dřív než chaos",
+            "subtitle": "Sekce obsahuje použitelné pracovní podklady pro scoping, takeover, interní systémy a automatizační projekty. Ne administrativu pro administrativu.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tyto stránky slouží jako pracovní pomůcky pro první rozhodnutí. Pomáhají buyerovi a týmu ujasnit si klíčové otázky ještě před implementací nebo takeoverem.",
+            "Najdete tu brief pro webovou aplikaci, takeover checklist, API checklist, scope worksheet pro interní systém i discovery checklist pro automatizace."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Každá child page vysvětluje, co má dokument pokrýt, jak ho použít v praxi a jaký typ rozhodnutí by měl zlepšit."
+              ]
+            },
+            {
+              "title": "Komu tato sekce nejvíc pomůže",
+              "body": [
+                "Tato sekce slouží jako podpůrná autoritativní vrstva pro buyery a týmy, které potřebují lépe rozhodovat o technologiích, šablonách nebo lokálním kontextu."
+              ],
+              "bullets": [
+                "příprava na první call nebo scoping workshop",
+                "převzetí existující aplikace nebo rozdělaného projektu",
+                "interní systém nebo automatizace s více neznámými a výjimkami"
+              ]
+            },
+            {
+              "title": "Jak z ní pokračovat dál",
+              "body": [
+                "Vyberte child page nejbližší aktuálnímu rozhodnutí a potom pokračujte na související službu, srovnání nebo inquiry."
+              ],
+              "bullets": [
+                "vyberte asset podle typu projektu nebo nejistoty",
+                "použijte ho jako interní pracovní podklad, ne jako finální PDF pro šuplík",
+                "pokud chcete pomoc i s realizací, přejděte na inquiry"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Nahrazují šablony projektový návrh nebo architekturu?",
+              "answer": "Ne. Pomáhají zlepšit vstupní rámec, ale nenahrazují audit, architekturu ani detailní scope."
+            },
+            {
+              "question": "Jsou užitečné i bez technického týmu?",
+              "answer": "Ano. Jsou psané tak, aby pomohly i business buyerovi zlepšit kvalitu prvního zadání."
+            },
+            {
+              "question": "Vedou tyto stránky i na komerční další krok?",
+              "answer": "Ano. Každý asset odkazuje na související službu, guide nebo inquiry flow."
+            }
+          ],
+          "related": [
+            "tool-web-app-project-brief-template",
+            "tool-app-takeover-checklist",
+            "tool-api-integration-checklist",
+            "tool-internal-tool-scope-worksheet",
+            "tool-automation-discovery-checklist"
+          ],
+          "fit": {
+            "for": [
+              "příprava na první call nebo scoping workshop",
+              "převzetí existující aplikace nebo rozdělaného projektu",
+              "interní systém nebo automatizace s více neznámými a výjimkami"
+            ],
+            "notFor": [
+              "čtení bez návaznosti na reálné software rozhodnutí"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud už řešíte konkrétní projekt, navrhnu další krok podle vašeho kontextu a priorit."
+          },
+          "seo": {
+            "title": "Šablony a checklisty pro zadání aplikace, takeover a automatizace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled šablon a checklistů pro brief webové aplikace, takeover, interní systémy, API integrace a discovery automatizací."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-templates.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Praktické šablony pro chvíli, kdy projekt potřebuje řád dřív než chaos",
+        "body": "Sekce obsahuje použitelné pracovní podklady pro scoping, takeover, interní systémy a automatizační projekty. Ne administrativu pro administrativu.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tyto stránky slouží jako pracovní pomůcky pro první rozhodnutí. Pomáhají buyerovi a týmu ujasnit si klíčové otázky ještě před implementací nebo takeoverem.\n\nNajdete tu brief pro webovou aplikaci, takeover checklist, API checklist, scope worksheet pro interní systém i discovery checklist pro automatizace."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Každá child page vysvětluje, co má dokument pokrýt, jak ho použít v praxi a jaký typ rozhodnutí by měl zlepšit."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Komu tato sekce nejvíc pomůže",
+        "body": "Tato sekce slouží jako podpůrná autoritativní vrstva pro buyery a týmy, které potřebují lépe rozhodovat o technologiích, šablonách nebo lokálním kontextu.",
+        "items": [
+          "příprava na první call nebo scoping workshop",
+          "převzetí existující aplikace nebo rozdělaného projektu",
+          "interní systém nebo automatizace s více neznámými a výjimkami"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak z ní pokračovat dál",
+        "body": "Vyberte child page nejbližší aktuálnímu rozhodnutí a potom pokračujte na související službu, srovnání nebo inquiry.",
+        "items": [
+          "vyberte asset podle typu projektu nebo nejistoty",
+          "použijte ho jako interní pracovní podklad, ne jako finální PDF pro šuplík",
+          "pokud chcete pomoc i s realizací, přejděte na inquiry"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Nahrazují šablony projektový návrh nebo architekturu?",
+            "answer": "Ne. Pomáhají zlepšit vstupní rámec, ale nenahrazují audit, architekturu ani detailní scope."
+          },
+          {
+            "question": "Jsou užitečné i bez technického týmu?",
+            "answer": "Ano. Jsou psané tak, aby pomohly i business buyerovi zlepšit kvalitu prvního zadání."
+          },
+          {
+            "question": "Vedou tyto stránky i na komerční další krok?",
+            "answer": "Ano. Každý asset odkazuje na související službu, guide nebo inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud už řešíte konkrétní projekt, navrhnu další krok podle vašeho kontextu a priorit.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

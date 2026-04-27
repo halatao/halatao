@@ -1,0 +1,247 @@
+{
+  "id": "comparison-nextjs-vs-spa.cs",
+  "locale": "cs",
+  "slug": "/srovnani/nextjs-vs-spa-pro-byznys-aplikace",
+  "title": "Next.js vs SPA pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Next.js vs SPA pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktické srovnání Next.js a klasické SPA architektury pro business webové aplikace, interní systémy a klientské portály.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-nextjs-vs-spa",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "comparison",
+          "slug": "nextjs-vs-spa-pro-byznys-aplikace",
+          "segments": [
+            "srovnani",
+            "nextjs-vs-spa-pro-byznys-aplikace"
+          ],
+          "title": "Next.js vs SPA pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Next.js vs SPA pro byznys aplikace",
+          "description": "Praktické srovnání Next.js a klasické SPA architektury pro business webové aplikace, interní systémy a klientské portály.",
+          "primaryQuery": "nextjs vs spa pro byznys aplikace",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Srovnání",
+            "title": "Nejde o framework mód. Jde o to, jak se aplikace bude používat a rozvíjet.",
+            "subtitle": "U business aplikací je důležité SEO, rychlost prvního načtení, práce s obsahem i provozní jednoduchost.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Čistá SPA architektura není špatně. Jen není automaticky nejlepší pro každý typ business aplikace.",
+            "Next.js dává výhodu tam, kde potřebujete kombinovat aplikaci s obsahem, SEO, rychlým načtením a flexibilnějším způsobem renderingu."
+          ],
+          "sections": [
+            {
+              "title": "Kdy dává smysl Next.js",
+              "body": [
+                "Next.js je silný tam, kde web kombinuje marketingové a komerční stránky s aplikací, potřebuje SEO, statické generování nebo serverové renderování vybraných částí."
+              ]
+            },
+            {
+              "title": "Kdy je klasická SPA v pořádku",
+              "body": [
+                "SPA dává smysl u interních nástrojů bez SEO požadavků, s jednoduchým nasazením a čistě aplikačním použitím bez obsahové vrstvy."
+              ]
+            },
+            {
+              "title": "Podle čeho rozhodovat",
+              "body": [
+                "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady."
+              ],
+              "bullets": [
+                "SEO a indexace",
+                "rychlost prvního načtení",
+                "kombinace obsahu a aplikace",
+                "složitost deploye a architektury"
+              ]
+            },
+            {
+              "title": "Praktický závěr",
+              "body": [
+                "Pro firemní weby a klientské portály bývá Next.js často praktičtější. U čistě interního nástroje bez obsahové vrstvy může být SPA úplně v pořádku."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je Next.js vždy technicky lepší?",
+              "answer": "Ne. Lepší je jen tam, kde jeho způsob renderingu a routing odpovídá potřebám projektu."
+            },
+            {
+              "question": "Má SPA problém se SEO?",
+              "answer": "Může mít, zejména pokud je důležitá indexace obsahu a prvotní vykreslení pro vyhledávače nebo AI discovery."
+            },
+            {
+              "question": "Lze v Next.js stavět i interní aplikace?",
+              "answer": "Ano. Jen je potřeba rozhodnout, zda jeho výhody projekt opravdu využije."
+            },
+            {
+              "question": "Rozhoduje jen framework?",
+              "answer": "Ne. Důležitější je architektura, datový model, release proces a kvalita implementace."
+            }
+          ],
+          "related": [
+            "technology-nextjs-for-business-applications",
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application"
+          ],
+          "fit": {
+            "for": [
+              "SEO a indexace",
+              "rychlost prvního načtení",
+              "kombinace obsahu a aplikace",
+              "složitost deploye a architektury"
+            ],
+            "notFor": [
+              "teoretické technologické debaty bez business cíle"
+            ]
+          },
+          "seo": {
+            "title": "Next.js vs SPA pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktické srovnání Next.js a klasické SPA architektury pro business webové aplikace, interní systémy a klientské portály."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-nextjs-vs-spa.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Srovnání",
+        "heading": "Nejde o framework mód. Jde o to, jak se aplikace bude používat a rozvíjet.",
+        "body": "U business aplikací je důležité SEO, rychlost prvního načtení, práce s obsahem i provozní jednoduchost.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Čistá SPA architektura není špatně. Jen není automaticky nejlepší pro každý typ business aplikace.\n\nNext.js dává výhodu tam, kde potřebujete kombinovat aplikaci s obsahem, SEO, rychlým načtením a flexibilnějším způsobem renderingu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy dává smysl Next.js",
+        "body": "Next.js je silný tam, kde web kombinuje marketingové a komerční stránky s aplikací, potřebuje SEO, statické generování nebo serverové renderování vybraných částí."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je klasická SPA v pořádku",
+        "body": "SPA dává smysl u interních nástrojů bez SEO požadavků, s jednoduchým nasazením a čistě aplikačním použitím bez obsahové vrstvy."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Podle čeho rozhodovat",
+        "body": "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady.",
+        "items": [
+          "SEO a indexace",
+          "rychlost prvního načtení",
+          "kombinace obsahu a aplikace",
+          "složitost deploye a architektury"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Praktický závěr",
+        "body": "Pro firemní weby a klientské portály bývá Next.js často praktičtější. U čistě interního nástroje bez obsahové vrstvy může být SPA úplně v pořádku."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je Next.js vždy technicky lepší?",
+            "answer": "Ne. Lepší je jen tam, kde jeho způsob renderingu a routing odpovídá potřebám projektu."
+          },
+          {
+            "question": "Má SPA problém se SEO?",
+            "answer": "Může mít, zejména pokud je důležitá indexace obsahu a prvotní vykreslení pro vyhledávače nebo AI discovery."
+          },
+          {
+            "question": "Lze v Next.js stavět i interní aplikace?",
+            "answer": "Ano. Jen je potřeba rozhodnout, zda jeho výhody projekt opravdu využije."
+          },
+          {
+            "question": "Rozhoduje jen framework?",
+            "answer": "Ne. Důležitější je architektura, datový model, release proces a kvalita implementace."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "guide-how-to-scope-a-custom-web-application.en",
+  "locale": "en",
+  "slug": "/guides/how-to-scope-a-custom-web-application",
+  "title": "How to scope a custom web application | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to scope a custom web application | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to scoping a custom web application without overloading the first phase or starting with vague expectations.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-scope-a-custom-web-application",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-scope-a-custom-web-application",
+          "segments": [
+            "guides",
+            "how-to-scope-a-custom-web-application"
+          ],
+          "title": "How to scope a custom web application | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to scope a custom web application without creating chaos",
+          "description": "A practical guide to scoping a custom web application without overloading the first phase or starting with vague expectations.",
+          "primaryQuery": "how to scope a custom web application",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "A good project brief is not a novel",
+            "subtitle": "The goal is not to describe every button. The goal is to define the problem, outcome, roles, constraints, and first delivery phase clearly enough to move.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Many teams delay a project because they do not have a perfect specification. In practice, a solid frame matters more than a huge document.",
+            "If the problem, desired outcome, and first-phase boundary are clear, the project can start with much less risk and much more useful feedback."
+          ],
+          "sections": [
+            {
+              "title": "Recommended approach",
+              "body": [
+                "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase."
+              ],
+              "bullets": [
+                "define the business problem and expected value",
+                "describe the main roles and workflow",
+                "decide what the first release must solve",
+                "clarify technical and operational constraints"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase."
+              ],
+              "bullets": [
+                "mixing nice-to-have ideas into the first phase",
+                "no owner on the client side",
+                "scope with no success definition",
+                "thinking about screens before the process"
+              ]
+            },
+            {
+              "title": "What the outcome should be",
+              "body": [
+                "The guide should help you make a better project decision, not add another document with no delivery impact."
+              ],
+              "bullets": [
+                "more realistic first-phase scope",
+                "better early estimates",
+                "faster start with less confusion",
+                "lower risk of solving secondary problems first"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do we need wireframes first?",
+              "answer": "Not always. Process, roles, and desired outcome usually matter more at the start than detailed visuals."
+            },
+            {
+              "question": "How much detail is enough?",
+              "answer": "Enough to shape the first phase and identify risk. Not so much that planning becomes a project in itself."
+            },
+            {
+              "question": "Is a workshop useful before implementation?",
+              "answer": "Often yes, especially when several roles or teams need alignment on the workflow and priorities."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "tool-web-app-project-brief-template",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "more realistic first-phase scope",
+              "better early estimates",
+              "faster start with less confusion",
+              "lower risk of solving secondary problems first"
+            ],
+            "notFor": [
+              "generic career advice"
+            ]
+          },
+          "seo": {
+            "title": "How to scope a custom web application | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to scoping a custom web application without overloading the first phase or starting with vague expectations."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-scope-a-custom-web-application.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "A good project brief is not a novel",
+        "body": "The goal is not to describe every button. The goal is to define the problem, outcome, roles, constraints, and first delivery phase clearly enough to move.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Many teams delay a project because they do not have a perfect specification. In practice, a solid frame matters more than a huge document.\n\nIf the problem, desired outcome, and first-phase boundary are clear, the project can start with much less risk and much more useful feedback."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase.",
+        "items": [
+          "define the business problem and expected value",
+          "describe the main roles and workflow",
+          "decide what the first release must solve",
+          "clarify technical and operational constraints"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase.",
+        "items": [
+          "mixing nice-to-have ideas into the first phase",
+          "no owner on the client side",
+          "scope with no success definition",
+          "thinking about screens before the process"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the outcome should be",
+        "body": "The guide should help you make a better project decision, not add another document with no delivery impact.",
+        "items": [
+          "more realistic first-phase scope",
+          "better early estimates",
+          "faster start with less confusion",
+          "lower risk of solving secondary problems first"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do we need wireframes first?",
+            "answer": "Not always. Process, roles, and desired outcome usually matter more at the start than detailed visuals."
+          },
+          {
+            "question": "How much detail is enough?",
+            "answer": "Enough to shape the first phase and identify risk. Not so much that planning becomes a project in itself."
+          },
+          {
+            "question": "Is a workshop useful before implementation?",
+            "answer": "Often yes, especially when several roles or teams need alignment on the workflow and priorities."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

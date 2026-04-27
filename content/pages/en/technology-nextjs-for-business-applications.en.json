@@ -1,0 +1,246 @@
+{
+  "id": "technology-nextjs-for-business-applications.en",
+  "locale": "en",
+  "slug": "/technology/nextjs-for-business-applications",
+  "title": "Next.js for business applications | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Next.js for business applications | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Where Next.js makes sense for business applications, client portals, and products combining application logic with commercial content and discoverability.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-nextjs-for-business-applications",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "technology",
+          "slug": "nextjs-for-business-applications",
+          "segments": [
+            "technology",
+            "nextjs-for-business-applications"
+          ],
+          "title": "Next.js for business applications | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Next.js for business applications, portals, and content-driven products",
+          "description": "Where Next.js makes sense for business applications, client portals, and products combining application logic with commercial content and discoverability.",
+          "primaryQuery": "nextjs for business applications",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technology",
+            "title": "Next.js is a practical tool, not a trend badge",
+            "subtitle": "It is strongest where content, SEO, first-load quality, and application logic need to coexist in one coherent stack.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Next.js is a strong choice for projects that are more than a purely internal tool with no discoverability requirements.",
+            "For many business products it helps combine commercial pages, documentation, and application flows without splitting the stack unnecessarily."
+          ],
+          "sections": [
+            {
+              "title": "Where this technology is a strong fit",
+              "body": [
+                "Technology should fit the product and delivery reality, not just developer preference."
+              ],
+              "bullets": [
+                "commercial pages and product experience in one app",
+                "SEO or AI discovery requirements",
+                "better first-load experience",
+                "shared routing and architecture across content and app layers"
+              ]
+            },
+            {
+              "title": "What to be careful about",
+              "body": [
+                "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture."
+              ],
+              "bullets": [
+                "using it where a simple SPA would do",
+                "adding complexity with no product benefit",
+                "weak data boundaries and rendering discipline"
+              ]
+            },
+            {
+              "title": "Typical fit for a business project",
+              "body": [
+                "The choice should support delivery speed, maintainability, and operational confidence over time."
+              ],
+              "bullets": [
+                "business websites with commercial landing pages",
+                "client portals",
+                "business apps with content and discovery needs",
+                "products that benefit from both static and dynamic rendering"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is Next.js useful for internal systems too?",
+              "answer": "Yes, but it is not always necessary. The key question is whether the project benefits from what it offers."
+            },
+            {
+              "question": "Does Next.js automatically improve performance?",
+              "answer": "No. Final performance still depends on data flow, architecture, and implementation quality."
+            },
+            {
+              "question": "Is it a good choice for a company website and app in one stack?",
+              "answer": "Yes. That is one of the contexts where it is often especially practical."
+            }
+          ],
+          "related": [
+            "comparison-nextjs-vs-spa",
+            "service-custom-web-app-development",
+            "home",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "business websites with commercial landing pages",
+              "client portals",
+              "business apps with content and discovery needs",
+              "products that benefit from both static and dynamic rendering"
+            ],
+            "notFor": [
+              "using it where a simple SPA would do",
+              "adding complexity with no product benefit",
+              "weak data boundaries and rendering discipline"
+            ]
+          },
+          "seo": {
+            "title": "Next.js for business applications | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Where Next.js makes sense for business applications, client portals, and products combining application logic with commercial content and discoverability."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-nextjs-for-business-applications.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technology",
+        "heading": "Next.js is a practical tool, not a trend badge",
+        "body": "It is strongest where content, SEO, first-load quality, and application logic need to coexist in one coherent stack.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Next.js is a strong choice for projects that are more than a purely internal tool with no discoverability requirements.\n\nFor many business products it helps combine commercial pages, documentation, and application flows without splitting the stack unnecessarily."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this technology is a strong fit",
+        "body": "Technology should fit the product and delivery reality, not just developer preference.",
+        "items": [
+          "commercial pages and product experience in one app",
+          "SEO or AI discovery requirements",
+          "better first-load experience",
+          "shared routing and architecture across content and app layers"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to be careful about",
+        "body": "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture.",
+        "items": [
+          "using it where a simple SPA would do",
+          "adding complexity with no product benefit",
+          "weak data boundaries and rendering discipline"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical fit for a business project",
+        "body": "The choice should support delivery speed, maintainability, and operational confidence over time.",
+        "items": [
+          "business websites with commercial landing pages",
+          "client portals",
+          "business apps with content and discovery needs",
+          "products that benefit from both static and dynamic rendering"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is Next.js useful for internal systems too?",
+            "answer": "Yes, but it is not always necessary. The key question is whether the project benefits from what it offers."
+          },
+          {
+            "question": "Does Next.js automatically improve performance?",
+            "answer": "No. Final performance still depends on data flow, architecture, and implementation quality."
+          },
+          {
+            "question": "Is it a good choice for a company website and app in one stack?",
+            "answer": "Yes. That is one of the contexts where it is often especially practical."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

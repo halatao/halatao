@@ -1,0 +1,246 @@
+{
+  "id": "location-praha.cs",
+  "locale": "cs",
+  "slug": "/lokality/praha",
+  "title": "Vývoj webových aplikací Praha | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Vývoj webových aplikací Praha | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Vývoj webových aplikací na míru, takeover existujících aplikací, interní systémy a automatizace pro firmy v Praze.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "location-praha",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "location",
+          "slug": "praha",
+          "segments": [
+            "lokality",
+            "praha"
+          ],
+          "title": "Vývoj webových aplikací Praha | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Vývoj webových aplikací na míru pro firmy v Praze",
+          "description": "Vývoj webových aplikací na míru, takeover existujících aplikací, interní systémy a automatizace pro firmy v Praze.",
+          "primaryQuery": "Prahu vývoj webových aplikací",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Lokalita",
+            "title": "Vývoj webových aplikací a interních systému pro Prahu",
+            "subtitle": "Spolupráce muže probíhat na dálku i osobne podle potreby projektu. Duležitejší než adresa je schopnost rychle se zorientovat v problému a dodat bezpecný další krok.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Praha má silné produktové i provozní týmy, které casto reší složitejší kombinaci interních systému, klientských portálu a navázání na existující aplikace.",
+            "Spolupráce dává smysl tam, kde je potreba zkušenejší technické vedení, takeover nebo vývoj rešení na míru pro duležitý proces."
+          ],
+          "sections": [
+            {
+              "title": "Kdy dává spolupráce v Prahu smysl",
+              "body": [
+                "Nejde o lokální SEO stránku bez obsahu. Stránka je urcená firmám, které hledají partnera pro konkrétní projektovou situaci: nový vývoj, takeover, interní systém nebo automatizaci."
+              ],
+              "bullets": [
+                "produktové a interní týmy",
+                "takeover existující aplikace",
+                "interní systémy a portály",
+                "automatizace napojená na více nástroju"
+              ]
+            },
+            {
+              "title": "S cím lze navázat",
+              "body": [
+                "Typicky jde o webové aplikace na míru, prevzetí existujících aplikací, interní nástroje, automatizace a externí kontraktní spolupráci na projektu."
+              ],
+              "bullets": [
+                "vývoj webových aplikací na míru",
+                "prevzetí existující aplikace",
+                "interní systémy na míru",
+                "automatizace a integrace",
+                "externí kontraktní spolupráce"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Úvodní cást lze rešit vzdálene. Pokud dává smysl osobní setkání nebo workshop, lze ho domluvit podle povahy projektu."
+              ],
+              "bullets": [
+                "úvodní call nebo workshop",
+                "návrh první etapy",
+                "prubežná realizace v menších krocích"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je možné spolupracovat i plne remote?",
+              "answer": "Ano. Vetšina spolupráce muže bežet vzdálene. Osobní setkání dává smysl hlavne u workshopu nebo kritických milníku."
+            },
+            {
+              "question": "Deláte i takeover projektu v Praze?",
+              "answer": "Ano. Práve takeover a stabilizace existujících aplikací je silný typ spolupráce."
+            },
+            {
+              "question": "Je potreba mít pripravené detailní zadání?",
+              "answer": "Ne. Pro zacátek stací kontext, problém a ocekávaný výsledek."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "service-internal-tools-development",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "produktové a interní týmy",
+              "takeover existující aplikace",
+              "interní systémy a portály",
+              "automatizace napojená na více nástroju"
+            ],
+            "notFor": [
+              "obecný adresár firem bez projektového kontextu"
+            ]
+          },
+          "seo": {
+            "title": "Vývoj webových aplikací Praha | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Vývoj webových aplikací na míru, takeover existujících aplikací, interní systémy a automatizace pro firmy v Praze."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "location-praha.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "location",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Lokalita",
+        "heading": "Vývoj webových aplikací a interních systému pro Prahu",
+        "body": "Spolupráce muže probíhat na dálku i osobne podle potreby projektu. Duležitejší než adresa je schopnost rychle se zorientovat v problému a dodat bezpecný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Praha má silné produktové i provozní týmy, které casto reší složitejší kombinaci interních systému, klientských portálu a navázání na existující aplikace.\n\nSpolupráce dává smysl tam, kde je potreba zkušenejší technické vedení, takeover nebo vývoj rešení na míru pro duležitý proces."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy dává spolupráce v Prahu smysl",
+        "body": "Nejde o lokální SEO stránku bez obsahu. Stránka je urcená firmám, které hledají partnera pro konkrétní projektovou situaci: nový vývoj, takeover, interní systém nebo automatizaci.",
+        "items": [
+          "produktové a interní týmy",
+          "takeover existující aplikace",
+          "interní systémy a portály",
+          "automatizace napojená na více nástroju"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "S cím lze navázat",
+        "body": "Typicky jde o webové aplikace na míru, prevzetí existujících aplikací, interní nástroje, automatizace a externí kontraktní spolupráci na projektu.",
+        "items": [
+          "vývoj webových aplikací na míru",
+          "prevzetí existující aplikace",
+          "interní systémy na míru",
+          "automatizace a integrace",
+          "externí kontraktní spolupráce"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Úvodní cást lze rešit vzdálene. Pokud dává smysl osobní setkání nebo workshop, lze ho domluvit podle povahy projektu.",
+        "items": [
+          "úvodní call nebo workshop",
+          "návrh první etapy",
+          "prubežná realizace v menších krocích"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je možné spolupracovat i plne remote?",
+            "answer": "Ano. Vetšina spolupráce muže bežet vzdálene. Osobní setkání dává smysl hlavne u workshopu nebo kritických milníku."
+          },
+          {
+            "question": "Deláte i takeover projektu v Praze?",
+            "answer": "Ano. Práve takeover a stabilizace existujících aplikací je silný typ spolupráce."
+          },
+          {
+            "question": "Je potreba mít pripravené detailní zadání?",
+            "answer": "Ne. Pro zacátek stací kontext, problém a ocekávaný výsledek."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

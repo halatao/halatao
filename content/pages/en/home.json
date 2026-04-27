@@ -1,0 +1,357 @@
+{
+  "id": "home.en",
+  "locale": "en",
+  "slug": "/",
+  "title": "Web applications for business-critical processes | Bc. Ondřej Halata",
+  "seo": {
+    "title": "Web applications for business-critical processes | Bc. Ondřej Halata",
+    "description": "Senior development, takeover, integrations, automation, and ongoing improvement of web applications and internal systems for companies.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "home",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "home",
+          "slug": "home",
+          "segments": [],
+          "title": "Web applications for business-critical processes | Bc. Ondřej Halata",
+          "h1": "Web applications for business-critical processes",
+          "description": "Senior development, takeover, integrations, automation, and ongoing improvement of web applications and internal systems for companies.",
+          "primaryQuery": "custom web applications",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "I design, build and improve web applications that support business-critical processes.",
+            "subtitle": "I work with companies as a senior developer and technical partner - from building new systems and internal tools to integrations, automation and taking over existing applications.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "Schedule a call",
+              "href": "https://calendly.com/ondrej-halata/30min"
+            }
+          },
+          "intro": [
+            "I'm Ondřej Halata, a senior web developer.",
+            "I work as a technical partner responsible for a specific part of a system or delivery. I typically step in where decisions need to be made, technical direction clarified, and execution carried through to a stable, usable result.",
+            "I work on both new applications and existing systems, often as part of a team in long-term collaboration."
+          ],
+          "sections": [
+            {
+              "title": "What I help with",
+              "body": [
+                "I usually help when a company needs more than another item completed from the backlog.",
+                "That can mean a new internal system, improvement of an existing application, integrations, automation, or senior involvement in a specific part of the project."
+              ],
+              "bullets": [
+                "New web applications and internal systems",
+                "Improving and stabilising existing applications",
+                "Integrations across tools, data, and systems",
+                "Automation and contract development support"
+              ]
+            },
+            {
+              "title": "What situations are a good fit",
+              "body": [
+                "The strongest fit is software that directly affects how the company operates.",
+                "The work is not only about shipping another feature. It is about understanding the process, users, data, risks, and technical constraints so the application still makes sense after the first version."
+              ],
+              "bullets": [
+                "the company needs a dedicated application for an important process",
+                "an existing system needs to be taken over, simplified, or improved",
+                "integrations between systems are becoming critical",
+                "the team needs senior technical capacity for a specific part of the project"
+              ]
+            },
+            {
+              "title": "How delivery usually works",
+              "body": [
+                "I first understand the project context, goals, and constraints. Then I define the next step, scope of involvement, and first meaningful phase.",
+                "I can work independently or as part of the team. The next steps are adjusted continuously based on real project needs, impact, and priorities."
+              ],
+              "bullets": [
+                "understand project context, goals, and constraints",
+                "define the next step and first meaningful phase",
+                "work independently or as part of the team",
+                "adjust decisions based on real project needs"
+              ]
+            },
+            {
+              "title": "What outcomes buyers usually want",
+              "body": [
+                "The outcome should not be more code alone. The goal is a useful technical step that improves operations, lowers risk, or enables further development.",
+                "That can mean a usable first version, a more stable existing system, less manual work, or clearer decisions for the next phase."
+              ],
+              "bullets": [
+                "clearer technical direction and next steps",
+                "a usable first version or a more stable existing system",
+                "less manual work and fewer ad hoc fixes",
+                "better alignment between process, data, and application"
+              ]
+            },
+            {
+              "title": "Understand the situation first, then define a practical next step",
+              "body": [
+                "The work does not start with a large estimate in the dark. First we need to understand what the software should support, where the main risk sits, and which first step makes both business and technical sense.",
+                "Depending on the situation, the next step may be a first-release plan, a technical audit, taking over an existing application, integration work, or longer-term contract support inside the team."
+              ],
+              "bullets": [
+                "map goals, constraints, operations, and technical context",
+                "define the first phase or technical approach",
+                "deliver in smaller connected steps",
+                "adjust decisions based on impact and priorities"
+              ]
+            },
+            {
+              "title": "The collaboration model follows the project situation, not a universal template.",
+              "body": [
+                "Sometimes it makes sense to start with a smaller first phase that validates scope and technical direction. In other cases, the need is to take over an existing application, add senior capacity to a team, or own a specific integration workstream.",
+                "The important part is making clear what the first phase should achieve, where the risks are, and how the work should continue based on the real state of the project."
+              ],
+              "bullets": [
+                "initial mapping of the situation and proposed next step",
+                "first phase, takeover, audit, or contract involvement depending on need",
+                "ongoing implementation and priority decisions",
+                "option to continue long-term when the collaboration makes sense"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can you work with companies that already have a team?",
+              "answer": "Yes. I can own a separate workstream, add senior capacity, or work as a contractor inside an existing team."
+            },
+            {
+              "question": "Does it make sense to reach out if we do not know the exact scope yet?",
+              "answer": "Yes. That is often the right moment to map the situation, risks, and first practical step instead of producing a large estimate too early."
+            },
+            {
+              "question": "Do you work on new projects or existing applications?",
+              "answer": "Both. For new projects I help define the first version, data model, user roles, and process fit. For existing applications I work on takeover, stabilisation, simplification, and further development."
+            },
+            {
+              "question": "How do we know whether the project is a good fit?",
+              "answer": "The strongest fit is usually a web application, internal system, integration, automation, takeover, or contract collaboration with real operational impact."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "problem-rescue-incomplete-project",
+            "problem-senior-contract-capacity",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "the company needs a dedicated application for an important process",
+              "an existing system needs to be taken over, simplified, or improved",
+              "integrations between systems are becoming critical",
+              "the team needs senior technical capacity for a specific part of the project"
+            ],
+            "notFor": [
+              "recruiter outreach",
+              "generic brochure websites",
+              "lowest-cost-only projects"
+            ]
+          },
+          "cta": {
+            "label": "Describe your project",
+            "href": "/en/discuss-your-project",
+            "note": "A short description is enough. I will suggest next steps and whether the collaboration makes sense."
+          },
+          "seo": {
+            "title": "Web applications for business-critical processes | Bc. Ondřej Halata",
+            "description": "Senior development, takeover, integrations, automation, and ongoing improvement of web applications and internal systems for companies."
+          },
+          "schema": {
+            "includeProfessionalService": true,
+            "includePerson": true,
+            "includeWebSite": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "home.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "home",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "I design, build and improve web applications that support business-critical processes.",
+        "body": "I work with companies as a senior developer and technical partner - from building new systems and internal tools to integrations, automation and taking over existing applications.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "Schedule a call",
+        "secondaryCtaHref": "https://calendly.com/ondrej-halata/30min"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "I'm Ondřej Halata, a senior web developer.\n\nI work as a technical partner responsible for a specific part of a system or delivery. I typically step in where decisions need to be made, technical direction clarified, and execution carried through to a stable, usable result.\n\nI work on both new applications and existing systems, often as part of a team in long-term collaboration."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I help with",
+        "body": "I usually help when a company needs more than another item completed from the backlog.\n\nThat can mean a new internal system, improvement of an existing application, integrations, automation, or senior involvement in a specific part of the project.",
+        "items": [
+          "New web applications and internal systems",
+          "Improving and stabilising existing applications",
+          "Integrations across tools, data, and systems",
+          "Automation and contract development support"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What situations are a good fit",
+        "body": "The strongest fit is software that directly affects how the company operates.\n\nThe work is not only about shipping another feature. It is about understanding the process, users, data, risks, and technical constraints so the application still makes sense after the first version.",
+        "items": [
+          "the company needs a dedicated application for an important process",
+          "an existing system needs to be taken over, simplified, or improved",
+          "integrations between systems are becoming critical",
+          "the team needs senior technical capacity for a specific part of the project"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How delivery usually works",
+        "body": "I first understand the project context, goals, and constraints. Then I define the next step, scope of involvement, and first meaningful phase.\n\nI can work independently or as part of the team. The next steps are adjusted continuously based on real project needs, impact, and priorities.",
+        "items": [
+          "understand project context, goals, and constraints",
+          "define the next step and first meaningful phase",
+          "work independently or as part of the team",
+          "adjust decisions based on real project needs"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What outcomes buyers usually want",
+        "body": "The outcome should not be more code alone. The goal is a useful technical step that improves operations, lowers risk, or enables further development.\n\nThat can mean a usable first version, a more stable existing system, less manual work, or clearer decisions for the next phase.",
+        "items": [
+          "clearer technical direction and next steps",
+          "a usable first version or a more stable existing system",
+          "less manual work and fewer ad hoc fixes",
+          "better alignment between process, data, and application"
+        ]
+      }
+    },
+    {
+      "id": "section-5",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Understand the situation first, then define a practical next step",
+        "body": "The work does not start with a large estimate in the dark. First we need to understand what the software should support, where the main risk sits, and which first step makes both business and technical sense.\n\nDepending on the situation, the next step may be a first-release plan, a technical audit, taking over an existing application, integration work, or longer-term contract support inside the team.",
+        "items": [
+          "map goals, constraints, operations, and technical context",
+          "define the first phase or technical approach",
+          "deliver in smaller connected steps",
+          "adjust decisions based on impact and priorities"
+        ]
+      }
+    },
+    {
+      "id": "section-6",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "The collaboration model follows the project situation, not a universal template.",
+        "body": "Sometimes it makes sense to start with a smaller first phase that validates scope and technical direction. In other cases, the need is to take over an existing application, add senior capacity to a team, or own a specific integration workstream.\n\nThe important part is making clear what the first phase should achieve, where the risks are, and how the work should continue based on the real state of the project.",
+        "items": [
+          "initial mapping of the situation and proposed next step",
+          "first phase, takeover, audit, or contract involvement depending on need",
+          "ongoing implementation and priority decisions",
+          "option to continue long-term when the collaboration makes sense"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can you work with companies that already have a team?",
+            "answer": "Yes. I can own a separate workstream, add senior capacity, or work as a contractor inside an existing team."
+          },
+          {
+            "question": "Does it make sense to reach out if we do not know the exact scope yet?",
+            "answer": "Yes. That is often the right moment to map the situation, risks, and first practical step instead of producing a large estimate too early."
+          },
+          {
+            "question": "Do you work on new projects or existing applications?",
+            "answer": "Both. For new projects I help define the first version, data model, user roles, and process fit. For existing applications I work on takeover, stabilisation, simplification, and further development."
+          },
+          {
+            "question": "How do we know whether the project is a good fit?",
+            "answer": "The strongest fit is usually a web application, internal system, integration, automation, takeover, or contract collaboration with real operational impact."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short description is enough. I will suggest next steps and whether the collaboration makes sense.",
+        "ctaLabel": "Describe your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

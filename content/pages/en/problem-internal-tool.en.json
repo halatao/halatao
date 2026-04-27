@@ -1,0 +1,246 @@
+{
+  "id": "problem-internal-tool.en",
+  "locale": "en",
+  "slug": "/problems/we-need-an-internal-tool",
+  "title": "We need an internal tool | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "We need an internal tool | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I help teams scope and build internal tools when a company needs one owned system for workflow, roles, data, and accountability.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-internal-tool",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "problem",
+          "slug": "we-need-an-internal-tool",
+          "segments": [
+            "problems",
+            "we-need-an-internal-tool"
+          ],
+          "title": "We need an internal tool | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "We need an internal tool that improves real operations",
+          "description": "I help teams scope and build internal tools when a company needs one owned system for workflow, roles, data, and accountability.",
+          "primaryQuery": "we need an internal tool",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situation",
+            "title": "The company needs one owned system for an important workflow",
+            "subtitle": "Internal software becomes the right move when workflow, roles, data, and accountability need to live in one system, not across loosely connected tools.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A company usually does not ask for an internal tool because it wants custom software for its own sake. It asks for one because an important workflow needs one owned system with clear roles, states, and data ownership.",
+            "The business value is not only speed. It is better control, clearer ownership, and a process where teams work from the same reality instead of depending on specific people remembering specific steps.",
+            "A strong start is to define the painful workflow, the important roles, and what the first release has to improve."
+          ],
+          "sections": [
+            {
+              "title": "Typical symptoms",
+              "body": [
+                "When a process is split across several tools, time is lost, errors increase, and every workflow change becomes more expensive."
+              ],
+              "bullets": [
+                "several people working on the same data with no shared state",
+                "key steps happening over email or chat",
+                "manual reporting across tools",
+                "unclear responsibility between teams"
+              ]
+            },
+            {
+              "title": "How I approach it",
+              "body": [
+                "I focus first on the process, users, data, and the first practical delivery phase. Screen-level detail comes after the operating model is clear."
+              ]
+            },
+            {
+              "title": "What a good outcome looks like",
+              "body": [
+                "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery."
+              ],
+              "bullets": [
+                "less operational noise",
+                "better visibility into work in progress",
+                "cleaner basis for reporting",
+                "a system that can grow without temporary workarounds"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "How do we know spreadsheets or SaaS are no longer enough?",
+              "answer": "The usual signal is rising manual work, conflicting needs across roles, and too much business logic living outside the tool itself."
+            },
+            {
+              "question": "Does the internal tool need every feature from the start?",
+              "answer": "No. It is usually better to start with the workflow that creates the most friction and expand from there."
+            },
+            {
+              "question": "What if we are not sure about the scope?",
+              "answer": "That is normal. The important thing at the start is business context, priorities, and the boundary of the first release."
+            },
+            {
+              "question": "Can the internal tool connect to existing systems?",
+              "answer": "Yes. That is often essential. Otherwise the manual work simply moves somewhere else."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "comparison-internal-tool-vs-spreadsheets",
+            "use-case-internal-admin-system",
+            "tool-excel-to-internal-tool-migration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "operations-heavy teams",
+              "multi-role workflows with weak visibility",
+              "buyers who need one reliable operating system for the process"
+            ],
+            "notFor": [
+              "single-user micro tools",
+              "projects without a process owner",
+              "pure redesign work with no workflow change"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "Share the current state, the main risk, and what needs to change next."
+          },
+          "seo": {
+            "title": "We need an internal tool | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I help teams scope and build internal tools when a company needs one owned system for workflow, roles, data, and accountability."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-internal-tool.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situation",
+        "heading": "The company needs one owned system for an important workflow",
+        "body": "Internal software becomes the right move when workflow, roles, data, and accountability need to live in one system, not across loosely connected tools.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A company usually does not ask for an internal tool because it wants custom software for its own sake. It asks for one because an important workflow needs one owned system with clear roles, states, and data ownership.\n\nThe business value is not only speed. It is better control, clearer ownership, and a process where teams work from the same reality instead of depending on specific people remembering specific steps.\n\nA strong start is to define the painful workflow, the important roles, and what the first release has to improve."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical symptoms",
+        "body": "When a process is split across several tools, time is lost, errors increase, and every workflow change becomes more expensive.",
+        "items": [
+          "several people working on the same data with no shared state",
+          "key steps happening over email or chat",
+          "manual reporting across tools",
+          "unclear responsibility between teams"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I approach it",
+        "body": "I focus first on the process, users, data, and the first practical delivery phase. Screen-level detail comes after the operating model is clear."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a good outcome looks like",
+        "body": "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery.",
+        "items": [
+          "less operational noise",
+          "better visibility into work in progress",
+          "cleaner basis for reporting",
+          "a system that can grow without temporary workarounds"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "How do we know spreadsheets or SaaS are no longer enough?",
+            "answer": "The usual signal is rising manual work, conflicting needs across roles, and too much business logic living outside the tool itself."
+          },
+          {
+            "question": "Does the internal tool need every feature from the start?",
+            "answer": "No. It is usually better to start with the workflow that creates the most friction and expand from there."
+          },
+          {
+            "question": "What if we are not sure about the scope?",
+            "answer": "That is normal. The important thing at the start is business context, priorities, and the boundary of the first release."
+          },
+          {
+            "question": "Can the internal tool connect to existing systems?",
+            "answer": "Yes. That is often essential. Otherwise the manual work simply moves somewhere else."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the current state, the main risk, and what needs to change next.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

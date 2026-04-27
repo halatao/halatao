@@ -1,0 +1,236 @@
+{
+  "id": "problem-replace-spreadsheets-in-process.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu",
+  "title": "Nahradit Excel firemním systémem | Workflow, odpovědnosti a reporting",
+  "seo": {
+    "title": "Nahradit Excel firemním systémem | Workflow, odpovědnosti a reporting",
+    "description": "Pomohu firmám dostat provozně důležitý proces z Excelu, e-mailu a sdílených tabulek do řízeného systému s jasným workflow a odpovědnostmi.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-replace-spreadsheets-in-process",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-nahradit-excel-ve-firemnim-procesu",
+          "segments": [
+            "problemy",
+            "potrebujeme-nahradit-excel-ve-firemnim-procesu"
+          ],
+          "title": "Nahradit Excel firemním systémem | Workflow, odpovědnosti a reporting",
+          "h1": "Jak nahradit Excel ve firemním procesu bez dalšího chaosu",
+          "description": "Pomohu firmám dostat provozně důležitý proces z Excelu, e-mailu a sdílených tabulek do řízeného systému s jasným workflow a odpovědnostmi.",
+          "primaryQuery": "nahradit excel firemním systémem",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Excel byl dobrý začátek, ale dnes už brzdí důležitý proces",
+            "subtitle": "Typická situace, kdy sdílené tabulky, e-maily a ruční dohledávání stavu zvyšují chybovost a berou lidem čas.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Excel není problém sám o sobě. Problém vzniká ve chvíli, kdy sdílené tabulky nahrazují systém pro stavy, odpovědnosti, schvalování a návaznost na další nástroje.",
+            "Silný první krok není navrhovat obecný interní systém, ale pojmenovat, kde tabulky a e-mail opravdu brzdí provoz, a navrhnout první migrační etapu kolem nejslabšího místa procesu."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Když provozně důležitý proces zůstane v Excelu příliš dlouho, neroste jen frustrace. Roste i cena koordinace, chybovost a závislost na lidech, kteří vědí, jak to celé držet pohromadě ručně."
+              ],
+              "bullets": [
+                "stejná data se přepisují mezi tabulkami, e-maily a dalšími nástroji",
+                "není jasné, kdo je za aktuální stav nebo další krok odpovědný",
+                "více lidí pracuje nad různými verzemi téže reality",
+                "výjimky a schválení zvyšují zmatek a provozní chyby"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám mapou tabulek, polí, ručních kroků, výjimek a míst, kde se informace dnes rozcházejí. Teprve potom dává smysl navrhnout první migrační etapu do systému, který zjednoduší provoz místo digitální kopie tabulky."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "méně ruční koordinace a přepisování dat",
+                "jasnější odpovědnost za stav procesu",
+                "lepší dohledatelnost výjimek a rozhodnutí",
+                "silnější základ pro další reporting a automatizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí se Excel nahradit celý najednou?",
+              "answer": "Nemusí. Často je lepší vybrat jednu provozně kritickou část procesu a na ni postavit první verzi interního systému."
+            },
+            {
+              "question": "Není levnější zůstat u tabulek a jen zlepšit disciplínu?",
+              "answer": "Někdy krátkodobě ano. Pokud ale proces obsahuje role, výjimky a návaznosti, lepší disciplína obvykle neodstraní samotnou provozní složitost."
+            },
+            {
+              "question": "Je to vhodné i pro menší firmu?",
+              "answer": "Ano, pokud proces reálně brzdí lidi, vytváří chyby nebo závislost na ruční koordinaci mezi několika rolemi."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "comparison-internal-tool-vs-spreadsheets",
+            "tool-internal-tool-scope-worksheet",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy, které řídí důležitý proces v tabulkách a e-mailech",
+              "týmy s více rolemi, stavy a výjimkami",
+              "situace, kde je potřeba nahradit ruční koordinaci vlastním systémem"
+            ],
+            "notFor": [
+              "jednoduchá jednorázová evidence bez workflow",
+              "proces bez ownera nebo bez rozhodovatele",
+              "snahy digitalizovat chaos bez ochoty popsat skutečný provoz"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Nahradit Excel firemním systémem | Workflow, odpovědnosti a reporting",
+            "description": "Pomohu firmám dostat provozně důležitý proces z Excelu, e-mailu a sdílených tabulek do řízeného systému s jasným workflow a odpovědnostmi."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-replace-spreadsheets-in-process.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Excel byl dobrý začátek, ale dnes už brzdí důležitý proces",
+        "body": "Typická situace, kdy sdílené tabulky, e-maily a ruční dohledávání stavu zvyšují chybovost a berou lidem čas.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Excel není problém sám o sobě. Problém vzniká ve chvíli, kdy sdílené tabulky nahrazují systém pro stavy, odpovědnosti, schvalování a návaznost na další nástroje.\n\nSilný první krok není navrhovat obecný interní systém, ale pojmenovat, kde tabulky a e-mail opravdu brzdí provoz, a navrhnout první migrační etapu kolem nejslabšího místa procesu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Když provozně důležitý proces zůstane v Excelu příliš dlouho, neroste jen frustrace. Roste i cena koordinace, chybovost a závislost na lidech, kteří vědí, jak to celé držet pohromadě ručně.",
+        "items": [
+          "stejná data se přepisují mezi tabulkami, e-maily a dalšími nástroji",
+          "není jasné, kdo je za aktuální stav nebo další krok odpovědný",
+          "více lidí pracuje nad různými verzemi téže reality",
+          "výjimky a schválení zvyšují zmatek a provozní chyby"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám mapou tabulek, polí, ručních kroků, výjimek a míst, kde se informace dnes rozcházejí. Teprve potom dává smysl navrhnout první migrační etapu do systému, který zjednoduší provoz místo digitální kopie tabulky."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "méně ruční koordinace a přepisování dat",
+          "jasnější odpovědnost za stav procesu",
+          "lepší dohledatelnost výjimek a rozhodnutí",
+          "silnější základ pro další reporting a automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí se Excel nahradit celý najednou?",
+            "answer": "Nemusí. Často je lepší vybrat jednu provozně kritickou část procesu a na ni postavit první verzi interního systému."
+          },
+          {
+            "question": "Není levnější zůstat u tabulek a jen zlepšit disciplínu?",
+            "answer": "Někdy krátkodobě ano. Pokud ale proces obsahuje role, výjimky a návaznosti, lepší disciplína obvykle neodstraní samotnou provozní složitost."
+          },
+          {
+            "question": "Je to vhodné i pro menší firmu?",
+            "answer": "Ano, pokud proces reálně brzdí lidi, vytváří chyby nebo závislost na ruční koordinaci mezi několika rolemi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

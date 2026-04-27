@@ -1,0 +1,248 @@
+{
+  "id": "comparison-rewrite-vs-incremental-app-improvement.en",
+  "locale": "en",
+  "slug": "/comparisons/rewrite-vs-incremental-app-improvement",
+  "title": "Rewrite vs incremental app improvement | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Rewrite vs incremental app improvement | Bc. Ondřej Halata (halatao...",
+    "description": "A practical comparison of full rewrites and incremental improvement for existing business applications.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-rewrite-vs-incremental-app-improvement",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "comparison",
+          "slug": "rewrite-vs-incremental-app-improvement",
+          "segments": [
+            "comparisons",
+            "rewrite-vs-incremental-app-improvement"
+          ],
+          "title": "Rewrite vs incremental app improvement | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Rewrite vs incremental app improvement",
+          "description": "A practical comparison of full rewrites and incremental improvement for existing business applications.",
+          "primaryQuery": "rewrite vs incremental app improvement",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Comparison",
+            "title": "A clean restart sounds attractive. Operations often need something else.",
+            "subtitle": "For running applications, risk management and targeted improvement usually matter more than a dramatic restart.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A rewrite is a common first reaction when the current application feels painful. But rewrites carry delay risk, knowledge loss, and hidden dependency surprises.",
+            "Incremental improvement is not always elegant, but it is often safer and cheaper when the system still supports important operations."
+          ],
+          "sections": [
+            {
+              "title": "When a rewrite makes sense",
+              "body": [
+                "A rewrite can be justified when the current system truly blocks operation or future change, and targeted improvement would cost more than rebuilding the foundation."
+              ]
+            },
+            {
+              "title": "When incremental improvement is the smarter move",
+              "body": [
+                "Incremental improvement is usually better when the app still serves the business but needs stabilisation, simplification, and focused changes in the most problematic areas."
+              ]
+            },
+            {
+              "title": "How to decide",
+              "body": [
+                "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost."
+              ],
+              "bullets": [
+                "operational criticality",
+                "depth of technical debt",
+                "risk of losing domain behaviour",
+                "time and budget available for parallel rebuilding"
+              ]
+            },
+            {
+              "title": "Practical conclusion",
+              "body": [
+                "For most running applications, the sensible first step is discovery and incremental improvement. Rewrites should be a consequence of evidence, not frustration with inherited code."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "How do we know incremental work is no longer enough?",
+              "answer": "Usually when architecture is systematically blocking change, security, or operation, and partial fixes keep getting more expensive without improving the situation."
+            },
+            {
+              "question": "Can the two approaches be combined?",
+              "answer": "Yes. Many projects replace selected subsystems while stabilising and keeping the rest of the product live."
+            },
+            {
+              "question": "Why are rewrites so often underestimated?",
+              "answer": "Because hidden dependencies, edge cases, and accumulated domain logic are almost always larger than they appear at first glance."
+            },
+            {
+              "question": "Do you always start with an audit?",
+              "answer": "For inherited or legacy application situations, yes. It is the safest basis for deciding between refactor, stabilisation, and rewrite work."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-rescue-incomplete-project",
+            "guide-how-to-price-an-app-takeover",
+            "case-study-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "operational criticality",
+              "depth of technical debt",
+              "risk of losing domain behaviour",
+              "time and budget available for parallel rebuilding"
+            ],
+            "notFor": [
+              "abstract technology debates with no business context"
+            ]
+          },
+          "seo": {
+            "title": "Rewrite vs incremental app improvement | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical comparison of full rewrites and incremental improvement for existing business applications."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-rewrite-vs-incremental-app-improvement.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Comparison",
+        "heading": "A clean restart sounds attractive. Operations often need something else.",
+        "body": "For running applications, risk management and targeted improvement usually matter more than a dramatic restart.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A rewrite is a common first reaction when the current application feels painful. But rewrites carry delay risk, knowledge loss, and hidden dependency surprises.\n\nIncremental improvement is not always elegant, but it is often safer and cheaper when the system still supports important operations."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When a rewrite makes sense",
+        "body": "A rewrite can be justified when the current system truly blocks operation or future change, and targeted improvement would cost more than rebuilding the foundation."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When incremental improvement is the smarter move",
+        "body": "Incremental improvement is usually better when the app still serves the business but needs stabilisation, simplification, and focused changes in the most problematic areas."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to decide",
+        "body": "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost.",
+        "items": [
+          "operational criticality",
+          "depth of technical debt",
+          "risk of losing domain behaviour",
+          "time and budget available for parallel rebuilding"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Practical conclusion",
+        "body": "For most running applications, the sensible first step is discovery and incremental improvement. Rewrites should be a consequence of evidence, not frustration with inherited code."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "How do we know incremental work is no longer enough?",
+            "answer": "Usually when architecture is systematically blocking change, security, or operation, and partial fixes keep getting more expensive without improving the situation."
+          },
+          {
+            "question": "Can the two approaches be combined?",
+            "answer": "Yes. Many projects replace selected subsystems while stabilising and keeping the rest of the product live."
+          },
+          {
+            "question": "Why are rewrites so often underestimated?",
+            "answer": "Because hidden dependencies, edge cases, and accumulated domain logic are almost always larger than they appear at first glance."
+          },
+          {
+            "question": "Do you always start with an audit?",
+            "answer": "For inherited or legacy application situations, yes. It is the safest basis for deciding between refactor, stabilisation, and rewrite work."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

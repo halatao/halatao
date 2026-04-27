@@ -1,0 +1,254 @@
+{
+  "id": "use-case-client-portal.cs",
+  "locale": "cs",
+  "slug": "/priklady/klientsky-portal",
+  "title": "Klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad klientského portálu na míru pro firmy, které chtějí zpřehlednit komunikaci se zákazníky, jejich dokumenty, stav služeb a samoobslužné úkony.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-client-portal",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "klientsky-portal",
+          "segments": [
+            "priklady",
+            "klientsky-portal"
+          ],
+          "title": "Klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Klientský portál na míru pro komunikaci, data a samoobsluhu",
+          "description": "Příklad klientského portálu na míru pro firmy, které chtějí zpřehlednit komunikaci se zákazníky, jejich dokumenty, stav služeb a samoobslužné úkony.",
+          "primaryQuery": "klientský portál na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad použití",
+            "title": "Klientský portál místo roztříštěné komunikace",
+            "subtitle": "Pro firmy, které chtějí koncovým zákazníkům nebo klientům nabídnout jedno místo pro informace, dokumenty, stavy a další kroky.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Klientský portál dává smysl tam, kde se opakuje komunikace se zákazníkem kolem stavu služby, dokumentů, objednávek nebo požadavků.",
+            "Místo e-mailových vláken a ručního posílání informací může mít klient jedno přehledné rozhraní s historií, přístupy a návaznými kroky bez závislosti na manuální obsluze týmu."
+          ],
+          "sections": [
+            {
+              "title": "Jaký problém tento typ aplikace řeší",
+              "body": [
+                "Use case dává smysl tam, kde je potřeba převést důležitý proces do přehledného systému s jasnou rolí uživatelů a dat."
+              ],
+              "bullets": [
+                "opakované dotazy na stav zakázky nebo požadavku",
+                "ruční posílání dokumentů",
+                "nepřehledná historie komunikace",
+                "potřeba samoobslužných kroků pro klienta"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale základ bývá podobný: role, workflow, přehled stavu, oprávnění a napojení na další systémy."
+              ],
+              "bullets": [
+                "uživatelské účty a role",
+                "přehled stavu a historie",
+                "dokumenty, notifikace a akce",
+                "napojení na interní systém nebo CRM"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen digitalizovat starý chaos. Důležité je zjednodušit práci lidí, zpřehlednit odpovědnosti a zlepšit kontrolu nad procesem."
+              ],
+              "bullets": [
+                "méně ruční klientské podpory",
+                "lepší dostupnost informací pro klienta",
+                "větší důvěryhodnost procesu",
+                "pevnější základ pro další rozvoj služeb"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je klientský portál vhodný i pro menší firmu?",
+              "answer": "Ano, pokud se opakují stejné dotazy, dokumenty nebo úkony a portál může odlehčit obsluhu."
+            },
+            {
+              "question": "Musí být portál rozsáhlý od začátku?",
+              "answer": "Nemusí. Často stačí menší první verze zaměřená na nejčastější interakce."
+            },
+            {
+              "question": "Lze portál napojit na stávající aplikaci?",
+              "answer": "Ano. U většiny projektů je napojení na existující data nebo interní proces klíčové."
+            },
+            {
+              "question": "Je potřeba i administrace pro interní tým?",
+              "answer": "Velmi často ano. Klientský portál obvykle dává smysl jen s rozumným backoffice zázemím."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "méně ruční klientské podpory",
+              "lepší dostupnost informací pro klienta",
+              "větší důvěryhodnost procesu",
+              "pevnější základ pro další rozvoj služeb"
+            ],
+            "notFor": [
+              "pouhé přenesení chaosu do nové obrazovky"
+            ]
+          },
+          "seo": {
+            "title": "Klientský portál na míru | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad klientského portálu na míru pro firmy, které chtějí zpřehlednit komunikaci se zákazníky, jejich dokumenty, stav služeb a samoobslužné úkony."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-client-portal.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad použití",
+        "heading": "Klientský portál místo roztříštěné komunikace",
+        "body": "Pro firmy, které chtějí koncovým zákazníkům nebo klientům nabídnout jedno místo pro informace, dokumenty, stavy a další kroky.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Klientský portál dává smysl tam, kde se opakuje komunikace se zákazníkem kolem stavu služby, dokumentů, objednávek nebo požadavků.\n\nMísto e-mailových vláken a ručního posílání informací může mít klient jedno přehledné rozhraní s historií, přístupy a návaznými kroky bez závislosti na manuální obsluze týmu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký problém tento typ aplikace řeší",
+        "body": "Use case dává smysl tam, kde je potřeba převést důležitý proces do přehledného systému s jasnou rolí uživatelů a dat.",
+        "items": [
+          "opakované dotazy na stav zakázky nebo požadavku",
+          "ruční posílání dokumentů",
+          "nepřehledná historie komunikace",
+          "potřeba samoobslužných kroků pro klienta"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale základ bývá podobný: role, workflow, přehled stavu, oprávnění a napojení na další systémy.",
+        "items": [
+          "uživatelské účty a role",
+          "přehled stavu a historie",
+          "dokumenty, notifikace a akce",
+          "napojení na interní systém nebo CRM"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen digitalizovat starý chaos. Důležité je zjednodušit práci lidí, zpřehlednit odpovědnosti a zlepšit kontrolu nad procesem.",
+        "items": [
+          "méně ruční klientské podpory",
+          "lepší dostupnost informací pro klienta",
+          "větší důvěryhodnost procesu",
+          "pevnější základ pro další rozvoj služeb"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je klientský portál vhodný i pro menší firmu?",
+            "answer": "Ano, pokud se opakují stejné dotazy, dokumenty nebo úkony a portál může odlehčit obsluhu."
+          },
+          {
+            "question": "Musí být portál rozsáhlý od začátku?",
+            "answer": "Nemusí. Často stačí menší první verze zaměřená na nejčastější interakce."
+          },
+          {
+            "question": "Lze portál napojit na stávající aplikaci?",
+            "answer": "Ano. U většiny projektů je napojení na existující data nebo interní proces klíčové."
+          },
+          {
+            "question": "Je potřeba i administrace pro interní tým?",
+            "answer": "Velmi často ano. Klientský portál obvykle dává smysl jen s rozumným backoffice zázemím."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

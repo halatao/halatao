@@ -1,0 +1,291 @@
+{
+  "id": "service-automations-and-integrations.cs",
+  "locale": "cs",
+  "slug": "/sluzby/automatizace-a-integrace",
+  "title": "Automatizace procesů a integrace systémů | API, workflow a data",
+  "seo": {
+    "title": "Automatizace procesů a integrace systémů | API, workflow a data",
+    "description": "Pomohu firmám omezit ruční práci, přepisování dat a nejasný tok informací pomocí automatizace procesů, API integrací a úprav workflow.",
+    "image": "https://i.ibb.co/Vp5SXxhw/New-Project.png",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-automations-and-integrations",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "service",
+          "slug": "automatizace-a-integrace",
+          "segments": [
+            "sluzby",
+            "automatizace-a-integrace"
+          ],
+          "title": "Automatizace procesů a integrace systémů | API, workflow a data",
+          "h1": "Automatizace procesů a integrace systémů ve firmě",
+          "description": "Pomohu firmám omezit ruční práci, přepisování dat a nejasný tok informací pomocí automatizace procesů, API integrací a úprav workflow.",
+          "primaryQuery": "automatizace procesů ve firmě",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Služba",
+            "title": "Automatizace procesů a integrace systémů bez další vrstvy chaosu",
+            "subtitle": "Pro firmy, kde se data přepisují mezi ERP, CRM, e-shopem, tabulkami a interními nástroji a důležité workflow stojí na ruční koordinaci.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Jak spolupráce probíhá",
+              "href": "/cs/jak-spoluprace-probiha"
+            }
+          },
+          "intro": [
+            "Automatizace procesů dává největší smysl tam, kde firma opakovaně ztrácí čas na ručních krocích mezi několika systémy. Typicky jde o přepisování dat, kontrolu stavů, ruční spouštění návazných akcí nebo reporty z více zdrojů.",
+            "První krok ale není automatizovat všechno. Nejdřív je potřeba pochopit, kde vzniká největší ztráta, kde se data rozbíjejí a které zásahy opravdu zlepší provoz místo přidání další vrstvy chaosu.",
+            "Pomohu navrhnout menší první etapu, která zlepší provozní návaznost mezi systémy a ověří, kde dávají integrace a automatizace největší smysl."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tato služba dává smysl",
+              "body": [
+                "Tato služba dává smysl, když mezi systémy vzniká opakovaná ruční práce, která brzdí kapacitu lidí a vytváří chybovost."
+              ],
+              "bullets": [
+                "přepisování mezi ERP, CRM, e-shopem a tabulkami",
+                "ruční kontrola plateb, termínů nebo stavů",
+                "reporty skládané z více zdrojů",
+                "schvalování bez jednotných pravidel",
+                "API napojení mezi firemními systémy"
+              ]
+            },
+            {
+              "title": "Co typicky řeším a dodávám",
+              "body": [
+                "Neřeším jen integraci přes API. Často je potřeba upravit i interní workflow, datový model a způsob, jakým se s informacemi v procesu pracuje."
+              ],
+              "bullets": [
+                "diagnostika a prioritizace automatizací",
+                "návrh integrační vrstvy",
+                "implementace konkrétních automatizací",
+                "další rozvoj podle provozního přínosu"
+              ]
+            },
+            {
+              "title": "Jak spolupráce probíhá",
+              "body": [
+                "Nejdřív řešíme proces a data, ne konkrétní nástroj. Teprve potom dává smysl rozhodnout, co automatizovat, co ponechat lidem a kde je potřeba systém doplnit."
+              ]
+            },
+            {
+              "title": "Jaký výsledek má spolupráce přinést",
+              "body": [
+                "Dobrý výsledek není co nejvíc automatických kroků, ale přehledný tok dat a menší závislost firmy na ruční koordinaci."
+              ],
+              "bullets": [
+                "úspora času na opakovaných úkolech",
+                "méně chyb při přepisování",
+                "lepší návaznost mezi systémy",
+                "jasnější podklad pro další investice do provozu"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je vhodné automatizovat i menší firmu?",
+              "answer": "Ano, pokud se opakuje dost ruční práce nebo je provoz závislý na několika lidech. Rozhodující není velikost firmy, ale dopad procesu."
+            },
+            {
+              "question": "Řešíte pouze integrace přes API?",
+              "answer": "Ne. API je jen jedna část. Často je potřeba upravit i interní workflow, datový model nebo způsob práce lidí."
+            },
+            {
+              "question": "Umíte navázat i realizací po auditu?",
+              "answer": "Ano. Mohu dodat návrh, technickou realizaci i další rozvoj. Není nutné hledat jiného dodavatele pro samotnou implementaci."
+            },
+            {
+              "question": "Co když je problém spíš v procesu než v technologii?",
+              "answer": "I to je užitečný výstup. Lepší je pojmenovat procesní problém včas, než investovat do automatizace, která nic podstatného nezlepší."
+            }
+          ],
+          "related": [
+            "problem-system-integrations",
+            "problem-replace-spreadsheets-in-process",
+            "guide-how-to-run-automation-discovery",
+            "use-case-workflow-app-for-teams",
+            "use-case-service-team-ops-system",
+            "service-ai-automation-and-integrations",
+            "problem-ai-in-business-process",
+            "use-case-ai-intake-triage",
+            "tool-api-integration-checklist",
+            "tool-automation-discovery-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s více systémy a ručním přepisováním",
+              "procesy závislé na ruční kontrole a dohledávání",
+              "projekty, kde se má nejdřív zmapovat přínos automatizace"
+            ],
+            "notFor": [
+              "automatizace bez znalosti procesu a dopadu",
+              "jednorázové skripty bez provozní odpovědnosti",
+              "projekty postavené jen na nákupu no-code licence bez integrací"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku."
+          },
+          "seo": {
+            "title": "Automatizace procesů a integrace systémů | API, workflow a data",
+            "description": "Pomohu firmám omezit ruční práci, přepisování dat a nejasný tok informací pomocí automatizace procesů, API integrací a úprav workflow.",
+            "image": "https://i.ibb.co/Vp5SXxhw/New-Project.png"
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-automations-and-integrations.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Služba",
+        "heading": "Automatizace procesů a integrace systémů bez další vrstvy chaosu",
+        "body": "Pro firmy, kde se data přepisují mezi ERP, CRM, e-shopem, tabulkami a interními nástroji a důležité workflow stojí na ruční koordinaci.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Jak spolupráce probíhá",
+        "secondaryCtaHref": "/cs/jak-spoluprace-probiha"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automatizace procesů dává největší smysl tam, kde firma opakovaně ztrácí čas na ručních krocích mezi několika systémy. Typicky jde o přepisování dat, kontrolu stavů, ruční spouštění návazných akcí nebo reporty z více zdrojů.\n\nPrvní krok ale není automatizovat všechno. Nejdřív je potřeba pochopit, kde vzniká největší ztráta, kde se data rozbíjejí a které zásahy opravdu zlepší provoz místo přidání další vrstvy chaosu.\n\nPomohu navrhnout menší první etapu, která zlepší provozní návaznost mezi systémy a ověří, kde dávají integrace a automatizace největší smysl."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tato služba dává smysl",
+        "body": "Tato služba dává smysl, když mezi systémy vzniká opakovaná ruční práce, která brzdí kapacitu lidí a vytváří chybovost.",
+        "items": [
+          "přepisování mezi ERP, CRM, e-shopem a tabulkami",
+          "ruční kontrola plateb, termínů nebo stavů",
+          "reporty skládané z více zdrojů",
+          "schvalování bez jednotných pravidel",
+          "API napojení mezi firemními systémy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co typicky řeším a dodávám",
+        "body": "Neřeším jen integraci přes API. Často je potřeba upravit i interní workflow, datový model a způsob, jakým se s informacemi v procesu pracuje.",
+        "items": [
+          "diagnostika a prioritizace automatizací",
+          "návrh integrační vrstvy",
+          "implementace konkrétních automatizací",
+          "další rozvoj podle provozního přínosu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak spolupráce probíhá",
+        "body": "Nejdřív řešíme proces a data, ne konkrétní nástroj. Teprve potom dává smysl rozhodnout, co automatizovat, co ponechat lidem a kde je potřeba systém doplnit."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek má spolupráce přinést",
+        "body": "Dobrý výsledek není co nejvíc automatických kroků, ale přehledný tok dat a menší závislost firmy na ruční koordinaci.",
+        "items": [
+          "úspora času na opakovaných úkolech",
+          "méně chyb při přepisování",
+          "lepší návaznost mezi systémy",
+          "jasnější podklad pro další investice do provozu"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je vhodné automatizovat i menší firmu?",
+            "answer": "Ano, pokud se opakuje dost ruční práce nebo je provoz závislý na několika lidech. Rozhodující není velikost firmy, ale dopad procesu."
+          },
+          {
+            "question": "Řešíte pouze integrace přes API?",
+            "answer": "Ne. API je jen jedna část. Často je potřeba upravit i interní workflow, datový model nebo způsob práce lidí."
+          },
+          {
+            "question": "Umíte navázat i realizací po auditu?",
+            "answer": "Ano. Mohu dodat návrh, technickou realizaci i další rozvoj. Není nutné hledat jiného dodavatele pro samotnou implementaci."
+          },
+          {
+            "question": "Co když je problém spíš v procesu než v technologii?",
+            "answer": "I to je užitečný výstup. Lepší je pojmenovat procesní problém včas, než investovat do automatizace, která nic podstatného nezlepší."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

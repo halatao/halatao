@@ -1,0 +1,249 @@
+{
+  "id": "comparison-custom-vs-saas.cs",
+  "locale": "cs",
+  "slug": "/srovnani/vyvoj-na-miru-vs-saas",
+  "title": "Vývoj na míru vs SaaS | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Vývoj na míru vs SaaS | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktické srovnání vývoje aplikace na míru a hotového SaaS nástroje pro firmy, které řeší interní procesy, workflow nebo klientský portál.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-custom-vs-saas",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "comparison",
+          "slug": "vyvoj-na-miru-vs-saas",
+          "segments": [
+            "srovnani",
+            "vyvoj-na-miru-vs-saas"
+          ],
+          "title": "Vývoj na míru vs SaaS | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Vývoj na míru vs SaaS: kdy dává co větší smysl",
+          "description": "Praktické srovnání vývoje aplikace na míru a hotového SaaS nástroje pro firmy, které řeší interní procesy, workflow nebo klientský portál.",
+          "primaryQuery": "vývoj na míru vs saas",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Srovnání",
+            "title": "Nejde o ideologii. Jde o to, kde budou kompromisy levnější.",
+            "subtitle": "SaaS je někdy správná volba. Jindy jen oddaluje problém a vytváří drahé obcházení omezení.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "SaaS nástroj bývá rychlejší start a menší počáteční investice. Vývoj na míru dává smysl tehdy, když by univerzální nástroj nutil firmu kroutit vlastní procesy.",
+            "Krátká odpověď je jednoduchá: pokud je software součástí důležitého procesu a limity SaaS vytvářejí drahé obcházení, bývá vývoj na míru dlouhodobě rozumnější volba.",
+            "Rozhodnutí není jen technické. Je hlavně provozní a ekonomické: kolik stojí obcházení omezení, ruční práce a ztracená flexibilita."
+          ],
+          "sections": [
+            {
+              "title": "Kdy je lepší SaaS",
+              "body": [
+                "SaaS je vhodný tam, kde proces není zásadně odlišný, tým potřebuje začít rychle a nástroj pokrývá většinu potřeb bez složitého obcházení nebo drahých doplňků."
+              ]
+            },
+            {
+              "title": "Kdy dává větší smysl vývoj na míru",
+              "body": [
+                "Vývoj na míru je lepší ve chvíli, kdy firma potřebuje vlastní logiku, více rolí, workflow, integrace nebo dlouhodobou kontrolu nad důležitým procesem."
+              ]
+            },
+            {
+              "title": "Podle čeho rozhodovat",
+              "body": [
+                "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady."
+              ],
+              "bullets": [
+                "specifičnost procesu",
+                "náklady na obcházení omezení",
+                "potřeba integrací a vlastních rolí",
+                "dlouhodobá kontrola nad produktem"
+              ]
+            },
+            {
+              "title": "Praktický závěr",
+              "body": [
+                "Pokud je software přímo součástí provozně důležitého procesu, bývá vývoj na míru často rozumnější než dlouhé obcházení SaaS limitů. Pokud je potřeba standardní a rychlá, SaaS může být lepší start."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je SaaS vždy levnější?",
+              "answer": "Ne. Nízký start může být vykoupený vyšší cenou za doplňky, ruční práci, integrace a budoucí omezení."
+            },
+            {
+              "question": "Má smysl začít SaaSem a později přejít?",
+              "answer": "Někdy ano, ale je dobré vědět, co vás pozdější přechod bude stát a jak moc si tím zamknete data nebo proces."
+            },
+            {
+              "question": "Kdy je custom development zbytečně brzy?",
+              "answer": "Když firma ještě neví, jak přesně bude proces vypadat, a standardní nástroj pokryje většinu práce bez větších kompromisů."
+            },
+            {
+              "question": "Lze kombinovat SaaS a vlastní vývoj?",
+              "answer": "Ano. Často je rozumné nechat standardní části v hotovém nástroji a vlastní logiku řešit na míru kolem něj."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-internal-tools-development",
+            "guide-how-to-scope-a-custom-web-application",
+            "use-case-b2b-client-portal",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "specifičnost procesu",
+              "náklady na obcházení omezení",
+              "potřeba integrací a vlastních rolí",
+              "dlouhodobá kontrola nad produktem"
+            ],
+            "notFor": [
+              "teoretické technologické debaty bez business cíle"
+            ]
+          },
+          "seo": {
+            "title": "Vývoj na míru vs SaaS | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktické srovnání vývoje aplikace na míru a hotového SaaS nástroje pro firmy, které řeší interní procesy, workflow nebo klientský portál."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-custom-vs-saas.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Srovnání",
+        "heading": "Nejde o ideologii. Jde o to, kde budou kompromisy levnější.",
+        "body": "SaaS je někdy správná volba. Jindy jen oddaluje problém a vytváří drahé obcházení omezení.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "SaaS nástroj bývá rychlejší start a menší počáteční investice. Vývoj na míru dává smysl tehdy, když by univerzální nástroj nutil firmu kroutit vlastní procesy.\n\nKrátká odpověď je jednoduchá: pokud je software součástí důležitého procesu a limity SaaS vytvářejí drahé obcházení, bývá vývoj na míru dlouhodobě rozumnější volba.\n\nRozhodnutí není jen technické. Je hlavně provozní a ekonomické: kolik stojí obcházení omezení, ruční práce a ztracená flexibilita."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je lepší SaaS",
+        "body": "SaaS je vhodný tam, kde proces není zásadně odlišný, tým potřebuje začít rychle a nástroj pokrývá většinu potřeb bez složitého obcházení nebo drahých doplňků."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy dává větší smysl vývoj na míru",
+        "body": "Vývoj na míru je lepší ve chvíli, kdy firma potřebuje vlastní logiku, více rolí, workflow, integrace nebo dlouhodobou kontrolu nad důležitým procesem."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Podle čeho rozhodovat",
+        "body": "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady.",
+        "items": [
+          "specifičnost procesu",
+          "náklady na obcházení omezení",
+          "potřeba integrací a vlastních rolí",
+          "dlouhodobá kontrola nad produktem"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Praktický závěr",
+        "body": "Pokud je software přímo součástí provozně důležitého procesu, bývá vývoj na míru často rozumnější než dlouhé obcházení SaaS limitů. Pokud je potřeba standardní a rychlá, SaaS může být lepší start."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je SaaS vždy levnější?",
+            "answer": "Ne. Nízký start může být vykoupený vyšší cenou za doplňky, ruční práci, integrace a budoucí omezení."
+          },
+          {
+            "question": "Má smysl začít SaaSem a později přejít?",
+            "answer": "Někdy ano, ale je dobré vědět, co vás pozdější přechod bude stát a jak moc si tím zamknete data nebo proces."
+          },
+          {
+            "question": "Kdy je custom development zbytečně brzy?",
+            "answer": "Když firma ještě neví, jak přesně bude proces vypadat, a standardní nástroj pokryje většinu práce bez větších kompromisů."
+          },
+          {
+            "question": "Lze kombinovat SaaS a vlastní vývoj?",
+            "answer": "Ano. Často je rozumné nechat standardní části v hotovém nástroji a vlastní logiku řešit na míru kolem něj."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

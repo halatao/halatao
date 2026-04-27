@@ -1,0 +1,247 @@
+{
+  "id": "use-case-b2b-partner-portal.cs",
+  "locale": "cs",
+  "slug": "/priklady/partnersky-portal-pro-b2b-firmu",
+  "title": "Partnerský portál pro B2B firmu | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Partnerský portál pro B2B firmu | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad partnerského portálu pro B2B firmu, která potřebuje sjednotit dokumenty, požadavky, stav spolupráce a samoobslužné kroky distributorů, dealerů nebo p...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-b2b-partner-portal",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "partnersky-portal-pro-b2b-firmu",
+          "segments": [
+            "priklady",
+            "partnersky-portal-pro-b2b-firmu"
+          ],
+          "title": "Partnerský portál pro B2B firmu | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Partnerský portál pro B2B firmu a sdílený provozní přehled",
+          "description": "Příklad partnerského portálu pro B2B firmu, která potřebuje sjednotit dokumenty, požadavky, stav spolupráce a samoobslužné kroky distributorů, dealerů nebo partnerů.",
+          "primaryQuery": "partnersky portal pro B2B firmu",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Jedno místo pro partnery místo e-mailových vláken a ručního dohledávání",
+            "subtitle": "Vhodné tam, kde partneři opakovaně pracují s dokumenty, požadavky, stavem zakázek nebo dalšími kroky napojenými na interní proces firmy.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Partnerský portál je silný use case tam, kde firma neřeší jen jednorázový klientský vstup, ale dlouhodobou spolupráci s distributory, obchodními partnery nebo servisní sítí.",
+            "První verze by obvykle měla začínat několika scénáři s nejvyšším dopadem na vztah s partnerem a interní operativu, ne pokusem digitalizovat celou spolupráci najednou."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "partneři potřebují průběžně vidět stav požadavků, objednávek nebo servisních případů",
+                "dokumenty, ceníky nebo podklady se sdílejí ručně a nepřehledně",
+                "firma chce partnerům nabídnout samoobslužné kroky bez zbytečné interní asistence",
+                "obchodní nebo operativní tým ztrácí čas opakovanou podporou partnerů"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "partnerské účty, role a přístupové úrovně",
+                "stav spolupráce, požadavků nebo zakázek v jednom rozhraní",
+                "správu dokumentů, notifikace a navazující akce",
+                "napojení na interní systém, CRM nebo backoffice workflow"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "méně ruční partnerské podpory a dohledávání",
+                "lepší dostupnost informací pro partnera",
+                "větší důvěra v servisní a obchodní proces",
+                "silnější základ pro další digitální služby pro partnery"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je partnerský portál něco jiného než klientský portál?",
+              "answer": "Často ano. Partnerská spolupráce mívá jiné role, oprávnění a dlouhodobější provozní vazbu na interní proces firmy."
+            },
+            {
+              "question": "Musí portál od začátku řešit všechny scénáře spolupráce?",
+              "answer": "Nemusí. Lepší je začít několika nejčastějšími interakcemi, které odlehčí podporu a zpřehlední provoz."
+            },
+            {
+              "question": "Lze portál napojit na stávající interní systémy?",
+              "answer": "Ano. Právě vazba na interní data a workflow je pro podobný projekt klíčová."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "use-case-b2b-client-portal",
+            "problem-client-portal",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "B2B firmy s opakovanou spoluprací s partnery",
+              "týmy, které chtějí snížit servisní overhead kolem partnerů",
+              "situace, kde má portál jasnou vazbu na interní proces a data"
+            ],
+            "notFor": [
+              "jednoduchá prezentační sekce pro partnery bez workflow",
+              "portál bez návaznosti na interní systém",
+              "projekty bez ownera partnerského procesu"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Partnerský portál pro B2B firmu | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad partnerského portálu pro B2B firmu, která potřebuje sjednotit dokumenty, požadavky, stav spolupráce a samoobslužné kroky distributorů, dealerů nebo partnerů."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-b2b-partner-portal.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Jedno místo pro partnery místo e-mailových vláken a ručního dohledávání",
+        "body": "Vhodné tam, kde partneři opakovaně pracují s dokumenty, požadavky, stavem zakázek nebo dalšími kroky napojenými na interní proces firmy.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Partnerský portál je silný use case tam, kde firma neřeší jen jednorázový klientský vstup, ale dlouhodobou spolupráci s distributory, obchodními partnery nebo servisní sítí.\n\nPrvní verze by obvykle měla začínat několika scénáři s nejvyšším dopadem na vztah s partnerem a interní operativu, ne pokusem digitalizovat celou spolupráci najednou."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "partneři potřebují průběžně vidět stav požadavků, objednávek nebo servisních případů",
+          "dokumenty, ceníky nebo podklady se sdílejí ručně a nepřehledně",
+          "firma chce partnerům nabídnout samoobslužné kroky bez zbytečné interní asistence",
+          "obchodní nebo operativní tým ztrácí čas opakovanou podporou partnerů"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "partnerské účty, role a přístupové úrovně",
+          "stav spolupráce, požadavků nebo zakázek v jednom rozhraní",
+          "správu dokumentů, notifikace a navazující akce",
+          "napojení na interní systém, CRM nebo backoffice workflow"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "méně ruční partnerské podpory a dohledávání",
+          "lepší dostupnost informací pro partnera",
+          "větší důvěra v servisní a obchodní proces",
+          "silnější základ pro další digitální služby pro partnery"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je partnerský portál něco jiného než klientský portál?",
+            "answer": "Často ano. Partnerská spolupráce mívá jiné role, oprávnění a dlouhodobější provozní vazbu na interní proces firmy."
+          },
+          {
+            "question": "Musí portál od začátku řešit všechny scénáře spolupráce?",
+            "answer": "Nemusí. Lepší je začít několika nejčastějšími interakcemi, které odlehčí podporu a zpřehlední provoz."
+          },
+          {
+            "question": "Lze portál napojit na stávající interní systémy?",
+            "answer": "Ano. Právě vazba na interní data a workflow je pro podobný projekt klíčová."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

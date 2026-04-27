@@ -1,0 +1,256 @@
+{
+  "id": "use-case-workflow-automation-tools.en",
+  "locale": "en",
+  "slug": "/use-cases/workflow-automation-tools",
+  "title": "Workflow automation tools | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Workflow automation tools | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A workflow automation use case for companies that need to reduce manual work, improve approvals, and move recurring processes faster across systems and teams.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-workflow-automation-tools",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "workflow-automation-tools",
+          "segments": [
+            "use-cases",
+            "workflow-automation-tools"
+          ],
+          "title": "Workflow automation tools | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Workflow automation tools for repeatable business processes",
+          "description": "A workflow automation use case for companies that need to reduce manual work, improve approvals, and move recurring processes faster across systems and teams.",
+          "primaryQuery": "workflow automation tools",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "A process that no longer depends on people manually keeping it alive",
+            "subtitle": "Useful for repeatable workflows with approvals, checks, data transfers, and too much coordination by hand.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Workflow automation is valuable when the same steps, decisions, and handoffs repeat across people and systems.",
+            "The goal is not automation for its own sake. The important part is defining what should be automated, what should stay human, and how exceptions are handled."
+          ],
+          "sections": [
+            {
+              "title": "What problem this type of app solves",
+              "body": [
+                "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership."
+              ],
+              "bullets": [
+                "slow approval chains",
+                "manual cross-system re-entry",
+                "delays caused by unclear ownership",
+                "poor visibility into where the process is stuck"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations."
+              ],
+              "bullets": [
+                "workflow rules and states",
+                "notifications and escalations",
+                "integration with source systems",
+                "control interface for exceptions and audit"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control."
+              ],
+              "bullets": [
+                "faster process throughput",
+                "less manual coordination",
+                "better handling of exceptions",
+                "more reliable repeatable operations"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is workflow automation relevant without a large ERP?",
+              "answer": "Yes. Repetition and coordination cost matter more than the size of the system landscape."
+            },
+            {
+              "question": "Can some approvals stay manual?",
+              "answer": "Yes. The point is to separate rules from exceptions, not automate everything blindly."
+            },
+            {
+              "question": "What if the current process is poorly documented?",
+              "answer": "That is common. The first step is to map it well enough to automate the parts that genuinely make sense."
+            },
+            {
+              "question": "Can the result include a small internal tool too?",
+              "answer": "Yes. Many automation projects also need a supporting interface for people handling oversight and exceptions."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "problem-system-integrations",
+            "case-study-multi-system-integration",
+            "use-case-service-team-ops-system",
+            "tool-api-integration-checklist"
+          ],
+          "fit": {
+            "for": [
+              "faster process throughput",
+              "less manual coordination",
+              "better handling of exceptions",
+              "more reliable repeatable operations"
+            ],
+            "notFor": [
+              "moving the same chaos into a new UI"
+            ]
+          },
+          "seo": {
+            "title": "Workflow automation tools | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A workflow automation use case for companies that need to reduce manual work, improve approvals, and move recurring processes faster across systems and teams."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-workflow-automation-tools.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "A process that no longer depends on people manually keeping it alive",
+        "body": "Useful for repeatable workflows with approvals, checks, data transfers, and too much coordination by hand.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Workflow automation is valuable when the same steps, decisions, and handoffs repeat across people and systems.\n\nThe goal is not automation for its own sake. The important part is defining what should be automated, what should stay human, and how exceptions are handled."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What problem this type of app solves",
+        "body": "This use case works when an important process needs to move into a clearer system with explicit roles, states, and data ownership.",
+        "items": [
+          "slow approval chains",
+          "manual cross-system re-entry",
+          "delays caused by unclear ownership",
+          "poor visibility into where the process is stuck"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but the recurring core is similar: roles, workflow, visibility, permissions, and integrations.",
+        "items": [
+          "workflow rules and states",
+          "notifications and escalations",
+          "integration with source systems",
+          "control interface for exceptions and audit"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The goal is not to digitise old chaos. The point is to make work clearer, responsibilities sharper, and the process easier to control.",
+        "items": [
+          "faster process throughput",
+          "less manual coordination",
+          "better handling of exceptions",
+          "more reliable repeatable operations"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is workflow automation relevant without a large ERP?",
+            "answer": "Yes. Repetition and coordination cost matter more than the size of the system landscape."
+          },
+          {
+            "question": "Can some approvals stay manual?",
+            "answer": "Yes. The point is to separate rules from exceptions, not automate everything blindly."
+          },
+          {
+            "question": "What if the current process is poorly documented?",
+            "answer": "That is common. The first step is to map it well enough to automate the parts that genuinely make sense."
+          },
+          {
+            "question": "Can the result include a small internal tool too?",
+            "answer": "Yes. Many automation projects also need a supporting interface for people handling oversight and exceptions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "tool-excel-to-internal-tool-migration-checklist.cs",
+  "locale": "cs",
+  "slug": "/sablony/checklist-migrace-z-excelu-do-interniho-systemu",
+  "title": "Checklist migrace z Excelu do interního systému | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Checklist migrace z Excelu do interního systému | Bc. Ondřej Halata...",
+    "description": "Praktický checklist pro firmy, které chtějí převést důležitý proces z Excelu do interního systému a potřebují si srovnat data, workflow, role a hranice první...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-excel-to-internal-tool-migration-checklist",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "checklist-migrace-z-excelu-do-interniho-systemu",
+          "segments": [
+            "sablony",
+            "checklist-migrace-z-excelu-do-interniho-systemu"
+          ],
+          "title": "Checklist migrace z Excelu do interního systému | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Checklist: co si připravit před migrací z Excelu do interního systému",
+          "description": "Praktický checklist pro firmy, které chtějí převést důležitý proces z Excelu do interního systému a potřebují si srovnat data, workflow, role a hranice první etapy.",
+          "primaryQuery": "migrace z excelu do interniho systemu",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Migrace z Excelu není kopírování tabulky do nové obrazovky",
+            "subtitle": "Pracovní checklist pro firmy, které chtějí převést důležitý proces z tabulek do interního systému bez ztráty reality provozu a bez zbytečného přescopování.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Přechod z Excelu do interního systému bývá slabý ve chvíli, kdy se firma snaží jen přepsat stávající tabulku do nového UI bez pochopení workflow, výjimek a odpovědnosti.",
+            "Tento checklist pomáhá oddělit, co je skutečně potřeba převést, jaká data mají smysl, kde vznikají problémy a co má řešit první verze systému."
+          ],
+          "sections": [
+            {
+              "title": "Co má asset pokrýt",
+              "body": [
+                "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí."
+              ],
+              "bullets": [
+                "hlavní workflow, role a odpovědnosti v procesu",
+                "zdrojová data, duplicity a ruční přepisy",
+                "výjimky, schvalování a návaznosti na další nástroje",
+                "hranice první etapy a co zatím nepřevádět"
+              ]
+            },
+            {
+              "title": "Jak ho použít v praxi",
+              "body": [
+                "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv."
+              ],
+              "bullets": [
+                "před scopingem interního systému",
+                "při rozhodování, co převést z tabulek jako první",
+                "jako podklad pro workshop nebo první odhad"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl přinést",
+              "body": [
+                "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu."
+              ],
+              "bullets": [
+                "realističtější první scope interního systému",
+                "menší riziko, že se do systému přenese stávající chaos",
+                "lepší rozhodnutí o prioritách první etapy",
+                "silnější základ pro migraci dat i další rozvoj procesu"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musíme převést všechny tabulky najednou?",
+              "answer": "Nemusíte. Často je lepší začít jedním klíčovým workflow a teprve potom přidávat další části procesu."
+            },
+            {
+              "question": "Má smysl řešit i kvalitu dat před migrací?",
+              "answer": "Ano. Pokud se do nového systému přenese nepřehledná nebo duplicitní data bez kontroly, chaos se jen přesune jinam."
+            },
+            {
+              "question": "Nahradí checklist detailní analýzu a návrh?",
+              "answer": "Ne. Je to pracovní vstup, který pomůže zlepšit kvalitu následného scope, priorit a technického návrhu."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "tool-internal-tool-scope-worksheet",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy převádějící důležitý proces z tabulek do systému",
+              "týmy, které chtějí zúžit první etapu migrace",
+              "projekty s více rolemi, daty a návaznostmi na další nástroje"
+            ],
+            "notFor": [
+              "jednoduchá tabulka bez workflow a bez provozního dopadu",
+              "projekty bez ownera procesu",
+              "snaha jen mechanicky překreslit tabulku bez změny práce"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Checklist migrace z Excelu do interního systému | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický checklist pro firmy, které chtějí převést důležitý proces z Excelu do interního systému a potřebují si srovnat data, workflow, role a hranice první etapy."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-excel-to-internal-tool-migration-checklist.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Migrace z Excelu není kopírování tabulky do nové obrazovky",
+        "body": "Pracovní checklist pro firmy, které chtějí převést důležitý proces z tabulek do interního systému bez ztráty reality provozu a bez zbytečného přescopování.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Přechod z Excelu do interního systému bývá slabý ve chvíli, kdy se firma snaží jen přepsat stávající tabulku do nového UI bez pochopení workflow, výjimek a odpovědnosti.\n\nTento checklist pomáhá oddělit, co je skutečně potřeba převést, jaká data mají smysl, kde vznikají problémy a co má řešit první verze systému."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má asset pokrýt",
+        "body": "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí.",
+        "items": [
+          "hlavní workflow, role a odpovědnosti v procesu",
+          "zdrojová data, duplicity a ruční přepisy",
+          "výjimky, schvalování a návaznosti na další nástroje",
+          "hranice první etapy a co zatím nepřevádět"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ho použít v praxi",
+        "body": "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv.",
+        "items": [
+          "před scopingem interního systému",
+          "při rozhodování, co převést z tabulek jako první",
+          "jako podklad pro workshop nebo první odhad"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl přinést",
+        "body": "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu.",
+        "items": [
+          "realističtější první scope interního systému",
+          "menší riziko, že se do systému přenese stávající chaos",
+          "lepší rozhodnutí o prioritách první etapy",
+          "silnější základ pro migraci dat i další rozvoj procesu"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musíme převést všechny tabulky najednou?",
+            "answer": "Nemusíte. Často je lepší začít jedním klíčovým workflow a teprve potom přidávat další části procesu."
+          },
+          {
+            "question": "Má smysl řešit i kvalitu dat před migrací?",
+            "answer": "Ano. Pokud se do nového systému přenese nepřehledná nebo duplicitní data bez kontroly, chaos se jen přesune jinam."
+          },
+          {
+            "question": "Nahradí checklist detailní analýzu a návrh?",
+            "answer": "Ne. Je to pracovní vstup, který pomůže zlepšit kvalitu následného scope, priorit a technického návrhu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

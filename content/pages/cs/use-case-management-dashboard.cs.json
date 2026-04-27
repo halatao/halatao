@@ -1,0 +1,247 @@
+{
+  "id": "use-case-management-dashboard.cs",
+  "locale": "cs",
+  "slug": "/priklady/dashboard-pro-management",
+  "title": "Dashboard pro management na míru | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Dashboard pro management na míru | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad management dashboardu na míru pro firmy, které potřebují spojit data z více zdrojů a zlepšit rozhodování bez ručně skládaných reportů.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-management-dashboard",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "dashboard-pro-management",
+          "segments": [
+            "priklady",
+            "dashboard-pro-management"
+          ],
+          "title": "Dashboard pro management na míru | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Dashboard pro management nad daty z více systémů",
+          "description": "Příklad management dashboardu na míru pro firmy, které potřebují spojit data z více zdrojů a zlepšit rozhodování bez ručně skládaných reportů.",
+          "primaryQuery": "dashboard pro management",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Přehled pro vedení, který nestojí na ručně lepených exportech",
+            "subtitle": "Vhodné tam, kde management potřebuje rychle vidět stav firmy, výjimky a trendy nad několika systémy.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Management dashboard dává smysl ve chvíli, kdy se zásadní rozhodnutí opírají o neaktuální exporty, ručně spojovaná čísla nebo reporting závislý na konkrétních lidech.",
+            "Smyslem dashboardu není jen hezký graf. Důležité je, aby čísla měla jasný původ, dávala smysl v provozním kontextu a šla bezpečně interpretovat."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "vedení skládá reporty z více systémů",
+                "čísla se mezi nástroji rozcházejí",
+                "chybí včasná viditelnost do výjimek a problémů",
+                "operativa a management pracují s jinou verzí reality"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "sjednocení klíčových datových zdrojů",
+                "role a pohledy podle typu uživatele",
+                "přehled KPI, trendů a varování",
+                "napojení na interní aplikaci nebo BI vrstvu"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "rychlejší a jistější rozhodování",
+                "méně ručního reportingu",
+                "lepší důvěra v data",
+                "včasnější reakce na provozní výjimky"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Není lepší koupit hotové BI?",
+              "answer": "Někdy ano. Pokud ale dashboard potřebuje specifické role, workflow nebo vazbu na vlastní aplikaci, dává custom řešení větší smysl."
+            },
+            {
+              "question": "Musí se nejdřív vyčistit data?",
+              "answer": "Aspoň v klíčových oblastech ano. Jinak dashboard jen vizualizuje stávající chaos."
+            },
+            {
+              "question": "Je dashboard jen pro vedení?",
+              "answer": "Ne vždy. Často je praktický i pro operativní role, které potřebují včas vidět odchylky a výjimky."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "use-case-reporting-dashboard",
+            "service-automations-and-integrations",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s daty rozptýlenými v několika systémech",
+              "management, který dnes spoléhá na ruční reporting",
+              "týmy, které potřebují jednotnější pohled na stav firmy"
+            ],
+            "notFor": [
+              "dashboard bez důvěryhodného zdroje dat",
+              "jednorázový reporting bez provozního dopadu",
+              "projekty bez ownera na straně businessu"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Dashboard pro management na míru | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad management dashboardu na míru pro firmy, které potřebují spojit data z více zdrojů a zlepšit rozhodování bez ručně skládaných reportů."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-management-dashboard.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Přehled pro vedení, který nestojí na ručně lepených exportech",
+        "body": "Vhodné tam, kde management potřebuje rychle vidět stav firmy, výjimky a trendy nad několika systémy.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Management dashboard dává smysl ve chvíli, kdy se zásadní rozhodnutí opírají o neaktuální exporty, ručně spojovaná čísla nebo reporting závislý na konkrétních lidech.\n\nSmyslem dashboardu není jen hezký graf. Důležité je, aby čísla měla jasný původ, dávala smysl v provozním kontextu a šla bezpečně interpretovat."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "vedení skládá reporty z více systémů",
+          "čísla se mezi nástroji rozcházejí",
+          "chybí včasná viditelnost do výjimek a problémů",
+          "operativa a management pracují s jinou verzí reality"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "sjednocení klíčových datových zdrojů",
+          "role a pohledy podle typu uživatele",
+          "přehled KPI, trendů a varování",
+          "napojení na interní aplikaci nebo BI vrstvu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "rychlejší a jistější rozhodování",
+          "méně ručního reportingu",
+          "lepší důvěra v data",
+          "včasnější reakce na provozní výjimky"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Není lepší koupit hotové BI?",
+            "answer": "Někdy ano. Pokud ale dashboard potřebuje specifické role, workflow nebo vazbu na vlastní aplikaci, dává custom řešení větší smysl."
+          },
+          {
+            "question": "Musí se nejdřív vyčistit data?",
+            "answer": "Aspoň v klíčových oblastech ano. Jinak dashboard jen vizualizuje stávající chaos."
+          },
+          {
+            "question": "Je dashboard jen pro vedení?",
+            "answer": "Ne vždy. Často je praktický i pro operativní role, které potřebují včas vidět odchylky a výjimky."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

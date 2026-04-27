@@ -1,0 +1,250 @@
+{
+  "id": "case-study-existing-app-takeover.en",
+  "locale": "en",
+  "slug": "/case-studies/existing-app-takeover",
+  "title": "Existing app takeover case study | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Existing app takeover case study | Bc. Ondřej Halata (halatao.cz)",
+    "description": "An anonymised case-study scenario showing how an existing app takeover can reduce delivery risk and restore a practical roadmap.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "case-study-existing-app-takeover",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "case_study",
+          "slug": "existing-app-takeover",
+          "segments": [
+            "case-studies",
+            "existing-app-takeover"
+          ],
+          "title": "Existing app takeover case study | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Case study: existing app takeover and delivery stabilisation",
+          "description": "An anonymised case-study scenario showing how an existing app takeover can reduce delivery risk and restore a practical roadmap.",
+          "primaryQuery": "existing app takeover case study",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Case study",
+            "title": "The product was live, but every change felt risky",
+            "subtitle": "A representative takeover situation after a vendor change or a period without strong technical ownership.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The application was in production, but the team had limited confidence in touching important parts of it. Release flow was fragile and roadmap progress was slowing down.",
+            "The buyer did not need a dramatic rewrite. The buyer needed clarity on real risk and a safer way to continue."
+          ],
+          "sections": [
+            {
+              "title": "Starting situation",
+              "body": [
+                "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story."
+              ],
+              "bullets": [
+                "live product with weak documentation",
+                "uncertain deployment and dependency picture",
+                "roadmap slowed by technical fear",
+                "too much caution around routine changes"
+              ]
+            },
+            {
+              "title": "How the work was approached",
+              "body": [
+                "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase."
+              ],
+              "bullets": [
+                "fast orientation in architecture and release flow",
+                "mapping critical areas and priorities",
+                "stabilising selected parts before broader work",
+                "creating an incremental improvement backlog"
+              ]
+            },
+            {
+              "title": "What changed",
+              "body": [
+                "The point is not to fake exact numbers. It is to show the kind of change a similar project can create."
+              ],
+              "bullets": [
+                "clearer risk picture",
+                "faster continuation of development",
+                "less rewrite pressure",
+                "stronger technical direction"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does app takeover always require a long audit phase?",
+              "answer": "No. A focused first phase can often surface the main risks and priorities quickly."
+            },
+            {
+              "question": "Do you need to redesign the whole architecture immediately?",
+              "answer": "Usually not. For running apps, it is often better to secure the risky parts and improve delivery confidence first."
+            },
+            {
+              "question": "Can this work alongside the client’s internal team?",
+              "answer": "Yes. That is often the best way to rebuild control over the system quickly."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-app-takeover",
+            "problem-modernize-legacy-app",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "clearer risk picture",
+              "faster continuation of development",
+              "less rewrite pressure",
+              "stronger technical direction"
+            ],
+            "notFor": [
+              "inflated vanity-metric storytelling"
+            ]
+          },
+          "seo": {
+            "title": "Existing app takeover case study | Bc. Ondřej Halata (halatao.cz)",
+            "description": "An anonymised case-study scenario showing how an existing app takeover can reduce delivery risk and restore a practical roadmap."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "note": "Representative anonymised scenario with no invented client metrics.",
+          "id": "case-study-existing-app-takeover.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "case_study",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Case study",
+        "heading": "The product was live, but every change felt risky",
+        "body": "A representative takeover situation after a vendor change or a period without strong technical ownership.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The application was in production, but the team had limited confidence in touching important parts of it. Release flow was fragile and roadmap progress was slowing down.\n\nThe buyer did not need a dramatic rewrite. The buyer needed clarity on real risk and a safer way to continue."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Starting situation",
+        "body": "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story.",
+        "items": [
+          "live product with weak documentation",
+          "uncertain deployment and dependency picture",
+          "roadmap slowed by technical fear",
+          "too much caution around routine changes"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work was approached",
+        "body": "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase.",
+        "items": [
+          "fast orientation in architecture and release flow",
+          "mapping critical areas and priorities",
+          "stabilising selected parts before broader work",
+          "creating an incremental improvement backlog"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What changed",
+        "body": "The point is not to fake exact numbers. It is to show the kind of change a similar project can create.",
+        "items": [
+          "clearer risk picture",
+          "faster continuation of development",
+          "less rewrite pressure",
+          "stronger technical direction"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Does app takeover always require a long audit phase?",
+            "answer": "No. A focused first phase can often surface the main risks and priorities quickly."
+          },
+          {
+            "question": "Do you need to redesign the whole architecture immediately?",
+            "answer": "Usually not. For running apps, it is often better to secure the risky parts and improve delivery confidence first."
+          },
+          {
+            "question": "Can this work alongside the client’s internal team?",
+            "answer": "Yes. That is often the best way to rebuild control over the system quickly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "use-case-request-offer-delivery-workflow.en",
+  "locale": "en",
+  "slug": "/use-cases/request-offer-delivery-workflow",
+  "title": "How a small team manages requests, offers and jobs in one system",
+  "seo": {
+    "title": "How a small team manages requests, offers and jobs in one system",
+    "description": "An example of a simple internal system for teams that need to connect requests, offers, and delivery jobs in one shared workflow instead of relying on spread...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-request-offer-delivery-workflow",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "request-offer-delivery-workflow",
+          "segments": [
+            "use-cases",
+            "request-offer-delivery-workflow"
+          ],
+          "title": "How a small team manages requests, offers and jobs in one system",
+          "h1": "How a small team manages requests, offers and jobs in one system",
+          "description": "An example of a simple internal system for teams that need to connect requests, offers, and delivery jobs in one shared workflow instead of relying on spreadsheets and email.",
+          "primaryQuery": "request offer delivery workflow",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "From scattered information to one clear workflow",
+            "subtitle": "A simple system that connects requests, offers, and jobs in one place.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A typical situation is simple: requests arrive via email or form, offers are created in documents, and delivery is tracked somewhere else.",
+            "The result is no shared view, no clear flow, and constant manual coordination between people."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "requests arrive by email or form and are processed manually",
+                "offers are created outside the main tracking flow",
+                "approved work is handed over into delivery by hand",
+                "job status is hard to understand across sales and operations"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "request capture and status tracking",
+                "offer linked to the request",
+                "handoff into delivery with clear ownership",
+                "history, notes, deadlines, and next-step visibility",
+                "possible connection to other company tools"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "clearer workflow from request to delivery",
+                "less manual coordination between roles",
+                "lower risk of lost information and outdated status",
+                "better base for reporting or future automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this only useful for large companies?",
+              "answer": "No. It also makes sense for smaller teams when the process repeats often enough that the current setup is already becoming hard to manage."
+            },
+            {
+              "question": "Does the full process need to be built at once?",
+              "answer": "No. It is often better to begin with one stage and expand from there."
+            },
+            {
+              "question": "Can the system be expanded later?",
+              "answer": "Yes. A well-designed internal system can grow as the workflow becomes more mature."
+            }
+          ],
+          "related": [
+            "service-request-offer-delivery-system",
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-requests-offers-delivery-in-spreadsheets",
+            "problem-replace-spreadsheets-in-process",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "small teams managing request-to-delivery work",
+              "companies connecting sales, offers, and execution",
+              "processes already outgrowing spreadsheets and email"
+            ],
+            "notFor": [
+              "simple tracking with no multi-step continuity",
+              "CRM-only processes with no delivery stage",
+              "teams unwilling to describe the real process"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "How a small team manages requests, offers and jobs in one system",
+            "description": "An example of a simple internal system for teams that need to connect requests, offers, and delivery jobs in one shared workflow instead of relying on spreadsheets and email."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-request-offer-delivery-workflow.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "From scattered information to one clear workflow",
+        "body": "A simple system that connects requests, offers, and jobs in one place.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A typical situation is simple: requests arrive via email or form, offers are created in documents, and delivery is tracked somewhere else.\n\nThe result is no shared view, no clear flow, and constant manual coordination between people."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "requests arrive by email or form and are processed manually",
+          "offers are created outside the main tracking flow",
+          "approved work is handed over into delivery by hand",
+          "job status is hard to understand across sales and operations"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "request capture and status tracking",
+          "offer linked to the request",
+          "handoff into delivery with clear ownership",
+          "history, notes, deadlines, and next-step visibility",
+          "possible connection to other company tools"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "clearer workflow from request to delivery",
+          "less manual coordination between roles",
+          "lower risk of lost information and outdated status",
+          "better base for reporting or future automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this only useful for large companies?",
+            "answer": "No. It also makes sense for smaller teams when the process repeats often enough that the current setup is already becoming hard to manage."
+          },
+          {
+            "question": "Does the full process need to be built at once?",
+            "answer": "No. It is often better to begin with one stage and expand from there."
+          },
+          {
+            "question": "Can the system be expanded later?",
+            "answer": "Yes. A well-designed internal system can grow as the workflow becomes more mature."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "use-case-ai-internal-documents.en",
+  "locale": "en",
+  "slug": "/use-cases/ai-over-internal-documents",
+  "title": "AI over internal documents and company knowledge",
+  "seo": {
+    "title": "AI over internal documents and company knowledge",
+    "description": "An example of using AI over internal documents and company knowledge to speed up information retrieval, improve onboarding, and reduce dependence on manual k...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-ai-internal-documents",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "ai-over-internal-documents",
+          "segments": [
+            "use-cases",
+            "ai-over-internal-documents"
+          ],
+          "title": "AI over internal documents and company knowledge",
+          "h1": "AI over internal documents and company knowledge",
+          "description": "An example of using AI over internal documents and company knowledge to speed up information retrieval, improve onboarding, and reduce dependence on manual knowledge transfer.",
+          "primaryQuery": "ai over internal documents",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "Find the right answer instead of wasting time searching for it",
+            "subtitle": "A strong fit where teams lose time searching through documents, notes, playbooks, or fragmented internal materials.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Companies often keep important knowledge spread across documents, emails, notes, and individual people. The problem is not only access, but the time it takes to find the right answer.",
+            "AI works well here as a layer over existing documents or an internal knowledge base. Not as a replacement for the process, but as a faster route to knowledge the company already has."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "new team members need too long to navigate internal materials",
+                "support or sales repeatedly search for the same answers",
+                "guides, rules, and documents are spread across several locations",
+                "the company depends on specific people who know where things are"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "design of an AI layer over documents or internal knowledge content",
+                "integration with selected internal sources and materials",
+                "grounding responses in approved context and sources",
+                "validation of the first production scenario and team workflow fit"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "faster access to internal information",
+                "less dependence on manual knowledge transfer",
+                "better onboarding and internal team support",
+                "a stronger base for future document and knowledge workflows"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do all documents need to be perfectly structured?",
+              "answer": "No, but the better the source quality and structure, the more reliable the result tends to be. It often makes sense to start with one selected part of the knowledge set."
+            },
+            {
+              "question": "Is this useful without a formal knowledge base?",
+              "answer": "Yes. Many teams can start with the documents, guides, and internal materials they already have and improve the structure over time."
+            },
+            {
+              "question": "Does this replace experienced people?",
+              "answer": "No. The goal is to reduce repetitive lookup work and dependency on manual knowledge transfer, not to replace team expertise."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-internal-tools-development",
+            "problem-ai-in-business-process",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-service-team-ops-system",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with fragmented internal knowledge across tools",
+              "teams repeatedly searching for the same answers",
+              "situations where onboarding or internal support needs to be faster"
+            ],
+            "notFor": [
+              "projects with no usable internal source material",
+              "expecting AI to replace missing documentation on its own",
+              "use cases with no owner of internal content quality"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "AI over internal documents and company knowledge",
+            "description": "An example of using AI over internal documents and company knowledge to speed up information retrieval, improve onboarding, and reduce dependence on manual knowledge transfer."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-ai-internal-documents.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "Find the right answer instead of wasting time searching for it",
+        "body": "A strong fit where teams lose time searching through documents, notes, playbooks, or fragmented internal materials.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Companies often keep important knowledge spread across documents, emails, notes, and individual people. The problem is not only access, but the time it takes to find the right answer.\n\nAI works well here as a layer over existing documents or an internal knowledge base. Not as a replacement for the process, but as a faster route to knowledge the company already has."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "new team members need too long to navigate internal materials",
+          "support or sales repeatedly search for the same answers",
+          "guides, rules, and documents are spread across several locations",
+          "the company depends on specific people who know where things are"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "design of an AI layer over documents or internal knowledge content",
+          "integration with selected internal sources and materials",
+          "grounding responses in approved context and sources",
+          "validation of the first production scenario and team workflow fit"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "faster access to internal information",
+          "less dependence on manual knowledge transfer",
+          "better onboarding and internal team support",
+          "a stronger base for future document and knowledge workflows"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do all documents need to be perfectly structured?",
+            "answer": "No, but the better the source quality and structure, the more reliable the result tends to be. It often makes sense to start with one selected part of the knowledge set."
+          },
+          {
+            "question": "Is this useful without a formal knowledge base?",
+            "answer": "Yes. Many teams can start with the documents, guides, and internal materials they already have and improve the structure over time."
+          },
+          {
+            "question": "Does this replace experienced people?",
+            "answer": "No. The goal is to reduce repetitive lookup work and dependency on manual knowledge transfer, not to replace team expertise."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

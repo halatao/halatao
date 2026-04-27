@@ -1,0 +1,247 @@
+{
+  "id": "use-case-internal-approval-system.cs",
+  "locale": "cs",
+  "slug": "/priklady/interni-schvalovaci-system",
+  "title": "Interní schvalovací systém na míru | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Interní schvalovací systém na míru | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad interního schvalovacího systému na míru pro firmy, kde se žádosti, výjimky nebo objednávky schvalují přes e-maily, tabulky a ruční dohledávání stavu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-internal-approval-system",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "interni-schvalovaci-system",
+          "segments": [
+            "priklady",
+            "interni-schvalovaci-system"
+          ],
+          "title": "Interní schvalovací systém na míru | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Interní schvalovací systém pro více rolí a jasná pravidla",
+          "description": "Příklad interního schvalovacího systému na míru pro firmy, kde se žádosti, výjimky nebo objednávky schvalují přes e-maily, tabulky a ruční dohledávání stavu.",
+          "primaryQuery": "interní schvalovací systém",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Schvalování, které už nemusí stát na ručním hlídání a přeposílání",
+            "subtitle": "Pro firmy, kde schvalovací proces ovlivňuje finance, provoz nebo odpovědnost mezi týmy.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Schvalovací systém je typický use case tam, kde je potřeba hlídat role, pravidla, výjimky a auditní stopu a současný stav stojí na e-mailech a manuálních připomínkách.",
+            "Dobře navržené řešení má zkrátit průchod procesem, zpřehlednit odpovědnost a zlepšit kontrolu nad tím, kde se schválení zaseklo."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "schvalování objednávek, výdajů nebo žádostí",
+                "více úrovní oprávnění a výjimek",
+                "nutnost auditní stopy a dohledatelnosti",
+                "ruční připomínání a eskalace mezi týmy"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "workflow stavy a schvalovací pravidla",
+                "role, oprávnění a historie kroků",
+                "notifikace, připomínky a eskalace",
+                "napojení na ERP, účetnictví nebo interní agendu"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "rychlejší průchod schvalovacím procesem",
+                "menší množství ruční koordinace",
+                "lepší auditní stopa a odpovědnost",
+                "nižší provozní chybovost"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Lze zachovat ruční schválení tam, kde je potřeba?",
+              "answer": "Ano. Smyslem není vše bezhlavě automatizovat, ale oddělit pravidla od výjimek."
+            },
+            {
+              "question": "Je to vhodné i pro menší firmu?",
+              "answer": "Ano, pokud schvalování reálně zpomaluje provoz nebo vytváří finanční a procesní riziko."
+            },
+            {
+              "question": "Dá se systém nasadit po částech?",
+              "answer": "Ano. Často dává smysl začít jedním typem žádosti nebo jedním oddělením."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-internal-tool",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy s více rolemi a schvalovací logikou",
+              "procesy s auditní stopou a výjimkami",
+              "týmy, které chtějí snížit ruční dohled nad stavem"
+            ],
+            "notFor": [
+              "jednoduchý proces bez rolí a pravidel",
+              "firma bez ownera schvalovacího workflow",
+              "nákup hotového formuláře bez integrací"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Interní schvalovací systém na míru | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad interního schvalovacího systému na míru pro firmy, kde se žádosti, výjimky nebo objednávky schvalují přes e-maily, tabulky a ruční dohledávání stavu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-internal-approval-system.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Schvalování, které už nemusí stát na ručním hlídání a přeposílání",
+        "body": "Pro firmy, kde schvalovací proces ovlivňuje finance, provoz nebo odpovědnost mezi týmy.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Schvalovací systém je typický use case tam, kde je potřeba hlídat role, pravidla, výjimky a auditní stopu a současný stav stojí na e-mailech a manuálních připomínkách.\n\nDobře navržené řešení má zkrátit průchod procesem, zpřehlednit odpovědnost a zlepšit kontrolu nad tím, kde se schválení zaseklo."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "schvalování objednávek, výdajů nebo žádostí",
+          "více úrovní oprávnění a výjimek",
+          "nutnost auditní stopy a dohledatelnosti",
+          "ruční připomínání a eskalace mezi týmy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "workflow stavy a schvalovací pravidla",
+          "role, oprávnění a historie kroků",
+          "notifikace, připomínky a eskalace",
+          "napojení na ERP, účetnictví nebo interní agendu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "rychlejší průchod schvalovacím procesem",
+          "menší množství ruční koordinace",
+          "lepší auditní stopa a odpovědnost",
+          "nižší provozní chybovost"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Lze zachovat ruční schválení tam, kde je potřeba?",
+            "answer": "Ano. Smyslem není vše bezhlavě automatizovat, ale oddělit pravidla od výjimek."
+          },
+          {
+            "question": "Je to vhodné i pro menší firmu?",
+            "answer": "Ano, pokud schvalování reálně zpomaluje provoz nebo vytváří finanční a procesní riziko."
+          },
+          {
+            "question": "Dá se systém nasadit po částech?",
+            "answer": "Ano. Často dává smysl začít jedním typem žádosti nebo jedním oddělením."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

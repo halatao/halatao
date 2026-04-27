@@ -1,0 +1,248 @@
+{
+  "id": "comparison-rewrite-vs-incremental-app-improvement.cs",
+  "locale": "cs",
+  "slug": "/srovnani/rewrite-vs-postupny-rozvoj-aplikace",
+  "title": "Rewrite vs postupný rozvoj aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Rewrite vs postupný rozvoj aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktické srovnání úplného přepisu aplikace a postupného rozvoje či stabilizace existujícího řešení.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-rewrite-vs-incremental-app-improvement",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "comparison",
+          "slug": "rewrite-vs-postupny-rozvoj-aplikace",
+          "segments": [
+            "srovnani",
+            "rewrite-vs-postupny-rozvoj-aplikace"
+          ],
+          "title": "Rewrite vs postupný rozvoj aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Rewrite vs postupný rozvoj aplikace",
+          "description": "Praktické srovnání úplného přepisu aplikace a postupného rozvoje či stabilizace existujícího řešení.",
+          "primaryQuery": "rewrite vs postupný rozvoj aplikace",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Srovnání",
+            "title": "Čistý start zní lákavě. Provoz ale často potřebuje něco jiného.",
+            "subtitle": "U běžící aplikace bývá důležitější řídit riziko a prioritizovat kritická místa než naplánovat velký restart bez jistoty.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Rewrite bývá častý první nápad, když aplikace technicky nevyhovuje. Jenže přepis nese velké riziko zpoždění, ztráty znalostí i podcenění skrytých závislostí.",
+            "Postupný rozvoj není vždy elegantní, ale bývá bezpečnější a levnější tam, kde systém stále drží důležitý provoz."
+          ],
+          "sections": [
+            {
+              "title": "Kdy má rewrite smysl",
+              "body": [
+                "Rewrite má smysl tehdy, když stávající systém opravdu brání dalšímu fungování, architektura nedrží pohromadě a postupné opravy by byly dražší než nový základ."
+              ]
+            },
+            {
+              "title": "Kdy je lepší postupný rozvoj",
+              "body": [
+                "Postupný rozvoj je obvykle lepší tam, kde aplikace stále slouží byznysu, ale potřebuje stabilizaci, zpřehlednění a cílené zlepšení nejproblematičtějších míst."
+              ]
+            },
+            {
+              "title": "Podle čeho rozhodovat",
+              "body": [
+                "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady."
+              ],
+              "bullets": [
+                "kritičnost provozu",
+                "míra technického dluhu",
+                "riziko ztráty doménové logiky",
+                "čas a rozpočet na paralelní vývoj"
+              ]
+            },
+            {
+              "title": "Praktický závěr",
+              "body": [
+                "U většiny běžících aplikací je rozumnější začít auditem a postupným zlepšením. Rewrite má být důsledek jasných důvodů, ne reakce na frustraci z kódu."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jak poznat, že už incremental přístup nestačí?",
+              "answer": "Když architektura systematicky blokuje změny, bezpečnost nebo provoz a cena dílčích zásahů dál roste bez viditelného zlepšení."
+            },
+            {
+              "question": "Lze kombinovat oba přístupy?",
+              "answer": "Ano. Často se přepisují jen vybrané části, zatímco zbytek systému se stabilizuje a drží provoz."
+            },
+            {
+              "question": "Proč je rewrite tak často podceněný?",
+              "answer": "Protože bývají podceněné skryté vazby, edge cases a množství doménových pravidel, která v systému vznikala roky."
+            },
+            {
+              "question": "Začínáte vždy auditem?",
+              "answer": "U takeover a legacy situací ano. Bez něj se jen těžko rozhoduje mezi refaktorem a větším přepisem."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-rescue-incomplete-project",
+            "guide-how-to-price-an-app-takeover",
+            "case-study-existing-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "kritičnost provozu",
+              "míra technického dluhu",
+              "riziko ztráty doménové logiky",
+              "čas a rozpočet na paralelní vývoj"
+            ],
+            "notFor": [
+              "teoretické technologické debaty bez business cíle"
+            ]
+          },
+          "seo": {
+            "title": "Rewrite vs postupný rozvoj aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktické srovnání úplného přepisu aplikace a postupného rozvoje či stabilizace existujícího řešení."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-rewrite-vs-incremental-app-improvement.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Srovnání",
+        "heading": "Čistý start zní lákavě. Provoz ale často potřebuje něco jiného.",
+        "body": "U běžící aplikace bývá důležitější řídit riziko a prioritizovat kritická místa než naplánovat velký restart bez jistoty.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Rewrite bývá častý první nápad, když aplikace technicky nevyhovuje. Jenže přepis nese velké riziko zpoždění, ztráty znalostí i podcenění skrytých závislostí.\n\nPostupný rozvoj není vždy elegantní, ale bývá bezpečnější a levnější tam, kde systém stále drží důležitý provoz."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy má rewrite smysl",
+        "body": "Rewrite má smysl tehdy, když stávající systém opravdu brání dalšímu fungování, architektura nedrží pohromadě a postupné opravy by byly dražší než nový základ."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je lepší postupný rozvoj",
+        "body": "Postupný rozvoj je obvykle lepší tam, kde aplikace stále slouží byznysu, ale potřebuje stabilizaci, zpřehlednění a cílené zlepšení nejproblematičtějších míst."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Podle čeho rozhodovat",
+        "body": "Rozhodnutí by nemělo stát jen na ceně nebo technologické preferenci. Důležitý je dopad na provoz, rychlost změn a dlouhodobé náklady.",
+        "items": [
+          "kritičnost provozu",
+          "míra technického dluhu",
+          "riziko ztráty doménové logiky",
+          "čas a rozpočet na paralelní vývoj"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Praktický závěr",
+        "body": "U většiny běžících aplikací je rozumnější začít auditem a postupným zlepšením. Rewrite má být důsledek jasných důvodů, ne reakce na frustraci z kódu."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jak poznat, že už incremental přístup nestačí?",
+            "answer": "Když architektura systematicky blokuje změny, bezpečnost nebo provoz a cena dílčích zásahů dál roste bez viditelného zlepšení."
+          },
+          {
+            "question": "Lze kombinovat oba přístupy?",
+            "answer": "Ano. Často se přepisují jen vybrané části, zatímco zbytek systému se stabilizuje a drží provoz."
+          },
+          {
+            "question": "Proč je rewrite tak často podceněný?",
+            "answer": "Protože bývají podceněné skryté vazby, edge cases a množství doménových pravidel, která v systému vznikala roky."
+          },
+          {
+            "question": "Začínáte vždy auditem?",
+            "answer": "U takeover a legacy situací ano. Bez něj se jen těžko rozhoduje mezi refaktorem a větším přepisem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

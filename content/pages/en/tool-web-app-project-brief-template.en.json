@@ -1,0 +1,241 @@
+{
+  "id": "tool-web-app-project-brief-template.en",
+  "locale": "en",
+  "slug": "/templates/web-app-project-brief-template",
+  "title": "Web app project brief template | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Web app project brief template | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical project brief template for custom web applications covering the problem, goals, roles, first workflow, and delivery constraints.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-web-app-project-brief-template",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "web-app-project-brief-template",
+          "segments": [
+            "templates",
+            "web-app-project-brief-template"
+          ],
+          "title": "Web app project brief template | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Web app project brief template: what to clarify before delivery starts",
+          "description": "A practical project brief template for custom web applications covering the problem, goals, roles, first workflow, and delivery constraints.",
+          "primaryQuery": "web app project brief template",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "A short brief can save weeks of avoidable confusion",
+            "subtitle": "The point is not writing a giant specification. It is clarifying the problem, the target outcome, and the first useful delivery phase.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A practical brief helps align expectations and shorten the path to the first meaningful project step.",
+            "It is not a procurement document. It is a working input for deciding how the project should start."
+          ],
+          "sections": [
+            {
+              "title": "What the template should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots."
+              ],
+              "bullets": [
+                "the problem the application should solve",
+                "who will use it",
+                "what the first release must support",
+                "key technical and operational constraints"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The template should work as a practical aid before an introductory call, scoping session, or takeover phase."
+              ],
+              "bullets": [
+                "before an intro call",
+                "for internal priority alignment",
+                "as input to a scoping workshop"
+              ]
+            },
+            {
+              "title": "What outcome it should create",
+              "body": [
+                "A good template shortens the path to the first useful project decision."
+              ],
+              "bullets": [
+                "faster project orientation",
+                "less uncertainty around the first phase",
+                "better expectations on both sides"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Does the brief need every feature?",
+              "answer": "No. The important part is the problem, the outcome, the roles, and the first important workflow."
+            },
+            {
+              "question": "Is this also useful for takeover work?",
+              "answer": "Partly yes, but takeover usually also needs a technical checklist and risk map."
+            },
+            {
+              "question": "Can a non-technical stakeholder prepare it?",
+              "answer": "Yes. Business context is often the most valuable starting point."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "inquiry",
+            "process-delivery"
+          ],
+          "fit": {
+            "for": [
+              "faster project orientation",
+              "less uncertainty around the first phase",
+              "better expectations on both sides"
+            ],
+            "notFor": [
+              "collecting detail with no decision attached"
+            ]
+          },
+          "seo": {
+            "title": "Web app project brief template | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical project brief template for custom web applications covering the problem, goals, roles, first workflow, and delivery constraints."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-web-app-project-brief-template.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "A short brief can save weeks of avoidable confusion",
+        "body": "The point is not writing a giant specification. It is clarifying the problem, the target outcome, and the first useful delivery phase.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A practical brief helps align expectations and shorten the path to the first meaningful project step.\n\nIt is not a procurement document. It is a working input for deciding how the project should start."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the template should cover",
+        "body": "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots.",
+        "items": [
+          "the problem the application should solve",
+          "who will use it",
+          "what the first release must support",
+          "key technical and operational constraints"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The template should work as a practical aid before an introductory call, scoping session, or takeover phase.",
+        "items": [
+          "before an intro call",
+          "for internal priority alignment",
+          "as input to a scoping workshop"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What outcome it should create",
+        "body": "A good template shortens the path to the first useful project decision.",
+        "items": [
+          "faster project orientation",
+          "less uncertainty around the first phase",
+          "better expectations on both sides"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Does the brief need every feature?",
+            "answer": "No. The important part is the problem, the outcome, the roles, and the first important workflow."
+          },
+          {
+            "question": "Is this also useful for takeover work?",
+            "answer": "Partly yes, but takeover usually also needs a technical checklist and risk map."
+          },
+          {
+            "question": "Can a non-technical stakeholder prepare it?",
+            "answer": "Yes. Business context is often the most valuable starting point."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

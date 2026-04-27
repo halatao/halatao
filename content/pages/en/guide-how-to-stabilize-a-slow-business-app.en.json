@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-stabilize-a-slow-business-app.en",
+  "locale": "en",
+  "slug": "/guides/how-to-stabilize-a-slow-business-app",
+  "title": "How to stabilise a slow business app | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to stabilise a slow business app | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to improving a slow or fragile business application without defaulting to a rewrite or cosmetic changes with no real impact.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-stabilize-a-slow-business-app",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-stabilize-a-slow-business-app",
+          "segments": [
+            "guides",
+            "how-to-stabilize-a-slow-business-app"
+          ],
+          "title": "How to stabilise a slow business app | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to stabilise a slow business application",
+          "description": "A practical guide to improving a slow or fragile business application without defaulting to a rewrite or cosmetic changes with no real impact.",
+          "primaryQuery": "how to stabilize a slow business app",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "A slow application is rarely only a performance problem",
+            "subtitle": "It is often a mix of weak priorities, heavy data access, fragile workflows, and delivery friction that slows down fixes.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "When an app is slow, teams often reach for isolated micro-optimisations. Users experience the problem as a whole: speed, stability, and confidence in the workflow.",
+            "Practical stabilisation starts by measuring impact and focusing on the most painful points first."
+          ],
+          "sections": [
+            {
+              "title": "Where the root cause often sits",
+              "body": [
+                "The issue may be in queries, frontend payload, data shape, caching, infrastructure, or the release model that makes fixes too hard to deliver."
+              ],
+              "bullets": [
+                "database and query pressure",
+                "heavy screens or payloads",
+                "weak caching or pagination",
+                "release process slowing down fixes"
+              ]
+            },
+            {
+              "title": "How to work through it",
+              "body": [
+                "Measure first, confirm business impact, and then improve a few critical points with clear value instead of launching a broad unfocused refactor."
+              ]
+            },
+            {
+              "title": "What often improves things fastest",
+              "body": [
+                "Better data access patterns, less unnecessary fetching, improvements to the slowest workflows, and removing the biggest technical bottlenecks."
+              ]
+            },
+            {
+              "title": "When to consider larger structural change",
+              "body": [
+                "Only when the problem proves to be rooted in the architecture or data model itself rather than a smaller set of fixable hotspots."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is slowness a reason to rewrite?",
+              "answer": "Not automatically. The first step is to understand what is actually causing the delay and how it affects the business."
+            },
+            {
+              "question": "What if we lack good performance metrics?",
+              "answer": "That is a useful finding in itself. Part of stabilisation is often better visibility into system behaviour."
+            },
+            {
+              "question": "Can performance work happen incrementally?",
+              "answer": "Yes. For many business apps that is the most practical approach."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "technology-typescript-for-large-web-projects",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-existing-app-takeover",
+              "comparison-rewrite-vs-incremental-app-improvement",
+              "technology-typescript-for-large-web-projects",
+              "inquiry"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "How to stabilise a slow business app | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to improving a slow or fragile business application without defaulting to a rewrite or cosmetic changes with no real impact."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-stabilize-a-slow-business-app.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "A slow application is rarely only a performance problem",
+        "body": "It is often a mix of weak priorities, heavy data access, fragile workflows, and delivery friction that slows down fixes.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "When an app is slow, teams often reach for isolated micro-optimisations. Users experience the problem as a whole: speed, stability, and confidence in the workflow.\n\nPractical stabilisation starts by measuring impact and focusing on the most painful points first."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where the root cause often sits",
+        "body": "The issue may be in queries, frontend payload, data shape, caching, infrastructure, or the release model that makes fixes too hard to deliver.",
+        "items": [
+          "database and query pressure",
+          "heavy screens or payloads",
+          "weak caching or pagination",
+          "release process slowing down fixes"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to work through it",
+        "body": "Measure first, confirm business impact, and then improve a few critical points with clear value instead of launching a broad unfocused refactor."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What often improves things fastest",
+        "body": "Better data access patterns, less unnecessary fetching, improvements to the slowest workflows, and removing the biggest technical bottlenecks."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When to consider larger structural change",
+        "body": "Only when the problem proves to be rooted in the architecture or data model itself rather than a smaller set of fixable hotspots."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is slowness a reason to rewrite?",
+            "answer": "Not automatically. The first step is to understand what is actually causing the delay and how it affects the business."
+          },
+          {
+            "question": "What if we lack good performance metrics?",
+            "answer": "That is a useful finding in itself. Part of stabilisation is often better visibility into system behaviour."
+          },
+          {
+            "question": "Can performance work happen incrementally?",
+            "answer": "Yes. For many business apps that is the most practical approach."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

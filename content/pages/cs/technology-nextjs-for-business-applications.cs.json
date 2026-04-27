@@ -1,0 +1,246 @@
+{
+  "id": "technology-nextjs-for-business-applications.cs",
+  "locale": "cs",
+  "slug": "/technologie/nextjs-pro-byznys-aplikace",
+  "title": "Next.js pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Next.js pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Kdy dává Next.js smysl pro byznys aplikace, klientské portály a kombinaci aplikacní a obsahové vrstvy.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-nextjs-for-business-applications",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "technology",
+          "slug": "nextjs-pro-byznys-aplikace",
+          "segments": [
+            "technologie",
+            "nextjs-pro-byznys-aplikace"
+          ],
+          "title": "Next.js pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Next.js pro byznys aplikace, portály a obsahove silné weby",
+          "description": "Kdy dává Next.js smysl pro byznys aplikace, klientské portály a kombinaci aplikacní a obsahové vrstvy.",
+          "primaryQuery": "nextjs pro byznys aplikace",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technologie",
+            "title": "Next.js je praktický nástroj, ne módní nálepka",
+            "subtitle": "Silný je tam, kde potrebujete kombinovat obsah, SEO, rychlé nacítání a aplikacní logiku v jednom rozumném stacku.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Next.js je vhodný pro projekty, které nejsou ciste interní nástroj bez indexace. Casto pomáhá tam, kde se potkává obsah, obchodní stránka a aplikace.",
+            "U business projektu je výhodné, že lze kombinovat statické generování, serverové renderování i aplikacní cásti bez nekolika oddelených stacku."
+          ],
+          "sections": [
+            {
+              "title": "Kde tato technologie dává smysl",
+              "body": [
+                "Technologie má dávat smysl projektu, ne jen preferenci vývojáre."
+              ],
+              "bullets": [
+                "marketingové a obsahové stránky vedle aplikace",
+                "SEO nebo AI discovery požadavky",
+                "rychlejší první nactení a lepší UX",
+                "jednotný routing a sdílená architektura"
+              ]
+            },
+            {
+              "title": "Na co si dát pozor",
+              "body": [
+                "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury."
+              ],
+              "bullets": [
+                "použití tam, kde stací jednoduchá SPA",
+                "prehnaná složitost bez jasného duvodu",
+                "slabá práce s datovými hranicemi"
+              ]
+            },
+            {
+              "title": "Typický fit pro business projekt",
+              "body": [
+                "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu."
+              ],
+              "bullets": [
+                "firemní web s komercními landing pages",
+                "klientský portál",
+                "business aplikace s obsahem a SEO",
+                "projekt, kde je duležitá statika i dynamika"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je Next.js vhodný i pro interní systémy?",
+              "answer": "Ano, ale ne vždy je to nutné. Duležité je, zda projekt využije jeho výhody."
+            },
+            {
+              "question": "Pomuže Next.js automaticky výkonu?",
+              "answer": "Ne automaticky. Výsledný výkon závisí i na architekture, datech a implementaci."
+            },
+            {
+              "question": "Je to dobrá volba pro nový firemní web i aplikaci v jednom?",
+              "answer": "Ano, práve tam bývá velmi silný."
+            }
+          ],
+          "related": [
+            "comparison-nextjs-vs-spa",
+            "service-custom-web-app-development",
+            "home",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firemní web s komercními landing pages",
+              "klientský portál",
+              "business aplikace s obsahem a SEO",
+              "projekt, kde je duležitá statika i dynamika"
+            ],
+            "notFor": [
+              "použití tam, kde stací jednoduchá SPA",
+              "prehnaná složitost bez jasného duvodu",
+              "slabá práce s datovými hranicemi"
+            ]
+          },
+          "seo": {
+            "title": "Next.js pro byznys aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Kdy dává Next.js smysl pro byznys aplikace, klientské portály a kombinaci aplikacní a obsahové vrstvy."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-nextjs-for-business-applications.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technologie",
+        "heading": "Next.js je praktický nástroj, ne módní nálepka",
+        "body": "Silný je tam, kde potrebujete kombinovat obsah, SEO, rychlé nacítání a aplikacní logiku v jednom rozumném stacku.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Next.js je vhodný pro projekty, které nejsou ciste interní nástroj bez indexace. Casto pomáhá tam, kde se potkává obsah, obchodní stránka a aplikace.\n\nU business projektu je výhodné, že lze kombinovat statické generování, serverové renderování i aplikacní cásti bez nekolika oddelených stacku."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kde tato technologie dává smysl",
+        "body": "Technologie má dávat smysl projektu, ne jen preferenci vývojáre.",
+        "items": [
+          "marketingové a obsahové stránky vedle aplikace",
+          "SEO nebo AI discovery požadavky",
+          "rychlejší první nactení a lepší UX",
+          "jednotný routing a sdílená architektura"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Na co si dát pozor",
+        "body": "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury.",
+        "items": [
+          "použití tam, kde stací jednoduchá SPA",
+          "prehnaná složitost bez jasného duvodu",
+          "slabá práce s datovými hranicemi"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typický fit pro business projekt",
+        "body": "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu.",
+        "items": [
+          "firemní web s komercními landing pages",
+          "klientský portál",
+          "business aplikace s obsahem a SEO",
+          "projekt, kde je duležitá statika i dynamika"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je Next.js vhodný i pro interní systémy?",
+            "answer": "Ano, ale ne vždy je to nutné. Duležité je, zda projekt využije jeho výhody."
+          },
+          {
+            "question": "Pomuže Next.js automaticky výkonu?",
+            "answer": "Ne automaticky. Výsledný výkon závisí i na architekture, datech a implementaci."
+          },
+          {
+            "question": "Je to dobrá volba pro nový firemní web i aplikaci v jednom?",
+            "answer": "Ano, práve tam bývá velmi silný."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

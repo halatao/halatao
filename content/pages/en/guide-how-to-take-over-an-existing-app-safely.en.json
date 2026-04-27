@@ -1,0 +1,248 @@
+{
+  "id": "guide-how-to-take-over-an-existing-app-safely.en",
+  "locale": "en",
+  "slug": "/guides/how-to-take-over-an-existing-app-safely",
+  "title": "How to take over an existing app safely | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to take over an existing app safely | Bc. Ondřej Halata (halata...",
+    "description": "A practical guide for companies taking over an existing web application after a supplier change, team transition, or unclear technical period.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-take-over-an-existing-app-safely",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-take-over-an-existing-app-safely",
+          "segments": [
+            "guides",
+            "how-to-take-over-an-existing-app-safely"
+          ],
+          "title": "How to take over an existing app safely | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to take over an existing app safely",
+          "description": "A practical guide for companies taking over an existing web application after a supplier change, team transition, or unclear technical period.",
+          "primaryQuery": "how to take over an existing app safely",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Guide",
+            "title": "Taking over an app without discovery is a blind bet",
+            "subtitle": "The important thing is understanding what runs, where the risks are, how release works, and what the first safe change should be.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Taking over an app is more than getting the repository. It involves access to environments, release flow, operational knowledge, and the hidden assumptions around the product.",
+            "When takeover is rushed, companies underestimate dependencies and end up with more risk than before the supplier change."
+          ],
+          "sections": [
+            {
+              "title": "Recommended approach",
+              "body": [
+                "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase."
+              ],
+              "bullets": [
+                "secure access and environment visibility",
+                "identify critical scenarios and risks",
+                "verify release flow and monitoring",
+                "prioritise stabilisation before bigger changes"
+              ]
+            },
+            {
+              "title": "Common mistakes",
+              "body": [
+                "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase."
+              ],
+              "bullets": [
+                "defaulting to rewrite immediately",
+                "takeover without deployment validation",
+                "ignoring the people who operate the system",
+                "no first-phase plan after the handover"
+              ]
+            },
+            {
+              "title": "What the outcome should be",
+              "body": [
+                "The guide should help you make a better project decision, not add another document with no delivery impact."
+              ],
+              "bullets": [
+                "safer continuation of development",
+                "lower decision uncertainty",
+                "a more realistic backlog",
+                "stronger operational control"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is documentation required?",
+              "answer": "It helps, but it is not mandatory. The important part is a structured takeover approach rather than hoping knowledge transfer will fill the gaps."
+            },
+            {
+              "question": "Should tests be addressed immediately?",
+              "answer": "Yes, in priority order. The first goal is to protect the riskiest areas and improve release confidence."
+            },
+            {
+              "question": "Can takeover happen while production stays live?",
+              "answer": "Yes. That is the normal situation and one reason the first phase needs discipline."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "guide-how-to-run-app-takeover-audit",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "tool-app-takeover-checklist",
+            "tool-release-stabilization-checklist",
+            "case-study-existing-app-takeover"
+          ],
+          "fit": {
+            "for": [
+              "safer continuation of development",
+              "lower decision uncertainty",
+              "a more realistic backlog",
+              "stronger operational control"
+            ],
+            "notFor": [
+              "generic career advice"
+            ]
+          },
+          "seo": {
+            "title": "How to take over an existing app safely | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide for companies taking over an existing web application after a supplier change, team transition, or unclear technical period."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-take-over-an-existing-app-safely.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Guide",
+        "heading": "Taking over an app without discovery is a blind bet",
+        "body": "The important thing is understanding what runs, where the risks are, how release works, and what the first safe change should be.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Taking over an app is more than getting the repository. It involves access to environments, release flow, operational knowledge, and the hidden assumptions around the product.\n\nWhen takeover is rushed, companies underestimate dependencies and end up with more risk than before the supplier change."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Recommended approach",
+        "body": "A good outcome rarely starts with an endless specification. It starts with a practical frame that can be tested in the first delivery phase.",
+        "items": [
+          "secure access and environment visibility",
+          "identify critical scenarios and risks",
+          "verify release flow and monitoring",
+          "prioritise stabilisation before bigger changes"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Common mistakes",
+        "body": "The biggest problem is usually not a lack of specification text. It is weak prioritisation and an unclear goal for the first phase.",
+        "items": [
+          "defaulting to rewrite immediately",
+          "takeover without deployment validation",
+          "ignoring the people who operate the system",
+          "no first-phase plan after the handover"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the outcome should be",
+        "body": "The guide should help you make a better project decision, not add another document with no delivery impact.",
+        "items": [
+          "safer continuation of development",
+          "lower decision uncertainty",
+          "a more realistic backlog",
+          "stronger operational control"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is documentation required?",
+            "answer": "It helps, but it is not mandatory. The important part is a structured takeover approach rather than hoping knowledge transfer will fill the gaps."
+          },
+          {
+            "question": "Should tests be addressed immediately?",
+            "answer": "Yes, in priority order. The first goal is to protect the riskiest areas and improve release confidence."
+          },
+          {
+            "question": "Can takeover happen while production stays live?",
+            "answer": "Yes. That is the normal situation and one reason the first phase needs discipline."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

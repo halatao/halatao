@@ -1,0 +1,282 @@
+{
+  "id": "service-custom-web-app-development.en",
+  "locale": "en",
+  "slug": "/services/custom-web-application-development",
+  "title": "Custom web application development | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Custom web application development | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I design and build custom web applications for companies that need tailored workflows, internal logic, integrations, and room for long-term growth.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "service-custom-web-app-development",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "custom-web-application-development",
+          "segments": [
+            "services",
+            "custom-web-application-development"
+          ],
+          "title": "Custom web application development | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Custom web application development for business-critical workflows",
+          "description": "I design and build custom web applications for companies that need tailored workflows, internal logic, integrations, and room for long-term growth.",
+          "primaryQuery": "custom web application development",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Service",
+            "title": "Custom software when off-the-shelf tools create more friction than value",
+            "subtitle": "Best fit for portals, internal systems, operational apps, and workflows that depend on company-specific rules, data, and integrations.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            },
+            "secondaryCta": {
+              "label": "How delivery works",
+              "href": "/en/how-project-delivery-works"
+            }
+          },
+          "intro": [
+            "Custom development makes sense when a company needs software shaped around its real process instead of shaping the process around a generic tool.",
+            "The work is not only about shipping features. The important part is getting the structure right: data model, permissions, integration boundaries, maintainability, and an application that can grow without constant rework.",
+            "I can help from scoping and architecture through delivery and ongoing improvement, or join an existing team as a senior contractor on a defined workstream."
+          ],
+          "sections": [
+            {
+              "title": "Where this service is the right fit",
+              "body": [
+                "The strongest fit is a process with multiple roles, approvals, domain-specific rules, internal reporting, or a need to combine data from several systems into one operating view."
+              ],
+              "bullets": [
+                "client portals and partner extranets",
+                "internal operations systems",
+                "workflow and approvals",
+                "dashboards and reporting interfaces"
+              ]
+            },
+            {
+              "title": "What I typically handle and deliver",
+              "body": [
+                "This usually includes architecture, full-stack implementation, integration work, release discipline, and the technical choices needed for long-term operation."
+              ],
+              "bullets": [
+                "solution design and phased scope",
+                "full-stack delivery with iterative releases",
+                "API and third-party integrations",
+                "performance and operational hardening"
+              ]
+            },
+            {
+              "title": "How the work is run",
+              "body": [
+                "We start by defining the business situation, current constraints, and the first valuable release. Then we deliver in smaller steps so decisions stay tied to real usage and real priorities."
+              ]
+            },
+            {
+              "title": "What the engagement should achieve",
+              "body": [
+                "The outcome should be a production system that supports the business, stays maintainable, and gives the buyer confidence in future phases."
+              ],
+              "bullets": [
+                "less manual work around the product",
+                "more predictable future development",
+                "clearer permission and data structure",
+                "better long-term ownership than a patchwork stack"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Do we need a full specification before starting?",
+              "answer": "No. A clear business problem, the current workflow, and the intended outcome are enough to start discovery and shape a realistic first phase."
+            },
+            {
+              "question": "Can you work inside an existing team?",
+              "answer": "Yes. I can deliver independently or plug into an existing product or engineering team as a senior contract developer with ownership of a defined area."
+            },
+            {
+              "question": "Can we start with an MVP?",
+              "answer": "Yes. For larger initiatives, a well-scoped MVP is often the safest way to validate priorities without overbuilding the first release."
+            },
+            {
+              "question": "Do you stay involved after launch?",
+              "answer": "Yes. Ongoing support can cover improvements, bug fixing, technical debt reduction, performance work, and structured next-phase planning."
+            }
+          ],
+          "related": [
+            "problem-client-portal",
+            "comparison-custom-vs-saas",
+            "use-case-b2b-client-portal",
+            "use-case-b2b-partner-portal",
+            "case-study-internal-tool-for-operations",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with workflow-heavy business processes",
+              "teams that need tailored software instead of forced SaaS compromises",
+              "buyers planning for long-term product ownership"
+            ],
+            "notFor": [
+              "basic marketing sites",
+              "one-off microsites with no application logic",
+              "projects driven only by lowest-cost bidding"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit."
+          },
+          "seo": {
+            "title": "Custom web application development | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I design and build custom web applications for companies that need tailored workflows, internal logic, integrations, and room for long-term growth."
+          },
+          "schema": {
+            "includeService": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "service-custom-web-app-development.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Service",
+        "heading": "Custom software when off-the-shelf tools create more friction than value",
+        "body": "Best fit for portals, internal systems, operational apps, and workflows that depend on company-specific rules, data, and integrations.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project",
+        "secondaryCtaLabel": "How delivery works",
+        "secondaryCtaHref": "/en/how-project-delivery-works"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Custom development makes sense when a company needs software shaped around its real process instead of shaping the process around a generic tool.\n\nThe work is not only about shipping features. The important part is getting the structure right: data model, permissions, integration boundaries, maintainability, and an application that can grow without constant rework.\n\nI can help from scoping and architecture through delivery and ongoing improvement, or join an existing team as a senior contractor on a defined workstream."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this service is the right fit",
+        "body": "The strongest fit is a process with multiple roles, approvals, domain-specific rules, internal reporting, or a need to combine data from several systems into one operating view.",
+        "items": [
+          "client portals and partner extranets",
+          "internal operations systems",
+          "workflow and approvals",
+          "dashboards and reporting interfaces"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What I typically handle and deliver",
+        "body": "This usually includes architecture, full-stack implementation, integration work, release discipline, and the technical choices needed for long-term operation.",
+        "items": [
+          "solution design and phased scope",
+          "full-stack delivery with iterative releases",
+          "API and third-party integrations",
+          "performance and operational hardening"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work is run",
+        "body": "We start by defining the business situation, current constraints, and the first valuable release. Then we deliver in smaller steps so decisions stay tied to real usage and real priorities."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the engagement should achieve",
+        "body": "The outcome should be a production system that supports the business, stays maintainable, and gives the buyer confidence in future phases.",
+        "items": [
+          "less manual work around the product",
+          "more predictable future development",
+          "clearer permission and data structure",
+          "better long-term ownership than a patchwork stack"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Do we need a full specification before starting?",
+            "answer": "No. A clear business problem, the current workflow, and the intended outcome are enough to start discovery and shape a realistic first phase."
+          },
+          {
+            "question": "Can you work inside an existing team?",
+            "answer": "Yes. I can deliver independently or plug into an existing product or engineering team as a senior contract developer with ownership of a defined area."
+          },
+          {
+            "question": "Can we start with an MVP?",
+            "answer": "Yes. For larger initiatives, a well-scoped MVP is often the safest way to validate priorities without overbuilding the first release."
+          },
+          {
+            "question": "Do you stay involved after launch?",
+            "answer": "Yes. Ongoing support can cover improvements, bug fixing, technical debt reduction, performance work, and structured next-phase planning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

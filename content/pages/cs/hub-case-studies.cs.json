@@ -1,0 +1,227 @@
+{
+  "id": "hub-case-studies.cs",
+  "locale": "cs",
+  "slug": "/pripadovky",
+  "title": "Případovky a anonymizované scénáře software projektů | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Případovky a anonymizované scénáře software projektů | Bc. Ondřej H...",
+    "description": "Anonymizované případovky pro takeover aplikace, interní nástroj pro operativu a integraci více systémů bez vymyšlených metrik.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-case-studies",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "hub",
+          "slug": "pripadovky",
+          "segments": [
+            "pripadovky"
+          ],
+          "title": "Případovky a anonymizované scénáře software projektů | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Případovky a anonymizované scénáře podobných projektů",
+          "description": "Anonymizované případovky pro takeover aplikace, interní nástroj pro operativu a integraci více systémů bez vymyšlených metrik.",
+          "primaryQuery": "Případovky a anonymizované scénáře podobných projektů",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Přehled sekce",
+            "title": "Případovky bez nafouknutých čísel a portfolio divadla",
+            "subtitle": "Sekce ukazuje reprezentativní scénáře podobných projektů, jejich výchozí situaci, zvolený přístup a typ změny, kterou mohou přinést.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Případovky jsou záměrně anonymizované a nesnaží se nahrazovat poctivou argumentaci vymyšlenými výsledky nebo marketingovou nadsázkou.",
+            "Jsou nejcennější ve chvíli, kdy si buyer potřebuje ověřit, jak může podobný projekt vypadat v realistickém rámci a bez přikrášlení."
+          ],
+          "sections": [
+            {
+              "title": "Co v sekci najdete",
+              "body": [
+                "Najdete tu scénáře pro takeover existující aplikace, interní nástroj pro operativu a integraci několika systémů s velkým podílem ruční práce."
+              ]
+            },
+            {
+              "title": "Kdy je tato sekce nejužitečnější",
+              "body": [
+                "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem."
+              ],
+              "bullets": [
+                "ověření podobného typu projektu bez fake proof layeru",
+                "interní sdílení realistického delivery scénáře",
+                "buyer chce vidět, jak vypadá rozumný postup u podobné situace"
+              ]
+            },
+            {
+              "title": "Jak navázat dál",
+              "body": [
+                "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry."
+              ],
+              "bullets": [
+                "otevřete scénář nejbližší vaší situaci",
+                "navazující service page nebo guide použijte pro konkrétní rozhodnutí",
+                "pokud je scénář blízko vašemu projektu, pokračujte na inquiry"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Proč nejsou uvedená přesná čísla a jména klientů?",
+              "answer": "Nechci vymýšlet metriky ani porušovat důvěrnost. Důležitější je typ problému, přístup a forma změny."
+            },
+            {
+              "question": "Jsou případovky založené na reálných projektech?",
+              "answer": "Ano, ale v anonymizované a zobecněné podobě."
+            },
+            {
+              "question": "Vedou případovky i na komerční další krok?",
+              "answer": "Ano. Každá odkazuje na relevantní službu, problem page nebo inquiry flow."
+            }
+          ],
+          "related": [
+            "case-study-existing-app-takeover",
+            "case-study-internal-tool-for-operations",
+            "case-study-multi-system-integration"
+          ],
+          "fit": {
+            "for": [
+              "ověření podobného typu projektu bez fake proof layeru",
+              "interní sdílení realistického delivery scénáře",
+              "buyer chce vidět, jak vypadá rozumný postup u podobné situace"
+            ],
+            "notFor": [
+              "pasivní čtení bez návaznosti na reálný projekt"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Případovky a anonymizované scénáře software projektů | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Anonymizované případovky pro takeover aplikace, interní nástroj pro operativu a integraci více systémů bez vymyšlených metrik."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-case-studies.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Přehled sekce",
+        "heading": "Případovky bez nafouknutých čísel a portfolio divadla",
+        "body": "Sekce ukazuje reprezentativní scénáře podobných projektů, jejich výchozí situaci, zvolený přístup a typ změny, kterou mohou přinést.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Případovky jsou záměrně anonymizované a nesnaží se nahrazovat poctivou argumentaci vymyšlenými výsledky nebo marketingovou nadsázkou.\n\nJsou nejcennější ve chvíli, kdy si buyer potřebuje ověřit, jak může podobný projekt vypadat v realistickém rámci a bez přikrášlení."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co v sekci najdete",
+        "body": "Najdete tu scénáře pro takeover existující aplikace, interní nástroj pro operativu a integraci několika systémů s velkým podílem ruční práce."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je tato sekce nejužitečnější",
+        "body": "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem.",
+        "items": [
+          "ověření podobného typu projektu bez fake proof layeru",
+          "interní sdílení realistického delivery scénáře",
+          "buyer chce vidět, jak vypadá rozumný postup u podobné situace"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak navázat dál",
+        "body": "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry.",
+        "items": [
+          "otevřete scénář nejbližší vaší situaci",
+          "navazující service page nebo guide použijte pro konkrétní rozhodnutí",
+          "pokud je scénář blízko vašemu projektu, pokračujte na inquiry"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Proč nejsou uvedená přesná čísla a jména klientů?",
+            "answer": "Nechci vymýšlet metriky ani porušovat důvěrnost. Důležitější je typ problému, přístup a forma změny."
+          },
+          {
+            "question": "Jsou případovky založené na reálných projektech?",
+            "answer": "Ano, ale v anonymizované a zobecněné podobě."
+          },
+          {
+            "question": "Vedou případovky i na komerční další krok?",
+            "answer": "Ano. Každá odkazuje na relevantní službu, problem page nebo inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

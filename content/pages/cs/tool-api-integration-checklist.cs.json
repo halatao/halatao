@@ -1,0 +1,244 @@
+{
+  "id": "tool-api-integration-checklist.cs",
+  "locale": "cs",
+  "slug": "/sablony/checklist-api-integrace",
+  "title": "Checklist API integrace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Checklist API integrace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Checklist pro API integrace: zdroje dat, vlastnictví, chybové stavy, výjimky a provozní monitoring.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-api-integration-checklist",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "checklist-api-integrace",
+          "segments": [
+            "sablony",
+            "checklist-api-integrace"
+          ],
+          "title": "Checklist API integrace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Checklist API integrace před startem projektu",
+          "description": "Checklist pro API integrace: zdroje dat, vlastnictví, chybové stavy, výjimky a provozní monitoring.",
+          "primaryQuery": "checklist api integrace",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Integrace se nejčastěji lámou na detailech, které nikdo nepojmenoval",
+            "subtitle": "Checklist pomůže projít data, výjimky, odpovědnost a provozní realitu dřív, než vznikne křehké propojení systémů.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "API integrace vypadají jednodušeji, než ve skutečnosti jsou. Největší problém bývá ve výjimkách, datové kvalitě a v tom, kdo co vlastní.",
+            "Praktický checklist pomůže snížit riziko, že se integrace stane dalším zdrojem ruční práce, chyb a tichých provozních dluhů."
+          ],
+          "sections": [
+            {
+              "title": "Co má šablona pokrýt",
+              "body": [
+                "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku."
+              ],
+              "bullets": [
+                "zdrojová a cílová data",
+                "ownership a odpovědnost",
+                "chybové stavy a retry logika",
+                "monitoring a dohled nad integrací"
+              ]
+            },
+            {
+              "title": "Jak ji použít v praxi",
+              "body": [
+                "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede."
+              ],
+              "bullets": [
+                "před integračním projektem",
+                "při diagnostice ruční práce mezi systémy",
+                "jako podklad pro prioritizaci integračních kroků"
+              ]
+            },
+            {
+              "title": "Jaký výsledek to má přinést",
+              "body": [
+                "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku."
+              ],
+              "bullets": [
+                "méně slepých míst v návrhu",
+                "lepší připravenost na výjimky",
+                "odolnější integrační řešení"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je checklist užitečný i bez technického týmu?",
+              "answer": "Ano. Pomůže minimálně strukturovat otázky, které je potřeba si vyjasnit s dodavatelem, interním IT nebo business ownerem procesu."
+            },
+            {
+              "question": "Nahrazuje checklist architektonický návrh?",
+              "answer": "Ne. Je to vstupní pomůcka, která pomáhá návrh udělat kvalitněji a s menším rizikem slepých míst."
+            },
+            {
+              "question": "Lze ho použít i pro interní workflow integrace?",
+              "answer": "Ano. Právě tam bývá velmi praktický."
+            }
+          ],
+          "related": [
+            "technology-api-integrations",
+            "service-automations-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "problem-system-integrations",
+            "use-case-service-team-ops-system",
+            "case-study-multi-system-integration",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "méně slepých míst v návrhu",
+              "lepší připravenost na výjimky",
+              "odolnější integrační řešení"
+            ],
+            "notFor": [
+              "sběr detailů bez dalšího rozhodnutí"
+            ]
+          },
+          "seo": {
+            "title": "Checklist API integrace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Checklist pro API integrace: zdroje dat, vlastnictví, chybové stavy, výjimky a provozní monitoring."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-api-integration-checklist.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Integrace se nejčastěji lámou na detailech, které nikdo nepojmenoval",
+        "body": "Checklist pomůže projít data, výjimky, odpovědnost a provozní realitu dřív, než vznikne křehké propojení systémů.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "API integrace vypadají jednodušeji, než ve skutečnosti jsou. Největší problém bývá ve výjimkách, datové kvalitě a v tom, kdo co vlastní.\n\nPraktický checklist pomůže snížit riziko, že se integrace stane dalším zdrojem ruční práce, chyb a tichých provozních dluhů."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má šablona pokrýt",
+        "body": "Smyslem není vyplnit administrativu pro administrativu. Důležité je zpřehlednit rozhodnutí, odhalit slepá místa a zlepšit kvalitu prvního kroku.",
+        "items": [
+          "zdrojová a cílová data",
+          "ownership a odpovědnost",
+          "chybové stavy a retry logika",
+          "monitoring a dohled nad integrací"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ji použít v praxi",
+        "body": "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede.",
+        "items": [
+          "před integračním projektem",
+          "při diagnostice ruční práce mezi systémy",
+          "jako podklad pro prioritizaci integračních kroků"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek to má přinést",
+        "body": "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku.",
+        "items": [
+          "méně slepých míst v návrhu",
+          "lepší připravenost na výjimky",
+          "odolnější integrační řešení"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je checklist užitečný i bez technického týmu?",
+            "answer": "Ano. Pomůže minimálně strukturovat otázky, které je potřeba si vyjasnit s dodavatelem, interním IT nebo business ownerem procesu."
+          },
+          {
+            "question": "Nahrazuje checklist architektonický návrh?",
+            "answer": "Ne. Je to vstupní pomůcka, která pomáhá návrh udělat kvalitněji a s menším rizikem slepých míst."
+          },
+          {
+            "question": "Lze ho použít i pro interní workflow integrace?",
+            "answer": "Ano. Právě tam bývá velmi praktický."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

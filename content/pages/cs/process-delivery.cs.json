@@ -1,0 +1,248 @@
+{
+  "id": "process-delivery.cs",
+  "locale": "cs",
+  "slug": "/jak-spoluprace-probiha",
+  "title": "Jak spolupráce probíhá | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak spolupráce probíhá | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Přehled spolupráce od prvního kontaktu přes návrh první etapy až po realizaci a další rozvoj webové aplikace nebo interního systému.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "process-delivery",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "process",
+          "slug": "jak-spoluprace-probiha",
+          "segments": [
+            "jak-spoluprace-probiha"
+          ],
+          "title": "Jak spolupráce probíhá | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak probíhá spolupráce na projektu",
+          "description": "Přehled spolupráce od prvního kontaktu přes návrh první etapy až po realizaci a další rozvoj webové aplikace nebo interního systému.",
+          "primaryQuery": "jak spolupráce probíhá",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Jasný postup bez zbytečné procesní omáčky",
+            "subtitle": "Rychlé zorientování, rozumná první etapa, průběžná realizace a otevřené rozhodování nad tím, co má skutečný dopad.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Na začátku nepotřebujete perfektní specifikaci. Potřebujeme pochopit situaci, co dnes bolí, co má být výsledek a jaká jsou technická nebo provozní omezení.",
+            "Z toho vznikne návrh první etapy, která má přinést konkrétní posun. U běžících aplikací často začínáme mapováním a stabilizací. U nových projektů rozumným MVP.",
+            "Další spolupráce pak běží po menších krocích s průběžným rozhodováním, ne stylem velkého projektu naslepo."
+          ],
+          "sections": [
+            {
+              "title": "1. Úvodní orientace",
+              "body": [
+                "Projdeme kontext, cíle, rizika, současný stav a očekávání. Pokud projekt nedává smysl, je lepší si to říct hned."
+              ],
+              "bullets": [
+                "jaký problém řešíte",
+                "co už existuje",
+                "co je kritické pro provoz",
+                "jaký je realistický další krok"
+              ]
+            },
+            {
+              "title": "2. Návrh první etapy",
+              "body": [
+                "Výstupem má být konkrétní a obhajitelný další krok, ne jen sběr požadavků. U větších projektů bývá první etapa schválně užší, aby šla rychle ověřit v praxi."
+              ]
+            },
+            {
+              "title": "3. Realizace a průběžné rozhodování",
+              "body": [
+                "Preferuji menší iterace, viditelný postup a průběžné upřesňování podle reality projektu. Klient tak nečeká dlouho na zpětnou vazbu a zároveň se lépe řídí riziko."
+              ]
+            },
+            {
+              "title": "4. Další rozvoj",
+              "body": [
+                "Po spuštění nebo stabilizaci může spolupráce pokračovat dalšími funkcemi, technickým dluhem, výkonem nebo podporou interního týmu."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Kolik času zabere úvodní zorientování?",
+              "answer": "Záleží na složitosti projektu, ale cílem je dostat se rychle k rozhodnutí o další etapě, ne zbytečně natahovat discovery."
+            },
+            {
+              "question": "Musí být scope pevně uzavřený od začátku?",
+              "answer": "Ne vždy. U většiny software projektů je lepší mít pevný cíl první etapy a nechat prostor pro upřesnění detailů podle zjištění."
+            },
+            {
+              "question": "Jak řešíte změny během spolupráce?",
+              "answer": "Změny jsou normální, pokud jsou průběžně vyhodnocované proti cíli projektu, dopadu a prioritám."
+            },
+            {
+              "question": "Je možné začít auditní nebo takeover fází?",
+              "answer": "Ano. U existujících aplikací je to často nejlepší způsob, jak snížit riziko dalšího vývoje."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "inquiry",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "nové projekty i takeover situace",
+              "firmy, které chtějí viditelný průběh a realistické kroky",
+              "týmy, které potřebují seniorní technický pohled"
+            ],
+            "notFor": [
+              "projekty bez rozhodovatele",
+              "zadání bez ochoty upřesňovat priority",
+              "čistě anonymní kapacitní bodyshopping"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí základní kontext. Ozvu se s realistickým dalším krokem."
+          },
+          "seo": {
+            "title": "Jak spolupráce probíhá | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Přehled spolupráce od prvního kontaktu přes návrh první etapy až po realizaci a další rozvoj webové aplikace nebo interního systému."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "process-delivery.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "process",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Jasný postup bez zbytečné procesní omáčky",
+        "body": "Rychlé zorientování, rozumná první etapa, průběžná realizace a otevřené rozhodování nad tím, co má skutečný dopad.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Na začátku nepotřebujete perfektní specifikaci. Potřebujeme pochopit situaci, co dnes bolí, co má být výsledek a jaká jsou technická nebo provozní omezení.\n\nZ toho vznikne návrh první etapy, která má přinést konkrétní posun. U běžících aplikací často začínáme mapováním a stabilizací. U nových projektů rozumným MVP.\n\nDalší spolupráce pak běží po menších krocích s průběžným rozhodováním, ne stylem velkého projektu naslepo."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "1. Úvodní orientace",
+        "body": "Projdeme kontext, cíle, rizika, současný stav a očekávání. Pokud projekt nedává smysl, je lepší si to říct hned.",
+        "items": [
+          "jaký problém řešíte",
+          "co už existuje",
+          "co je kritické pro provoz",
+          "jaký je realistický další krok"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "2. Návrh první etapy",
+        "body": "Výstupem má být konkrétní a obhajitelný další krok, ne jen sběr požadavků. U větších projektů bývá první etapa schválně užší, aby šla rychle ověřit v praxi."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "3. Realizace a průběžné rozhodování",
+        "body": "Preferuji menší iterace, viditelný postup a průběžné upřesňování podle reality projektu. Klient tak nečeká dlouho na zpětnou vazbu a zároveň se lépe řídí riziko."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "4. Další rozvoj",
+        "body": "Po spuštění nebo stabilizaci může spolupráce pokračovat dalšími funkcemi, technickým dluhem, výkonem nebo podporou interního týmu."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Kolik času zabere úvodní zorientování?",
+            "answer": "Záleží na složitosti projektu, ale cílem je dostat se rychle k rozhodnutí o další etapě, ne zbytečně natahovat discovery."
+          },
+          {
+            "question": "Musí být scope pevně uzavřený od začátku?",
+            "answer": "Ne vždy. U většiny software projektů je lepší mít pevný cíl první etapy a nechat prostor pro upřesnění detailů podle zjištění."
+          },
+          {
+            "question": "Jak řešíte změny během spolupráce?",
+            "answer": "Změny jsou normální, pokud jsou průběžně vyhodnocované proti cíli projektu, dopadu a prioritám."
+          },
+          {
+            "question": "Je možné začít auditní nebo takeover fází?",
+            "answer": "Ano. U existujících aplikací je to často nejlepší způsob, jak snížit riziko dalšího vývoje."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí základní kontext. Ozvu se s realistickým dalším krokem.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "technology-postgresql-for-internal-tools.cs",
+  "locale": "cs",
+  "slug": "/technologie/postgresql-pro-interni-systemy",
+  "title": "PostgreSQL pro interní systémy | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "PostgreSQL pro interní systémy | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Kdy dává PostgreSQL smysl pro interní systémy, workflow aplikace a vetší business weby se strukturovanými daty.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-postgresql-for-internal-tools",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "technology",
+          "slug": "postgresql-pro-interni-systemy",
+          "segments": [
+            "technologie",
+            "postgresql-pro-interni-systemy"
+          ],
+          "title": "PostgreSQL pro interní systémy | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "PostgreSQL pro interní systémy a business aplikace",
+          "description": "Kdy dává PostgreSQL smysl pro interní systémy, workflow aplikace a vetší business weby se strukturovanými daty.",
+          "primaryQuery": "postgresql pro interní systémy",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technologie",
+            "title": "Databáze je provozní základ, ne technická poznámka pod carou",
+            "subtitle": "U interních systému a workflow aplikací je duležitá spolehlivost, práce s relacemi a možnost rozumného rustu datového modelu.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "PostgreSQL bývá silná volba tam, kde aplikace pracuje s relacemi, historií zmen, složitejším filtrováním a dlouhodobým rustem systému.",
+            "Nejde jen o výkon. Duležitá je i predikovatelnost, kvalita dotazování a schopnost držet data v rozumném porádku."
+          ],
+          "sections": [
+            {
+              "title": "Kde tato technologie dává smysl",
+              "body": [
+                "Technologie má dávat smysl projektu, ne jen preferenci vývojáre."
+              ],
+              "bullets": [
+                "relacní data a workflow stavy",
+                "složitejší reporting a filtrování",
+                "potreba konzistence a historie",
+                "dlouhodobý rozvoj interního systému"
+              ]
+            },
+            {
+              "title": "Na co si dát pozor",
+              "body": [
+                "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury."
+              ],
+              "bullets": [
+                "špatný návrh datového modelu",
+                "používání databáze bez promyšlených indexu a dotazu",
+                "ignorování migracní disciplíny"
+              ]
+            },
+            {
+              "title": "Typický fit pro business projekt",
+              "body": [
+                "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu."
+              ],
+              "bullets": [
+                "interní systém na míru",
+                "admin rozhraní s datovou logikou",
+                "business aplikace s více moduly",
+                "portál s historií a návazností dat"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je PostgreSQL vhodná i pro menší aplikace?",
+              "answer": "Ano, pokud pracují s relacními daty a mají rustový potenciál."
+            },
+            {
+              "question": "Reší databáze sama výkon?",
+              "answer": "Ne. Databáze je jen cást. Duležitý je i návrh modelu, dotazu a celé aplikace."
+            },
+            {
+              "question": "Má smysl ji použít i bez komplexního BI?",
+              "answer": "Ano. Prínos je i v samotné kvalite a strukture dat pro bežný provoz."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "use-case-internal-admin-system",
+            "use-case-reporting-dashboard",
+            "guide-how-to-estimate-a-custom-web-app"
+          ],
+          "fit": {
+            "for": [
+              "interní systém na míru",
+              "admin rozhraní s datovou logikou",
+              "business aplikace s více moduly",
+              "portál s historií a návazností dat"
+            ],
+            "notFor": [
+              "špatný návrh datového modelu",
+              "používání databáze bez promyšlených indexu a dotazu",
+              "ignorování migracní disciplíny"
+            ]
+          },
+          "seo": {
+            "title": "PostgreSQL pro interní systémy | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Kdy dává PostgreSQL smysl pro interní systémy, workflow aplikace a vetší business weby se strukturovanými daty."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-postgresql-for-internal-tools.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technologie",
+        "heading": "Databáze je provozní základ, ne technická poznámka pod carou",
+        "body": "U interních systému a workflow aplikací je duležitá spolehlivost, práce s relacemi a možnost rozumného rustu datového modelu.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "PostgreSQL bývá silná volba tam, kde aplikace pracuje s relacemi, historií zmen, složitejším filtrováním a dlouhodobým rustem systému.\n\nNejde jen o výkon. Duležitá je i predikovatelnost, kvalita dotazování a schopnost držet data v rozumném porádku."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kde tato technologie dává smysl",
+        "body": "Technologie má dávat smysl projektu, ne jen preferenci vývojáre.",
+        "items": [
+          "relacní data a workflow stavy",
+          "složitejší reporting a filtrování",
+          "potreba konzistence a historie",
+          "dlouhodobý rozvoj interního systému"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Na co si dát pozor",
+        "body": "Silné stránky technologie se snadno ztratí, pokud je nasazená do špatného kontextu nebo bez rozumné architektury.",
+        "items": [
+          "špatný návrh datového modelu",
+          "používání databáze bez promyšlených indexu a dotazu",
+          "ignorování migracní disciplíny"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typický fit pro business projekt",
+        "body": "Volba technologie by mela zlepšit rychlost delivery, dlouhodobou udržitelnost a provozní jistotu.",
+        "items": [
+          "interní systém na míru",
+          "admin rozhraní s datovou logikou",
+          "business aplikace s více moduly",
+          "portál s historií a návazností dat"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je PostgreSQL vhodná i pro menší aplikace?",
+            "answer": "Ano, pokud pracují s relacními daty a mají rustový potenciál."
+          },
+          {
+            "question": "Reší databáze sama výkon?",
+            "answer": "Ne. Databáze je jen cást. Duležitý je i návrh modelu, dotazu a celé aplikace."
+          },
+          {
+            "question": "Má smysl ji použít i bez komplexního BI?",
+            "answer": "Ano. Prínos je i v samotné kvalite a strukture dat pro bežný provoz."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

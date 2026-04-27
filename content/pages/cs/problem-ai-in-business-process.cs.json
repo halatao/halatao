@@ -1,0 +1,246 @@
+{
+  "id": "problem-ai-in-business-process.cs",
+  "locale": "cs",
+  "slug": "/problemy/chceme-vyuzit-ai-ve-firemnim-procesu",
+  "title": "Chceme využít AI ve firemním procesu",
+  "seo": {
+    "title": "Chceme využít AI ve firemním procesu",
+    "description": "Pomohu firmám vyhodnotit, kde má AI ve firemním procesu reálný přínos, kde je lepší začít automatizací nebo úpravou workflow a jak se vyhnout další vrstvě pr...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-ai-in-business-process",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "chceme-vyuzit-ai-ve-firemnim-procesu",
+          "segments": [
+            "problemy",
+            "chceme-vyuzit-ai-ve-firemnim-procesu"
+          ],
+          "title": "Chceme využít AI ve firemním procesu",
+          "h1": "Jak využít AI ve firemním procesu bez dalšího chaosu",
+          "description": "Pomohu firmám vyhodnotit, kde má AI ve firemním procesu reálný přínos, kde je lepší začít automatizací nebo úpravou workflow a jak se vyhnout další vrstvě provozní složitosti.",
+          "primaryQuery": "využití ai ve firmě",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Chceme AI, ale nechceme další nástroj bez skutečného přínosu",
+            "subtitle": "Typická situace, kdy firma vidí potenciál AI, ale ještě nemá jistotu, kde přesně dává smysl a kde by jen přidala další složitost.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Mnoho firem dnes ví, že AI může pomoct. Často ale nezačínají jasným use casem, nýbrž pocitem, že by také měly něco s AI dělat.",
+            "Právě v tom bývá problém. Pokud není jasný proces, kvalitní vstupy a konkrétní místo, kde dnes mizí čas nebo vznikají chyby, AI většinou jen přidá další vrstvu složitosti."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Když se AI nasadí bez dobrého provozního fitu, nevzniká jen zklamání z výsledku. Často se zvyšuje i složitost procesu, závislost na ruční kontrole a nedůvěra v další digitalizační kroky."
+              ],
+              "bullets": [
+                "firma chce využít AI, ale neumí pojmenovat konkrétní use case",
+                "lidé očekávají, že AI vyřeší nejasný nebo chaotický proces",
+                "není jisté, zda je problém v datech, workflow nebo v ruční operativě",
+                "chybí rozhodnutí, kde začít malou a smysluplnou první etapou"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám procesem, ne technologií. Nejprve hledáme, kde dnes vzniká největší ztráta času, kde se opakují stejné kroky a kde má smysl porovnat AI s jednodušší automatizací nebo úpravou interního systému."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty."
+              ],
+              "bullets": [
+                "jasnější rozhodnutí, zda AI dává smysl právě teď",
+                "konkrétní první use case místo obecného hype zadání",
+                "nižší riziko slepé investice do zbytečné složitosti",
+                "lepší návaznost AI na reálný proces, data a odpovědnost"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí být součástí řešení vždy AI?",
+              "answer": "Ne. Někdy je lepší začít jednodušší automatizací, lepším workflow nebo úpravou interního systému. I to je dobrý výsledek."
+            },
+            {
+              "question": "Kde AI ve firmě funguje nejčastěji?",
+              "answer": "Často u práce s dokumenty, třídění požadavků, vyhledávání informací nebo tam, kde pomáhá zrychlit opakované kroky nad textem a daty."
+            },
+            {
+              "question": "Je vhodné začít velkým AI projektem?",
+              "answer": "Obvykle ne. Silnější bývá menší první use case, na kterém se ověří reálný přínos i provozní limity."
+            },
+            {
+              "question": "Co když zjistíme, že AI pro náš proces není vhodná?",
+              "answer": "To je stále cenný výsledek. Je lepší to zjistit včas, než investovat do vrstvy, která nepřinese odpovídající hodnotu."
+            }
+          ],
+          "related": [
+            "service-ai-automation-and-integrations",
+            "service-automations-and-integrations",
+            "service-internal-tools-development",
+            "guide-when-ai-integration-makes-sense",
+            "use-case-ai-internal-documents",
+            "use-case-ai-intake-triage",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy, které chtějí AI, ale hledají konkrétní první use case",
+              "týmy s opakovanou administrativou, dokumenty nebo příchozí agendou",
+              "buyery, kteří chtějí odlišit smysluplné využití AI od hype"
+            ],
+            "notFor": [
+              "čistě experimentální AI bez provozního cíle",
+              "projekty bez ownera procesu nebo bez přístupu k datům",
+              "situace, kde se čeká, že AI vyřeší nevyjasněný chaos sama"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat spolupráci",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte."
+          },
+          "seo": {
+            "title": "Chceme využít AI ve firemním procesu",
+            "description": "Pomohu firmám vyhodnotit, kde má AI ve firemním procesu reálný přínos, kde je lepší začít automatizací nebo úpravou workflow a jak se vyhnout další vrstvě provozní složitosti."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-ai-in-business-process.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Chceme AI, ale nechceme další nástroj bez skutečného přínosu",
+        "body": "Typická situace, kdy firma vidí potenciál AI, ale ještě nemá jistotu, kde přesně dává smysl a kde by jen přidala další složitost.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Mnoho firem dnes ví, že AI může pomoct. Často ale nezačínají jasným use casem, nýbrž pocitem, že by také měly něco s AI dělat.\n\nPrávě v tom bývá problém. Pokud není jasný proces, kvalitní vstupy a konkrétní místo, kde dnes mizí čas nebo vznikají chyby, AI většinou jen přidá další vrstvu složitosti."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Když se AI nasadí bez dobrého provozního fitu, nevzniká jen zklamání z výsledku. Často se zvyšuje i složitost procesu, závislost na ruční kontrole a nedůvěra v další digitalizační kroky.",
+        "items": [
+          "firma chce využít AI, ale neumí pojmenovat konkrétní use case",
+          "lidé očekávají, že AI vyřeší nejasný nebo chaotický proces",
+          "není jisté, zda je problém v datech, workflow nebo v ruční operativě",
+          "chybí rozhodnutí, kde začít malou a smysluplnou první etapou"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám procesem, ne technologií. Nejprve hledáme, kde dnes vzniká největší ztráta času, kde se opakují stejné kroky a kde má smysl porovnat AI s jednodušší automatizací nebo úpravou interního systému."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen něco rychle opravit. Smyslem je vrátit projektu kontrolu, přehled a další rozvoj bez zbytečné nejistoty.",
+        "items": [
+          "jasnější rozhodnutí, zda AI dává smysl právě teď",
+          "konkrétní první use case místo obecného hype zadání",
+          "nižší riziko slepé investice do zbytečné složitosti",
+          "lepší návaznost AI na reálný proces, data a odpovědnost"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí být součástí řešení vždy AI?",
+            "answer": "Ne. Někdy je lepší začít jednodušší automatizací, lepším workflow nebo úpravou interního systému. I to je dobrý výsledek."
+          },
+          {
+            "question": "Kde AI ve firmě funguje nejčastěji?",
+            "answer": "Často u práce s dokumenty, třídění požadavků, vyhledávání informací nebo tam, kde pomáhá zrychlit opakované kroky nad textem a daty."
+          },
+          {
+            "question": "Je vhodné začít velkým AI projektem?",
+            "answer": "Obvykle ne. Silnější bývá menší první use case, na kterém se ověří reálný přínos i provozní limity."
+          },
+          {
+            "question": "Co když zjistíme, že AI pro náš proces není vhodná?",
+            "answer": "To je stále cenný výsledek. Je lepší to zjistit včas, než investovat do vrstvy, která nepřinese odpovídající hodnotu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte.",
+        "ctaLabel": "Nezávazně probrat spolupráci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

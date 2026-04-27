@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-decide-app-needs-rewrite.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite",
+  "title": "Potřebuje aplikace rewrite? | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Potřebuje aplikace rewrite? | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce pro firmy, které zvažují rewrite aplikace a chtějí odlišit skutečné technické důvody od frustrace z pomalého delivery.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-decide-app-needs-rewrite",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite",
+          "segments": [
+            "pruvodce",
+            "jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite"
+          ],
+          "title": "Potřebuje aplikace rewrite? | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak poznat, že aplikace opravdu potřebuje rewrite a ne jen postupný rozvoj",
+          "description": "Praktický průvodce pro firmy, které zvažují rewrite aplikace a chtějí odlišit skutečné technické důvody od frustrace z pomalého delivery.",
+          "primaryQuery": "kdy aplikace potrebuje rewrite",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Pokročilý průvodce",
+            "title": "Rewrite má být důsledek jasných důvodů, ne úleva z frustrace",
+            "subtitle": "Když se aplikace špatně mění, láká čistý restart. Jenže bez pojmenování skutečných příčin může rewrite jen přesunout stejné riziko do nového kódu.",
+            "primaryCta": {
+              "label": "Probrat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Úplný přepis aplikace může dávat smysl, ale jen ve chvíli, kdy stávající systém opravdu blokuje provoz nebo další rozvoj natolik, že cílené zlepšování už nefunguje.",
+            "Silnější rozhodnutí nevychází z dojmu, že je kód starý nebo nepříjemný. Vychází z dopadu na byznys, release riziko, rychlost změn a cenu dalších zásahů."
+          ],
+          "sections": [
+            {
+              "title": "Signály, že může být rewrite oprávněný",
+              "body": [
+                "Důležité nejsou estetické výhrady ke kódu, ale opakované situace, kdy architektura nebo data blokují bezpečný provoz a každou další změnu prodražují."
+              ],
+              "bullets": [
+                "kritické workflow se nedaří stabilizovat ani cílenými zásahy",
+                "architektura systematicky blokuje další vývoj",
+                "release riziko je dlouhodobě neúnosné",
+                "dílčí opravy jsou dražší než nový základ se stejným rozsahem znalosti"
+              ]
+            },
+            {
+              "title": "Kdy je lepší postupný rozvoj",
+              "body": [
+                "Pokud aplikace stále drží důležitý provoz a největší problémy jsou soustředěné v menším počtu částí, bývá bezpečnější a levnější začít stabilizací, modularizací a cíleným přepisem vybraných oblastí."
+              ]
+            },
+            {
+              "title": "Co si ověřit před rozhodnutím",
+              "body": [
+                "Praktické rozhodnutí potřebuje audit závislostí, dat, release cesty, provozních omezení a toho, jak moc by firma zvládla paralelní vývoj bez ohrožení běžného provozu."
+              ]
+            },
+            {
+              "title": "Jak se nenechat zatlačit do špatného rozhodnutí",
+              "body": [
+                "Nejslabší důvod pro rewrite je únava z cizího kódu. Nejsilnější důvod je opakovaně potvrzený dopad na provoz, bezpečnost nebo delivery, který už nejde rozumně řešit postupně."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je stará technologie sama o sobě důvod pro rewrite?",
+              "answer": "Ne. Důležité je, jaké konkrétní problémy způsobuje provozu, bezpečnosti a rychlosti dalšího rozvoje."
+            },
+            {
+              "question": "Může být správně přepsat jen část systému?",
+              "answer": "Ano. U mnoha aplikací je selektivní rewrite nebo oddělení nejproblematičtějších částí praktičtější než kompletní restart."
+            },
+            {
+              "question": "Má rozhodnutí vždy začínat auditem?",
+              "answer": "U běžící business aplikace ano. Bez auditu se těžko rozlišuje mezi skutečnou nutností a pouze silnou frustrací z aktuálního stavu."
+            }
+          ],
+          "related": [
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "service-existing-app-takeover",
+            "problem-modernize-legacy-app",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "comparison-rewrite-vs-incremental-app-improvement",
+              "service-existing-app-takeover",
+              "problem-modernize-legacy-app",
+              "inquiry"
+            ],
+            "notFor": [
+              "obecné neprojektové ctení"
+            ]
+          },
+          "seo": {
+            "title": "Potřebuje aplikace rewrite? | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce pro firmy, které zvažují rewrite aplikace a chtějí odlišit skutečné technické důvody od frustrace z pomalého delivery."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-decide-app-needs-rewrite.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Pokročilý průvodce",
+        "heading": "Rewrite má být důsledek jasných důvodů, ne úleva z frustrace",
+        "body": "Když se aplikace špatně mění, láká čistý restart. Jenže bez pojmenování skutečných příčin může rewrite jen přesunout stejné riziko do nového kódu.",
+        "ctaLabel": "Probrat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Úplný přepis aplikace může dávat smysl, ale jen ve chvíli, kdy stávající systém opravdu blokuje provoz nebo další rozvoj natolik, že cílené zlepšování už nefunguje.\n\nSilnější rozhodnutí nevychází z dojmu, že je kód starý nebo nepříjemný. Vychází z dopadu na byznys, release riziko, rychlost změn a cenu dalších zásahů."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Signály, že může být rewrite oprávněný",
+        "body": "Důležité nejsou estetické výhrady ke kódu, ale opakované situace, kdy architektura nebo data blokují bezpečný provoz a každou další změnu prodražují.",
+        "items": [
+          "kritické workflow se nedaří stabilizovat ani cílenými zásahy",
+          "architektura systematicky blokuje další vývoj",
+          "release riziko je dlouhodobě neúnosné",
+          "dílčí opravy jsou dražší než nový základ se stejným rozsahem znalosti"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je lepší postupný rozvoj",
+        "body": "Pokud aplikace stále drží důležitý provoz a největší problémy jsou soustředěné v menším počtu částí, bývá bezpečnější a levnější začít stabilizací, modularizací a cíleným přepisem vybraných oblastí."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co si ověřit před rozhodnutím",
+        "body": "Praktické rozhodnutí potřebuje audit závislostí, dat, release cesty, provozních omezení a toho, jak moc by firma zvládla paralelní vývoj bez ohrožení běžného provozu."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak se nenechat zatlačit do špatného rozhodnutí",
+        "body": "Nejslabší důvod pro rewrite je únava z cizího kódu. Nejsilnější důvod je opakovaně potvrzený dopad na provoz, bezpečnost nebo delivery, který už nejde rozumně řešit postupně."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je stará technologie sama o sobě důvod pro rewrite?",
+            "answer": "Ne. Důležité je, jaké konkrétní problémy způsobuje provozu, bezpečnosti a rychlosti dalšího rozvoje."
+          },
+          {
+            "question": "Může být správně přepsat jen část systému?",
+            "answer": "Ano. U mnoha aplikací je selektivní rewrite nebo oddělení nejproblematičtějších částí praktičtější než kompletní restart."
+          },
+          {
+            "question": "Má rozhodnutí vždy začínat auditem?",
+            "answer": "U běžící business aplikace ano. Bez auditu se těžko rozlišuje mezi skutečnou nutností a pouze silnou frustrací z aktuálního stavu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

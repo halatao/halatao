@@ -1,0 +1,232 @@
+{
+  "id": "inquiry.cs",
+  "locale": "cs",
+  "slug": "/popsat-projekt",
+  "title": "Popsat projekt | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Popsat projekt | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "inquiry",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "inquiry",
+          "slug": "popsat-projekt",
+          "segments": [
+            "popsat-projekt"
+          ],
+          "title": "Popsat projekt | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Popsat projekt a probrat, jestli je spolupráce vhodná",
+          "description": "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu.",
+          "primaryQuery": "popsat projekt",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Krátký popis situace stačí na první posouzení fitu",
+            "subtitle": "Nemusíte mít hotové zadání. Důležité je popsat, co dnes nefunguje, co má být výsledek a jaké jsou hlavní limity projektu.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "První kontakt nemusí být složitý. Často stačí popsat, co dnes nefunguje, co potřebujete změnit a jestli jde o novou aplikaci, takeover, interní systém nebo integrace.",
+            "Pokud je fit dobrý, navrhnu další krok. Pokud ne, řeknu to rovnou a nebudu zbytečně natahovat proces.",
+            "Pro rychlejší posun můžete rovnou přidat i termín, velikost týmu, současný stack nebo hlavní provozní riziko."
+          ],
+          "sections": [
+            {
+              "title": "Co je užitečné poslat",
+              "body": [
+                "Čím konkrétnější kontext, tím přesněji lze určit další krok."
+              ],
+              "bullets": [
+                "stručný popis situace",
+                "cílový výsledek projektu",
+                "časový tlak nebo důležité omezení",
+                "informace o existující aplikaci nebo procesech"
+              ]
+            },
+            {
+              "title": "Jak odpovídám",
+              "body": [
+                "Typicky navrhnu, zda dává smysl krátké úvodní volání, takeover audit, scope workshop nebo rovnou první implementační etapa."
+              ]
+            },
+            {
+              "title": "Kdy je spolupráce vhodná",
+              "body": [
+                "Silný fit bývá u firemních aplikací, interních nástrojů, takeover projektů a automatizačních situací s reálným provozním dopadem."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Mohu napsat i bez detailního zadání?",
+              "answer": "Ano. Detailní zadání není podmínkou. Důležitý je hlavně kontext a cíl."
+            },
+            {
+              "question": "Řešíte i urgentní takeover nebo stabilizaci?",
+              "answer": "Ano. U běžících aplikací je běžné, že první krok musí být rychlý a zaměřený na riziko."
+            },
+            {
+              "question": "Je možné domluvit rovnou termín hovoru?",
+              "answer": "Ano. Na stránce i po odeslání najdete možnost domluvit si termín přes Calendly."
+            },
+            {
+              "question": "Co když nakonec projekt nebude fit?",
+              "answer": "Řeknu to otevřeně. Smyslem není tlačit spolupráci za každou cenu, ale rychle zjistit, jestli dává smysl."
+            }
+          ],
+          "related": [
+            "process-delivery",
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "service-internal-tools-development",
+            "service-automations-and-integrations"
+          ],
+          "fit": {
+            "for": [
+              "nové aplikace",
+              "převzetí a stabilizace",
+              "interní systémy a automatizace"
+            ],
+            "notFor": [
+              "recruiting dotazy",
+              "obecné kariérní poptávky",
+              "projekty bez popisu problému"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí základní kontext. Ozvu se s realistickým dalším krokem."
+          },
+          "seo": {
+            "title": "Popsat projekt | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "inquiry.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "inquiry",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Krátký popis situace stačí na první posouzení fitu",
+        "body": "Nemusíte mít hotové zadání. Důležité je popsat, co dnes nefunguje, co má být výsledek a jaké jsou hlavní limity projektu.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "První kontakt nemusí být složitý. Často stačí popsat, co dnes nefunguje, co potřebujete změnit a jestli jde o novou aplikaci, takeover, interní systém nebo integrace.\n\nPokud je fit dobrý, navrhnu další krok. Pokud ne, řeknu to rovnou a nebudu zbytečně natahovat proces.\n\nPro rychlejší posun můžete rovnou přidat i termín, velikost týmu, současný stack nebo hlavní provozní riziko."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co je užitečné poslat",
+        "body": "Čím konkrétnější kontext, tím přesněji lze určit další krok.",
+        "items": [
+          "stručný popis situace",
+          "cílový výsledek projektu",
+          "časový tlak nebo důležité omezení",
+          "informace o existující aplikaci nebo procesech"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak odpovídám",
+        "body": "Typicky navrhnu, zda dává smysl krátké úvodní volání, takeover audit, scope workshop nebo rovnou první implementační etapa."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy je spolupráce vhodná",
+        "body": "Silný fit bývá u firemních aplikací, interních nástrojů, takeover projektů a automatizačních situací s reálným provozním dopadem."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Mohu napsat i bez detailního zadání?",
+            "answer": "Ano. Detailní zadání není podmínkou. Důležitý je hlavně kontext a cíl."
+          },
+          {
+            "question": "Řešíte i urgentní takeover nebo stabilizaci?",
+            "answer": "Ano. U běžících aplikací je běžné, že první krok musí být rychlý a zaměřený na riziko."
+          },
+          {
+            "question": "Je možné domluvit rovnou termín hovoru?",
+            "answer": "Ano. Na stránce i po odeslání najdete možnost domluvit si termín přes Calendly."
+          },
+          {
+            "question": "Co když nakonec projekt nebude fit?",
+            "answer": "Řeknu to otevřeně. Smyslem není tlačit spolupráci za každou cenu, ale rychle zjistit, jestli dává smysl."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí základní kontext. Ozvu se s realistickým dalším krokem.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

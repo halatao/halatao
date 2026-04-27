@@ -1,0 +1,246 @@
+{
+  "id": "technology-postgresql-for-internal-tools.en",
+  "locale": "en",
+  "slug": "/technology/postgresql-for-internal-tools",
+  "title": "PostgreSQL for internal tools | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "PostgreSQL for internal tools | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Why PostgreSQL is often a strong choice for internal systems, workflow applications, and business software with structured relational data.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "technology-postgresql-for-internal-tools",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "technology",
+          "slug": "postgresql-for-internal-tools",
+          "segments": [
+            "technology",
+            "postgresql-for-internal-tools"
+          ],
+          "title": "PostgreSQL for internal tools | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "PostgreSQL for internal tools and business web applications",
+          "description": "Why PostgreSQL is often a strong choice for internal systems, workflow applications, and business software with structured relational data.",
+          "primaryQuery": "postgresql for internal tools",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Technology",
+            "title": "The database is an operational foundation, not a footnote",
+            "subtitle": "In internal systems and workflow-heavy apps, reliability, relational structure, and room for data growth matter more than trend-driven database choices.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "PostgreSQL is often a strong choice where applications rely on relationships, state history, structured querying, and long-term data model growth.",
+            "Its value is not only performance. It is also about predictability, strong querying, and a cleaner basis for application logic."
+          ],
+          "sections": [
+            {
+              "title": "Where this technology is a strong fit",
+              "body": [
+                "Technology should fit the product and delivery reality, not just developer preference."
+              ],
+              "bullets": [
+                "relational data and workflow states",
+                "reporting and filtered views",
+                "need for consistency and history",
+                "long-term growth of an internal system"
+              ]
+            },
+            {
+              "title": "What to be careful about",
+              "body": [
+                "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture."
+              ],
+              "bullets": [
+                "poor data modelling",
+                "weak index and query discipline",
+                "ignoring migration hygiene"
+              ]
+            },
+            {
+              "title": "Typical fit for a business project",
+              "body": [
+                "The choice should support delivery speed, maintainability, and operational confidence over time."
+              ],
+              "bullets": [
+                "custom internal systems",
+                "admin interfaces with real data logic",
+                "multi-module business applications",
+                "portals with history and relational data"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is PostgreSQL suitable for smaller applications too?",
+              "answer": "Yes, especially if they work with relational data and may need to grow in complexity over time."
+            },
+            {
+              "question": "Does the database solve performance by itself?",
+              "answer": "No. Data model, queries, caching, and application design still matter."
+            },
+            {
+              "question": "Does it make sense without a full BI setup?",
+              "answer": "Yes. Much of the value is in having stronger operational data structure in the product itself."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "use-case-internal-admin-system",
+            "use-case-reporting-dashboard",
+            "guide-how-to-estimate-a-custom-web-app"
+          ],
+          "fit": {
+            "for": [
+              "custom internal systems",
+              "admin interfaces with real data logic",
+              "multi-module business applications",
+              "portals with history and relational data"
+            ],
+            "notFor": [
+              "poor data modelling",
+              "weak index and query discipline",
+              "ignoring migration hygiene"
+            ]
+          },
+          "seo": {
+            "title": "PostgreSQL for internal tools | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Why PostgreSQL is often a strong choice for internal systems, workflow applications, and business software with structured relational data."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "technology-postgresql-for-internal-tools.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "technology",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Technology",
+        "heading": "The database is an operational foundation, not a footnote",
+        "body": "In internal systems and workflow-heavy apps, reliability, relational structure, and room for data growth matter more than trend-driven database choices.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "PostgreSQL is often a strong choice where applications rely on relationships, state history, structured querying, and long-term data model growth.\n\nIts value is not only performance. It is also about predictability, strong querying, and a cleaner basis for application logic."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where this technology is a strong fit",
+        "body": "Technology should fit the product and delivery reality, not just developer preference.",
+        "items": [
+          "relational data and workflow states",
+          "reporting and filtered views",
+          "need for consistency and history",
+          "long-term growth of an internal system"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to be careful about",
+        "body": "A technology’s strengths disappear quickly when it is used in the wrong context or without a sound architecture.",
+        "items": [
+          "poor data modelling",
+          "weak index and query discipline",
+          "ignoring migration hygiene"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical fit for a business project",
+        "body": "The choice should support delivery speed, maintainability, and operational confidence over time.",
+        "items": [
+          "custom internal systems",
+          "admin interfaces with real data logic",
+          "multi-module business applications",
+          "portals with history and relational data"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is PostgreSQL suitable for smaller applications too?",
+            "answer": "Yes, especially if they work with relational data and may need to grow in complexity over time."
+          },
+          {
+            "question": "Does the database solve performance by itself?",
+            "answer": "No. Data model, queries, caching, and application design still matter."
+          },
+          {
+            "question": "Does it make sense without a full BI setup?",
+            "answer": "Yes. Much of the value is in having stronger operational data structure in the product itself."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

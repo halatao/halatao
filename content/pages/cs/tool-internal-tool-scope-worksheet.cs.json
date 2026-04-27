@@ -1,0 +1,245 @@
+{
+  "id": "tool-internal-tool-scope-worksheet.cs",
+  "locale": "cs",
+  "slug": "/sablony/scope-worksheet-pro-interni-system",
+  "title": "Scope worksheet pro interní systém | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Scope worksheet pro interní systém | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický scope worksheet pro interní systém: proces, role, stavy, výjimky, data a hranice první verze bez zbytečného přestřelení zadání.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-internal-tool-scope-worksheet",
+          "stage": 3,
+          "locale": "cs",
+          "pageType": "tool",
+          "slug": "scope-worksheet-pro-interni-system",
+          "segments": [
+            "sablony",
+            "scope-worksheet-pro-interni-system"
+          ],
+          "title": "Scope worksheet pro interní systém | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Scope worksheet pro interní systém na míru",
+          "description": "Praktický scope worksheet pro interní systém: proces, role, stavy, výjimky, data a hranice první verze bez zbytečného přestřelení zadání.",
+          "primaryQuery": "scope worksheet pro interní systém",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Šablona / checklist",
+            "title": "Interní systém se zadává lépe, když nejdřív popíšete proces, ne seznam obrazovek",
+            "subtitle": "Pracovní šablona pro firmy, které potřebují srovnat role, workflow, výjimky a hranice první etapy interního systému.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Scope worksheet pomáhá převést rozptýlený interní proces do uchopitelného zadání. Hodí se ve chvíli, kdy firma ví, že potřebuje vlastní systém, ale nechce sklouznout k nekonečnému wish listu.",
+            "Nejdůležitější část není seznam funkcí. Důležité je ujasnit si, kdo v procesu pracuje, jaké jsou stavy, kde vznikají výjimky a co má řešit první verze."
+          ],
+          "sections": [
+            {
+              "title": "Co má asset pokrýt",
+              "body": [
+                "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí."
+              ],
+              "bullets": [
+                "hlavní role a odpovědnosti",
+                "klíčové workflow a stavy",
+                "výjimky, schválení a návaznosti",
+                "datové zdroje a hranici první etapy"
+              ]
+            },
+            {
+              "title": "Jak ho použít v praxi",
+              "body": [
+                "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv."
+              ],
+              "bullets": [
+                "před scope workshopem",
+                "při interním sladění businessu a delivery",
+                "jako podklad pro první odhad a architektonický návrh"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl přinést",
+              "body": [
+                "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu."
+              ],
+              "bullets": [
+                "realističtější první scope",
+                "méně přestřelených očekávání",
+                "lepší debata o prioritách první verze",
+                "silnější základ pro interní systém nebo workflow aplikaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je worksheet vhodný i bez interního IT týmu?",
+              "answer": "Ano. Pomůže hlavně business ownerům a operativě srovnat zadání dřív, než se připojí technická strana."
+            },
+            {
+              "question": "Nahradí worksheet detailní analýzu?",
+              "answer": "Ne. Je to pracovní vstup, který zlepší kvalitu následného scope a rozhodování."
+            },
+            {
+              "question": "Má smysl i pro menší první etapu?",
+              "answer": "Ano. Právě u menší první etapy pomáhá dobře oddělit must-have od zbytku."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "guide-when-internal-tool-better-than-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firmy zadávající interní systém poprvé",
+              "týmy, které chtějí zúžit první verzi",
+              "projekty s více rolemi a workflow"
+            ],
+            "notFor": [
+              "jednoduchá evidence bez procesní logiky",
+              "zadání bez business ownera",
+              "asset pro čistě designový návrh bez provozního kontextu"
+            ]
+          },
+          "cta": {
+            "label": "Probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Scope worksheet pro interní systém | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický scope worksheet pro interní systém: proces, role, stavy, výjimky, data a hranice první verze bez zbytečného přestřelení zadání."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-internal-tool-scope-worksheet.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Šablona / checklist",
+        "heading": "Interní systém se zadává lépe, když nejdřív popíšete proces, ne seznam obrazovek",
+        "body": "Pracovní šablona pro firmy, které potřebují srovnat role, workflow, výjimky a hranice první etapy interního systému.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Scope worksheet pomáhá převést rozptýlený interní proces do uchopitelného zadání. Hodí se ve chvíli, kdy firma ví, že potřebuje vlastní systém, ale nechce sklouznout k nekonečnému wish listu.\n\nNejdůležitější část není seznam funkcí. Důležité je ujasnit si, kdo v procesu pracuje, jaké jsou stavy, kde vznikají výjimky a co má řešit první verze."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co má asset pokrýt",
+        "body": "Cílem není vytvářet administrativu pro administrativu. Smyslem je rychle odhalit slepá místa a zlepšit kvalitu prvního rozhodnutí.",
+        "items": [
+          "hlavní role a odpovědnosti",
+          "klíčové workflow a stavy",
+          "výjimky, schválení a návaznosti",
+          "datové zdroje a hranici první etapy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak ho použít v praxi",
+        "body": "Asset má fungovat jako pracovní pomůcka před scopem, discovery nebo úvodním hovorem. Ne jako finální dokument pro archiv.",
+        "items": [
+          "před scope workshopem",
+          "při interním sladění businessu a delivery",
+          "jako podklad pro první odhad a architektonický návrh"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl přinést",
+        "body": "Dobře použitá šablona zkrátí cestu k prvnímu rozumnému kroku a sníží riziko špatně položeného projektu.",
+        "items": [
+          "realističtější první scope",
+          "méně přestřelených očekávání",
+          "lepší debata o prioritách první verze",
+          "silnější základ pro interní systém nebo workflow aplikaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je worksheet vhodný i bez interního IT týmu?",
+            "answer": "Ano. Pomůže hlavně business ownerům a operativě srovnat zadání dřív, než se připojí technická strana."
+          },
+          {
+            "question": "Nahradí worksheet detailní analýzu?",
+            "answer": "Ne. Je to pracovní vstup, který zlepší kvalitu následného scope a rozhodování."
+          },
+          {
+            "question": "Má smysl i pro menší první etapu?",
+            "answer": "Ano. Právě u menší první etapy pomáhá dobře oddělit must-have od zbytku."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

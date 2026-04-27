@@ -1,0 +1,244 @@
+{
+  "id": "tool-api-integration-checklist.en",
+  "locale": "en",
+  "slug": "/templates/api-integration-checklist",
+  "title": "API integration checklist | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "API integration checklist | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical API integration checklist covering data ownership, error states, exceptions, monitoring, and real operational constraints.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "tool-api-integration-checklist",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "tool",
+          "slug": "api-integration-checklist",
+          "segments": [
+            "templates",
+            "api-integration-checklist"
+          ],
+          "title": "API integration checklist | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "API integration checklist before delivery starts",
+          "description": "A practical API integration checklist covering data ownership, error states, exceptions, monitoring, and real operational constraints.",
+          "primaryQuery": "api integration checklist",
+          "intent": "transactional",
+          "hero": {
+            "eyebrow": "Template / checklist",
+            "title": "Integration projects usually fail on the details nobody named early enough",
+            "subtitle": "The checklist helps teams work through data flow, exceptions, responsibility, and operational reality before the integration becomes fragile.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "API integrations look simpler than they are. The real trouble often lives in exceptions, data quality, and unclear ownership.",
+            "A practical checklist reduces the risk of turning the integration into another source of manual work and hidden failure."
+          ],
+          "sections": [
+            {
+              "title": "What the template should cover",
+              "body": [
+                "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots."
+              ],
+              "bullets": [
+                "source and destination data",
+                "ownership and responsibility",
+                "error states and retry logic",
+                "monitoring and operational oversight"
+              ]
+            },
+            {
+              "title": "How to use it in practice",
+              "body": [
+                "The template should work as a practical aid before an introductory call, scoping session, or takeover phase."
+              ],
+              "bullets": [
+                "before an integration project",
+                "during an automation diagnostic",
+                "as input to prioritising integration work"
+              ]
+            },
+            {
+              "title": "What outcome it should create",
+              "body": [
+                "A good template shortens the path to the first useful project decision."
+              ],
+              "bullets": [
+                "fewer design blind spots",
+                "better readiness for exceptions",
+                "more resilient integration delivery"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is the checklist useful without an in-house technical team?",
+              "answer": "Yes. It helps structure the important questions for your supplier or internal IT partner."
+            },
+            {
+              "question": "Does the checklist replace architecture work?",
+              "answer": "No. It is an input tool that helps the architecture work start from a better position."
+            },
+            {
+              "question": "Can it be used for internal workflow integrations too?",
+              "answer": "Yes. That is one of the most practical uses for it."
+            }
+          ],
+          "related": [
+            "technology-api-integrations",
+            "service-automations-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "problem-system-integrations",
+            "use-case-service-team-ops-system",
+            "case-study-multi-system-integration",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "fewer design blind spots",
+              "better readiness for exceptions",
+              "more resilient integration delivery"
+            ],
+            "notFor": [
+              "collecting detail with no decision attached"
+            ]
+          },
+          "seo": {
+            "title": "API integration checklist | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical API integration checklist covering data ownership, error states, exceptions, monitoring, and real operational constraints."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "tool-api-integration-checklist.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "tool",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Template / checklist",
+        "heading": "Integration projects usually fail on the details nobody named early enough",
+        "body": "The checklist helps teams work through data flow, exceptions, responsibility, and operational reality before the integration becomes fragile.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "API integrations look simpler than they are. The real trouble often lives in exceptions, data quality, and unclear ownership.\n\nA practical checklist reduces the risk of turning the integration into another source of manual work and hidden failure."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the template should cover",
+        "body": "The point is not paperwork for its own sake. The value is clearer decision-making and fewer project blind spots.",
+        "items": [
+          "source and destination data",
+          "ownership and responsibility",
+          "error states and retry logic",
+          "monitoring and operational oversight"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to use it in practice",
+        "body": "The template should work as a practical aid before an introductory call, scoping session, or takeover phase.",
+        "items": [
+          "before an integration project",
+          "during an automation diagnostic",
+          "as input to prioritising integration work"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What outcome it should create",
+        "body": "A good template shortens the path to the first useful project decision.",
+        "items": [
+          "fewer design blind spots",
+          "better readiness for exceptions",
+          "more resilient integration delivery"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is the checklist useful without an in-house technical team?",
+            "answer": "Yes. It helps structure the important questions for your supplier or internal IT partner."
+          },
+          {
+            "question": "Does the checklist replace architecture work?",
+            "answer": "No. It is an input tool that helps the architecture work start from a better position."
+          },
+          {
+            "question": "Can it be used for internal workflow integrations too?",
+            "answer": "Yes. That is one of the most practical uses for it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

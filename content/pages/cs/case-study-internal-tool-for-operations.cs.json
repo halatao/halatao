@@ -1,0 +1,250 @@
+{
+  "id": "case-study-internal-tool-for-operations.cs",
+  "locale": "cs",
+  "slug": "/pripadovky/interni-nastroj-pro-operativu",
+  "title": "Interní nástroj pro operativu | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Interní nástroj pro operativu | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Anonymizovaná případovka interního nástroje pro operativu, který nahradil roztříštěný proces mezi tabulkami, e-maily a ruční kontrolou.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "case-study-internal-tool-for-operations",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "case_study",
+          "slug": "interni-nastroj-pro-operativu",
+          "segments": [
+            "pripadovky",
+            "interni-nastroj-pro-operativu"
+          ],
+          "title": "Interní nástroj pro operativu | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Případovka: interní nástroj pro operativu místo tabulek a ruční koordinace",
+          "description": "Anonymizovaná případovka interního nástroje pro operativu, který nahradil roztříštěný proces mezi tabulkami, e-maily a ruční kontrolou.",
+          "primaryQuery": "interní nástroj pro operativu případovka",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Případovka",
+            "title": "Operativa rostla rychleji než nástroje, které ji držely pohromadě",
+            "subtitle": "Typický scénář, kdy tabulky a ruční domluva přestanou stačit více lidem a více stavům procesu.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Tým potřeboval lépe řídit opakovanou administrativní agendu a mít jasný přehled o tom, kdo co řeší a v jakém stavu se případ nachází.",
+            "Cílem nebylo postavit obrovský systém, ale vytvořit první funkční verzi, která odlehčí nejslabšímu místu provozu."
+          ],
+          "sections": [
+            {
+              "title": "Výchozí situace",
+              "body": [
+                "Jde o reprezentativní anonymizovaný scénář založený na reálných typech projektu a problému, ne o marketingově přikrášlenou referenci."
+              ],
+              "bullets": [
+                "stav práce rozptýlený v několika nástrojích",
+                "ruční přepisování a kontroly",
+                "nejasná odpovědnost mezi rolemi",
+                "slabý reporting nad operativou"
+              ]
+            },
+            {
+              "title": "Zvolený přístup",
+              "body": [
+                "První krok nebyl maximalistický scope, ale orientace v riziku, prioritách a realistickém rozsahu první etapy."
+              ],
+              "bullets": [
+                "pojmenování klíčového workflow",
+                "návrh rolí, stavů a hlavních obrazovek",
+                "dodání první užitečné etapy místo velkého scope",
+                "příprava systému na další automatizaci"
+              ]
+            },
+            {
+              "title": "Co se změnilo",
+              "body": [
+                "Smyslem případovky není předstírat přesná čísla. Důležité je ukázat typ změny, kterou podobný projekt klientovi přinese."
+              ],
+              "bullets": [
+                "rychlejší práce týmu",
+                "nižší chybovost",
+                "lepší dohled nad stavem případu",
+                "silnější základ pro reporting a další moduly"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musí interní nástroj vznikat celý najednou?",
+              "answer": "Nemusí. U těchto projektů bývá silnější menší první etapa s reálným provozním přínosem."
+            },
+            {
+              "question": "Lze navázat na stávající data a procesy?",
+              "answer": "Ano. Právě návaznost na reálný provoz bývá pro úspěch důležitější než samotná technologie."
+            },
+            {
+              "question": "Dá se z takového projektu postupně udělat širší interní systém?",
+              "answer": "Ano. Pokud je první verze navržená rozumně, může se stát základem pro další rozvoj."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-internal-tool",
+            "problem-replace-spreadsheets-in-process",
+            "use-case-internal-admin-system",
+            "use-case-service-team-ops-system",
+            "guide-how-to-scope-a-custom-web-application",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "rychlejší práce týmu",
+              "nižší chybovost",
+              "lepší dohled nad stavem případu",
+              "silnější základ pro reporting a další moduly"
+            ],
+            "notFor": [
+              "hledání nafouknutých marketingových metrik"
+            ]
+          },
+          "seo": {
+            "title": "Interní nástroj pro operativu | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Anonymizovaná případovka interního nástroje pro operativu, který nahradil roztříštěný proces mezi tabulkami, e-maily a ruční kontrolou."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "note": "Reprezentativní anonymizovaný scénář bez vymyšlených klientských čísel.",
+          "id": "case-study-internal-tool-for-operations.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "case_study",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Případovka",
+        "heading": "Operativa rostla rychleji než nástroje, které ji držely pohromadě",
+        "body": "Typický scénář, kdy tabulky a ruční domluva přestanou stačit více lidem a více stavům procesu.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Tým potřeboval lépe řídit opakovanou administrativní agendu a mít jasný přehled o tom, kdo co řeší a v jakém stavu se případ nachází.\n\nCílem nebylo postavit obrovský systém, ale vytvořit první funkční verzi, která odlehčí nejslabšímu místu provozu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Výchozí situace",
+        "body": "Jde o reprezentativní anonymizovaný scénář založený na reálných typech projektu a problému, ne o marketingově přikrášlenou referenci.",
+        "items": [
+          "stav práce rozptýlený v několika nástrojích",
+          "ruční přepisování a kontroly",
+          "nejasná odpovědnost mezi rolemi",
+          "slabý reporting nad operativou"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Zvolený přístup",
+        "body": "První krok nebyl maximalistický scope, ale orientace v riziku, prioritách a realistickém rozsahu první etapy.",
+        "items": [
+          "pojmenování klíčového workflow",
+          "návrh rolí, stavů a hlavních obrazovek",
+          "dodání první užitečné etapy místo velkého scope",
+          "příprava systému na další automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co se změnilo",
+        "body": "Smyslem případovky není předstírat přesná čísla. Důležité je ukázat typ změny, kterou podobný projekt klientovi přinese.",
+        "items": [
+          "rychlejší práce týmu",
+          "nižší chybovost",
+          "lepší dohled nad stavem případu",
+          "silnější základ pro reporting a další moduly"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musí interní nástroj vznikat celý najednou?",
+            "answer": "Nemusí. U těchto projektů bývá silnější menší první etapa s reálným provozním přínosem."
+          },
+          {
+            "question": "Lze navázat na stávající data a procesy?",
+            "answer": "Ano. Právě návaznost na reálný provoz bývá pro úspěch důležitější než samotná technologie."
+          },
+          {
+            "question": "Dá se z takového projektu postupně udělat širší interní systém?",
+            "answer": "Ano. Pokud je první verze navržená rozumně, může se stát základem pro další rozvoj."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

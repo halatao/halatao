@@ -1,0 +1,236 @@
+{
+  "id": "hub-services.en",
+  "locale": "en",
+  "slug": "/services",
+  "title": "Services for custom apps, takeover, internal tools, and contract support | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Services for custom apps, takeover, internal tools, and contract su...",
+    "description": "Overview of custom web application development, existing app takeover, internal tools, request-offer-delivery systems, automations, integrations, and senior...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-services",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "services",
+          "segments": [
+            "services"
+          ],
+          "title": "Services for custom apps, takeover, internal tools, and contract support | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Services for companies that need to build, take over, or improve important software",
+          "description": "Overview of custom web application development, existing app takeover, internal tools, request-offer-delivery systems, automations, integrations, and senior contract development support.",
+          "primaryQuery": "Services for companies that need to build, take over, or improve important software",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Choose the service by the delivery situation, not the buzzword",
+            "subtitle": "A commercial overview for companies facing new product delivery, inherited-app risk, internal-tool needs, automation pressure, or the need for senior contract capacity.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "This section is the main commercial entry point for buyers who already know they have a real software delivery problem or a project with operational weight.",
+            "It covers greenfield delivery, existing app takeover, internal tooling, systems for requests, offers, and delivery jobs, automations and integrations, and senior contract support inside an existing team."
+          ],
+          "sections": [
+            {
+              "title": "What you will find here",
+              "body": [
+                "Each child page explains where the service fits, which kinds of projects are a strong match, what the work typically includes, and what the next sensible step should be."
+              ]
+            },
+            {
+              "title": "When to start here",
+              "body": [
+                "This section works as a commercial starting point. It helps you choose the right collaboration model based on the actual project situation rather than a loose technology label."
+              ],
+              "bullets": [
+                "new business-critical software",
+                "running applications after a supplier or team change",
+                "internal workflows that outgrew spreadsheets and inboxes",
+                "manual cross-system work slowing operations down",
+                "projects missing senior technical ownership"
+              ]
+            },
+            {
+              "title": "How to continue",
+              "body": [
+                "The best next move is to open the page closest to your current situation and then continue into the linked problem, comparison, or inquiry path."
+              ],
+              "bullets": [
+                "start with the service closest to the current situation",
+                "follow into the linked problem or comparison pages",
+                "move to inquiry once the project fit is clear enough to discuss"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "How should I choose the right service page?",
+              "answer": "Start with the strongest source of delivery pressure: new build, inherited app, internal tool, automation, or embedded senior contract support."
+            },
+            {
+              "question": "Can several service models combine?",
+              "answer": "Yes. Takeover often leads into structured improvement, internal tools often overlap with integrations, and contract support can complement both."
+            },
+            {
+              "question": "Is contract support part of the same offer?",
+              "answer": "Yes. It is a defined delivery model for teams that need direct senior capacity inside their existing setup."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "service-internal-tools-development",
+            "service-request-offer-delivery-system",
+            "service-automations-and-integrations",
+            "contract-support"
+          ],
+          "fit": {
+            "for": [
+              "new business-critical software",
+              "running applications after a supplier or team change",
+              "internal workflows that outgrew spreadsheets and inboxes",
+              "manual cross-system work slowing operations down",
+              "projects missing senior technical ownership"
+            ],
+            "notFor": [
+              "passive browsing with no concrete project question"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the current situation and target outcome is enough to suggest the next step."
+          },
+          "seo": {
+            "title": "Services for custom apps, takeover, internal tools, and contract support | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Overview of custom web application development, existing app takeover, internal tools, request-offer-delivery systems, automations, integrations, and senior contract development support."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-services.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Choose the service by the delivery situation, not the buzzword",
+        "body": "A commercial overview for companies facing new product delivery, inherited-app risk, internal-tool needs, automation pressure, or the need for senior contract capacity.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "This section is the main commercial entry point for buyers who already know they have a real software delivery problem or a project with operational weight.\n\nIt covers greenfield delivery, existing app takeover, internal tooling, systems for requests, offers, and delivery jobs, automations and integrations, and senior contract support inside an existing team."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What you will find here",
+        "body": "Each child page explains where the service fits, which kinds of projects are a strong match, what the work typically includes, and what the next sensible step should be."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When to start here",
+        "body": "This section works as a commercial starting point. It helps you choose the right collaboration model based on the actual project situation rather than a loose technology label.",
+        "items": [
+          "new business-critical software",
+          "running applications after a supplier or team change",
+          "internal workflows that outgrew spreadsheets and inboxes",
+          "manual cross-system work slowing operations down",
+          "projects missing senior technical ownership"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue",
+        "body": "The best next move is to open the page closest to your current situation and then continue into the linked problem, comparison, or inquiry path.",
+        "items": [
+          "start with the service closest to the current situation",
+          "follow into the linked problem or comparison pages",
+          "move to inquiry once the project fit is clear enough to discuss"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "How should I choose the right service page?",
+            "answer": "Start with the strongest source of delivery pressure: new build, inherited app, internal tool, automation, or embedded senior contract support."
+          },
+          {
+            "question": "Can several service models combine?",
+            "answer": "Yes. Takeover often leads into structured improvement, internal tools often overlap with integrations, and contract support can complement both."
+          },
+          {
+            "question": "Is contract support part of the same offer?",
+            "answer": "Yes. It is a defined delivery model for teams that need direct senior capacity inside their existing setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the current situation and target outcome is enough to suggest the next step.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

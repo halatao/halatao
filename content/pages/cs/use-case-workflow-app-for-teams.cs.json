@@ -1,0 +1,248 @@
+{
+  "id": "use-case-workflow-app-for-teams.cs",
+  "locale": "cs",
+  "slug": "/priklady/workflow-aplikace-pro-tym",
+  "title": "Workflow aplikace pro tým | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Workflow aplikace pro tým | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Příklad workflow aplikace pro tým, který potřebuje řídit opakovaný proces, role, stavy a návazné kroky bez ruční koordinace přes tabulky a chaty.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-workflow-app-for-teams",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "use_case",
+          "slug": "workflow-aplikace-pro-tym",
+          "segments": [
+            "priklady",
+            "workflow-aplikace-pro-tym"
+          ],
+          "title": "Workflow aplikace pro tým | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Workflow aplikace pro tým a opakované provozní procesy",
+          "description": "Příklad workflow aplikace pro tým, který potřebuje řídit opakovaný proces, role, stavy a návazné kroky bez ruční koordinace přes tabulky a chaty.",
+          "primaryQuery": "workflow aplikace pro tým",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Příklad řešení",
+            "title": "Jeden pracovní tok místo přeposílání, tabulek a ručního dohledávání",
+            "subtitle": "Pro týmy, kde se stejný proces opakuje stále dokola a dnes je příliš závislý na ruční koordinaci.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Workflow aplikace bývá správný typ řešení tam, kde proces není jen evidence dat, ale sled navazujících kroků mezi více rolemi, výjimkami a termíny.",
+            "Dobře navržená workflow aplikace pomáhá zpřehlednit odpovědnost, zkrátit průchod procesem a omezit počet míst, kde se práce ztrácí nebo zasekává."
+          ],
+          "sections": [
+            {
+              "title": "Kdy tento typ řešení dává smysl",
+              "body": [
+                "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl."
+              ],
+              "bullets": [
+                "opakované procesy s více rolemi a stavy",
+                "ruční předávání práce mezi lidmi nebo odděleními",
+                "nízká dohledatelnost, kde se proces zasekl",
+                "potřeba napojení na další interní nebo externí systémy"
+              ]
+            },
+            {
+              "title": "Co bývá součástí řešení",
+              "body": [
+                "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost."
+              ],
+              "bullets": [
+                "workflow stavy, pravidla a oprávnění",
+                "detail položky, historie a auditní stopu",
+                "notifikace, termíny a výjimky",
+                "napojení na CRM, ERP nebo další interní nástroje"
+              ]
+            },
+            {
+              "title": "Jaký výsledek by měl systém přinést",
+              "body": [
+                "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy."
+              ],
+              "bullets": [
+                "vyšší průchodnost procesu",
+                "nižší závislost na ruční koordinaci",
+                "lepší dohled nad výjimkami a zpožděním",
+                "pevnější základ pro další automatizaci"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je workflow aplikace totéž co interní admin?",
+              "answer": "Ne úplně. Workflow aplikace bývá více postavená kolem stavů, pravidel a průchodu procesem."
+            },
+            {
+              "question": "Dá se spustit jen pro jednu část procesu?",
+              "answer": "Ano. To bývá často nejrozumnější první krok."
+            },
+            {
+              "question": "Lze kombinovat workflow aplikaci a automatizace?",
+              "answer": "Ano. V praxi se tyto dvě vrstvy často doplňují."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "service-ai-automation-and-integrations",
+            "use-case-workflow-automation-tools",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "týmy s opakovaným multi-step procesem",
+              "provozy s více rolemi a výjimkami",
+              "firmy, které chtějí zkrátit průchod a zlepšit dohled"
+            ],
+            "notFor": [
+              "jednoduchý seznam úkolů bez workflow",
+              "proces bez jasných stavů a odpovědností",
+              "projekty bez ochoty popsat skutečný provoz"
+            ]
+          },
+          "cta": {
+            "label": "Probrat podobné zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok."
+          },
+          "seo": {
+            "title": "Workflow aplikace pro tým | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Příklad workflow aplikace pro tým, který potřebuje řídit opakovaný proces, role, stavy a návazné kroky bez ruční koordinace přes tabulky a chaty."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-workflow-app-for-teams.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Příklad řešení",
+        "heading": "Jeden pracovní tok místo přeposílání, tabulek a ručního dohledávání",
+        "body": "Pro týmy, kde se stejný proces opakuje stále dokola a dnes je příliš závislý na ruční koordinaci.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Workflow aplikace bývá správný typ řešení tam, kde proces není jen evidence dat, ale sled navazujících kroků mezi více rolemi, výjimkami a termíny.\n\nDobře navržená workflow aplikace pomáhá zpřehlednit odpovědnost, zkrátit průchod procesem a omezit počet míst, kde se práce ztrácí nebo zasekává."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Kdy tento typ řešení dává smysl",
+        "body": "Use case není šablona pro každou firmu. Je to reprezentativní model situace, kde dává podobný systém jasný obchodní a provozní smysl.",
+        "items": [
+          "opakované procesy s více rolemi a stavy",
+          "ruční předávání práce mezi lidmi nebo odděleními",
+          "nízká dohledatelnost, kde se proces zasekl",
+          "potřeba napojení na další interní nebo externí systémy"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co bývá součástí řešení",
+        "body": "Konkrétní scope se liší podle firmy, ale opakují se podobné role, workflow, datové vazby a místa, kde je potřeba jasná odpovědnost.",
+        "items": [
+          "workflow stavy, pravidla a oprávnění",
+          "detail položky, historie a auditní stopu",
+          "notifikace, termíny a výjimky",
+          "napojení na CRM, ERP nebo další interní nástroje"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaký výsledek by měl systém přinést",
+        "body": "Smyslem není jen nahradit starý nástroj novým. Důležité je zjednodušit práci lidí, zpřehlednit stav a snížit zbytečné ruční zásahy.",
+        "items": [
+          "vyšší průchodnost procesu",
+          "nižší závislost na ruční koordinaci",
+          "lepší dohled nad výjimkami a zpožděním",
+          "pevnější základ pro další automatizaci"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je workflow aplikace totéž co interní admin?",
+            "answer": "Ne úplně. Workflow aplikace bývá více postavená kolem stavů, pravidel a průchodu procesem."
+          },
+          {
+            "question": "Dá se spustit jen pro jednu část procesu?",
+            "answer": "Ano. To bývá často nejrozumnější první krok."
+          },
+          {
+            "question": "Lze kombinovat workflow aplikaci a automatizace?",
+            "answer": "Ano. V praxi se tyto dvě vrstvy často doplňují."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
+        "ctaLabel": "Probrat podobné zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

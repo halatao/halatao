@@ -1,0 +1,247 @@
+{
+  "id": "comparison-internal-tool-vs-spreadsheets.en",
+  "locale": "en",
+  "slug": "/comparisons/internal-tool-vs-spreadsheets-and-email",
+  "title": "Internal tool vs spreadsheets and email | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal tool vs spreadsheets and email | Bc. Ondrej Halata (halata...",
+    "description": "A practical comparison of internal-tool software with spreadsheets and email for teams handling workflow, approvals, and shared operational work.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "comparison-internal-tool-vs-spreadsheets",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "comparison",
+          "slug": "internal-tool-vs-spreadsheets-and-email",
+          "segments": [
+            "comparisons",
+            "internal-tool-vs-spreadsheets-and-email"
+          ],
+          "title": "Internal tool vs spreadsheets and email | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "Internal tool vs spreadsheets and email: when custom operations software starts making sense",
+          "description": "A practical comparison of internal-tool software with spreadsheets and email for teams handling workflow, approvals, and shared operational work.",
+          "primaryQuery": "internal tool vs spreadsheets and email",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Comparison",
+            "title": "The question is not whether spreadsheets still work today. It is what they will cost tomorrow.",
+            "subtitle": "Spreadsheets and email are often a reasonable starting point. In a more complex operation they begin to increase coordination cost, error rate, and delivery drag.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The spreadsheet itself is not the issue. The issue begins when a workflow with multiple roles, states, exceptions, and handoffs still depends on email threads and manual state tracking.",
+            "The short answer is simple: if the process can no longer be kept reliable and visible in spreadsheets, an internal tool often makes sense before the operational chaos gets even more expensive."
+          ],
+          "sections": [
+            {
+              "title": "When spreadsheets and email are still enough",
+              "body": [
+                "Spreadsheets and email can still work when the process is simple, infrequent, low-risk, and involves few roles with no serious audit, approval, or integration demands."
+              ]
+            },
+            {
+              "title": "When an internal tool is the better move",
+              "body": [
+                "An internal tool becomes the stronger option when the workflow needs clearer ownership, state control, traceability, integrations, and safer movement between steps."
+              ]
+            },
+            {
+              "title": "How to decide",
+              "body": [
+                "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost."
+              ],
+              "bullets": [
+                "number of roles and ownership handoffs",
+                "volume of exceptions and approvals",
+                "operational cost of delay and error",
+                "need for history, reporting, and integration"
+              ]
+            },
+            {
+              "title": "Practical conclusion",
+              "body": [
+                "If spreadsheets and email no longer create clarity but instead create confusion, an internal tool is often cheaper than years of manual coordination. If the process is truly simple, the spreadsheet may still be enough."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is a custom internal tool unnecessarily expensive?",
+              "answer": "Sometimes it would be. But once manual coordination, error rate, and dependence on people start costing real time and money, the internal tool can become the cheaper long-term path."
+            },
+            {
+              "question": "Can we start with a smaller first version?",
+              "answer": "Yes. That is often the right way to replace the weakest part of the process without overscoping the project."
+            },
+            {
+              "question": "What if the company does not want to abandon spreadsheets entirely?",
+              "answer": "That is fine. Side tracking can remain in spreadsheets while the critical workflow moves into the system."
+            },
+            {
+              "question": "How do we know it is time to stop managing this manually?",
+              "answer": "When nobody can clearly see where the process is stuck, who owns the next step, which data is correct, and errors start having operational or financial consequences."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "problem-replace-spreadsheets-in-process",
+            "guide-when-internal-tool-better-than-saas",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "number of roles and ownership handoffs",
+              "volume of exceptions and approvals",
+              "operational cost of delay and error",
+              "need for history, reporting, and integration"
+            ],
+            "notFor": [
+              "abstract technology debates with no business context"
+            ]
+          },
+          "seo": {
+            "title": "Internal tool vs spreadsheets and email | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical comparison of internal-tool software with spreadsheets and email for teams handling workflow, approvals, and shared operational work."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "comparison-internal-tool-vs-spreadsheets.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "comparison",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Comparison",
+        "heading": "The question is not whether spreadsheets still work today. It is what they will cost tomorrow.",
+        "body": "Spreadsheets and email are often a reasonable starting point. In a more complex operation they begin to increase coordination cost, error rate, and delivery drag.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The spreadsheet itself is not the issue. The issue begins when a workflow with multiple roles, states, exceptions, and handoffs still depends on email threads and manual state tracking.\n\nThe short answer is simple: if the process can no longer be kept reliable and visible in spreadsheets, an internal tool often makes sense before the operational chaos gets even more expensive."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When spreadsheets and email are still enough",
+        "body": "Spreadsheets and email can still work when the process is simple, infrequent, low-risk, and involves few roles with no serious audit, approval, or integration demands."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When an internal tool is the better move",
+        "body": "An internal tool becomes the stronger option when the workflow needs clearer ownership, state control, traceability, integrations, and safer movement between steps."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to decide",
+        "body": "The decision should not be based only on price or technology taste. What matters is operational fit, change speed, and long-term cost.",
+        "items": [
+          "number of roles and ownership handoffs",
+          "volume of exceptions and approvals",
+          "operational cost of delay and error",
+          "need for history, reporting, and integration"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Practical conclusion",
+        "body": "If spreadsheets and email no longer create clarity but instead create confusion, an internal tool is often cheaper than years of manual coordination. If the process is truly simple, the spreadsheet may still be enough."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is a custom internal tool unnecessarily expensive?",
+            "answer": "Sometimes it would be. But once manual coordination, error rate, and dependence on people start costing real time and money, the internal tool can become the cheaper long-term path."
+          },
+          {
+            "question": "Can we start with a smaller first version?",
+            "answer": "Yes. That is often the right way to replace the weakest part of the process without overscoping the project."
+          },
+          {
+            "question": "What if the company does not want to abandon spreadsheets entirely?",
+            "answer": "That is fine. Side tracking can remain in spreadsheets while the critical workflow moves into the system."
+          },
+          {
+            "question": "How do we know it is time to stop managing this manually?",
+            "answer": "When nobody can clearly see where the process is stuck, who owns the next step, which data is correct, and errors start having operational or financial consequences."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

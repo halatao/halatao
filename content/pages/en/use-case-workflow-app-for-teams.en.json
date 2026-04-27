@@ -1,0 +1,248 @@
+{
+  "id": "use-case-workflow-app-for-teams.en",
+  "locale": "en",
+  "slug": "/use-cases/workflow-app-for-teams",
+  "title": "Workflow app for teams | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Workflow app for teams | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A workflow app use case for teams that need to manage repeatable processes, states, and responsibilities without relying on spreadsheet and chat coordination.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-workflow-app-for-teams",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "workflow-app-for-teams",
+          "segments": [
+            "use-cases",
+            "workflow-app-for-teams"
+          ],
+          "title": "Workflow app for teams | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Workflow app for teams running repeatable operations",
+          "description": "A workflow app use case for teams that need to manage repeatable processes, states, and responsibilities without relying on spreadsheet and chat coordination.",
+          "primaryQuery": "workflow app for teams",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "One operating flow instead of forwarding work by hand",
+            "subtitle": "A strong fit where the same process repeats across several people, states, deadlines, and exception paths.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "A workflow app is often the right shape when the process is more than data entry. It is a chain of steps, responsibilities, exceptions, and deadlines that needs clearer control.",
+            "The right result is a more reliable process with less manual chasing, better visibility, and cleaner handoffs across the team."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "repeatable processes with several roles and states",
+                "manual handover between people or departments",
+                "low visibility into where work is stuck",
+                "need to connect the process to other internal or external systems"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "workflow states, rules, and permissions",
+                "item detail, history, and audit trail",
+                "notifications, deadlines, and exceptions",
+                "integration with CRM, ERP, or internal tools"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "higher process throughput",
+                "less manual coordination dependency",
+                "better visibility into delays and exceptions",
+                "stronger base for further automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is a workflow app the same as an internal admin system?",
+              "answer": "Not exactly. A workflow app is more explicitly built around states, handoffs, and process flow."
+            },
+            {
+              "question": "Can this start with only one part of the process?",
+              "answer": "Yes. That is often the most sensible first step."
+            },
+            {
+              "question": "Can it combine with automation work?",
+              "answer": "Yes. In practice the application and automation layers often reinforce each other."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "service-ai-automation-and-integrations",
+            "use-case-workflow-automation-tools",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "teams with repeatable multi-step operations",
+              "business processes with several roles and exception paths",
+              "buyers trying to shorten cycle time and improve control"
+            ],
+            "notFor": [
+              "simple task lists with no workflow logic",
+              "processes with no clear states or ownership",
+              "projects with no willingness to describe the real operating model"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "Workflow app for teams | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A workflow app use case for teams that need to manage repeatable processes, states, and responsibilities without relying on spreadsheet and chat coordination."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-workflow-app-for-teams.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "One operating flow instead of forwarding work by hand",
+        "body": "A strong fit where the same process repeats across several people, states, deadlines, and exception paths.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "A workflow app is often the right shape when the process is more than data entry. It is a chain of steps, responsibilities, exceptions, and deadlines that needs clearer control.\n\nThe right result is a more reliable process with less manual chasing, better visibility, and cleaner handoffs across the team."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "repeatable processes with several roles and states",
+          "manual handover between people or departments",
+          "low visibility into where work is stuck",
+          "need to connect the process to other internal or external systems"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "workflow states, rules, and permissions",
+          "item detail, history, and audit trail",
+          "notifications, deadlines, and exceptions",
+          "integration with CRM, ERP, or internal tools"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "higher process throughput",
+          "less manual coordination dependency",
+          "better visibility into delays and exceptions",
+          "stronger base for further automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is a workflow app the same as an internal admin system?",
+            "answer": "Not exactly. A workflow app is more explicitly built around states, handoffs, and process flow."
+          },
+          {
+            "question": "Can this start with only one part of the process?",
+            "answer": "Yes. That is often the most sensible first step."
+          },
+          {
+            "question": "Can it combine with automation work?",
+            "answer": "Yes. In practice the application and automation layers often reinforce each other."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

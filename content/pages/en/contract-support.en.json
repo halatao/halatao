@@ -1,0 +1,248 @@
+{
+  "id": "contract-support.en",
+  "locale": "en",
+  "slug": "/contract-development-support",
+  "title": "Contract development support | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Contract development support | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Senior contract development support for companies that need stronger execution, takeover capability, architecture input, or delivery ownership inside an exis...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "contract-support",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "service",
+          "slug": "contract-development-support",
+          "segments": [
+            "contract-development-support"
+          ],
+          "title": "Contract development support | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Contract development support for teams and companies",
+          "description": "Senior contract development support for companies that need stronger execution, takeover capability, architecture input, or delivery ownership inside an existing product team.",
+          "primaryQuery": "contract development support",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "When the team needs experienced delivery capacity, not another generic pair of hands",
+            "subtitle": "Useful for companies with an existing product or team that need defined technical ownership, faster delivery, or support in a difficult phase of the project.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Not every engagement has to be a supplier-led build. In many cases the best fit is joining the existing team as a senior contract developer with ownership of a defined technical area.",
+            "That might mean taking over a subsystem, shaping architecture, stabilising a problem area, leading implementation of a workstream, or helping the team through a critical delivery phase.",
+            "The point is not selling undirected hours. The point is moving an important project forward."
+          ],
+          "sections": [
+            {
+              "title": "Where contract support makes sense",
+              "body": [
+                "This model is strongest when a team needs experienced execution, technical leadership, or a safe handover in a time-sensitive situation."
+              ],
+              "bullets": [
+                "temporary delivery reinforcement",
+                "ownership of a defined technical area",
+                "support after a key team change",
+                "senior technical judgement in delivery"
+              ]
+            },
+            {
+              "title": "What value the engagement should add",
+              "body": [
+                "Beyond implementation, the role often includes framing technical decisions, simplifying execution, and connecting engineering work to business needs."
+              ]
+            },
+            {
+              "title": "How the collaboration is structured",
+              "body": [
+                "The setup can be a steady capacity commitment or a clearly bounded workstream. What matters is explicit ownership, clear goals, and a good fit with the internal team process."
+              ]
+            },
+            {
+              "title": "What a sensible first step looks like",
+              "body": [
+                "The first step is clarifying where senior ownership is actually missing, which part of the project should be taken over, and how the first phase will prove real delivery progress."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is this suitable for smaller teams too?",
+              "answer": "Yes, if the team needs to add experience quickly, take over a risky area, or get through an important delivery phase with more confidence."
+            },
+            {
+              "question": "Can you work directly inside an existing process?",
+              "answer": "Yes. I normally work with the existing repository, ticketing, release flow, and team communication rather than requiring a parallel setup."
+            },
+            {
+              "question": "Does it have to be a long contract?",
+              "answer": "No. Some engagements are shorter and focused on takeover, stabilisation, or helping a specific phase land well."
+            },
+            {
+              "question": "How is this different from an agency model?",
+              "answer": "The point is direct senior involvement in a real project situation rather than anonymous capacity reselling."
+            }
+          ],
+          "related": [
+            "comparison-contractor-vs-agency",
+            "problem-senior-contract-capacity",
+            "guide-when-project-needs-senior-contract-support",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with an existing product or engineering team",
+              "projects that need senior technical reinforcement",
+              "delivery situations with time pressure or handover risk"
+            ],
+            "notFor": [
+              "recruiter outreach",
+              "context-free body shopping",
+              "buyers looking for a large agency delivery model"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "A short project summary is enough to start the conversation."
+          },
+          "seo": {
+            "title": "Contract development support | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Senior contract development support for companies that need stronger execution, takeover capability, architecture input, or delivery ownership inside an existing product team."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "contract-support.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "service",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "When the team needs experienced delivery capacity, not another generic pair of hands",
+        "body": "Useful for companies with an existing product or team that need defined technical ownership, faster delivery, or support in a difficult phase of the project.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Not every engagement has to be a supplier-led build. In many cases the best fit is joining the existing team as a senior contract developer with ownership of a defined technical area.\n\nThat might mean taking over a subsystem, shaping architecture, stabilising a problem area, leading implementation of a workstream, or helping the team through a critical delivery phase.\n\nThe point is not selling undirected hours. The point is moving an important project forward."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Where contract support makes sense",
+        "body": "This model is strongest when a team needs experienced execution, technical leadership, or a safe handover in a time-sensitive situation.",
+        "items": [
+          "temporary delivery reinforcement",
+          "ownership of a defined technical area",
+          "support after a key team change",
+          "senior technical judgement in delivery"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What value the engagement should add",
+        "body": "Beyond implementation, the role often includes framing technical decisions, simplifying execution, and connecting engineering work to business needs."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the collaboration is structured",
+        "body": "The setup can be a steady capacity commitment or a clearly bounded workstream. What matters is explicit ownership, clear goals, and a good fit with the internal team process."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a sensible first step looks like",
+        "body": "The first step is clarifying where senior ownership is actually missing, which part of the project should be taken over, and how the first phase will prove real delivery progress."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is this suitable for smaller teams too?",
+            "answer": "Yes, if the team needs to add experience quickly, take over a risky area, or get through an important delivery phase with more confidence."
+          },
+          {
+            "question": "Can you work directly inside an existing process?",
+            "answer": "Yes. I normally work with the existing repository, ticketing, release flow, and team communication rather than requiring a parallel setup."
+          },
+          {
+            "question": "Does it have to be a long contract?",
+            "answer": "No. Some engagements are shorter and focused on takeover, stabilisation, or helping a specific phase land well."
+          },
+          {
+            "question": "How is this different from an agency model?",
+            "answer": "The point is direct senior involvement in a real project situation rather than anonymous capacity reselling."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short project summary is enough to start the conversation.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "guide-how-to-scope-a-custom-web-application.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-zadat-vyvoj-webove-aplikace",
+  "title": "Jak zadat vývoj webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak zadat vývoj webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Praktický průvodce, jak zadat vývoj webové aplikace na míru bez zbytečného chaosu, přestřeleného scope a nejasných očekávání.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-scope-a-custom-web-application",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-zadat-vyvoj-webove-aplikace",
+          "segments": [
+            "pruvodce",
+            "jak-zadat-vyvoj-webove-aplikace"
+          ],
+          "title": "Jak zadat vývoj webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak zadat vývoj webové aplikace, aby projekt dával smysl",
+          "description": "Praktický průvodce, jak zadat vývoj webové aplikace na míru bez zbytečného chaosu, přestřeleného scope a nejasných očekávání.",
+          "primaryQuery": "jak zadat vývoj webové aplikace",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Dobré zadání není román. Je to jasný rámec pro první etapu.",
+            "subtitle": "Smyslem není popsat každé tlačítko, ale ujasnit problém, cíl, role, omezení a prioritu první verze.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Mnoho firem odkládá start projektu, protože nemají perfektní specifikaci. Ve skutečnosti je důležitější dobrý rámec než nekonečný dokument.",
+            "Krátká odpověď je, že pro dobré zadání nepotřebujete román. Potřebujete jasně popsat problém, cílový výsledek, role a hranice první etapy.",
+            "Když je jasný problém, cílový výsledek a hranice první etapy, lze projekt rozumně odstartovat a průběžně zpřesňovat bez ztráty kontroly.",
+            "Nejčastější chyba je snaha nadiktovat všechny detaily předem bez vazby na skutečnou prioritu a provozní realitu."
+          ],
+          "sections": [
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu."
+              ],
+              "bullets": [
+                "pojmenovat problém a očekávaný přínos",
+                "popsat hlavní role a workflow",
+                "určit, co musí řešit první verze",
+                "vyjasnit technická a provozní omezení"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy."
+              ],
+              "bullets": [
+                "míchání nice-to-have funkcí do MVP",
+                "chybějící owner na straně klienta",
+                "zadání bez definice úspěchu",
+                "řešení obrazovek dřív než procesu"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "realističtější scope první etapy",
+                "lepší odhad času a rizik",
+                "rychlejší start bez zbytečného chaosu",
+                "menší riziko, že projekt řeší vedlejší věci místo jádra problému"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Musíme mít wireframy?",
+              "answer": "Ne vždy. Pro start bývá důležitější proces, role a očekávaný výsledek než detailní grafické návrhy."
+            },
+            {
+              "question": "Kolik detailu je akorát?",
+              "answer": "Tolik, aby šlo navrhnout první etapu a pojmenovat rizika. Ne tolik, aby se příprava stala sama projektem."
+            },
+            {
+              "question": "Má smysl nejdřív workshop?",
+              "answer": "Často ano, zejména pokud je potřeba sladit více rolí, proces nebo očekávání uvnitř firmy."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "comparison-custom-vs-saas",
+            "tool-web-app-project-brief-template",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "realističtější scope první etapy",
+              "lepší odhad času a rizik",
+              "rychlejší start bez zbytečného chaosu",
+              "menší riziko, že projekt řeší vedlejší věci místo jádra problému"
+            ],
+            "notFor": [
+              "obecné kariérní rady"
+            ]
+          },
+          "seo": {
+            "title": "Jak zadat vývoj webové aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce, jak zadat vývoj webové aplikace na míru bez zbytečného chaosu, přestřeleného scope a nejasných očekávání."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-scope-a-custom-web-application.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Dobré zadání není román. Je to jasný rámec pro první etapu.",
+        "body": "Smyslem není popsat každé tlačítko, ale ujasnit problém, cíl, role, omezení a prioritu první verze.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Mnoho firem odkládá start projektu, protože nemají perfektní specifikaci. Ve skutečnosti je důležitější dobrý rámec než nekonečný dokument.\n\nKrátká odpověď je, že pro dobré zadání nepotřebujete román. Potřebujete jasně popsat problém, cílový výsledek, role a hranice první etapy.\n\nKdyž je jasný problém, cílový výsledek a hranice první etapy, lze projekt rozumně odstartovat a průběžně zpřesňovat bez ztráty kontroly.\n\nNejčastější chyba je snaha nadiktovat všechny detaily předem bez vazby na skutečnou prioritu a provozní realitu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z nekonečně dlouhé specifikace. Vzniká z rozumného rámce, který jde ověřit v první etapě projektu.",
+        "items": [
+          "pojmenovat problém a očekávaný přínos",
+          "popsat hlavní role a workflow",
+          "určit, co musí řešit první verze",
+          "vyjasnit technická a provozní omezení"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém obvykle není málo textu v zadání, ale špatné priority a nejasný cíl první etapy.",
+        "items": [
+          "míchání nice-to-have funkcí do MVP",
+          "chybějící owner na straně klienta",
+          "zadání bez definice úspěchu",
+          "řešení obrazovek dřív než procesu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne přidat další dokument bez dopadu.",
+        "items": [
+          "realističtější scope první etapy",
+          "lepší odhad času a rizik",
+          "rychlejší start bez zbytečného chaosu",
+          "menší riziko, že projekt řeší vedlejší věci místo jádra problému"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Musíme mít wireframy?",
+            "answer": "Ne vždy. Pro start bývá důležitější proces, role a očekávaný výsledek než detailní grafické návrhy."
+          },
+          {
+            "question": "Kolik detailu je akorát?",
+            "answer": "Tolik, aby šlo navrhnout první etapu a pojmenovat rizika. Ne tolik, aby se příprava stala sama projektem."
+          },
+          {
+            "question": "Má smysl nejdřív workshop?",
+            "answer": "Často ano, zejména pokud je potřeba sladit více rolí, proces nebo očekávání uvnitř firmy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

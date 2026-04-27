@@ -1,0 +1,237 @@
+{
+  "id": "problem-rescue-incomplete-project.cs",
+  "locale": "cs",
+  "slug": "/problemy/potrebujeme-zachranit-rozdelany-projekt",
+  "title": "Zachránit rozdělaný projekt | Stabilizace, takeover a další postup",
+  "seo": {
+    "title": "Zachránit rozdělaný projekt | Stabilizace, takeover a další postup",
+    "description": "Pomohu zmapovat rozdělaný softwarový projekt, zúžit rizika a navrhnout realistický další postup tam, kde delivery ztratilo důvěru, tempo nebo směr.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-rescue-incomplete-project",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "problem",
+          "slug": "potrebujeme-zachranit-rozdelany-projekt",
+          "segments": [
+            "problemy",
+            "potrebujeme-zachranit-rozdelany-projekt"
+          ],
+          "title": "Zachránit rozdělaný projekt | Stabilizace, takeover a další postup",
+          "h1": "Jak zachránit rozdělaný projekt, který se zasekl",
+          "description": "Pomohu zmapovat rozdělaný softwarový projekt, zúžit rizika a navrhnout realistický další postup tam, kde delivery ztratilo důvěru, tempo nebo směr.",
+          "primaryQuery": "jak zachránit rozdělaný projekt",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situace",
+            "title": "Rozdělaný projekt běží, ale další plán už nedává důvěru",
+            "subtitle": "Typická situace po scope creep, slabém delivery vedení nebo po sérii změn, které zvýšily náklady, ale nejasnost jen prohloubily.",
+            "primaryCta": {
+              "label": "Probrat tuto situaci",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Rozdělaný projekt bývá těžší než greenfield i takeover běžící aplikace. Často není hotový natolik, aby spolehlivě fungoval, ale zároveň už je v něm příliš práce na to, aby šel snadno zahodit.",
+            "Silnější první krok je znovu získat kontrolu nad realitou projektu a navrhnout etapu, která přinese důvěryhodný posun."
+          ],
+          "sections": [
+            {
+              "title": "Typické projevy problému",
+              "body": [
+                "Pokud se rozdělaný projekt nechá dál běžet bez resetu priorit a ownershipu, nejčastěji dál roste náklad, frustrace i tlak na radikální řešení bez lepšího základu."
+              ],
+              "bullets": [
+                "scope se rozšiřuje rychleji než delivery",
+                "projekt nemá důvěryhodný další krok",
+                "technický stav blokuje funkční posun",
+                "buyer nebo tým ztrácí důvěru v původní delivery model"
+              ]
+            },
+            {
+              "title": "Jak k tomu přistupuji",
+              "body": [
+                "Začínám znovu-srovnáním reality: co už existuje, co je použitelné, co je riziko a co má být první důvěryhodný milestone. Teprve pak dává smysl rozhodnout, co převzít, co zúžit a co odložit."
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok."
+              ],
+              "bullets": [
+                "jasnější realita projektu místo wishful thinking",
+                "první realistický milestone po resetu priorit",
+                "menší chaos v rozhodování i scope",
+                "silnější důvěra v další delivery fázi"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je vždy lepší projekt zastavit a začít znovu?",
+              "answer": "Ne. Častěji dává smysl zjistit, co lze zachovat, co stabilizovat a co zúžit do smysluplné další etapy."
+            },
+            {
+              "question": "Dá se podobná situace zvládnout i s interním týmem?",
+              "answer": "Ano. Často právě kombinace externího takeoveru a interní znalosti domény dává nejsilnější výsledek."
+            },
+            {
+              "question": "Můžete pak pokračovat i jako kontraktní podpora v týmu?",
+              "answer": "Ano. Podle situace mohu navázat takeover delivery etapou nebo seniorním zapojením uvnitř týmu."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-modernize-legacy-app",
+            "contract-support",
+            "problem-app-takeover",
+            "guide-how-to-price-an-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "rozpracované projekty bez důvěryhodného dalšího kroku",
+              "firmy, které už investovaly a potřebují získat zpět kontrolu",
+              "situace, kde je potřeba spojit takeover a nový delivery rámec"
+            ],
+            "notFor": [
+              "projekty bez přístupu ke kódu nebo zadání",
+              "buyer, který chce jen potvrdit předem daný rewrite",
+              "čistě náborová poptávka bez projektového kontextu"
+            ]
+          },
+          "cta": {
+            "label": "Nezávazně probrat zadání",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok."
+          },
+          "seo": {
+            "title": "Zachránit rozdělaný projekt | Stabilizace, takeover a další postup",
+            "description": "Pomohu zmapovat rozdělaný softwarový projekt, zúžit rizika a navrhnout realistický další postup tam, kde delivery ztratilo důvěru, tempo nebo směr."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-rescue-incomplete-project.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situace",
+        "heading": "Rozdělaný projekt běží, ale další plán už nedává důvěru",
+        "body": "Typická situace po scope creep, slabém delivery vedení nebo po sérii změn, které zvýšily náklady, ale nejasnost jen prohloubily.",
+        "ctaLabel": "Probrat tuto situaci",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Rozdělaný projekt bývá těžší než greenfield i takeover běžící aplikace. Často není hotový natolik, aby spolehlivě fungoval, ale zároveň už je v něm příliš práce na to, aby šel snadno zahodit.\n\nSilnější první krok je znovu získat kontrolu nad realitou projektu a navrhnout etapu, která přinese důvěryhodný posun."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typické projevy problému",
+        "body": "Pokud se rozdělaný projekt nechá dál běžet bez resetu priorit a ownershipu, nejčastěji dál roste náklad, frustrace i tlak na radikální řešení bez lepšího základu.",
+        "items": [
+          "scope se rozšiřuje rychleji než delivery",
+          "projekt nemá důvěryhodný další krok",
+          "technický stav blokuje funkční posun",
+          "buyer nebo tým ztrácí důvěru v původní delivery model"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak k tomu přistupuji",
+        "body": "Začínám znovu-srovnáním reality: co už existuje, co je použitelné, co je riziko a co má být první důvěryhodný milestone. Teprve pak dává smysl rozhodnout, co převzít, co zúžit a co odložit."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Cílem není jen rychlá oprava. Smyslem je vrátit projektu kontrolu, jistotu a rozumný další krok.",
+        "items": [
+          "jasnější realita projektu místo wishful thinking",
+          "první realistický milestone po resetu priorit",
+          "menší chaos v rozhodování i scope",
+          "silnější důvěra v další delivery fázi"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je vždy lepší projekt zastavit a začít znovu?",
+            "answer": "Ne. Častěji dává smysl zjistit, co lze zachovat, co stabilizovat a co zúžit do smysluplné další etapy."
+          },
+          {
+            "question": "Dá se podobná situace zvládnout i s interním týmem?",
+            "answer": "Ano. Často právě kombinace externího takeoveru a interní znalosti domény dává nejsilnější výsledek."
+          },
+          {
+            "question": "Můžete pak pokračovat i jako kontraktní podpora v týmu?",
+            "answer": "Ano. Podle situace mohu navázat takeover delivery etapou nebo seniorním zapojením uvnitř týmu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
+        "ctaLabel": "Nezávazně probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

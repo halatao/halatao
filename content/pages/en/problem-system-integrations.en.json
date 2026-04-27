@@ -1,0 +1,247 @@
+{
+  "id": "problem-system-integrations.en",
+  "locale": "en",
+  "slug": "/problems/we-need-system-integrations",
+  "title": "We need system integrations | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "We need system integrations | Bc. Ondřej Halata (halatao.cz)",
+    "description": "I help companies connect systems and reduce repetitive manual work where data moves slowly, inconsistently, or with too much human intervention.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "problem-system-integrations",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "problem",
+          "slug": "we-need-system-integrations",
+          "segments": [
+            "problems",
+            "we-need-system-integrations"
+          ],
+          "title": "We need system integrations | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "We need system integrations and less manual data handling",
+          "description": "I help companies connect systems and reduce repetitive manual work where data moves slowly, inconsistently, or with too much human intervention.",
+          "primaryQuery": "we need system integrations",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Situation",
+            "title": "The data is travelling through people instead of systems",
+            "subtitle": "Most often across ERP, CRM, ecommerce, finance, internal tools, and reporting layers that do not talk to each other properly.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "When systems are not connected in a reliable way, the company creates manual workarounds. That usually means extra spreadsheets, extra checks, and decisions made on incomplete data.",
+            "For a while it looks like small inefficiency. Over time it becomes an operational drag and a source of errors that are difficult to trace.",
+            "The pragmatic first step is to identify which connections matter most and whether the real issue is missing integration, weak process design, or both."
+          ],
+          "sections": [
+            {
+              "title": "Typical symptoms",
+              "body": [
+                "Without a clearer data flow, manual work compounds and teams often underestimate how much capacity is disappearing into low-value coordination."
+              ],
+              "bullets": [
+                "manual re-entry between systems",
+                "unclear data ownership",
+                "repeated status or payment checks",
+                "reporting built from multiple unreliable sources"
+              ]
+            },
+            {
+              "title": "How I approach it",
+              "body": [
+                "I map the workflow, source systems, exceptions, and business impact first. Only then does it make sense to define the integration, automation, or supporting internal tooling."
+              ]
+            },
+            {
+              "title": "What a good outcome looks like",
+              "body": [
+                "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery."
+              ],
+              "bullets": [
+                "less copying and checking",
+                "stronger continuity between tools",
+                "better reporting input quality",
+                "clearer decisions on what to improve next"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is API integration always enough?",
+              "answer": "No. Many useful integration projects also require workflow changes, validation rules, or an internal interface for people handling exceptions."
+            },
+            {
+              "question": "Should we automate everything at once?",
+              "answer": "Usually not. Starting with the highest-impact and lowest-risk points tends to be the better path."
+            },
+            {
+              "question": "Can the review turn into implementation work?",
+              "answer": "Yes. The diagnostic phase can move directly into delivery of the priority steps."
+            },
+            {
+              "question": "Can you help build a small internal layer around the integrations?",
+              "answer": "Yes. Sometimes the connection alone is not enough and users also need visibility, controls, or exception handling."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "service-ai-automation-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "use-case-workflow-automation-tools",
+            "use-case-service-team-ops-system",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with manual cross-system coordination",
+              "teams with high transfer-error risk",
+              "buyers who want better control over repeated workflows"
+            ],
+            "notFor": [
+              "isolated tools with no dependencies",
+              "projects with no access to source systems",
+              "simple licence purchases with no process change"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "Share the current state, the main risk, and what needs to change next."
+          },
+          "seo": {
+            "title": "We need system integrations | Bc. Ondřej Halata (halatao.cz)",
+            "description": "I help companies connect systems and reduce repetitive manual work where data moves slowly, inconsistently, or with too much human intervention."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "problem-system-integrations.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "problem",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Situation",
+        "heading": "The data is travelling through people instead of systems",
+        "body": "Most often across ERP, CRM, ecommerce, finance, internal tools, and reporting layers that do not talk to each other properly.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "When systems are not connected in a reliable way, the company creates manual workarounds. That usually means extra spreadsheets, extra checks, and decisions made on incomplete data.\n\nFor a while it looks like small inefficiency. Over time it becomes an operational drag and a source of errors that are difficult to trace.\n\nThe pragmatic first step is to identify which connections matter most and whether the real issue is missing integration, weak process design, or both."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Typical symptoms",
+        "body": "Without a clearer data flow, manual work compounds and teams often underestimate how much capacity is disappearing into low-value coordination.",
+        "items": [
+          "manual re-entry between systems",
+          "unclear data ownership",
+          "repeated status or payment checks",
+          "reporting built from multiple unreliable sources"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How I approach it",
+        "body": "I map the workflow, source systems, exceptions, and business impact first. Only then does it make sense to define the integration, automation, or supporting internal tooling."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What a good outcome looks like",
+        "body": "The goal is not a quick patch. The goal is to restore control, clarity, and a safer path for future delivery.",
+        "items": [
+          "less copying and checking",
+          "stronger continuity between tools",
+          "better reporting input quality",
+          "clearer decisions on what to improve next"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is API integration always enough?",
+            "answer": "No. Many useful integration projects also require workflow changes, validation rules, or an internal interface for people handling exceptions."
+          },
+          {
+            "question": "Should we automate everything at once?",
+            "answer": "Usually not. Starting with the highest-impact and lowest-risk points tends to be the better path."
+          },
+          {
+            "question": "Can the review turn into implementation work?",
+            "answer": "Yes. The diagnostic phase can move directly into delivery of the priority steps."
+          },
+          {
+            "question": "Can you help build a small internal layer around the integrations?",
+            "answer": "Yes. Sometimes the connection alone is not enough and users also need visibility, controls, or exception handling."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the current state, the main risk, and what needs to change next.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

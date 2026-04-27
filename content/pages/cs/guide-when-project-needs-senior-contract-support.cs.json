@@ -1,0 +1,264 @@
+{
+  "id": "guide-when-project-needs-senior-contract-support.cs",
+  "locale": "cs",
+  "slug": "/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu",
+  "title": "Jak poznat, že projekt potřebuje externí seniorní kapacitu | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Jak poznat, že projekt potřebuje externí seniorní kapacitu | Bc. On...",
+    "description": "Praktický průvodce pro firmy a týmy, které řeší, zda projekt potřebuje externí seniorní kontraktní kapacitu místo dalšího běžného vývojáře nebo větší agentur...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-when-project-needs-senior-contract-support",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "guide",
+          "slug": "jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu",
+          "segments": [
+            "pruvodce",
+            "jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu"
+          ],
+          "title": "Jak poznat, že projekt potřebuje externí seniorní kapacitu | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Jak poznat, že projekt potřebuje externí seniorní kapacitu",
+          "description": "Praktický průvodce pro firmy a týmy, které řeší, zda projekt potřebuje externí seniorní kontraktní kapacitu místo dalšího běžného vývojáře nebo větší agenturní dodávky.",
+          "primaryQuery": "jak poznat ze projekt potrebuje externi seniorni kapacitu",
+          "intent": "decision",
+          "hero": {
+            "eyebrow": "Průvodce",
+            "title": "Problém často není počet lidí, ale chybějící ownership a technické rozhodování",
+            "subtitle": "Pro týmy, které zvládají běžný provoz, ale blokují se na architektuře, takeoveru, release riziku nebo citlivých delivery krocích.",
+            "primaryCta": {
+              "label": "Probrat zadání",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Externí seniorní kapacita dává smysl ve chvíli, kdy projekt nepotřebuje dalšího člověka na backlog, ale někoho, kdo převezme technickou odpovědnost za problematickou oblast nebo důležitou fázi delivery.",
+            "Typický signál je tým, který pracuje naplno, ale klíčová rozhodnutí zůstávají otevřená příliš dlouho nebo se bolestivě vracejí."
+          ],
+          "sections": [
+            {
+              "title": "Krátká odpověď",
+              "body": [
+                "Seniorní kontraktní kapacita je správný model tehdy, když je bottleneck v ownershipu, architektuře, takeoveru nebo bezpečném delivery, ne jen v množství čisté implementační práce."
+              ]
+            },
+            {
+              "title": "Doporučený postup",
+              "body": [
+                "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok."
+              ],
+              "bullets": [
+                "pojmenujte, která část projektu nemá skutečného ownera",
+                "ověřte, zda je problém v objemu práce nebo v rozhodování",
+                "vymezte konkrétní workstream nebo odpovědnost",
+                "nastavte očekávání na první fázi spolupráce a její dopad"
+              ]
+            },
+            {
+              "title": "Časté chyby",
+              "body": [
+                "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi."
+              ],
+              "bullets": [
+                "snaha lepit seniorní problém dalším juniorem",
+                "bodyshopping bez jasně vymezené odpovědnosti",
+                "nejasné zadání typu ‚pomozte týmu obecně‘",
+                "volba velkého vendor modelu i tam, kde chybí jen silný seniorní ownership"
+              ]
+            },
+            {
+              "title": "Co by měl být výsledek",
+              "body": [
+                "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu."
+              ],
+              "bullets": [
+                "lepší rozhodnutí mezi kontraktorem, hirem a agenturou",
+                "silnější technický ownership v kritické fázi",
+                "rychlejší pohyb v blokované části projektu",
+                "menší tlak na interní tým tam, kde už nestačí běžná kapacita"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Jak poznat, že nejde jen o podstav týmu?",
+              "answer": "Když projekt zvládá běžný vývoj, ale opakovaně se blokuje na architektuře, převzetí odpovědnosti nebo riskantních změnách."
+            },
+            {
+              "question": "Je seniorní kontrakt vhodný i na kratší dobu?",
+              "answer": "Ano. Kratší zapojení často dává smysl při takeoveru, stabilizaci nebo nastavení další delivery fáze."
+            },
+            {
+              "question": "Není lepší rovnou agentura?",
+              "answer": "Někdy ano. Pokud ale projekt potřebuje hlavně přímý seniorní ownership uvnitř týmu, bývá kontraktor silnější a úspornější model."
+            }
+          ],
+          "related": [
+            "contract-support",
+            "problem-senior-contract-capacity",
+            "comparison-contractor-vs-agency",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "produktové a interní týmy s blokovanou delivery oblastí",
+              "firmy po odchodu klíčového člověka",
+              "projekty, kde je potřeba rychle doplnit seniorní ownership"
+            ],
+            "notFor": [
+              "čistě náborový proces",
+              "commodity staffing bez scope a odpovědnosti",
+              "projekty bez interního ownera nebo business rozhodovatele"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok."
+          },
+          "seo": {
+            "title": "Jak poznat, že projekt potřebuje externí seniorní kapacitu | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Praktický průvodce pro firmy a týmy, které řeší, zda projekt potřebuje externí seniorní kontraktní kapacitu místo dalšího běžného vývojáře nebo větší agenturní dodávky."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-when-project-needs-senior-contract-support.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Průvodce",
+        "heading": "Problém často není počet lidí, ale chybějící ownership a technické rozhodování",
+        "body": "Pro týmy, které zvládají běžný provoz, ale blokují se na architektuře, takeoveru, release riziku nebo citlivých delivery krocích.",
+        "ctaLabel": "Probrat zadání",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Externí seniorní kapacita dává smysl ve chvíli, kdy projekt nepotřebuje dalšího člověka na backlog, ale někoho, kdo převezme technickou odpovědnost za problematickou oblast nebo důležitou fázi delivery.\n\nTypický signál je tým, který pracuje naplno, ale klíčová rozhodnutí zůstávají otevřená příliš dlouho nebo se bolestivě vracejí."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Krátká odpověď",
+        "body": "Seniorní kontraktní kapacita je správný model tehdy, když je bottleneck v ownershipu, architektuře, takeoveru nebo bezpečném delivery, ne jen v množství čisté implementační práce."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Doporučený postup",
+        "body": "Dobrý výstup nevzniká z dlouhé teorie. Potřebujete rozhodnout, co zjistit, co spočítat a jak navrhnout první rozumný krok.",
+        "items": [
+          "pojmenujte, která část projektu nemá skutečného ownera",
+          "ověřte, zda je problém v objemu práce nebo v rozhodování",
+          "vymezte konkrétní workstream nebo odpovědnost",
+          "nastavte očekávání na první fázi spolupráce a její dopad"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Časté chyby",
+        "body": "Největší problém bývá špatné pořadí rozhodnutí. Tým řeší detaily moc brzy a přitom chybí jasný rámec pro první fázi.",
+        "items": [
+          "snaha lepit seniorní problém dalším juniorem",
+          "bodyshopping bez jasně vymezené odpovědnosti",
+          "nejasné zadání typu ‚pomozte týmu obecně‘",
+          "volba velkého vendor modelu i tam, kde chybí jen silný seniorní ownership"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co by měl být výsledek",
+        "body": "Průvodce má pomoct udělat lepší projektové rozhodnutí, ne dodat další dokument bez dopadu.",
+        "items": [
+          "lepší rozhodnutí mezi kontraktorem, hirem a agenturou",
+          "silnější technický ownership v kritické fázi",
+          "rychlejší pohyb v blokované části projektu",
+          "menší tlak na interní tým tam, kde už nestačí běžná kapacita"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Jak poznat, že nejde jen o podstav týmu?",
+            "answer": "Když projekt zvládá běžný vývoj, ale opakovaně se blokuje na architektuře, převzetí odpovědnosti nebo riskantních změnách."
+          },
+          {
+            "question": "Je seniorní kontrakt vhodný i na kratší dobu?",
+            "answer": "Ano. Kratší zapojení často dává smysl při takeoveru, stabilizaci nebo nastavení další delivery fáze."
+          },
+          {
+            "question": "Není lepší rovnou agentura?",
+            "answer": "Někdy ano. Pokud ale projekt potřebuje hlavně přímý seniorní ownership uvnitř týmu, bývá kontraktor silnější a úspornější model."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

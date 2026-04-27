@@ -1,0 +1,247 @@
+{
+  "id": "use-case-internal-approval-system.en",
+  "locale": "en",
+  "slug": "/use-cases/internal-approval-system",
+  "title": "Internal approval system | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Internal approval system | Bc. Ondřej Halata (halatao.cz)",
+    "description": "An internal approval system use case for companies where requests, purchases, exceptions, or approvals still move through email, spreadsheets, and manual cha...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "use-case-internal-approval-system",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "use_case",
+          "slug": "internal-approval-system",
+          "segments": [
+            "use-cases",
+            "internal-approval-system"
+          ],
+          "title": "Internal approval system | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Internal approval system for multi-step business processes",
+          "description": "An internal approval system use case for companies where requests, purchases, exceptions, or approvals still move through email, spreadsheets, and manual chasing.",
+          "primaryQuery": "internal approval system",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Use case",
+            "title": "Approvals that no longer depend on manual chasing and forwarding",
+            "subtitle": "Useful when approval flow affects cost, compliance, or operational speed across several people and teams.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Approval systems are a strong fit when the process depends on roles, rules, exceptions, and traceability, but the current reality lives in inboxes and manual reminders.",
+            "A good implementation should shorten cycle time, clarify ownership, and make it obvious where the process is blocked and why."
+          ],
+          "sections": [
+            {
+              "title": "When this type of solution makes sense",
+              "body": [
+                "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense."
+              ],
+              "bullets": [
+                "approval of purchases, expenses, or requests",
+                "several approval layers and exception rules",
+                "need for traceability and audit history",
+                "manual reminders and escalation across teams"
+              ]
+            },
+            {
+              "title": "What the solution usually includes",
+              "body": [
+                "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership."
+              ],
+              "bullets": [
+                "workflow states and approval logic",
+                "roles, permissions, and action history",
+                "notifications, reminders, and escalation",
+                "integration with ERP, finance, or internal operations systems"
+              ]
+            },
+            {
+              "title": "What the system should improve",
+              "body": [
+                "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work."
+              ],
+              "bullets": [
+                "faster approval throughput",
+                "less manual coordination",
+                "clearer accountability and audit trail",
+                "lower operational error rate"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can some approvals stay manual?",
+              "answer": "Yes. The point is not blind automation but separating the rules from the exceptions."
+            },
+            {
+              "question": "Is this relevant for a smaller company too?",
+              "answer": "Yes, if approval flow is already creating financial or operational drag."
+            },
+            {
+              "question": "Can it be rolled out in stages?",
+              "answer": "Yes. Starting with one request type or one team is often the safer path."
+            }
+          ],
+          "related": [
+            "service-internal-tools-development",
+            "service-automations-and-integrations",
+            "problem-internal-tool",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "companies with repeated approval logic",
+              "multi-role workflows with audit needs",
+              "teams trying to reduce manual follow-up and delays"
+            ],
+            "notFor": [
+              "simple single-step approval flows",
+              "buyers with no process owner",
+              "form tools with no integration or rules"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the workflow, users, and current friction is enough to assess the fit."
+          },
+          "seo": {
+            "title": "Internal approval system | Bc. Ondřej Halata (halatao.cz)",
+            "description": "An internal approval system use case for companies where requests, purchases, exceptions, or approvals still move through email, spreadsheets, and manual chasing."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "use-case-internal-approval-system.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "use_case",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Use case",
+        "heading": "Approvals that no longer depend on manual chasing and forwarding",
+        "body": "Useful when approval flow affects cost, compliance, or operational speed across several people and teams.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Approval systems are a strong fit when the process depends on roles, rules, exceptions, and traceability, but the current reality lives in inboxes and manual reminders.\n\nA good implementation should shorten cycle time, clarify ownership, and make it obvious where the process is blocked and why."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this type of solution makes sense",
+        "body": "This is not a universal template. It is a representative model of situations where a similar system makes clear commercial and operational sense.",
+        "items": [
+          "approval of purchases, expenses, or requests",
+          "several approval layers and exception rules",
+          "need for traceability and audit history",
+          "manual reminders and escalation across teams"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the solution usually includes",
+        "body": "The exact scope varies by company, but similar patterns repeat around roles, workflow, data boundaries, and ownership.",
+        "items": [
+          "workflow states and approval logic",
+          "roles, permissions, and action history",
+          "notifications, reminders, and escalation",
+          "integration with ERP, finance, or internal operations systems"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the system should improve",
+        "body": "The point is not merely replacing one tool with another. The important part is reducing friction, clarifying state, and lowering avoidable manual work.",
+        "items": [
+          "faster approval throughput",
+          "less manual coordination",
+          "clearer accountability and audit trail",
+          "lower operational error rate"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can some approvals stay manual?",
+            "answer": "Yes. The point is not blind automation but separating the rules from the exceptions."
+          },
+          {
+            "question": "Is this relevant for a smaller company too?",
+            "answer": "Yes, if approval flow is already creating financial or operational drag."
+          },
+          {
+            "question": "Can it be rolled out in stages?",
+            "answer": "Yes. Starting with one request type or one team is often the safer path."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the workflow, users, and current friction is enough to assess the fit.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

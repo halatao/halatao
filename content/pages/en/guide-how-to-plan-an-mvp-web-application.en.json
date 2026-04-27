@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-plan-an-mvp-web-application.en",
+  "locale": "en",
+  "slug": "/guides/how-to-plan-an-mvp-web-application",
+  "title": "How to plan an MVP web application | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to plan an MVP web application | Bc. Ondřej Halata (halatao.cz)",
+    "description": "A practical guide to planning an MVP web application that solves a real workflow instead of shipping a thin collection of incomplete screens.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-plan-an-mvp-web-application",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-plan-an-mvp-web-application",
+          "segments": [
+            "guides",
+            "how-to-plan-an-mvp-web-application"
+          ],
+          "title": "How to plan an MVP web application | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "How to plan an MVP web application that is more than a half-finished product",
+          "description": "A practical guide to planning an MVP web application that solves a real workflow instead of shipping a thin collection of incomplete screens.",
+          "primaryQuery": "how to plan an mvp web application",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "MVP does not mean the fewest possible features",
+            "subtitle": "It means the smallest useful whole that proves the workflow and the value.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Weak MVPs are often small only on paper. In practice they fail because they do not complete an important workflow well enough to teach the team anything.",
+            "A strong MVP is narrow enough to ship quickly but complete enough to test real usage."
+          ],
+          "sections": [
+            {
+              "title": "How to choose the first workflow",
+              "body": [
+                "The first release should solve one important process end to end rather than ten fragmented feature ideas."
+              ],
+              "bullets": [
+                "high operational value",
+                "clear owner",
+                "reasonable risk",
+                "fast feedback potential"
+              ]
+            },
+            {
+              "title": "What to leave out",
+              "body": [
+                "Secondary scenarios, prestige features, and polish layers that do not help validate the main workflow should stay out of the first phase."
+              ]
+            },
+            {
+              "title": "How to tell whether the MVP works",
+              "body": [
+                "Not by feature count, but by whether people can solve a meaningful problem better than before using the first release."
+              ]
+            },
+            {
+              "title": "How later phases become clearer",
+              "body": [
+                "A good MVP makes future roadmap decisions easier because the next steps come from real usage rather than early assumptions."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Can an MVP be an internal tool?",
+              "answer": "Yes. Internal tools often benefit strongly from a focused first release aimed at the biggest operational bottleneck."
+            },
+            {
+              "question": "Does an MVP need to look fully polished?",
+              "answer": "It needs to be trustworthy and usable for real work, but it does not need every secondary product layer from the start."
+            },
+            {
+              "question": "How long should MVP planning take?",
+              "answer": "Usually less time than teams expect. The key is picking the right first workflow rather than over-planning every future branch."
+            }
+          ],
+          "related": [
+            "guide-how-to-scope-a-custom-web-application",
+            "service-custom-web-app-development",
+            "use-case-client-portal",
+            "comparison-custom-vs-saas"
+          ],
+          "fit": {
+            "for": [
+              "guide-how-to-scope-a-custom-web-application",
+              "service-custom-web-app-development",
+              "use-case-client-portal",
+              "comparison-custom-vs-saas"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "How to plan an MVP web application | Bc. Ondřej Halata (halatao.cz)",
+            "description": "A practical guide to planning an MVP web application that solves a real workflow instead of shipping a thin collection of incomplete screens."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-plan-an-mvp-web-application.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "MVP does not mean the fewest possible features",
+        "body": "It means the smallest useful whole that proves the workflow and the value.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Weak MVPs are often small only on paper. In practice they fail because they do not complete an important workflow well enough to teach the team anything.\n\nA strong MVP is narrow enough to ship quickly but complete enough to test real usage."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to choose the first workflow",
+        "body": "The first release should solve one important process end to end rather than ten fragmented feature ideas.",
+        "items": [
+          "high operational value",
+          "clear owner",
+          "reasonable risk",
+          "fast feedback potential"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to leave out",
+        "body": "Secondary scenarios, prestige features, and polish layers that do not help validate the main workflow should stay out of the first phase."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to tell whether the MVP works",
+        "body": "Not by feature count, but by whether people can solve a meaningful problem better than before using the first release."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How later phases become clearer",
+        "body": "A good MVP makes future roadmap decisions easier because the next steps come from real usage rather than early assumptions."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Can an MVP be an internal tool?",
+            "answer": "Yes. Internal tools often benefit strongly from a focused first release aimed at the biggest operational bottleneck."
+          },
+          {
+            "question": "Does an MVP need to look fully polished?",
+            "answer": "It needs to be trustworthy and usable for real work, but it does not need every secondary product layer from the start."
+          },
+          {
+            "question": "How long should MVP planning take?",
+            "answer": "Usually less time than teams expect. The key is picking the right first workflow rather than over-planning every future branch."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

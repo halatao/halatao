@@ -1,0 +1,239 @@
+{
+  "id": "guide-how-to-run-automation-discovery.en",
+  "locale": "en",
+  "slug": "/guides/how-to-prepare-discovery-for-automation-and-integrations",
+  "title": "How to prepare discovery for automation and integrations | Bc. Ondrej Halata (halatao.cz)",
+  "seo": {
+    "title": "How to prepare discovery for automation and integrations | Bc. Ondr...",
+    "description": "A practical guide to discovery work for automation and integrations: how to map the process, exception paths, ownership, and the right first intervention.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "guide-how-to-run-automation-discovery",
+          "stage": 3,
+          "locale": "en",
+          "pageType": "guide",
+          "slug": "how-to-prepare-discovery-for-automation-and-integrations",
+          "segments": [
+            "guides",
+            "how-to-prepare-discovery-for-automation-and-integrations"
+          ],
+          "title": "How to prepare discovery for automation and integrations | Bc. Ondrej Halata (halatao.cz)",
+          "h1": "How to prepare discovery for automation and integrations without starting in chaos",
+          "description": "A practical guide to discovery work for automation and integrations: how to map the process, exception paths, ownership, and the right first intervention.",
+          "primaryQuery": "automation and integrations discovery",
+          "intent": "research",
+          "hero": {
+            "eyebrow": "Advanced guide",
+            "title": "Not every manual step is a good automation target",
+            "subtitle": "A strong discovery phase separates useful automation from expensive digitisation of an unclear process with weak ownership.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "Automation and integrations often look like technical projects. In reality they usually begin as process problems, unclear ownership, or too many exceptions that nobody has properly named.",
+            "Discovery should not be treated as admin overhead. It is the way to narrow the first intervention so it has real operational impact and does not create another layer of confusion."
+          ],
+          "sections": [
+            {
+              "title": "What to map first",
+              "body": [
+                "Start with the real process, the manual steps, the exceptions, and the points where delay, data re-entry, or dependence on specific people is highest."
+              ],
+              "bullets": [
+                "actual process flow between systems and roles",
+                "exceptions, approvals, and failure states",
+                "source data and where it diverges",
+                "ownership and the operational impact of automation"
+              ]
+            },
+            {
+              "title": "How to choose the first automation target",
+              "body": [
+                "The strongest first step usually combines frequent manual work, clear process boundaries, and acceptable implementation risk."
+              ]
+            },
+            {
+              "title": "When not to automate yet",
+              "body": [
+                "If there is no clear owner, the rules keep changing, or the team cannot even agree on how the work really happens today, it is usually better to clarify the process first."
+              ]
+            },
+            {
+              "title": "What the discovery output should be",
+              "body": [
+                "The output should not be only a list of ideas. It needs a prioritised first step, named risks, and a credible path into implementation."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is discovery still necessary for a smaller automation effort?",
+              "answer": "Yes, if the work touches several roles, systems, or exception paths. Even a smaller intervention can create new problems without enough process clarity."
+            },
+            {
+              "question": "Would it be faster to jump straight into implementation?",
+              "answer": "Maybe in the short term. In the long term you risk implementing the wrong intervention or automating around the wrong problem."
+            },
+            {
+              "question": "Can discovery conclude that automation is not the right move yet?",
+              "answer": "Yes. That is a valuable outcome if it prevents an expensive project with little real impact."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "tool-automation-discovery-checklist",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "service-automations-and-integrations",
+              "tool-automation-discovery-checklist",
+              "tool-api-integration-checklist",
+              "inquiry"
+            ],
+            "notFor": [
+              "generic non-project reading"
+            ]
+          },
+          "seo": {
+            "title": "How to prepare discovery for automation and integrations | Bc. Ondrej Halata (halatao.cz)",
+            "description": "A practical guide to discovery work for automation and integrations: how to map the process, exception paths, ownership, and the right first intervention."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "guide-how-to-run-automation-discovery.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "guide",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Advanced guide",
+        "heading": "Not every manual step is a good automation target",
+        "body": "A strong discovery phase separates useful automation from expensive digitisation of an unclear process with weak ownership.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Automation and integrations often look like technical projects. In reality they usually begin as process problems, unclear ownership, or too many exceptions that nobody has properly named.\n\nDiscovery should not be treated as admin overhead. It is the way to narrow the first intervention so it has real operational impact and does not create another layer of confusion."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What to map first",
+        "body": "Start with the real process, the manual steps, the exceptions, and the points where delay, data re-entry, or dependence on specific people is highest.",
+        "items": [
+          "actual process flow between systems and roles",
+          "exceptions, approvals, and failure states",
+          "source data and where it diverges",
+          "ownership and the operational impact of automation"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to choose the first automation target",
+        "body": "The strongest first step usually combines frequent manual work, clear process boundaries, and acceptable implementation risk."
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When not to automate yet",
+        "body": "If there is no clear owner, the rules keep changing, or the team cannot even agree on how the work really happens today, it is usually better to clarify the process first."
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What the discovery output should be",
+        "body": "The output should not be only a list of ideas. It needs a prioritised first step, named risks, and a credible path into implementation."
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is discovery still necessary for a smaller automation effort?",
+            "answer": "Yes, if the work touches several roles, systems, or exception paths. Even a smaller intervention can create new problems without enough process clarity."
+          },
+          {
+            "question": "Would it be faster to jump straight into implementation?",
+            "answer": "Maybe in the short term. In the long term you risk implementing the wrong intervention or automating around the wrong problem."
+          },
+          {
+            "question": "Can discovery conclude that automation is not the right move yet?",
+            "answer": "Yes. That is a valuable outcome if it prevents an expensive project with little real impact."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "hub-case-studies.en",
+  "locale": "en",
+  "slug": "/case-studies",
+  "title": "Case studies and anonymised delivery scenarios | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Case studies and anonymised delivery scenarios | Bc. Ondřej Halata...",
+    "description": "Anonymised case studies for inherited-app takeover, internal operations tooling, and multi-system integration without invented proof metrics.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-case-studies",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "case-studies",
+          "segments": [
+            "case-studies"
+          ],
+          "title": "Case studies and anonymised delivery scenarios | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Case studies built as representative scenarios, not inflated references",
+          "description": "Anonymised case studies for inherited-app takeover, internal operations tooling, and multi-system integration without invented proof metrics.",
+          "primaryQuery": "Case studies built as representative scenarios, not inflated references",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Case studies without invented numbers or portfolio theatre",
+            "subtitle": "This section shows the type of project situation, the delivery approach chosen, and the kind of change similar work can create.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These case studies are intentionally anonymised and representative. They are designed to be useful rather than decorative.",
+            "They help when a buyer wants to see how similar situations are usually handled in practice without inflated proof claims."
+          ],
+          "sections": [
+            {
+              "title": "What this section covers",
+              "body": [
+                "The section covers inherited-app takeover, internal operations tooling, and multi-system integration scenarios with honest framing."
+              ]
+            },
+            {
+              "title": "When this section is most useful",
+              "body": [
+                "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction."
+              ],
+              "bullets": [
+                "buyers validating a similar project pattern",
+                "teams who need a realistic delivery narrative internally",
+                "companies that want proof framing without fake metrics"
+              ]
+            },
+            {
+              "title": "How to continue",
+              "body": [
+                "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path."
+              ],
+              "bullets": [
+                "open the case study closest to your situation",
+                "use the linked service or guide page for the commercial next step",
+                "move to inquiry when the scenario feels close enough to discuss concretely"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Why are there no exact performance or revenue numbers?",
+              "answer": "Because the goal is honesty. The pages focus on real project shape, not invented precision."
+            },
+            {
+              "question": "Are these grounded in real work?",
+              "answer": "Yes, but presented in anonymised and representative form."
+            },
+            {
+              "question": "Do they connect into commercial next steps?",
+              "answer": "Yes. Every page links onward to the relevant service and inquiry path."
+            }
+          ],
+          "related": [
+            "case-study-existing-app-takeover",
+            "case-study-internal-tool-for-operations",
+            "case-study-multi-system-integration"
+          ],
+          "fit": {
+            "for": [
+              "buyers validating a similar project pattern",
+              "teams who need a realistic delivery narrative internally",
+              "companies that want proof framing without fake metrics"
+            ],
+            "notFor": [
+              "passive reading with no live project context"
+            ]
+          },
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "If this section matches a live project decision, a short summary is enough to continue."
+          },
+          "seo": {
+            "title": "Case studies and anonymised delivery scenarios | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Anonymised case studies for inherited-app takeover, internal operations tooling, and multi-system integration without invented proof metrics."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-case-studies.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Case studies without invented numbers or portfolio theatre",
+        "body": "This section shows the type of project situation, the delivery approach chosen, and the kind of change similar work can create.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These case studies are intentionally anonymised and representative. They are designed to be useful rather than decorative.\n\nThey help when a buyer wants to see how similar situations are usually handled in practice without inflated proof claims."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What this section covers",
+        "body": "The section covers inherited-app takeover, internal operations tooling, and multi-system integration scenarios with honest framing."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When this section is most useful",
+        "body": "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction.",
+        "items": [
+          "buyers validating a similar project pattern",
+          "teams who need a realistic delivery narrative internally",
+          "companies that want proof framing without fake metrics"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue",
+        "body": "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path.",
+        "items": [
+          "open the case study closest to your situation",
+          "use the linked service or guide page for the commercial next step",
+          "move to inquiry when the scenario feels close enough to discuss concretely"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Why are there no exact performance or revenue numbers?",
+            "answer": "Because the goal is honesty. The pages focus on real project shape, not invented precision."
+          },
+          {
+            "question": "Are these grounded in real work?",
+            "answer": "Yes, but presented in anonymised and representative form."
+          },
+          {
+            "question": "Do they connect into commercial next steps?",
+            "answer": "Yes. Every page links onward to the relevant service and inquiry path."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "If this section matches a live project decision, a short summary is enough to continue.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

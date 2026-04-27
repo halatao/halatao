@@ -1,0 +1,359 @@
+{
+  "id": "home.cs",
+  "locale": "cs",
+  "slug": "/",
+  "title": "Webové aplikace pro důležité firemní procesy | Bc. Ondřej Halata",
+  "seo": {
+    "title": "Webové aplikace pro důležité firemní procesy | Bc. Ondřej Halata",
+    "description": "Návrh, vývoj a rozvoj webových aplikací, interních systémů, integrací, automatizací a takeover projektů pro firmy.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "home",
+          "stage": 1,
+          "locale": "cs",
+          "pageType": "home",
+          "slug": "domov",
+          "segments": [],
+          "title": "Webové aplikace pro důležité firemní procesy | Bc. Ondřej Halata",
+          "h1": "Webové aplikace pro důležité firemní procesy",
+          "description": "Návrh, vývoj a rozvoj webových aplikací, interních systémů, integrací, automatizací a takeover projektů pro firmy.",
+          "primaryQuery": "webové aplikace na míru",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Halatao",
+            "title": "Navrhuji, vyvíjím a rozvíjím webové aplikace pro důležité firemní procesy.",
+            "subtitle": "Pomáhám firmám postavit nový systém, propojit nástroje, automatizovat workflow nebo převzít aplikaci, která potřebuje spolehlivý další rozvoj.",
+            "primaryCta": {
+              "label": "Popsat projekt",
+              "href": "/cs/popsat-projekt"
+            },
+            "secondaryCta": {
+              "label": "Domluvit úvodní call",
+              "href": "https://calendly.com/ondrej-halata/30min"
+            }
+          },
+          "intro": [
+            "Jsem Ondřej Halata, seniorní webový vývojář.",
+            "Do projektů vstupuji jako technický partner pro konkrétní část systému, technického směru nebo realizace. Řeším situace, kde je potřeba pochopit provoz, pomoci udělat klíčová technická rozhodnutí a dotáhnout řešení do stabilního a použitelného stavu.",
+            "Pracuji jak na nových aplikacích, tak na rozvoji a údržbě existujících systémů, často v rámci týmu nebo dlouhodobější spolupráce."
+          ],
+          "sections": [
+            {
+              "title": "S čím pomohu",
+              "body": [
+                "Nejčastěji řeším situace, kde firma potřebuje víc než jen další položku v backlogu.",
+                "Může jít o nový interní systém, rozvoj existující aplikace, integrace, automatizace nebo seniorní zapojení do konkrétní části projektu."
+              ],
+              "bullets": [
+                "Nová webová aplikace nebo interní systém",
+                "Rozvoj, zjednodušení a stabilizace",
+                "Integrace dat, nástrojů a systémů",
+                "Automatizace a kontraktní zapojení"
+              ]
+            },
+            {
+              "title": "Pro jaké situace je spolupráce vhodná",
+              "body": [
+                "Spolupráce dává největší smysl tam, kde software přímo ovlivňuje provoz firmy.",
+                "Nejde jen o napsání další funkce. Důležité je pochopit proces, uživatele, data, rizika a technická omezení, aby aplikace dávala smysl i po první verzi."
+              ],
+              "bullets": [
+                "firma potřebuje vlastní aplikaci pro důležitý proces",
+                "existující systém je potřeba převzít, zjednodušit nebo dál rozvíjet",
+                "integrace mezi systémy začínají být kritické",
+                "tým potřebuje seniorní technickou kapacitu pro konkrétní část projektu"
+              ]
+            },
+            {
+              "title": "Jak typicky probíhá spolupráce",
+              "body": [
+                "Pochopím kontext, cíle a omezení projektu. Potom navrhnu konkrétní postup, rozsah zapojení a první smysluplnou etapu.",
+                "Do vývoje se zapojuji samostatně nebo jako součást týmu. Další kroky se řeší průběžně podle reality projektu, dopadu a priorit."
+              ],
+              "bullets": [
+                "pochopení kontextu, cílů a omezení projektu",
+                "návrh konkrétního postupu a první etapy",
+                "zapojení do vývoje samostatně nebo v týmu",
+                "průběžné rozhodování podle reality projektu"
+              ]
+            },
+            {
+              "title": "Jaké výsledky klienti obvykle chtějí",
+              "body": [
+                "Výsledkem nemá být jen další kód. Cílem je použitelný technický posun, který zlepší provoz, sníží riziko nebo umožní další rozvoj.",
+                "To může znamenat použitelnou první verzi, stabilnější existující systém, méně ruční práce nebo jasnější rozhodnutí pro další etapu."
+              ],
+              "bullets": [
+                "jasnější technický směr a další kroky",
+                "použitelná první verze nebo stabilnější existující systém",
+                "méně ruční práce a méně ad hoc řešení",
+                "lepší návaznost mezi procesem, daty a aplikací"
+              ]
+            },
+            {
+              "title": "Nejdřív pochopit situaci, potom navrhnout rozumný další krok.",
+              "body": [
+                "Spolupráce nezačíná velkým odhadem naslepo. Nejdřív potřebujeme pochopit, co má software řešit, kde je největší riziko a jaký první krok má obchodní i technický smysl.",
+                "Podle situace může následovat návrh první verze, technický audit, převzetí existující aplikace, integrační práce nebo dlouhodobější kontraktní spolupráce uvnitř týmu."
+              ],
+              "bullets": [
+                "zmapování cíle, omezení, provozu a technického kontextu",
+                "návrh první etapy nebo technického postupu",
+                "realizace v menších navazujících krocích",
+                "průběžné rozhodování podle dopadu a priorit"
+              ]
+            },
+            {
+              "title": "Spolupráce se nastavuje podle situace projektu, ne podle univerzální šablony.",
+              "body": [
+                "Někdy dává smysl začít menší první etapou, která ověří scope a technický směr. Jindy je potřeba převzít existující aplikaci, doplnit seniorní kapacitu do týmu nebo řešit konkrétní integrační workstream.",
+                "Důležité je, aby bylo jasné, co má první fáze přinést, kde jsou rizika a jak bude spolupráce pokračovat podle reálného stavu projektu."
+              ],
+              "bullets": [
+                "úvodní zmapování situace a návrh dalšího kroku",
+                "první etapa, takeover, audit nebo kontraktní zapojení podle potřeby",
+                "průběžná realizace a rozhodování nad prioritami",
+                "možnost pokračovat dlouhodobě, pokud dává spolupráce smysl"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je spolupráce vhodná i pro firmy, které už mají vlastní tým?",
+              "answer": "Ano. Mohu převzít samostatný workstream, doplnit seniorní kapacitu nebo fungovat jako kontraktor uvnitř existujícího týmu."
+            },
+            {
+              "question": "Dává smysl ozvat se, když zatím nevíme přesný rozsah?",
+              "answer": "Ano. Právě tehdy má smysl nejdřív zmapovat situaci, rizika a první rozumný krok místo velkého odhadu naslepo."
+            },
+            {
+              "question": "Řešíte spíš nové projekty, nebo existující aplikace?",
+              "answer": "Obojí. U nových projektů pomáhám s návrhem první verze, datovým modelem, rolemi uživatelů a návazností na proces. U existujících aplikací řeším převzetí, stabilizaci, zjednodušení a další rozvoj."
+            },
+            {
+              "question": "Jak poznáme, jestli je projekt vhodný?",
+              "answer": "Silný fit bývá u webových aplikací, interních systémů, integrací, automatizací, takeover projektů a kontraktní spolupráce s reálným provozním dopadem."
+            }
+          ],
+          "related": [
+            "service-custom-web-app-development",
+            "service-existing-app-takeover",
+            "comparison-custom-vs-saas",
+            "guide-how-to-scope-a-custom-web-application",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "problem-app-takeover",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "firma potřebuje vlastní aplikaci pro důležitý proces",
+              "existující systém je potřeba převzít, zjednodušit nebo dál rozvíjet",
+              "integrace mezi systémy začínají být kritické",
+              "tým potřebuje seniorní technickou kapacitu pro konkrétní část projektu"
+            ],
+            "notFor": [
+              "náborové dotazy a job hledání",
+              "obecné firemní weby bez aplikace",
+              "projekty postavené jen na nejnižší ceně"
+            ]
+          },
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Stačí stručně popsat situaci. Ozvu se s návrhem dalšího postupu."
+          },
+          "seo": {
+            "title": "Webové aplikace pro důležité firemní procesy | Bc. Ondřej Halata",
+            "description": "Návrh, vývoj a rozvoj webových aplikací, interních systémů, integrací, automatizací a takeover projektů pro firmy."
+          },
+          "schema": {
+            "includeProfessionalService": true,
+            "includePerson": true,
+            "includeWebSite": true,
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "home.cs"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "home",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Halatao",
+        "heading": "Navrhuji, vyvíjím a rozvíjím webové aplikace pro důležité firemní procesy.",
+        "body": "Pomáhám firmám postavit nový systém, propojit nástroje, automatizovat workflow nebo převzít aplikaci, která potřebuje spolehlivý další rozvoj.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt",
+        "secondaryCtaLabel": "Domluvit úvodní call",
+        "secondaryCtaHref": "https://calendly.com/ondrej-halata/30min"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Jsem Ondřej Halata, seniorní webový vývojář.\n\nDo projektů vstupuji jako technický partner pro konkrétní část systému, technického směru nebo realizace. Řeším situace, kde je potřeba pochopit provoz, pomoci udělat klíčová technická rozhodnutí a dotáhnout řešení do stabilního a použitelného stavu.\n\nPracuji jak na nových aplikacích, tak na rozvoji a údržbě existujících systémů, často v rámci týmu nebo dlouhodobější spolupráce."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "S čím pomohu",
+        "body": "Nejčastěji řeším situace, kde firma potřebuje víc než jen další položku v backlogu.\n\nMůže jít o nový interní systém, rozvoj existující aplikace, integrace, automatizace nebo seniorní zapojení do konkrétní části projektu.",
+        "items": [
+          "Nová webová aplikace nebo interní systém",
+          "Rozvoj, zjednodušení a stabilizace",
+          "Integrace dat, nástrojů a systémů",
+          "Automatizace a kontraktní zapojení"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Pro jaké situace je spolupráce vhodná",
+        "body": "Spolupráce dává největší smysl tam, kde software přímo ovlivňuje provoz firmy.\n\nNejde jen o napsání další funkce. Důležité je pochopit proces, uživatele, data, rizika a technická omezení, aby aplikace dávala smysl i po první verzi.",
+        "items": [
+          "firma potřebuje vlastní aplikaci pro důležitý proces",
+          "existující systém je potřeba převzít, zjednodušit nebo dál rozvíjet",
+          "integrace mezi systémy začínají být kritické",
+          "tým potřebuje seniorní technickou kapacitu pro konkrétní část projektu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jak typicky probíhá spolupráce",
+        "body": "Pochopím kontext, cíle a omezení projektu. Potom navrhnu konkrétní postup, rozsah zapojení a první smysluplnou etapu.\n\nDo vývoje se zapojuji samostatně nebo jako součást týmu. Další kroky se řeší průběžně podle reality projektu, dopadu a priorit.",
+        "items": [
+          "pochopení kontextu, cílů a omezení projektu",
+          "návrh konkrétního postupu a první etapy",
+          "zapojení do vývoje samostatně nebo v týmu",
+          "průběžné rozhodování podle reality projektu"
+        ]
+      }
+    },
+    {
+      "id": "section-4",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Jaké výsledky klienti obvykle chtějí",
+        "body": "Výsledkem nemá být jen další kód. Cílem je použitelný technický posun, který zlepší provoz, sníží riziko nebo umožní další rozvoj.\n\nTo může znamenat použitelnou první verzi, stabilnější existující systém, méně ruční práce nebo jasnější rozhodnutí pro další etapu.",
+        "items": [
+          "jasnější technický směr a další kroky",
+          "použitelná první verze nebo stabilnější existující systém",
+          "méně ruční práce a méně ad hoc řešení",
+          "lepší návaznost mezi procesem, daty a aplikací"
+        ]
+      }
+    },
+    {
+      "id": "section-5",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Nejdřív pochopit situaci, potom navrhnout rozumný další krok.",
+        "body": "Spolupráce nezačíná velkým odhadem naslepo. Nejdřív potřebujeme pochopit, co má software řešit, kde je největší riziko a jaký první krok má obchodní i technický smysl.\n\nPodle situace může následovat návrh první verze, technický audit, převzetí existující aplikace, integrační práce nebo dlouhodobější kontraktní spolupráce uvnitř týmu.",
+        "items": [
+          "zmapování cíle, omezení, provozu a technického kontextu",
+          "návrh první etapy nebo technického postupu",
+          "realizace v menších navazujících krocích",
+          "průběžné rozhodování podle dopadu a priorit"
+        ]
+      }
+    },
+    {
+      "id": "section-6",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Spolupráce se nastavuje podle situace projektu, ne podle univerzální šablony.",
+        "body": "Někdy dává smysl začít menší první etapou, která ověří scope a technický směr. Jindy je potřeba převzít existující aplikaci, doplnit seniorní kapacitu do týmu nebo řešit konkrétní integrační workstream.\n\nDůležité je, aby bylo jasné, co má první fáze přinést, kde jsou rizika a jak bude spolupráce pokračovat podle reálného stavu projektu.",
+        "items": [
+          "úvodní zmapování situace a návrh dalšího kroku",
+          "první etapa, takeover, audit nebo kontraktní zapojení podle potřeby",
+          "průběžná realizace a rozhodování nad prioritami",
+          "možnost pokračovat dlouhodobě, pokud dává spolupráce smysl"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je spolupráce vhodná i pro firmy, které už mají vlastní tým?",
+            "answer": "Ano. Mohu převzít samostatný workstream, doplnit seniorní kapacitu nebo fungovat jako kontraktor uvnitř existujícího týmu."
+          },
+          {
+            "question": "Dává smysl ozvat se, když zatím nevíme přesný rozsah?",
+            "answer": "Ano. Právě tehdy má smysl nejdřív zmapovat situaci, rizika a první rozumný krok místo velkého odhadu naslepo."
+          },
+          {
+            "question": "Řešíte spíš nové projekty, nebo existující aplikace?",
+            "answer": "Obojí. U nových projektů pomáhám s návrhem první verze, datovým modelem, rolemi uživatelů a návazností na proces. U existujících aplikací řeším převzetí, stabilizaci, zjednodušení a další rozvoj."
+          },
+          {
+            "question": "Jak poznáme, jestli je projekt vhodný?",
+            "answer": "Silný fit bývá u webových aplikací, interních systémů, integrací, automatizací, takeover projektů a kontraktní spolupráce s reálným provozním dopadem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Stačí stručně popsat situaci. Ozvu se s návrhem dalšího postupu.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

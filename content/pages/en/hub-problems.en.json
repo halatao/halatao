@@ -1,0 +1,233 @@
+{
+  "id": "hub-problems.en",
+  "locale": "en",
+  "slug": "/problems",
+  "title": "Project problems: inherited apps, internal tools, integrations, and rescue work | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Project problems: inherited apps, internal tools, integrations, and...",
+    "description": "Overview of problem pages covering inherited app takeover, internal tools, integrations, stalled projects, weak performance, and the need for senior contract...",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "hub-problems",
+          "stage": 1,
+          "locale": "en",
+          "pageType": "hub",
+          "slug": "problems",
+          "segments": [
+            "problems"
+          ],
+          "title": "Project problems: inherited apps, internal tools, integrations, and rescue work | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Project situations that usually matter before the technology choice",
+          "description": "Overview of problem pages covering inherited app takeover, internal tools, integrations, stalled projects, weak performance, and the need for senior contract capacity.",
+          "primaryQuery": "Project situations that usually matter before the technology choice",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Section overview",
+            "title": "Start from the problem shape, not the implementation label",
+            "subtitle": "Useful when the delivery model is still unclear but the pressure inside the project is already real.",
+            "primaryCta": {
+              "label": "Discuss your project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "These pages help buyers describe the situation and risk first, and only then choose the right service or technical direction.",
+            "The section covers inherited applications, internal tools, integrations, missing senior capacity, client portals, slow products, and incomplete projects that need to be rescued."
+          ],
+          "sections": [
+            {
+              "title": "What you will find here",
+              "body": [
+                "Each child page explains the main symptoms, the cost of leaving the situation alone, what a strong fit looks like, and which next step usually makes sense."
+              ]
+            },
+            {
+              "title": "When to start here",
+              "body": [
+                "This section works as a commercial starting point. It helps you choose the right collaboration model based on the actual project situation rather than a loose technology label."
+              ],
+              "bullets": [
+                "teams that need to frame the problem before choosing a supplier model",
+                "projects where the delivery path is still unclear",
+                "buyers dealing with both technical and operational pressure",
+                "companies trying to improve the decision frame before budget or scope"
+              ]
+            },
+            {
+              "title": "How to continue",
+              "body": [
+                "The best next move is to open the page closest to your current situation and then continue into the linked problem, comparison, or inquiry path."
+              ],
+              "bullets": [
+                "open the problem page closest to current reality",
+                "follow into the linked service or guide pages",
+                "move to inquiry when the situation is concrete enough to discuss directly"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Should I start here or on the services section?",
+              "answer": "Start here when the problem is clearer than the preferred delivery model."
+            },
+            {
+              "question": "Are these pages only an SEO index?",
+              "answer": "No. They are written as real decision support for delivery buyers and connect directly to the commercial next step."
+            },
+            {
+              "question": "Do the problem pages lead into services and inquiry?",
+              "answer": "Yes. Each one is wired into the relevant service, guide, and inquiry flow."
+            }
+          ],
+          "related": [
+            "problem-app-takeover",
+            "problem-rescue-incomplete-project",
+            "problem-slow-hard-to-maintain-app",
+            "problem-senior-contract-capacity",
+            "problem-client-portal",
+            "problem-requests-offers-delivery-in-spreadsheets"
+          ],
+          "fit": {
+            "for": [
+              "teams that need to frame the problem before choosing a supplier model",
+              "projects where the delivery path is still unclear",
+              "buyers dealing with both technical and operational pressure",
+              "companies trying to improve the decision frame before budget or scope"
+            ],
+            "notFor": [
+              "passive browsing with no concrete project question"
+            ]
+          },
+          "cta": {
+            "label": "Explore the project fit",
+            "href": "/en/discuss-your-project",
+            "note": "A short summary of the current situation and target outcome is enough to suggest the next step."
+          },
+          "seo": {
+            "title": "Project problems: inherited apps, internal tools, integrations, and rescue work | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Overview of problem pages covering inherited app takeover, internal tools, integrations, stalled projects, weak performance, and the need for senior contract capacity."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "id": "hub-problems.en"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "hub",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Section overview",
+        "heading": "Start from the problem shape, not the implementation label",
+        "body": "Useful when the delivery model is still unclear but the pressure inside the project is already real.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "These pages help buyers describe the situation and risk first, and only then choose the right service or technical direction.\n\nThe section covers inherited applications, internal tools, integrations, missing senior capacity, client portals, slow products, and incomplete projects that need to be rescued."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "text",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What you will find here",
+        "body": "Each child page explains the main symptoms, the cost of leaving the situation alone, what a strong fit looks like, and which next step usually makes sense."
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "When to start here",
+        "body": "This section works as a commercial starting point. It helps you choose the right collaboration model based on the actual project situation rather than a loose technology label.",
+        "items": [
+          "teams that need to frame the problem before choosing a supplier model",
+          "projects where the delivery path is still unclear",
+          "buyers dealing with both technical and operational pressure",
+          "companies trying to improve the decision frame before budget or scope"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How to continue",
+        "body": "The best next move is to open the page closest to your current situation and then continue into the linked problem, comparison, or inquiry path.",
+        "items": [
+          "open the problem page closest to current reality",
+          "follow into the linked service or guide pages",
+          "move to inquiry when the situation is concrete enough to discuss directly"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Should I start here or on the services section?",
+            "answer": "Start here when the problem is clearer than the preferred delivery model."
+          },
+          {
+            "question": "Are these pages only an SEO index?",
+            "answer": "No. They are written as real decision support for delivery buyers and connect directly to the commercial next step."
+          },
+          {
+            "question": "Do the problem pages lead into services and inquiry?",
+            "answer": "Yes. Each one is wired into the relevant service, guide, and inquiry flow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "A short summary of the current situation and target outcome is enough to suggest the next step.",
+        "ctaLabel": "Explore the project fit",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}

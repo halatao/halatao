@@ -1,0 +1,250 @@
+{
+  "id": "case-study-existing-app-takeover.cs",
+  "locale": "cs",
+  "slug": "/pripadovky/prevzeti-existujici-aplikace",
+  "title": "Převzetí existující aplikace | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Převzetí existující aplikace | Bc. Ondřej Halata (halatao.cz)",
+    "description": "Anonymizovaná případovka takeover projektu, kde bylo potřeba převzít existující aplikaci, zmapovat rizika a vrátit projektu další směr.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "case-study-existing-app-takeover",
+          "stage": 2,
+          "locale": "cs",
+          "pageType": "case_study",
+          "slug": "prevzeti-existujici-aplikace",
+          "segments": [
+            "pripadovky",
+            "prevzeti-existujici-aplikace"
+          ],
+          "title": "Převzetí existující aplikace | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Případovka: převzetí existující aplikace a stabilizace dalšího vývoje",
+          "description": "Anonymizovaná případovka takeover projektu, kde bylo potřeba převzít existující aplikaci, zmapovat rizika a vrátit projektu další směr.",
+          "primaryQuery": "převzetí existující aplikace případovka",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Případovka",
+            "title": "Aplikace fungovala. Každá další změna ale byla riziko.",
+            "subtitle": "Typický takeover scénář po změně dodavatele nebo po období bez technického vedení.",
+            "primaryCta": {
+              "label": "Popsat podobný projekt",
+              "href": "/cs/popsat-projekt"
+            }
+          },
+          "intro": [
+            "Projekt běžel v produkci, ale tým se bál zásahu do důležitých částí. Release proces byl křehký a roadmapa se zpomalovala.",
+            "Klient nepotřeboval heroický rewrite. Potřeboval pochopit, co je skutečné riziko a jak navázat další vývoj bez zbytečného chaosu."
+          ],
+          "sections": [
+            {
+              "title": "Výchozí situace",
+              "body": [
+                "Jde o reprezentativní anonymizovaný scénář založený na reálných typech projektu a problému, ne o marketingově přikrášlenou referenci."
+              ],
+              "bullets": [
+                "běžící aplikace bez silné dokumentace",
+                "nejistota kolem nasazení a závislostí",
+                "zpomalující roadmapa",
+                "vysoká opatrnost při každé změně"
+              ]
+            },
+            {
+              "title": "Zvolený přístup",
+              "body": [
+                "První krok nebyl maximalistický scope, ale orientace v riziku, prioritách a realistickém rozsahu první etapy."
+              ],
+              "bullets": [
+                "rychlá orientace v architektuře a release flow",
+                "mapování kritických míst a priorit",
+                "stabilizace vybraných oblastí před dalším rozvojem",
+                "návrh postupného backlogu místo velkého přepisu"
+              ]
+            },
+            {
+              "title": "Co se změnilo",
+              "body": [
+                "Smyslem případovky není předstírat přesná čísla. Důležité je ukázat typ změny, kterou podobný projekt klientovi přinese."
+              ],
+              "bullets": [
+                "lepší rozhodování o rizicích",
+                "rychlejší navázání dalšího vývoje",
+                "menší tlak na rewrite",
+                "jasnější odpovědnost a technický směr"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Je takeover vždy delší auditní projekt?",
+              "answer": "Ne. Někdy stačí krátká, ale dobře vedená úvodní fáze, která rychle ukáže hlavní rizika a priority."
+            },
+            {
+              "question": "Musí se hned měnit celá architektura?",
+              "answer": "Většinou ne. U běžících aplikací bývá lepší řešit nejdřív kritická místa a schopnost bezpečně doručovat další změny."
+            },
+            {
+              "question": "Je takový projekt vhodný i pro interní tým klienta?",
+              "answer": "Ano. Takeover může probíhat společně s interním týmem a pomoct mu získat rychlejší kontrolu nad systémem."
+            }
+          ],
+          "related": [
+            "service-existing-app-takeover",
+            "problem-app-takeover",
+            "problem-modernize-legacy-app",
+            "guide-how-to-take-over-an-existing-app-safely",
+            "guide-how-to-run-app-takeover-audit",
+            "comparison-rewrite-vs-incremental-app-improvement",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "lepší rozhodování o rizicích",
+              "rychlejší navázání dalšího vývoje",
+              "menší tlak na rewrite",
+              "jasnější odpovědnost a technický směr"
+            ],
+            "notFor": [
+              "hledání nafouknutých marketingových metrik"
+            ]
+          },
+          "seo": {
+            "title": "Převzetí existující aplikace | Bc. Ondřej Halata (halatao.cz)",
+            "description": "Anonymizovaná případovka takeover projektu, kde bylo potřeba převzít existující aplikaci, zmapovat rizika a vrátit projektu další směr."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "note": "Reprezentativní anonymizovaný scénář bez vymyšlených klientských čísel.",
+          "id": "case-study-existing-app-takeover.cs",
+          "cta": {
+            "label": "Popsat projekt",
+            "href": "/cs/popsat-projekt",
+            "note": "Pošlete základní kontext a navrhnu rozumný další krok."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "case_study",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Případovka",
+        "heading": "Aplikace fungovala. Každá další změna ale byla riziko.",
+        "body": "Typický takeover scénář po změně dodavatele nebo po období bez technického vedení.",
+        "ctaLabel": "Popsat podobný projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "Projekt běžel v produkci, ale tým se bál zásahu do důležitých částí. Release proces byl křehký a roadmapa se zpomalovala.\n\nKlient nepotřeboval heroický rewrite. Potřeboval pochopit, co je skutečné riziko a jak navázat další vývoj bez zbytečného chaosu."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Výchozí situace",
+        "body": "Jde o reprezentativní anonymizovaný scénář založený na reálných typech projektu a problému, ne o marketingově přikrášlenou referenci.",
+        "items": [
+          "běžící aplikace bez silné dokumentace",
+          "nejistota kolem nasazení a závislostí",
+          "zpomalující roadmapa",
+          "vysoká opatrnost při každé změně"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Zvolený přístup",
+        "body": "První krok nebyl maximalistický scope, ale orientace v riziku, prioritách a realistickém rozsahu první etapy.",
+        "items": [
+          "rychlá orientace v architektuře a release flow",
+          "mapování kritických míst a priorit",
+          "stabilizace vybraných oblastí před dalším rozvojem",
+          "návrh postupného backlogu místo velkého přepisu"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Co se změnilo",
+        "body": "Smyslem případovky není předstírat přesná čísla. Důležité je ukázat typ změny, kterou podobný projekt klientovi přinese.",
+        "items": [
+          "lepší rozhodování o rizicích",
+          "rychlejší navázání dalšího vývoje",
+          "menší tlak na rewrite",
+          "jasnější odpovědnost a technický směr"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Je takeover vždy delší auditní projekt?",
+            "answer": "Ne. Někdy stačí krátká, ale dobře vedená úvodní fáze, která rychle ukáže hlavní rizika a priority."
+          },
+          {
+            "question": "Musí se hned měnit celá architektura?",
+            "answer": "Většinou ne. U běžících aplikací bývá lepší řešit nejdřív kritická místa a schopnost bezpečně doručovat další změny."
+          },
+          {
+            "question": "Je takový projekt vhodný i pro interní tým klienta?",
+            "answer": "Ano. Takeover může probíhat společně s interním týmem a pomoct mu získat rychlejší kontrolu nad systémem."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Máte podobnou situaci?",
+        "body": "Pošlete základní kontext a navrhnu rozumný další krok.",
+        "ctaLabel": "Popsat projekt",
+        "ctaHref": "/cs/popsat-projekt"
+      }
+    }
+  ]
+}

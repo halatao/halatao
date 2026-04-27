@@ -1,0 +1,249 @@
+{
+  "id": "case-study-multi-system-integration.en",
+  "locale": "en",
+  "slug": "/case-studies/multi-system-integration",
+  "title": "Multi-system integration case study | Bc. Ondřej Halata (halatao.cz)",
+  "seo": {
+    "title": "Multi-system integration case study | Bc. Ondřej Halata (halatao.cz)",
+    "description": "An anonymised case-study scenario showing how a multi-system integration project can reduce manual work and improve data flow across business operations.",
+    "indexable": true
+  },
+  "sections": [
+    {
+      "id": "legacy-page",
+      "type": "text",
+      "variant": "legacy-data",
+      "theme": "light",
+      "spacing": "sm",
+      "props": {
+        "contentModel": "legacy-content-page.v1",
+        "page": {
+          "translationKey": "case-study-multi-system-integration",
+          "stage": 2,
+          "locale": "en",
+          "pageType": "case_study",
+          "slug": "multi-system-integration",
+          "segments": [
+            "case-studies",
+            "multi-system-integration"
+          ],
+          "title": "Multi-system integration case study | Bc. Ondřej Halata (halatao.cz)",
+          "h1": "Case study: connecting several systems and reducing manual coordination",
+          "description": "An anonymised case-study scenario showing how a multi-system integration project can reduce manual work and improve data flow across business operations.",
+          "primaryQuery": "multi-system integration case study",
+          "intent": "commercial",
+          "hero": {
+            "eyebrow": "Case study",
+            "title": "Data was travelling through people because systems only talked halfway",
+            "subtitle": "A representative scenario where the company was losing time to re-entry, manual checks, and fragmented information across several systems.",
+            "primaryCta": {
+              "label": "Discuss a similar project",
+              "href": "/en/discuss-your-project"
+            }
+          },
+          "intro": [
+            "The project started as an integration issue, but it quickly became clear that part of the problem was also process design and how exceptions were handled.",
+            "The solution therefore needed both technical integration work and more usable process control around it."
+          ],
+          "sections": [
+            {
+              "title": "Starting situation",
+              "body": [
+                "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story."
+              ],
+              "bullets": [
+                "several systems with weak data continuity",
+                "manual transfer of information",
+                "frequent status checks",
+                "reporting dependent on manual data gathering"
+              ]
+            },
+            {
+              "title": "How the work was approached",
+              "body": [
+                "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase."
+              ],
+              "bullets": [
+                "map source systems and exception paths",
+                "prioritise the most valuable integration points",
+                "deliver in stages with visible impact",
+                "add supporting workflow where pure integration was not enough"
+              ]
+            },
+            {
+              "title": "What changed",
+              "body": [
+                "The point is not to fake exact numbers. It is to show the kind of change a similar project can create."
+              ],
+              "bullets": [
+                "less manual work",
+                "better data continuity",
+                "fewer operational delays",
+                "stronger basis for future automation"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "question": "Is technical integration alone enough for this type of project?",
+              "answer": "Not always. Many projects also need workflow changes and better handling of exceptions."
+            },
+            {
+              "question": "Can this be delivered in stages?",
+              "answer": "Yes. That is often the most practical way to reduce risk and prove value early."
+            },
+            {
+              "question": "Does it make sense to start with a diagnostic phase?",
+              "answer": "Yes. Without understanding the data flow and failure impact, it is easy to automate the wrong thing."
+            }
+          ],
+          "related": [
+            "service-automations-and-integrations",
+            "guide-how-to-run-automation-discovery",
+            "problem-system-integrations",
+            "use-case-workflow-automation-tools",
+            "tool-api-integration-checklist",
+            "inquiry"
+          ],
+          "fit": {
+            "for": [
+              "less manual work",
+              "better data continuity",
+              "fewer operational delays",
+              "stronger basis for future automation"
+            ],
+            "notFor": [
+              "inflated vanity-metric storytelling"
+            ]
+          },
+          "seo": {
+            "title": "Multi-system integration case study | Bc. Ondřej Halata (halatao.cz)",
+            "description": "An anonymised case-study scenario showing how a multi-system integration project can reduce manual work and improve data flow across business operations."
+          },
+          "schema": {
+            "includeFaq": true
+          },
+          "indexable": true,
+          "note": "Representative anonymised scenario with no invented client metrics.",
+          "id": "case-study-multi-system-integration.en",
+          "cta": {
+            "label": "Discuss your project",
+            "href": "/en/discuss-your-project",
+            "note": "Share the context and I will tell you whether the project is a fit."
+          }
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "case_study",
+      "theme": "light",
+      "spacing": "lg",
+      "props": {
+        "eyebrow": "Case study",
+        "heading": "Data was travelling through people because systems only talked halfway",
+        "body": "A representative scenario where the company was losing time to re-entry, manual checks, and fragmented information across several systems.",
+        "ctaLabel": "Discuss a similar project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "variant": "intro",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "body": "The project started as an integration issue, but it quickly became clear that part of the problem was also process design and how exceptions were handled.\n\nThe solution therefore needed both technical integration work and more usable process control around it."
+      }
+    },
+    {
+      "id": "section-1",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "Starting situation",
+        "body": "This is a representative anonymised scenario based on real project patterns, not an inflated marketing story.",
+        "items": [
+          "several systems with weak data continuity",
+          "manual transfer of information",
+          "frequent status checks",
+          "reporting dependent on manual data gathering"
+        ]
+      }
+    },
+    {
+      "id": "section-2",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "How the work was approached",
+        "body": "The first step was not a maximalist scope. It was understanding risk, priorities, and the right size of the first delivery phase.",
+        "items": [
+          "map source systems and exception paths",
+          "prioritise the most valuable integration points",
+          "deliver in stages with visible impact",
+          "add supporting workflow where pure integration was not enough"
+        ]
+      }
+    },
+    {
+      "id": "section-3",
+      "type": "features",
+      "variant": "section",
+      "theme": "light",
+      "spacing": "md",
+      "props": {
+        "heading": "What changed",
+        "body": "The point is not to fake exact numbers. It is to show the kind of change a similar project can create.",
+        "items": [
+          "less manual work",
+          "better data continuity",
+          "fewer operational delays",
+          "stronger basis for future automation"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "variant": "default",
+      "theme": "muted",
+      "spacing": "md",
+      "props": {
+        "items": [
+          {
+            "question": "Is technical integration alone enough for this type of project?",
+            "answer": "Not always. Many projects also need workflow changes and better handling of exceptions."
+          },
+          {
+            "question": "Can this be delivered in stages?",
+            "answer": "Yes. That is often the most practical way to reduce risk and prove value early."
+          },
+          {
+            "question": "Does it make sense to start with a diagnostic phase?",
+            "answer": "Yes. Without understanding the data flow and failure impact, it is easy to automate the wrong thing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "default",
+      "theme": "accent",
+      "spacing": "md",
+      "props": {
+        "heading": "Have a similar situation?",
+        "body": "Share the context and I will tell you whether the project is a fit.",
+        "ctaLabel": "Discuss your project",
+        "ctaHref": "/en/discuss-your-project"
+      }
+    }
+  ]
+}
