@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const isStaticExport = process.env.STATIC_EXPORT === "true";
 
+// Next.js redirects are not emitted for pure static export hosting; keep these
+// for non-static deployments or future hosting changes.
 const redirectRules = [
   {
     source: "/index.html",
@@ -26,6 +28,11 @@ const redirectRules = [
   {
     source: "/cz/:path*",
     destination: "/cs/:path*",
+    permanent: true,
+  },
+  {
+    source: "/cs/lokace/:path*",
+    destination: "/cs/lokality/:path*",
     permanent: true,
   },
   {

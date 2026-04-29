@@ -1,20 +1,49 @@
 import Link from "next/link";
 
 import { AutomationAuditForm } from "@/components/AutomationAuditForm";
+import type { FAQItem, LinkRecord, Locale } from "@/content/types";
 
-export function AutomationAuditLanding() {
+type AutomationAuditLandingProps = {
+  locale?: Locale;
+  priorityLinks?: LinkRecord[];
+  faq?: FAQItem[];
+};
+
+function AutomationPriorityLinks({ locale = "cs", links }: { locale?: Locale; links?: LinkRecord[] }) {
+  if (!links?.length) return null;
+  const heading = locale === "cs" ? "Doporučený další krok" : "Recommended next step";
+
+  return (
+    <section className="automation-section automation-section-white">
+      <div className="automation-shell">
+        <div className="content-card related-section">
+          <h2>{heading}</h2>
+          <div className="link-grid">
+            {links.map((link) => (
+              <Link className="link-card" href={link.href} key={link.href}>
+                <strong>{link.label}</strong>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function AutomationAuditLanding({ locale = "cs", priorityLinks, faq }: AutomationAuditLandingProps) {
   return (
     <div className="automation-page">
       <section className="automation-hero">
         <div className="automation-shell automation-shell-narrow automation-center">
-          <span className="automation-badge">Pro majitele firem a e-shopů</span>
+          <span className="automation-badge">Audit automatizace firemních procesů</span>
           <h1>
-            Kde ve firmě zbytečně <span>utíká čas</span>
+            Kde firmu brzdí <span>ruční práce</span>
             <br />
-            kvůli ruční práci a nepřipojeným systémům?
+            Excel a nepřipojené systémy?
           </h1>
           <p className="automation-lead">
-            Často to nevypadá jako problém. Přepisování mezi tabulkami, dohledávání informací, ruční kontroly, e-maily a výjimky, které nemají žádný systém.
+            Zmapuji ruční práci, Excel, nepřipojené systémy a zpracování poptávek tak, aby vznikla první realistická etapa bez zbytečně velkého projektu.
           </p>
           <p className="automation-copy">Pomohu vám tyto ztráty rychle zmapovat, spočítat jejich dopad a navrhnout konkrétní kroky, které má smysl automatizovat.</p>
           <p className="automation-highlight">
@@ -120,6 +149,26 @@ export function AutomationAuditLanding() {
           </div>
         </div>
       </section>
+
+      <AutomationPriorityLinks locale={locale} links={priorityLinks} />
+
+      {faq?.length ? (
+        <section className="automation-section automation-section-soft">
+          <div className="automation-shell automation-shell-mid">
+            <div className="content-card faq-section">
+              <h2>FAQ</h2>
+              <div className="faq-list">
+                {faq.map((item) => (
+                  <details key={item.question}>
+                    <summary>{item.question}</summary>
+                    <p>{item.answer}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section id="cta" className="automation-cta">
         <div className="automation-shell automation-shell-principle automation-center">

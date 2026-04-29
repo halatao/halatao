@@ -1,4 +1,4 @@
-﻿// Generated content: templates and checklist pages. Safe to edit manually.
+// Generated content: templates and checklist pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
 import type { ContentPage, FAQItem, Locale } from "@/content/types";
@@ -61,7 +61,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-web-app-project-brief-template",
     locale: "cs",
     slug: "brief-na-webovou-aplikaci",
-    title: "Brief na webovou aplikaci | Bc. Ondřej Halata (halatao.cz)",
+    title: "Brief na webovou aplikaci | Bc. Ondřej Halata",
     h1: "Brief na webovou aplikaci: co si ujasnit před startem projektu",
     description: "Šablona briefu pro webovou aplikaci na míru: problém, cíle, role, první workflow a omezení projektu.",
     primaryQuery: "brief na webovou aplikaci",
@@ -82,7 +82,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-app-takeover-checklist",
     locale: "cs",
     slug: "checklist-prevzeti-aplikace",
-    title: "Checklist převzetí aplikace | Bc. Ondřej Halata (halatao.cz)",
+    title: "Checklist převzetí aplikace | Bc. Ondřej Halata",
     h1: "Checklist převzetí aplikace po dodavateli nebo týmu",
     description: "Praktický checklist pro převzetí existující aplikace: přístupy, prostředí, release proces, rizika a kritické workflow.",
     primaryQuery: "checklist převzetí aplikace",
@@ -103,7 +103,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-api-integration-checklist",
     locale: "cs",
     slug: "checklist-api-integrace",
-    title: "Checklist API integrace | Bc. Ondřej Halata (halatao.cz)",
+    title: "Checklist API integrace | Bc. Ondřej Halata",
     h1: "Checklist API integrace před startem projektu",
     description: "Checklist pro API integrace: zdroje dat, vlastnictví, chybové stavy, výjimky a provozní monitoring.",
     primaryQuery: "checklist api integrace",
@@ -124,7 +124,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-web-app-project-brief-template",
     locale: "en",
     slug: "web-app-project-brief-template",
-    title: "Web app project brief template | Bc. Ondřej Halata (halatao.cz)",
+    title: "Web app project brief template | Bc. Ondřej Halata",
     h1: "Web app project brief template: what to clarify before delivery starts",
     description: "A practical project brief template for custom web applications covering the problem, goals, roles, first workflow, and delivery constraints.",
     primaryQuery: "web app project brief template",
@@ -145,7 +145,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-app-takeover-checklist",
     locale: "en",
     slug: "app-takeover-checklist",
-    title: "App takeover checklist | Bc. Ondřej Halata (halatao.cz)",
+    title: "App takeover checklist | Bc. Ondřej Halata",
     h1: "App takeover checklist after a supplier or team change",
     description: "A practical checklist for taking over an existing application: access, environments, release flow, risks, and critical workflows.",
     primaryQuery: "app takeover checklist",
@@ -166,7 +166,7 @@ export const toolPages: ContentPage[] = [
     translationKey: "tool-api-integration-checklist",
     locale: "en",
     slug: "api-integration-checklist",
-    title: "API integration checklist | Bc. Ondřej Halata (halatao.cz)",
+    title: "API integration checklist | Bc. Ondřej Halata",
     h1: "API integration checklist before delivery starts",
     description: "A practical API integration checklist covering data ownership, error states, exceptions, monitoring, and real operational constraints.",
     primaryQuery: "api integration checklist",

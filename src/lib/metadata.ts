@@ -70,9 +70,9 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
 export function buildRootMetadata(): Metadata {
   return {
     metadataBase: new URL(siteConfig.siteUrl),
-    title: "Custom web apps and takeover | Bc. Ondřej Halata",
+    title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
     description:
-      "Custom web applications, system takeover, workflow automations, and senior delivery support for companies in Czech and English.",
+      "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
     icons: metadataIcons(),
     alternates: {
       canonical: absoluteUrl("/"),
@@ -86,9 +86,9 @@ export function buildRootMetadata(): Metadata {
       type: "website",
       url: absoluteUrl("/"),
       siteName: siteConfig.shortDisplayName,
-      title: "Custom web apps and takeover | Bc. Ondřej Halata",
+      title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
       description:
-        "Custom web applications, system takeover, workflow automations, and senior delivery support for companies.",
+        "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
       images: [
         {
           url: siteConfig.ogImage,
@@ -100,9 +100,9 @@ export function buildRootMetadata(): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Custom web apps and takeover | Bc. Ondřej Halata",
+      title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
       description:
-        "Custom web applications, system takeover, workflow automations, and senior delivery support for companies.",
+        "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
       site: siteConfig.shortDisplayName,
       images: [siteConfig.ogImage],
     },

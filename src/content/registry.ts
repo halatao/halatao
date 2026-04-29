@@ -8,6 +8,7 @@ import { servicePages } from "@/content/pages/stage1/services";
 import { caseStudyPages } from "@/content/pages/stage2/case-studies";
 import { comparisonPages } from "@/content/pages/stage2/comparisons";
 import { guidePages } from "@/content/pages/stage2/guides";
+import { demandGuidePages } from "@/content/pages/stage2/guides-demand";
 import { growthGuidePages } from "@/content/pages/stage2/guides-growth";
 import { stage2HubPages } from "@/content/pages/stage2/hubs";
 import { useCasePages } from "@/content/pages/stage2/use-cases";
@@ -35,6 +36,7 @@ const allPages = [
   ...caseStudyPages,
   ...guidePages,
   ...growthGuidePages,
+  ...demandGuidePages,
   ...stage3HubPages,
   ...advancedGuidePages,
   ...technologyPages,

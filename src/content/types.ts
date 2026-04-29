@@ -97,6 +97,7 @@ export interface ContentPage {
   sections: PageSection[];
   faq: FAQItem[];
   related: string[];
+  priorityLinks?: LinkRecord[];
   fit: FitBlock;
   cta: PageCta;
   seo: SeoFields;

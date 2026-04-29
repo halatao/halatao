@@ -1,7 +1,7 @@
-﻿// Generated content: commercial service pages. Safe to edit manually.
+// Generated content: commercial service pages. Safe to edit manually.
 
 import { buildInquiryHref, buildSecondaryCta, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale, PageSection } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale, PageSection } from "@/content/types";
 
 type ServiceSeed = {
   translationKey: string;
@@ -23,6 +23,7 @@ type ServiceSeed = {
   results: string[];
   faq: FAQItem[];
   related: string[];
+  priorityLinks?: LinkRecord[];
   fitFor: string[];
   fitNot: string[];
 };
@@ -100,6 +101,7 @@ function service(seed: ServiceSeed): ContentPage {
     sections: makeSections(seed.locale, seed),
     faq: seed.faq,
     related: seed.related,
+    priorityLinks: seed.priorityLinks,
     fit: {
       for: seed.fitFor,
       notFor: seed.fitNot,
@@ -137,10 +139,10 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-custom-web-app-development",
     locale: "cs",
     slug: "vyvoj-webovych-aplikaci-na-miru",
-    title: "Vývoj webové aplikace na míru | Firemní aplikace, portály a workflow",
-    h1: "Vývoj webové aplikace na míru pro firmy",
-    description: "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní workflow, klientský portál, interní systém nebo napojení na další systémy.",
-    primaryQuery: "vývoj webové aplikace na míru",
+    title: "Vývoj webových aplikací na míru pro firmy | Bc. Ondřej Halata",
+    h1: "Vývoj webových aplikací na míru pro firmy",
+    description: "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní procesy, role, klientský portál, interní systém nebo napojení na další systémy.",
+    primaryQuery: "vývoj webových aplikací na míru",
     heroTitle: "Webová aplikace na míru pro firmy, kterým hotový software nestačí",
     heroSubtitle: "Nejčastěji pro klientské portály, interní systémy, operativní workflow a aplikace s více rolemi, daty a integracemi.",
     intro: [
@@ -162,6 +164,11 @@ export const servicePages: ContentPage[] = [
       { question: "Pomůžete i po spuštění?", answer: "Ano. Běžná spolupráce zahrnuje další rozvoj, technické dluhy, opravy i rozhodování o dalším směru." },
     ],
     related: ["comparison-custom-vs-saas", "guide-how-to-scope-a-custom-web-application", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "problem-client-portal", "problem-internal-tool", "inquiry"],
+    priorityLinks: [
+      { label: "Jak zadat vývoj webové aplikace", href: "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace" },
+      { label: "Kdy dává smysl vývoj na míru místo SaaS", href: "/cs/srovnani/vyvoj-na-miru-vs-saas" },
+      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+    ],
     fitFor: ["firmy s vlastním workflow a více rolemi", "projekty, kde SaaS nástroj vytváří zbytečné kompromisy", "týmy, které chtějí aplikaci dlouhodobě rozvíjet"],
     fitNot: ["jednoduché prezentační weby", "jednorázové microsites bez logiky", "projekty řízené jen nejnižší cenou bez ownershipu"],
   }),
@@ -169,10 +176,10 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-existing-app-takeover",
     locale: "cs",
     slug: "prevzeti-a-rozvoj-existujici-aplikace",
-    title: "Převzetí a rozvoj existující aplikace | Audit, stabilizace a takeover",
-    h1: "Převzetí a rozvoj existující aplikace",
-    description: "Pomohu bezpečně převzít existující nebo rozpracovanou aplikaci, zmapovat technická a provozní rizika, stabilizovat kritická místa a navázat dalším vývojem.",
-    primaryQuery: "převzetí a rozvoj existující aplikace",
+    title: "Převzetí existující aplikace bez zbytečného rizika | Bc. Ondřej Halata",
+    h1: "Převzetí a stabilizace existující aplikace",
+    description: "Pomohu bezpečně převzít existující nebo rozpracovanou aplikaci, zmapovat technická rizika, stabilizovat kritická místa a navrhnout další rozvoj bez unáhleného rewritu.",
+    primaryQuery: "převzetí existující aplikace",
     heroTitle: "Převzetí aplikace bez chaosu a unáhleného rewritu",
     heroSubtitle: "Pro situace po změně dodavatele, odchodu vývojáře nebo u systému, který běží, ale další změny jsou riskantní.",
     intro: [
@@ -201,9 +208,9 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-internal-tools-development",
     locale: "cs",
     slug: "interni-systemy-na-miru",
-    title: "Interní systém na míru | Workflow, reporting a nahrazení Excelu",
-    h1: "Interní systém na míru pro operativu, workflow a reporting",
-    description: "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, ruční operativu nebo nepřehlednou kombinaci více nástrojů.",
+    title: "Interní systém na míru místo Excelu | Bc. Ondřej Halata",
+    h1: "Interní systém na míru místo Excelu, e-mailů a ruční operativy",
+    description: "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, e-maily, ruční předávání práce a nepřehledný reporting.",
     primaryQuery: "interní systém na míru",
     heroTitle: "Interní systém na míru místo Excelu, e-mailů a ruční koordinace",
     heroSubtitle: "Pro operativu, administrativu, reporting a schvalovací procesy, které už nefungují ve sdílených tabulkách ani v poslepované sadě nástrojů.",
@@ -226,6 +233,11 @@ export const servicePages: ContentPage[] = [
       { question: "Dá se interní systém spojit s reportingem?", answer: "Ano. Reporting dává největší smysl tam, kde stojí na kvalitních datech z každodenního provozu." },
     ],
     related: ["comparison-custom-vs-saas", "comparison-internal-tool-vs-spreadsheets", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "use-case-internal-admin-system", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
+    priorityLinks: [
+      { label: "Kdy dává smysl interní systém místo SaaS", href: "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas" },
+      { label: "Jak řídit zakázky bez Excelu", href: "/cs/pruvodce/jak-ridit-zakazky-bez-excelu" },
+      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+    ],
     fitFor: ["firmy, kterým nestačí sdílené tabulky a e-maily", "provozy s více rolemi a odpovědnostmi", "týmy, které chtějí lepší dohled nad operativou"],
     fitNot: ["jednoduchá evidence pro jednoho uživatele", "projekty bez vlastníka procesu na straně klienta", "nákup hotového SaaS bez potřeby přizpůsobení"],
   }),
@@ -233,10 +245,10 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-automations-and-integrations",
     locale: "cs",
     slug: "automatizace-a-integrace",
-    title: "Automatizace procesů a integrace systémů | API, workflow a data",
+    title: "Automatizace a integrace systémů pro firmy | Bc. Ondřej Halata",
     h1: "Automatizace procesů a integrace systémů ve firmě",
-    description: "Pomohu firmám omezit ruční práci, přepisování dat a nejasný tok informací pomocí automatizace procesů, API integrací a úprav workflow.",
-    primaryQuery: "automatizace procesů ve firmě",
+    description: "Pomohu firmám najít a odstranit ruční práci, přepisování dat a zbytečné kontroly pomocí automatizace procesů, API integrací a úprav interního workflow.",
+    primaryQuery: "automatizace firemních procesů",
     heroTitle: "Automatizace procesů a integrace systémů bez další vrstvy chaosu",
     heroSubtitle: "Pro firmy, kde se data přepisují mezi ERP, CRM, e-shopem, tabulkami a interními nástroji a důležité workflow stojí na ruční koordinaci.",
     intro: [
@@ -258,6 +270,11 @@ export const servicePages: ContentPage[] = [
       { question: "Co když je problém spíš v procesu než v technologii?", answer: "I to je užitečný výstup. Lepší je pojmenovat procesní problém včas, než investovat do automatizace, která nic podstatného nezlepší." },
     ],
     related: ["problem-system-integrations", "problem-replace-spreadsheets-in-process", "guide-how-to-run-automation-discovery", "use-case-workflow-app-for-teams", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "problem-ai-in-business-process", "use-case-ai-intake-triage", "tool-api-integration-checklist", "tool-automation-discovery-checklist", "inquiry"],
+    priorityLinks: [
+      { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek" },
+      { label: "Jak odhalit ruční přepisování dat", href: "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat" },
+      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+    ],
     fitFor: ["firmy s více systémy a ručním přepisováním", "procesy závislé na ruční kontrole a dohledávání", "projekty, kde se má nejdřív zmapovat přínos automatizace"],
     fitNot: ["automatizace bez znalosti procesu a dopadu", "jednorázové skripty bez provozní odpovědnosti", "projekty postavené jen na nákupu no-code licence bez integrací"],
   }),
@@ -265,7 +282,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-custom-web-app-development",
     locale: "en",
     slug: "custom-web-application-development",
-    title: "Custom web application development | Bc. Ondřej Halata (halatao.cz)",
+    title: "Custom web application development | Bc. Ondřej Halata",
     h1: "Custom web application development for business-critical workflows",
     description: "I design and build custom web applications for companies that need tailored workflows, internal logic, integrations, and room for long-term growth.",
     primaryQuery: "custom web application development",
@@ -290,6 +307,11 @@ export const servicePages: ContentPage[] = [
       { question: "Do you stay involved after launch?", answer: "Yes. Ongoing support can cover improvements, bug fixing, technical debt reduction, performance work, and structured next-phase planning." },
     ],
     related: ["problem-client-portal", "comparison-custom-vs-saas", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "case-study-internal-tool-for-operations", "inquiry"],
+    priorityLinks: [
+      { label: "How to scope a custom web application", href: "/en/guides/how-to-scope-a-custom-web-application" },
+      { label: "Custom development vs SaaS", href: "/en/comparisons/custom-web-app-vs-saas-tool" },
+      { label: "Discuss your project", href: "/en/discuss-your-project" },
+    ],
     fitFor: ["companies with workflow-heavy business processes", "teams that need tailored software instead of forced SaaS compromises", "buyers planning for long-term product ownership"],
     fitNot: ["basic marketing sites", "one-off microsites with no application logic", "projects driven only by lowest-cost bidding"],
   }),
@@ -297,7 +319,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-existing-app-takeover",
     locale: "en",
     slug: "existing-app-takeover",
-    title: "Existing app takeover | Bc. Ondřej Halata (halatao.cz)",
+    title: "Existing app takeover | Bc. Ondřej Halata",
     h1: "Existing app takeover and structured improvement",
     description: "I take over existing or partially delivered web applications, reduce delivery risk, stabilise the stack, and create a realistic path for ongoing improvement.",
     primaryQuery: "existing app takeover",
@@ -329,7 +351,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-internal-tools-development",
     locale: "en",
     slug: "internal-tools-development",
-    title: "Internal tools development | Bc. Ondřej Halata (halatao.cz)",
+    title: "Internal tools development | Bc. Ondřej Halata",
     h1: "Internal tools development for operations, approvals, and reporting",
     description: "I build internal tools for teams that need to replace spreadsheets, fragmented admin work, and slow manual coordination with a system built around real operations.",
     primaryQuery: "internal tools development",
@@ -354,6 +376,11 @@ export const servicePages: ContentPage[] = [
       { question: "Can internal tools include dashboards and reporting?", answer: "Yes. Reporting is often most valuable when it sits on top of better operational data collected through the tool itself." },
     ],
     related: ["problem-internal-tool", "problem-replace-spreadsheets-in-process", "comparison-internal-tool-vs-spreadsheets", "use-case-internal-approval-system", "service-ai-automation-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
+    priorityLinks: [
+      { label: "When an internal tool is better than SaaS", href: "/en/guides/when-an-internal-tool-is-better-than-saas" },
+      { label: "How to manage jobs without Excel", href: "/en/guides/how-to-manage-jobs-without-excel" },
+      { label: "Discuss your project", href: "/en/discuss-your-project" },
+    ],
     fitFor: ["operations-heavy teams replacing spreadsheets and inboxes", "companies with multi-role internal workflows", "buyers who want a long-term internal system instead of patchwork tooling"],
     fitNot: ["single-user micro tools", "projects without a clear process owner on the client side", "simple SaaS purchases with no tailoring requirement"],
   }),
@@ -361,7 +388,7 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-automations-and-integrations",
     locale: "en",
     slug: "automations-and-integrations",
-    title: "Automations and integrations | Bc. Ondřej Halata (halatao.cz)",
+    title: "Automations and integrations | Bc. Ondřej Halata",
     h1: "Automations and integrations for messy business workflows",
     description: "I help companies reduce manual work, connect disconnected systems, and design practical automations that improve operations instead of adding another layer of chaos.",
     primaryQuery: "automations and integrations",
@@ -386,6 +413,11 @@ export const servicePages: ContentPage[] = [
       { question: "What if the real problem is a broken process, not missing automation?", answer: "That is still a useful outcome. It is better to identify a process issue early than to spend money automating something that will remain inefficient." },
     ],
     related: ["problem-system-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-app-for-teams", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "problem-ai-in-business-process", "use-case-ai-intake-triage", "tool-automation-discovery-checklist", "inquiry"],
+    priorityLinks: [
+      { label: "How to automate request processing", href: "/en/guides/how-to-automate-request-processing" },
+      { label: "How to find manual data re-entry", href: "/en/guides/how-to-find-manual-data-reentry" },
+      { label: "Discuss your project", href: "/en/discuss-your-project" },
+    ],
     fitFor: ["companies with manual cross-system work", "teams relying on repetitive status checks or spreadsheet transfers", "buyers who want practical automation, not tooling theatre"],
     fitNot: ["automation with no process ownership", "throwaway scripts with no operational accountability", "no-code licence purchases with no integration strategy"],
   }),
@@ -521,11 +553,11 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-sales-and-job-tracking-system",
     locale: "cs",
     slug: "system-pro-rizeni-poptavek-a-zakazek",
-    title: "Systém pro evidenci poptávek a zakázek ve firmě",
-    h1: "Systém pro evidenci poptávek a zakázek ve firmě",
-    description: "Navrhuji a vyvíjím interní systém pro evidenci poptávek, tvorbu nabídek a řízení realizace zakázek tam, kde dnes proces drží Excel, e-mail a ruční koordinace.",
-    primaryQuery: "evidence poptávek a zakázek",
-    heroTitle: "Mějte poptávky, nabídky a zakázky pod kontrolou na jednom místě",
+    title: "Evidence zakázek a poptávek místo Excelu | Bc. Ondřej Halata",
+    h1: "Evidence zakázek a poptávek místo Excelu a e-mailu",
+    description: "Interní systém pro firmy, které potřebují evidovat poptávky, nabídky a zakázky přehledněji než v Excelu, e-mailech a ruční koordinaci.",
+    primaryQuery: "evidence zakázek v excelu",
+    heroTitle: "Mějte poptávky a zakázky pod kontrolou místo dohledávání v Excelu",
     heroSubtitle: "Konec Excelů, e-mailů a nejasného stavu zakázek. Řešení na míru procesu, který dnes firmu zbytečně brzdí.",
     intro: [
       "Ve většině firem nevzniká chaos proto, že by lidé nechtěli mít pořádek. Vzniká ve chvíli, kdy poptávky, nabídky a realizace žijí v různých tabulkách, e-mailech a hlavách lidí.",
@@ -651,11 +683,11 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-request-offer-delivery-system",
     locale: "cs",
     slug: "system-pro-rizeni-poptavek-nabidek-a-realizace",
-    title: "Systém pro řízení poptávek, nabídek a realizace",
+    title: "Automatizace poptávek, nabídek a realizace | Bc. Ondřej Halata",
     h1: "Systém pro řízení poptávek, nabídek a realizace",
-    description: "Navrhuji a vyvíjím jednoduchý interní systém pro firmy, které potřebují řídit poptávky, nabídky a realizaci zakázek na jednom místě místo tabulek, e-mailů a ruční koordinace.",
-    primaryQuery: "řízení poptávek nabídek a realizace",
-    heroTitle: "Jedno místo pro poptávky, nabídky i realizaci zakázek",
+    description: "Navrhuji a vyvíjím interní systém pro firmy, které potřebují propojit zpracování poptávek, tvorbu nabídek a realizaci zakázek na jednom místě.",
+    primaryQuery: "automatizace zpracování poptávek",
+    heroTitle: "Jeden systém pro poptávky, nabídky i realizaci zakázek",
     heroSubtitle: "Konec rozpadlého procesu mezi Excelem, e-maily a hlavou lidí. Systém navržený podle toho, jak vaše firma skutečně funguje.",
     intro: [
       "Ve spoustě firem nevzniká problém tím, že by chyběla snaha mít pořádek. Problém začíná ve chvíli, kdy poptávky, nabídky a realizace žijí v různých tabulkách, e-mailech a neformálních poznámkách.",
@@ -700,6 +732,11 @@ export const servicePages: ContentPage[] = [
       "use-case-workflow-app-for-teams",
       "use-case-service-team-ops-system",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Příklad: systém pro poptávky, nabídky a realizaci", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci" },
+      { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek" },
+      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",
@@ -765,6 +802,11 @@ export const servicePages: ContentPage[] = [
       "use-case-workflow-app-for-teams",
       "use-case-service-team-ops-system",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Example: system for requests, offers, and delivery", href: "/en/use-cases/system-for-requests-offers-and-delivery" },
+      { label: "How to automate request processing", href: "/en/guides/how-to-automate-request-processing" },
+      { label: "Discuss your project", href: "/en/discuss-your-project" },
     ],
     fitFor: [
       "small teams handling repeatable request-to-delivery work",

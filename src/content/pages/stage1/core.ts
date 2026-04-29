@@ -1,4 +1,4 @@
-﻿// Generated content: home, process, inquiry, contract-support, and thank-you pages. Safe to edit manually.
+// Generated content: home, process, inquiry, contract-support, and thank-you pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
 import type { ContentPage, FAQItem, Locale } from "@/content/types";
@@ -37,7 +37,7 @@ function home(locale: Locale, input: {
     primaryQuery: isCs ? "webové aplikace na míru" : "custom web applications",
     intent: "commercial",
     hero: {
-      eyebrow: isCs ? "Halatao" : "Halatao",
+      eyebrow: "Bc. Ondřej Halata",
       title: input.heroTitle,
       subtitle: input.heroSubtitle,
       primaryCta: { label: isCs ? "Popsat projekt" : "Discuss your project", href: buildInquiryHref(locale) },
@@ -126,7 +126,7 @@ function simplePage(locale: Locale, input: {
     primaryQuery: input.primaryQuery,
     intent: input.pageType === "inquiry" ? "transactional" : "commercial",
     hero: {
-      eyebrow: isCs ? "Halatao" : "Halatao",
+      eyebrow: "Bc. Ondřej Halata",
       title: input.heroTitle,
       subtitle: input.heroSubtitle,
       primaryCta: { label: isCs ? "Popsat projekt" : "Discuss your project", href: buildInquiryHref(locale) },
@@ -147,11 +147,11 @@ function simplePage(locale: Locale, input: {
 
 export const corePages: ContentPage[] = [
   home("cs", {
-    title: "Webové aplikace pro důležité firemní procesy | Bc. Ondřej Halata",
-    h1: "Webové aplikace pro důležité firemní procesy",
-    description: "Návrh, vývoj a rozvoj webových aplikací, interních systémů, integrací, automatizací a takeover projektů pro firmy.",
-    heroTitle: "Navrhuji, vyvíjím a rozvíjím webové aplikace pro důležité firemní procesy.",
-    heroSubtitle: "Pomáhám firmám postavit nový systém, propojit nástroje, automatizovat workflow nebo převzít aplikaci, která potřebuje spolehlivý další rozvoj.",
+    title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
+    h1: "Webové aplikace na míru pro firemní procesy",
+    description: "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
+    heroTitle: "Vyvíjím webové aplikace na míru, interní systémy a automatizace pro firmy.",
+    heroSubtitle: "Pomáhám firmám nahradit ruční práci, propojit systémy, převzít problematickou aplikaci nebo postavit vlastní software pro důležitý proces.",
     intro: [
       "Jsem Ondřej Halata, seniorní webový vývojář.",
       "Do projektů vstupuji jako technický partner pro konkrétní část systému, technického směru nebo realizace. Řeším situace, kde je potřeba pochopit provoz, pomoci udělat klíčová technická rozhodnutí a dotáhnout řešení do stabilního a použitelného stavu.",
@@ -255,7 +255,7 @@ export const corePages: ContentPage[] = [
     pageType: "process",
     slug: "jak-spoluprace-probiha",
     segments: ["jak-spoluprace-probiha"],
-    title: "Jak spolupráce probíhá | Bc. Ondřej Halata (halatao.cz)",
+    title: "Jak spolupráce probíhá | Bc. Ondřej Halata",
     h1: "Jak probíhá spolupráce na projektu",
     description: "Přehled spolupráce od prvního kontaktu přes návrh první etapy až po realizaci a další rozvoj webové aplikace nebo interního systému.",
     primaryQuery: "jak spolupráce probíhá",
@@ -287,7 +287,7 @@ export const corePages: ContentPage[] = [
     pageType: "process",
     slug: "how-project-delivery-works",
     segments: ["how-project-delivery-works"],
-    title: "How project delivery works | Bc. Ondřej Halata (halatao.cz)",
+    title: "How project delivery works | Bc. Ondřej Halata",
     h1: "How project delivery usually works",
     description: "A practical overview of how I approach custom software work, from the first conversation through delivery phases and ongoing improvement.",
     primaryQuery: "how project delivery works",
@@ -319,7 +319,7 @@ export const corePages: ContentPage[] = [
     pageType: "inquiry",
     slug: "popsat-projekt",
     segments: ["popsat-projekt"],
-    title: "Popsat projekt | Bc. Ondřej Halata (halatao.cz)",
+    title: "Popsat projekt | Bc. Ondřej Halata",
     h1: "Popsat projekt a probrat, jestli je spolupráce vhodná",
     description: "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu.",
     primaryQuery: "popsat projekt",
@@ -350,7 +350,7 @@ export const corePages: ContentPage[] = [
     pageType: "inquiry",
     slug: "discuss-your-project",
     segments: ["discuss-your-project"],
-    title: "Discuss your project | Bc. Ondřej Halata (halatao.cz)",
+    title: "Discuss your project | Bc. Ondřej Halata",
     h1: "Discuss your project and assess the fit",
     description: "Send a concise overview of the project, product, or process. I will reply with the most sensible next step and an honest fit assessment.",
     primaryQuery: "discuss your project",
@@ -381,7 +381,7 @@ export const corePages: ContentPage[] = [
     pageType: "service",
     slug: "spoluprace-na-kontrakt",
     segments: ["spoluprace-na-kontrakt"],
-    title: "Externí spolupráce na kontrakt | Bc. Ondřej Halata (halatao.cz)",
+    title: "Externí spolupráce na kontrakt | Bc. Ondřej Halata",
     h1: "Externí spolupráce na kontrakt pro firmy a produktové týmy",
     description: "Seniorní kontraktní spolupráce pro firmy a týmy, které potřebují posílit vývoj, takeover, architekturu nebo delivery v důležité webové aplikaci.",
     primaryQuery: "externí spolupráce na kontrakt",
@@ -413,7 +413,7 @@ export const corePages: ContentPage[] = [
     pageType: "service",
     slug: "contract-development-support",
     segments: ["contract-development-support"],
-    title: "Contract development support | Bc. Ondřej Halata (halatao.cz)",
+    title: "Contract development support | Bc. Ondřej Halata",
     h1: "Contract development support for teams and companies",
     description: "Senior contract development support for companies that need stronger execution, takeover capability, architecture input, or delivery ownership inside an existing product team.",
     primaryQuery: "contract development support",
@@ -471,7 +471,7 @@ export const corePages: ContentPage[] = [
     pageType: "inquiry",
     slug: "thank-you",
     segments: ["discuss-your-project", "thank-you"],
-    title: "Thank you for the message | Bc. Ondřej Halata (halatao.cz)",
+    title: "Thank you for the message | Bc. Ondřej Halata",
     h1: "Thank you. I will follow up with the next step.",
     description: "Confirmation page after project inquiry submission, including the next step, the option to book an introductory call, and guidance for the first conversation.",
     primaryQuery: "thank you project inquiry",

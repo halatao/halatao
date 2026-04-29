@@ -5,7 +5,7 @@ import { AutomationAuditLanding } from "@/components/AutomationAuditLanding";
 import { AutomationThankYou } from "@/components/AutomationThankYou";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getRelatedPages, getSectionChildren } from "@/content/registry";
-import type { ContentPage } from "@/content/types";
+import type { ContentPage, LinkRecord } from "@/content/types";
 import { buildPagePath } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
@@ -264,6 +264,34 @@ function RelatedLinks({ page }: TemplateProps) {
               </Link>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function PriorityLinkGrid({ links }: { links: LinkRecord[] }) {
+  return (
+    <div className="link-grid">
+      {links.map((link) => (
+        <Link className="link-card" href={link.href} key={link.href}>
+          <strong>{link.label}</strong>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+function PriorityLinks({ page }: TemplateProps) {
+  if (!page.priorityLinks?.length) return null;
+  const heading = page.locale === "cs" ? "Doporučený další krok" : "Recommended next step";
+
+  return (
+    <section className="band-section">
+      <div className="band-shell">
+        <div className="content-card related-section">
+          <h2>{heading}</h2>
+          <PriorityLinkGrid links={page.priorityLinks} />
         </div>
       </div>
     </section>
@@ -536,6 +564,7 @@ function GenericTemplate({ page, tone = "default" }: TemplateProps & { tone?: st
       ) : null}
       {page.pageType === "inquiry" ? <InquiryContactBlock page={page} /> : null}
       {page.pageType !== "inquiry" ? <FitBlock page={page} /> : null}
+      <PriorityLinks page={page} />
       <FAQBlock page={page} />
       <RelatedLinks page={page} />
       <CTA page={page} />
@@ -573,7 +602,9 @@ export function HubTemplate({ page }: TemplateProps) {
 }
 
 export function ServiceTemplate({ page }: TemplateProps) {
-  if (page.translationKey === "service-automations-and-integrations" && page.locale === "cs") return <AutomationAuditLanding />;
+  if (page.translationKey === "service-automations-and-integrations" && page.locale === "cs") {
+    return <AutomationAuditLanding locale={page.locale} priorityLinks={page.priorityLinks} faq={page.faq} />;
+  }
   return <GenericTemplate page={page} tone="service" />;
 }
 

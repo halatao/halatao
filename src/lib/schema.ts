@@ -35,7 +35,7 @@ function providerSchema() {
     email: siteConfig.email,
     telephone: siteConfig.phone,
     url: siteConfig.siteUrl,
-    sameAs: [siteConfig.linkedIn, siteConfig.github],
+    sameAs: siteConfig.sameAs,
     availableLanguage: siteConfig.availableLanguages,
     areaServed: serviceAreaSchemas(),
   };
@@ -127,7 +127,7 @@ export function getPageSchemas(page: ContentPage) {
       email: `mailto:${siteConfig.email}`,
       telephone: siteConfig.phone,
       knowsLanguage: siteConfig.availableLanguages,
-      sameAs: [siteConfig.linkedIn, siteConfig.github],
+      sameAs: siteConfig.sameAs,
     });
   }
 

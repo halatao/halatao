@@ -1,4 +1,4 @@
-﻿// Generated content: problem-focused stage 1 pages. Safe to edit manually.
+// Generated content: problem-focused stage 1 pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
 import type { ContentPage, FAQItem, Locale } from "@/content/types";
@@ -180,7 +180,7 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-app-takeover",
     locale: "en",
     slug: "we-need-to-take-over-an-existing-app",
-    title: "We need to take over an existing app | Bc. Ondřej Halata (halatao.cz)",
+    title: "We need to take over an existing app | Bc. Ondřej Halata",
     h1: "We need to take over an existing app safely",
     description: "I help companies take over existing or partially delivered web applications, map delivery risk, and define the next steps without forcing a rewrite first.",
     primaryQuery: "we need to take over an existing app",
@@ -209,7 +209,7 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-internal-tool",
     locale: "en",
     slug: "we-need-an-internal-tool",
-    title: "We need an internal tool | Bc. Ondřej Halata (halatao.cz)",
+    title: "We need an internal tool | Bc. Ondřej Halata",
     h1: "We need an internal tool that improves real operations",
     description: "I help teams scope and build internal tools when a company needs one owned system for workflow, roles, data, and accountability.",
     primaryQuery: "we need an internal tool",
@@ -238,7 +238,7 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-system-integrations",
     locale: "en",
     slug: "we-need-system-integrations",
-    title: "We need system integrations | Bc. Ondřej Halata (halatao.cz)",
+    title: "We need system integrations | Bc. Ondřej Halata",
     h1: "We need system integrations and less manual data handling",
     description: "I help companies connect systems and reduce repetitive manual work where data moves slowly, inconsistently, or with too much human intervention.",
     primaryQuery: "we need system integrations",

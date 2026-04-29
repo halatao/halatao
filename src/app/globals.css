@@ -805,6 +805,7 @@ img {
 .home-reference-card {
   display: grid;
   grid-template-rows: 15.5rem 1fr;
+  min-width: 0;
   overflow: hidden;
   padding: 0;
   border-radius: 1rem;
@@ -814,16 +815,19 @@ img {
   display: grid;
   align-content: start;
   gap: 1rem;
+  min-width: 0;
   padding: 2rem;
 }
 
 .home-reference-body h3 {
   margin: 0;
   min-height: 3.4rem;
+  overflow-wrap: anywhere;
 }
 
 .home-reference-body p {
   min-height: 4.7rem;
+  overflow-wrap: anywhere;
 }
 
 .home-reference-logos {
@@ -911,12 +915,14 @@ img {
 .tag {
   display: inline-flex;
   align-items: center;
+  min-width: 0;
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   background: #f1f5f9;
   color: #334155;
   font-size: 0.875rem;
   font-weight: 500;
+  overflow-wrap: anywhere;
 }
 
 .home-faq-section {
@@ -1369,6 +1375,42 @@ img {
 
   .logo-featured-svg {
     max-width: 19rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .home-services-grid,
+  .home-references-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-service-card h4 {
+    font-size: 1.2rem;
+  }
+
+  .home-reference-card {
+    grid-template-rows: auto 1fr;
+  }
+
+  .home-reference-logos-inline {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .home-reference-logos-inline .logo-chip {
+    min-height: 6rem;
+  }
+
+  .home-reference-logos-inline .logo {
+    max-height: 3.75rem;
+    opacity: 0.9;
+  }
+
+  .home-reference-body h3,
+  .home-reference-body p {
+    min-height: 0;
   }
 }
 
