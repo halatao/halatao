@@ -15,16 +15,16 @@ export default function NotFound() {
           služeb.
         </p>
         <div className="hero-actions">
-          <Link className="button button-primary" href="/cs">
+          <Link className="button button-primary" href="/cs/">
             Čeština
           </Link>
-          <Link className="button button-secondary" href="/en">
+          <Link className="button button-secondary" href="/en/">
             English
           </Link>
-          <Link className="button button-secondary" href="/cs/sluzby">
+          <Link className="button button-secondary" href="/cs/sluzby/">
             Služby
           </Link>
-          <Link className="button button-secondary" href="/en/services">
+          <Link className="button button-secondary" href="/en/services/">
             Services
           </Link>
         </div>

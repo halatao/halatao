@@ -27,11 +27,11 @@ export function RootChooser() {
   const router = useRouter();
 
   useEffect(() => {
-    router.prefetch("/cs");
-    router.prefetch("/en");
+    router.prefetch("/cs/");
+    router.prefetch("/en/");
 
     const targetLocale = detectPreferredLocale();
-    router.replace(targetLocale === "cs" ? "/cs" : "/en");
+    router.replace(targetLocale === "cs" ? "/cs/" : "/en/");
   }, [router]);
 
   return (
@@ -59,10 +59,10 @@ export function RootChooser() {
               JavaScript is required for automatic redirect. You can continue manually below.
             </p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/cs">
+              <Link className="button button-primary" href="/cs/">
                 Čeština
               </Link>
-              <Link className="button button-secondary" href="/en">
+              <Link className="button button-secondary" href="/en/">
                 English
               </Link>
             </div>

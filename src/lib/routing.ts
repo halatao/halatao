@@ -14,7 +14,7 @@ const sectionLabels: Record<Locale, Record<string, string>> = {
     technologie: "Technologie",
     sablony: "Šablony",
     lokality: "Lokality",
-    "popsat-projekt": "Popsat projekt",
+    "popsat-projekt": "Popsat situaci",
   },
   en: {
     services: "Services",
@@ -26,13 +26,13 @@ const sectionLabels: Record<Locale, Record<string, string>> = {
     technology: "Technology",
     templates: "Templates",
     locations: "Locations",
-    "discuss-your-project": "Discuss your project",
+    "discuss-your-project": "Describe situation",
   },
 };
 
 export function buildLocalizedPath(locale: Locale, segments: string[] = []) {
   const base = `/${locale}`;
-  return segments.length === 0 ? base : `${base}/${segments.join("/")}`;
+  return segments.length === 0 ? `${base}/` : `${base}/${segments.join("/")}/`;
 }
 
 export function buildPagePath(page: ContentPage) {
@@ -41,6 +41,20 @@ export function buildPagePath(page: ContentPage) {
 
 export function absoluteUrl(path: string) {
   return `${siteConfig.siteUrl}${path}`;
+}
+
+export function normalizeInternalHref(href: string) {
+  if (!href.startsWith("/") || href === "/") {
+    return href;
+  }
+
+  const [pathWithQuery, hash] = href.split("#", 2);
+  const [path, query] = pathWithQuery.split("?", 2);
+  const normalizedPath = path.endsWith("/") ? path : `${path}/`;
+  const normalizedQuery = query ? `?${query}` : "";
+  const normalizedHash = hash ? `#${hash}` : "";
+
+  return `${normalizedPath}${normalizedQuery}${normalizedHash}`;
 }
 
 export function getSectionLabel(locale: Locale, segment: string) {

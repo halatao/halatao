@@ -242,6 +242,7 @@ img {
 }
 
 .page-contact-layout .intro-card,
+.page-contact-layout .form-card,
 .page-contact-layout .inquiry-contact-card,
 .page-contact-layout .faq-section,
 .page-contact-layout .content-grid-emphasis {
@@ -266,6 +267,115 @@ img {
 
 .page-contact-layout .intro-card p + p {
   margin-top: 1.25rem;
+}
+
+.page-contact-layout .form-card {
+  padding: 2.5rem;
+}
+
+.form-copy {
+  max-width: 42rem;
+  margin-bottom: 2rem;
+}
+
+.form-copy h2 {
+  margin: 0 0 1rem;
+  color: #0f172a;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  line-height: 1.15;
+}
+
+.form-copy p {
+  margin: 0;
+  color: #475569;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.inquiry-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.inquiry-form label {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+  color: #0f172a;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.inquiry-form .form-field-wide,
+.inquiry-form .form-error,
+.inquiry-form .button {
+  grid-column: 1 / -1;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.875rem;
+  background: #ffffff;
+  color: #0f172a;
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.inquiry-form input {
+  min-height: 3.25rem;
+  padding: 0.8rem 1rem;
+}
+
+.inquiry-form textarea {
+  min-height: 11rem;
+  padding: 1rem;
+  resize: vertical;
+}
+
+.inquiry-form input:focus,
+.inquiry-form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.14);
+}
+
+.inquiry-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+.inquiry-form .button {
+  justify-self: start;
+  border: 0;
+  cursor: pointer;
+}
+
+.inquiry-form .button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+  transform: none;
+}
+
+.form-error {
+  margin: 0;
+  color: #b91c1c;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
 }
 
 .page-contact-layout .inquiry-contact-card {
@@ -475,6 +585,7 @@ img {
   padding: 0.875rem 2rem;
   border-radius: 0.5rem;
   border: 1px solid transparent;
+  font: inherit;
   font-weight: 500;
   transition: all 0.2s ease;
   text-align: center;
@@ -804,7 +915,7 @@ img {
 
 .home-reference-card {
   display: grid;
-  grid-template-rows: 15.5rem 1fr;
+  grid-template-rows: auto 1fr;
   min-width: 0;
   overflow: hidden;
   padding: 0;
@@ -833,7 +944,7 @@ img {
 .home-reference-logos {
   display: grid;
   align-content: center;
-  min-height: 15.5rem;
+  height: 21.75rem;
   padding: 2rem;
   background: #f1f5f9;
   border-bottom: 1px solid #e2e8f0;
@@ -842,17 +953,24 @@ img {
 .home-reference-logos-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   align-items: stretch;
   justify-items: stretch;
 }
 
+.home-reference-logos-featured {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: stretch;
+}
+
 .home-reference-logos-inline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding-inline: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-content: stretch;
+  align-items: stretch;
+  justify-items: stretch;
 }
 
 .logo-chip {
@@ -880,6 +998,109 @@ img {
   padding-inline: 1.75rem;
 }
 
+.home-reference-logos-featured .logo-chip {
+  padding-block: 0.75rem;
+}
+
+.logo-chip-app {
+  justify-content: center;
+  gap: 1rem;
+  color: #111827;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.logo-app-mark {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.logo-app-name {
+  min-width: 0;
+  color: currentColor;
+  font-size: 1.45rem;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.logo-app-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: 0;
+}
+
+.logo-chip-emamky .logo-app-mark {
+  border-radius: 999px;
+  background: #ad4b05;
+}
+
+.logo-chip-emamky .logo-app-name {
+  color: #1f2937;
+}
+
+.logo-chip-novinex .logo-app-mark {
+  border-radius: 0;
+  background: #1f2937;
+}
+
+.logo-chip-novinex .logo-app-name {
+  color: #111827;
+}
+
+.logo-chip-relio {
+  position: relative;
+  justify-content: center;
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #111827;
+}
+
+.logo-chip-demo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.logo-chip-relio .logo-app-mark {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.7rem;
+  background: #17a34a;
+}
+
+.logo-chip-relio .logo-app-name {
+  color: #111827;
+  font-size: 1.3rem;
+}
+
+.logo-chip-badge {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 0.65rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
 .logo {
   display: block;
   max-width: 100%;
@@ -892,7 +1113,7 @@ img {
 }
 
 .logo-featured {
-  max-height: 6.25rem;
+  max-height: 3.55rem;
   opacity: 1;
   filter: none;
 }
@@ -1039,17 +1260,28 @@ img {
 }
 
 .inquiry-contact-card .contact-links {
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 1.5rem;
+  gap: 1rem;
 }
 
 .inquiry-contact-card .contact-links a {
+  justify-content: center;
   min-height: 3.5rem;
   padding: 0.9rem 1.25rem;
   border: 1px solid #dbeafe;
   border-radius: 0.875rem;
   background: #f8fbff;
   box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.inquiry-contact-card .contact-divider {
+  display: none;
+}
+
+.inquiry-contact-card .contact-links a:last-child {
+  grid-column: 1 / -1;
 }
 
 .contact-icon {
@@ -1369,16 +1601,24 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
-  .home-reference-logos-grid {
-    grid-template-columns: 1fr;
-  }
-
   .logo-featured-svg {
     max-width: 19rem;
   }
 }
 
 @media (max-width: 860px) {
+  .page-contact-layout .form-card {
+    padding: 1.5rem;
+  }
+
+  .inquiry-form {
+    grid-template-columns: 1fr;
+  }
+
+  .inquiry-form .button {
+    justify-self: stretch;
+  }
+
   .home-services-grid,
   .home-references-grid {
     grid-template-columns: 1fr;
@@ -1393,14 +1633,7 @@ img {
   }
 
   .home-reference-logos-inline {
-    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    padding: 1.5rem;
-  }
-
-  .home-reference-logos-inline .logo-chip {
-    min-height: 6rem;
   }
 
   .home-reference-logos-inline .logo {
@@ -1411,6 +1644,19 @@ img {
   .home-reference-body h3,
   .home-reference-body p {
     min-height: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-reference-logos {
+    height: auto;
+  }
+
+  .home-reference-logos-grid,
+  .home-reference-logos-featured,
+  .home-reference-logos-inline {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
   }
 }
 
@@ -1443,10 +1689,61 @@ img {
 
   .hero-actions {
     flex-direction: column;
+    margin-top: 1.25rem;
   }
 
   .button {
     width: 100%;
+  }
+
+  .home-hero-section {
+    padding: 2.75rem 0 3rem;
+  }
+
+  .home-about-section,
+  .home-services-section,
+  .home-proof-section,
+  .home-references-section,
+  .home-faq-section {
+    padding: 3rem 0;
+  }
+
+  .home-dark-section {
+    padding: 3.25rem 0;
+  }
+
+  .home-contact-section {
+    padding: 3.5rem 0;
+  }
+
+  .section-title {
+    margin-bottom: 1rem;
+  }
+
+  .home-section-intro {
+    margin-bottom: 1.5rem;
+  }
+
+  .home-dark-intro {
+    margin-bottom: 2rem;
+  }
+
+  .home-proof-list {
+    margin-top: 1.25rem;
+  }
+
+  .home-services-grid,
+  .home-references-grid,
+  .home-faq-grid {
+    gap: 1rem;
+  }
+
+  .home-faq-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-shell > p {
+    margin-bottom: 1.5rem;
   }
 
   .chooser-skeleton-actions {
@@ -1498,6 +1795,7 @@ img {
   }
 
   .inquiry-contact-card .contact-links {
+    grid-template-columns: 1fr;
     justify-content: stretch;
   }
 

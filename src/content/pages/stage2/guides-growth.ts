@@ -44,7 +44,7 @@ function guide(seed: GuideSeed): ContentPage {
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: isCs ? "Probrat zadání" : "Discuss your project",
+        label: isCs ? "Probrat zadání" : "Describe situation",
         href: buildInquiryHref(seed.locale),
       },
     },
@@ -87,12 +87,12 @@ function guide(seed: GuideSeed): ContentPage {
     fit: { for: seed.fitFor, notFor: seed.fitNot },
     cta: isCs
       ? {
-          label: "Popsat projekt",
+          label: "Popsat situaci",
           href: "/cs/popsat-projekt",
           note: "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {
-          label: "Discuss your project",
+          label: "Describe situation",
           href: "/en/discuss-your-project",
           note: "If the guide matches a live project decision, a short summary is enough to continue.",
         },
@@ -359,10 +359,10 @@ export const growthGuidePages: ContentPage[] = [
     translationKey: "guide-when-ai-integration-makes-sense",
     locale: "cs",
     slug: "kdy-dava-smysl-ai-ve-firme",
-    title: "Kdy dává smysl AI ve firmě a kdy ne",
+    title: "Kdy dává smysl AI ve firmě a kdy začít automatizací",
     h1: "Kdy dává smysl AI ve firmě a kdy ne",
     description:
-      "Praktický průvodce pro firmy, které zvažují AI ve firemním procesu a chtějí rozlišit, kdy dává smysl jako rozšíření workflow, dokumentů nebo automatizace a kdy jen přidá další složitost.",
+      "Praktický návod, jak poznat, kde AI ve firemním procesu opravdu pomůže, kdy stačí automatizace workflow a kdy by AI jen přidala další složitost.",
     primaryQuery: "kdy dává smysl ai ve firmě",
     heroTitle: "AI není řešení na všechno. Hodnotu má až v procesu, který už má nějaký tvar.",
     heroSubtitle:

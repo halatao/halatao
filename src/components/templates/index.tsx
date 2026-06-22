@@ -2,42 +2,42 @@
 import Link from "next/link";
 
 import { AutomationAuditLanding } from "@/components/AutomationAuditLanding";
-import { AutomationThankYou } from "@/components/AutomationThankYou";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { InquiryForm } from "@/components/InquiryForm";
 import { getRelatedPages, getSectionChildren } from "@/content/registry";
 import type { ContentPage, LinkRecord } from "@/content/types";
-import { buildPagePath } from "@/lib/routing";
+import { buildPagePath, normalizeInternalHref } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
 type TemplateProps = { page: ContentPage };
 
 const homeDescriptions = {
   cs: [
-    "Návrh a vývoj aplikace pro proces, který už běžné nástroje nepokrývají.",
-    "Rozvoj, zjednodušení nebo stabilizace systému, který má dál sloužit provozu.",
-    "Propojení interních nástrojů, dat a externích systémů bez zbytečné ruční práce.",
-    "Automatizace workflow nebo seniorní zapojení do důležité fáze projektu.",
+    "Návrh a vývoj řešení, které odpovídá reálnému procesu a lidem, kteří ho používají.",
+    "Úpravy, opravy a zjednodušení existujícího systému, který už firma používá.",
+    "Propojení firemních nástrojů, dat a automatizací tak, aby práce nebyla zbytečně roztříštěná.",
+    "Automatizace opakované práce a praktické využití AI tam, kde přináší skutečnou hodnotu.",
   ],
   en: [
-    "Design and build an application for a process that standard tools no longer cover.",
-    "Improve, simplify, or stabilise a system that needs to keep supporting operations.",
-    "Connect internal tools, data, and external systems without unnecessary manual work.",
-    "Automate workflows or add senior involvement to an important project phase.",
+    "Design and development of a solution that fits the real process and the people using it.",
+    "Changes, fixes and simplification of an existing system the company already uses.",
+    "Connecting business tools, data and automation so work is not unnecessarily fragmented.",
+    "Automation of repetitive work and practical use of AI where it brings real value.",
   ],
 };
 
 const homeTargets = {
   cs: [
-    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru",
-    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace",
-    "/cs/sluzby/automatizace-a-integrace",
-    "/cs/spoluprace-na-kontrakt",
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+    "/cs/sluzby/automatizace-a-integrace/",
+    "/cs/spoluprace-na-kontrakt/",
   ],
   en: [
-    "/en/services/custom-web-application-development",
-    "/en/services/existing-app-takeover",
-    "/en/services/automations-and-integrations",
-    "/en/contract-development-support",
+    "/en/services/custom-web-application-development/",
+    "/en/services/existing-app-takeover/",
+    "/en/services/automations-and-integrations/",
+    "/en/contract-development-support/",
   ],
 };
 
@@ -50,20 +50,20 @@ const logos = [
 
 const refContent = {
   cs: {
-    featuredTitle: "End-to-end realizace aplikací",
-    featuredDescription: "Projekty s odpovědností za celý životní cyklus: architektura, vývoj, nasazení i dlouhodobý provoz.",
-    featuredTags: ["full-stack", "architektura", "deployment", "provoz"],
-    teamTitle: "Týmový vývoj a spolupráce",
-    teamDescription: "Spolupráce na komerčních projektech ve vývojových týmech a navazování na existující delivery setup.",
-    teamTags: ["full-stack", "týmová spolupráce", "takeover", "delivery"],
+    featuredTitle: "Přímé klientské a vlastní projekty",
+    featuredDescription: "Weby, aplikace a automatizační nástroje, které jsem navrhoval, vyvíjel, nasazoval nebo dlouhodobě provozoval.",
+    featuredTags: ["weby", "aplikace", "automatizace", "provoz"],
+    teamTitle: "Kontraktorská spolupráce v týmech",
+    teamDescription: "Vývoj a údržba existujících systémů v týmech firem a software housů.",
+    teamTags: ["kontrakt", "týmový vývoj", "údržba", "legacy"],
   },
   en: {
-    featuredTitle: "End-to-end application delivery",
-    featuredDescription: "Projects with ownership across the full lifecycle: architecture, implementation, deployment, and long-term operation.",
-    featuredTags: ["full-stack", "architecture", "deployment", "operations"],
-    teamTitle: "Team delivery and collaboration",
-    teamDescription: "Commercial project work inside delivery teams and on top of existing engineering processes.",
-    teamTags: ["full-stack", "team collaboration", "takeover", "delivery"],
+    featuredTitle: "Direct client and own projects",
+    featuredDescription: "Websites, applications and automation tools that I designed, developed, deployed or operated long-term.",
+    featuredTags: ["websites", "applications", "automation", "operations"],
+    teamTitle: "Contractor cooperation in teams",
+    teamDescription: "Development and maintenance of existing systems inside company and software house teams.",
+    teamTags: ["contracting", "team delivery", "maintenance", "legacy"],
   },
 };
 
@@ -86,7 +86,7 @@ const calendar = (c: string) => icon("M8 7V3m8 4V3m-9 8h10m-11 9h12a2 2 0 002-2V
 
 function resolvePrimaryActionHref(page: ContentPage) {
   if (page.pageType === "inquiry" && page.translationKey === "inquiry") {
-    return `mailto:${siteConfig.email}`;
+    return "#project-inquiry-form";
   }
 
   return page.cta.href;
@@ -123,11 +123,11 @@ function PageLead({ page, tone = "default" }: TemplateProps & { tone?: string })
         <h1>{page.hero.title}</h1>
         <p className="hero-copy">{page.hero.subtitle}</p>
         <div className="hero-actions">
-          <Link className="button button-primary" href={primaryHref}>
+          <Link className="button button-primary" href={normalizeInternalHref(primaryHref)}>
             {page.hero.primaryCta.label}
           </Link>
           {page.hero.secondaryCta ? (
-            <Link className="button button-secondary" href={page.hero.secondaryCta.href}>
+            <Link className="button button-secondary" href={normalizeInternalHref(page.hero.secondaryCta.href)}>
               {page.hero.secondaryCta.label}
             </Link>
           ) : null}
@@ -205,11 +205,11 @@ function InquiryContactBlock({ page }: TemplateProps) {
     <section className="band-section">
       <div className="band-shell">
         <div className="content-card inquiry-contact-card">
-          <h2>{page.locale === "cs" ? "Kontakt" : "Contact"}</h2>
+          <h2>{page.locale === "cs" ? "Raději se ozvete přímo?" : "Prefer to contact me directly?"}</h2>
           <p>
             {page.locale === "cs"
-              ? "Nejrychlejší je napsat stručný kontext e-mailem nebo rovnou zavolat."
-              : "The fastest option is to send a concise project summary by email or call directly."}
+              ? "Můžete také napsat e-mail, zavolat nebo si rovnou naplánovat krátkou úvodní schůzku."
+              : "You can also send an e-mail, call me or book a short intro call."}
           </p>
           <div className="contact-links">
             <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
@@ -218,7 +218,7 @@ function InquiryContactBlock({ page }: TemplateProps) {
             <span className="contact-divider" aria-hidden="true">|</span>
             <a href={siteConfig.calendly} target="_blank" rel="noreferrer">
               {calendar("contact-icon")}
-              <span>{page.locale === "cs" ? "Naplánovat schůzku" : "Book a call"}</span>
+              <span>{page.locale === "cs" ? "naplánovat schůzku" : "book a call"}</span>
             </a>
           </div>
         </div>
@@ -239,7 +239,7 @@ function CTA({ page }: TemplateProps) {
             <h2>{page.locale === "cs" ? "Máte podobnou situaci?" : "Have a similar situation?"}</h2>
             <p>{page.cta.note}</p>
           </div>
-          <Link className="button button-primary" href={primaryHref}>
+          <Link className="button button-primary" href={normalizeInternalHref(primaryHref)}>
             {page.cta.label}
           </Link>
         </div>
@@ -274,7 +274,7 @@ function PriorityLinkGrid({ links }: { links: LinkRecord[] }) {
   return (
     <div className="link-grid">
       {links.map((link) => (
-        <Link className="link-card" href={link.href} key={link.href}>
+        <Link className="link-card" href={normalizeInternalHref(link.href)} key={link.href}>
           <strong>{link.label}</strong>
         </Link>
       ))}
@@ -307,8 +307,8 @@ function HomeTemplateBody({ page }: TemplateProps) {
   const engagement = page.sections[5];
   const ref = page.locale === "cs" ? refContent.cs : refContent.en;
   const referenceSupportCopy = page.locale === "cs"
-    ? "Typicky jde o interní systémy, klientské portály, integrační logiku, automatizace workflow, takeover nebo další rozvoj existujících aplikací."
-    : "Typical work includes internal systems, client portals, integration logic, workflow automation, takeover, and ongoing development of existing applications.";
+    ? "Některé projekty jsou veřejné, jiné kvůli charakteru spolupráce prezentuji jen formou doménové zkušenosti a typu řešených systémů."
+    : "Some projects are public, while others are presented only through domain experience and the type of systems I worked on.";
 
   return (
     <>
@@ -318,11 +318,11 @@ function HomeTemplateBody({ page }: TemplateProps) {
             <h1>{page.hero.title}</h1>
             <p>{page.hero.subtitle}</p>
             <div className="hero-actions">
-              <Link className="button button-primary" href={page.cta.href}>
-                {page.locale === "cs" ? "Popsat projekt" : "Describe project"}
+              <Link className="button button-primary" href={normalizeInternalHref(page.cta.href)}>
+                {page.locale === "cs" ? "Popsat situaci" : "Describe situation"}
               </Link>
               {page.hero.secondaryCta ? (
-                <Link className="button button-secondary" href={page.hero.secondaryCta.href}>
+                <Link className="button button-secondary" href={normalizeInternalHref(page.hero.secondaryCta.href)}>
                   {page.hero.secondaryCta.label}
                 </Link>
               ) : null}
@@ -335,7 +335,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-about-copy">
             <h2 className="section-kicker">{page.locale === "cs" ? "O mně" : "About"}</h2>
-            <h3 className="section-title">{page.locale === "cs" ? "Seniorní technický partner pro vývoj, převzetí a rozvoj firemních webových aplikací." : "Senior technical partner for building, taking over, and improving business web applications."}</h3>
+            <h3 className="section-title">{page.locale === "cs" ? "Technický partner pro weby, aplikace a automatizace." : "Technical partner for websites, applications and automation."}</h3>
             <div className="section-copy">
               {page.intro.map((p) => (
                 <p key={p}>{p}</p>
@@ -355,7 +355,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
           </div>
           <div className="home-services-grid">
             {services.map((service, i) => (
-              <Link className="home-service-card" href={homeTargets[page.locale][i]} key={service}>
+              <Link className="home-service-card" href={normalizeInternalHref(homeTargets[page.locale][i])} key={service}>
                 <h4>{service}</h4>
                 <p>{homeDescriptions[page.locale][i]}</p>
               </Link>
@@ -441,11 +441,11 @@ function HomeTemplateBody({ page }: TemplateProps) {
         <div className="shell">
           <div className="home-section-intro">
             <h2 className="section-kicker">{page.locale === "cs" ? "Projekty a reference" : "Projects and references"}</h2>
-            <p className="section-lead">{page.locale === "cs" ? "Pracuji na projektech, kde software není jen prezentační vrstva, ale součást reálného provozu firmy." : "I work on projects where software is not just a presentation layer, but part of how the company operates."}</p>
+            <p className="section-lead">{page.locale === "cs" ? "Pracuji jak na přímých klientských a vlastních projektech, tak kontraktorsky v týmech firem a software housů." : "I work on direct client and own projects, as well as contractor-based cooperation inside company and software house teams."}</p>
             <p className="section-lead">{referenceSupportCopy}</p>
           </div>
           <div className="home-references-grid">
-            <div className="home-reference-card">
+            <div className="home-reference-card home-reference-card-featured">
               <div className="home-reference-logos home-reference-logos-grid home-reference-logos-featured">
                 <a
                   className="logo-chip"
@@ -478,6 +478,39 @@ function HomeTemplateBody({ page }: TemplateProps) {
                       <tspan dx="10" fill="#2563EB">AI</tspan>
                     </text>
                   </svg>
+                </a>
+                <a
+                  className="logo-chip logo-chip-app logo-chip-emamky"
+                  href="https://emamky.cz/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="eMamky.cz"
+                >
+                  <span className="logo-app-mark" aria-hidden="true">E</span>
+                  <span className="logo-app-name">eMamky</span>
+                </a>
+                <a
+                  className="logo-chip logo-chip-app logo-chip-novinex"
+                  href="https://novinex.cz/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Novinex.cz"
+                >
+                  <span className="logo-app-mark" aria-hidden="true">N</span>
+                  <span className="logo-app-name">Novinex</span>
+                </a>
+                <a
+                  className="logo-chip logo-chip-app logo-chip-relio logo-chip-demo"
+                  href="https://crm.halatao.cz/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="RelioCRM demo"
+                >
+                  <span className="logo-chip-badge">DEMO</span>
+                  <span className="logo-app-lockup">
+                    <span className="logo-app-mark" aria-hidden="true">R</span>
+                    <span className="logo-app-name">RelioCRM</span>
+                  </span>
                 </a>
               </div>
               <div className="home-reference-body">
@@ -528,7 +561,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
       <section className="home-contact-section" id="contact">
         <div className="shell contact-shell">
           <h2>{page.locale === "cs" ? "Máte konkrétní projekt nebo situaci?" : "Do you have a specific project or situation?"}</h2>
-          <p>{page.locale === "cs" ? "Napište pár vět. Navrhnu další krok nebo řeknu otevřeně, pokud spolupráce nebude dávat smysl." : "Send a short description. I will suggest the next step or say directly if the collaboration is not a good fit."}</p>
+          <p>{page.locale === "cs" ? "Napište pár vět o tom, co potřebujete zjednodušit, vyvinout nebo propojit. Ozvu se s návrhem dalšího rozumného kroku." : "Write a few sentences about what you need to simplify, build or connect. I will get back to you with a reasonable next step."}</p>
           <div className="contact-links">
             <a href={`mailto:${siteConfig.email}`}>{mail("contact-icon")}<span>{siteConfig.email}</span></a>
             <span className="contact-divider" aria-hidden="true">|</span>
@@ -540,8 +573,8 @@ function HomeTemplateBody({ page }: TemplateProps) {
             </a>
           </div>
           <div className="contact-cta">
-            <Link className="button button-dark" href={page.cta.href}>
-              {page.locale === "cs" ? "Popsat projekt" : "Describe project"}
+            <Link className="button button-dark" href={normalizeInternalHref(page.cta.href)}>
+              {page.locale === "cs" ? "Popsat situaci" : "Describe situation"}
             </Link>
           </div>
         </div>
@@ -619,26 +652,44 @@ export function LocationTemplate({ page }: TemplateProps) { return <GenericTempl
 export function ProcessTemplate({ page }: TemplateProps) { return <GenericTemplate page={page} tone="process" />; }
 
 export function InquiryTemplate({ page }: TemplateProps) {
-  if (page.translationKey === "thank-you" && page.locale === "cs") return <AutomationThankYou />;
+  const isInquiryPage = page.translationKey === "inquiry";
+
   return (
     <BaseStack className="page-stack-generic page-type-inquiry page-contact-layout">
       <PageLead page={page} tone="inquiry" />
       <Intro page={page} />
-      <section className="band-section">
-        <div className="band-shell">
-          <div className="content-grid content-grid-emphasis">
-            <article className="content-card">
-              <h2>{page.locale === "cs" ? "Kdy je projekt silný fit" : "When the project is a strong fit"}</h2>
-              <ul className="bullet-list">{page.fit.for.map((i) => <li key={i}>{i}</li>)}</ul>
-            </article>
-            <article className="content-card">
-              <h2>{page.locale === "cs" ? "Kdy je lepší říct ne" : "When it is better to say no"}</h2>
-              <ul className="bullet-list">{page.fit.notFor.map((i) => <li key={i}>{i}</li>)}</ul>
-            </article>
+      {isInquiryPage ? (
+        <>
+          <section className="band-section">
+            <div className="band-shell">
+              <InquiryForm locale={page.locale} />
+            </div>
+          </section>
+          <InquiryContactBlock page={page} />
+        </>
+      ) : (
+        <section className="band-section">
+          <div className="band-shell">
+            <div className="content-grid">{renderSections(page)}</div>
           </div>
-        </div>
-      </section>
-      {page.translationKey === "inquiry" ? <InquiryContactBlock page={page} /> : null}
+        </section>
+      )}
+      {isInquiryPage ? (
+        <section className="band-section">
+          <div className="band-shell">
+            <div className="content-grid content-grid-emphasis">
+              <article className="content-card">
+                <h2>{page.locale === "cs" ? "S čím dává smysl se ozvat" : "When it makes sense to reach out"}</h2>
+                <ul className="bullet-list">{page.fit.for.map((i) => <li key={i}>{i}</li>)}</ul>
+              </article>
+              <article className="content-card">
+                <h2>{page.locale === "cs" ? "Co typicky neřeším" : "What I usually do not take on"}</h2>
+                <ul className="bullet-list">{page.fit.notFor.map((i) => <li key={i}>{i}</li>)}</ul>
+              </article>
+            </div>
+          </div>
+        </section>
+      ) : null}
       <FAQBlock page={page} />
     </BaseStack>
   );

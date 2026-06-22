@@ -41,7 +41,7 @@ function hub(seed: HubSeed): ContentPage {
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: isCs ? "Popsat projekt" : "Discuss your project",
+        label: isCs ? "Popsat situaci" : "Describe situation",
         href: buildInquiryHref(seed.locale),
       },
     },
@@ -78,12 +78,12 @@ function hub(seed: HubSeed): ContentPage {
     },
     cta: isCs
       ? {
-          label: "Popsat projekt",
+          label: "Popsat situaci",
           href: "/cs/popsat-projekt",
           note: "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {
-          label: "Discuss your project",
+          label: "Describe situation",
           href: "/en/discuss-your-project",
           note: "If this section matches a live project decision, a short summary is enough to continue.",
         },
@@ -99,7 +99,7 @@ export const stage2HubPages: ContentPage[] = [
     locale: "cs",
     slug: "srovnani",
     segment: "srovnani",
-    title: "Srovnání pro software rozhodnutí a výběr modelu spolupráce | Bc. Ondřej Halata",
+    title: "Srovnání pro software rozhodnutí a spolupráci",
     h1: "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
     description: "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace.",
     heroTitle: "Rozhodovací stránky pro chvíli, kdy nestačí obecný názor z internetu",
@@ -137,7 +137,7 @@ export const stage2HubPages: ContentPage[] = [
     locale: "en",
     slug: "comparisons",
     segment: "comparisons",
-    title: "Comparisons for software buying and delivery decisions | Bc. Ondřej Halata",
+    title: "Comparisons for software buying decisions",
     h1: "Comparison pages for buyers making a real software decision",
     description: "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement.",
     heroTitle: "Decision support when generic internet advice is not enough",
@@ -175,7 +175,7 @@ export const stage2HubPages: ContentPage[] = [
     locale: "cs",
     slug: "priklady",
     segment: "priklady",
-    title: "Příklady řešení: portály, interní systémy, dashboardy a workflow | Bc. Ondřej Halata",
+    title: "Příklady řešení: portály, interní systémy a workflow",
     h1: "Příklady typů aplikací, které dávají ve firmách největší smysl",
     description: "Přehled use-case stránek pro klientské portály, interní systémy, dashboardy, schvalovací workflow, AI práci s dokumenty a další typické business aplikace.",
     heroTitle: "Příklady řešení jako rozhodovací pomůcka, ne galerie screenshotů",

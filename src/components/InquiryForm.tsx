@@ -8,25 +8,29 @@ import { buildThankYouHref } from "@/content/builders";
 
 const copy = {
   cs: {
-    heading: "Popsat projekt",
+    heading: "Popis situace",
+    description: "Stačí pár vět. Nemusíte mít hotové zadání ani technický rozsah.",
+    name: "Jméno",
     email: "E-mail",
-    company: "Firma",
-    role: "Role / tým",
-    message: "Co dnes řešíte",
-    submit: "Odeslat projektový kontext",
+    company: "Firma / web",
+    message: "Co potřebujete vyřešit?",
+    placeholder: "Například: máme web, který se špatně spravuje; potřebujeme interní evidenci; chceme propojit systémy; potřebujeme převzít existující aplikaci…",
+    submit: "Odeslat popis situace",
     pending: "Odesílám…",
-    note: "Stačí stručně popsat situaci, očekávaný výsledek a případná omezení.",
+    success: "Děkuji, zprávu mám. Ozvu se s návrhem dalšího rozumného kroku.",
     error: "Odeslání se nepovedlo. Zkuste to prosím znovu nebo napište přímo na e-mail.",
   },
   en: {
-    heading: "Project context",
-    email: "Email",
-    company: "Company",
-    role: "Role / team",
-    message: "What are you dealing with today",
-    submit: "Send project context",
+    heading: "Situation description",
+    description: "A few sentences are enough. You do not need a complete specification or technical scope.",
+    name: "Name",
+    email: "E-mail",
+    company: "Company / website",
+    message: "What do you need to solve?",
+    placeholder: "For example: we have a website that is hard to manage; we need an internal system; we want to connect tools; we need to take over an existing application…",
+    submit: "Send situation description",
     pending: "Sending…",
-    note: "A concise summary of the situation, desired outcome, and constraints is enough.",
+    success: "Thank you, I have received your message. I will get back to you with a reasonable next step.",
     error: "The message could not be sent. Please try again or reach out directly by email.",
   },
 } as const;
@@ -50,9 +54,9 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     }
 
     const payload = {
+      name: formData.get("name"),
       email: formData.get("email"),
       company: formData.get("company"),
-      role: formData.get("role"),
       message: formData.get("message"),
       locale,
     };
@@ -80,25 +84,25 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     <section className="content-card form-card" id="project-inquiry-form">
       <div className="form-copy">
         <h2>{labels.heading}</h2>
-        <p>{labels.note}</p>
+        <p>{labels.description}</p>
       </div>
       <form className="inquiry-form" onSubmit={onSubmit}>
         <input aria-hidden="true" autoComplete="off" className="honeypot" name="website" tabIndex={-1} />
+        <label>
+          <span>{labels.name}</span>
+          <input name="name" required type="text" />
+        </label>
         <label>
           <span>{labels.email}</span>
           <input name="email" required type="email" />
         </label>
         <label>
           <span>{labels.company}</span>
-          <input name="company" required type="text" />
+          <input name="company" type="text" />
         </label>
-        <label>
-          <span>{labels.role}</span>
-          <input name="role" type="text" />
-        </label>
-        <label>
+        <label className="form-field-wide">
           <span>{labels.message}</span>
-          <textarea name="message" required rows={6} />
+          <textarea name="message" placeholder={labels.placeholder} required rows={6} />
         </label>
         {error ? <p className="form-error">{error}</p> : null}
         <button className="button button-primary" disabled={pending} type="submit">

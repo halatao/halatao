@@ -42,7 +42,7 @@ function location(seed: LocationSeed): ContentPage {
       eyebrow: "Lokalita",
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
-      primaryCta: { label: "Popsat projekt", href: buildInquiryHref("cs") },
+      primaryCta: { label: "Popsat situaci", href: buildInquiryHref("cs") },
     },
     intro: seed.intro,
     sections: [
@@ -124,7 +124,7 @@ export const locationPages: ContentPage[] = [
       "kontraktní spolupráce uvnitř existujícího týmu",
     ],
     process: [
-      "úvodní call nad situací, cílem a riziky",
+      "úvodní schůzka nad situací, cílem a riziky",
       "workshop nebo technické mapování podle potřeby",
       "návrh první etapy s realistickým rozsahem",
       "postupná realizace a průběžné rozhodování nad skutečným dopadem",
@@ -134,7 +134,7 @@ export const locationPages: ContentPage[] = [
       { question: "Děláte i takeover projektů v Praze?", answer: "Ano. Takeover a stabilizace existujících aplikací po původním dodavateli je častý typ spolupráce." },
       { question: "Je potřeba mít připravené detailní zadání?", answer: "Ne. Pro začátek stačí kontext, popis problému a očekávaný výsledek. První etapa se dá navrhnout společně." },
     ],
-    related: ["service-custom-web-app-development", "service-existing-app-takeover", "service-internal-tools-development", "contract-support"],
+    related: ["service-custom-web-app-development", "service-existing-app-takeover", "service-internal-tools-development", "service-automations-and-integrations", "contract-support"],
   }),
   location({
     translationKey: "location-brno",
@@ -192,9 +192,9 @@ export const locationPages: ContentPage[] = [
     cityNominative: "Ostrava",
     cityLocative: "Ostravě",
     cityAccusative: "Ostravu",
-    title: "Automatizace procesů a interní systémy Ostrava | Bc. Ondřej Halata",
+    title: "Interní systémy a automatizace procesů Ostrava",
     h1: "Automatizace procesů a interní systémy pro firmy v Ostravě",
-    description: "Vývoj interních systémů, automatizace procesů, reporting a převzetí existujících aplikací pro firmy v Ostravě a Moravskoslezském kraji.",
+    description: "Vývoj interních systémů, reportingů a automatizací pro firmy v Ostravě a Moravskoslezském kraji. Návrh, takeover i rozvoj aplikací na míru.",
     primaryQuery: "automatizace procesů Ostrava",
     heroTitle: "Automatizace procesů, interní systémy a reporting pro firmy v Ostravě",
     heroSubtitle: "Pomáhám firmám v Ostravě a Moravskoslezském kraji nahradit ruční práci, Excel, e-maily a starší interní aplikace použitelným systémem nebo automatizací.",
@@ -235,6 +235,6 @@ export const locationPages: ContentPage[] = [
       { question: "Má smysl ozvat se i se starší interní aplikací?", answer: "Ano. Převzetí a stabilizace starší aplikace je často lepší první krok než unáhlený rewrite." },
       { question: "Je služba vhodná i pro výrobní nebo provozní firmu?", answer: "Ano. Právě firmy s provozním workflow, servisem, výrobou, zakázkami a více systémy často z interního systému nebo automatizace těží nejvíc." },
     ],
-    related: ["service-existing-app-takeover", "service-automations-and-integrations", "service-internal-tools-development", "contract-support"],
+    related: ["service-existing-app-takeover", "service-automations-and-integrations", "service-internal-tools-development", "service-request-offer-delivery-system", "guide-how-to-automate-request-processing", "contract-support"],
   }),
 ];

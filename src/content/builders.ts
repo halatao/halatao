@@ -8,13 +8,13 @@ import type {
 } from "@/content/types";
 
 const inquiryHrefByLocale: Record<Locale, string> = {
-  cs: "/cs/popsat-projekt",
-  en: "/en/discuss-your-project",
+  cs: "/cs/popsat-projekt/",
+  en: "/en/discuss-your-project/",
 };
 
 const thankYouHrefByLocale: Record<Locale, string> = {
-  cs: "/cs/popsat-projekt/dekuji",
-  en: "/en/discuss-your-project/thank-you",
+  cs: "/cs/popsat-projekt/dekuji/",
+  en: "/en/discuss-your-project/thank-you/",
 };
 
 export function buildInquiryHref(locale: Locale) {
@@ -28,12 +28,12 @@ export function buildThankYouHref(locale: Locale) {
 export function buildPrimaryCta(locale: Locale): PageCta {
   return locale === "cs"
     ? {
-        label: "Popsat projekt",
+        label: "Popsat situaci",
         href: inquiryHrefByLocale.cs,
         note: "Pošlete základní kontext a navrhnu rozumný další krok.",
       }
     : {
-        label: "Discuss your project",
+        label: "Describe situation",
         href: inquiryHrefByLocale.en,
         note: "Share the context and I will tell you whether the project is a fit.",
       };
@@ -43,11 +43,11 @@ export function buildSecondaryCta(locale: Locale) {
   return locale === "cs"
     ? {
         label: "Jak spolupráce probíhá",
-        href: "/cs/jak-spoluprace-probiha",
+        href: "/cs/jak-spoluprace-probiha/",
       }
     : {
         label: "How delivery works",
-        href: "/en/how-project-delivery-works",
+        href: "/en/how-project-delivery-works/",
       };
 }
 

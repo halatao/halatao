@@ -43,7 +43,7 @@ function tool(seed: ToolSeed): ContentPage {
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: isCs ? "Popsat projekt" : "Discuss your project",
+        label: isCs ? "Popsat situaci" : "Describe situation",
         href: buildInquiryHref(seed.locale),
       },
     },
@@ -87,7 +87,7 @@ function tool(seed: ToolSeed): ContentPage {
           note: "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {
-          label: "Discuss your project",
+          label: "Describe situation",
           href: "/en/discuss-your-project",
           note: "If you want help turning this into an actual delivery plan, a short context summary is enough.",
         },

@@ -42,7 +42,7 @@ function comparison(seed: ComparisonSeed): ContentPage {
       eyebrow: isCs ? "Srovnání" : "Comparison",
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
-      primaryCta: { label: isCs ? "Probrat zadání" : "Discuss your project", href: buildInquiryHref(seed.locale) },
+      primaryCta: { label: isCs ? "Probrat zadání" : "Describe situation", href: buildInquiryHref(seed.locale) },
     },
     intro: seed.intro,
     sections: [

@@ -864,6 +864,8 @@ export const growthUseCasePages: ContentPage[] = [
       "service-request-offer-delivery-system",
       "service-internal-tools-development",
       "service-automations-and-integrations",
+      "guide-how-to-automate-request-processing",
+      "guide-how-to-manage-jobs-without-excel",
       "problem-requests-offers-delivery-in-spreadsheets",
       "problem-replace-spreadsheets-in-process",
       "inquiry",

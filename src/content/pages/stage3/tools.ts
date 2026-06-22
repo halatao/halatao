@@ -39,7 +39,7 @@ function tool(seed: ToolSeed): ContentPage {
       eyebrow: isCs ? "Šablona / checklist" : "Template / checklist",
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
-      primaryCta: { label: isCs ? "Popsat projekt" : "Discuss your project", href: buildInquiryHref(seed.locale) },
+      primaryCta: { label: isCs ? "Popsat situaci" : "Describe situation", href: buildInquiryHref(seed.locale) },
     },
     intro: seed.intro,
     sections: [

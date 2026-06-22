@@ -41,7 +41,7 @@ function guide(seed: GuideSeed): ContentPage {
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: isCs ? "Probrat zadání" : "Discuss your project",
+        label: isCs ? "Probrat zadání" : "Describe situation",
         href: buildInquiryHref(seed.locale),
       },
     },

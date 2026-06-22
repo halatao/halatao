@@ -35,7 +35,7 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
       canonical: absoluteUrl(canonicalPath),
       languages: {
         ...alternates,
-        "x-default": absoluteUrl("/"),
+        "x-default": absoluteUrl("/cs/"),
       },
     },
     robots: page.indexable ? { index: true, follow: true } : { index: false, follow: false },
@@ -75,13 +75,14 @@ export function buildRootMetadata(): Metadata {
       "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
     icons: metadataIcons(),
     alternates: {
-      canonical: absoluteUrl("/"),
+      canonical: absoluteUrl("/cs/"),
       languages: {
-        "x-default": absoluteUrl("/"),
-        cs: absoluteUrl("/cs"),
-        en: absoluteUrl("/en"),
+        "x-default": absoluteUrl("/cs/"),
+        cs: absoluteUrl("/cs/"),
+        en: absoluteUrl("/en/"),
       },
     },
+    robots: { index: false, follow: true },
     openGraph: {
       type: "website",
       url: absoluteUrl("/"),

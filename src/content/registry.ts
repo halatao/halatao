@@ -74,8 +74,7 @@ export function getPageByPath(locale: Locale, segments: string[]) {
 }
 
 export function findPage(locale: Locale, segments: string[]) {
-  const path = segments.length === 0 ? `/${locale}` : `/${locale}/${segments.join("/")}`;
-  return byPath.get(path) ?? null;
+  return byPath.get(buildLocalizedPath(locale, segments)) ?? null;
 }
 
 export function getRelatedPages(page: ContentPage) {

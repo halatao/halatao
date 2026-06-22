@@ -1,4 +1,5 @@
-import { redirect } from "next/navigation";
+import type { Metadata } from "next";
+import Link from "next/link";
 
 import { getStaticRouteParams } from "@/content/registry";
 
@@ -14,7 +15,29 @@ export async function generateStaticParams() {
     .map((item) => ({ slug: item.slug }));
 }
 
-export default async function LegacyCzPageRedirect({ params }: LegacyCzPageProps) {
+export async function generateMetadata({ params }: LegacyCzPageProps): Promise<Metadata> {
   const { slug } = await params;
-  redirect(`/cs/${slug.join("/")}`);
+  return {
+    alternates: {
+      canonical: `https://www.halatao.cz/cs/${slug.join("/")}/`,
+    },
+    robots: {
+      index: false,
+      follow: true,
+    },
+  };
+}
+
+export default async function LegacyCzPageFallback({ params }: LegacyCzPageProps) {
+  const { slug } = await params;
+  const target = `/cs/${slug.join("/")}/`;
+
+  return (
+    <main>
+      <script dangerouslySetInnerHTML={{ __html: `window.location.replace(${JSON.stringify(target)});` }} />
+      <p>
+        Stránka se přesunula na <Link href={target}>{target}</Link>.
+      </p>
+    </main>
+  );
 }

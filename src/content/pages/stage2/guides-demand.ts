@@ -44,7 +44,7 @@ function guide(seed: GuideSeed): ContentPage {
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: isCs ? "Probrat zadání" : "Discuss your project",
+        label: isCs ? "Probrat zadání" : "Describe situation",
         href: buildInquiryHref(seed.locale),
       },
     },
@@ -87,12 +87,12 @@ function guide(seed: GuideSeed): ContentPage {
     fit: { for: seed.fitFor, notFor: seed.fitNot },
     cta: isCs
       ? {
-          label: "Popsat projekt",
+          label: "Popsat situaci",
           href: "/cs/popsat-projekt",
           note: "Stačí krátce popsat současný proces, kde vzniká ruční práce a co má být lepší.",
         }
       : {
-          label: "Discuss your project",
+          label: "Describe situation",
           href: "/en/discuss-your-project",
           note: "A short description of the current process and the manual work is enough to continue.",
         },
@@ -107,9 +107,9 @@ export const demandGuidePages: ContentPage[] = [
     translationKey: "guide-how-to-automate-request-processing",
     locale: "cs",
     slug: "jak-automatizovat-zpracovani-poptavek",
-    title: "Jak automatizovat zpracování poptávek | Bc. Ondřej Halata",
+    title: "Automatizace zpracování poptávek bez Excelu a e-mailů",
     h1: "Jak automatizovat zpracování poptávek bez chaosu v zakázkách",
-    description: "Praktický průvodce pro firmy, které zpracovávají poptávky ručně a chtějí snížit přepisování, ztracené informace a chaos mezi obchodem a realizací.",
+    description: "Jak zautomatizovat zpracování poptávek, nabídky a předání do realizace. Praktický postup pro firmy, kde proces dnes drží Excel, e-mail a ruční dohledávání.",
     primaryQuery: "automatizace zpracování poptávek",
     heroTitle: "Automatizace poptávek začíná procesem, ne nákupem dalšího nástroje",
     heroSubtitle: "Pro firmy, kde poptávky přicházejí e-mailem, formulářem nebo telefonicky a dál se ručně třídí, přepisují a předávají.",
@@ -146,6 +146,8 @@ export const demandGuidePages: ContentPage[] = [
       "service-request-offer-delivery-system",
       "use-case-request-offer-delivery-system",
       "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-replace-spreadsheets-in-process",
+      "guide-how-to-manage-jobs-without-excel",
       "inquiry",
     ],
     fitFor: ["firmy s opakovaným příjmem poptávek", "týmy, kde se poptávky ručně třídí a předávají", "procesy navazující na nabídku nebo realizaci"],
@@ -191,8 +193,11 @@ export const demandGuidePages: ContentPage[] = [
     ],
     related: [
       "service-sales-and-job-tracking-system",
+      "service-request-offer-delivery-system",
       "service-internal-tools-development",
       "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-replace-spreadsheets-in-process",
+      "use-case-request-offer-delivery-system",
       "comparison-internal-tool-vs-spreadsheets",
       "inquiry",
     ],

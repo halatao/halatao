@@ -65,8 +65,10 @@ const redirectRules = [
 const nextConfig: NextConfig = isStaticExport
   ? {
       output: "export",
+      trailingSlash: true,
     }
   : {
+      trailingSlash: true,
       async redirects() {
         return redirectRules;
       },

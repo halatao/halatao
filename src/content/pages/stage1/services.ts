@@ -31,7 +31,7 @@ type ServiceSeed = {
 const copy = {
   cs: {
     eyebrow: "Služba",
-    primary: "Popsat projekt",
+    primary: "Popsat situaci",
     sectionSituations: "Kdy tato služba dává smysl",
     sectionDelivery: "Co typicky řeším a dodávám",
     sectionProcess: "Jak spolupráce probíhá",
@@ -39,7 +39,7 @@ const copy = {
   },
   en: {
     eyebrow: "Service",
-    primary: "Discuss your project",
+    primary: "Describe situation",
     sectionSituations: "Where this service is the right fit",
     sectionDelivery: "What I typically handle and deliver",
     sectionProcess: "How the work is run",
@@ -109,12 +109,12 @@ function service(seed: ServiceSeed): ContentPage {
     cta:
       seed.locale === "cs"
         ? {
-            label: "Popsat projekt",
+            label: "Popsat situaci",
             href: "/cs/popsat-projekt",
             note: `Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.`,
           }
         : {
-            label: "Discuss your project",
+            label: "Describe situation",
             href: "/en/discuss-your-project",
             note: "Share the business context, expected outcome, and current constraints. I will tell you whether the project is a fit.",
           },
@@ -167,7 +167,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "Jak zadat vývoj webové aplikace", href: "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace" },
       { label: "Kdy dává smysl vývoj na míru místo SaaS", href: "/cs/srovnani/vyvoj-na-miru-vs-saas" },
-      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
     ],
     fitFor: ["firmy s vlastním workflow a více rolemi", "projekty, kde SaaS nástroj vytváří zbytečné kompromisy", "týmy, které chtějí aplikaci dlouhodobě rozvíjet"],
     fitNot: ["jednoduché prezentační weby", "jednorázové microsites bez logiky", "projekty řízené jen nejnižší cenou bez ownershipu"],
@@ -208,9 +208,9 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-internal-tools-development",
     locale: "cs",
     slug: "interni-systemy-na-miru",
-    title: "Interní systém na míru místo Excelu | Bc. Ondřej Halata",
+    title: "Interní systém na míru místo Excelu a ruční práce",
     h1: "Interní systém na míru místo Excelu, e-mailů a ruční operativy",
-    description: "Vyvíjím interní systémy na míru pro firmy, které potřebují nahradit Excel, e-maily, ruční předávání práce a nepřehledný reporting.",
+    description: "Navrhuji a vyvíjím interní systémy pro firmy, které už nechtějí řídit zakázky, schvalování, reporting nebo provoz přes Excel, e-maily a ruční předávání.",
     primaryQuery: "interní systém na míru",
     heroTitle: "Interní systém na míru místo Excelu, e-mailů a ruční koordinace",
     heroSubtitle: "Pro operativu, administrativu, reporting a schvalovací procesy, které už nefungují ve sdílených tabulkách ani v poslepované sadě nástrojů.",
@@ -236,7 +236,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "Kdy dává smysl interní systém místo SaaS", href: "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas" },
       { label: "Jak řídit zakázky bez Excelu", href: "/cs/pruvodce/jak-ridit-zakazky-bez-excelu" },
-      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
     ],
     fitFor: ["firmy, kterým nestačí sdílené tabulky a e-maily", "provozy s více rolemi a odpovědnostmi", "týmy, které chtějí lepší dohled nad operativou"],
     fitNot: ["jednoduchá evidence pro jednoho uživatele", "projekty bez vlastníka procesu na straně klienta", "nákup hotového SaaS bez potřeby přizpůsobení"],
@@ -273,7 +273,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek" },
       { label: "Jak odhalit ruční přepisování dat", href: "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat" },
-      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
     ],
     fitFor: ["firmy s více systémy a ručním přepisováním", "procesy závislé na ruční kontrole a dohledávání", "projekty, kde se má nejdřív zmapovat přínos automatizace"],
     fitNot: ["automatizace bez znalosti procesu a dopadu", "jednorázové skripty bez provozní odpovědnosti", "projekty postavené jen na nákupu no-code licence bez integrací"],
@@ -310,7 +310,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "How to scope a custom web application", href: "/en/guides/how-to-scope-a-custom-web-application" },
       { label: "Custom development vs SaaS", href: "/en/comparisons/custom-web-app-vs-saas-tool" },
-      { label: "Discuss your project", href: "/en/discuss-your-project" },
+      { label: "Describe situation", href: "/en/discuss-your-project" },
     ],
     fitFor: ["companies with workflow-heavy business processes", "teams that need tailored software instead of forced SaaS compromises", "buyers planning for long-term product ownership"],
     fitNot: ["basic marketing sites", "one-off microsites with no application logic", "projects driven only by lowest-cost bidding"],
@@ -379,7 +379,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "When an internal tool is better than SaaS", href: "/en/guides/when-an-internal-tool-is-better-than-saas" },
       { label: "How to manage jobs without Excel", href: "/en/guides/how-to-manage-jobs-without-excel" },
-      { label: "Discuss your project", href: "/en/discuss-your-project" },
+      { label: "Describe situation", href: "/en/discuss-your-project" },
     ],
     fitFor: ["operations-heavy teams replacing spreadsheets and inboxes", "companies with multi-role internal workflows", "buyers who want a long-term internal system instead of patchwork tooling"],
     fitNot: ["single-user micro tools", "projects without a clear process owner on the client side", "simple SaaS purchases with no tailoring requirement"],
@@ -416,7 +416,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "How to automate request processing", href: "/en/guides/how-to-automate-request-processing" },
       { label: "How to find manual data re-entry", href: "/en/guides/how-to-find-manual-data-reentry" },
-      { label: "Discuss your project", href: "/en/discuss-your-project" },
+      { label: "Describe situation", href: "/en/discuss-your-project" },
     ],
     fitFor: ["companies with manual cross-system work", "teams relying on repetitive status checks or spreadsheet transfers", "buyers who want practical automation, not tooling theatre"],
     fitNot: ["automation with no process ownership", "throwaway scripts with no operational accountability", "no-code licence purchases with no integration strategy"],
@@ -726,6 +726,8 @@ export const servicePages: ContentPage[] = [
     related: [
       "service-internal-tools-development",
       "service-automations-and-integrations",
+      "guide-how-to-automate-request-processing",
+      "guide-how-to-manage-jobs-without-excel",
       "problem-requests-offers-delivery-in-spreadsheets",
       "problem-replace-spreadsheets-in-process",
       "use-case-request-offer-delivery-workflow",
@@ -734,9 +736,9 @@ export const servicePages: ContentPage[] = [
       "inquiry",
     ],
     priorityLinks: [
-      { label: "Příklad: systém pro poptávky, nabídky a realizaci", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci" },
-      { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek" },
-      { label: "Popsat projekt", href: "/cs/popsat-projekt" },
+      { label: "Příklad: systém pro poptávky, nabídky a realizaci", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
+      { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
+      { label: "Popsat situaci", href: "/cs/popsat-projekt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",
@@ -806,7 +808,7 @@ export const servicePages: ContentPage[] = [
     priorityLinks: [
       { label: "Example: system for requests, offers, and delivery", href: "/en/use-cases/system-for-requests-offers-and-delivery" },
       { label: "How to automate request processing", href: "/en/guides/how-to-automate-request-processing" },
-      { label: "Discuss your project", href: "/en/discuss-your-project" },
+      { label: "Describe situation", href: "/en/discuss-your-project" },
     ],
     fitFor: [
       "small teams handling repeatable request-to-delivery work",
