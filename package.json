@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "generate:worker-redirects": "tsx scripts/generate-worker-redirects.ts",
     "test:edge-redirects": "tsx scripts/test-edge-redirects.ts",
-    "test:worker": "tsx --test worker/test/**/*.test.ts",
+    "test:worker": "tsx --test worker/test/redirect-worker.test.ts",
     "validate:content": "tsx scripts/validate-content.ts",
     "validate:redirects": "tsx scripts/validate-redirects.ts",
     "validate:seo": "tsx scripts/validate-seo.ts",
