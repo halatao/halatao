@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "halatao-seo-redirects",
+  "name": "halatao",
   "main": "worker/src/index.ts",
   "compatibility_date": "2026-07-12",
   "workers_dev": false,
