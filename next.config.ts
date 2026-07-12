@@ -53,3 +53,5 @@ const nextConfig: NextConfig = isStaticExport
     };
 
 export default nextConfig;
+
+import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());

@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start",
     "lint": "eslint .",
-    "generate:worker-redirects": "tsx scripts/generate-worker-redirects.ts",
     "test:edge-redirects": "tsx scripts/test-edge-redirects.ts",
-    "test:worker": "tsx --test worker/test/**/*.test.ts",
     "validate:content": "tsx scripts/validate-content.ts",
     "validate:redirects": "tsx scripts/validate-redirects.ts",
     "validate:seo": "tsx scripts/validate-seo.ts",
-    "validate:worker-redirects": "tsx scripts/validate-worker-redirects.ts",
-    "build:worker": "wrangler deploy --dry-run --env production --outdir dist/worker"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "keywords": [
     "nextjs",
@@ -25,6 +25,7 @@
   "license": "UNLICENSED",
   "description": "Commercial bilingual Next.js website for Halatao.cz",
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.1",
     "next": "^16.1.7",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -36,7 +37,7 @@
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.1.7",
     "tsx": "^4.21.0",
-    "typescript": "5.9.3",
-    "wrangler": "^4.102.0"
+    "typescript": "^5.9.3",
+    "wrangler": "^4.110.0"
   }
 }
