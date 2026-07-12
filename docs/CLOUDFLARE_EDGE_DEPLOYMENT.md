@@ -33,7 +33,8 @@ npm run build:worker
 Build používá `wrangler deploy --dry-run`; nic nepublikuje. Staging prostředí
 používá `<worker-name>-staging.<account>.workers.dev`. Production prostředí
 obsahuje Worker Routes `halatao.cz/*` a `www.halatao.cz/*` se `zone_name`
-`halatao.cz`.
+`halatao.cz`. CI používá Node.js 22, který splňuje runtime požadavek aktuálního
+Wrangleru.
 
 ## 1. Inventura před změnou nameserverů
 
