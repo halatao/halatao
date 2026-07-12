@@ -1,4 +1,6 @@
 .next
+.wrangler
+dist
 node_modules
 out
 *.log

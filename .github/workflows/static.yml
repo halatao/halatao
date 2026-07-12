@@ -39,6 +39,21 @@ jobs:
       - name: Validate redirects
         run: npm run validate:redirects
 
+      - name: Generate Worker redirect map
+        run: npm run generate:worker-redirects
+
+      - name: Check committed Worker redirect map is current
+        run: git diff --exit-code -- worker/generated/redirects.json
+
+      - name: Validate generated Worker redirect map
+        run: npm run validate:worker-redirects
+
+      - name: Test Worker
+        run: npm run test:worker
+
+      - name: Build Worker without deploying
+        run: npm run build:worker
+
       - name: Lint
         run: npm run lint
 

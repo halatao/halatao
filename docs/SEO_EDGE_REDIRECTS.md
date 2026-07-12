@@ -2,11 +2,12 @@
 
 ## Stav
 
-**BLOCKED: requires edge/DNS/hosting access.** Produkční workflow v
-`.github/workflows/static.yml` publikuje pouze statický adresář `out/` na GitHub
-Pages. GitHub Pages nepodporuje projektově definovaná pravidla pro libovolné
-serverové HTTP redirecty. Repozitář neobsahuje jinou nasazenou proxy, Worker ani
-CDN konfiguraci.
+**READY FOR MANUAL CLOUDFLARE DEPLOYMENT; production activation remains
+blocked by Cloudflare/DNS access.** Produkční workflow v
+`.github/workflows/static.yml` nadále publikuje pouze statický adresář `out/` na
+GitHub Pages. Nový Worker v `worker/` je připravený fungovat jako Worker Route
+před tímto originem, ale nebyl nasazen a DNS nebylo změněno. GitHub Pages samo
+projektově definované serverové redirecty nepodporuje.
 
 `next.config.ts` používá stejný manifest pouze ve větvi pro případný budoucí
 serverový Next.js deployment. Při `STATIC_EXPORT=true` se `redirects()`
@@ -31,6 +32,10 @@ Jediným zdrojem path redirectů je `config/seo-redirects.ts`:
   expanduje na exact pravidla,
 - `expandSeoRedirectRules()` vrací úplný exact inventář pro edge adaptér,
   validaci i non-static Next.js adaptér,
+- `scripts/generate-worker-redirects.ts` z tohoto inventáře deterministicky
+  generuje `worker/generated/redirects.json`,
+- `scripts/validate-worker-redirects.ts` ověřuje počet, sources, targets,
+  status, query policy a kategorie proti zdrojovému manifestu,
 - výchozí status je `308` a query string se zachovává.
 
 Úplný strojově čitelný redirect matrix včetně všech vygenerovaných `/cz/*`,
@@ -55,9 +60,7 @@ npx tsx scripts/test-edge-redirects.ts --help
 npx tsx scripts/test-edge-redirects.ts --run
 ```
 
-Volby `--canonical-origin`, `--path-origin` a opakovatelná
-`--legacy-origin` umožňují testovat explicitně zadaný preview/edge endpoint.
-Produkční akceptační běh bez těchto voleb použije origin policy z manifestu.
+Produkční akceptační běh používá canonical origin a origin policy z manifestu.
 
 ## Požadovaná edge URL politika
 
@@ -186,21 +189,23 @@ Každý loser source se generuje ve třech HTML variantách a vede přímo na wi
 | `/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace/` | `/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/` |
 | `/en/services/request-offer-delivery-system/` | `/en/services/sales-offers-and-job-tracking-system/` |
 
-## Požadavky na provider adaptér
+## Cloudflare Worker adaptér
 
-Budoucí adaptér musí:
+Implementovaný adaptér:
 
-1. číst výstup `expandSeoRedirectRules()`, nikoli udržovat paralelní seznam;
-2. zachovat status `301` nebo `308` z manifestu;
-3. zachovat query string, pokud konkrétní pravidlo výslovně neříká jinak;
-4. spojit host/protocol/path normalizaci do jednoho `Location`;
-5. vyhodnotit file/system výjimky před trailing-slash logikou;
-6. nasadit změnu atomicky s odstraněním statických legacy fallbacků;
-7. spustit `validate:redirects`, build a generated-output SEO validaci před
-   nasazením.
+1. používá generovaný exact artefakt odvozený z
+   `expandSeoRedirectRules()`, nikoli paralelní ruční seznam;
+2. zachovává status `301` nebo `308` a query policy z manifestu;
+3. skládá host/protocol/path normalizaci do jediného absolutního `Location`;
+4. canonical request bez exact shody propouští nezměněným `fetch(request)`;
+5. pro canonical soubory, assety i neznámé URL neaplikuje žádný odhadovaný
+   trailing-slash nebo locale wildcard;
+6. při redirectu origin nevolá.
 
-Teprve po ověřeném zapojení edge vrstvy lze odstranit `src/app/cz/**` a změnit
-root fallback. V témže releasu musí test potvrdit, že `out/cz/**` už nevzniká.
+Konfigurace a manuální aktivace jsou popsány v
+`docs/CLOUDFLARE_EDGE_DEPLOYMENT.md`. Statické fallbacky se v tomto kroku
+záměrně nemažou; lze je řešit až po prokázaném produkčním zapojení a samostatné
+atomické změně.
 
 ## Akceptační HTTP testy
 

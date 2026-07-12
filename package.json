@@ -7,10 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "generate:worker-redirects": "tsx scripts/generate-worker-redirects.ts",
     "test:edge-redirects": "tsx scripts/test-edge-redirects.ts",
+    "test:worker": "tsx --test worker/test/**/*.test.ts",
     "validate:content": "tsx scripts/validate-content.ts",
     "validate:redirects": "tsx scripts/validate-redirects.ts",
-    "validate:seo": "tsx scripts/validate-seo.ts"
+    "validate:seo": "tsx scripts/validate-seo.ts",
+    "validate:worker-redirects": "tsx scripts/validate-worker-redirects.ts",
+    "build:worker": "wrangler deploy --dry-run --env production --outdir dist/worker"
   },
   "keywords": [
     "nextjs",
@@ -32,6 +36,7 @@
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.1.7",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "5.9.3",
+    "wrangler": "^4.102.0"
   }
 }

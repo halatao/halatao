@@ -1,0 +1,3853 @@
+{
+  "manifestVersion": 1,
+  "canonicalOrigin": "https://www.halatao.cz",
+  "generatedRuleCount": 641,
+  "rules": {
+    "/": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/automatizace": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/automatizace/": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/automatizace/dekuji.html": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/automatizace/index.html": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/index.html": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/jak-spoluprace-probiha": {
+      "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/jak-spoluprace-probiha/index.html": {
+      "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokace": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/brno": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/brno/": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/brno/index.html": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/index.html": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/ostrava": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/ostrava/": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/ostrava/index.html": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/praha": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/praha/": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokace/praha/index.html": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/lokality": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/brno": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/brno/index.html": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/index.html": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/ostrava": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/ostrava/index.html": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/praha": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/lokality/praha/index.html": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/popsat-projekt": {
+      "target": "/cs/popsat-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/popsat-projekt/dekuji": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/popsat-projekt/dekuji/index.html": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/popsat-projekt/index.html": {
+      "target": "/cs/popsat-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady": {
+      "target": "/cs/priklady/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/ai-nad-internimi-dokumenty": {
+      "target": "/cs/priklady/ai-nad-internimi-dokumenty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/ai-nad-internimi-dokumenty/index.html": {
+      "target": "/cs/priklady/ai-nad-internimi-dokumenty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/ai-zpracovani-prichozi-agendy": {
+      "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/ai-zpracovani-prichozi-agendy/index.html": {
+      "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/b2b-klientsky-portal": {
+      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/b2b-klientsky-portal/index.html": {
+      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/dashboard-pro-management": {
+      "target": "/cs/priklady/dashboard-pro-management/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/dashboard-pro-management/index.html": {
+      "target": "/cs/priklady/dashboard-pro-management/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/index.html": {
+      "target": "/cs/priklady/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/interni-admin-system": {
+      "target": "/cs/priklady/interni-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/interni-admin-system/index.html": {
+      "target": "/cs/priklady/interni-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/interni-schvalovaci-system": {
+      "target": "/cs/priklady/interni-schvalovaci-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/interni-schvalovaci-system/index.html": {
+      "target": "/cs/priklady/interni-schvalovaci-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/klientsky-portal": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/klientsky-portal/index.html": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/operativni-system-pro-servisni-tym": {
+      "target": "/cs/priklady/operativni-system-pro-servisni-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/operativni-system-pro-servisni-tym/index.html": {
+      "target": "/cs/priklady/operativni-system-pro-servisni-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/partnersky-portal-pro-b2b-firmu": {
+      "target": "/cs/priklady/partnersky-portal-pro-b2b-firmu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/partnersky-portal-pro-b2b-firmu/index.html": {
+      "target": "/cs/priklady/partnersky-portal-pro-b2b-firmu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/reporting-dashboard": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/reporting-dashboard/index.html": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/index.html": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/workflow-aplikace-pro-tym": {
+      "target": "/cs/priklady/workflow-aplikace-pro-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/workflow-aplikace-pro-tym/index.html": {
+      "target": "/cs/priklady/workflow-aplikace-pro-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/workflow-automatizace": {
+      "target": "/cs/priklady/workflow-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/workflow-automatizace/index.html": {
+      "target": "/cs/priklady/workflow-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/priklady/workflow-poptavka-nabidka-realizace": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/priklady/workflow-poptavka-nabidka-realizace/": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/priklady/workflow-poptavka-nabidka-realizace/index.html": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/pripadovky": {
+      "target": "/cs/pripadovky/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/index.html": {
+      "target": "/cs/pripadovky/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/integrace-nekolika-systemu": {
+      "target": "/cs/pripadovky/integrace-nekolika-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/integrace-nekolika-systemu/index.html": {
+      "target": "/cs/pripadovky/integrace-nekolika-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/interni-nastroj-pro-operativu": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/interni-nastroj-pro-operativu/index.html": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/prevzeti-existujici-aplikace": {
+      "target": "/cs/pripadovky/prevzeti-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pripadovky/prevzeti-existujici-aplikace/index.html": {
+      "target": "/cs/pripadovky/prevzeti-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy": {
+      "target": "/cs/problemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje": {
+      "target": "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/index.html": {
+      "target": "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu": {
+      "target": "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/index.html": {
+      "target": "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chceme-vyvinout-interni-system": {
+      "target": "/cs/problemy/chceme-vyvinout-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chceme-vyvinout-interni-system/index.html": {
+      "target": "/cs/problemy/chceme-vyvinout-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chybi-seniorni-kapacita-do-tymu": {
+      "target": "/cs/problemy/chybi-seniorni-kapacita-do-tymu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/chybi-seniorni-kapacita-do-tymu/index.html": {
+      "target": "/cs/problemy/chybi-seniorni-kapacita-do-tymu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/index.html": {
+      "target": "/cs/problemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/index.html": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/poptavky-nabidky-a-realizace-v-tabulkach-a-emailu": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/problemy/poptavky-nabidky-a-realizace-v-tabulkach-a-emailu/": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/problemy/poptavky-nabidky-a-realizace-v-tabulkach-a-emailu/index.html": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/problemy/potrebujeme-klientsky-portal": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-klientsky-portal-2": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/problemy/potrebujeme-klientsky-portal-2/": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/problemy/potrebujeme-klientsky-portal-2/index.html": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/problemy/potrebujeme-klientsky-portal/index.html": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci": {
+      "target": "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/index.html": {
+      "target": "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu": {
+      "target": "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/index.html": {
+      "target": "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-napojit-nekolik-systemu": {
+      "target": "/cs/problemy/potrebujeme-napojit-nekolik-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-napojit-nekolik-systemu/index.html": {
+      "target": "/cs/problemy/potrebujeme-napojit-nekolik-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/index.html": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt": {
+      "target": "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/index.html": {
+      "target": "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce": {
+      "target": "/cs/pruvodce/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/dashboard-pro-management-z-vice-systemu": {
+      "target": "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/index.html": {
+      "target": "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/index.html": {
+      "target": "/cs/pruvodce/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek": {
+      "target": "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/index.html": {
+      "target": "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-nacenit-prevzeti-aplikace": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-nacenit-prevzeti-aplikace-2": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-nacenit-prevzeti-aplikace-2/": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-nacenit-prevzeti-aplikace-2/index.html": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-nacenit-webovou-aplikaci": {
+      "target": "/cs/pruvodce/jak-nacenit-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-nacenit-webovou-aplikaci/index.html": {
+      "target": "/cs/pruvodce/jak-nacenit-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace": {
+      "target": "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat-2": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat-2/": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat-2/index.html": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/index.html": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/index.html": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu": {
+      "target": "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/index.html": {
+      "target": "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika": {
+      "target": "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/index.html": {
+      "target": "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace": {
+      "target": "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/index.html": {
+      "target": "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace": {
+      "target": "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-ridit-zakazky-bez-excelu": {
+      "target": "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/index.html": {
+      "target": "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci": {
+      "target": "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/index.html": {
+      "target": "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace": {
+      "target": "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/index.html": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony": {
+      "target": "/cs/sablony/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/brief-na-webovou-aplikaci": {
+      "target": "/cs/sablony/brief-na-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/brief-na-webovou-aplikaci/index.html": {
+      "target": "/cs/sablony/brief-na-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/discovery-checklist-pro-automatizace": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/discovery-checklist-pro-automatizace/index.html": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-api-integrace": {
+      "target": "/cs/sablony/checklist-api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-api-integrace/index.html": {
+      "target": "/cs/sablony/checklist-api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu": {
+      "target": "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/index.html": {
+      "target": "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-prevzeti-aplikace": {
+      "target": "/cs/sablony/checklist-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-prevzeti-aplikace/index.html": {
+      "target": "/cs/sablony/checklist-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-stabilizace-release-procesu-aplikace": {
+      "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/index.html": {
+      "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/index.html": {
+      "target": "/cs/sablony/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/scope-worksheet-pro-interni-system": {
+      "target": "/cs/sablony/scope-worksheet-pro-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/scope-worksheet-pro-interni-system/index.html": {
+      "target": "/cs/sablony/scope-worksheet-pro-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby": {
+      "target": "/cs/sluzby/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/ai-automatizace-a-integrace": {
+      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/ai-automatizace-a-integrace/index.html": {
+      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/automatizace-a-integrace": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/automatizace-a-integrace/index.html": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/index.html": {
+      "target": "/cs/sluzby/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/interni-systemy-na-miru": {
+      "target": "/cs/sluzby/interni-systemy-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/interni-systemy-na-miru/index.html": {
+      "target": "/cs/sluzby/interni-systemy-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/index.html": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/index.html": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace/": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace/index.html": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/index.html": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/spoluprace-na-kontrakt": {
+      "target": "/cs/spoluprace-na-kontrakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/spoluprace-na-kontrakt/index.html": {
+      "target": "/cs/spoluprace-na-kontrakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani": {
+      "target": "/cs/srovnani/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/externi-vyvojar-vs-agentura": {
+      "target": "/cs/srovnani/externi-vyvojar-vs-agentura/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/externi-vyvojar-vs-agentura/index.html": {
+      "target": "/cs/srovnani/externi-vyvojar-vs-agentura/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/index.html": {
+      "target": "/cs/srovnani/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/interni-system-vs-excel-a-email": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/interni-system-vs-excel-a-email/index.html": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace": {
+      "target": "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/index.html": {
+      "target": "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace": {
+      "target": "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/index.html": {
+      "target": "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/vyvoj-na-miru-vs-saas": {
+      "target": "/cs/srovnani/vyvoj-na-miru-vs-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/srovnani/vyvoj-na-miru-vs-saas/index.html": {
+      "target": "/cs/srovnani/vyvoj-na-miru-vs-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie-1": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/technologie-1/": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/technologie-1/index.html": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/technologie/api-integrace": {
+      "target": "/cs/technologie/api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/api-integrace/index.html": {
+      "target": "/cs/technologie/api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/index.html": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/nextjs-pro-byznys-aplikace": {
+      "target": "/cs/technologie/nextjs-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/nextjs-pro-byznys-aplikace/index.html": {
+      "target": "/cs/technologie/nextjs-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/postgresql-pro-interni-systemy": {
+      "target": "/cs/technologie/postgresql-pro-interni-systemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/postgresql-pro-interni-systemy/index.html": {
+      "target": "/cs/technologie/postgresql-pro-interni-systemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/typescript-pro-vetsi-projekty": {
+      "target": "/cs/technologie/typescript-pro-vetsi-projekty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/technologie/typescript-pro-vetsi-projekty/index.html": {
+      "target": "/cs/technologie/typescript-pro-vetsi-projekty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cz": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/index.html": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/jak-spoluprace-probiha": {
+      "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/jak-spoluprace-probiha/": {
+      "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/jak-spoluprace-probiha/index.html": {
+      "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/brno": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/brno/": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/brno/index.html": {
+      "target": "/cs/lokality/brno/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/index.html": {
+      "target": "/cs/lokality/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/ostrava": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/ostrava/": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/ostrava/index.html": {
+      "target": "/cs/lokality/ostrava/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/praha": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/praha/": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/lokality/praha/index.html": {
+      "target": "/cs/lokality/praha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt": {
+      "target": "/cs/popsat-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt/": {
+      "target": "/cs/popsat-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt/dekuji": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt/dekuji/": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt/dekuji/index.html": {
+      "target": "/cs/popsat-projekt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/popsat-projekt/index.html": {
+      "target": "/cs/popsat-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady": {
+      "target": "/cs/priklady/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/": {
+      "target": "/cs/priklady/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-nad-internimi-dokumenty": {
+      "target": "/cs/priklady/ai-nad-internimi-dokumenty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-nad-internimi-dokumenty/": {
+      "target": "/cs/priklady/ai-nad-internimi-dokumenty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-nad-internimi-dokumenty/index.html": {
+      "target": "/cs/priklady/ai-nad-internimi-dokumenty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-zpracovani-prichozi-agendy": {
+      "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-zpracovani-prichozi-agendy/": {
+      "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/ai-zpracovani-prichozi-agendy/index.html": {
+      "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/b2b-klientsky-portal": {
+      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/b2b-klientsky-portal/": {
+      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/b2b-klientsky-portal/index.html": {
+      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/dashboard-pro-management": {
+      "target": "/cs/priklady/dashboard-pro-management/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/dashboard-pro-management/": {
+      "target": "/cs/priklady/dashboard-pro-management/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/dashboard-pro-management/index.html": {
+      "target": "/cs/priklady/dashboard-pro-management/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/index.html": {
+      "target": "/cs/priklady/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-admin-system": {
+      "target": "/cs/priklady/interni-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-admin-system/": {
+      "target": "/cs/priklady/interni-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-admin-system/index.html": {
+      "target": "/cs/priklady/interni-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-schvalovaci-system": {
+      "target": "/cs/priklady/interni-schvalovaci-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-schvalovaci-system/": {
+      "target": "/cs/priklady/interni-schvalovaci-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/interni-schvalovaci-system/index.html": {
+      "target": "/cs/priklady/interni-schvalovaci-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/klientsky-portal": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/klientsky-portal/": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/klientsky-portal/index.html": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/operativni-system-pro-servisni-tym": {
+      "target": "/cs/priklady/operativni-system-pro-servisni-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/operativni-system-pro-servisni-tym/": {
+      "target": "/cs/priklady/operativni-system-pro-servisni-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/operativni-system-pro-servisni-tym/index.html": {
+      "target": "/cs/priklady/operativni-system-pro-servisni-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/partnersky-portal-pro-b2b-firmu": {
+      "target": "/cs/priklady/partnersky-portal-pro-b2b-firmu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/partnersky-portal-pro-b2b-firmu/": {
+      "target": "/cs/priklady/partnersky-portal-pro-b2b-firmu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/partnersky-portal-pro-b2b-firmu/index.html": {
+      "target": "/cs/priklady/partnersky-portal-pro-b2b-firmu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/reporting-dashboard": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/reporting-dashboard/": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/reporting-dashboard/index.html": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/system-pro-poptavky-nabidky-a-realizaci": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/system-pro-poptavky-nabidky-a-realizaci/": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/system-pro-poptavky-nabidky-a-realizaci/index.html": {
+      "target": "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-aplikace-pro-tym": {
+      "target": "/cs/priklady/workflow-aplikace-pro-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-aplikace-pro-tym/": {
+      "target": "/cs/priklady/workflow-aplikace-pro-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-aplikace-pro-tym/index.html": {
+      "target": "/cs/priklady/workflow-aplikace-pro-tym/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-automatizace": {
+      "target": "/cs/priklady/workflow-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-automatizace/": {
+      "target": "/cs/priklady/workflow-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/priklady/workflow-automatizace/index.html": {
+      "target": "/cs/priklady/workflow-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky": {
+      "target": "/cs/pripadovky/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/": {
+      "target": "/cs/pripadovky/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/index.html": {
+      "target": "/cs/pripadovky/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/integrace-nekolika-systemu": {
+      "target": "/cs/pripadovky/integrace-nekolika-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/integrace-nekolika-systemu/": {
+      "target": "/cs/pripadovky/integrace-nekolika-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/integrace-nekolika-systemu/index.html": {
+      "target": "/cs/pripadovky/integrace-nekolika-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/interni-nastroj-pro-operativu": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/interni-nastroj-pro-operativu/": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/interni-nastroj-pro-operativu/index.html": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/prevzeti-existujici-aplikace": {
+      "target": "/cs/pripadovky/prevzeti-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/prevzeti-existujici-aplikace/": {
+      "target": "/cs/pripadovky/prevzeti-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pripadovky/prevzeti-existujici-aplikace/index.html": {
+      "target": "/cs/pripadovky/prevzeti-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy": {
+      "target": "/cs/problemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/": {
+      "target": "/cs/problemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/aplikace-je-pomala-a-tezko-se-udrzuje": {
+      "target": "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/": {
+      "target": "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/index.html": {
+      "target": "/cs/problemy/aplikace-je-pomala-a-tezko-se-udrzuje/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyuzit-ai-ve-firemnim-procesu": {
+      "target": "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/": {
+      "target": "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/index.html": {
+      "target": "/cs/problemy/chceme-vyuzit-ai-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyvinout-interni-system": {
+      "target": "/cs/problemy/chceme-vyvinout-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyvinout-interni-system/": {
+      "target": "/cs/problemy/chceme-vyvinout-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chceme-vyvinout-interni-system/index.html": {
+      "target": "/cs/problemy/chceme-vyvinout-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chybi-seniorni-kapacita-do-tymu": {
+      "target": "/cs/problemy/chybi-seniorni-kapacita-do-tymu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chybi-seniorni-kapacita-do-tymu/": {
+      "target": "/cs/problemy/chybi-seniorni-kapacita-do-tymu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/chybi-seniorni-kapacita-do-tymu/index.html": {
+      "target": "/cs/problemy/chybi-seniorni-kapacita-do-tymu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/index.html": {
+      "target": "/cs/problemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/index.html": {
+      "target": "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-klientsky-portal": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-klientsky-portal/": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-klientsky-portal/index.html": {
+      "target": "/cs/problemy/potrebujeme-klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-modernizovat-legacy-aplikaci": {
+      "target": "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-modernizovat-legacy-aplikaci/": {
+      "target": "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-modernizovat-legacy-aplikaci/index.html": {
+      "target": "/cs/problemy/potrebujeme-modernizovat-legacy-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu": {
+      "target": "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/": {
+      "target": "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/index.html": {
+      "target": "/cs/problemy/potrebujeme-nahradit-excel-ve-firemnim-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-napojit-nekolik-systemu": {
+      "target": "/cs/problemy/potrebujeme-napojit-nekolik-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-napojit-nekolik-systemu/": {
+      "target": "/cs/problemy/potrebujeme-napojit-nekolik-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-napojit-nekolik-systemu/index.html": {
+      "target": "/cs/problemy/potrebujeme-napojit-nekolik-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/index.html": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-zachranit-rozdelany-projekt": {
+      "target": "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-zachranit-rozdelany-projekt/": {
+      "target": "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/problemy/potrebujeme-zachranit-rozdelany-projekt/index.html": {
+      "target": "/cs/problemy/potrebujeme-zachranit-rozdelany-projekt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce": {
+      "target": "/cs/pruvodce/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/": {
+      "target": "/cs/pruvodce/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/dashboard-pro-management-z-vice-systemu": {
+      "target": "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/dashboard-pro-management-z-vice-systemu/": {
+      "target": "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/dashboard-pro-management-z-vice-systemu/index.html": {
+      "target": "/cs/pruvodce/dashboard-pro-management-z-vice-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/index.html": {
+      "target": "/cs/pruvodce/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-automatizovat-zpracovani-poptavek": {
+      "target": "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-automatizovat-zpracovani-poptavek/": {
+      "target": "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-automatizovat-zpracovani-poptavek/index.html": {
+      "target": "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-prevzeti-aplikace": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-prevzeti-aplikace/": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-prevzeti-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-webovou-aplikaci": {
+      "target": "/cs/pruvodce/jak-nacenit-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-webovou-aplikaci/": {
+      "target": "/cs/pruvodce/jak-nacenit-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-nacenit-webovou-aplikaci/index.html": {
+      "target": "/cs/pruvodce/jak-nacenit-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-naplanovat-mvp-webove-aplikace": {
+      "target": "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-naplanovat-mvp-webove-aplikace/": {
+      "target": "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-naplanovat-mvp-webove-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-naplanovat-mvp-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-odhalit-rucni-prepisovani-dat": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-odhalit-rucni-prepisovani-dat/": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-odhalit-rucni-prepisovani-dat/index.html": {
+      "target": "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/index.html": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu": {
+      "target": "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/": {
+      "target": "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/index.html": {
+      "target": "/cs/pruvodce/jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika": {
+      "target": "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/": {
+      "target": "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/index.html": {
+      "target": "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace": {
+      "target": "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/": {
+      "target": "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/index.html": {
+      "target": "/cs/pruvodce/jak-pripravit-discovery-pro-automatizaci-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-takeover-audit-aplikace": {
+      "target": "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-takeover-audit-aplikace/": {
+      "target": "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-pripravit-takeover-audit-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-pripravit-takeover-audit-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-ridit-zakazky-bez-excelu": {
+      "target": "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-ridit-zakazky-bez-excelu/": {
+      "target": "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-ridit-zakazky-bez-excelu/index.html": {
+      "target": "/cs/pruvodce/jak-ridit-zakazky-bez-excelu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-stabilizovat-pomalou-aplikaci": {
+      "target": "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-stabilizovat-pomalou-aplikaci/": {
+      "target": "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-stabilizovat-pomalou-aplikaci/index.html": {
+      "target": "/cs/pruvodce/jak-stabilizovat-pomalou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-zadat-vyvoj-webove-aplikace": {
+      "target": "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-zadat-vyvoj-webove-aplikace/": {
+      "target": "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/jak-zadat-vyvoj-webove-aplikace/index.html": {
+      "target": "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-ai-ve-firme": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-ai-ve-firme/": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-ai-ve-firme/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-ai-ve-firme/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-interni-system-misto-saas": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-interni-system-misto-saas/": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-interni-system-misto-saas/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-vyvoj-na-miru": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-vyvoj-na-miru/": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-dava-smysl-vyvoj-na-miru/index.html": {
+      "target": "/cs/pruvodce/kdy-dava-smysl-vyvoj-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-se-vyplati-automatizace-procesu": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-se-vyplati-automatizace-procesu/": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/pruvodce/kdy-se-vyplati-automatizace-procesu/index.html": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony": {
+      "target": "/cs/sablony/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/": {
+      "target": "/cs/sablony/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/brief-na-webovou-aplikaci": {
+      "target": "/cs/sablony/brief-na-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/brief-na-webovou-aplikaci/": {
+      "target": "/cs/sablony/brief-na-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/brief-na-webovou-aplikaci/index.html": {
+      "target": "/cs/sablony/brief-na-webovou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace/": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace/index.html": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-api-integrace": {
+      "target": "/cs/sablony/checklist-api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-api-integrace/": {
+      "target": "/cs/sablony/checklist-api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-api-integrace/index.html": {
+      "target": "/cs/sablony/checklist-api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-migrace-z-excelu-do-interniho-systemu": {
+      "target": "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-migrace-z-excelu-do-interniho-systemu/": {
+      "target": "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-migrace-z-excelu-do-interniho-systemu/index.html": {
+      "target": "/cs/sablony/checklist-migrace-z-excelu-do-interniho-systemu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-prevzeti-aplikace": {
+      "target": "/cs/sablony/checklist-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-prevzeti-aplikace/": {
+      "target": "/cs/sablony/checklist-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-prevzeti-aplikace/index.html": {
+      "target": "/cs/sablony/checklist-prevzeti-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-stabilizace-release-procesu-aplikace": {
+      "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-stabilizace-release-procesu-aplikace/": {
+      "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/checklist-stabilizace-release-procesu-aplikace/index.html": {
+      "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/index.html": {
+      "target": "/cs/sablony/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/scope-worksheet-pro-interni-system": {
+      "target": "/cs/sablony/scope-worksheet-pro-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/scope-worksheet-pro-interni-system/": {
+      "target": "/cs/sablony/scope-worksheet-pro-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/scope-worksheet-pro-interni-system/index.html": {
+      "target": "/cs/sablony/scope-worksheet-pro-interni-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby": {
+      "target": "/cs/sluzby/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/": {
+      "target": "/cs/sluzby/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/ai-automatizace-a-integrace": {
+      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/ai-automatizace-a-integrace/": {
+      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/ai-automatizace-a-integrace/index.html": {
+      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/automatizace-a-integrace": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/automatizace-a-integrace/": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/automatizace-a-integrace/index.html": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/index.html": {
+      "target": "/cs/sluzby/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/interni-systemy-na-miru": {
+      "target": "/cs/sluzby/interni-systemy-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/interni-systemy-na-miru/": {
+      "target": "/cs/sluzby/interni-systemy-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/interni-systemy-na-miru/index.html": {
+      "target": "/cs/sluzby/interni-systemy-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/prevzeti-a-rozvoj-existujici-aplikace": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/prevzeti-a-rozvoj-existujici-aplikace/": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/prevzeti-a-rozvoj-existujici-aplikace/index.html": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/system-pro-rizeni-poptavek-a-zakazek": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/system-pro-rizeni-poptavek-a-zakazek/": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/system-pro-rizeni-poptavek-a-zakazek/index.html": {
+      "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/vyvoj-webovych-aplikaci-na-miru": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/vyvoj-webovych-aplikaci-na-miru/": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/vyvoj-webovych-aplikaci-na-miru/index.html": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/spoluprace-na-kontrakt": {
+      "target": "/cs/spoluprace-na-kontrakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/spoluprace-na-kontrakt/": {
+      "target": "/cs/spoluprace-na-kontrakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/spoluprace-na-kontrakt/index.html": {
+      "target": "/cs/spoluprace-na-kontrakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani": {
+      "target": "/cs/srovnani/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/": {
+      "target": "/cs/srovnani/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/externi-vyvojar-vs-agentura": {
+      "target": "/cs/srovnani/externi-vyvojar-vs-agentura/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/externi-vyvojar-vs-agentura/": {
+      "target": "/cs/srovnani/externi-vyvojar-vs-agentura/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/externi-vyvojar-vs-agentura/index.html": {
+      "target": "/cs/srovnani/externi-vyvojar-vs-agentura/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/index.html": {
+      "target": "/cs/srovnani/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/interni-system-vs-excel-a-email": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/interni-system-vs-excel-a-email/": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/interni-system-vs-excel-a-email/index.html": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/nextjs-vs-spa-pro-byznys-aplikace": {
+      "target": "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/nextjs-vs-spa-pro-byznys-aplikace/": {
+      "target": "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/nextjs-vs-spa-pro-byznys-aplikace/index.html": {
+      "target": "/cs/srovnani/nextjs-vs-spa-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/rewrite-vs-postupny-rozvoj-aplikace": {
+      "target": "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/rewrite-vs-postupny-rozvoj-aplikace/": {
+      "target": "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/rewrite-vs-postupny-rozvoj-aplikace/index.html": {
+      "target": "/cs/srovnani/rewrite-vs-postupny-rozvoj-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/vyvoj-na-miru-vs-saas": {
+      "target": "/cs/srovnani/vyvoj-na-miru-vs-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/vyvoj-na-miru-vs-saas/": {
+      "target": "/cs/srovnani/vyvoj-na-miru-vs-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/srovnani/vyvoj-na-miru-vs-saas/index.html": {
+      "target": "/cs/srovnani/vyvoj-na-miru-vs-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/api-integrace": {
+      "target": "/cs/technologie/api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/api-integrace/": {
+      "target": "/cs/technologie/api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/api-integrace/index.html": {
+      "target": "/cs/technologie/api-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/index.html": {
+      "target": "/cs/technologie/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/nextjs-pro-byznys-aplikace": {
+      "target": "/cs/technologie/nextjs-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/nextjs-pro-byznys-aplikace/": {
+      "target": "/cs/technologie/nextjs-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/nextjs-pro-byznys-aplikace/index.html": {
+      "target": "/cs/technologie/nextjs-pro-byznys-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/postgresql-pro-interni-systemy": {
+      "target": "/cs/technologie/postgresql-pro-interni-systemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/postgresql-pro-interni-systemy/": {
+      "target": "/cs/technologie/postgresql-pro-interni-systemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/postgresql-pro-interni-systemy/index.html": {
+      "target": "/cs/technologie/postgresql-pro-interni-systemy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/typescript-pro-vetsi-projekty": {
+      "target": "/cs/technologie/typescript-pro-vetsi-projekty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/typescript-pro-vetsi-projekty/": {
+      "target": "/cs/technologie/typescript-pro-vetsi-projekty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/technologie/typescript-pro-vetsi-projekty/index.html": {
+      "target": "/cs/technologie/typescript-pro-vetsi-projekty/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/data-deletion": {
+      "target": "/data-deletion/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/data-deletion/index.html": {
+      "target": "/data-deletion/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en": {
+      "target": "/en/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies": {
+      "target": "/en/case-studies/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/existing-app-takeover": {
+      "target": "/en/case-studies/existing-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/existing-app-takeover/index.html": {
+      "target": "/en/case-studies/existing-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/index.html": {
+      "target": "/en/case-studies/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/internal-tool-for-operations": {
+      "target": "/en/case-studies/internal-tool-for-operations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/internal-tool-for-operations/index.html": {
+      "target": "/en/case-studies/internal-tool-for-operations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/multi-system-integration": {
+      "target": "/en/case-studies/multi-system-integration/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/case-studies/multi-system-integration/index.html": {
+      "target": "/en/case-studies/multi-system-integration/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons": {
+      "target": "/en/comparisons/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/contract-developer-vs-agency": {
+      "target": "/en/comparisons/contract-developer-vs-agency/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/contract-developer-vs-agency/index.html": {
+      "target": "/en/comparisons/contract-developer-vs-agency/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/custom-web-app-vs-saas-tool": {
+      "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/custom-web-app-vs-saas-tool/index.html": {
+      "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/index.html": {
+      "target": "/en/comparisons/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/internal-tool-vs-spreadsheets-and-email": {
+      "target": "/en/comparisons/internal-tool-vs-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/internal-tool-vs-spreadsheets-and-email/index.html": {
+      "target": "/en/comparisons/internal-tool-vs-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/nextjs-vs-spa-for-business-apps": {
+      "target": "/en/comparisons/nextjs-vs-spa-for-business-apps/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/nextjs-vs-spa-for-business-apps/index.html": {
+      "target": "/en/comparisons/nextjs-vs-spa-for-business-apps/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/rewrite-vs-incremental-app-improvement": {
+      "target": "/en/comparisons/rewrite-vs-incremental-app-improvement/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/comparisons/rewrite-vs-incremental-app-improvement/index.html": {
+      "target": "/en/comparisons/rewrite-vs-incremental-app-improvement/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/contract-development-support": {
+      "target": "/en/contract-development-support/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/contract-development-support/index.html": {
+      "target": "/en/contract-development-support/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/discuss-your-project": {
+      "target": "/en/discuss-your-project/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/discuss-your-project/index.html": {
+      "target": "/en/discuss-your-project/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/discuss-your-project/thank-you": {
+      "target": "/en/discuss-your-project/thank-you/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/discuss-your-project/thank-you/index.html": {
+      "target": "/en/discuss-your-project/thank-you/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides": {
+      "target": "/en/guides/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-automate-request-processing": {
+      "target": "/en/guides/how-to-automate-request-processing/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-automate-request-processing/index.html": {
+      "target": "/en/guides/how-to-automate-request-processing/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-decide-if-an-app-needs-a-rewrite": {
+      "target": "/en/guides/how-to-decide-if-an-app-needs-a-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-decide-if-an-app-needs-a-rewrite/index.html": {
+      "target": "/en/guides/how-to-decide-if-an-app-needs-a-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-estimate-a-custom-web-app": {
+      "target": "/en/guides/how-to-estimate-a-custom-web-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-estimate-a-custom-web-app/index.html": {
+      "target": "/en/guides/how-to-estimate-a-custom-web-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-find-manual-data-reentry": {
+      "target": "/en/guides/how-to-find-manual-data-reentry/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-find-manual-data-reentry/index.html": {
+      "target": "/en/guides/how-to-find-manual-data-reentry/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-know-when-a-project-needs-senior-contract-support": {
+      "target": "/en/guides/how-to-know-when-a-project-needs-senior-contract-support/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-know-when-a-project-needs-senior-contract-support/index.html": {
+      "target": "/en/guides/how-to-know-when-a-project-needs-senior-contract-support/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-manage-jobs-without-excel": {
+      "target": "/en/guides/how-to-manage-jobs-without-excel/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-manage-jobs-without-excel/index.html": {
+      "target": "/en/guides/how-to-manage-jobs-without-excel/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-plan-an-mvp-web-application": {
+      "target": "/en/guides/how-to-plan-an-mvp-web-application/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-plan-an-mvp-web-application/index.html": {
+      "target": "/en/guides/how-to-plan-an-mvp-web-application/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-prepare-discovery-for-automation-and-integrations": {
+      "target": "/en/guides/how-to-prepare-discovery-for-automation-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-prepare-discovery-for-automation-and-integrations/index.html": {
+      "target": "/en/guides/how-to-prepare-discovery-for-automation-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-price-an-app-takeover": {
+      "target": "/en/guides/how-to-price-an-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-price-an-app-takeover/index.html": {
+      "target": "/en/guides/how-to-price-an-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-run-an-app-takeover-audit": {
+      "target": "/en/guides/how-to-run-an-app-takeover-audit/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-run-an-app-takeover-audit/index.html": {
+      "target": "/en/guides/how-to-run-an-app-takeover-audit/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-scope-a-custom-web-application": {
+      "target": "/en/guides/how-to-scope-a-custom-web-application/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-scope-a-custom-web-application/index.html": {
+      "target": "/en/guides/how-to-scope-a-custom-web-application/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-stabilize-a-slow-business-app": {
+      "target": "/en/guides/how-to-stabilize-a-slow-business-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-stabilize-a-slow-business-app/index.html": {
+      "target": "/en/guides/how-to-stabilize-a-slow-business-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-take-over-an-existing-app-safely": {
+      "target": "/en/guides/how-to-take-over-an-existing-app-safely/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/how-to-take-over-an-existing-app-safely/index.html": {
+      "target": "/en/guides/how-to-take-over-an-existing-app-safely/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/index.html": {
+      "target": "/en/guides/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/management-dashboard-from-multiple-systems": {
+      "target": "/en/guides/management-dashboard-from-multiple-systems/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/management-dashboard-from-multiple-systems/index.html": {
+      "target": "/en/guides/management-dashboard-from-multiple-systems/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-ai-makes-sense-in-a-company": {
+      "target": "/en/guides/when-ai-makes-sense-in-a-company/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-ai-makes-sense-in-a-company/index.html": {
+      "target": "/en/guides/when-ai-makes-sense-in-a-company/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-an-internal-tool-is-better-than-saas": {
+      "target": "/en/guides/when-an-internal-tool-is-better-than-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-an-internal-tool-is-better-than-saas/index.html": {
+      "target": "/en/guides/when-an-internal-tool-is-better-than-saas/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-custom-development-makes-sense": {
+      "target": "/en/guides/when-custom-development-makes-sense/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-custom-development-makes-sense/index.html": {
+      "target": "/en/guides/when-custom-development-makes-sense/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-process-automation-pays-off": {
+      "target": "/en/guides/when-process-automation-pays-off/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/guides/when-process-automation-pays-off/index.html": {
+      "target": "/en/guides/when-process-automation-pays-off/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/how-project-delivery-works": {
+      "target": "/en/how-project-delivery-works/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/how-project-delivery-works/index.html": {
+      "target": "/en/how-project-delivery-works/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/index.html": {
+      "target": "/en/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems": {
+      "target": "/en/problems/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/index.html": {
+      "target": "/en/problems/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/our-app-is-slow-and-hard-to-maintain": {
+      "target": "/en/problems/our-app-is-slow-and-hard-to-maintain/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/our-app-is-slow-and-hard-to-maintain/index.html": {
+      "target": "/en/problems/our-app-is-slow-and-hard-to-maintain/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/requests-offers-and-delivery-in-spreadsheets": {
+      "target": "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email": {
+      "target": "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/index.html": {
+      "target": "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/requests-offers-and-delivery-in-spreadsheets/": {
+      "target": "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/problems/requests-offers-and-delivery-in-spreadsheets/index.html": {
+      "target": "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/problems/want-to-use-ai-in-a-business-process": {
+      "target": "/en/problems/want-to-use-ai-in-a-business-process/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/want-to-use-ai-in-a-business-process/index.html": {
+      "target": "/en/problems/want-to-use-ai-in-a-business-process/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-a-client-portal": {
+      "target": "/en/problems/we-need-a-client-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-a-client-portal/index.html": {
+      "target": "/en/problems/we-need-a-client-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-an-internal-tool": {
+      "target": "/en/problems/we-need-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-an-internal-tool/index.html": {
+      "target": "/en/problems/we-need-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-senior-contract-capacity": {
+      "target": "/en/problems/we-need-senior-contract-capacity/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-senior-contract-capacity/index.html": {
+      "target": "/en/problems/we-need-senior-contract-capacity/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-system-integrations": {
+      "target": "/en/problems/we-need-system-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-system-integrations/index.html": {
+      "target": "/en/problems/we-need-system-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-modernize-a-legacy-business-app": {
+      "target": "/en/problems/we-need-to-modernize-a-legacy-business-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-modernize-a-legacy-business-app/index.html": {
+      "target": "/en/problems/we-need-to-modernize-a-legacy-business-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-replace-spreadsheets-in-an-operational-process": {
+      "target": "/en/problems/we-need-to-replace-spreadsheets-in-an-operational-process/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-replace-spreadsheets-in-an-operational-process/index.html": {
+      "target": "/en/problems/we-need-to-replace-spreadsheets-in-an-operational-process/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-rescue-an-incomplete-project": {
+      "target": "/en/problems/we-need-to-rescue-an-incomplete-project/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-rescue-an-incomplete-project/index.html": {
+      "target": "/en/problems/we-need-to-rescue-an-incomplete-project/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-take-over-an-existing-app": {
+      "target": "/en/problems/we-need-to-take-over-an-existing-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/problems/we-need-to-take-over-an-existing-app/index.html": {
+      "target": "/en/problems/we-need-to-take-over-an-existing-app/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services": {
+      "target": "/en/services/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services-1": {
+      "target": "/en/services/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/services-1/": {
+      "target": "/en/services/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/services-1/index.html": {
+      "target": "/en/services/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/services/ai-automation-and-integrations": {
+      "target": "/en/services/ai-automation-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/ai-automation-and-integrations/index.html": {
+      "target": "/en/services/ai-automation-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/automations-and-integrations": {
+      "target": "/en/services/automations-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/automations-and-integrations/index.html": {
+      "target": "/en/services/automations-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/custom-web-application-development": {
+      "target": "/en/services/custom-web-application-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/custom-web-application-development/index.html": {
+      "target": "/en/services/custom-web-application-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/existing-app-takeover": {
+      "target": "/en/services/existing-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/existing-app-takeover/index.html": {
+      "target": "/en/services/existing-app-takeover/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/index.html": {
+      "target": "/en/services/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/internal-tools-development": {
+      "target": "/en/services/internal-tools-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/internal-tools-development/index.html": {
+      "target": "/en/services/internal-tools-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/request-offer-delivery-system": {
+      "target": "/en/services/sales-offers-and-job-tracking-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/services/request-offer-delivery-system/": {
+      "target": "/en/services/sales-offers-and-job-tracking-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/services/request-offer-delivery-system/index.html": {
+      "target": "/en/services/sales-offers-and-job-tracking-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/services/sales-offers-and-job-tracking-system": {
+      "target": "/en/services/sales-offers-and-job-tracking-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/sales-offers-and-job-tracking-system/index.html": {
+      "target": "/en/services/sales-offers-and-job-tracking-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology": {
+      "target": "/en/technology/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/api-integrations": {
+      "target": "/en/technology/api-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/api-integrations/index.html": {
+      "target": "/en/technology/api-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/index.html": {
+      "target": "/en/technology/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/nextjs-for-business-applications": {
+      "target": "/en/technology/nextjs-for-business-applications/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/nextjs-for-business-applications/index.html": {
+      "target": "/en/technology/nextjs-for-business-applications/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/postgresql-for-internal-tools": {
+      "target": "/en/technology/postgresql-for-internal-tools/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/postgresql-for-internal-tools/index.html": {
+      "target": "/en/technology/postgresql-for-internal-tools/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/typescript-for-large-web-projects": {
+      "target": "/en/technology/typescript-for-large-web-projects/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/technology/typescript-for-large-web-projects/index.html": {
+      "target": "/en/technology/typescript-for-large-web-projects/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates": {
+      "target": "/en/templates/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/api-integration-checklist": {
+      "target": "/en/templates/api-integration-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/api-integration-checklist/index.html": {
+      "target": "/en/templates/api-integration-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/app-takeover-checklist": {
+      "target": "/en/templates/app-takeover-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/app-takeover-checklist/index.html": {
+      "target": "/en/templates/app-takeover-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/automation-discovery-checklist": {
+      "target": "/en/templates/automation-discovery-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/automation-discovery-checklist/index.html": {
+      "target": "/en/templates/automation-discovery-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/index.html": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/index.html": {
+      "target": "/en/templates/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/internal-tool-scope-worksheet": {
+      "target": "/en/templates/internal-tool-scope-worksheet/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/internal-tool-scope-worksheet-2": {
+      "target": "/en/templates/internal-tool-scope-worksheet/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/internal-tool-scope-worksheet-2/": {
+      "target": "/en/templates/internal-tool-scope-worksheet/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/internal-tool-scope-worksheet-2/index.html": {
+      "target": "/en/templates/internal-tool-scope-worksheet/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/internal-tool-scope-worksheet/index.html": {
+      "target": "/en/templates/internal-tool-scope-worksheet/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/release-process-stabilization-checklist": {
+      "target": "/en/templates/release-process-stabilization-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/release-process-stabilization-checklist-2": {
+      "target": "/en/templates/release-process-stabilization-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/release-process-stabilization-checklist-2/": {
+      "target": "/en/templates/release-process-stabilization-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/release-process-stabilization-checklist-2/index.html": {
+      "target": "/en/templates/release-process-stabilization-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/release-process-stabilization-checklist/index.html": {
+      "target": "/en/templates/release-process-stabilization-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/web-app-project-brief-template": {
+      "target": "/en/templates/web-app-project-brief-template/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/templates/web-app-project-brief-template/index.html": {
+      "target": "/en/templates/web-app-project-brief-template/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases": {
+      "target": "/en/use-cases/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/ai-intake-processing-and-triage": {
+      "target": "/en/use-cases/ai-intake-processing-and-triage/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/ai-intake-processing-and-triage/index.html": {
+      "target": "/en/use-cases/ai-intake-processing-and-triage/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/ai-over-internal-documents": {
+      "target": "/en/use-cases/ai-over-internal-documents/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/ai-over-internal-documents/index.html": {
+      "target": "/en/use-cases/ai-over-internal-documents/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/b2b-client-portal": {
+      "target": "/en/use-cases/b2b-client-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/b2b-client-portal/index.html": {
+      "target": "/en/use-cases/b2b-client-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/client-portal-development": {
+      "target": "/en/use-cases/client-portal-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/client-portal-development/index.html": {
+      "target": "/en/use-cases/client-portal-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/index.html": {
+      "target": "/en/use-cases/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/internal-admin-system": {
+      "target": "/en/use-cases/internal-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/internal-admin-system/index.html": {
+      "target": "/en/use-cases/internal-admin-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/internal-approval-system": {
+      "target": "/en/use-cases/internal-approval-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/internal-approval-system/index.html": {
+      "target": "/en/use-cases/internal-approval-system/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/management-dashboard": {
+      "target": "/en/use-cases/management-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/management-dashboard/index.html": {
+      "target": "/en/use-cases/management-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/operations-system-for-a-service-team": {
+      "target": "/en/use-cases/operations-system-for-a-service-team/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/operations-system-for-a-service-team/index.html": {
+      "target": "/en/use-cases/operations-system-for-a-service-team/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/partner-portal-for-b2b-company": {
+      "target": "/en/use-cases/partner-portal-for-b2b-company/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/partner-portal-for-b2b-company/index.html": {
+      "target": "/en/use-cases/partner-portal-for-b2b-company/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/reporting-dashboard-development": {
+      "target": "/en/use-cases/reporting-dashboard-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/reporting-dashboard-development/index.html": {
+      "target": "/en/use-cases/reporting-dashboard-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/request-offer-delivery-workflow": {
+      "target": "/en/use-cases/system-for-requests-offers-and-delivery/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/use-cases/request-offer-delivery-workflow/": {
+      "target": "/en/use-cases/system-for-requests-offers-and-delivery/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/use-cases/request-offer-delivery-workflow/index.html": {
+      "target": "/en/use-cases/system-for-requests-offers-and-delivery/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/en/use-cases/system-for-requests-offers-and-delivery": {
+      "target": "/en/use-cases/system-for-requests-offers-and-delivery/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/system-for-requests-offers-and-delivery/index.html": {
+      "target": "/en/use-cases/system-for-requests-offers-and-delivery/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/workflow-app-for-teams": {
+      "target": "/en/use-cases/workflow-app-for-teams/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/workflow-app-for-teams/index.html": {
+      "target": "/en/use-cases/workflow-app-for-teams/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/workflow-automation-tools": {
+      "target": "/en/use-cases/workflow-automation-tools/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/use-cases/workflow-automation-tools/index.html": {
+      "target": "/en/use-cases/workflow-automation-tools/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/index.html": {
+      "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/privacy-policy": {
+      "target": "/privacy-policy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/privacy-policy/index.html": {
+      "target": "/privacy-policy/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    }
+  }
+}
