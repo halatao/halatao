@@ -1,25 +1,25 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "halatao-seo-redirects",
-  "main": "worker/src/index.ts",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "halatao",
   "compatibility_date": "2026-07-12",
-  "workers_dev": false,
-  "env": {
-    "staging": {
-      "workers_dev": true
-    },
-    "production": {
-      "workers_dev": false,
-      "routes": [
-        {
-          "pattern": "halatao.cz/*",
-          "zone_name": "halatao.cz"
-        },
-        {
-          "pattern": "www.halatao.cz/*",
-          "zone_name": "halatao.cz"
-        }
-      ]
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "halatao"
     }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "observability": {
+    "enabled": true
   }
 }
