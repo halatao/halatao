@@ -9,7 +9,7 @@ type HubSeed = {
   slug: string;
   segment: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -32,9 +32,9 @@ function hub(seed: HubSeed): ContentPage {
     slug: seed.slug,
     segments: [seed.segment],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
-    primaryQuery: seed.h1,
+    primaryQuery: seed.breadcrumbLabel,
     intent: "commercial",
     hero: {
       eyebrow: isCs ? "Přehled sekce" : "Section overview",
@@ -100,7 +100,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "srovnani",
     segment: "srovnani",
     title: "Srovnání pro software rozhodnutí a spolupráci",
-    h1: "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
+    breadcrumbLabel: "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
     description: "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace.",
     heroTitle: "Rozhodovací stránky pro chvíli, kdy nestačí obecný názor z internetu",
     heroSubtitle: "Sekce pro buyery, kteří potřebují porovnat dvě realistické varianty a pochopit jejich dopad na delivery, náklady a provoz.",
@@ -138,7 +138,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "comparisons",
     segment: "comparisons",
     title: "Comparisons for software buying decisions",
-    h1: "Comparison pages for buyers making a real software decision",
+    breadcrumbLabel: "Comparison pages for buyers making a real software decision",
     description: "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement.",
     heroTitle: "Decision support when generic internet advice is not enough",
     heroSubtitle: "For buyers who need to compare two realistic paths and understand the impact on delivery, cost, and operations.",
@@ -176,7 +176,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "priklady",
     segment: "priklady",
     title: "Příklady řešení: portály, interní systémy a workflow",
-    h1: "Příklady typů aplikací, které dávají ve firmách největší smysl",
+    breadcrumbLabel: "Příklady typů aplikací, které dávají ve firmách největší smysl",
     description: "Přehled use-case stránek pro klientské portály, interní systémy, dashboardy, schvalovací workflow, AI práci s dokumenty a další typické business aplikace.",
     heroTitle: "Příklady řešení jako rozhodovací pomůcka, ne galerie screenshotů",
     heroSubtitle: "Sekce pro firmy, které vědí, že potřebují systém, ale chtějí si lépe představit jeho správný tvar a první rozsah.",
@@ -208,7 +208,7 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",
-      "use-case-request-offer-delivery-workflow",
+      "use-case-request-offer-delivery-system",
     ],
   }),
   hub({
@@ -217,7 +217,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "use-cases",
     segment: "use-cases",
     title: "Use cases: portals, internal systems, dashboards, and workflow apps | Bc. Ondřej Halata",
-    h1: "Use cases for the kinds of business applications companies actually buy",
+    breadcrumbLabel: "Use cases for the kinds of business applications companies actually buy",
     description: "Overview of use-case pages for client portals, internal tools, dashboards, approval systems, workflow apps, and practical AI-assisted operating workflows.",
     heroTitle: "Representative solution shapes instead of fake product theatre",
     heroSubtitle: "Useful when the company knows it needs a system but wants to clarify the right application shape before detailed scoping.",
@@ -249,7 +249,7 @@ export const stage2HubPages: ContentPage[] = [
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",
-      "use-case-request-offer-delivery-workflow",
+      "use-case-request-offer-delivery-system",
     ],
   }),
   hub({
@@ -258,7 +258,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "pripadovky",
     segment: "pripadovky",
     title: "Případovky a anonymizované scénáře software projektů | Bc. Ondřej Halata",
-    h1: "Případovky a anonymizované scénáře podobných projektů",
+    breadcrumbLabel: "Případovky a anonymizované scénáře podobných projektů",
     description: "Anonymizované případovky pro takeover aplikace, interní nástroj pro operativu a integraci více systémů bez vymyšlených metrik.",
     heroTitle: "Případovky bez nafouknutých čísel a portfolio divadla",
     heroSubtitle: "Sekce ukazuje reprezentativní scénáře podobných projektů, jejich výchozí situaci, zvolený přístup a typ změny, kterou mohou přinést.",
@@ -294,7 +294,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "case-studies",
     segment: "case-studies",
     title: "Case studies and anonymised delivery scenarios | Bc. Ondřej Halata",
-    h1: "Case studies built as representative scenarios, not inflated references",
+    breadcrumbLabel: "Case studies built as representative scenarios, not inflated references",
     description: "Anonymised case studies for inherited-app takeover, internal operations tooling, and multi-system integration without invented proof metrics.",
     heroTitle: "Case studies without invented numbers or portfolio theatre",
     heroSubtitle: "This section shows the type of project situation, the delivery approach chosen, and the kind of change similar work can create.",
@@ -330,7 +330,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "pruvodce",
     segment: "pruvodce",
     title: "Průvodce pro zadání, takeover a software rozhodnutí | Bc. Ondřej Halata",
-    h1: "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
+    breadcrumbLabel: "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
     description: "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity.",
     heroTitle: "Průvodce pro rozhodnutí před projektem, ne generický dev blog",
     heroSubtitle: "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy, AI fit nebo otázku externí seniorní kapacity ještě před realizací.",
@@ -369,7 +369,7 @@ export const stage2HubPages: ContentPage[] = [
     slug: "guides",
     segment: "guides",
     title: "Guides for scoping, takeover, and software buying decisions | Bc. Ondřej Halata",
-    h1: "Guides for companies clarifying a project before delivery starts",
+    breadcrumbLabel: "Guides for companies clarifying a project before delivery starts",
     description: "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and deciding on senior contract support.",
     heroTitle: "Guides for pre-project clarity, not generic developer-blog traffic",
     heroSubtitle: "For buyers trying to clarify scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",

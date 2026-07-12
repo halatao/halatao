@@ -9,7 +9,7 @@ type HubSeed = {
   slug: string;
   segment: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -32,9 +32,9 @@ function hub(seed: HubSeed): ContentPage {
     slug: seed.slug,
     segments: [seed.segment],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
-    primaryQuery: seed.h1,
+    primaryQuery: seed.breadcrumbLabel,
     intent: "research",
     hero: {
       eyebrow: isCs ? "Přehled sekce" : "Section overview",
@@ -100,7 +100,7 @@ export const stage3HubPages: ContentPage[] = [
     slug: "technologie",
     segment: "technologie",
     title: "Technologie pro business aplikace a interní systémy",
-    h1: "Technologické stránky pro business aplikace a interní systémy",
+    breadcrumbLabel: "Technologické stránky pro business aplikace a interní systémy",
     description: "Přehled technologických stránek pro Next.js, TypeScript, API integrace a PostgreSQL v business aplikacích a interních systémech.",
     heroTitle: "Technologie vysvětlené podle projektového fitu, ne podle trendového seznamu",
     heroSubtitle: "Sekce pro chvíli, kdy buyer nebo tým potřebuje rozumět tomu, proč konkrétní stack nebo integrační přístup dává smysl právě pro jejich projekt.",
@@ -137,7 +137,7 @@ export const stage3HubPages: ContentPage[] = [
     slug: "technology",
     segment: "technology",
     title: "Technology decisions for business apps",
-    h1: "Technology decision pages for business applications and internal systems",
+    breadcrumbLabel: "Technology decision pages for business applications and internal systems",
     description: "Overview of technology pages covering Next.js, TypeScript, API integrations, and PostgreSQL in the context of business software and internal tools.",
     heroTitle: "Technology explained through project fit rather than trend chasing",
     heroSubtitle: "Useful when a buyer or team needs to understand why a stack choice or integration approach is commercially sensible for the project at hand.",
@@ -174,7 +174,7 @@ export const stage3HubPages: ContentPage[] = [
     slug: "sablony",
     segment: "sablony",
     title: "Šablony a checklisty pro aplikace, takeover a automatizace",
-    h1: "Šablony a checklisty, které zkracují cestu k lepšímu prvnímu rozhodnutí",
+    breadcrumbLabel: "Šablony a checklisty, které zkracují cestu k lepšímu prvnímu rozhodnutí",
     description: "Přehled šablon a checklistů pro brief webové aplikace, takeover, interní systémy, API integrace a discovery automatizací.",
     heroTitle: "Praktické šablony pro chvíli, kdy projekt potřebuje řád dřív než chaos",
     heroSubtitle: "Sekce obsahuje použitelné pracovní podklady pro scoping, takeover, interní systémy a automatizační projekty. Ne administrativu pro administrativu.",
@@ -212,7 +212,7 @@ export const stage3HubPages: ContentPage[] = [
     slug: "templates",
     segment: "templates",
     title: "Templates for scoping, takeover, and automation",
-    h1: "Templates and checklists that shorten the path to a better first project decision",
+    breadcrumbLabel: "Templates and checklists that shorten the path to a better first project decision",
     description: "Overview of practical templates for web app briefs, app takeover, API integrations, internal tool scoping, and automation discovery.",
     heroTitle: "Practical templates for getting structure around the project before confusion spreads",
     heroSubtitle: "This section gathers useful working assets for scoping, takeover, internal tooling, and automation projects. The goal is clarity, not paperwork.",

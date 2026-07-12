@@ -76,8 +76,8 @@ function serviceSchema(page: ContentPage) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: page.h1,
-    name: page.h1,
+    serviceType: page.hero.title,
+    name: page.hero.title,
     description: page.description,
     provider: providerSchema(),
     availableLanguage: siteConfig.availableLanguages,

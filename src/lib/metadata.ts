@@ -18,13 +18,16 @@ function metadataIcons() {
 export function buildMetadataForPage(page: ContentPage): Metadata {
   const canonicalPath = buildPagePath(page);
   const shareImage = page.seo.image ?? siteConfig.ogImage;
-  const alternatePages = Object.fromEntries(
-    getAlternatePages(page).map((alternate) => [alternate.locale, absoluteUrl(buildPagePath(alternate))]),
-  );
-  const alternates = {
-    [page.locale]: absoluteUrl(canonicalPath),
-    ...alternatePages,
-  };
+  const translatedPages = [page, ...getAlternatePages(page)];
+  const czechPage = translatedPages.find((candidate) => candidate.locale === "cs" && candidate.indexable);
+  const englishPage = translatedPages.find((candidate) => candidate.locale === "en" && candidate.indexable);
+  const languages = page.indexable && czechPage && englishPage
+    ? {
+        cs: absoluteUrl(buildPagePath(czechPage)),
+        en: absoluteUrl(buildPagePath(englishPage)),
+        "x-default": absoluteUrl(buildPagePath(czechPage)),
+      }
+    : undefined;
 
   return {
     metadataBase: new URL(siteConfig.siteUrl),
@@ -33,10 +36,7 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
     icons: metadataIcons(),
     alternates: {
       canonical: absoluteUrl(canonicalPath),
-      languages: {
-        ...alternates,
-        "x-default": absoluteUrl("/cs/"),
-      },
+      ...(languages ? { languages } : {}),
     },
     robots: page.indexable ? { index: true, follow: true } : { index: false, follow: false },
     openGraph: {
@@ -85,7 +85,7 @@ export function buildRootMetadata(): Metadata {
     robots: { index: false, follow: true },
     openGraph: {
       type: "website",
-      url: absoluteUrl("/"),
+      url: absoluteUrl("/cs/"),
       siteName: siteConfig.shortDisplayName,
       title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
       description:

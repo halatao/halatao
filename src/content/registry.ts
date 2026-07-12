@@ -1,4 +1,4 @@
-﻿// Safe to edit manually: central content registry and lookup helpers.
+// Safe to edit manually: central content registry and lookup helpers.
 
 import { corePages } from "@/content/pages/stage1/core";
 import { stage1HubPages } from "@/content/pages/stage1/hubs";
@@ -118,7 +118,7 @@ export function getSectionChildren(page: ContentPage) {
         candidate.segments.length > 1 &&
         candidate.segments[0] === page.segments[0],
     )
-    .sort((left, right) => left.h1.localeCompare(right.h1, page.locale));
+    .sort((left, right) => left.breadcrumbLabel.localeCompare(right.breadcrumbLabel, page.locale));
 }
 
 export function getStaticRouteParams() {
@@ -143,15 +143,6 @@ export function getMigrationSummary() {
     totalPages: allPages.length,
     countsByType,
     countsByLocale,
-    legacyMapping: [
-      { from: "index.html", to: "/" },
-      { from: "cz/index.html", to: "/cs" },
-      { from: "en/index.html", to: "/en" },
-      { from: "automatizace/index.html", to: "/cs/sluzby/automatizace-a-integrace" },
-      { from: "automatizace/dekuji.html", to: "/cs/popsat-projekt/dekuji" },
-      { from: "robots.txt", to: "/robots.txt" },
-      { from: "sitemap.xml", to: "/sitemap.xml" },
-    ],
   };
 }
 

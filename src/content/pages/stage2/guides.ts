@@ -8,7 +8,7 @@ type GuideSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -32,7 +32,7 @@ function guide(seed: GuideSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "pruvodce" : "guides", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "research",
@@ -93,7 +93,7 @@ export const guidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-zadat-vyvoj-webove-aplikace",
     title: "Jak zadat vývoj webové aplikace | Bc. Ondřej Halata",
-    h1: "Jak zadat vývoj webové aplikace, aby projekt dával smysl",
+    breadcrumbLabel: "Jak zadat vývoj webové aplikace, aby projekt dával smysl",
     description: "Praktický průvodce, jak zadat vývoj webové aplikace na míru bez zbytečného chaosu, přestřeleného scope a nejasných očekávání.",
     primaryQuery: "jak zadat vývoj webové aplikace",
     heroTitle: "Dobré zadání není román. Je to jasný rámec pro první etapu.",
@@ -134,7 +134,7 @@ export const guidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-prevzit-existujici-aplikaci-bez-rizika",
     title: "Jak převzít existující aplikaci bez rizika | Bc. Ondřej Halata",
-    h1: "Jak převzít existující aplikaci bez zbytečného rizika",
+    breadcrumbLabel: "Jak převzít existující aplikaci bez zbytečného rizika",
     description: "Praktický průvodce pro firmy, které přebírají existující webovou aplikaci po dodavateli, odcházejícím vývojáři nebo nejasném interním období.",
     primaryQuery: "jak převzít existující aplikaci bez rizika",
     heroTitle: "Takeover bez auditu je sázka naslepo",
@@ -175,7 +175,7 @@ export const guidePages: ContentPage[] = [
     locale: "cs",
     slug: "kdy-dava-smysl-vyvoj-na-miru",
     title: "Kdy dává smysl vývoj na míru | Bc. Ondřej Halata",
-    h1: "Kdy dává smysl vývoj na míru a kdy ne",
+    breadcrumbLabel: "Kdy dává smysl vývoj na míru a kdy ne",
     description: "Praktický průvodce, kdy se firmě vyplatí vlastní vývoj webové aplikace a kdy je lepší hotový nástroj nebo menší úpravy stávajícího řešení.",
     primaryQuery: "kdy dává smysl vývoj na míru",
     heroTitle: "Vývoj na míru není prestižní volba. Má být rozumná.",
@@ -214,7 +214,7 @@ export const guidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-scope-a-custom-web-application",
     title: "How to scope a custom web application | Bc. Ondřej Halata",
-    h1: "How to scope a custom web application without creating chaos",
+    breadcrumbLabel: "How to scope a custom web application without creating chaos",
     description: "A practical guide to scoping a custom web application without overloading the first phase or starting with vague expectations.",
     primaryQuery: "how to scope a custom web application",
     heroTitle: "A good project brief is not a novel",
@@ -253,7 +253,7 @@ export const guidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-take-over-an-existing-app-safely",
     title: "How to take over an existing app safely | Bc. Ondřej Halata",
-    h1: "How to take over an existing app safely",
+    breadcrumbLabel: "How to take over an existing app safely",
     description: "A practical guide for companies taking over an existing web application after a supplier change, team transition, or unclear technical period.",
     primaryQuery: "how to take over an existing app safely",
     heroTitle: "Taking over an app without discovery is a blind bet",
@@ -292,7 +292,7 @@ export const guidePages: ContentPage[] = [
     locale: "en",
     slug: "when-custom-development-makes-sense",
     title: "When custom development makes sense | Bc. Ondřej Halata",
-    h1: "When custom development makes sense and when it does not",
+    breadcrumbLabel: "When custom development makes sense and when it does not",
     description: "A practical guide to deciding when custom software is worth the investment and when an existing tool or lighter approach is the better choice.",
     primaryQuery: "when custom development makes sense",
     heroTitle: "Custom development should be justified, not romanticised",

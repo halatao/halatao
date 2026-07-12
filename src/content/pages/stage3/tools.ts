@@ -8,7 +8,7 @@ type ToolSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -31,7 +31,7 @@ function tool(seed: ToolSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "sablony" : "templates", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "transactional",
@@ -62,7 +62,7 @@ export const toolPages: ContentPage[] = [
     locale: "cs",
     slug: "brief-na-webovou-aplikaci",
     title: "Brief na webovou aplikaci | Bc. Ondřej Halata",
-    h1: "Brief na webovou aplikaci: co si ujasnit před startem projektu",
+    breadcrumbLabel: "Brief na webovou aplikaci: co si ujasnit před startem projektu",
     description: "Šablona briefu pro webovou aplikaci na míru: problém, cíle, role, první workflow a omezení projektu.",
     primaryQuery: "brief na webovou aplikaci",
     heroTitle: "Krátký brief často ušetří týdny chaosu",
@@ -83,7 +83,7 @@ export const toolPages: ContentPage[] = [
     locale: "cs",
     slug: "checklist-prevzeti-aplikace",
     title: "Checklist převzetí aplikace | Bc. Ondřej Halata",
-    h1: "Checklist převzetí aplikace po dodavateli nebo týmu",
+    breadcrumbLabel: "Checklist převzetí aplikace po dodavateli nebo týmu",
     description: "Praktický checklist pro převzetí existující aplikace: přístupy, prostředí, release proces, rizika a kritické workflow.",
     primaryQuery: "checklist převzetí aplikace",
     heroTitle: "Takeover bez checklistu bývá plný slepých míst",
@@ -104,7 +104,7 @@ export const toolPages: ContentPage[] = [
     locale: "cs",
     slug: "checklist-api-integrace",
     title: "Checklist API integrace | Bc. Ondřej Halata",
-    h1: "Checklist API integrace před startem projektu",
+    breadcrumbLabel: "Checklist API integrace před startem projektu",
     description: "Checklist pro API integrace: zdroje dat, vlastnictví, chybové stavy, výjimky a provozní monitoring.",
     primaryQuery: "checklist api integrace",
     heroTitle: "Integrace se nejčastěji lámou na detailech, které nikdo nepojmenoval",
@@ -125,7 +125,7 @@ export const toolPages: ContentPage[] = [
     locale: "en",
     slug: "web-app-project-brief-template",
     title: "Web app project brief template | Bc. Ondřej Halata",
-    h1: "Web app project brief template: what to clarify before delivery starts",
+    breadcrumbLabel: "Web app project brief template: what to clarify before delivery starts",
     description: "A practical project brief template for custom web applications covering the problem, goals, roles, first workflow, and delivery constraints.",
     primaryQuery: "web app project brief template",
     heroTitle: "A short brief can save weeks of avoidable confusion",
@@ -146,7 +146,7 @@ export const toolPages: ContentPage[] = [
     locale: "en",
     slug: "app-takeover-checklist",
     title: "App takeover checklist | Bc. Ondřej Halata",
-    h1: "App takeover checklist after a supplier or team change",
+    breadcrumbLabel: "App takeover checklist after a supplier or team change",
     description: "A practical checklist for taking over an existing application: access, environments, release flow, risks, and critical workflows.",
     primaryQuery: "app takeover checklist",
     heroTitle: "Takeover without a checklist leaves too many blind spots",
@@ -167,7 +167,7 @@ export const toolPages: ContentPage[] = [
     locale: "en",
     slug: "api-integration-checklist",
     title: "API integration checklist | Bc. Ondřej Halata",
-    h1: "API integration checklist before delivery starts",
+    breadcrumbLabel: "API integration checklist before delivery starts",
     description: "A practical API integration checklist covering data ownership, error states, exceptions, monitoring, and real operational constraints.",
     primaryQuery: "api integration checklist",
     heroTitle: "Integration projects usually fail on the details nobody named early enough",

@@ -8,7 +8,7 @@ type ToolSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -34,7 +34,7 @@ function tool(seed: ToolSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "sablony" : "templates", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "transactional",
@@ -103,7 +103,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "cs",
     slug: "checklist-migrace-z-excelu-do-interniho-systemu",
     title: "Checklist migrace z Excelu do interního systému | Bc. Ondřej Halata",
-    h1: "Checklist: co si připravit před migrací z Excelu do interního systému",
+    breadcrumbLabel: "Checklist: co si připravit před migrací z Excelu do interního systému",
     description: "Praktický checklist pro firmy, které chtějí převést důležitý proces z Excelu do interního systému a potřebují si srovnat data, workflow, role a hranice první etapy.",
     primaryQuery: "migrace z Excelu do interního systému",
     heroTitle: "Migrace z Excelu není kopírování tabulky do nové obrazovky",
@@ -143,7 +143,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "cs",
     slug: "checklist-stabilizace-release-procesu-aplikace",
     title: "Checklist stabilizace release procesu aplikace | Bc. Ondřej Halata",
-    h1: "Checklist pro stabilizaci release procesu aplikace před dalším rozvojem",
+    breadcrumbLabel: "Checklist pro stabilizaci release procesu aplikace před dalším rozvojem",
     description: "Praktický checklist pro firmy, které chtějí stabilizovat release proces aplikace, snížit riziko nasazení a získat jistější základ pro další vývoj.",
     primaryQuery: "stabilizace release procesu aplikace",
     heroTitle: "Největší release problém často není v deploy scriptu, ale v nejistotě kolem celého procesu",
@@ -183,7 +183,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "cs",
     slug: "scope-worksheet-pro-interni-system",
     title: "Scope worksheet pro interní systém | Bc. Ondřej Halata",
-    h1: "Scope worksheet pro interní systém na míru",
+    breadcrumbLabel: "Scope worksheet pro interní systém na míru",
     description: "Praktický scope worksheet pro interní systém: proces, role, stavy, výjimky, data a hranice první verze bez zbytečného přestřelení zadání.",
     primaryQuery: "scope worksheet pro interní systém",
     heroTitle: "Interní systém se zadává lépe, když nejdřív popíšete proces, ne seznam obrazovek",
@@ -223,7 +223,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "cs",
     slug: "discovery-checklist-pro-automatizace",
     title: "Discovery checklist pro automatizace | Bc. Ondřej Halata",
-    h1: "Discovery checklist pro automatizace a workflow integrace",
+    breadcrumbLabel: "Discovery checklist pro automatizace a workflow integrace",
     description: "Praktický checklist pro discovery fázi automatizací: proces, výjimky, ownership, datové zdroje a provozní dopad před startem integračního projektu.",
     primaryQuery: "discovery checklist pro automatizace",
     heroTitle: "Než začnete automatizovat, potřebujete rozumět procesu, výjimkám a ownershipu",
@@ -263,7 +263,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "en",
     slug: "internal-tool-scope-worksheet",
     title: "Internal tool scope worksheet | Bc. Ondřej Halata",
-    h1: "Internal tool scope worksheet for custom operations software",
+    breadcrumbLabel: "Internal tool scope worksheet for custom operations software",
     description: "A practical scope worksheet for internal tools covering workflow, roles, states, exceptions, data sources, and the boundary of the first release.",
     primaryQuery: "internal tool scope worksheet",
     heroTitle: "Internal tools are scoped better when you start with the process, not a screen list",
@@ -303,7 +303,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "en",
     slug: "automation-discovery-checklist",
     title: "Automation discovery checklist | Bc. Ondřej Halata",
-    h1: "Automation discovery checklist for workflow and integration projects",
+    breadcrumbLabel: "Automation discovery checklist for workflow and integration projects",
     description: "A practical checklist for automation discovery covering process flow, exception paths, ownership, source data, and operational impact before implementation begins.",
     primaryQuery: "automation discovery checklist",
     heroTitle: "Before automating, understand the process, the exceptions, and the ownership",
@@ -343,7 +343,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "en",
     slug: "checklist-for-migrating-from-spreadsheets-to-an-internal-tool",
     title: "Checklist for migrating from spreadsheets to an internal tool | Bc. Ondřej Halata",
-    h1: "Checklist: what to prepare before moving from spreadsheets to an internal tool",
+    breadcrumbLabel: "Checklist: what to prepare before moving from spreadsheets to an internal tool",
     description: "A practical checklist for companies moving an important process out of spreadsheets into an internal tool, covering data, workflow, ownership, and first-phase boundaries.",
     primaryQuery: "migrating from spreadsheets to an internal tool",
     heroTitle: "Spreadsheet migration is not just copying rows into a new screen",
@@ -383,7 +383,7 @@ export const growthToolPages: ContentPage[] = [
     locale: "en",
     slug: "release-process-stabilization-checklist",
     title: "Release process stabilisation checklist | Bc. Ondřej Halata",
-    h1: "Checklist for stabilising an application release process before further growth",
+    breadcrumbLabel: "Checklist for stabilising an application release process before further growth",
     description: "A practical checklist for companies that want to stabilise their application release process, lower deployment risk, and create a stronger base for future delivery.",
     primaryQuery: "release process stabilization checklist",
     heroTitle: "The biggest release problem is rarely just the deploy script",

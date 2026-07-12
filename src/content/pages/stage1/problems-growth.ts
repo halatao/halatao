@@ -1,14 +1,14 @@
 // Generated content: additional high-intent problem pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale } from "@/content/types";
 
 type ProblemSeed = {
   translationKey: string;
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -20,6 +20,7 @@ type ProblemSeed = {
   outcomes: string[];
   faq: FAQItem[];
   related: string[];
+  priorityLinks?: LinkRecord[];
   fitFor: string[];
   fitNot: string[];
 };
@@ -35,7 +36,7 @@ function problem(seed: ProblemSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "problemy" : "problems", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -71,6 +72,7 @@ function problem(seed: ProblemSeed): ContentPage {
     ],
     faq: seed.faq,
     related: seed.related,
+    priorityLinks: seed.priorityLinks,
     fit: { for: seed.fitFor, notFor: seed.fitNot },
     cta: isCs
       ? {
@@ -95,7 +97,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-nahradit-excel-ve-firemnim-procesu",
     title: "Nahradit Excel firemním systémem: kdy a jak začít",
-    h1: "Jak nahradit Excel ve firemním procesu bez dalšího chaosu",
+    breadcrumbLabel: "Jak nahradit Excel ve firemním procesu bez dalšího chaosu",
     description: "Kdy už Excel nestačí pro firemní proces, jak poznat správný okamžik pro interní systém a jak navrhnout první verzi bez zbytečného přestřelení scope.",
     primaryQuery: "nahradit excel firemním systémem",
     heroTitle: "Excel byl dobrý začátek, ale dnes už brzdí důležitý proces",
@@ -125,7 +127,7 @@ export const growthProblemPages: ContentPage[] = [
     ],
     related: [
       "service-internal-tools-development",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "guide-how-to-manage-jobs-without-excel",
       "guide-how-to-automate-request-processing",
       "problem-internal-tool",
@@ -141,7 +143,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-modernizovat-legacy-aplikaci",
     title: "Modernizace legacy aplikace | Bc. Ondřej Halata",
-    h1: "Potřebujeme modernizovat legacy aplikaci bez rozbití provozu",
+    breadcrumbLabel: "Potřebujeme modernizovat legacy aplikaci bez rozbití provozu",
     description: "Pomohu firmám modernizovat legacy aplikaci postupně a bezpečně, když je systém stále provozně důležitý, ale další změny jsou příliš drahé, pomalé nebo riskantní.",
     primaryQuery: "modernizace legacy aplikace",
     heroTitle: "Běžící legacy aplikace potřebuje plán modernizace, ne další improvizaci",
@@ -178,7 +180,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "aplikace-je-pomala-a-tezko-se-udrzuje",
     title: "Aplikace je pomalá a těžko se udržuje | Bc. Ondřej Halata",
-    h1: "Aplikace je pomalá, křehká a těžko se dál rozvíjí",
+    breadcrumbLabel: "Aplikace je pomalá, křehká a těžko se dál rozvíjí",
     description: "Pomohu zmapovat, proč je business aplikace pomalá a těžko udržitelná, a navrhnout stabilizační postup bez zbytečného rewritu.",
     primaryQuery: "aplikace je pomalá a těžko se udržuje",
     heroTitle: "Každá změna trvá dlouho a výkon už bolí i byznys",
@@ -215,7 +217,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "chybi-seniorni-kapacita-do-tymu",
     title: "Chybí seniorní kapacita do týmu | Bc. Ondřej Halata",
-    h1: "Projektu chybí seniorní kapacita do týmu",
+    breadcrumbLabel: "Projektu chybí seniorní kapacita do týmu",
     description: "Pomohu firmám a produktovým týmům ve chvíli, kdy delivery stojí, chybí technické vedení nebo je potřeba převzít problematickou oblast uvnitř existujícího týmu.",
     primaryQuery: "chybí seniorní kapacita do týmu",
     heroTitle: "Tým pracuje, ale důležitá technická rozhodnutí nikdo skutečně nedrží",
@@ -252,7 +254,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-zachranit-rozdelany-projekt",
     title: "Zachránit rozdělaný projekt | Stabilizace, takeover a další postup",
-    h1: "Jak zachránit rozdělaný projekt, který se zasekl",
+    breadcrumbLabel: "Jak zachránit rozdělaný projekt, který se zasekl",
     description: "Pomohu zmapovat rozdělaný softwarový projekt, zúžit rizika a navrhnout realistický další postup tam, kde delivery ztratilo důvěru, tempo nebo směr.",
     primaryQuery: "jak zachránit rozdělaný projekt",
     heroTitle: "Rozdělaný projekt běží, ale další plán už nedává důvěru",
@@ -289,7 +291,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-klientsky-portal",
     title: "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
-    h1: "Klientský portál na míru pro komunikaci, data a klientskou samoobsluhu",
+    breadcrumbLabel: "Klientský portál na míru pro komunikaci, data a klientskou samoobsluhu",
     description: "Pomohu firmám navrhnout klientský portál na míru tam, kde se opakuje komunikace o stavu zakázek, dokumentech, požadavcích nebo samoobslužných úkonech.",
     primaryQuery: "klientský portál na míru",
     heroTitle: "Klientský portál místo e-mailového chaosu a ručního posílání dokumentů",
@@ -326,7 +328,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "our-app-is-slow-and-hard-to-maintain",
     title: "Our app is slow and hard to maintain | Bc. Ondřej Halata",
-    h1: "Our app is slow, fragile, and hard to maintain",
+    breadcrumbLabel: "Our app is slow, fragile, and hard to maintain",
     description: "I help teams understand why a business application is slow and difficult to maintain, then shape a stabilisation path without defaulting to a rewrite.",
     primaryQuery: "our app is slow and hard to maintain",
     heroTitle: "Every change takes too long and performance is hurting the business",
@@ -363,7 +365,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-senior-contract-capacity",
     title: "We need senior contract capacity | Bc. Ondřej Halata",
-    h1: "We need senior contract capacity inside the team",
+    breadcrumbLabel: "We need senior contract capacity inside the team",
     description: "I help companies and product teams when delivery is slowing down because technical ownership is weak, risky areas lack a senior owner, or the team needs stronger contract support.",
     primaryQuery: "we need senior contract capacity",
     heroTitle: "The team is busy, but the critical technical decisions still have no real owner",
@@ -400,7 +402,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-to-rescue-an-incomplete-project",
     title: "We need to rescue an incomplete project | Bc. Ondřej Halata",
-    h1: "We need to rescue an incomplete project that has stalled",
+    breadcrumbLabel: "We need to rescue an incomplete project that has stalled",
     description: "I help companies take over, stabilise, and restart incomplete software projects that are stuck between expectations, delivery, and technical reality.",
     primaryQuery: "we need to rescue an incomplete project",
     heroTitle: "The project already cost time and money, but it is still not moving credibly",
@@ -437,7 +439,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-a-client-portal",
     title: "We need a client portal | Bc. Ondřej Halata",
-    h1: "We need a client portal for visibility, documents, and self-service",
+    breadcrumbLabel: "We need a client portal for visibility, documents, and self-service",
     description: "I help companies design client portals when repeated customer communication, document sharing, and status handling should move into one clearer interface.",
     primaryQuery: "we need a client portal",
     heroTitle: "Clients need one reliable place instead of fragmented email handling",
@@ -474,7 +476,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-to-replace-spreadsheets-in-an-operational-process",
     title: "Replace spreadsheets in an operational process | Bc. Ondřej Halata",
-    h1: "We need to replace spreadsheets in an operational process without adding more chaos",
+    breadcrumbLabel: "We need to replace spreadsheets in an operational process without adding more chaos",
     description: "I help companies move an operationally important process out of spreadsheets, shared email, and manual tracking into a system with clear workflow and ownership.",
     primaryQuery: "replace spreadsheets in an operational process",
     heroTitle: "Spreadsheets were a good start, but now they are slowing the process down",
@@ -511,7 +513,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-to-modernize-a-legacy-business-app",
     title: "Modernise a legacy business app | Bc. Ondřej Halata",
-    h1: "We need to modernise a legacy application without breaking operations",
+    breadcrumbLabel: "We need to modernise a legacy application without breaking operations",
     description: "I help companies modernise legacy applications incrementally and safely when the team already runs the system but future change is becoming too slow, expensive, or risky.",
     primaryQuery: "modernize a legacy business app",
     heroTitle: "A running legacy application needs a modernisation plan, not more improvisation",
@@ -547,12 +549,12 @@ export const growthProblemPages: ContentPage[] = [
     translationKey: "problem-sales-offers-delivery-chaos",
     locale: "cs",
     slug: "poptavky-nabidky-a-realizace-v-excelu-a-emailu",
-    title: "Poptávky, nabídky a realizace v Excelu a e-mailu",
-    h1: "Poptávky, nabídky a realizace v Excelu a e-mailu přestávají stačit",
-    description: "Pomohu firmám, kde poptávky, nabídky a realizace zakázek běží přes Excel, e-mail a ruční dohledávání, a celý proces už začíná být nepřehledný a nespolehlivý.",
-    primaryQuery: "evidence poptávek a zakázek v excelu",
-    heroTitle: "Poptávky a zakázky drží tabulky, e-maily a hlava lidí",
-    heroSubtitle: "Typická situace, kdy firma ještě nějak funguje, ale každá další zakázka zvyšuje chaos, chybovost a tlak na ruční koordinaci.",
+    title: "Kdy Excel a e-mail přestávají stačit pro poptávky a zakázky",
+    breadcrumbLabel: "Jak poznat, že Excel a e-mail přestávají stačit na řízení zakázek",
+    description: "Signály, že řízení poptávek, nabídek a realizace v Excelu a e-mailu přestává být spolehlivé: ruční dohledávání, nejasná odpovědnost, chyby a zpoždění.",
+    primaryQuery: "poptávky a zakázky v excelu a emailu",
+    heroTitle: "Jak poznat, že Excel a e-mail přestávají stačit na řízení zakázek",
+    heroSubtitle: "Praktické symptomy a provozní rizika: informace na více místech, nejasný další krok, ruční dohledávání a práce, která se zasekne bez včasného upozornění.",
     intro: [
       "Tabulky a e-mail bývají přirozený začátek. Problém nastává ve chvíli, kdy se nad stejnou zakázkou potkává více lidí, více stavů a více návazných kroků.",
       "Pak přestává být jasné, kde je aktuální informace, kdo má další krok, jaká nabídka platí a v jakém stavu je realizace.",
@@ -563,6 +565,8 @@ export const growthProblemPages: ContentPage[] = [
       "obchod a realizace pracují s odlišným přehledem o stejné zakázce",
       "stav zakázky se zjišťuje přes e-mail, telefon nebo dotaz na kolegu",
       "odpovědnost za další krok není jednoznačná",
+      "práce se zasekne a nikdo si toho nevšimne včas",
+      "lidé spoléhají na vlastní paměť místo důvěryhodného provozního přehledu",
     ],
     whyItMatters: "Když proces stojí na tabulkách a ruční koordinaci příliš dlouho, nezvyšuje se jen administrativní zátěž. Roste i riziko chyb, zpoždění a ztracených informací mezi obchodem a realizací.",
     approach: "Nejdřív je potřeba pojmenovat, kde proces nejvíc ztrácí přehled a kde vzniká největší tření. Teprve potom dává smysl rozhodnout, co má zůstat jednoduché a co už potřebuje vlastní systém.",
@@ -570,7 +574,7 @@ export const growthProblemPages: ContentPage[] = [
       "jasnější přehled o tom, kde se proces rozpadá",
       "lepší rozhodnutí, co řešit systémově a co ještě nechat mimo",
       "nižší závislost na ručním dohledávání informací",
-      "silnější základ pro systém, který propojí poptávku, nabídku a realizaci",
+      "podklad pro rozhodnutí, zda stačí upravit proces, nebo už je potřeba vlastní systém",
     ],
     faq: [
       { question: "Je problém už samotný Excel?", answer: "Ne. Problém je až ve chvíli, kdy tabulka nahrazuje workflow, odpovědnost a návaznost mezi více rolemi a kroky." },
@@ -578,14 +582,20 @@ export const growthProblemPages: ContentPage[] = [
       { question: "Musí se hned řešit celý nový systém?", answer: "Nemusí. Někdy dává smysl nejdřív proces zpřehlednit a až potom navrhnout první etapu interního systému." },
     ],
     related: [
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
       "service-automations-and-integrations",
       "guide-how-to-automate-request-processing",
       "guide-how-to-manage-jobs-without-excel",
       "problem-replace-spreadsheets-in-process",
-      "use-case-request-offer-delivery-workflow",
+      "use-case-request-offer-delivery-system",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Zjistit, jak automatizaci poptávek připravit", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
+      { label: "Podívat se, jak systém konkrétně funguje", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
+      { label: "Nechat si systém navrhnout a vytvořit", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
+      { label: "Popsat současný problém", href: "/cs/popsat-projekt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",
@@ -603,7 +613,7 @@ export const growthProblemPages: ContentPage[] = [
     locale: "en",
     slug: "requests-offers-and-delivery-in-spreadsheets-and-email",
     title: "Requests, offers, and delivery tracked in spreadsheets and email",
-    h1: "Requests, offers, and delivery outgrow spreadsheets and email",
+    breadcrumbLabel: "Requests, offers, and delivery outgrow spreadsheets and email",
     description: "I help companies where incoming requests, offers, and delivery work are managed across spreadsheets, email, and manual follow-up, and the process is becoming hard to control reliably.",
     primaryQuery: "job tracking in spreadsheets and email",
     heroTitle: "Requests and jobs are being held together by spreadsheets, email, and people’s memory",
@@ -618,6 +628,8 @@ export const growthProblemPages: ContentPage[] = [
       "sales and delivery hold different views of the same job",
       "job status is discovered through email, calls, or asking colleagues",
       "ownership of the next step is unclear",
+      "work gets stuck and nobody notices in time",
+      "people rely on memory because there is no trusted operational view",
     ],
     whyItMatters: "When the process depends on spreadsheets and manual coordination for too long, the cost is not only admin effort. Error risk, delays, and lost information between sales and delivery also grow.",
     approach: "The first step is to identify where the process loses visibility and where the biggest friction appears. Only then does it make sense to decide what should stay simple and what already needs an internal system.",
@@ -633,12 +645,19 @@ export const growthProblemPages: ContentPage[] = [
       { question: "Do we need a full new system immediately?", answer: "No. Sometimes the best first step is to clarify the process and then scope the first internal-tool phase around the weakest point." },
     ],
     related: [
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
       "service-automations-and-integrations",
+      "guide-how-to-automate-request-processing",
       "problem-replace-spreadsheets-in-process",
-      "use-case-request-offer-delivery-workflow",
+      "use-case-request-offer-delivery-system",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Plan request-processing automation", href: "/en/guides/how-to-automate-request-processing/" },
+      { label: "See how the system works in practice", href: "/en/use-cases/system-for-requests-offers-and-delivery/" },
+      { label: "Have the system designed and built", href: "/en/services/sales-offers-and-job-tracking-system/" },
+      { label: "Describe the current problem", href: "/en/discuss-your-project/" },
     ],
     fitFor: [
       "companies with project-based sales and follow-up delivery",
@@ -649,112 +668,6 @@ export const growthProblemPages: ContentPage[] = [
       "very simple one-stage processes with no handoffs",
       "marketing-only lead capture with no delivery work behind it",
       "teams looking only for a new spreadsheet template instead of workflow support",
-    ],
-  }),
-  problem({
-    translationKey: "problem-requests-offers-delivery-in-spreadsheets",
-    locale: "cs",
-    slug: "poptavky-nabidky-a-realizace-v-tabulkach-a-emailu",
-    title: "Poptávky, nabídky a realizace v tabulkách a e-mailu",
-    h1: "Poptávky, nabídky a realizace už se v tabulkách a e-mailu rozpadají",
-    description: "Pomohu firmám, kde poptávky, nabídky a realizace zakázek běží přes tabulky, e-mail a ruční dohledávání a celý proces už začíná být nepřehledný a nespolehlivý.",
-    primaryQuery: "poptávky nabídky realizace v excelu",
-    heroTitle: "Proces ještě funguje, ale každý další případ ho víc láme",
-    heroSubtitle: "Tabulky a e-mail byly dobrý začátek. Teď už ale zvyšují chaos, chybovost a tlak na ruční koordinaci.",
-    intro: [
-      "Tabulky a e-mail bývají přirozený začátek. Problém nastává ve chvíli, kdy se nad stejnou zakázkou potkává více lidí, více stavů a více návazných kroků.",
-      "Pak přestává být jasné, kde je aktuální informace, kdo má další krok, jaká nabídka platí a v jakém stavu je realizace.",
-    ],
-    symptoms: [
-      "poptávky nejsou v jednom spolehlivém přehledu",
-      "nabídky existují v různých verzích bez jasné návaznosti",
-      "obchod a realizace pracují s jiným pohledem na stejnou zakázku",
-      "stav zakázky se zjišťuje přes e-mail, telefon nebo dotaz na kolegu",
-      "odpovědnost za další krok není jednoznačná",
-    ],
-    whyItMatters: "Když proces stojí na tabulkách a ruční koordinaci příliš dlouho, neroste jen administrativní zátěž. Roste i riziko chyb, zpoždění a ztracených informací mezi obchodem a realizací.",
-    approach: "Nejdřív je potřeba pojmenovat, kde proces nejvíc ztrácí přehled a kde vzniká největší tření. Teprve potom dává smysl rozhodnout, co má zůstat jednoduché a co už potřebuje vlastní systém.",
-    outcomes: [
-      "jasnější přehled o tom, kde se proces rozpadá",
-      "lepší rozhodnutí, co řešit systémově a co ještě nechat mimo",
-      "nižší závislost na ručním dohledávání informací",
-      "silnější základ pro systém, který propojí poptávku, nabídku a realizaci",
-    ],
-    faq: [
-      { question: "Je problém už samotný Excel?", answer: "Ne. Problém je až ve chvíli, kdy tabulka nahrazuje workflow, odpovědnost a návaznost mezi více rolemi a kroky." },
-      { question: "Dá se začít jen jednou částí procesu?", answer: "Ano. Často je nejlepší začít tam, kde je dnes největší chaos nebo nejvyšší provozní ztráta." },
-      { question: "Musí se hned řešit celý nový systém?", answer: "Nemusí. Někdy dává smysl nejdřív proces zpřehlednit a až potom navrhnout první etapu interního systému." },
-    ],
-    related: [
-      "service-request-offer-delivery-system",
-      "service-internal-tools-development",
-      "service-automations-and-integrations",
-      "problem-replace-spreadsheets-in-process",
-      "use-case-request-offer-delivery-workflow",
-      "inquiry",
-    ],
-    fitFor: [
-      "firmy se zakázkovým obchodem a navazující realizací",
-      "týmy, které už nezvládají držet přehled v tabulkách a e-mailu",
-      "situace, kde je potřeba propojit obchodní a realizační část procesu",
-    ],
-    fitNot: [
-      "jednoduchý jednofázový proces bez návazností",
-      "čistě marketingové poptávky bez další realizace",
-      "organizace, které chtějí jen nový template místo workflow řešení",
-    ],
-  }),
-  problem({
-    translationKey: "problem-requests-offers-delivery-in-spreadsheets",
-    locale: "en",
-    slug: "requests-offers-and-delivery-in-spreadsheets",
-    title: "Your requests, offers and jobs don’t fit in spreadsheets anymore",
-    h1: "Your requests, offers and jobs don’t fit in spreadsheets anymore",
-    description: "I help teams where requests, offers, and delivery work are still managed through spreadsheets, email, and manual follow-up and the process is becoming too messy to trust.",
-    primaryQuery: "requests offers delivery in spreadsheets",
-    heroTitle: "Your process still works — but barely",
-    heroSubtitle: "Spreadsheets and email were fine at the start. Now they are slowing you down.",
-    intro: [
-      "At first, spreadsheets make sense. Then more requests come in, more people get involved, and more steps appear.",
-      "Suddenly things are harder to track, mistakes happen more often, and nobody fully trusts the data.",
-    ],
-    symptoms: [
-      "you do not have a single source of truth",
-      "you keep multiple versions of the same offer",
-      "status is unclear or outdated",
-      "work gets stuck and nobody notices",
-      "people rely on memory instead of a system",
-    ],
-    whyItMatters: "The problem is not Excel itself. The real issue is missing workflow, ownership, and structure once several people and handoffs depend on the same job.",
-    approach: "The first step is to identify where the current process breaks down, where the team loses visibility, and where one simple system would remove the most friction.",
-    outcomes: [
-      "clearer view of where the process is breaking down",
-      "better judgement on what needs system support first",
-      "less manual information lookup",
-      "a stronger base for a system connecting requests, offers, and jobs",
-    ],
-    faq: [
-      { question: "Is the spreadsheet itself the problem?", answer: "No. The issue starts when the spreadsheet tries to act as workflow, accountability layer, and cross-team handoff system at the same time." },
-      { question: "Can we start with one part of the process?", answer: "Yes. It is often smarter to begin where the current chaos or operating loss is the highest." },
-      { question: "Do we need a full new system immediately?", answer: "No. Sometimes the best first step is to clarify the process and then scope the first internal-tool phase around the weakest point." },
-    ],
-    related: [
-      "service-request-offer-delivery-system",
-      "service-internal-tools-development",
-      "service-automations-and-integrations",
-      "problem-replace-spreadsheets-in-process",
-      "use-case-request-offer-delivery-workflow",
-      "inquiry",
-    ],
-    fitFor: [
-      "teams managing repeatable request-to-delivery work in spreadsheets",
-      "companies that have outgrown email-based coordination",
-      "situations needing better visibility between sales and delivery",
-    ],
-    fitNot: [
-      "very simple one-step processes",
-      "marketing-only lead capture with no delivery stage",
-      "teams looking only for a nicer spreadsheet",
     ],
   }),
 ];

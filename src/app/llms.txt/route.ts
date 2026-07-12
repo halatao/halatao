@@ -9,7 +9,7 @@ export const dynamic = "force-static";
 export function GET() {
   const topPages = getIndexablePages()
     .slice(0, 20)
-    .map((page) => `- ${siteConfig.siteUrl}${buildPagePath(page)} :: ${page.h1}`)
+    .map((page) => `- ${siteConfig.siteUrl}${buildPagePath(page)} :: ${page.hero.title}`)
     .join("\n");
 
   const content = [

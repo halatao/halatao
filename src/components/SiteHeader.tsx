@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { getAlternatePage } from "@/content/registry";
 import type { ContentPage, Locale } from "@/content/types";
+import { primaryNavigation } from "@/lib/navigation";
 import { buildPagePath, normalizeInternalHref } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
@@ -10,22 +11,7 @@ export function SiteHeader({ locale, currentPage }: { locale: Locale; currentPag
   const targetLocale = locale === "cs" ? "en" : "cs";
   const alternatePage = currentPage ? getAlternatePage(currentPage, targetLocale) : null;
   const localeHref = alternatePage ? buildPagePath(alternatePage) : `/${targetLocale}/`;
-  const navItems =
-    locale === "cs"
-      ? [
-          { href: `${home}#about`, label: "O m\u011b" },
-          { href: `${home}#services`, label: "Slu\u017eby" },
-          { href: `${home}#references`, label: "Reference" },
-          { href: "/cs/sluzby/automatizace-a-integrace/", label: "Automatizace" },
-          { href: `${home}#contact`, label: "Kontakt" },
-        ]
-      : [
-          { href: `${home}#about`, label: "About" },
-          { href: `${home}#services`, label: "Services" },
-          { href: `${home}#references`, label: "References" },
-          { href: "/en/services/automations-and-integrations/", label: "Automations" },
-          { href: `${home}#contact`, label: "Contact" },
-        ];
+  const navItems = primaryNavigation[locale];
 
   return (
     <header className="site-header">

@@ -1,8 +1,10 @@
-﻿// Safe to edit manually: normalized content types used by the registry and templates.
+// Safe to edit manually: normalized content types used by the registry and templates.
 
 export type Locale = "cs" | "en";
 
 export type Stage = 1 | 2 | 3;
+
+export type TranslationAvailability = "required" | "optional" | "unavailable";
 
 export type SearchIntent =
   | "commercial"
@@ -82,13 +84,14 @@ export interface JsonLdConfig {
 export interface ContentPage {
   id: string;
   translationKey: string;
+  translationAvailability: TranslationAvailability;
   stage: Stage;
   locale: Locale;
   pageType: PageType;
   slug: string;
   segments: string[];
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   intent: SearchIntent;

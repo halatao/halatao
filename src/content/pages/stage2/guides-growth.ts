@@ -8,7 +8,7 @@ type GuideSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -35,7 +35,7 @@ function guide(seed: GuideSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "pruvodce" : "guides", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "decision",
@@ -108,7 +108,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-nacenit-prevzeti-aplikace",
     title: "Jak nacenit převzetí aplikace | Bc. Ondřej Halata",
-    h1: "Jak nacenit převzetí aplikace bez slepých míst",
+    breadcrumbLabel: "Jak nacenit převzetí aplikace bez slepých míst",
     description: "Praktický průvodce, jak přemýšlet o nacenění převzetí existující aplikace: co ovlivňuje cenu, jak snížit nejistotu a proč je první takeover fáze důležitější než přesnost od stolu.",
     primaryQuery: "jak nacenit převzetí aplikace",
     heroTitle: "Takeover se nenaceňuje podle počtu obrazovek, ale podle nejistoty a rizika",
@@ -150,7 +150,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "kdy-dava-smysl-interni-system-misto-saas",
     title: "Kdy dává smysl interní systém místo SaaS | Bc. Ondřej Halata",
-    h1: "Kdy dává smysl interní systém místo dalšího SaaS nástroje",
+    breadcrumbLabel: "Kdy dává smysl interní systém místo dalšího SaaS nástroje",
     description: "Praktický průvodce pro firmy, které zvažují vlastní interní systém místo SaaS nástroje a chtějí rozumět kompromisům, nákladům a provoznímu fitu.",
     primaryQuery: "kdy dává smysl interní systém místo saas",
     heroTitle: "Nejde o to mít vlastní software za každou cenu. Jde o cenu kompromisů.",
@@ -192,7 +192,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-poznat-ze-projekt-potrebuje-externi-seniorni-kapacitu",
     title: "Jak poznat, že projekt potřebuje externí seniorní kapacitu | Bc. Ondřej Halata",
-    h1: "Jak poznat, že projekt potřebuje externí seniorní kapacitu",
+    breadcrumbLabel: "Jak poznat, že projekt potřebuje externí seniorní kapacitu",
     description: "Praktický průvodce pro firmy a týmy, které řeší, zda projekt potřebuje externí seniorní kontraktní kapacitu místo dalšího běžného vývojáře nebo větší agenturní dodávky.",
     primaryQuery: "jak poznat, že projekt potřebuje externí seniorní kapacitu",
     heroTitle: "Problém často není počet lidí, ale chybějící ownership a technické rozhodování",
@@ -234,7 +234,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-price-an-app-takeover",
     title: "How to price an app takeover | Bc. Ondřej Halata",
-    h1: "How to price an app takeover without blind spots",
+    breadcrumbLabel: "How to price an app takeover without blind spots",
     description: "A practical guide to pricing an existing app takeover: what drives cost, how to reduce uncertainty, and why the first takeover phase matters more than artificial upfront precision.",
     primaryQuery: "how to price an app takeover",
     heroTitle: "Takeover is not priced by counting screens. It is priced by uncertainty and risk.",
@@ -276,7 +276,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "en",
     slug: "when-an-internal-tool-is-better-than-saas",
     title: "When an internal tool is better than SaaS | Bc. Ondřej Halata",
-    h1: "When an internal tool is better than another SaaS product",
+    breadcrumbLabel: "When an internal tool is better than another SaaS product",
     description: "A practical guide for companies deciding between another SaaS tool and a purpose-built internal system, with a focus on workflow fit, hidden costs, and long-term control.",
     primaryQuery: "when an internal tool is better than saas",
     heroTitle: "The goal is not to own software for its own sake. The goal is to reduce the cost of compromise.",
@@ -318,7 +318,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-know-when-a-project-needs-senior-contract-support",
     title: "How to know when a project needs senior contract support | Bc. Ondřej Halata",
-    h1: "How to know when a project needs senior contract support",
+    breadcrumbLabel: "How to know when a project needs senior contract support",
     description: "A practical guide for teams deciding whether a project needs senior contract capacity instead of another standard developer hire or a broader agency model.",
     primaryQuery: "how to know when a project needs senior contract support",
     heroTitle: "The bottleneck is often not headcount. It is ownership and judgement.",
@@ -360,7 +360,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "kdy-dava-smysl-ai-ve-firme",
     title: "Kdy dává smysl AI ve firmě a kdy začít automatizací",
-    h1: "Kdy dává smysl AI ve firmě a kdy ne",
+    breadcrumbLabel: "Kdy dává smysl AI ve firmě a kdy ne",
     description:
       "Praktický návod, jak poznat, kde AI ve firemním procesu opravdu pomůže, kdy stačí automatizace workflow a kdy by AI jen přidala další složitost.",
     primaryQuery: "kdy dává smysl ai ve firmě",
@@ -421,7 +421,7 @@ export const growthGuidePages: ContentPage[] = [
     locale: "en",
     slug: "when-ai-makes-sense-in-a-company",
     title: "When AI makes sense in a company and when it does not",
-    h1: "When AI makes sense in a company and when it does not",
+    breadcrumbLabel: "When AI makes sense in a company and when it does not",
     description:
       "A practical guide for companies considering AI in business processes and trying to separate useful workflow and document use cases from extra complexity that adds little operational value.",
     primaryQuery: "when ai makes sense in a company",

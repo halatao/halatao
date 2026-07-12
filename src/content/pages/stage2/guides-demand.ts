@@ -1,14 +1,14 @@
 // Demand-focused SEO guides for operational automation topics. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale } from "@/content/types";
 
 type GuideSeed = {
   translationKey: string;
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -20,6 +20,7 @@ type GuideSeed = {
   outcome: string[];
   faq: FAQItem[];
   related: string[];
+  priorityLinks?: LinkRecord[];
   fitFor: string[];
   fitNot: string[];
 };
@@ -35,7 +36,7 @@ function guide(seed: GuideSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "pruvodce" : "guides", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "decision",
@@ -84,6 +85,7 @@ function guide(seed: GuideSeed): ContentPage {
     ],
     faq: seed.faq,
     related: seed.related,
+    priorityLinks: seed.priorityLinks,
     fit: { for: seed.fitFor, notFor: seed.fitNot },
     cta: isCs
       ? {
@@ -107,12 +109,12 @@ export const demandGuidePages: ContentPage[] = [
     translationKey: "guide-how-to-automate-request-processing",
     locale: "cs",
     slug: "jak-automatizovat-zpracovani-poptavek",
-    title: "Automatizace zpracování poptávek bez Excelu a e-mailů",
-    h1: "Jak automatizovat zpracování poptávek bez chaosu v zakázkách",
-    description: "Jak zautomatizovat zpracování poptávek, nabídky a předání do realizace. Praktický postup pro firmy, kde proces dnes drží Excel, e-mail a ruční dohledávání.",
+    title: "Jak automatizovat zpracování poptávek | Praktický postup",
+    breadcrumbLabel: "Jak připravit a zavést automatizaci zpracování poptávek",
+    description: "Praktický postup, jak zmapovat příjem poptávek, určit stavy, role a výjimky a připravit první etapu automatizace bez přesunu chaosu do dalšího nástroje.",
     primaryQuery: "automatizace zpracování poptávek",
-    heroTitle: "Automatizace poptávek začíná procesem, ne nákupem dalšího nástroje",
-    heroSubtitle: "Pro firmy, kde poptávky přicházejí e-mailem, formulářem nebo telefonicky a dál se ručně třídí, přepisují a předávají.",
+    heroTitle: "Jak připravit a zavést automatizaci zpracování poptávek",
+    heroSubtitle: "Postup od mapy vstupů, rolí a stavů přes rozhodnutí, co automatizovat, až po bezpečnou první etapu a její zavedení do provozu.",
     intro: [
       "Ruční zpracování poptávek často funguje dlouho dostatečně dobře. Problém se objeví ve chvíli, kdy objem roste, zapojí se více lidí a informace se začnou ztrácet mezi e-maily, tabulkami a poznámkami.",
       "Automatizace má smysl tam, kde zkrátí opakované kroky, sníží chybovost a dá obchodu i realizaci společný přehled o stavu poptávky.",
@@ -122,7 +124,9 @@ export const demandGuidePages: ContentPage[] = [
       "sepište vstupní kanály a typy poptávek",
       "pojmenujte stavy od přijetí po nabídku nebo realizaci",
       "najděte ruční přepisy, čekání a ztracené informace",
+      "oddělte opakovaná pravidla od výjimek, které musí rozhodnout člověk",
       "navrhněte první etapu kolem největší provozní ztráty",
+      "ověřte předání mezi rolemi a způsob zavedení do běžné práce",
     ],
     mistakes: [
       "nákup CRM nebo formuláře bez mapování procesu",
@@ -143,12 +147,18 @@ export const demandGuidePages: ContentPage[] = [
     ],
     related: [
       "service-automations-and-integrations",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "use-case-request-offer-delivery-system",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
       "guide-how-to-manage-jobs-without-excel",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Kdo navrhne a vytvoří systém pro poptávky a zakázky", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
+      { label: "Jak takový systém konkrétně funguje", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
+      { label: "Podle čeho poznat, že Excel a e-mail přestávají stačit", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
+      { label: "Probrat první automatizační etapu", href: "/cs/popsat-projekt/" },
     ],
     fitFor: ["firmy s opakovaným příjmem poptávek", "týmy, kde se poptávky ručně třídí a předávají", "procesy navazující na nabídku nebo realizaci"],
     fitNot: ["jednorázové poptávky bez opakování", "proces bez jasné odpovědnosti", "snaha koupit nástroj bez změny workflow"],
@@ -158,7 +168,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-ridit-zakazky-bez-excelu",
     title: "Jak řídit zakázky bez Excelu | Interní systém a workflow",
-    h1: "Jak řídit zakázky bez Excelu, e-mailů a ruční koordinace",
+    breadcrumbLabel: "Jak řídit zakázky bez Excelu, e-mailů a ruční koordinace",
     description: "Praktický průvodce pro firmy, kterým evidence zakázek v Excelu přestává stačit a chtějí přejít na interní systém nebo řízené workflow.",
     primaryQuery: "evidence zakázek v excelu",
     heroTitle: "Excel stačí na začátku. Pro řízení zakázek ale začne brzdit.",
@@ -193,9 +203,9 @@ export const demandGuidePages: ContentPage[] = [
     ],
     related: [
       "service-sales-and-job-tracking-system",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
       "use-case-request-offer-delivery-system",
       "comparison-internal-tool-vs-spreadsheets",
@@ -209,7 +219,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "dashboard-pro-management-z-vice-systemu",
     title: "Dashboard pro management z více systémů | Bc. Ondřej Halata",
-    h1: "Dashboard pro management z více systémů bez ručního reportingu",
+    breadcrumbLabel: "Dashboard pro management z více systémů bez ručního reportingu",
     description: "Praktický průvodce pro firmy, které skládají reporting z více systémů a chtějí management dashboard s jasným původem dat.",
     primaryQuery: "dashboard pro management",
     heroTitle: "Management dashboard má ukázat stav firmy, ne jen hezké grafy",
@@ -258,7 +268,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "jak-odhalit-rucni-prepisovani-dat",
     title: "Jak odhalit ruční přepisování dat ve firmě | Bc. Ondřej Halata",
-    h1: "Jak odhalit ruční přepisování dat mezi systémy",
+    breadcrumbLabel: "Jak odhalit ruční přepisování dat mezi systémy",
     description: "Praktický průvodce, jak najít místa, kde se ve firmě ručně přepisují data, vznikají chyby a dává smysl automatizace nebo API integrace.",
     primaryQuery: "ruční přepis dat problém",
     heroTitle: "Ruční přepisování dat je často skrytý náklad, ne drobnost",
@@ -306,7 +316,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "cs",
     slug: "kdy-se-vyplati-automatizace-procesu",
     title: "Kdy se vyplatí automatizace firemního procesu | Bc. Ondřej Halata",
-    h1: "Kdy se vyplatí automatizace firemního procesu",
+    breadcrumbLabel: "Kdy se vyplatí automatizace firemního procesu",
     description: "Praktický průvodce pro firmy, které zvažují automatizaci procesu a chtějí rozlišit skutečný přínos od zbytečné technologické složitosti.",
     primaryQuery: "automatizace procesů ve firmě",
     heroTitle: "Automatizace se vyplatí jen tam, kde řeší opakovaný a měřitelný problém",
@@ -354,7 +364,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-automate-request-processing",
     title: "How to automate request processing | Bc. Ondřej Halata",
-    h1: "How to automate request processing without creating delivery chaos",
+    breadcrumbLabel: "How to automate request processing without creating delivery chaos",
     description: "A practical guide for companies handling incoming requests manually and trying to reduce copy-paste work, lost information, and confusion between sales and delivery.",
     primaryQuery: "automate request processing",
     heroTitle: "Request automation starts with the process, not another tool",
@@ -368,7 +378,9 @@ export const demandGuidePages: ContentPage[] = [
       "list request sources and request types",
       "define states from intake to offer or delivery",
       "find manual copying, waiting, and lost information",
+      "separate repeatable rules from exceptions that need human judgement",
       "scope the first phase around the largest operational loss",
+      "validate role handoffs and the rollout into day-to-day work",
     ],
     mistakes: [
       "buying CRM or forms before mapping the process",
@@ -389,10 +401,16 @@ export const demandGuidePages: ContentPage[] = [
     ],
     related: [
       "service-automations-and-integrations",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "use-case-request-offer-delivery-system",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Find someone to design and build the request-to-delivery system", href: "/en/services/sales-offers-and-job-tracking-system/" },
+      { label: "See how the workflow works in practice", href: "/en/use-cases/system-for-requests-offers-and-delivery/" },
+      { label: "Recognise when spreadsheets and email stop being enough", href: "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/" },
+      { label: "Discuss the first automation phase", href: "/en/discuss-your-project/" },
     ],
     fitFor: ["companies receiving repeated incoming requests", "teams manually sorting and handing over requests", "processes connected to offers or delivery"],
     fitNot: ["one-off requests with no pattern", "workflows with no clear owner", "tool buying without workflow change"],
@@ -402,7 +420,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-manage-jobs-without-excel",
     title: "How to manage jobs without Excel | Internal system and workflow",
-    h1: "How to manage jobs without Excel, email, and manual coordination",
+    breadcrumbLabel: "How to manage jobs without Excel, email, and manual coordination",
     description: "A practical guide for companies where job tracking in Excel is no longer enough and an internal system or controlled workflow may be the next step.",
     primaryQuery: "job tracking in Excel",
     heroTitle: "Excel works at the beginning. For job management, it eventually becomes a bottleneck.",
@@ -438,7 +456,7 @@ export const demandGuidePages: ContentPage[] = [
     related: [
       "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
       "comparison-internal-tool-vs-spreadsheets",
       "inquiry",
     ],
@@ -450,7 +468,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "en",
     slug: "management-dashboard-from-multiple-systems",
     title: "Management dashboard from multiple systems | Bc. Ondřej Halata",
-    h1: "Management dashboard from multiple systems without manual reporting",
+    breadcrumbLabel: "Management dashboard from multiple systems without manual reporting",
     description: "A practical guide for companies assembling reports from several systems and considering a management dashboard with clear data ownership.",
     primaryQuery: "management dashboard",
     heroTitle: "A management dashboard should show business state, not just nice charts",
@@ -499,7 +517,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "en",
     slug: "how-to-find-manual-data-reentry",
     title: "How to find manual data re-entry in a company | Bc. Ondřej Halata",
-    h1: "How to find manual data re-entry between systems",
+    breadcrumbLabel: "How to find manual data re-entry between systems",
     description: "A practical guide to finding where people copy data between systems, where errors appear, and where automation or API integration may make sense.",
     primaryQuery: "manual data re-entry problem",
     heroTitle: "Manual data re-entry is often a hidden cost, not a small detail",
@@ -547,7 +565,7 @@ export const demandGuidePages: ContentPage[] = [
     locale: "en",
     slug: "when-process-automation-pays-off",
     title: "When business process automation pays off | Bc. Ondřej Halata",
-    h1: "When business process automation pays off",
+    breadcrumbLabel: "When business process automation pays off",
     description: "A practical guide for companies considering process automation and trying to separate real value from unnecessary technical complexity.",
     primaryQuery: "business process automation",
     heroTitle: "Automation pays off only when it solves a repeated and measurable problem",

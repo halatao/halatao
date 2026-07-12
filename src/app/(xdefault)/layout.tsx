@@ -19,7 +19,7 @@ export const metadata: Metadata = buildRootMetadata();
 
 export default function XDefaultLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html className={`${sans.variable} ${serif.variable}`} lang="en">
+    <html className={`${sans.variable} ${serif.variable}`} lang="cs">
       <body>
         <AnalyticsScripts />
         <AnalyticsNoScript />

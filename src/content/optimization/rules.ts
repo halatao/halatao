@@ -186,7 +186,7 @@ function scorePageForCluster(
   cluster: QueryClusterDefinition,
 ) {
   const pageText = normalizeSearchText(
-    [page.title, page.h1, page.description, page.primaryQuery, ...page.segments].join(" "),
+    [page.title, page.hero.title, page.description, page.primaryQuery, ...page.segments].join(" "),
   );
   const queryTokens = tokenizeSearchText(query);
   const overlap = queryTokens.filter((token) => pageText.includes(token)).length;
@@ -269,11 +269,11 @@ export function mapQueryToPage(row: ManualGscQueryRow): QueryToPageMapping {
   }
 
   if (currentPage) {
-    rationale.push(`Current page: ${currentPage.h1}.`);
+    rationale.push(`Current page: ${currentPage.hero.title}.`);
   }
 
   if (suggestedPage) {
-    rationale.push(`Best existing page match: ${suggestedPage.h1}.`);
+    rationale.push(`Best existing page match: ${suggestedPage.hero.title}.`);
   } else if (clusterMatch) {
     rationale.push("No existing page is a strong enough fit, so a new page may be justified if the signal continues.");
   }

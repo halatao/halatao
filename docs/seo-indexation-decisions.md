@@ -2,6 +2,13 @@
 
 Date: 2026-04-29
 
+> Historical decision log. The 2026-07-12 P0/P1 implementation supersedes the
+> request/offer/delivery and location recommendations below. All three CS/EN
+> duplicate pairs (service, use case, and problem) were merged, redirected in
+> the provider-neutral manifest, and assigned explicit intent owners. A real
+> `/cs/lokality/` hub was added. See `SEO_P0_P1_IMPLEMENTATION.md` for the
+> current state and exact URL matrix.
+
 Scope: audit of content definitions in `src/content/pages/` using the legacy TypeScript registry (`SITEFLOW_EXPORT_LEGACY=1`). This report is intentionally a decision log, not a mass-noindex plan. GSC "Discovered - currently not indexed" is treated as a crawl/discovery signal first, not proof that Google rejected the pages.
 
 No `indexable` flags were changed in this audit. No obvious technical duplicates were found. The main risks are thin overlap, similar query targeting, and unclear page hierarchy inside a few topical clusters.

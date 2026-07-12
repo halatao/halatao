@@ -10,7 +10,7 @@ type LocationSeed = {
   cityLocative: string;
   cityAccusative: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -28,13 +28,14 @@ type LocationSeed = {
 function location(seed: LocationSeed): ContentPage {
   return definePage({
     translationKey: seed.translationKey,
+    translationAvailability: "unavailable",
     stage: 3,
     locale: "cs",
     pageType: "location",
     slug: seed.slug,
     segments: ["lokality", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -86,6 +87,111 @@ function location(seed: LocationSeed): ContentPage {
 }
 
 export const locationPages: ContentPage[] = [
+  definePage({
+    translationKey: "hub-locations",
+    translationAvailability: "unavailable",
+    stage: 3,
+    locale: "cs",
+    pageType: "hub",
+    slug: "lokality",
+    segments: ["lokality"],
+    title: "Lokality spolupráce | Praha, Brno, Ostrava a remote",
+    breadcrumbLabel: "Lokality",
+    description: "Přehled spolupráce na webových aplikacích, interních systémech a automatizacích pro firmy v Praze, Brně a Ostravě, vzdáleně i formou on-site workshopu.",
+    primaryQuery: "vývoj aplikací pro firmy v Česku",
+    intent: "research",
+    hero: {
+      eyebrow: "Geografické pokrytí",
+      title: "Spolupráce s firmami v Praze, Brně, Ostravě i vzdáleně",
+      subtitle: "Webové aplikace, interní systémy, takeover a automatizace řeším podle potřeb projektu; většina práce může probíhat remote a on-site setkání využíváme tam, kde pomůže procesu.",
+      primaryCta: {
+        label: "Popsat situaci",
+        href: "/cs/popsat-projekt/",
+      },
+    },
+    intro: [
+      "Spolupráce není omezená adresou firmy. Projekty pro Prahu, Brno, Ostravu i další části Česka běžně vedu vzdáleně, s pravidelnou komunikací a jasnými výstupy jednotlivých etap.",
+      "Osobní workshop nebo on-site návštěva dává smysl hlavně tehdy, když je potřeba projít skutečný provoz, předávání práce mezi rolemi nebo technický kontext existující aplikace.",
+    ],
+    sections: [
+      {
+        title: "Geografické pokrytí bez umělých hranic",
+        body: [
+          "Samostatné stránky pro Prahu, Brno a Ostravu popisují typické místní projektové situace. Nejde o katalog poboček; rozhodující je vždy konkrétní proces, tým a očekávaný výsledek.",
+        ],
+        bullets: [
+          "Praha: portály, takeover a produktové nebo B2B aplikace",
+          "Brno: vývoj aplikací, interní systémy a napojení produktových týmů",
+          "Ostrava: provozní systémy, reporting a automatizace ruční práce",
+        ],
+      },
+      {
+        title: "Remote spolupráce a on-site podle potřeby",
+        body: [
+          "Analýza, vývoj, průběžné konzultace i většina workshopů mohou probíhat vzdáleně. Osobní setkání volíme tehdy, když urychlí pochopení provozu, sladění více rolí nebo bezpečné převzetí systému.",
+        ],
+        bullets: [
+          "pravidelné vzdálené pracovní schůzky nad konkrétními výstupy",
+          "on-site mapování procesu nebo takeover workshop po dohodě",
+          "spolupráce s interním týmem i samostatná dodávka ucelené etapy",
+        ],
+      },
+      {
+        title: "Na jaké služby lze navázat",
+        body: [
+          "Podle výchozí situace může spolupráce začít návrhem nové webové aplikace, převzetím existujícího systému, interním nástrojem nebo automatizací mezi používanými firemními aplikacemi.",
+        ],
+        bullets: [
+          "vývoj webové aplikace nebo portálu na míru",
+          "převzetí a stabilizace existující aplikace",
+          "interní systém pro role, stavy, workflow a reporting",
+          "automatizace procesů a API integrace",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Spolupracujete i s firmami mimo Prahu, Brno a Ostravu?",
+        answer: "Ano. Uvedené lokality mají vlastní obsah kvůli typickým projektovým situacím, ale spolupráce je možná s firmami z celého Česka i vzdáleně.",
+      },
+      {
+        question: "Musí první schůzka proběhnout osobně?",
+        answer: "Nemusí. Úvodní orientace může proběhnout online. Osobní workshop navrhuji pouze tam, kde má konkrétní přínos pro pochopení provozu nebo sladění týmu.",
+      },
+      {
+        question: "Jak vybrat správnou službu pro naši situaci?",
+        answer: "Stačí popsat současný systém, proces a očekávanou změnu. Podle toho lze rozhodnout, zda dává smysl nový vývoj, takeover, interní systém, integrace nebo nejdřív menší analytická etapa.",
+      },
+    ],
+    related: [
+      "service-custom-web-app-development",
+      "service-existing-app-takeover",
+      "service-internal-tools-development",
+      "service-automations-and-integrations",
+    ],
+    fit: {
+      for: [
+        "firmy řešící provozně důležitou aplikaci nebo interní workflow",
+        "týmy otevřené remote spolupráci a cíleným on-site workshopům",
+        "projekty s jasným vlastníkem, kontextem a očekávaným výsledkem",
+      ],
+      notFor: [
+        "hledání fyzické pobočky nebo lokálního katalogu dodavatelů",
+        "obsah bez návaznosti na konkrétní software nebo procesní situaci",
+      ],
+    },
+    cta: {
+      label: "Popsat situaci",
+      href: "/cs/popsat-projekt/",
+      note: "Napište, odkud jste, co dnes řešíte a zda dává smysl vzdálený nebo osobní úvod. Navrhnu realistický další krok.",
+    },
+    seo: {
+      title: "Lokality spolupráce | Praha, Brno, Ostrava a remote",
+      description: "Přehled spolupráce na webových aplikacích, interních systémech a automatizacích pro firmy v Praze, Brně a Ostravě, vzdáleně i formou on-site workshopu.",
+    },
+    schema: { includeFaq: true },
+    indexable: true,
+  }),
   location({
     translationKey: "location-praha",
     slug: "praha",
@@ -93,7 +199,7 @@ export const locationPages: ContentPage[] = [
     cityLocative: "Praze",
     cityAccusative: "Prahu",
     title: "Vývoj webových aplikací Praha | Takeover, portály a interní systémy",
-    h1: "Vývoj webových aplikací na míru pro firmy v Praze",
+    breadcrumbLabel: "Vývoj webových aplikací na míru pro firmy v Praze",
     description: "Vývoj webových aplikací, klientských portálů, interních systémů, takeover projektů a automatizací pro firmy v Praze.",
     primaryQuery: "vývoj webových aplikací Praha",
     heroTitle: "Vývoj webových aplikací, portálů a interních systémů pro firmy v Praze",
@@ -143,7 +249,7 @@ export const locationPages: ContentPage[] = [
     cityLocative: "Brně",
     cityAccusative: "Brno",
     title: "Vývoj webových aplikací Brno | Interní systémy a aplikace na míru",
-    h1: "Vývoj webových aplikací a interních systémů pro firmy v Brně",
+    breadcrumbLabel: "Vývoj webových aplikací a interních systémů pro firmy v Brně",
     description: "Vývoj webových aplikací na míru, interních systémů, takeover projektů a automatizací pro firmy a týmy v Brně.",
     primaryQuery: "vývoj webových aplikací Brno",
     heroTitle: "Vývoj webových aplikací a interních systémů pro firmy v Brně",
@@ -193,7 +299,7 @@ export const locationPages: ContentPage[] = [
     cityLocative: "Ostravě",
     cityAccusative: "Ostravu",
     title: "Interní systémy a automatizace procesů Ostrava",
-    h1: "Automatizace procesů a interní systémy pro firmy v Ostravě",
+    breadcrumbLabel: "Automatizace procesů a interní systémy pro firmy v Ostravě",
     description: "Vývoj interních systémů, reportingů a automatizací pro firmy v Ostravě a Moravskoslezském kraji. Návrh, takeover i rozvoj aplikací na míru.",
     primaryQuery: "automatizace procesů Ostrava",
     heroTitle: "Automatizace procesů, interní systémy a reporting pro firmy v Ostravě",
@@ -235,6 +341,6 @@ export const locationPages: ContentPage[] = [
       { question: "Má smysl ozvat se i se starší interní aplikací?", answer: "Ano. Převzetí a stabilizace starší aplikace je často lepší první krok než unáhlený rewrite." },
       { question: "Je služba vhodná i pro výrobní nebo provozní firmu?", answer: "Ano. Právě firmy s provozním workflow, servisem, výrobou, zakázkami a více systémy často z interního systému nebo automatizace těží nejvíc." },
     ],
-    related: ["service-existing-app-takeover", "service-automations-and-integrations", "service-internal-tools-development", "service-request-offer-delivery-system", "guide-how-to-automate-request-processing", "contract-support"],
+    related: ["service-existing-app-takeover", "service-automations-and-integrations", "service-internal-tools-development", "service-sales-and-job-tracking-system", "guide-how-to-automate-request-processing", "contract-support"],
   }),
 ];

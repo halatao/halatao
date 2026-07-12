@@ -5,7 +5,7 @@ import type { ContentPage, FAQItem, Locale } from "@/content/types";
 
 function home(locale: Locale, input: {
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -32,7 +32,7 @@ function home(locale: Locale, input: {
     slug: isCs ? "domov" : "home",
     segments: [],
     title: input.title,
-    h1: input.h1,
+    breadcrumbLabel: input.breadcrumbLabel,
     description: input.description,
     primaryQuery: isCs ? "webové aplikace na míru" : "custom web applications",
     intent: "commercial",
@@ -97,7 +97,7 @@ function simplePage(locale: Locale, input: {
   slug: string;
   segments: string[];
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -120,7 +120,7 @@ function simplePage(locale: Locale, input: {
     slug: input.slug,
     segments: input.segments,
     title: input.title,
-    h1: input.h1,
+    breadcrumbLabel: input.breadcrumbLabel,
     description: input.description,
     primaryQuery: input.primaryQuery,
     intent: input.pageType === "inquiry" ? "transactional" : "commercial",
@@ -152,7 +152,7 @@ function simplePage(locale: Locale, input: {
 export const corePages: ContentPage[] = [
   home("cs", {
     title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
-    h1: "Webové aplikace na míru pro firemní procesy",
+    breadcrumbLabel: "Webové aplikace na míru pro firemní procesy",
     description: "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
     heroTitle: "Vyvíjím weby, aplikace a automatizace pro firmy.",
     heroSubtitle: "Pomáhám firmám zjednodušit práci, propojit systémy a rozvíjet software, který používají každý den.",
@@ -204,7 +204,7 @@ export const corePages: ContentPage[] = [
   }),
   home("en", {
     title: "Web applications for business-critical processes | Bc. Ondřej Halata",
-    h1: "Web applications for business-critical processes",
+    breadcrumbLabel: "Web applications for business-critical processes",
     description: "Senior development, takeover, integrations, automation, and ongoing improvement of web applications and internal systems for companies.",
     heroTitle: "I build websites, applications and automation for companies.",
     heroSubtitle: "I help companies simplify work, connect systems and improve software they use every day.",
@@ -258,7 +258,7 @@ export const corePages: ContentPage[] = [
     slug: "jak-spoluprace-probiha",
     segments: ["jak-spoluprace-probiha"],
     title: "Jak spolupráce probíhá | Bc. Ondřej Halata",
-    h1: "Jak probíhá spolupráce na projektu",
+    breadcrumbLabel: "Jak probíhá spolupráce na projektu",
     description: "Přehled spolupráce od prvního kontaktu přes návrh první etapy až po realizaci a další rozvoj webové aplikace nebo interního systému.",
     primaryQuery: "jak spolupráce probíhá",
     heroTitle: "Jasný postup bez zbytečné procesní omáčky",
@@ -290,7 +290,7 @@ export const corePages: ContentPage[] = [
     slug: "how-project-delivery-works",
     segments: ["how-project-delivery-works"],
     title: "How project delivery works | Bc. Ondřej Halata",
-    h1: "How project delivery usually works",
+    breadcrumbLabel: "How project delivery usually works",
     description: "A practical overview of how I approach custom software work, from the first conversation through delivery phases and ongoing improvement.",
     primaryQuery: "how project delivery works",
     heroTitle: "Clear delivery structure without agency theatre",
@@ -322,7 +322,7 @@ export const corePages: ContentPage[] = [
     slug: "popsat-projekt",
     segments: ["popsat-projekt"],
     title: "Popsat situaci | Bc. Ondřej Halata",
-    h1: "Popsat situaci a probrat další krok",
+    breadcrumbLabel: "Popsat situaci a probrat další krok",
     description: "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu.",
     primaryQuery: "popsat projekt",
     heroTitle: "Popište stručně, co potřebujete vyřešit",
@@ -352,7 +352,7 @@ export const corePages: ContentPage[] = [
     slug: "discuss-your-project",
     segments: ["discuss-your-project"],
     title: "Describe situation | Bc. Ondřej Halata",
-    h1: "Describe the situation and discuss the next step",
+    breadcrumbLabel: "Describe the situation and discuss the next step",
     description: "Send a concise overview of the project, product, or process. I will reply with the most sensible next step and an honest fit assessment.",
     primaryQuery: "discuss your project",
     heroTitle: "Briefly describe what you need to solve",
@@ -382,7 +382,7 @@ export const corePages: ContentPage[] = [
     slug: "spoluprace-na-kontrakt",
     segments: ["spoluprace-na-kontrakt"],
     title: "Externí spolupráce na kontrakt | Bc. Ondřej Halata",
-    h1: "Externí spolupráce na kontrakt pro firmy a produktové týmy",
+    breadcrumbLabel: "Externí spolupráce na kontrakt pro firmy a produktové týmy",
     description: "Seniorní kontraktní spolupráce pro firmy a týmy, které potřebují posílit vývoj, takeover, architekturu nebo delivery v důležité webové aplikaci.",
     primaryQuery: "externí spolupráce na kontrakt",
     heroTitle: "Když tým potřebuje zkušenější kapacitu, ne dalšího juniora na backlog",
@@ -414,7 +414,7 @@ export const corePages: ContentPage[] = [
     slug: "contract-development-support",
     segments: ["contract-development-support"],
     title: "Contract development support | Bc. Ondřej Halata",
-    h1: "Contract development support for teams and companies",
+    breadcrumbLabel: "Contract development support for teams and companies",
     description: "Senior contract development support for companies that need stronger execution, takeover capability, architecture input, or delivery ownership inside an existing product team.",
     primaryQuery: "contract development support",
     heroTitle: "When the team needs experienced delivery capacity, not another generic pair of hands",
@@ -446,7 +446,7 @@ export const corePages: ContentPage[] = [
     slug: "dekuji",
     segments: ["popsat-projekt", "dekuji"],
     title: "Děkuji, zprávu mám | Bc. Ondřej Halata",
-    h1: "Děkuji, zprávu mám.",
+    breadcrumbLabel: "Děkuji, zprávu mám.",
     description: "Potvrzení odeslání popisu situace s informací, že navrhnu další rozumný krok a případně se doptám na potřebné detaily.",
     primaryQuery: "děkuji za zprávu",
     heroTitle: "Děkuji, zprávu mám.",
@@ -472,7 +472,7 @@ export const corePages: ContentPage[] = [
     slug: "thank-you",
     segments: ["discuss-your-project", "thank-you"],
     title: "Thank you, I have received your message | Bc. Ondřej Halata",
-    h1: "Thank you, I have received your message.",
+    breadcrumbLabel: "Thank you, I have received your message.",
     description: "Confirmation page after situation description submission, including the next reasonable step.",
     primaryQuery: "thank you project inquiry",
     heroTitle: "Thank you, I have received your message.",

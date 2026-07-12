@@ -1,4 +1,4 @@
-﻿import type { ReactNode } from "react";
+import type { ReactNode } from "react";
 import Link from "next/link";
 
 import { AutomationAuditLanding } from "@/components/AutomationAuditLanding";
@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InquiryForm } from "@/components/InquiryForm";
 import { getRelatedPages, getSectionChildren } from "@/content/registry";
 import type { ContentPage, LinkRecord } from "@/content/types";
+import { homepageFeaturePaths } from "@/lib/navigation";
 import { buildPagePath, normalizeInternalHref } from "@/lib/routing";
 import { siteConfig } from "@/lib/site";
 
@@ -23,21 +24,6 @@ const homeDescriptions = {
     "Changes, fixes and simplification of an existing system the company already uses.",
     "Connecting business tools, data and automation so work is not unnecessarily fragmented.",
     "Automation of repetitive work and practical use of AI where it brings real value.",
-  ],
-};
-
-const homeTargets = {
-  cs: [
-    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
-    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
-    "/cs/sluzby/automatizace-a-integrace/",
-    "/cs/spoluprace-na-kontrakt/",
-  ],
-  en: [
-    "/en/services/custom-web-application-development/",
-    "/en/services/existing-app-takeover/",
-    "/en/services/automations-and-integrations/",
-    "/en/contract-development-support/",
   ],
 };
 
@@ -248,8 +234,8 @@ function CTA({ page }: TemplateProps) {
   );
 }
 
-function RelatedLinks({ page }: TemplateProps) {
-  if (page.pageType === "hub") return null;
+function RelatedLinks({ page, includeHub = false }: TemplateProps & { includeHub?: boolean }) {
+  if (page.pageType === "hub" && !includeHub) return null;
   const heading = page.locale === "cs" ? "Související stránky" : "Related pages";
   return (
     <section className="band-section">
@@ -259,7 +245,7 @@ function RelatedLinks({ page }: TemplateProps) {
           <div className="link-grid">
             {getRelatedPages(page).map((r) => (
               <Link className="link-card" href={buildPagePath(r)} key={r.id}>
-                <strong>{r.h1}</strong>
+                <strong>{r.breadcrumbLabel}</strong>
                 <span>{r.description}</span>
               </Link>
             ))}
@@ -355,7 +341,7 @@ function HomeTemplateBody({ page }: TemplateProps) {
           </div>
           <div className="home-services-grid">
             {services.map((service, i) => (
-              <Link className="home-service-card" href={normalizeInternalHref(homeTargets[page.locale][i])} key={service}>
+              <Link className="home-service-card" href={normalizeInternalHref(homepageFeaturePaths[page.locale][i])} key={service}>
                 <h4>{service}</h4>
                 <p>{homeDescriptions[page.locale][i]}</p>
               </Link>
@@ -624,10 +610,11 @@ export function HubTemplate({ page }: TemplateProps) {
         <div className="band-shell">
           <div className="content-card related-section">
             <h2>{page.locale === "cs" ? "Všechny důležité stránky v této sekci" : "All important pages in this section"}</h2>
-            <div className="link-grid">{children.map((c) => <Link className="link-card" href={buildPagePath(c)} key={c.id}><strong>{c.h1}</strong><span>{c.description}</span></Link>)}</div>
+            <div className="link-grid">{children.map((c) => <Link className="link-card" href={buildPagePath(c)} key={c.id}><strong>{c.breadcrumbLabel}</strong><span>{c.description}</span></Link>)}</div>
           </div>
         </div>
       </section>
+      {page.translationKey === "hub-locations" ? <RelatedLinks page={page} includeHub /> : null}
       <FAQBlock page={page} />
       <CTA page={page} />
     </BaseStack>
@@ -636,7 +623,7 @@ export function HubTemplate({ page }: TemplateProps) {
 
 export function ServiceTemplate({ page }: TemplateProps) {
   if (page.translationKey === "service-automations-and-integrations" && page.locale === "cs") {
-    return <AutomationAuditLanding locale={page.locale} priorityLinks={page.priorityLinks} faq={page.faq} />;
+    return <AutomationAuditLanding title={page.hero.title} locale={page.locale} priorityLinks={page.priorityLinks} faq={page.faq} />;
   }
   return <GenericTemplate page={page} tone="service" />;
 }

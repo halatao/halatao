@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { Locale } from "@/content/types";
+import { footerNavigation } from "@/lib/navigation";
 import { siteConfig } from "@/lib/site";
 
 export function SiteFooter({ locale }: { locale: Locale }) {
@@ -10,6 +11,13 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         <div className="footer-brand">
           <span>{siteConfig.displayName}</span> &copy; 2026
         </div>
+        <nav aria-label={locale === "cs" ? "Hlavní sekce" : "Main sections"} className="footer-links">
+          {footerNavigation[locale].map((link) => (
+            <Link href={link.href} key={link.href}>
+              {link.label}
+            </Link>
+          ))}
+        </nav>
         <div className="footer-links">
           <Link href={siteConfig.linkedIn} target="_blank">
             LinkedIn

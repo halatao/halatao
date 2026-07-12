@@ -52,11 +52,15 @@ export function buildSecondaryCta(locale: Locale) {
 }
 
 export function definePage(
-  input: Omit<ContentPage, "id" | "cta"> & { cta?: PageCta },
+  input: Omit<ContentPage, "id" | "cta" | "translationAvailability"> & {
+    cta?: PageCta;
+    translationAvailability?: ContentPage["translationAvailability"];
+  },
 ): ContentPage {
   return {
     ...input,
     id: `${input.translationKey}.${input.locale}`,
+    translationAvailability: input.translationAvailability ?? "required",
     cta: input.cta ?? buildPrimaryCta(input.locale),
   };
 }

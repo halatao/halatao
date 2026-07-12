@@ -8,7 +8,7 @@ type CaseStudySeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -32,7 +32,7 @@ function caseStudy(seed: CaseStudySeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "pripadovky" : "case-studies", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -94,7 +94,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "cs",
     slug: "prevzeti-existujici-aplikace",
     title: "Převzetí existující aplikace | Bc. Ondřej Halata",
-    h1: "Případovka: převzetí existující aplikace a stabilizace dalšího vývoje",
+    breadcrumbLabel: "Případovka: převzetí existující aplikace a stabilizace dalšího vývoje",
     description: "Anonymizovaná případovka takeover projektu, kde bylo potřeba převzít existující aplikaci, zmapovat rizika a vrátit projektu další směr.",
     primaryQuery: "převzetí existující aplikace případovka",
     heroTitle: "Aplikace fungovala. Každá další změna ale byla riziko.",
@@ -133,7 +133,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "cs",
     slug: "interni-nastroj-pro-operativu",
     title: "Interní nástroj pro operativu | Bc. Ondřej Halata",
-    h1: "Případovka: interní nástroj pro operativu místo tabulek a ruční koordinace",
+    breadcrumbLabel: "Případovka: interní nástroj pro operativu místo tabulek a ruční koordinace",
     description: "Anonymizovaná případovka interního nástroje pro operativu, který nahradil roztříštěný proces mezi tabulkami, e-maily a ruční kontrolou.",
     primaryQuery: "interní nástroj pro operativu případovka",
     heroTitle: "Operativa rostla rychleji než nástroje, které ji držely pohromadě",
@@ -172,7 +172,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "cs",
     slug: "integrace-nekolika-systemu",
     title: "Integrace několika systémů | Bc. Ondřej Halata",
-    h1: "Případovka: integrace několika systémů a omezení ruční práce",
+    breadcrumbLabel: "Případovka: integrace několika systémů a omezení ruční práce",
     description: "Anonymizovaná případovka integračního projektu, kde bylo potřeba zlepšit tok dat mezi více systémy a snížit ruční koordinaci.",
     primaryQuery: "integrace několika systémů případovka",
     heroTitle: "Data procházela lidmi, protože systémy spolu mluvily jen částečně",
@@ -211,7 +211,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "en",
     slug: "existing-app-takeover",
     title: "Existing app takeover case study | Bc. Ondřej Halata",
-    h1: "Case study: existing app takeover and delivery stabilisation",
+    breadcrumbLabel: "Case study: existing app takeover and delivery stabilisation",
     description: "An anonymised case-study scenario showing how an existing app takeover can reduce delivery risk and restore a practical roadmap.",
     primaryQuery: "existing app takeover case study",
     heroTitle: "The product was live, but every change felt risky",
@@ -250,7 +250,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "en",
     slug: "internal-tool-for-operations",
     title: "Internal tool for operations case study | Bc. Ondřej Halata",
-    h1: "Case study: an internal operations tool replacing spreadsheets and coordination overhead",
+    breadcrumbLabel: "Case study: an internal operations tool replacing spreadsheets and coordination overhead",
     description: "An anonymised case-study scenario showing how an internal tool can replace fragmented operational workflows and improve visibility.",
     primaryQuery: "internal tool for operations case study",
     heroTitle: "Operations were growing faster than the tooling around them",
@@ -289,7 +289,7 @@ export const caseStudyPages: ContentPage[] = [
     locale: "en",
     slug: "multi-system-integration",
     title: "Multi-system integration case study | Bc. Ondřej Halata",
-    h1: "Case study: connecting several systems and reducing manual coordination",
+    breadcrumbLabel: "Case study: connecting several systems and reducing manual coordination",
     description: "An anonymised case-study scenario showing how a multi-system integration project can reduce manual work and improve data flow across business operations.",
     primaryQuery: "multi-system integration case study",
     heroTitle: "Data was travelling through people because systems only talked halfway",

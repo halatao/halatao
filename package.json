@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "validate:content": "tsx scripts/validate-content.ts"
+    "test:edge-redirects": "tsx scripts/test-edge-redirects.ts",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "validate:redirects": "tsx scripts/validate-redirects.ts",
+    "validate:seo": "tsx scripts/validate-seo.ts"
   },
   "keywords": [
     "nextjs",

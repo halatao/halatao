@@ -8,7 +8,7 @@ type UseCaseSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -31,7 +31,7 @@ function defineUseCasePage(seed: UseCaseSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "priklady" : "use-cases", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -62,7 +62,7 @@ export const useCasePages: ContentPage[] = [
     locale: "cs",
     slug: "klientsky-portal",
     title: "Klientský portál na míru | Bc. Ondřej Halata",
-    h1: "Klientský portál na míru pro komunikaci, data a samoobsluhu",
+    breadcrumbLabel: "Klientský portál na míru pro komunikaci, data a samoobsluhu",
     description: "Příklad klientského portálu na míru pro firmy, které chtějí zpřehlednit komunikaci se zákazníky, jejich dokumenty, stav služeb a samoobslužné úkony.",
     primaryQuery: "klientský portál na míru",
     heroTitle: "Klientský portál místo roztříštěné komunikace",
@@ -84,7 +84,7 @@ export const useCasePages: ContentPage[] = [
     locale: "cs",
     slug: "interni-admin-system",
     title: "Interní admin systém na míru | Bc. Ondřej Halata",
-    h1: "Interní admin systém pro operativu a správu agendy",
+    breadcrumbLabel: "Interní admin systém pro operativu a správu agendy",
     description: "Příklad interního admin systému pro firmy, které potřebují lépe řídit operativu, stavy případů, role a každodenní administrativu.",
     primaryQuery: "interní admin systém",
     heroTitle: "Jeden pracovní nástroj místo několika polofunkčních",
@@ -109,7 +109,7 @@ export const useCasePages: ContentPage[] = [
     locale: "cs",
     slug: "reporting-dashboard",
     title: "Reporting dashboard na míru | Bc. Ondřej Halata",
-    h1: "Reporting dashboard na míru pro vedení i operativu",
+    breadcrumbLabel: "Reporting dashboard na míru pro vedení i operativu",
     description: "Příklad reporting dashboardu na míru pro firmy, které potřebují sjednotit data z více zdrojů a zjednodušit rozhodování.",
     primaryQuery: "reporting dashboard na míru",
     heroTitle: "Přehled nad daty, která dnes žijí v několika systémech",
@@ -134,7 +134,7 @@ export const useCasePages: ContentPage[] = [
     locale: "cs",
     slug: "workflow-automatizace",
     title: "Workflow automatizace ve firmě | Bc. Ondřej Halata",
-    h1: "Workflow automatizace a nástroje pro opakované procesy",
+    breadcrumbLabel: "Workflow automatizace a nástroje pro opakované procesy",
     description: "Příklad workflow automatizace pro firmy, které chtějí snížit ruční práci, lépe řídit schvalování a zrychlit návazné kroky mezi systémy.",
     primaryQuery: "workflow automatizace",
     heroTitle: "Proces, který už nemusí stát na ručním hlídání",
@@ -159,7 +159,7 @@ export const useCasePages: ContentPage[] = [
     locale: "en",
     slug: "client-portal-development",
     title: "Client portal development | Bc. Ondřej Halata",
-    h1: "Client portal development for communication, visibility, and self-service",
+    breadcrumbLabel: "Client portal development for communication, visibility, and self-service",
     description: "A client portal use case for companies that want one place for customer communication, customer documents, status tracking, and self-service actions.",
     primaryQuery: "client portal development",
     heroTitle: "A client portal instead of fragmented communication",
@@ -184,7 +184,7 @@ export const useCasePages: ContentPage[] = [
     locale: "en",
     slug: "internal-admin-system",
     title: "Internal admin system development | Bc. Ondřej Halata",
-    h1: "Internal admin system for operations and process control",
+    breadcrumbLabel: "Internal admin system for operations and process control",
     description: "An internal admin system use case for companies that need better operational control, clearer states, role-based work, and structured daily administration.",
     primaryQuery: "internal admin system",
     heroTitle: "One working system instead of several half-working ones",
@@ -209,7 +209,7 @@ export const useCasePages: ContentPage[] = [
     locale: "en",
     slug: "reporting-dashboard-development",
     title: "Reporting dashboard development | Bc. Ondřej Halata",
-    h1: "Reporting dashboard development for management and operations",
+    breadcrumbLabel: "Reporting dashboard development for management and operations",
     description: "A reporting dashboard use case for companies that need to unify data from several systems and make decisions with a more reliable operational view.",
     primaryQuery: "reporting dashboard development",
     heroTitle: "A usable view across data that currently lives in several systems",
@@ -234,7 +234,7 @@ export const useCasePages: ContentPage[] = [
     locale: "en",
     slug: "workflow-automation-tools",
     title: "Workflow automation tools | Bc. Ondřej Halata",
-    h1: "Workflow automation tools for repeatable business processes",
+    breadcrumbLabel: "Workflow automation tools for repeatable business processes",
     description: "A workflow automation use case for companies that need to reduce manual work, improve approvals, and move recurring processes faster across systems and teams.",
     primaryQuery: "workflow automation tools",
     heroTitle: "A process that no longer depends on people manually keeping it alive",

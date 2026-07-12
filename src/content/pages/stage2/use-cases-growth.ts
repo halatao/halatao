@@ -1,14 +1,14 @@
 // Generated content: additional high-intent use-case pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale } from "@/content/types";
 
 type UseCaseSeed = {
   translationKey: string;
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -19,6 +19,7 @@ type UseCaseSeed = {
   outcomes: string[];
   faq: FAQItem[];
   related: string[];
+  priorityLinks?: LinkRecord[];
   fitFor: string[];
   fitNot: string[];
 };
@@ -34,7 +35,7 @@ function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "priklady" : "use-cases", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -79,6 +80,7 @@ function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
     ],
     faq: seed.faq,
     related: seed.related,
+    priorityLinks: seed.priorityLinks,
     fit: { for: seed.fitFor, notFor: seed.fitNot },
     cta: isCs
       ? {
@@ -103,7 +105,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "partnersky-portal-pro-b2b-firmu",
     title: "Partnerský portál pro B2B firmu | Bc. Ondřej Halata",
-    h1: "Partnerský portál pro B2B firmu a sdílený provozní přehled",
+    breadcrumbLabel: "Partnerský portál pro B2B firmu a sdílený provozní přehled",
     description: "Příklad partnerského portálu pro B2B firmu, která potřebuje sjednotit dokumenty, požadavky, stav spolupráce a samoobslužné kroky distributorů, dealerů nebo partnerů.",
     primaryQuery: "partnersky portal pro B2B firmu",
     heroTitle: "Jedno místo pro partnery místo e-mailových vláken a ručního dohledávání",
@@ -144,7 +146,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "operativni-system-pro-servisni-tym",
     title: "Operativní systém pro servisní tým | Bc. Ondřej Halata",
-    h1: "Operativní systém pro servisní tým místo tabulek a ruční koordinace",
+    breadcrumbLabel: "Operativní systém pro servisní tým místo tabulek a ruční koordinace",
     description: "Příklad operativního systému pro servisní tým, který potřebuje řídit požadavky, stavy, termíny a odpovědnost bez roztříštěných tabulek a chatu.",
     primaryQuery: "operativni system pro servisni tym",
     heroTitle: "Jeden systém pro servisní operativu místo ručního přeposílání a dohledávání",
@@ -185,7 +187,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "b2b-klientsky-portal",
     title: "B2B klientský portál na míru | Bc. Ondřej Halata",
-    h1: "B2B klientský portál pro zakázky, dokumenty a samoobsluhu",
+    breadcrumbLabel: "B2B klientský portál pro zakázky, dokumenty a samoobsluhu",
     description: "Příklad B2B klientského portálu na míru pro firmy, které chtějí sjednotit komunikaci, dokumenty, stavy zakázek a samoobslužné kroky partnerů nebo klientů.",
     primaryQuery: "B2B klientský portál na míru",
     heroTitle: "Jeden portál místo e-mailových vláken a ručního posílání informací",
@@ -226,7 +228,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "interni-schvalovaci-system",
     title: "Interní schvalovací systém na míru | Bc. Ondřej Halata",
-    h1: "Interní schvalovací systém pro více rolí a jasná pravidla",
+    breadcrumbLabel: "Interní schvalovací systém pro více rolí a jasná pravidla",
     description: "Příklad interního schvalovacího systému na míru pro firmy, kde se žádosti, výjimky nebo objednávky schvalují přes e-maily, tabulky a ruční dohledávání stavu.",
     primaryQuery: "interní schvalovací systém",
     heroTitle: "Schvalování, které už nemusí stát na ručním hlídání a přeposílání",
@@ -267,7 +269,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "dashboard-pro-management",
     title: "Dashboard pro management a reporting dat | Bc. Ondřej Halata",
-    h1: "Dashboard pro management nad reporty a daty z více systémů",
+    breadcrumbLabel: "Dashboard pro management nad reporty a daty z více systémů",
     description: "Příklad dashboardu pro management, reporting dat a provozní přehledy z více systémů bez ručně skládaných exportů.",
     primaryQuery: "dashboard pro management",
     heroTitle: "Management dashboard, který ukáže stav firmy bez ručního skládání reportů",
@@ -308,7 +310,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "workflow-aplikace-pro-tym",
     title: "Automatizace týmového workflow a procesů | Bc. Ondřej Halata",
-    h1: "Automatizace týmového procesu místo ruční koordinace",
+    breadcrumbLabel: "Automatizace týmového procesu místo ruční koordinace",
     description: "Příklad aplikace pro automatizaci workflow, opakovaných stavů, rolí a návazných kroků tam, kde dnes proces drží tabulky, chaty a ruční dohledávání.",
     primaryQuery: "automatizace workflow",
     heroTitle: "Jeden řízený proces místo přeposílání, tabulek a ručního dohledávání",
@@ -349,7 +351,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "b2b-client-portal",
     title: "B2B client portal development | Bc. Ondřej Halata",
-    h1: "B2B client portal for orders, documents, and self-service",
+    breadcrumbLabel: "B2B client portal for orders, documents, and self-service",
     description: "A B2B client portal use case for companies that want one place for business-customer communication, documents, order status, and self-service actions.",
     primaryQuery: "B2B client portal development",
     heroTitle: "One portal instead of email threads and manual updates",
@@ -390,7 +392,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "internal-approval-system",
     title: "Internal approval system | Bc. Ondřej Halata",
-    h1: "Internal approval system for multi-step business processes",
+    breadcrumbLabel: "Internal approval system for multi-step business processes",
     description: "An internal approval system use case for companies where requests, purchases, exceptions, or approvals still move through email, spreadsheets, and manual chasing.",
     primaryQuery: "internal approval system",
     heroTitle: "Approvals that no longer depend on manual chasing and forwarding",
@@ -431,7 +433,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "management-dashboard",
     title: "Management dashboard development | Bc. Ondřej Halata",
-    h1: "Management dashboard across several business systems",
+    breadcrumbLabel: "Management dashboard across several business systems",
     description: "A management dashboard use case for companies that need a more reliable operational and leadership view across several systems.",
     primaryQuery: "management dashboard development",
     heroTitle: "A leadership dashboard that does not rely on manually stitched exports",
@@ -472,7 +474,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "workflow-app-for-teams",
     title: "Workflow app for teams | Bc. Ondřej Halata",
-    h1: "Workflow app for teams running repeatable operations",
+    breadcrumbLabel: "Workflow app for teams running repeatable operations",
     description: "A workflow app use case for teams that need to manage repeatable processes, states, and responsibilities without relying on spreadsheet and chat coordination.",
     primaryQuery: "workflow app for teams",
     heroTitle: "One operating flow instead of forwarding work by hand",
@@ -513,7 +515,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "partner-portal-for-b2b-company",
     title: "Partner portal for a B2B company | Bc. Ondřej Halata",
-    h1: "Partner portal for a B2B company and shared operational visibility",
+    breadcrumbLabel: "Partner portal for a B2B company and shared operational visibility",
     description: "A partner-portal use case for B2B companies that need one place for documents, requests, collaboration status, and self-service actions for distributors, resellers, or business partners.",
     primaryQuery: "partner portal for b2b company",
     heroTitle: "One place for partners instead of email threads and manual follow-up",
@@ -554,7 +556,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "operations-system-for-a-service-team",
     title: "Operations system for a service team | Bc. Ondřej Halata",
-    h1: "Operations system for a service team instead of spreadsheets and manual coordination",
+    breadcrumbLabel: "Operations system for a service team instead of spreadsheets and manual coordination",
     description: "An operations-system use case for service teams that need to manage requests, states, deadlines, and ownership without fragmented spreadsheets and chat messages.",
     primaryQuery: "operations system for a service team",
     heroTitle: "One system for service operations instead of constant forwarding and follow-up",
@@ -595,7 +597,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "ai-nad-internimi-dokumenty",
     title: "AI nad interními dokumenty a znalostmi firmy",
-    h1: "AI nad interními dokumenty a znalostmi firmy",
+    breadcrumbLabel: "AI nad interními dokumenty a znalostmi firmy",
     description:
       "Příklad využití AI nad interními dokumenty a znalostmi firmy pro rychlejší dohledání informací, lepší onboarding a menší závislost týmu na ručním předávání znalostí.",
     primaryQuery: "ai nad interními dokumenty",
@@ -653,7 +655,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "ai-over-internal-documents",
     title: "AI over internal documents and company knowledge",
-    h1: "AI over internal documents and company knowledge",
+    breadcrumbLabel: "AI over internal documents and company knowledge",
     description:
       "An example of using AI over internal documents and company knowledge to speed up information retrieval, improve onboarding, and reduce dependence on manual knowledge transfer.",
     primaryQuery: "ai over internal documents",
@@ -711,7 +713,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "cs",
     slug: "ai-zpracovani-prichozi-agendy",
     title: "AI zpracování příchozí agendy a požadavků",
-    h1: "AI zpracování příchozí agendy a požadavků",
+    breadcrumbLabel: "AI zpracování příchozí agendy a požadavků",
     description:
       "Příklad využití AI pro třídění a zpracování příchozí agendy, e-mailů nebo požadavků tam, kde firma potřebuje omezit ruční přeposílání, doplňování dat a zdržení v operativě.",
     primaryQuery: "ai zpracování příchozí agendy",
@@ -769,7 +771,7 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "ai-intake-processing-and-triage",
     title: "AI intake processing and request triage",
-    h1: "AI intake processing and request triage",
+    breadcrumbLabel: "AI intake processing and request triage",
     description:
       "An example of using AI for incoming-request triage, email handling, or intake processing where the company needs to reduce manual forwarding, repeated data entry, and delays in operations.",
     primaryQuery: "ai intake processing",
@@ -826,26 +828,29 @@ export const growthUseCasePages: ContentPage[] = [
     translationKey: "use-case-request-offer-delivery-system",
     locale: "cs",
     slug: "system-pro-poptavky-nabidky-a-realizaci",
-    title: "Automatizace zpracování poptávek a zakázek | Bc. Ondřej Halata",
-    h1: "Automatizace zpracování poptávek, nabídek a zakázek",
-    description: "Příklad interního systému pro automatizaci zpracování poptávek, návaznost nabídek a řízení realizace zakázek bez chaosu mezi obchodem a provozem.",
-    primaryQuery: "automatizace zpracování poptávek",
-    heroTitle: "Jeden systém místo tabulek, e-mailů a ručního dohledávání zakázek",
-    heroSubtitle: "Vhodné pro firmy, kde se nad jednou zakázkou potkává obchod, příprava nabídky a následná realizace.",
+    title: "Jak funguje systém pro poptávky, nabídky a realizaci | Bc. Ondřej Halata",
+    breadcrumbLabel: "Jak funguje systém pro poptávky, nabídky a realizaci",
+    description: "Konkrétní ukázka workflow systému pro poptávky, nabídky a realizaci: role, stavy, předávání práce, provozní výjimky a společný přehled zakázky.",
+    primaryQuery: "workflow poptávka nabídka realizace",
+    heroTitle: "Jak systém propojí poptávku, nabídku a realizaci v jednom workflow",
+    heroSubtitle: "Konkrétní use case ukazuje role obchodu a realizace, stavy zakázky, předávání odpovědnosti, výjimky i výsledný provozní přehled.",
     intro: [
       "Tento typ systému dává smysl tam, kde firma nechce řídit zakázku ve třech oddělených světech. Poptávka, nabídka i realizace na sebe navazují a lidé potřebují pracovat nad jedním přehledem.",
-      "Typický cíl není digitalizovat všechno najednou, ale dát obchodní a realizační části procesu jeden společný rámec, stavy a návaznost dalších kroků.",
+      "Typický cíl není digitalizovat všechno najednou, ale dát obchodu, přípravě nabídky a realizaci jeden společný rámec, jasné stavy a pravidla pro předávání dalších kroků.",
     ],
     scenarios: [
       "poptávka přichází e-mailem nebo formulářem a dál se zpracovává ručně",
       "nabídka vzniká mimo hlavní evidenci a ztrácí se návaznost na zakázku",
       "po schválení nabídky přechází informace do realizace neúplně nebo ručně",
       "stav zakázky není snadno dohledatelný napříč obchodem a provozem",
+      "nestandardní požadavek nebo změna termínu nemá jasného vlastníka",
     ],
     includes: [
-      "evidence poptávek a jejich stavů",
+      "role pro obchod, přípravu nabídky, realizaci a odpovědného vlastníka",
+      "stavy od přijetí poptávky přes nabídku až po dokončení realizace",
       "návaznost nabídky na konkrétní poptávku",
-      "převod do realizace a řízení dalšího průběhu",
+      "předání schválené nabídky do realizace s jasnou odpovědností",
+      "zachycení výjimek, změn termínů a kroků vyžadujících rozhodnutí člověka",
       "přehled odpovědnosti, termínů, historie a poznámek",
       "možnost napojení na další firemní nástroje",
     ],
@@ -861,14 +866,20 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Lze systém rozšířit i později?", answer: "Ano. Dobře navržený interní systém se dá rozšiřovat podle toho, jak se proces ve firmě vyvíjí." },
     ],
     related: [
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
       "service-automations-and-integrations",
       "guide-how-to-automate-request-processing",
       "guide-how-to-manage-jobs-without-excel",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Nechat si podobný systém navrhnout a vytvořit", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
+      { label: "Připravit automatizaci zpracování poptávek krok za krokem", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
+      { label: "Poznat rizika řízení procesu v Excelu a e-mailu", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
+      { label: "Popsat podobný use case", href: "/cs/popsat-projekt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",
@@ -886,25 +897,28 @@ export const growthUseCasePages: ContentPage[] = [
     locale: "en",
     slug: "system-for-requests-offers-and-delivery",
     title: "System for requests, offers, and delivery jobs",
-    h1: "System for requests, offers, and delivery jobs",
+    breadcrumbLabel: "System for requests, offers, and delivery jobs",
     description: "An internal-system example for companies that need to connect incoming requests, offer preparation, and delivery work without chaos between sales and operations.",
     primaryQuery: "system for requests offers and delivery",
     heroTitle: "One system instead of spreadsheets, emails, and manual job tracking",
     heroSubtitle: "A strong fit for companies where sales, offer preparation, and delivery all touch the same job.",
     intro: [
       "This kind of system makes sense where the company no longer wants to run the same job across three disconnected worlds. The request, offer, and delivery stages all depend on each other and need one shared operational view.",
-      "The goal is not to digitise everything at once. The goal is to give the sales and delivery sides of the process one structure, one set of states, and clearer next-step continuity.",
+      "The goal is not to digitise everything at once. The goal is to give sales, offer preparation, and delivery one structure, one set of states, and clear handoffs that also work for a smaller team.",
     ],
     scenarios: [
       "the incoming request arrives by email or form and is processed manually from there",
       "the offer is prepared outside the main tracking flow and loses continuity with the job",
       "after approval, information moves into delivery incompletely or by hand",
       "job status is hard to understand across sales and operations",
+      "exceptions or deadline changes have no clear owner",
     ],
     includes: [
-      "tracking of incoming requests and their statuses",
+      "roles for sales, offer preparation, delivery, and the accountable owner",
+      "states from request intake through offer approval to completed delivery",
       "clear link between the request and the offer",
-      "conversion into delivery and tracking of the next phase",
+      "handoff into delivery with clear ownership",
+      "exception handling for deadline changes and decisions that still need a person",
       "visibility into ownership, deadlines, history, and notes",
       "possible integration with other company tools",
     ],
@@ -920,12 +934,19 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Can the system be expanded later?", answer: "Yes. A well-designed internal system can grow as the company’s process becomes more mature." },
     ],
     related: [
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
       "service-automations-and-integrations",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "guide-how-to-automate-request-processing",
+      "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Have a similar system designed and built", href: "/en/services/sales-offers-and-job-tracking-system/" },
+      { label: "Plan request-processing automation step by step", href: "/en/guides/how-to-automate-request-processing/" },
+      { label: "Recognise the risks of spreadsheets and email", href: "/en/problems/requests-offers-and-delivery-in-spreadsheets-and-email/" },
+      { label: "Discuss a similar use case", href: "/en/discuss-your-project/" },
     ],
     fitFor: [
       "companies with request-based sales and delivery work",
@@ -936,120 +957,6 @@ export const growthUseCasePages: ContentPage[] = [
       "simple tracking with no multi-step continuity",
       "CRM-only processes with no delivery stage",
       "teams unwilling to describe the real operating process",
-    ],
-  }),
-  defineGrowthUseCasePage({
-    translationKey: "use-case-request-offer-delivery-workflow",
-    locale: "cs",
-    slug: "workflow-poptavka-nabidka-realizace",
-    title: "Workflow pro poptávku, nabídku a realizaci zakázky",
-    h1: "Workflow pro poptávku, nabídku a realizaci zakázky",
-    description: "Příklad jednoduchého interního systému pro firmy, které potřebují propojit poptávku, nabídku a realizaci zakázky do jednoho přehledu místo tabulek a e-mailu.",
-    primaryQuery: "workflow poptávka nabídka realizace",
-    heroTitle: "Jeden přehled místo rozpadlého procesu mezi obchodem a realizací",
-    heroSubtitle: "Vhodné pro týmy, kde se jedna zakázka pohybuje mezi obchodem, nabídkou a následnou realizací.",
-    intro: [
-      "Tento typ systému dává smysl tam, kde firma nechce držet jednu zakázku ve třech oddělených světech. Poptávka, nabídka i realizace na sebe navazují a lidé potřebují pracovat nad jedním přehledem.",
-      "Typický cíl není digitalizovat všechno najednou, ale dát celému průchodu jeden společný rámec, stavy a návaznost dalších kroků.",
-    ],
-    scenarios: [
-      "poptávka přichází e-mailem nebo formulářem a dál se zpracovává ručně",
-      "nabídka vzniká mimo hlavní evidenci a ztrácí se návaznost na zakázku",
-      "po schválení nabídky přechází informace do realizace neúplně nebo ručně",
-      "stav zakázky není snadno dohledatelný napříč obchodem a provozem",
-    ],
-    includes: [
-      "evidence poptávek a jejich stavů",
-      "návaznost nabídky na konkrétní poptávku",
-      "převod do realizace a řízení dalšího průběhu",
-      "přehled odpovědnosti, termínů, historie a poznámek",
-      "možnost napojení na další firemní nástroje",
-    ],
-    outcomes: [
-      "lepší přehled nad celým průchodem zakázky",
-      "méně ruční koordinace mezi obchodem a realizací",
-      "nižší riziko ztracených informací a nejasných stavů",
-      "silnější základ pro další reporting nebo automatizaci",
-    ],
-    faq: [
-      { question: "Je to vhodné jen pro velké firmy?", answer: "Ne. Smysl to má i pro menší firmu, pokud se proces opakuje dost často a současné řešení už začíná být nepřehledné." },
-      { question: "Musí se řešit celý proces najednou?", answer: "Nemusí. Často dává smysl začít jednou etapou, například evidencí poptávek a převodem do realizace." },
-      { question: "Lze systém rozšířit i později?", answer: "Ano. Dobře navržený interní systém se dá rozšiřovat podle toho, jak se proces ve firmě vyvíjí." },
-    ],
-    related: [
-      "service-request-offer-delivery-system",
-      "service-internal-tools-development",
-      "service-automations-and-integrations",
-      "problem-requests-offers-delivery-in-spreadsheets",
-      "problem-replace-spreadsheets-in-process",
-      "inquiry",
-    ],
-    fitFor: [
-      "firmy se zakázkovým obchodem a navazující realizací",
-      "týmy, kde se propojuje poptávka, nabídka a zakázka",
-      "procesy, které už přerůstají tabulky a e-mail",
-    ],
-    fitNot: [
-      "jednoduchá evidence bez návaznosti více kroků",
-      "čistě CRM-only proces bez realizace",
-      "týmy, které nechtějí popsat skutečný průběh procesu",
-    ],
-  }),
-  defineGrowthUseCasePage({
-    translationKey: "use-case-request-offer-delivery-workflow",
-    locale: "en",
-    slug: "request-offer-delivery-workflow",
-    title: "How a small team manages requests, offers and jobs in one system",
-    h1: "How a small team manages requests, offers and jobs in one system",
-    description: "An example of a simple internal system for teams that need to connect requests, offers, and delivery jobs in one shared workflow instead of relying on spreadsheets and email.",
-    primaryQuery: "request offer delivery workflow",
-    heroTitle: "From scattered information to one clear workflow",
-    heroSubtitle: "A simple system that connects requests, offers, and jobs in one place.",
-    intro: [
-      "A typical situation is simple: requests arrive via email or form, offers are created in documents, and delivery is tracked somewhere else.",
-      "The result is no shared view, no clear flow, and constant manual coordination between people.",
-    ],
-    scenarios: [
-      "requests arrive by email or form and are processed manually",
-      "offers are created outside the main tracking flow",
-      "approved work is handed over into delivery by hand",
-      "job status is hard to understand across sales and operations",
-    ],
-    includes: [
-      "request capture and status tracking",
-      "offer linked to the request",
-      "handoff into delivery with clear ownership",
-      "history, notes, deadlines, and next-step visibility",
-      "possible connection to other company tools",
-    ],
-    outcomes: [
-      "clearer workflow from request to delivery",
-      "less manual coordination between roles",
-      "lower risk of lost information and outdated status",
-      "better base for reporting or future automation",
-    ],
-    faq: [
-      { question: "Is this only useful for large companies?", answer: "No. It also makes sense for smaller teams when the process repeats often enough that the current setup is already becoming hard to manage." },
-      { question: "Does the full process need to be built at once?", answer: "No. It is often better to begin with one stage and expand from there." },
-      { question: "Can the system be expanded later?", answer: "Yes. A well-designed internal system can grow as the workflow becomes more mature." },
-    ],
-    related: [
-      "service-request-offer-delivery-system",
-      "service-internal-tools-development",
-      "service-automations-and-integrations",
-      "problem-requests-offers-delivery-in-spreadsheets",
-      "problem-replace-spreadsheets-in-process",
-      "inquiry",
-    ],
-    fitFor: [
-      "small teams managing request-to-delivery work",
-      "companies connecting sales, offers, and execution",
-      "processes already outgrowing spreadsheets and email",
-    ],
-    fitNot: [
-      "simple tracking with no multi-step continuity",
-      "CRM-only processes with no delivery stage",
-      "teams unwilling to describe the real process",
     ],
   }),
 ];

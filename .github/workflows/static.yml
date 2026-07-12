@@ -36,10 +36,19 @@ jobs:
       - name: Validate content
         run: npm run validate:content
 
+      - name: Validate redirects
+        run: npm run validate:redirects
+
+      - name: Lint
+        run: npm run lint
+
       - name: Build site
         run: npm run build
         env:
           STATIC_EXPORT: "true"
+
+      - name: Validate generated SEO output
+        run: npm run validate:seo
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

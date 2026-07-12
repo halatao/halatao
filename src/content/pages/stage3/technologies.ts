@@ -8,7 +8,7 @@ type TechSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -31,7 +31,7 @@ function technology(seed: TechSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "technologie" : "technology", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "decision",
@@ -62,7 +62,7 @@ export const technologyPages: ContentPage[] = [
     locale: "cs",
     slug: "nextjs-pro-byznys-aplikace",
     title: "Next.js pro byznys aplikace | Bc. Ondřej Halata",
-    h1: "Next.js pro byznys aplikace, portály a obsahově silné weby",
+    breadcrumbLabel: "Next.js pro byznys aplikace, portály a obsahově silné weby",
     description: "Kdy dává Next.js smysl pro byznys aplikace, klientské portály a kombinaci aplikační a obsahové vrstvy.",
     primaryQuery: "nextjs pro byznys aplikace",
     heroTitle: "Next.js je praktický nástroj, ne módní nálepka",
@@ -83,7 +83,7 @@ export const technologyPages: ContentPage[] = [
     locale: "cs",
     slug: "typescript-pro-vetsi-projekty",
     title: "TypeScript pro větší projekty | Bc. Ondřej Halata",
-    h1: "TypeScript pro větší webové projekty a dlouhodobý rozvoj",
+    breadcrumbLabel: "TypeScript pro větší webové projekty a dlouhodobý rozvoj",
     description: "Kdy a proč dává TypeScript smysl ve větších webových projektech, interních systémech a týmech s delším horizontem vývoje.",
     primaryQuery: "typescript pro větší projekty",
     heroTitle: "TypeScript není samoúčelná přísnost. Je to nástroj na snížení zmatku.",
@@ -104,7 +104,7 @@ export const technologyPages: ContentPage[] = [
     locale: "cs",
     slug: "api-integrace",
     title: "API integrace pro firmy | Bc. Ondřej Halata",
-    h1: "API integrace pro firemní systémy, workflow a portály",
+    breadcrumbLabel: "API integrace pro firemní systémy, workflow a portály",
     description: "Kdy dávají API integrace smysl, co je potřeba pohlídat a jak se vyhnout křehkému propojení systémů bez provozní logiky.",
     primaryQuery: "api integrace",
     heroTitle: "API integrace není jen spojení dvou endpointů",
@@ -125,7 +125,7 @@ export const technologyPages: ContentPage[] = [
     locale: "cs",
     slug: "postgresql-pro-interni-systemy",
     title: "PostgreSQL pro interní systémy | Bc. Ondřej Halata",
-    h1: "PostgreSQL pro interní systémy a business aplikace",
+    breadcrumbLabel: "PostgreSQL pro interní systémy a business aplikace",
     description: "Kdy dává PostgreSQL smysl pro interní systémy, workflow aplikace a větší business weby se strukturovanými daty.",
     primaryQuery: "postgresql pro interní systémy",
     heroTitle: "Databáze je provozní základ, ne technická poznámka pod čarou",
@@ -146,7 +146,7 @@ export const technologyPages: ContentPage[] = [
     locale: "en",
     slug: "nextjs-for-business-applications",
     title: "Next.js for business applications | Bc. Ondřej Halata",
-    h1: "Next.js for business applications, portals, and content-driven products",
+    breadcrumbLabel: "Next.js for business applications, portals, and content-driven products",
     description: "Where Next.js makes sense for business applications, client portals, and products combining application logic with commercial content and discoverability.",
     primaryQuery: "nextjs for business applications",
     heroTitle: "Next.js is a practical tool, not a trend badge",
@@ -167,7 +167,7 @@ export const technologyPages: ContentPage[] = [
     locale: "en",
     slug: "typescript-for-large-web-projects",
     title: "TypeScript for large web projects | Bc. Ondřej Halata",
-    h1: "TypeScript for larger web projects and long-term product work",
+    breadcrumbLabel: "TypeScript for larger web projects and long-term product work",
     description: "Why TypeScript is often worth using in larger web projects, internal systems, and products with multiple contributors or complex integrations.",
     primaryQuery: "typescript for large web projects",
     heroTitle: "TypeScript is not strictness for its own sake",
@@ -188,7 +188,7 @@ export const technologyPages: ContentPage[] = [
     locale: "en",
     slug: "api-integrations",
     title: "API integrations for business systems | Bc. Ondřej Halata",
-    h1: "API integrations for business systems, workflows, and portals",
+    breadcrumbLabel: "API integrations for business systems, workflows, and portals",
     description: "Where API integrations make sense, what matters beyond endpoint mapping, and how to avoid fragile system-to-system links with no operational safety.",
     primaryQuery: "api integrations",
     heroTitle: "API integration is more than connecting two endpoints",
@@ -209,7 +209,7 @@ export const technologyPages: ContentPage[] = [
     locale: "en",
     slug: "postgresql-for-internal-tools",
     title: "PostgreSQL for internal tools | Bc. Ondřej Halata",
-    h1: "PostgreSQL for internal tools and business web applications",
+    breadcrumbLabel: "PostgreSQL for internal tools and business web applications",
     description: "Why PostgreSQL is often a strong choice for internal systems, workflow applications, and business software with structured relational data.",
     primaryQuery: "postgresql for internal tools",
     heroTitle: "The database is an operational foundation, not a footnote",

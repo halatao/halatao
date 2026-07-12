@@ -2,8 +2,10 @@ import Link from "next/link";
 
 import { AutomationAuditForm } from "@/components/AutomationAuditForm";
 import type { FAQItem, LinkRecord, Locale } from "@/content/types";
+import { normalizeInternalHref } from "@/lib/routing";
 
 type AutomationAuditLandingProps = {
+  title: string;
   locale?: Locale;
   priorityLinks?: LinkRecord[];
   faq?: FAQItem[];
@@ -20,7 +22,7 @@ function AutomationPriorityLinks({ locale = "cs", links }: { locale?: Locale; li
           <h2>{heading}</h2>
           <div className="link-grid">
             {links.map((link) => (
-              <Link className="link-card" href={link.href} key={link.href}>
+              <Link className="link-card" href={normalizeInternalHref(link.href)} key={link.href}>
                 <strong>{link.label}</strong>
               </Link>
             ))}
@@ -31,17 +33,13 @@ function AutomationPriorityLinks({ locale = "cs", links }: { locale?: Locale; li
   );
 }
 
-export function AutomationAuditLanding({ locale = "cs", priorityLinks, faq }: AutomationAuditLandingProps) {
+export function AutomationAuditLanding({ title, locale = "cs", priorityLinks, faq }: AutomationAuditLandingProps) {
   return (
     <div className="automation-page">
       <section className="automation-hero">
         <div className="automation-shell automation-shell-narrow automation-center">
           <span className="automation-badge">Audit automatizace firemních procesů</span>
-          <h1>
-            Kde firmu brzdí <span>ruční práce</span>
-            <br />
-            Excel a nepřipojené systémy?
-          </h1>
+          <h1>{title}</h1>
           <p className="automation-lead">
             Zmapuji ruční práci, Excel, nepřipojené systémy a zpracování poptávek tak, aby vznikla první realistická etapa bez zbytečně velkého projektu.
           </p>

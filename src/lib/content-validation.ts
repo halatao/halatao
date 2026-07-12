@@ -1,7 +1,13 @@
 // Schema/SEO utility: validation helpers for route integrity, content quality, and launch readiness.
 
-import type { ContentPage, PageType } from "@/content/types";
-import { buildPagePath, getSectionLabel } from "@/lib/routing";
+import type { ContentPage, Locale, PageType } from "@/content/types";
+import { footerNavigation, homepageFeaturePaths, primaryNavigation } from "@/lib/navigation";
+import {
+  buildPagePath,
+  getBreadcrumbItems,
+  getSectionLabel,
+  normalizeInternalHref,
+} from "@/lib/routing";
 
 const minimumSectionsByType: Record<PageType, number> = {
   home: 4,
@@ -69,7 +75,7 @@ function findSuspiciousEncoding(value: string) {
 function collectPageStrings(page: ContentPage) {
   return [
     page.title,
-    page.h1,
+    page.breadcrumbLabel,
     page.description,
     page.primaryQuery,
     page.hero.eyebrow,
@@ -146,17 +152,157 @@ function ensureCtaQuality(page: ContentPage) {
   }
 }
 
+function getInternalTarget(href: string) {
+  if (href.startsWith("#") || !href.startsWith("/")) {
+    return null;
+  }
+
+  const [pathWithQuery] = href.split("#", 1);
+  const [path] = pathWithQuery.split("?", 1);
+  return normalizeInternalHref(path);
+}
+
+function getRenderedLinkTargets(
+  page: ContentPage,
+  pagesByTranslationKey: Map<string, ContentPage[]>,
+  pages: ContentPage[],
+) {
+  const targets: string[] = [];
+  const addHref = (href: string | undefined) => {
+    if (!href) return;
+    const target = getInternalTarget(href);
+    if (target) targets.push(target);
+  };
+  const isStandalone =
+    page.locale === "cs" &&
+    (page.translationKey === "service-automations-and-integrations" || page.translationKey === "thank-you");
+
+  if (!isStandalone) {
+    for (const link of [...primaryNavigation[page.locale], ...footerNavigation[page.locale]]) {
+      addHref(link.href);
+    }
+  }
+
+  if (page.pageType !== "home" && page.translationKey !== "service-automations-and-integrations") {
+    for (const item of getBreadcrumbItems(page).slice(0, -1)) {
+      addHref(item.href);
+    }
+  }
+
+  if (page.pageType === "home") {
+    addHref(page.cta.href);
+    addHref(page.hero.secondaryCta?.href);
+    for (const href of homepageFeaturePaths[page.locale]) addHref(href);
+    return targets;
+  }
+
+  if (page.translationKey === "service-automations-and-integrations" && page.locale === "cs") {
+    for (const link of page.priorityLinks ?? []) addHref(link.href);
+    return targets;
+  }
+
+  addHref(page.hero.primaryCta.href);
+  addHref(page.hero.secondaryCta?.href);
+
+  if (page.pageType === "hub") {
+    addHref(page.cta.href);
+    for (const child of pages.filter(
+      (candidate) =>
+        candidate.locale === page.locale &&
+        candidate.pageType !== "hub" &&
+        candidate.segments.length > 1 &&
+        candidate.segments[0] === page.segments[0],
+    )) {
+      addHref(buildPagePath(child));
+    }
+    if (page.translationKey === "hub-locations") {
+      for (const relatedKey of page.related) {
+        const target = (pagesByTranslationKey.get(relatedKey) ?? []).find(
+          (candidate) => candidate.locale === page.locale,
+        );
+        if (target) addHref(buildPagePath(target));
+      }
+    }
+    return targets;
+  }
+
+  if (page.pageType === "inquiry") {
+    return targets;
+  }
+
+  addHref(page.cta.href);
+  for (const link of page.priorityLinks ?? []) addHref(link.href);
+  for (const relatedKey of page.related) {
+    const group = pagesByTranslationKey.get(relatedKey) ?? [];
+    const target = group.find((candidate) => candidate.locale === page.locale) ?? group[0];
+    if (target) addHref(buildPagePath(target));
+  }
+
+  return targets;
+}
+
+function ensureInternalGraph(pages: ContentPage[], groups: Map<string, ContentPage[]>) {
+  const pageByPath = new Map(pages.map((page) => [buildPagePath(page), page] as const));
+  const adjacency = new Map<string, Set<string>>();
+
+  for (const page of pages) {
+    const sourcePath = buildPagePath(page);
+    const targets = getRenderedLinkTargets(page, groups, pages);
+    const edges = new Set<string>();
+
+    for (const targetPath of targets) {
+      const targetPage = pageByPath.get(targetPath);
+      if (!targetPage) {
+        throw new Error(`Page ${page.id} renders an internal link to missing canonical route: ${targetPath}`);
+      }
+
+      if (targetPage.locale === page.locale && targetPage.indexable) {
+        edges.add(targetPath);
+      }
+    }
+
+    adjacency.set(sourcePath, edges);
+  }
+
+  for (const locale of ["cs", "en"] satisfies Locale[]) {
+    const home = pages.find(
+      (page) => page.locale === locale && page.pageType === "home" && page.segments.length === 0,
+    );
+    if (!home) throw new Error(`Missing ${locale.toUpperCase()} locale homepage.`);
+
+    const homePath = buildPagePath(home);
+    const distances = new Map([[homePath, 0]]);
+    const queue = [homePath];
+
+    while (queue.length > 0) {
+      const source = queue.shift()!;
+      const distance = distances.get(source)!;
+      for (const target of adjacency.get(source) ?? []) {
+        if (!distances.has(target)) {
+          distances.set(target, distance + 1);
+          queue.push(target);
+        }
+      }
+    }
+
+    for (const page of pages.filter((candidate) => candidate.locale === locale && candidate.indexable)) {
+      const path = buildPagePath(page);
+      const distance = distances.get(path);
+      if (distance === undefined) {
+        throw new Error(`Indexable page ${page.id} is orphaned from ${homePath}.`);
+      }
+      if (distance > 3) {
+        throw new Error(`Indexable page ${page.id} is ${distance} internal steps from ${homePath}; maximum is 3.`);
+      }
+    }
+  }
+}
+
 export function validateContentPages(pages: ContentPage[]) {
   const seenIds = new Set<string>();
   const seenPaths = new Set<string>();
   const translationKeys = new Set(pages.map((page) => page.translationKey));
   const groups = new Map<string, ContentPage[]>();
-  const inboundByKey = new Map<string, number>();
-  const hubSegments = new Set(
-    pages
-      .filter((page) => page.pageType === "hub")
-      .map((page) => `${page.locale}:${page.segments[0]}`),
-  );
 
   for (const page of pages) {
     if (seenIds.has(page.id)) {
@@ -169,6 +315,14 @@ export function validateContentPages(pages: ContentPage[]) {
       throw new Error(`Duplicate route path detected: ${pathKey}`);
     }
     seenPaths.add(pathKey);
+
+    if (!page.hero.title.trim()) {
+      throw new Error(`Page ${page.id} has an empty rendered H1.`);
+    }
+
+    if (!page.breadcrumbLabel.trim()) {
+      throw new Error(`Page ${page.id} has an empty breadcrumb label.`);
+    }
 
     if (page.description.trim().length < 90) {
       throw new Error(`Page ${page.id} has a meta description that is too short for launch quality.`);
@@ -213,13 +367,10 @@ export function validateContentPages(pages: ContentPage[]) {
     currentGroup.push(page);
     groups.set(page.translationKey, currentGroup);
 
-    for (const relatedKey of page.related) {
-      inboundByKey.set(relatedKey, (inboundByKey.get(relatedKey) ?? 0) + 1);
-    }
   }
 
   ensureUniqueWithinLocale(pages, (page) => page.title, "title");
-  ensureUniqueWithinLocale(pages, (page) => page.h1, "H1");
+  ensureUniqueWithinLocale(pages, (page) => page.hero.title, "rendered H1");
   ensureUniqueWithinLocale(pages, (page) => page.description, "meta description");
 
   for (const page of pages) {
@@ -227,17 +378,35 @@ export function validateContentPages(pages: ContentPage[]) {
       if (!translationKeys.has(relatedKey)) {
         throw new Error(`Page ${page.id} references missing related key: ${relatedKey}`);
       }
+
+      const hasLocalizedTarget = (groups.get(relatedKey) ?? []).some(
+        (candidate) => candidate.locale === page.locale,
+      );
+      if (!hasLocalizedTarget) {
+        throw new Error(`Page ${page.id} references related key '${relatedKey}' without a ${page.locale} target.`);
+      }
+    }
+
+    for (const item of getBreadcrumbItems(page).slice(0, -1)) {
+      if (!seenPaths.has(item.href)) {
+        throw new Error(`Page ${page.id} has a breadcrumb parent that does not exist: ${item.href}`);
+      }
     }
   }
 
   for (const [translationKey, group] of groups) {
-    const requiresLocalePair = !group.some((page) => page.pageType === "location");
+    const policies = new Set(group.map((page) => page.translationAvailability));
+    if (policies.size !== 1) {
+      throw new Error(`Translation key '${translationKey}' mixes translation availability policies.`);
+    }
 
-    if (requiresLocalePair) {
-      const locales = new Set(group.map((page) => page.locale));
-      if (!locales.has("cs") || !locales.has("en")) {
-        throw new Error(`Translation key '${translationKey}' is missing a Czech or English counterpart.`);
-      }
+    const policy = group[0].translationAvailability;
+    const locales = new Set(group.map((page) => page.locale));
+    if (policy === "required" && (!locales.has("cs") || !locales.has("en"))) {
+      throw new Error(`Translation key '${translationKey}' is missing a required Czech or English counterpart.`);
+    }
+    if (policy === "unavailable" && group.length !== 1) {
+      throw new Error(`Translation key '${translationKey}' is unavailable for translation but has multiple locales.`);
     }
   }
 
@@ -255,17 +424,5 @@ export function validateContentPages(pages: ContentPage[]) {
     }
   }
 
-  for (const page of pages) {
-    if (page.pageType === "home" || page.pageType === "hub" || page.pageType === "location" || !page.indexable) {
-      continue;
-    }
-
-    const linkedFromHub =
-      page.segments.length > 1 && hubSegments.has(`${page.locale}:${page.segments[0]}`);
-    const inboundLinks = inboundByKey.get(page.translationKey) ?? 0;
-
-    if (!linkedFromHub && inboundLinks === 0) {
-      throw new Error(`Page ${page.id} is orphaned. It is neither linked from related content nor covered by a section hub.`);
-    }
-  }
+  ensureInternalGraph(pages, groups);
 }

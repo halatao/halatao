@@ -9,7 +9,7 @@ type HubSeed = {
   slug: string;
   segment: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -32,9 +32,9 @@ function hub(seed: HubSeed): ContentPage {
     slug: seed.slug,
     segments: [seed.segment],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
-    primaryQuery: seed.h1,
+    primaryQuery: seed.breadcrumbLabel,
     intent: "commercial",
     hero: {
       eyebrow: isCs ? "Přehled sekce" : "Section overview",
@@ -100,7 +100,7 @@ export const stage1HubPages: ContentPage[] = [
     slug: "sluzby",
     segment: "sluzby",
     title: "Služby: webové aplikace, takeover a interní systémy",
-    h1: "Služby pro firmy, které potřebují dodat, převzít nebo zlepšit důležitou aplikaci",
+    breadcrumbLabel: "Služby pro firmy, které potřebují dodat, převzít nebo zlepšit důležitou aplikaci",
     description: "Vývoj webových aplikací, interních systémů, automatizací a převzetí existujících řešení pro firmy, které potřebují posunout software prakticky a bezpečně.",
     heroTitle: "Vyberte službu podle projektové situace, ne podle buzzwordu",
     heroSubtitle: "Sekce pro firmy a týmy, které řeší nový vývoj, takeover, interní systém, automatizace nebo potřebu seniorní kontraktní kapacity.",
@@ -130,7 +130,7 @@ export const stage1HubPages: ContentPage[] = [
       "service-custom-web-app-development",
       "service-existing-app-takeover",
       "service-internal-tools-development",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-automations-and-integrations",
       "contract-support",
     ],
@@ -141,7 +141,7 @@ export const stage1HubPages: ContentPage[] = [
     slug: "services",
     segment: "services",
     title: "Services: custom apps, takeover, internal tools",
-    h1: "Services for companies that need to build, take over, or improve important software",
+    breadcrumbLabel: "Services for companies that need to build, take over, or improve important software",
     description: "Custom web application development, app takeover, internal tools, automations, integrations, and senior contract support for practical software delivery.",
     heroTitle: "Choose the service by the delivery situation, not the buzzword",
     heroSubtitle: "A commercial overview for companies facing new product delivery, inherited-app risk, internal-tool needs, automation pressure, or the need for senior contract capacity.",
@@ -171,7 +171,7 @@ export const stage1HubPages: ContentPage[] = [
       "service-custom-web-app-development",
       "service-existing-app-takeover",
       "service-internal-tools-development",
-      "service-request-offer-delivery-system",
+      "service-sales-and-job-tracking-system",
       "service-automations-and-integrations",
       "contract-support",
     ],
@@ -182,7 +182,7 @@ export const stage1HubPages: ContentPage[] = [
     slug: "problemy",
     segment: "problemy",
     title: "Projektové problémy: takeover, interní systém a integrace",
-    h1: "Typické projektové situace, které firmy řeší dřív než konkrétní technologii",
+    breadcrumbLabel: "Typické projektové situace, které firmy řeší dřív než konkrétní technologii",
     description: "Přehled problémových stránek pro takeover aplikace, interní systém, integrace, záchranu rozdělaného projektu, pomalou aplikaci nebo potřebu seniorní kapacity.",
     heroTitle: "Začněte podle problému, ne podle technologie",
     heroSubtitle: "Sekce pro chvíli, kdy ještě není jasné, jaký model spolupráce nebo řešení bude správný, ale tlak v projektu už je zřejmý.",
@@ -213,7 +213,7 @@ export const stage1HubPages: ContentPage[] = [
       "problem-slow-hard-to-maintain-app",
       "problem-senior-contract-capacity",
       "problem-client-portal",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
     ],
   }),
   hub({
@@ -222,7 +222,7 @@ export const stage1HubPages: ContentPage[] = [
     slug: "problems",
     segment: "problems",
     title: "Project problems: inherited apps, tools, integrations",
-    h1: "Project situations that usually matter before the technology choice",
+    breadcrumbLabel: "Project situations that usually matter before the technology choice",
     description: "Overview of problem pages covering inherited app takeover, internal tools, integrations, stalled projects, weak performance, and the need for senior contract capacity.",
     heroTitle: "Start from the problem shape, not the implementation label",
     heroSubtitle: "Useful when the delivery model is still unclear but the pressure inside the project is already real.",
@@ -253,7 +253,7 @@ export const stage1HubPages: ContentPage[] = [
       "problem-slow-hard-to-maintain-app",
       "problem-senior-contract-capacity",
       "problem-client-portal",
-      "problem-requests-offers-delivery-in-spreadsheets",
+      "problem-sales-offers-delivery-chaos",
     ],
   }),
 ];

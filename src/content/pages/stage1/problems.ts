@@ -8,7 +8,7 @@ type ProblemSeed = {
   locale: Locale;
   slug: string;
   title: string;
-  h1: string;
+  breadcrumbLabel: string;
   description: string;
   primaryQuery: string;
   heroTitle: string;
@@ -34,7 +34,7 @@ function problem(seed: ProblemSeed): ContentPage {
     slug: seed.slug,
     segments: [isCs ? "problemy" : "problems", seed.slug],
     title: seed.title,
-    h1: seed.h1,
+    breadcrumbLabel: seed.breadcrumbLabel,
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
@@ -94,7 +94,7 @@ export const problemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-prevzit-rozpracovanou-aplikaci",
     title: "Převzetí rozpracované aplikace | Jak bezpečně převzít cizí systém",
-    h1: "Jak bezpečně převzít rozpracovanou nebo cizí aplikaci",
+    breadcrumbLabel: "Jak bezpečně převzít rozpracovanou nebo cizí aplikaci",
     description: "Pomohu firmě bezpečně převzít rozpracovanou nebo cizí aplikaci, zmapovat technická a provozní rizika a navrhnout další postup bez zbytečného chaosu.",
     primaryQuery: "převzetí rozpracované aplikace",
     heroTitle: "Rozpracovaná aplikace běží, ale další krok je riskantní",
@@ -123,7 +123,7 @@ export const problemPages: ContentPage[] = [
     locale: "cs",
     slug: "chceme-vyvinout-interni-system",
     title: "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
-    h1: "Kdy dává interní systém na míru smysl",
+    breadcrumbLabel: "Kdy dává interní systém na míru smysl",
     description: "Pomohu navrhnout a dodat interní systém na míru tam, kde firma potřebuje sjednotit workflow, role, data a odpovědnost v jednom vlastním nástroji.",
     primaryQuery: "interní systém na míru pro firmu",
     heroTitle: "Interní systém na míru pro důležitý firemní proces",
@@ -152,7 +152,7 @@ export const problemPages: ContentPage[] = [
     locale: "cs",
     slug: "potrebujeme-napojit-nekolik-systemu",
     title: "Napojení systémů a API integrace | Méně ručního přepisování dat",
-    h1: "Napojení systémů bez ručního přepisování dat",
+    breadcrumbLabel: "Napojení systémů bez ručního přepisování dat",
     description: "Pomohu navrhnout a dodat napojení systémů, API integrace a automatizace tam, kde firma trpí na přepisování dat, ruční kontroly a nejasný tok informací.",
     primaryQuery: "napojení systémů",
     heroTitle: "Data dnes obcházejí lidi místo propojených systémů",
@@ -181,7 +181,7 @@ export const problemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-to-take-over-an-existing-app",
     title: "We need to take over an existing app | Bc. Ondřej Halata",
-    h1: "We need to take over an existing app safely",
+    breadcrumbLabel: "We need to take over an existing app safely",
     description: "I help companies take over existing or partially delivered web applications, map delivery risk, and define the next steps without forcing a rewrite first.",
     primaryQuery: "we need to take over an existing app",
     heroTitle: "The app is important, but the next change feels risky",
@@ -210,7 +210,7 @@ export const problemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-an-internal-tool",
     title: "We need an internal tool | Bc. Ondřej Halata",
-    h1: "We need an internal tool that improves real operations",
+    breadcrumbLabel: "We need an internal tool that improves real operations",
     description: "I help teams scope and build internal tools when a company needs one owned system for workflow, roles, data, and accountability.",
     primaryQuery: "we need an internal tool",
     heroTitle: "The company needs one owned system for an important workflow",
@@ -239,7 +239,7 @@ export const problemPages: ContentPage[] = [
     locale: "en",
     slug: "we-need-system-integrations",
     title: "We need system integrations | Bc. Ondřej Halata",
-    h1: "We need system integrations and less manual data handling",
+    breadcrumbLabel: "We need system integrations and less manual data handling",
     description: "I help companies connect systems and reduce repetitive manual work where data moves slowly, inconsistently, or with too much human intervention.",
     primaryQuery: "we need system integrations",
     heroTitle: "The data is travelling through people instead of systems",
@@ -268,7 +268,7 @@ export const problemPages: ContentPage[] = [
     locale: "cs",
     slug: "chceme-vyuzit-ai-ve-firemnim-procesu",
     title: "Chceme využít AI ve firemním procesu",
-    h1: "Jak využít AI ve firemním procesu bez dalšího chaosu",
+    breadcrumbLabel: "Jak využít AI ve firemním procesu bez dalšího chaosu",
     description:
       "Pomohu firmám vyhodnotit, kde má AI ve firemním procesu reálný přínos, kde je lepší začít automatizací nebo úpravou workflow a jak se vyhnout další vrstvě provozní složitosti.",
     primaryQuery: "využití ai ve firmě",
@@ -326,7 +326,7 @@ export const problemPages: ContentPage[] = [
     locale: "en",
     slug: "want-to-use-ai-in-a-business-process",
     title: "We want to use AI in a business process",
-    h1: "How to use AI in a business process without adding another layer of chaos",
+    breadcrumbLabel: "How to use AI in a business process without adding another layer of chaos",
     description:
       "I help companies assess where AI has real value inside a business process, where automation or workflow improvement should come first, and how to avoid adding complexity without operational payoff.",
     primaryQuery: "using ai in a business process",

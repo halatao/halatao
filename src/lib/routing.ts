@@ -50,7 +50,8 @@ export function normalizeInternalHref(href: string) {
 
   const [pathWithQuery, hash] = href.split("#", 2);
   const [path, query] = pathWithQuery.split("?", 2);
-  const normalizedPath = path.endsWith("/") ? path : `${path}/`;
+  const isFilePath = /\/[^/]+\.[a-z0-9]+$/i.test(path);
+  const normalizedPath = path.endsWith("/") || isFilePath ? path : `${path}/`;
   const normalizedQuery = query ? `?${query}` : "";
   const normalizedHash = hash ? `#${hash}` : "";
 
@@ -72,11 +73,11 @@ export function getBreadcrumbItems(page: ContentPage): LinkRecord[] {
   }
 
   if (page.segments.length === 0) {
-    return [home, { label: page.h1, href: buildPagePath(page) }];
+    return [home, { label: page.breadcrumbLabel, href: buildPagePath(page) }];
   }
 
   if (page.segments.length === 1) {
-    return [home, { label: page.h1, href: buildPagePath(page) }];
+    return [home, { label: page.breadcrumbLabel, href: buildPagePath(page) }];
   }
 
   const sectionSegment = page.segments[0];
@@ -87,7 +88,7 @@ export function getBreadcrumbItems(page: ContentPage): LinkRecord[] {
   }
 
   if (!sectionLabel) {
-    return [home, { label: page.h1, href: buildPagePath(page) }];
+    return [home, { label: page.breadcrumbLabel, href: buildPagePath(page) }];
   }
 
   const items = [home, { label: sectionLabel, href: buildLocalizedPath(page.locale, [sectionSegment]) }];
@@ -96,5 +97,5 @@ export function getBreadcrumbItems(page: ContentPage): LinkRecord[] {
     return items;
   }
 
-  return [...items, { label: page.h1, href: buildPagePath(page) }];
+  return [...items, { label: page.breadcrumbLabel, href: buildPagePath(page) }];
 }
