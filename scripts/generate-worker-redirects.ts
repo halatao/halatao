@@ -30,9 +30,11 @@ export const workerRedirectArtifactPath = resolve(
 );
 
 export function buildWorkerRedirectArtifact(): WorkerRedirectArtifact {
-  const expandedRules = [...expandSeoRedirectRules()].sort((left, right) =>
-    left.source.localeCompare(right.source),
-  );
+  const expandedRules = [...expandSeoRedirectRules()].sort((left, right) => {
+    if (left.source < right.source) return -1;
+    if (left.source > right.source) return 1;
+    return 0;
+  });
 
   return {
     manifestVersion: seoRedirectManifest.version,

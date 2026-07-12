@@ -897,18 +897,6 @@
       "query": "preserve",
       "category": "canonicalization"
     },
-    "/cs/sablony/discovery-checklist-pro-automatizace": {
-      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "canonicalization"
-    },
-    "/cs/sablony/discovery-checklist-pro-automatizace/index.html": {
-      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "canonicalization"
-    },
     "/cs/sablony/checklist-api-integrace": {
       "target": "/cs/sablony/checklist-api-integrace/",
       "status": 308,
@@ -953,6 +941,18 @@
     },
     "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/index.html": {
       "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/discovery-checklist-pro-automatizace": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sablony/discovery-checklist-pro-automatizace/index.html": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
@@ -2295,24 +2295,6 @@
       "query": "preserve",
       "category": "legacy"
     },
-    "/cz/sablony/discovery-checklist-pro-automatizace": {
-      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/sablony/discovery-checklist-pro-automatizace/": {
-      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/sablony/discovery-checklist-pro-automatizace/index.html": {
-      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
     "/cz/sablony/checklist-api-integrace": {
       "target": "/cs/sablony/checklist-api-integrace/",
       "status": 308,
@@ -2381,6 +2363,24 @@
     },
     "/cz/sablony/checklist-stabilizace-release-procesu-aplikace/index.html": {
       "target": "/cs/sablony/checklist-stabilizace-release-procesu-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace/": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sablony/discovery-checklist-pro-automatizace/index.html": {
+      "target": "/cs/sablony/discovery-checklist-pro-automatizace/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
