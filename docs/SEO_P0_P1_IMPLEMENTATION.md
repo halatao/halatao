@@ -22,10 +22,9 @@ Požadovaný produkční redirect je:
 ```
 
 Root se už nerozhoduje podle `navigator.language`, `Accept-Language` ani
-refereru. Protože aktuální GitHub Pages deployment neumí projektově definovaný
-serverový redirect, zůstává `/` statickým `noindex,follow` fallbackem s
-normálními odkazy na `/cs/` a `/en/`. Fallback nemá automatický klientský ani
-meta-refresh redirect a jeho canonical je `/cs/`.
+refereru. Cloudflare Worker vyhodnocuje root pravidlo před Static Assets a vrací
+permanentní redirect. Statický `noindex,follow` fallback zůstává pouze v exportu
+pro bezpečný rollback; přes aktivní Worker se běžně neservíruje.
 
 ## 3. Redirect architektura
 
@@ -42,9 +41,9 @@ duplicity, self-redirect, chain, loop, chybějící nebo nekanonický target,
 neodůvodněný noindex target, kolizi exact/prefix pravidla a zásah do assetů či
 systémových souborů. Query string se ve všech současných pravidlech zachovává.
 
-`next.config.ts` manifest používá pouze pro případný non-static Next.js
-deployment. Produkční větev `STATIC_EXPORT=true` používá `output: "export"`, a
-proto Next.js `redirects()` není produkční redirect vrstva.
+`next.config.ts` vždy používá `output: "export"`. Redirect manifest se pro
+Worker deterministicky generuje do `worker/generated/redirects.json`; Worker ho
+vyhodnotí před `env.ASSETS.fetch(request)`. Next.js `redirects()` se nepoužívá.
 
 ## 4. Redirect matrix
 
@@ -91,16 +90,14 @@ Povinné explicitní mapování:
 `/index.html`. Další canonicalization pravidla stejným způsobem pokrývají
 no-slash a `index.html` alias každé aktivní HTML routy.
 
-## 5. Produkční stav redirectů
+## 5. Produkční hosting redirectů
 
-**BLOCKED: requires edge/DNS/hosting access.** Repo obsahuje pouze GitHub Pages
-deployment a žádnou nasazenou Cloudflare, Netlify, Vercel, nginx, Apache ani
-jinou proxy vrstvu. V repozitáři jsou hotové manifest, validátor, non-static
-adaptér, provider-neutral specifikace a spustitelný HTTP akceptační test.
-
-Žádný produkční HTTP 301/308 nebyl v rámci této změny nasazen ani ověřen.
-Statické `/cz/*` fallbacky proto zůstávají zachované a nejsou vydávány za
-serverové redirecty. Podrobná edge specifikace je v `docs/SEO_EDGE_REDIRECTS.md`.
+Cílová infrastruktura je jeden Cloudflare Worker `halatao` se Static Assets.
+Custom Domains `halatao.cz` a `www.halatao.cz` směřují přímo na Worker; GitHub
+Pages není origin. Worker nejprve aplikuje 641 exact redirectů a běžný request
+obslouží výhradně přes binding `env.ASSETS`. Aktuální implementace v repozitáři
+není v tomto dokumentačním kroku vydávána za produkčně nasazenou; potvrzení
+vyžaduje post-deployment HTTP retest.
 
 ## 6. Hreflang a x-default
 
@@ -167,8 +164,8 @@ primary query a kontextové priority linky.
   neprázdný H1 shodný s hero title, sitemap, interní anchors, location routes,
   absenci loserů, redirect sources a renderovaný graf.
 
-CI pořadí je: install → content → redirects → lint → static build → generated
-SEO output → upload.
+CI pořadí je: install → content → redirects → generovaný Worker manifest →
+lint → static build → SEO/assets validace → Worker testy → Wrangler dry-run.
 
 ## 11. Výsledky testů
 
@@ -195,11 +192,10 @@ Finální stav:
 
 ## 12. Zbývající blockers
 
-- Aktivace skutečné edge vrstvy a změna DNS/hostingu nejsou autorizované ani
-  dostupné v tomto checkoutu.
-- Produkční one-hop 301/308 a zachování query stringu proto nebyly HTTP
-  ověřeny.
-- Edge akceptační test musí být spuštěn až po nasazení poskytovatele.
+- Opravený Worker se Static Assets musí být manuálně nasazen do existujícího
+  projektu `halatao`.
+- Produkční one-hop 301/308 i obsluha `/cs/` z assets musí být po deployi znovu
+  HTTP ověřeny.
 - Lint nadále hlásí tři původní warningy: anonymní default export v ESLint
   konfiguraci a dva `<img>` warningy. Nejsou součástí P0/P1 scope.
 - `npm ci` hlásí existující dependency audit nálezy; závislosti nebyly v tomto
@@ -215,8 +211,8 @@ Finální stav:
   parent a validace záměrně selže.
 - H1 migraci je nutné vracet atomicky v typech, content seeds, templates,
   schema, breadcrumbs a validátorech.
-- Při budoucí edge aktivaci se statické `/cz/*` fallbacky odstraňují pouze ve
-  stejném releasu jako nasazená redirect pravidla a jejich HTTP ověření.
+- Rollback znamená nasadit předchozí známou Worker verzi; Custom Domains ani
+  DNS není nutné měnit. Statické `/cz/*` fallbacky zatím zůstávají v exportu.
 
 Vstupní GSC ZIP exporty nebyly upraveny ani odstraněny. Nebyl proveden deploy,
 DNS změna, commit, push ani PR.

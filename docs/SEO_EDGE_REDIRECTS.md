@@ -2,22 +2,18 @@
 
 ## Stav
 
-**READY FOR MANUAL CLOUDFLARE DEPLOYMENT; production activation remains
-blocked by Cloudflare/DNS access.** Produkční workflow v
-`.github/workflows/static.yml` nadále publikuje pouze statický adresář `out/` na
-GitHub Pages. Nový Worker v `worker/` je připravený fungovat jako Worker Route
-před tímto originem, ale nebyl nasazen a DNS nebylo změněno. GitHub Pages samo
-projektově definované serverové redirecty nepodporuje.
+**READY FOR MANUAL CLOUDFLARE WORKER DEPLOYMENT.** Worker `halatao` je současně
+redirect vrstva a origin pro Next.js static export v `out/`. GitHub Pages není
+produkční origin. `halatao.cz` a `www.halatao.cz` jsou Worker Custom Domains;
+repo pro stejné hostname nedeklaruje duplicitní Worker Routes.
 
-`next.config.ts` používá stejný manifest pouze ve větvi pro případný budoucí
-serverový Next.js deployment. Při `STATIC_EXPORT=true` se `redirects()`
-negenerují a nejsou produkčním řešením.
+`next.config.ts` vždy generuje static export. Redirecty nevykonává Next.js, ale
+Worker nad deterministickým artefaktem vytvořeným ze stejného manifestu.
 
-Dokud není edge vrstva skutečně zapojená do DNS a deploymentu:
+Dokud není tato opravená Worker verze skutečně nasazená:
 
-- root zůstává bezpečný statický `noindex,follow` fallback,
-- `/cz/*` zůstávají statické `noindex,follow` fallbacky,
-- žádný z těchto HTML fallbacků není považován za HTTP redirect,
+- nelze stav produkčních běžných stránek ani redirectů označit za ověřený,
+- statické root a `/cz/*` fallbacky zůstávají v `out/` jako rollback pojistka,
 - níže uvedené HTTP testy jsou akceptační specifikace, nikoli tvrzení o
   současném produkčním chování.
 
@@ -197,12 +193,13 @@ Implementovaný adaptér:
    `expandSeoRedirectRules()`, nikoli paralelní ruční seznam;
 2. zachovává status `301` nebo `308` a query policy z manifestu;
 3. skládá host/protocol/path normalizaci do jediného absolutního `Location`;
-4. canonical request bez exact shody propouští nezměněným `fetch(request)`;
+4. canonical request bez exact shody obslouží přes
+   `env.ASSETS.fetch(request)` bez externího originu;
 5. pro canonical soubory, assety i neznámé URL neaplikuje žádný odhadovaný
    trailing-slash nebo locale wildcard;
 6. při redirectu origin nevolá.
 
-Konfigurace a manuální aktivace jsou popsány v
+Konfigurace, build a manuální deployment jsou popsány v
 `docs/CLOUDFLARE_EDGE_DEPLOYMENT.md`. Statické fallbacky se v tomto kroku
 záměrně nemažou; lze je řešit až po prokázaném produkčním zapojení a samostatné
 atomické změně.

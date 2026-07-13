@@ -1,5 +1,10 @@
 # SEO post-deployment validace P0/P1
 
+> Historický audit z 12. července 2026 zachycuje předchozí GitHub Pages
+> deployment. Současnou Cloudflare Workers + Static Assets architekturu popisuje
+> `docs/CLOUDFLARE_EDGE_DEPLOYMENT.md`; výsledky níže nejsou aktuální
+> post-deployment potvrzení nového Worker buildu.
+
 ## Executive summary
 
 **Verdikt: NO-GO FOR P2**

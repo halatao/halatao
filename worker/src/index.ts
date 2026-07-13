@@ -13,19 +13,30 @@ type WorkerRedirectArtifact = {
 
 const artifact = redirectArtifact as WorkerRedirectArtifact;
 const canonicalOrigin = new URL(artifact.canonicalOrigin);
-const supportedHosts = new Set(["halatao.cz", "www.halatao.cz"]);
+const productionHosts = new Set(["halatao.cz", "www.halatao.cz"]);
 
-export type OriginFetch = (request: Request) => Promise<Response>;
+export interface Fetcher {
+  fetch(request: Request): Promise<Response>;
+}
+
+export interface Env {
+  ASSETS: Fetcher;
+}
+
+export type AssetFetch = (request: Request) => Promise<Response>;
 
 function redirectLocation(requestUrl: URL, rule?: WorkerRedirectRule) {
-  const target = new URL(rule?.target ?? requestUrl.pathname, canonicalOrigin);
+  const redirectBase = productionHosts.has(requestUrl.hostname)
+    ? canonicalOrigin
+    : new URL(requestUrl.origin);
+  const target = new URL(rule?.target ?? requestUrl.pathname, redirectBase);
   target.search = rule?.query === "drop" ? "" : requestUrl.search;
   return target.toString();
 }
 
 export async function handleRequest(
   request: Request,
-  originFetch: OriginFetch = (originRequest) => fetch(originRequest),
+  assetFetch: AssetFetch,
 ) {
   const url = new URL(request.url);
   const rule = artifact.rules[url.pathname];
@@ -35,19 +46,19 @@ export async function handleRequest(
   }
 
   const needsOriginNormalization =
-    supportedHosts.has(url.hostname) &&
+    productionHosts.has(url.hostname) &&
     (url.protocol !== canonicalOrigin.protocol || url.hostname !== canonicalOrigin.hostname);
 
   if (needsOriginNormalization) {
     return Response.redirect(redirectLocation(url), 308);
   }
 
-  return originFetch(request);
+  return assetFetch(request);
 }
 
 const worker = {
-  fetch(request: Request) {
-    return handleRequest(request);
+  fetch(request: Request, env: Env) {
+    return handleRequest(request, (assetRequest) => env.ASSETS.fetch(assetRequest));
   },
 };
 

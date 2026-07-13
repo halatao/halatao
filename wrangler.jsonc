@@ -1,25 +1,14 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "halatao-seo-redirects",
+  "name": "halatao",
   "main": "worker/src/index.ts",
   "compatibility_date": "2026-07-12",
-  "workers_dev": false,
-  "env": {
-    "staging": {
-      "workers_dev": true
-    },
-    "production": {
-      "workers_dev": false,
-      "routes": [
-        {
-          "pattern": "halatao.cz/*",
-          "zone_name": "halatao.cz"
-        },
-        {
-          "pattern": "www.halatao.cz/*",
-          "zone_name": "halatao.cz"
-        }
-      ]
-    }
+  "workers_dev": true,
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": true
   }
 }

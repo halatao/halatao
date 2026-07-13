@@ -2,20 +2,20 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import redirectArtifact from "../generated/redirects.json";
-import { handleRequest, type OriginFetch } from "../src/index";
+import worker, { handleRequest, type AssetFetch } from "../src/index";
 
 const canonicalOrigin = "https://www.halatao.cz";
 const query = "?utm_source=edge-test&utm_medium=validation";
 const rules = redirectArtifact.rules;
 
-function rejectingOrigin(): OriginFetch {
+function rejectingAssets(): AssetFetch {
   return async () => {
-    throw new Error("Redirect response called the origin unexpectedly.");
+    throw new Error("Redirect response called the asset binding unexpectedly.");
   };
 }
 
 async function expectRedirect(source: string, expectedTarget: string, status = 308) {
-  const response = await handleRequest(new Request(source), rejectingOrigin());
+  const response = await handleRequest(new Request(source), rejectingAssets());
   assert.equal(response.status, status);
   assert.equal(response.headers.get("location"), expectedTarget);
 }
@@ -84,7 +84,7 @@ test("required merge, GSC, location, automation and exact Czech legacy families 
   for (const source of requiredSources) assert.ok(rules[source as keyof typeof rules], source);
 });
 
-test("canonical files, assets and unknown paths pass through unchanged", async () => {
+test("canonical pages, files, assets and unknown paths use the asset binding", async () => {
   const passthroughPaths = [
     "/cs/",
     "/robots.txt",
@@ -107,6 +107,52 @@ test("canonical files, assets and unknown paths pass through unchanged", async (
     assert.equal(response.status, 207, path);
     assert.equal(received?.url, `${canonicalOrigin}${path}`, path);
   }
+});
+
+test("workers.dev keeps preview redirects and assets on the preview origin", async () => {
+  const previewOrigin = "https://halatao.ondrej-halata.workers.dev";
+
+  await expectRedirect(`${previewOrigin}/${query}`, `${previewOrigin}/cs/${query}`);
+
+  let assetCalls = 0;
+  const response = await handleRequest(new Request(`${previewOrigin}/cs/`), async () => {
+    assetCalls += 1;
+    return new Response("preview asset", { status: 200 });
+  });
+
+  assert.equal(response.status, 200);
+  assert.equal(assetCalls, 1);
+});
+
+test("production apex normalizes to www while canonical www serves assets", async () => {
+  await expectRedirect(
+    "https://halatao.cz/cs/?source=apex",
+    `${canonicalOrigin}/cs/?source=apex`,
+  );
+
+  let assetCalls = 0;
+  const response = await handleRequest(new Request(`${canonicalOrigin}/cs/`), async () => {
+    assetCalls += 1;
+    return new Response("canonical asset", { status: 200 });
+  });
+
+  assert.equal(response.status, 200);
+  assert.equal(assetCalls, 1);
+});
+
+test("default Worker entrypoint delegates only to env.ASSETS", async () => {
+  let receivedUrl: string | undefined;
+  const response = await worker.fetch(new Request(`${canonicalOrigin}/en/`), {
+    ASSETS: {
+      async fetch(request) {
+        receivedUrl = request.url;
+        return new Response("bound asset", { status: 200 });
+      },
+    },
+  });
+
+  assert.equal(response.status, 200);
+  assert.equal(receivedUrl, `${canonicalOrigin}/en/`);
 });
 
 test("origin passthrough preserves method, headers and body", async () => {

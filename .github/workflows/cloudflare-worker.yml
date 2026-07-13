@@ -1,18 +1,11 @@
-name: Deploy Cloudflare redirect Worker
+name: Validate or deploy Cloudflare Worker
 
 on:
   workflow_dispatch:
     inputs:
-      environment:
-        description: Worker environment to deploy
-        required: true
-        type: choice
-        options:
-          - staging
-          - production
       production_confirmation:
-        description: Type DEPLOY_PRODUCTION when selecting production
-        required: false
+        description: Type DEPLOY_PRODUCTION to deploy the halatao Worker
+        required: true
         type: string
 
 permissions:
@@ -28,17 +21,23 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run validate:content
       - run: npm run validate:redirects
       - run: npm run generate:worker-redirects
       - run: git diff --exit-code -- worker/generated/redirects.json
       - run: npm run validate:worker-redirects
       - run: npm run test:worker
+      - run: npm run lint
+      - run: npm run build
+      - run: npm run validate:seo
+      - run: npm run validate:worker-assets
       - run: npm run build:worker
+      - run: npx tsc --noEmit
 
   deploy:
     needs: validate
     runs-on: ubuntu-latest
-    environment: cloudflare-${{ inputs.environment }}
+    environment: cloudflare-production
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -46,14 +45,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run generate:worker-redirects
+      - run: npm run build
+      - run: npm run validate:worker-assets
       - name: Require explicit production confirmation
-        if: inputs.environment == 'production' && inputs.production_confirmation != 'DEPLOY_PRODUCTION'
+        if: inputs.production_confirmation != 'DEPLOY_PRODUCTION'
         run: |
           echo "Production deployment requires DEPLOY_PRODUCTION confirmation."
           exit 1
-      - name: Deploy selected Worker environment
-        run: npx wrangler deploy --env "${{ inputs.environment }}"
+      - name: Deploy Worker
+        run: npx wrangler deploy --config wrangler.jsonc
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

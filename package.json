@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate:worker-redirects && next build",
     "start": "next start",
     "lint": "eslint .",
     "generate:worker-redirects": "tsx scripts/generate-worker-redirects.ts",
@@ -13,8 +13,9 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "validate:redirects": "tsx scripts/validate-redirects.ts",
     "validate:seo": "tsx scripts/validate-seo.ts",
+    "validate:worker-assets": "tsx scripts/validate-worker-assets.ts",
     "validate:worker-redirects": "tsx scripts/validate-worker-redirects.ts",
-    "build:worker": "wrangler deploy --dry-run --env production --outdir dist/worker"
+    "build:worker": "wrangler deploy --dry-run --config wrangler.jsonc --outdir dist/worker"
   },
   "keywords": [
     "nextjs",

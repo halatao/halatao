@@ -14,10 +14,12 @@ Updated on 2026-07-12 after the SEO P0/P1 URL and content consolidation work.
   inventory; there is no unsafe wildcard to unknown targets.
 - All HTML targets use the canonical trailing slash.
 
-Production remains a GitHub Pages static export. The repository has no deployed
-edge/proxy layer, so production HTTP 301/308 activation is blocked pending
-edge/DNS/hosting access. Root and `/cz/*` static noindex fallbacks remain in
-place and are not server redirects. See `docs/SEO_EDGE_REDIRECTS.md`.
+Production runs as a Cloudflare Worker with Static Assets. Cloudflare builds the
+Next.js static export into `out/`; the Worker evaluates the exact redirect
+manifest first and otherwise serves the request through `env.ASSETS`. GitHub
+Pages is not a production origin. Apex and `www` are attached as Worker Custom
+Domains; duplicate Worker Routes are not declared in the repository. See
+`docs/CLOUDFLARE_EDGE_DEPLOYMENT.md`.
 
 ## Page totals
 
@@ -42,7 +44,8 @@ in `docs/SEO_P0_P1_IMPLEMENTATION.md`.
 - `npm run validate:redirects` validates the redirect manifest.
 - `npm run validate:seo` validates generated HTML, canonical, hreflang, H1,
   lang, sitemap, removed routes, and rendered internal links after build.
-- CI runs content → redirects → lint → static build → output SEO validation.
+- CI runs content → redirects → Worker artifact validation → lint → static
+  build → output/assets validation → Worker tests and dry-run packaging.
 
 ## Current implementation reference
 
