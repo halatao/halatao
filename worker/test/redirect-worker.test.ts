@@ -53,6 +53,73 @@ test("host, protocol and path normalization compose into one hop", async () => {
   for (const [source, target] of cases) await expectRedirect(source, target);
 });
 
+test("production file requests normalize origin before asset lookup", async () => {
+  const origins = [
+    "http://halatao.cz",
+    "http://www.halatao.cz",
+    "https://halatao.cz",
+  ] as const;
+  const filePaths = [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/llms.txt",
+    "/favicon.ico",
+    "/icon.svg",
+    "/apple-icon",
+  ] as const;
+  const methods = ["GET", "HEAD"] as const;
+  const complexQuery = "?seo_redirect_probe=halatao-p0&encoded=a%2Fb%3Dc&repeat=1&repeat=2&empty=";
+
+  for (const origin of origins) {
+    for (const filePath of filePaths) {
+      for (const method of methods) {
+        const source = `${origin}${filePath}${complexQuery}`;
+        const response = await handleRequest(
+          new Request(source, { method }),
+          async () => {
+            throw new Error(`Asset binding must not receive ${source}`);
+          },
+        );
+
+        assert.equal(response.status, 308, `${method} ${source}`);
+        assert.equal(
+          response.headers.get("location"),
+          `${canonicalOrigin}${filePath}${complexQuery}`,
+          `${method} ${source}`,
+        );
+      }
+    }
+  }
+});
+
+test("canonical files and an unknown asset are delegated without redirect", async () => {
+  const cases = [
+    { path: "/robots.txt", assetStatus: 200 },
+    { path: "/sitemap.xml", assetStatus: 200 },
+    { path: "/llms.txt", assetStatus: 200 },
+    { path: "/icon.svg", assetStatus: 200 },
+    { path: "/apple-icon", assetStatus: 200 },
+    { path: "/_next/static/seo-edge-missing-test.js", assetStatus: 404 },
+  ] as const;
+  const query = "?cache=edge-test";
+
+  for (const { path, assetStatus } of cases) {
+    for (const method of ["GET", "HEAD"] as const) {
+      let assetCalls = 0;
+      const request = new Request(`${canonicalOrigin}${path}${query}`, { method });
+      const response = await handleRequest(request, async (assetRequest) => {
+        assetCalls += 1;
+        assert.equal(assetRequest, request, `${method} ${path}`);
+        return new Response(method === "HEAD" ? null : "asset", { status: assetStatus });
+      });
+
+      assert.equal(response.status, assetStatus, `${method} ${path}`);
+      assert.equal(response.headers.get("location"), null, `${method} ${path}`);
+      assert.equal(assetCalls, 1, `${method} ${path}`);
+    }
+  }
+});
+
 test("required merge, GSC, location, automation and exact Czech legacy families exist", () => {
   const requiredSources = [
     "/cs/priklady/workflow-poptavka-nabidka-realizace/",

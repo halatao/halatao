@@ -47,18 +47,35 @@ ponechává dostupný preview hostname stejného Workeru.
 
 ## Request flow
 
-1. Worker načte URL a vyhledá pathname v deterministickém exact artefaktu
-   `worker/generated/redirects.json`.
-2. Při shodě vrátí 301/308 bez volání assets. Query policy pochází z manifestu.
-3. Pro `halatao.cz` a `www.halatao.cz` používá redirect base
+1. Worker nejprve vyhodnotí host a protokol. Nekanonický produkční origin vrací
+   308 bez volání assets.
+2. Současně vyhledá pathname v deterministickém exact artefaktu
+   `worker/generated/redirects.json`, aby se origin a případná path
+   canonicalizace složily do jediného redirectu na finální target.
+3. Na canonical originu má exact redirect manifest prioritu před asset lookupem.
+   Query policy pochází z manifestu.
+4. Pro `halatao.cz` a `www.halatao.cz` používá redirect base
    `https://www.halatao.cz`.
-4. Pro `*.workers.dev` používá aktuální `url.origin`, takže root preview vede na
+5. Pro `*.workers.dev` používá aktuální `url.origin`, takže root preview vede na
    preview `/cs/` a běžné preview stránky zůstávají testovatelné.
-5. Apex request bez path redirectu se normalizuje na canonical `www`.
 6. Ostatní requesty se předají beze změny na `env.ASSETS.fetch(request)`.
 
 Worker nepoužívá externí origin, GitHub Pages ani self-fetch vlastní Custom
 Domain.
+
+### Cloudflare Managed robots.txt
+
+Zone-level volba **Set your preference to block training in robots.txt**
+(`is_robots_txt_managed`) není součástí Wrangler konfigurace. Pokud je zapnutá,
+Cloudflare pro GET `/robots.txt` generuje nebo doplňuje vlastní odpověď. Tato
+odpověď může obejít očekávaný Worker redirect na nekanonických originech, i když
+HEAD request projde Workerem.
+
+Má-li být Worker jediným vlastníkem canonicalizace `/robots.txt`, musí být tato
+volba v Cloudflare Security Settings vypnutá. Případné AI crawler direktivy je
+nutné před vypnutím vědomě zachovat ve zdrojovém `robots.txt`, pokud je web chce
+nadále publikovat; nejde o automatickou součást deploye. Samotné
+`run_worker_first: true` zone-level Managed robots.txt nevypíná.
 
 ## Redirect artefakt
 
@@ -133,7 +150,9 @@ Před deployem ověřit v Cloudflare dashboardu:
 1. existující Worker se jmenuje `halatao`,
 2. `halatao.cz` a `www.halatao.cz` jsou jeho Custom Domains,
 3. pro stejné hostname nejsou současně aktivní duplicitní Worker Routes,
-4. build používá kořen repozitáře a Node.js 22+.
+4. Managed robots.txt je vypnutý, pokud má Worker canonicalizovat také
+   `/robots.txt`,
+5. build používá kořen repozitáře a Node.js 22+.
 
 Potom spustit Cloudflare build nebo lokálně po přihlášení:
 
@@ -157,6 +176,14 @@ curl -sS -I --max-redirs 0 https://www.halatao.cz/en/
 curl -sS -I --max-redirs 0 https://www.halatao.cz/sitemap.xml
 curl -sS -I --max-redirs 0 https://www.halatao.cz/cs/priklady/workflow-poptavka-nabidka-realizace/
 curl -sS -I --max-redirs 0 https://www.halatao.cz/neexistujici-seo-test-url/
+curl -sS -I --max-redirs 0 http://halatao.cz/robots.txt
+curl -sS -D - -o /dev/null --max-redirs 0 http://halatao.cz/robots.txt
+curl -sS -I --max-redirs 0 http://www.halatao.cz/robots.txt
+curl -sS -D - -o /dev/null --max-redirs 0 http://www.halatao.cz/robots.txt
+curl -sS -I --max-redirs 0 https://halatao.cz/robots.txt
+curl -sS -D - -o /dev/null --max-redirs 0 https://halatao.cz/robots.txt
+curl -sS -I --max-redirs 0 https://www.halatao.cz/robots.txt
+curl -sS -D - -o /dev/null --max-redirs 0 https://www.halatao.cz/robots.txt
 ```
 
 Očekávání:
@@ -165,7 +192,10 @@ Očekávání:
 - `/cs/` a `/en/`: 200,
 - sitemap: 200 a XML content type,
 - merge loser: 308 přímo na winner,
-- neznámá URL: 404.
+- neznámá URL: 404,
+- GET i HEAD všech tří nekanonických `/robots.txt`: 308 přímo na
+  `https://www.halatao.cz/robots.txt`,
+- GET i HEAD canonical `/robots.txt`: 200 bez `Location`.
 
 Následně spustit úplný manifest test:
 

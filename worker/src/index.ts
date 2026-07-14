@@ -41,16 +41,16 @@ export async function handleRequest(
   const url = new URL(request.url);
   const rule = artifact.rules[url.pathname];
 
-  if (rule) {
-    return Response.redirect(redirectLocation(url, rule), rule.status);
-  }
-
   const needsOriginNormalization =
     productionHosts.has(url.hostname) &&
     (url.protocol !== canonicalOrigin.protocol || url.hostname !== canonicalOrigin.hostname);
 
   if (needsOriginNormalization) {
-    return Response.redirect(redirectLocation(url), 308);
+    return Response.redirect(redirectLocation(url, rule), 308);
+  }
+
+  if (rule) {
+    return Response.redirect(redirectLocation(url, rule), rule.status);
   }
 
   return assetFetch(request);

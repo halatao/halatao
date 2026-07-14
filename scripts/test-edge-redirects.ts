@@ -10,11 +10,19 @@ const probeValue = "halatao-p0";
 const timeoutMs = Number.parseInt(process.env.SEO_EDGE_TIMEOUT_MS ?? "15000", 10);
 const concurrency = Number.parseInt(process.env.SEO_EDGE_CONCURRENCY ?? "6", 10);
 const dryRun = process.argv.includes("--dry-run");
+const requestMethods = ["GET", "HEAD"] as const;
+const canonicalAssetPaths = [...pathPolicy.systemFiles, "/og/halatao-social.svg"] as const;
+const originFilePaths = [...canonicalAssetPaths, "/favicon.ico"] as const;
+const unknownAssetPath = "/_next/static/seo-edge-intentionally-missing.js";
 
 type Failure = { request: string; message: string };
 
 function withProbe(url: URL) {
   url.searchParams.set(probeName, probeValue);
+  url.searchParams.set("encoded", "a/b=c");
+  url.searchParams.append("repeat", "1");
+  url.searchParams.append("repeat", "2");
+  url.searchParams.set("empty", "");
   return url;
 }
 
@@ -36,8 +44,9 @@ function readCanonical(html: string) {
   return null;
 }
 
-async function request(url: string) {
+async function request(url: string, method: "GET" | "HEAD" = "GET") {
   return fetch(url, {
+    method,
     redirect: "manual",
     signal: AbortSignal.timeout(timeoutMs),
     headers: { "user-agent": "halatao-seo-edge-acceptance/1.0" },
@@ -153,36 +162,78 @@ async function main() {
       }
     }
 
-    const fileSource = withProbe(new URL("/robots.txt", origin)).toString();
-    const fileTarget = expectedLocation("/robots.txt");
-    try {
-      const response = await request(fileSource);
-      if (![301, 308].includes(response.status)) {
-        failures.push({ request: fileSource, message: `expected permanent origin redirect, received ${response.status}` });
+    for (const filePath of originFilePaths) {
+      for (const method of requestMethods) {
+        const fileSource = withProbe(new URL(filePath, origin)).toString();
+        const fileTarget = expectedLocation(filePath);
+        try {
+          const response = await request(fileSource, method);
+          if (response.status !== 308) {
+            failures.push({ request: `${method} ${fileSource}`, message: `expected 308 origin redirect, received ${response.status}` });
+          }
+          if (response.headers.get("location") !== fileTarget) {
+            failures.push({
+              request: `${method} ${fileSource}`,
+              message: `file origin normalization must keep the file path and query in '${fileTarget}'`,
+            });
+          }
+        } catch (error) {
+          failures.push({ request: `${method} ${fileSource}`, message: error instanceof Error ? error.message : String(error) });
+        }
       }
-      if (response.headers.get("location") !== fileTarget) {
-        failures.push({
-          request: fileSource,
-          message: `file origin normalization must keep the file path and redirect to '${fileTarget}'`,
-        });
-      }
-    } catch (error) {
-      failures.push({ request: fileSource, message: error instanceof Error ? error.message : String(error) });
     }
   }
 
-  for (const filePath of ["/robots.txt", "/sitemap.xml", "/llms.txt", "/icon.svg"] as const) {
-    const canonicalFile = withProbe(new URL(filePath, canonicalOrigin)).toString();
+  for (const filePath of canonicalAssetPaths) {
+    for (const method of requestMethods) {
+      const canonicalFile = withProbe(new URL(filePath, canonicalOrigin)).toString();
+      try {
+        const response = await request(canonicalFile, method);
+        if (response.status !== 200) {
+          failures.push({ request: `${method} ${canonicalFile}`, message: `canonical file expected 200, received ${response.status}` });
+        }
+        if (response.headers.has("location")) {
+          failures.push({ request: `${method} ${canonicalFile}`, message: "canonical file must not redirect or gain a trailing slash" });
+        }
+      } catch (error) {
+        failures.push({ request: `${method} ${canonicalFile}`, message: error instanceof Error ? error.message : String(error) });
+      }
+    }
+  }
+
+  for (const origin of originPolicy.redirectOrigins) {
+    for (const method of requestMethods) {
+      const unknownSource = withProbe(new URL(unknownAssetPath, origin)).toString();
+      const unknownTarget = expectedLocation(unknownAssetPath);
+      try {
+        const response = await request(unknownSource, method);
+        if (response.status !== 308) {
+          failures.push({ request: `${method} ${unknownSource}`, message: `expected 308 origin redirect, received ${response.status}` });
+        }
+        if (response.headers.get("location") !== unknownTarget) {
+          failures.push({
+            request: `${method} ${unknownSource}`,
+            message: `unknown asset origin normalization must keep the path and query in '${unknownTarget}'`,
+          });
+        }
+      } catch (error) {
+        failures.push({ request: `${method} ${unknownSource}`, message: error instanceof Error ? error.message : String(error) });
+      }
+    }
+  }
+
+  for (const method of requestMethods) {
+    const canonicalUnknownAsset = withProbe(new URL(unknownAssetPath, canonicalOrigin)).toString();
     try {
-      const response = await request(canonicalFile);
-      if (response.status !== 200) {
-        failures.push({ request: canonicalFile, message: `canonical file expected 200, received ${response.status}` });
+      const response = await request(canonicalUnknownAsset, method);
+      if (response.status !== 404) {
+        failures.push({ request: `${method} ${canonicalUnknownAsset}`, message: `canonical unknown asset expected 404, received ${response.status}` });
       }
       if (response.headers.has("location")) {
-        failures.push({ request: canonicalFile, message: "canonical file must not redirect or gain a trailing slash" });
+        failures.push({ request: `${method} ${canonicalUnknownAsset}`, message: "canonical unknown asset must not redirect" });
       }
     } catch (error) {
-      failures.push({ request: canonicalFile, message: error instanceof Error ? error.message : String(error) });
+      failures.push({ request: `${method} ${canonicalUnknownAsset}`, message: error instanceof Error ? error.message : String(error) });
     }
   }
 
@@ -195,7 +246,8 @@ async function main() {
   console.log(
     `Edge redirect acceptance passed for ${rules.length} manifest redirects, ${verifiedTargets.size} final targets, ` +
       `${originPolicy.redirectOrigins.length * compositionPaths.length} combined origin/path cases, ` +
-      `${originPolicy.redirectOrigins.length} file-origin cases, and 4 canonical file endpoints.`,
+      `${originPolicy.redirectOrigins.length * originFilePaths.length * requestMethods.length} file-origin cases, ` +
+      `${canonicalAssetPaths.length * requestMethods.length} canonical asset cases, and unknown-asset behavior.`,
   );
 }
 
