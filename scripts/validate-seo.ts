@@ -215,6 +215,75 @@ function validateH1(route: string, html: string, expectedText?: string) {
   }
 }
 
+function validateMainLandmark(route: string, html: string) {
+  const mainTags = getTags(html, "main");
+  if (mainTags.length !== 1) {
+    reportError(`${route} must contain exactly one <main> landmark; found ${mainTags.length}.`);
+  }
+}
+
+function validateJsonLdSyntax(route: string, html: string) {
+  const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)].filter((match) => {
+    const attributes = parseAttributes(`<script${match[1]}>`);
+    return attributes.get("type")?.toLowerCase() === "application/ld+json";
+  });
+
+  for (const [index, script] of scripts.entries()) {
+    try {
+      JSON.parse(script[2]);
+    } catch (error) {
+      const detail = error instanceof Error ? error.message : String(error);
+      reportError(`${route} contains invalid JSON-LD in block ${index + 1}: ${detail}.`);
+    }
+  }
+}
+
+const explicitLocationRedirectPattern =
+  /(?:window|document)\s*\.\s*location\s*(?:=|\.\s*(?:href\s*=|(?:replace|assign)\s*\())/i;
+const genericLocationRedirectPattern = /location\s*\.\s*(?:href\s*=|(?:replace|assign)\s*\()/i;
+
+function validateClientRedirectGuard() {
+  const forbiddenSamples = [
+    'window.location = "/cs/"',
+    'window.location.href = "/cs/"',
+    'document.location.assign("/cs/")',
+    'document.location.replace("/cs/")',
+  ];
+  for (const sample of forbiddenSamples) {
+    if (!explicitLocationRedirectPattern.test(sample)) {
+      reportError(`Client redirect guard does not detect '${sample}'.`);
+    }
+  }
+}
+
+function validateP2ContentArtifacts(page: ContentPage, route: string, html: string) {
+  const renderedText = normalizeText(html);
+
+  if (page.workflow) {
+    const workflowLists = getTags(html, "ol")
+      .map(parseAttributes)
+      .filter((attributes) => (attributes.get("class") ?? "").split(/\s+/).includes("workflow-steps"));
+    if (workflowLists.length !== 1) {
+      reportError(`${route} must render one ordered workflow diagram; found ${workflowLists.length}.`);
+    }
+    for (const step of page.workflow.steps) {
+      if (!renderedText.includes(normalizeText(step.title))) {
+        reportError(`${route} is missing workflow step '${step.title}' in generated HTML.`);
+      }
+    }
+  }
+
+  if (page.workAsset) {
+    const expectedItems = page.workAsset.groups.reduce((total, group) => total + group.items.length, 0);
+    const checkboxes = getTags(html, "input")
+      .map(parseAttributes)
+      .filter((attributes) => attributes.get("type") === "checkbox" && attributes.get("data-tool-id") === page.translationKey);
+    if (checkboxes.length !== expectedItems) {
+      reportError(`${route} renders ${checkboxes.length} work-asset checkboxes; expected ${expectedItems}.`);
+    }
+  }
+}
+
 type HreflangMap = Map<string, string>;
 
 function readHreflangMap(route: string, html: string) {
@@ -461,8 +530,7 @@ function validateRootFallback(
   const inlineForbiddenPatterns = [
     { label: "navigator language detection", pattern: /navigator\s*\.\s*languages?/i },
     { label: "Accept-Language detection", pattern: /accept-language/i },
-    { label: "window.location redirect", pattern: /window\s*\.\s*location/i },
-    { label: "document.location redirect", pattern: /document\s*\.\s*location/i },
+    { label: "window/document.location redirect", pattern: explicitLocationRedirectPattern },
     { label: "router.replace redirect", pattern: /router\s*\.\s*replace/i },
   ];
 
@@ -490,8 +558,8 @@ function validateRootFallback(
 
     const containsLocaleTargets = script.includes("/cs/") || script.includes("/en/");
     const containsClientRedirect =
-      /(?:window|document)\s*\.\s*location/i.test(script) ||
-      /location\s*\.\s*(?:replace|assign)/i.test(script) ||
+      explicitLocationRedirectPattern.test(script) ||
+      genericLocationRedirectPattern.test(script) ||
       (/useRouter/.test(script) && /\.replace\s*\(/.test(script));
     if (containsLocaleTargets && containsClientRedirect) {
       reportError(`/ static fallback loads '${source}' with a client-side locale redirect.`);
@@ -503,6 +571,23 @@ function parseSitemap(xml: string) {
   return [...xml.matchAll(/<loc\b[^>]*>([\s\S]*?)<\/loc\s*>/gi)].map((match) =>
     decodeHtmlEntities(match[1].trim()),
   );
+}
+
+function validateRobotsFile() {
+  const robotsFile = path.join(outputDirectory, "robots.txt");
+  if (!existsSync(robotsFile)) {
+    reportError("Missing generated out/robots.txt.");
+    return;
+  }
+
+  const robots = readFileSync(robotsFile, "utf8");
+  const expectedSitemap = `Sitemap: ${siteConfig.siteUrl}/sitemap.xml`;
+  if (!robots.includes(expectedSitemap)) {
+    reportError(`robots.txt must contain '${expectedSitemap}'.`);
+  }
+  if (/^Host:\s*https?:\/\//im.test(robots)) {
+    reportError("robots.txt Host directive must not contain a URL scheme.");
+  }
 }
 
 function validateSitemap(expectedUrls: Set<string>) {
@@ -669,6 +754,8 @@ const expectedSitemapUrls = new Set([
   ...legalRoutes.map(absoluteUrl),
 ]);
 const sitemapUrls = validateSitemap(expectedSitemapUrls);
+validateRobotsFile();
+validateClientRedirectGuard();
 
 validateRootFallback(canonicalRoutes, redirectSources);
 
@@ -686,6 +773,9 @@ for (const page of pages) {
   validateRobots(route, html, page.indexable);
   validateHtmlLanguage(route, html, page.locale);
   validateH1(route, html, page.hero.title);
+  validateMainLandmark(route, html);
+  validateJsonLdSyntax(route, html);
+  validateP2ContentArtifacts(page, route, html);
 
   const actualHreflangs = readHreflangMap(route, html);
   const expectedAlternates = expectedHreflangs(page, pagesByTranslationKey);
@@ -704,6 +794,7 @@ for (const route of legalRoutes) {
   validateCanonical(route, html);
   validateRobots(route, html, true);
   validateH1(route, html);
+  validateJsonLdSyntax(route, html);
   validateAnchors(route, html, canonicalRoutes, redirectSources);
 }
 

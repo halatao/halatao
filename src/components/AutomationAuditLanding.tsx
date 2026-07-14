@@ -22,7 +22,13 @@ function AutomationPriorityLinks({ locale = "cs", links }: { locale?: Locale; li
           <h2>{heading}</h2>
           <div className="link-grid">
             {links.map((link) => (
-              <Link className="link-card" href={normalizeInternalHref(link.href)} key={link.href}>
+              <Link
+                className="link-card"
+                data-analytics-event="seo_cta_click"
+                data-analytics-location="priority"
+                href={normalizeInternalHref(link.href)}
+                key={link.href}
+              >
                 <strong>{link.label}</strong>
               </Link>
             ))}
@@ -35,7 +41,8 @@ function AutomationPriorityLinks({ locale = "cs", links }: { locale?: Locale; li
 
 export function AutomationAuditLanding({ title, locale = "cs", priorityLinks, faq }: AutomationAuditLandingProps) {
   return (
-    <div className="automation-page">
+    <>
+      <main className="automation-page">
       <section className="automation-hero">
         <div className="automation-shell automation-shell-narrow automation-center">
           <span className="automation-badge">Audit automatizace firemních procesů</span>
@@ -49,7 +56,12 @@ export function AutomationAuditLanding({ title, locale = "cs", priorityLinks, fa
             <br />
             Ne další projekt bez směru.
           </p>
-          <Link href="#cta" className="automation-button">
+          <Link
+            href="#cta"
+            className="automation-button"
+            data-analytics-event="service_cta_click"
+            data-analytics-location="hero"
+          >
             Chci zjistit, jestli se u nás automatizace vyplatí
           </Link>
         </div>
@@ -183,7 +195,8 @@ export function AutomationAuditLanding({ title, locale = "cs", priorityLinks, fa
         </div>
       </section>
 
+      </main>
       <footer className="automation-footer">© Bc. Ondřej Halata</footer>
-    </div>
+    </>
   );
 }

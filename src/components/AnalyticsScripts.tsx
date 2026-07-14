@@ -1,5 +1,6 @@
 ﻿import Script from "next/script";
 
+import { AnalyticsEvents } from "@/components/AnalyticsEvents";
 import { siteConfig } from "@/lib/site";
 
 const shouldLoadCookiebot = process.env.NODE_ENV === "production";
@@ -7,6 +8,7 @@ const shouldLoadCookiebot = process.env.NODE_ENV === "production";
 export function AnalyticsScripts() {
   return (
     <>
+      <AnalyticsEvents />
       {shouldLoadCookiebot ? (
         <Script async data-cbid={siteConfig.cookiebotId} id="Cookiebot" src="https://consent.cookiebot.com/uc.js" type="text/javascript" />
       ) : null}

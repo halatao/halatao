@@ -16,6 +16,7 @@ type GuideSeed = {
   intro: string[];
   answer: string;
   steps: string[];
+  orderedSteps?: boolean;
   mistakes: string[];
   outcome: string[];
   faq: FAQItem[];
@@ -63,6 +64,7 @@ function guide(seed: GuideSeed): ContentPage {
             : "Start with the current process, losses, and risks. Only then does it make sense to design the first technical phase.",
         ],
         bullets: seed.steps,
+        listType: seed.orderedSteps ? "ordered" : "unordered",
       },
       {
         title: isCs ? "Časté chyby" : "Common mistakes",
@@ -116,23 +118,29 @@ export const demandGuidePages: ContentPage[] = [
     heroTitle: "Jak připravit a zavést automatizaci zpracování poptávek",
     heroSubtitle: "Postup od mapy vstupů, rolí a stavů přes rozhodnutí, co automatizovat, až po bezpečnou první etapu a její zavedení do provozu.",
     intro: [
-      "Ruční zpracování poptávek často funguje dlouho dostatečně dobře. Problém se objeví ve chvíli, kdy objem roste, zapojí se více lidí a informace se začnou ztrácet mezi e-maily, tabulkami a poznámkami.",
-      "Automatizace má smysl tam, kde zkrátí opakované kroky, sníží chybovost a dá obchodu i realizaci společný přehled o stavu poptávky.",
+      "Automatizaci zpracování poptávek připravte od procesu, ne od nástroje: popište příjem, validaci, přiřazení, nabídku, follow-up, schválení a předání do realizace. Teprve potom určete, které opakované kroky může převzít systém a které výjimky musí rozhodnout člověk.",
+      "Ruční zpracování často funguje dlouho dostatečně dobře. Problém se objeví ve chvíli, kdy objem roste, zapojí se více lidí a informace se začnou ztrácet mezi e-maily, tabulkami a poznámkami.",
     ],
     answer: "Nejdřív zmapujte, odkud poptávky přicházejí, jak se třídí, kdo rozhoduje o dalším kroku a kde se data přepisují. Teprve potom navrhněte první automatizaci nebo interní systém.",
     steps: [
-      "sepište vstupní kanály a typy poptávek",
-      "pojmenujte stavy od přijetí po nabídku nebo realizaci",
-      "najděte ruční přepisy, čekání a ztracené informace",
-      "oddělte opakovaná pravidla od výjimek, které musí rozhodnout člověk",
-      "navrhněte první etapu kolem největší provozní ztráty",
-      "ověřte předání mezi rolemi a způsob zavedení do běžné práce",
+      "Příjem: sepište kanály a typy poptávek včetně povinných vstupních údajů",
+      "Validace: určete kontrolu úplnosti, duplicity a případů, které se nemají zpracovat automaticky",
+      "Deduplikace: stanovte, podle čeho systém pozná opakovaný kontakt nebo stejnou obchodní příležitost",
+      "Přiřazení: pojmenujte pravidla, vlastníka a termín dalšího kroku",
+      "Tvorba nabídky: navazujte verze, podklady a schválení na původní poptávku",
+      "Follow-up: nastavte připomínky bez automatického zahlcování nebo nevhodné komunikace",
+      "Schválení: oddělte standardní pravidla od výjimek, které musí rozhodnout člověk",
+      "Převod do realizace: předejte dohodnutý rozsah, termíny a odpovědnost bez nového přepisu",
+      "Reporting: sledujte stav, dobu čekání, rozpracovanost a místa, kde se proces zasekává",
+      "Výjimky: vraťte nestandardní případ správné roli s kontextem a dohledatelným rozhodnutím",
     ],
+    orderedSteps: true,
     mistakes: [
       "nákup CRM nebo formuláře bez mapování procesu",
       "automatizace výjimek dřív než opakovaných kroků",
       "chybějící vlastník poptávkového workflow",
       "přesun chaosu z e-mailu do dalšího nástroje",
+      "automatické rozhodování u nejasných, citlivých nebo obchodně významných výjimek",
     ],
     outcome: [
       "jasnější tok poptávky od vstupu po další krok",
@@ -152,12 +160,14 @@ export const demandGuidePages: ContentPage[] = [
       "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
       "guide-how-to-manage-jobs-without-excel",
+      "tool-automation-discovery-checklist",
       "inquiry",
     ],
     priorityLinks: [
       { label: "Kdo navrhne a vytvoří systém pro poptávky a zakázky", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
       { label: "Jak takový systém konkrétně funguje", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
       { label: "Podle čeho poznat, že Excel a e-mail přestávají stačit", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
+      { label: "Projít discovery checklist před návrhem automatizace", href: "/cs/sablony/discovery-checklist-pro-automatizace/" },
       { label: "Probrat první automatizační etapu", href: "/cs/popsat-projekt/" },
     ],
     fitFor: ["firmy s opakovaným příjmem poptávek", "týmy, kde se poptávky ručně třídí a předávají", "procesy navazující na nabídku nebo realizaci"],
@@ -267,7 +277,7 @@ export const demandGuidePages: ContentPage[] = [
     translationKey: "guide-how-to-find-manual-data-reentry",
     locale: "cs",
     slug: "jak-odhalit-rucni-prepisovani-dat",
-    title: "Jak odhalit ruční přepisování dat ve firmě | Bc. Ondřej Halata",
+    title: "Ruční přepisování dat: jak ho odhalit ve firemním procesu",
     breadcrumbLabel: "Jak odhalit ruční přepisování dat mezi systémy",
     description: "Praktický průvodce, jak najít místa, kde se ve firmě ručně přepisují data, vznikají chyby a dává smysl automatizace nebo API integrace.",
     primaryQuery: "ruční přepis dat problém",

@@ -1,14 +1,16 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { FocusEvent, FormEvent, useRef, useState } from "react";
 
 import { buildThankYouHref } from "@/content/builders";
+import { trackAnalyticsEvent } from "@/lib/analytics";
 
 export function AutomationAuditForm() {
   const router = useRouter();
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const formStarted = useRef(false);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -32,27 +34,40 @@ export function AutomationAuditForm() {
       source: "automation-audit",
     };
 
-    const response = await fetch("https://formspree.io/f/maqdndyk", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
+    try {
+      const response = await fetch("https://formspree.io/f/maqdndyk", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
 
-    setPending(false);
+      if (!response.ok) {
+        trackAnalyticsEvent("form_submit_error", { error_type: "http", form_id: "automation_audit" });
+        setError("Odeslání se nepovedlo. Zkuste to prosím znovu.");
+        return;
+      }
 
-    if (!response.ok) {
+      trackAnalyticsEvent("generate_lead", { form_id: "automation_audit", lead_type: "automation_audit" });
+      router.push(buildThankYouHref("cs"));
+    } catch {
+      trackAnalyticsEvent("form_submit_error", { error_type: "network", form_id: "automation_audit" });
       setError("Odeslání se nepovedlo. Zkuste to prosím znovu.");
-      return;
+    } finally {
+      setPending(false);
     }
+  }
 
-    router.push(buildThankYouHref("cs"));
+  function onFocusCapture(event: FocusEvent<HTMLFormElement>) {
+    if (formStarted.current || (event.target instanceof HTMLInputElement && event.target.name === "_gotcha")) return;
+    formStarted.current = true;
+    trackAnalyticsEvent("form_start", { form_id: "automation_audit" });
   }
 
   return (
-    <form className="automation-audit-form" onSubmit={onSubmit}>
+    <form className="automation-audit-form" onFocusCapture={onFocusCapture} onSubmit={onSubmit}>
       <input type="text" name="_gotcha" className="automation-honeypot" tabIndex={-1} autoComplete="off" />
 
       <div>

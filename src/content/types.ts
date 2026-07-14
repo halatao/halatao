@@ -48,6 +48,36 @@ export interface PageSection {
   title: string;
   body: string[];
   bullets?: string[];
+  listType?: "ordered" | "unordered";
+}
+
+export interface WorkflowStep {
+  title: string;
+  description: string;
+  owner: string;
+}
+
+export interface WorkflowContent {
+  title: string;
+  description: string;
+  steps: WorkflowStep[];
+  exceptionNote: string;
+}
+
+export interface WorkAssetGroup {
+  title: string;
+  items: string[];
+}
+
+export interface WorkAsset {
+  title: string;
+  description: string;
+  groups: WorkAssetGroup[];
+  example: {
+    title: string;
+    body: string;
+  };
+  completionNote: string;
 }
 
 export interface FAQItem {
@@ -98,6 +128,8 @@ export interface ContentPage {
   hero: HeroContent;
   intro: string[];
   sections: PageSection[];
+  workflow?: WorkflowContent;
+  workAsset?: WorkAsset;
   faq: FAQItem[];
   related: string[];
   priorityLinks?: LinkRecord[];

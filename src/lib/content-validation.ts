@@ -85,6 +85,24 @@ function collectPageStrings(page: ContentPage) {
     page.hero.secondaryCta?.label,
     ...page.intro,
     ...page.sections.flatMap((section) => [section.title, ...section.body, ...(section.bullets ?? [])]),
+    ...(page.workflow
+      ? [
+          page.workflow.title,
+          page.workflow.description,
+          page.workflow.exceptionNote,
+          ...page.workflow.steps.flatMap((step) => [step.title, step.description, step.owner]),
+        ]
+      : []),
+    ...(page.workAsset
+      ? [
+          page.workAsset.title,
+          page.workAsset.description,
+          page.workAsset.example.title,
+          page.workAsset.example.body,
+          page.workAsset.completionNote,
+          ...page.workAsset.groups.flatMap((group) => [group.title, ...group.items]),
+        ]
+      : []),
     ...page.faq.flatMap((item) => [item.question, item.answer]),
     ...page.fit.for,
     ...page.fit.notFor,
@@ -338,6 +356,19 @@ export function validateContentPages(pages: ContentPage[]) {
 
     if (page.related.length === 0) {
       throw new Error(`Page ${page.id} must include related links.`);
+    }
+
+    if (page.workflow && page.workflow.steps.length < 3) {
+      throw new Error(`Page ${page.id} workflow must contain at least 3 useful steps.`);
+    }
+
+    if (page.workAsset) {
+      if (page.pageType !== "tool") {
+        throw new Error(`Page ${page.id} exposes a work asset outside the tool page type.`);
+      }
+      if (page.workAsset.groups.length < 2 || page.workAsset.groups.some((group) => group.items.length < 3)) {
+        throw new Error(`Page ${page.id} work asset must contain at least 2 groups with 3 items each.`);
+      }
     }
 
     if (page.indexable && page.faq.length < 3 && page.pageType !== "inquiry") {

@@ -1,7 +1,7 @@
 // Generated content: additional high-intent problem pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, LinkRecord, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale, PageSection } from "@/content/types";
 
 type ProblemSeed = {
   translationKey: string;
@@ -18,6 +18,7 @@ type ProblemSeed = {
   whyItMatters: string;
   approach: string;
   outcomes: string[];
+  diagnostic?: PageSection;
   faq: FAQItem[];
   related: string[];
   priorityLinks?: LinkRecord[];
@@ -60,6 +61,7 @@ function problem(seed: ProblemSeed): ContentPage {
         title: isCs ? "Jak k tomu přistupuji" : "How I approach it",
         body: [seed.approach],
       },
+      ...(seed.diagnostic ? [seed.diagnostic] : []),
       {
         title: isCs ? "Co by měl být výsledek" : "What a good outcome looks like",
         body: [
@@ -96,7 +98,7 @@ export const growthProblemPages: ContentPage[] = [
     translationKey: "problem-replace-spreadsheets-in-process",
     locale: "cs",
     slug: "potrebujeme-nahradit-excel-ve-firemnim-procesu",
-    title: "Nahradit Excel firemním systémem: kdy a jak začít",
+    title: "Kdy Excel ve firmě nestačí a čím ho nahradit",
     breadcrumbLabel: "Jak nahradit Excel ve firemním procesu bez dalšího chaosu",
     description: "Kdy už Excel nestačí pro firemní proces, jak poznat správný okamžik pro interní systém a jak navrhnout první verzi bez zbytečného přestřelení scope.",
     primaryQuery: "nahradit excel firemním systémem",
@@ -110,10 +112,24 @@ export const growthProblemPages: ContentPage[] = [
       "stejná data se přepisují mezi tabulkami, e-maily a dalšími nástroji",
       "není jasné, kdo je za aktuální stav nebo další krok odpovědný",
       "více lidí pracuje nad různými verzemi téže reality",
+      "změny a rozhodnutí nemají spolehlivou historii pro zpětnou kontrolu",
+      "oprávnění se řeší sdílením celého souboru místo přístupu podle rolí",
+      "reporting se skládá ručně a čísla závisejí na tom, kdo tabulku naposledy doplnil",
+      "při předávání mezi lidmi chybí kontext, termín nebo potvrzení dalšího kroku",
       "výjimky a schválení zvyšují zmatek a provozní chyby",
     ],
     whyItMatters: "Když provozně důležitý proces zůstane v Excelu příliš dlouho, neroste jen frustrace. Roste i cena koordinace, chybovost a závislost na lidech, kteří vědí, jak to celé držet pohromadě ručně.",
     approach: "Začínám mapou tabulek, polí, ručních kroků, výjimek a míst, kde se informace dnes rozcházejí. Teprve potom dává smysl navrhnout první migrační etapu do systému, který zjednoduší provoz místo digitální kopie tabulky.",
+    diagnostic: {
+      title: "Rozhodovací checklist: co udělat místo automatického rewritu tabulky",
+      body: ["Rozhodnutí není jen mezi Excelem a vývojem nového systému. Nejdřív rozlište jednoduchou evidenci, slabě nastavený proces a skutečnou potřebu workflow aplikace."],
+      bullets: [
+        "Excel ještě stačí: data spravuje malý počet lidí, stav je jednoduchý a chybu lze rychle dohledat i opravit",
+        "Nejdřív zlepšete proces: role a pravidla nejsou jasná ani mimo tabulku a nový nástroj by pouze skryl stejný problém",
+        "Zvažte hotový nástroj: workflow je standardní, nepotřebuje vlastní datový model ani důležité integrace",
+        "Interní systém dává smysl: proces má více rolí, stavů, výjimek, oprávnění, historii a návaznost na další systémy",
+      ],
+    },
     outcomes: [
       "méně ruční koordinace a přepisování dat",
       "jasnější odpovědnost za stav procesu",
@@ -134,6 +150,11 @@ export const growthProblemPages: ContentPage[] = [
       "comparison-internal-tool-vs-spreadsheets",
       "tool-internal-tool-scope-worksheet",
       "inquiry",
+    ],
+    priorityLinks: [
+      { label: "Připravit automatizaci zpracování poptávek krok za krokem", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
+      { label: "Nechat si navrhnout systém pro řízení poptávek a zakázek", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
+      { label: "Vyplnit scope worksheet pro první verzi interního systému", href: "/cs/sablony/scope-worksheet-pro-interni-system/" },
     ],
     fitFor: ["firmy, které řídí důležitý proces v tabulkách a e-mailech", "týmy s více rolemi, stavy a výjimkami", "situace, kde je potřeba nahradit ruční koordinaci vlastním systémem"],
     fitNot: ["jednoduchá jednorázová evidence bez workflow", "proces bez ownera nebo bez rozhodovatele", "snahy digitalizovat chaos bez ochoty popsat skutečný provoz"],

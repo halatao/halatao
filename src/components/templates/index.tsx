@@ -4,6 +4,8 @@ import Link from "next/link";
 import { AutomationAuditLanding } from "@/components/AutomationAuditLanding";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InquiryForm } from "@/components/InquiryForm";
+import { WorkflowDiagram } from "@/components/WorkflowDiagram";
+import { WorkAsset } from "@/components/WorkAsset";
 import { getRelatedPages, getSectionChildren } from "@/content/registry";
 import type { ContentPage, LinkRecord } from "@/content/types";
 import { homepageFeaturePaths } from "@/lib/navigation";
@@ -78,6 +80,10 @@ function resolvePrimaryActionHref(page: ContentPage) {
   return page.cta.href;
 }
 
+function resolveCtaEvent(page: ContentPage) {
+  return page.pageType === "service" ? "service_cta_click" : "seo_cta_click";
+}
+
 function renderSections(page: ContentPage) {
   return page.sections.map((section) => (
     <article className="content-card section-card" key={section.title}>
@@ -86,11 +92,15 @@ function renderSections(page: ContentPage) {
         <p key={p}>{p}</p>
       ))}
       {section.bullets ? (
-        <ul className="bullet-list">
-          {section.bullets.map((b) => (
-            <li key={b}>{b}</li>
-          ))}
-        </ul>
+        section.listType === "ordered" ? (
+          <ol className="bullet-list ordered-list">
+            {section.bullets.map((b) => <li key={b}>{b}</li>)}
+          </ol>
+        ) : (
+          <ul className="bullet-list">
+            {section.bullets.map((b) => <li key={b}>{b}</li>)}
+          </ul>
+        )
       ) : null}
     </article>
   ));
@@ -109,7 +119,12 @@ function PageLead({ page, tone = "default" }: TemplateProps & { tone?: string })
         <h1>{page.hero.title}</h1>
         <p className="hero-copy">{page.hero.subtitle}</p>
         <div className="hero-actions">
-          <Link className="button button-primary" href={normalizeInternalHref(primaryHref)}>
+          <Link
+            className="button button-primary"
+            data-analytics-event={resolveCtaEvent(page)}
+            data-analytics-location="hero"
+            href={normalizeInternalHref(primaryHref)}
+          >
             {page.hero.primaryCta.label}
           </Link>
           {page.hero.secondaryCta ? (
@@ -225,7 +240,12 @@ function CTA({ page }: TemplateProps) {
             <h2>{page.locale === "cs" ? "Máte podobnou situaci?" : "Have a similar situation?"}</h2>
             <p>{page.cta.note}</p>
           </div>
-          <Link className="button button-primary" href={normalizeInternalHref(primaryHref)}>
+          <Link
+            className="button button-primary"
+            data-analytics-event={resolveCtaEvent(page)}
+            data-analytics-location="final"
+            href={normalizeInternalHref(primaryHref)}
+          >
             {page.cta.label}
           </Link>
         </div>
@@ -260,7 +280,13 @@ function PriorityLinkGrid({ links }: { links: LinkRecord[] }) {
   return (
     <div className="link-grid">
       {links.map((link) => (
-        <Link className="link-card" href={normalizeInternalHref(link.href)} key={link.href}>
+        <Link
+          className="link-card"
+          data-analytics-event="seo_cta_click"
+          data-analytics-location="priority"
+          href={normalizeInternalHref(link.href)}
+          key={link.href}
+        >
           <strong>{link.label}</strong>
         </Link>
       ))}
@@ -304,7 +330,12 @@ function HomeTemplateBody({ page }: TemplateProps) {
             <h1>{page.hero.title}</h1>
             <p>{page.hero.subtitle}</p>
             <div className="hero-actions">
-              <Link className="button button-primary" href={normalizeInternalHref(page.cta.href)}>
+              <Link
+                className="button button-primary"
+                data-analytics-event="seo_cta_click"
+                data-analytics-location="hero"
+                href={normalizeInternalHref(page.cta.href)}
+              >
                 {page.locale === "cs" ? "Popsat situaci" : "Describe situation"}
               </Link>
               {page.hero.secondaryCta ? (
@@ -559,7 +590,12 @@ function HomeTemplateBody({ page }: TemplateProps) {
             </a>
           </div>
           <div className="contact-cta">
-            <Link className="button button-dark" href={normalizeInternalHref(page.cta.href)}>
+            <Link
+              className="button button-dark"
+              data-analytics-event="seo_cta_click"
+              data-analytics-location="contact"
+              href={normalizeInternalHref(page.cta.href)}
+            >
               {page.locale === "cs" ? "Popsat situaci" : "Describe situation"}
             </Link>
           </div>
@@ -581,6 +617,8 @@ function GenericTemplate({ page, tone = "default" }: TemplateProps & { tone?: st
           </div>
         </section>
       ) : null}
+      {page.workflow ? <WorkflowDiagram workflow={page.workflow} /> : null}
+      {page.workAsset ? <WorkAsset asset={page.workAsset} toolId={page.translationKey} /> : null}
       {page.pageType === "inquiry" ? <InquiryContactBlock page={page} /> : null}
       {page.pageType !== "inquiry" ? <FitBlock page={page} /> : null}
       <PriorityLinks page={page} />

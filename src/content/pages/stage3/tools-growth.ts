@@ -1,7 +1,7 @@
 // Generated content: additional utility templates for scoping and automation discovery. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, Locale, WorkAsset } from "@/content/types";
 
 type ToolSeed = {
   translationKey: string;
@@ -17,6 +17,7 @@ type ToolSeed = {
   includes: string[];
   usage: string[];
   outcomes: string[];
+  workAsset?: WorkAsset;
   faq: FAQItem[];
   related: string[];
   fitFor: string[];
@@ -77,6 +78,7 @@ function tool(seed: ToolSeed): ContentPage {
         bullets: seed.outcomes,
       },
     ],
+    workAsset: seed.workAsset,
     faq: seed.faq,
     related: seed.related,
     fit: { for: seed.fitFor, notFor: seed.fitNot },
@@ -209,6 +211,53 @@ export const growthToolPages: ContentPage[] = [
       "lepší debata o prioritách první verze",
       "silnější základ pro interní systém nebo workflow aplikaci",
     ],
+    workAsset: {
+      title: "Scope worksheet pro první verzi interního systému",
+      description: "Vyplňujte s člověkem, který proces vlastní, a alespoň jedním člověkem, který v něm denně pracuje. Cílem je hranice první etapy, ne kompletní wish list.",
+      groups: [
+        {
+          title: "Proces a výsledek",
+          items: [
+            "Jednou větou umíme popsat provozní problém, ne jen požadovanou obrazovku",
+            "Je jasné, kde proces začíná a co znamená jeho úspěšné dokončení",
+            "Známe současné ruční kroky, čekání a nejčastější chyby",
+            "První verze má jeden ověřitelný provozní výsledek",
+          ],
+        },
+        {
+          title: "Role, stavy a rozhodnutí",
+          items: [
+            "Každá hlavní role má popsané vstupy, rozhodnutí a odpovědnost",
+            "Stavy procesu mají jasný význam a povolené přechody",
+            "Schválení a výjimky mají konkrétního vlastníka",
+            "Oprávnění vycházejí z rolí, ne ze sdíleného účtu nebo souboru",
+          ],
+        },
+        {
+          title: "Data a návaznosti",
+          items: [
+            "Pro klíčová pole je známý zdroj pravdy a požadovaná kvalita",
+            "Ruční přepisy a duplicity jsou označené pro migraci nebo integraci",
+            "Návazné systémy mají popsaný směr a frekvenci výměny dat",
+            "Historická data jsou rozdělena na nutná, užitečná a nepřenášená",
+          ],
+        },
+        {
+          title: "Hranice první etapy",
+          items: [
+            "Must-have scénáře jsou oddělené od pozdějších zlepšení",
+            "Je popsané, co první etapa vědomě neřeší",
+            "Akceptace vychází z reálných scénářů, ne jen seznamu funkcí",
+            "Existuje vlastník zavedení systému do běžné práce",
+          ],
+        },
+      ],
+      example: {
+        title: "Příklad jedné řádky worksheetu",
+        body: "Role: obchodník; vstup: validovaná poptávka; stav: připravuje se nabídka; výjimka: chybí technický podklad; data: kontakt, rozsah a termín; další krok: předat technickému vlastníkovi s termínem doplnění.",
+      },
+      completionNote: "Dobrý worksheet končí krátkou tabulkou role → stav → výjimka → data → další krok a seznamem věcí, které zůstávají mimo první etapu.",
+    },
     faq: [
       { question: "Je worksheet vhodný i bez interního IT týmu?", answer: "Ano. Pomůže hlavně business ownerům a operativě srovnat zadání dřív, než se připojí technická strana." },
       { question: "Nahradí worksheet detailní analýzu?", answer: "Ne. Je to pracovní vstup, který zlepší kvalitu následného scope a rozhodování." },
@@ -249,6 +298,53 @@ export const growthToolPages: ContentPage[] = [
       "jasnější návaznost mezi procesem a technickým řešením",
       "lepší podklad pro následnou implementaci",
     ],
+    workAsset: {
+      title: "Discovery checklist pro první automatizační zásah",
+      description: "Projděte jeden konkrétní proces od vstupu po výstup. Automatizační příležitost zapisujte až poté, co znáte vlastníka, výjimky a dopad chyby.",
+      groups: [
+        {
+          title: "Současný proces",
+          items: [
+            "Proces má jasný začátek, výstup a business ownera",
+            "Jsou popsané ruční kroky, čekání a předávání mezi lidmi",
+            "Známe objem a frekvenci, ale nepoužíváme je jako jediný argument",
+            "Je oddělený skutečný problém od pouhé preference nástroje",
+          ],
+        },
+        {
+          title: "Pravidla a výjimky",
+          items: [
+            "Opakovaná pravidla lze vysvětlit bez skryté znalosti jednoho člověka",
+            "Nestandardní případy mají vlastníka a bezpečný ruční postup",
+            "Je jasné, které rozhodnutí nesmí automat udělat sám",
+            "Dopad chybného kroku je známý a přijatelný pro první etapu",
+          ],
+        },
+        {
+          title: "Data a systémy",
+          items: [
+            "Zdrojová data jsou dostupná, dostatečně kvalitní a mají vlastníka",
+            "Cílový systém nabízí podporovaný způsob zápisu nebo integrace",
+            "Citlivá data mají jasný účel, oprávnění a dobu uchování",
+            "Výpadek integrace lze zjistit a dočasně obsloužit ručně",
+          ],
+        },
+        {
+          title: "Priorita a ověření",
+          items: [
+            "První zásah je úzký a řeší konkrétní provozní ztrátu",
+            "Je určená baseline a signál, podle kterého se změna vyhodnotí",
+            "Pilot má vlastníka, testovací scénáře a návratový postup",
+            "Další automatizace závisí na výsledku pilotu, ne na původním wish listu",
+          ],
+        },
+      ],
+      example: {
+        title: "Příklad úzkého discovery kandidáta",
+        body: "Po přijetí formuláře se kontakt ručně přepisuje do CRM. Pilot ověří validaci povinných polí a založení záznamu; duplicitu nebo nestandardní firmu vrátí obchodníkovi. Vlastník: vedoucí obchodu. Signál úspěchu: méně chyb přenosu a dohledatelná fronta výjimek.",
+      },
+      completionNote: "Pokud nejde popsat bezpečný pilot, vlastníka výjimky a způsob měření, je výsledkem discovery nejdřív úprava procesu — nikoli automatická implementace.",
+    },
     faq: [
       { question: "Není to totéž jako API checklist?", answer: "Ne úplně. Tady je větší důraz na proces, výjimky a business ownership ještě před technickým návrhem integrace." },
       { question: "Je checklist použitelný i bez technického týmu?", answer: "Ano. Pomůže pojmenovat důležité otázky ještě před tím, než se začne řešit konkrétní technické řešení." },

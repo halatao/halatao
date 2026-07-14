@@ -1,7 +1,7 @@
 // Generated content: templates and checklist pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, Locale, WorkAsset } from "@/content/types";
 
 type ToolSeed = {
   translationKey: string;
@@ -17,6 +17,7 @@ type ToolSeed = {
   includes: string[];
   usage: string[];
   outcome: string[];
+  workAsset?: WorkAsset;
   faq: FAQItem[];
   related: string[];
 };
@@ -47,6 +48,7 @@ function tool(seed: ToolSeed): ContentPage {
       { title: isCs ? "Jak ji použít v praxi" : "How to use it in practice", body: [isCs ? "Šablona má fungovat jako praktická pomůcka před úvodním hovorem, scopingem nebo takeover fází. Má otevřít správné otázky dřív, než se scope zbytečně rozjede." : "The template should work as a practical aid before an introductory call, scoping session, or takeover phase."], bullets: seed.usage },
       { title: isCs ? "Jaký výsledek to má přinést" : "What outcome it should create", body: [isCs ? "Dobrá šablona zkrátí cestu k prvnímu smysluplnému rozhodnutí a pomůže oddělit důležité od zbytku." : "A good template shortens the path to the first useful project decision."], bullets: seed.outcome },
     ],
+    workAsset: seed.workAsset,
     faq: seed.faq,
     related: seed.related,
     fit: { for: seed.outcome, notFor: isCs ? ["sběr detailů bez dalšího rozhodnutí"] : ["collecting detail with no decision attached"] },
@@ -92,6 +94,53 @@ export const toolPages: ContentPage[] = [
     includes: ["repozitáře, hosting a přístupy", "deploy a prostředí", "kritické scénáře a rizika", "monitoring, logy a provozní kontakty"],
     usage: ["při změně dodavatele", "před takeover auditem", "jako podklad pro prioritizaci první etapy"],
     outcome: ["menší takeover riziko", "rychlejší orientace v systému", "lepší kontrola nad tím, co ještě chybí"],
+    workAsset: {
+      title: "Pracovní checklist převzetí aplikace",
+      description: "Zaškrtněte pouze položky, které jste skutečně ověřili. Nejasný nebo chybějící bod zapište do handover backlogu s vlastníkem a termínem.",
+      groups: [
+        {
+          title: "Vlastnictví a přístupy",
+          items: [
+            "Repozitáře, větve a oprávnění jsou pod kontrolou firmy",
+            "Domény, DNS, hosting a cloudové účty mají známého vlastníka",
+            "Přístupy dodavatelů lze odebrat nebo převést bez výpadku",
+            "Secrets a integrační účty jsou evidované mimo zdrojový kód",
+          ],
+        },
+        {
+          title: "Provoz a release",
+          items: [
+            "Jsou popsaná prostředí a rozdíly mezi nimi",
+            "Lze zopakovat build, test a deployment z čistého checkoutu",
+            "Existuje ověřený rollback nebo bezpečný návrat předchozí verze",
+            "Monitoring, logy a provozní kontakty jsou dostupné novému týmu",
+          ],
+        },
+        {
+          title: "Kritické scénáře",
+          items: [
+            "Business owner potvrdil nejdůležitější uživatelské workflow",
+            "Kritické integrace a dávkové úlohy mají známé failure stavy",
+            "Záloha a obnova dat mají konkrétního vlastníka a postup",
+            "Bezpečnostní a licenční rizika mají určenou prioritu",
+          ],
+        },
+        {
+          title: "Handover a první etapa",
+          items: [
+            "Potvrzená fakta jsou oddělená od hypotéz a chybějících informací",
+            "Nálezy mají dopad, prioritu, vlastníka a akceptační podmínku",
+            "První bezpečná změna ověří celý release proces",
+            "Rewrite zůstává možností až po auditu, ne výchozím rozhodnutím",
+          ],
+        },
+      ],
+      example: {
+        title: "Příklad záznamu chybějícího bodu",
+        body: "Produkční cloudový účet: přístup chybí; vlastník na straně firmy: provozní ředitel; dopad: bez přístupu nelze ověřit zálohy ani rollback; priorita: před prvním releasem; další krok: převést účet a otestovat obnovu v neprodukčním prostředí.",
+      },
+      completionNote: "Výstupem má být access mapa, seznam chybějících podkladů, risk backlog a návrh první bezpečné změny — ne pouze počet zaškrtnutých polí.",
+    },
     faq: [
       { question: "Stačí checklist bez auditu?", answer: "Často ne. Checklist je výborný start, ale u složitějších aplikací je potřeba i technické zmapování, prioritizace a realistický plán první fáze." },
       { question: "Je to užitečné i pro interní tým?", answer: "Ano. I interní tým často potřebuje takeover strukturovat, pokud znalost odešla s konkrétním člověkem nebo vendor kontaktem." },
@@ -113,6 +162,53 @@ export const toolPages: ContentPage[] = [
     includes: ["zdrojová a cílová data", "ownership a odpovědnost", "chybové stavy a retry logika", "monitoring a dohled nad integrací"],
     usage: ["před integračním projektem", "při diagnostice ruční práce mezi systémy", "jako podklad pro prioritizaci integračních kroků"],
     outcome: ["méně slepých míst v návrhu", "lepší připravenost na výjimky", "odolnější integrační řešení"],
+    workAsset: {
+      title: "Pracovní checklist API integrace",
+      description: "Projděte tok dat od zdroje až po provozní dohled. U každého bodu si určete vlastníka a způsob ověření, ne jen technickou poznámku.",
+      groups: [
+        {
+          title: "Data a kontrakt",
+          items: [
+            "Zdrojový a cílový systém mají známého business i technického vlastníka",
+            "Povinná pole, formáty, identifikátory a časová pásma jsou popsané",
+            "Je jasné, který systém je zdrojem pravdy pro každé důležité pole",
+            "Verzování API a změny kontraktu mají domluvený postup",
+          ],
+        },
+        {
+          title: "Tok a konzistence",
+          items: [
+            "Je rozhodnuto mezi synchronním, asynchronním a dávkovým přenosem",
+            "Opakovaný požadavek nevytvoří duplicitní záznam nebo platbu",
+            "Pořadí zpráv a souběžné změny mají popsané řešení",
+            "Je známý postup pro prvotní import a následnou synchronizaci",
+          ],
+        },
+        {
+          title: "Chyby a výjimky",
+          items: [
+            "Timeout, rate limit a dočasná chyba mají retry pravidla",
+            "Trvalá chyba skončí v dohledatelné frontě s vlastníkem",
+            "Neplatná nebo neúplná data se neztratí bez upozornění",
+            "Ruční oprava má auditní stopu a neporuší další synchronizaci",
+          ],
+        },
+        {
+          title: "Provoz a monitoring",
+          items: [
+            "Měří se úspěšnost, zpoždění, počet chyb a stav front",
+            "Alert vede ke konkrétnímu runbooku a odpovědné osobě",
+            "Citlivá data nejsou v logu ani analytice bez důvodu",
+            "Integraci lze bezpečně vypnout, znovu spustit a otestovat",
+          ],
+        },
+      ],
+      example: {
+        title: "Příklad vyplněné integrační výjimky",
+        body: "Přenos objednávky do fakturace: identifikátor objednávky je idempotency key; při timeoutu tři pokusy s odstupem; trvalá chyba jde do fronty „K opravě“; vlastníkem je backoffice; alert vznikne po pěti minutách bez potvrzení cílového systému.",
+      },
+      completionNote: "Pokud některý bod nemá vlastníka nebo ověřitelnou odpověď, patří před implementací do rizik a scope — ne do skrytého předpokladu.",
+    },
     faq: [
       { question: "Je checklist užitečný i bez technického týmu?", answer: "Ano. Pomůže minimálně strukturovat otázky, které je potřeba si vyjasnit s dodavatelem, interním IT nebo business ownerem procesu." },
       { question: "Nahrazuje checklist architektonický návrh?", answer: "Ne. Je to vstupní pomůcka, která pomáhá návrh udělat kvalitněji a s menším rizikem slepých míst." },
@@ -184,4 +280,3 @@ export const toolPages: ContentPage[] = [
     related: ["technology-api-integrations", "service-automations-and-integrations", "guide-how-to-run-automation-discovery", "problem-system-integrations", "use-case-service-team-ops-system", "case-study-multi-system-integration", "inquiry"],
   }),
 ];
-

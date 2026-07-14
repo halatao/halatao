@@ -29,7 +29,12 @@ export function SiteHeader({ locale, currentPage }: { locale: Locale; currentPag
           <Link className="locale-link" href={localeHref} hrefLang={targetLocale} lang={targetLocale}>
             {locale === "cs" ? "EN" : "CS"}
           </Link>
-          <Link className="nav-cta" href={locale === "cs" ? "/cs/popsat-projekt/" : "/en/discuss-your-project/"}>
+          <Link
+            className="nav-cta"
+            data-analytics-event="seo_cta_click"
+            data-analytics-location="header"
+            href={locale === "cs" ? "/cs/popsat-projekt/" : "/en/discuss-your-project/"}
+          >
             {locale === "cs" ? "Popsat situaci" : "Describe situation"}
           </Link>
         </nav>

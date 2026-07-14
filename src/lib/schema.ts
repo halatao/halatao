@@ -27,6 +27,8 @@ function serviceAreaSchemas() {
 
 function providerSchema() {
   return {
+    "@type": "ProfessionalService",
+    "@id": `${siteConfig.siteUrl}/#professional-service`,
     name: siteConfig.name,
     founder: {
       "@type": "Person",
@@ -91,13 +93,13 @@ export function getGlobalSchemas() {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": `${siteConfig.siteUrl}/#website`,
       name: siteConfig.name,
       url: siteConfig.siteUrl,
       inLanguage: ["cs-CZ", "en-US"],
     },
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
       ...providerSchema(),
     },
   ];

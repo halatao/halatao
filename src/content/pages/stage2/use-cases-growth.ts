@@ -1,7 +1,7 @@
 // Generated content: additional high-intent use-case pages. Safe to edit manually.
 
 import { buildInquiryHref, definePage } from "@/content/builders";
-import type { ContentPage, FAQItem, LinkRecord, Locale } from "@/content/types";
+import type { ContentPage, FAQItem, LinkRecord, Locale, WorkflowContent } from "@/content/types";
 
 type UseCaseSeed = {
   translationKey: string;
@@ -17,6 +17,7 @@ type UseCaseSeed = {
   scenarios: string[];
   includes: string[];
   outcomes: string[];
+  workflow?: WorkflowContent;
   faq: FAQItem[];
   related: string[];
   priorityLinks?: LinkRecord[];
@@ -78,6 +79,7 @@ function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
         bullets: seed.outcomes,
       },
     ],
+    workflow: seed.workflow,
     faq: seed.faq,
     related: seed.related,
     priorityLinks: seed.priorityLinks,
@@ -854,6 +856,18 @@ export const growthUseCasePages: ContentPage[] = [
       "přehled odpovědnosti, termínů, historie a poznámek",
       "možnost napojení na další firemní nástroje",
     ],
+    workflow: {
+      title: "Průchod poptávky systémem krok za krokem",
+      description: "Každý krok má vlastníka, vstupní podmínku a dohledatelný výstup. Dashboard potom ukazuje, co čeká na obchod, co na schválení a co už převzala realizace.",
+      steps: [
+        { title: "Příjem a validace", description: "Poptávka se založí z formuláře, e-mailu nebo ručního vstupu. Povinná data se zkontrolují a duplicita se označí před dalším zpracováním.", owner: "Obchod / příjem poptávek" },
+        { title: "Kvalifikace a přiřazení", description: "Systém určí odpovědného člověka, termín dalšího kroku a stav. Neúplná nebo nestandardní poptávka jde do fronty k ručnímu rozhodnutí.", owner: "Obchodní vlastník" },
+        { title: "Příprava a schválení nabídky", description: "Nabídka zůstává navázaná na původní poptávku, její verze a schválení. Notifikace upozorní na čekající rozhodnutí nebo blížící se termín.", owner: "Obchod a schvalovatel" },
+        { title: "Předání do realizace", description: "Po schválení se přenesou do realizace dohodnutý rozsah, termíny, dokumenty a odpovědnost bez nového ručního přepisu.", owner: "Vedoucí realizace" },
+        { title: "Realizace a provozní přehled", description: "Tým pracuje se stavem zakázky, změnami a výjimkami. Dashboard ukazuje rozpracovanost, blokace, vlastníky a historii rozhodnutí.", owner: "Realizační tým" },
+      ],
+      exceptionNote: "Výjimky se systém nesnaží rozhodnout za lidi. Vrátí je správné roli s kontextem, termínem a dohledatelným rozhodnutím.",
+    },
     outcomes: [
       "lepší přehled nad celým průchodem zakázky",
       "méně ruční koordinace mezi obchodem a realizací",

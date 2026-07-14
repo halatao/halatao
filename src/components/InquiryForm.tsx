@@ -1,10 +1,11 @@
 ﻿"use client";
 
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { FocusEvent, FormEvent, useRef, useState } from "react";
 
 import type { Locale } from "@/content/types";
 import { buildThankYouHref } from "@/content/builders";
+import { trackAnalyticsEvent } from "@/lib/analytics";
 
 const copy = {
   cs: {
@@ -39,6 +40,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   const router = useRouter();
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const formStarted = useRef(false);
   const labels = copy[locale];
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -61,23 +63,36 @@ export function InquiryForm({ locale }: { locale: Locale }) {
       locale,
     };
 
-    const response = await fetch("https://formspree.io/f/maqdndyk", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
+    try {
+      const response = await fetch("https://formspree.io/f/maqdndyk", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
 
-    setPending(false);
+      if (!response.ok) {
+        trackAnalyticsEvent("form_submit_error", { error_type: "http", form_id: "project_inquiry" });
+        setError(labels.error);
+        return;
+      }
 
-    if (!response.ok) {
+      trackAnalyticsEvent("generate_lead", { form_id: "project_inquiry", lead_type: "project_inquiry" });
+      router.push(buildThankYouHref(locale));
+    } catch {
+      trackAnalyticsEvent("form_submit_error", { error_type: "network", form_id: "project_inquiry" });
       setError(labels.error);
-      return;
+    } finally {
+      setPending(false);
     }
+  }
 
-    router.push(buildThankYouHref(locale));
+  function onFocusCapture(event: FocusEvent<HTMLFormElement>) {
+    if (formStarted.current || (event.target instanceof HTMLInputElement && event.target.name === "website")) return;
+    formStarted.current = true;
+    trackAnalyticsEvent("form_start", { form_id: "project_inquiry" });
   }
 
   return (
@@ -86,7 +101,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
         <h2>{labels.heading}</h2>
         <p>{labels.description}</p>
       </div>
-      <form className="inquiry-form" onSubmit={onSubmit}>
+      <form className="inquiry-form" onFocusCapture={onFocusCapture} onSubmit={onSubmit}>
         <input aria-hidden="true" autoComplete="off" className="honeypot" name="website" tabIndex={-1} />
         <label>
           <span>{labels.name}</span>
