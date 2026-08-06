@@ -16,6 +16,7 @@ type AdvancedGuideSeed = {
   intro: string[];
   sections: { title: string; body: string[]; bullets?: string[] }[];
   faq: FAQItem[];
+  fitFor: string[];
   related: string[];
 };
 
@@ -43,7 +44,7 @@ function advancedGuide(seed: AdvancedGuideSeed): ContentPage {
     sections: seed.sections,
     faq: seed.faq,
     related: seed.related,
-    fit: { for: seed.related, notFor: isCs ? ["obecné neprojektové čtení"] : ["generic non-project reading"] },
+    fit: { for: seed.fitFor, notFor: isCs ? ["obecné neprojektové čtení"] : ["generic reading with no connection to a real project"] },
     seo: { title: seed.title, description: seed.description },
     schema: { includeFaq: true },
     indexable: true,
@@ -76,6 +77,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Jak detailní má audit být?", answer: "Tak detailní, aby z něj šlo udělat první spolehlivé rozhodnutí o převzetí, stabilizaci a prioritách další etapy. Ne nutně tak detailní, aby popsal každou část systému." },
       { question: "Může audit skončit doporučením postupného rozvoje místo rewritu?", answer: "Ano. U mnoha aplikací je to právě nejcennější závěr, protože oddělí skutečný problém od frustrace z cizího kódu." },
     ],
+    fitFor: [
+      "firmy připravující převzetí aplikace od dodavatele nebo interního týmu",
+      "týmy bez spolehlivého přehledu o provozu, release procesu a přístupech",
+      "zadavatelé, kteří potřebují pojmenovat rizika a první priority stabilizace",
+    ],
     related: ["service-existing-app-takeover", "guide-how-to-take-over-an-existing-app-safely", "tool-app-takeover-checklist", "inquiry"],
   }),
   advancedGuide({
@@ -102,6 +108,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Je stará technologie sama o sobě důvod pro rewrite?", answer: "Ne. Důležité je, jaké konkrétní problémy způsobuje provozu, bezpečnosti a rychlosti dalšího rozvoje." },
       { question: "Může být správně přepsat jen část systému?", answer: "Ano. U mnoha aplikací je selektivní rewrite nebo oddělení nejproblematičtějších částí praktičtější než kompletní restart." },
       { question: "Má rozhodnutí vždy začínat auditem?", answer: "U běžící business aplikace ano. Bez auditu se těžko rozlišuje mezi skutečnou nutností a pouze silnou frustrací z aktuálního stavu." },
+    ],
+    fitFor: [
+      "firmy zvažující úplný přepis běžící aplikace",
+      "produktové a technické týmy, které potřebují odlišit lokální dluh od systémového omezení",
+      "vedení, které chce rozhodnout podle provozních dopadů, rizika a ceny změny",
     ],
     related: ["comparison-rewrite-vs-incremental-app-improvement", "service-existing-app-takeover", "problem-modernize-legacy-app", "inquiry"],
   }),
@@ -130,6 +141,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Není rychlejší začít rovnou integrační implementací?", answer: "Krátkodobě možná ano. Dlouhodobě ale hrozí, že implementujete špatně vybraný zásah nebo obejdete skutečný provozní problém." },
       { question: "Může discovery vést k tomu, že automatizace zatím nedává smysl?", answer: "Ano. A to je cenný výsledek, pokud ušetří drahý projekt bez jasného dopadu." },
     ],
+    fitFor: [
+      "firmy s opakovanou ruční prací mezi několika systémy",
+      "vlastníci procesů, kteří potřebují zmapovat výjimky, data a odpovědnosti",
+      "týmy vybírající první smysluplný automatizační zásah",
+    ],
     related: ["service-automations-and-integrations", "tool-automation-discovery-checklist", "tool-api-integration-checklist", "inquiry"],
   }),
   advancedGuide({
@@ -153,6 +169,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Lze dát cenu bez specifikace?", answer: "Lze dát rámcový odhad nebo návrh první etapy. Přesné číslo bez kontextu bývá spíš iluze než užitečná informace." },
       { question: "Co je lepší: fixní cena nebo průběžná spolupráce?", answer: "Záleží na jistotě scope. U vyšší nejistoty bývá bezpečnější dobře řízená etapová spolupráce." },
       { question: "Má smysl nacenit nejdřív jen MVP?", answer: "Ano. To je často nejrozumnější forma prvního odhadu." },
+    ],
+    fitFor: [
+      "firmy připravující rozpočet webové aplikace na míru",
+      "zadavatelé, kteří potřebují pochopit hlavní nákladové faktory a míru nejistoty",
+      "týmy vyjasňující rozsah první etapy, integrace a uživatelské role",
     ],
     related: ["guide-how-to-scope-a-custom-web-application", "service-custom-web-app-development", "use-case-reporting-dashboard", "inquiry"],
   }),
@@ -178,6 +199,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Má být MVP designově hotové?", answer: "Mělo by být dost důvěryhodné a použitelné pro reálnou práci, ale nemusí obsahovat každou okrajovou vrstvu produktu." },
       { question: "Jak dlouho má plánování MVP trvat?", answer: "Méně, než si firmy obvykle myslí. Důležitější než dlouhé plánování je správný výběr prvního workflow." },
     ],
+    fitFor: [
+      "firmy připravující první použitelnou verzi webové aplikace",
+      "vlastníci produktu nebo procesu, kteří vybírají klíčové workflow",
+      "týmy, které potřebují zúžit rozsah bez ztráty praktické hodnoty",
+    ],
     related: ["guide-how-to-scope-a-custom-web-application", "service-custom-web-app-development", "use-case-client-portal", "comparison-custom-vs-saas"],
   }),
   advancedGuide({
@@ -201,6 +227,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Je pomalá aplikace důvod pro rewrite?", answer: "Ne automaticky. Nejprve je potřeba zjistit, co výkon opravdu brzdí a jaký je dopad jednotlivých problémů." },
       { question: "Co když nejsou dobré metriky?", answer: "I to je cenné zjištění. Část stabilizace bývá právě doplnění měření a lepšího pozorování systému." },
       { question: "Lze výkon řešit i průběžně bez velkého projektu?", answer: "Ano. U mnoha aplikací je to nejpraktičtější cesta." },
+    ],
+    fitFor: [
+      "firmy s pomalou nebo křehkou běžící aplikací",
+      "týmy, které potřebují najít skutečné výkonnostní a provozní bottlenecky",
+      "vlastníci produktu rozhodující mezi cílenou stabilizací a větší změnou",
     ],
     related: ["service-existing-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "technology-typescript-for-large-web-projects", "inquiry"],
   }),
@@ -226,6 +257,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "What is better: fixed price or staged collaboration?", answer: "That depends on scope certainty. With more unknowns, a well-run staged model is usually safer." },
       { question: "Is it sensible to estimate only the MVP first?", answer: "Yes. That is often the most useful and honest first estimate." },
     ],
+    fitFor: [
+      "companies preparing a budget for a custom web application",
+      "decision-makers who need to understand cost drivers and uncertainty",
+      "teams clarifying first-phase scope, integrations, and user roles",
+    ],
     related: ["guide-how-to-scope-a-custom-web-application", "service-custom-web-app-development", "use-case-reporting-dashboard", "inquiry"],
   }),
   advancedGuide({
@@ -250,6 +286,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Does an MVP need to look fully polished?", answer: "It needs to be trustworthy and usable for real work, but it does not need every secondary product layer from the start." },
       { question: "How long should MVP planning take?", answer: "Usually less time than teams expect. The key is picking the right first workflow rather than over-planning every future branch." },
     ],
+    fitFor: [
+      "companies preparing the first useful version of a web application",
+      "product or process owners selecting the core end-to-end workflow",
+      "teams that need to narrow scope without losing practical value",
+    ],
     related: ["guide-how-to-scope-a-custom-web-application", "service-custom-web-app-development", "use-case-client-portal", "comparison-custom-vs-saas"],
   }),
   advancedGuide({
@@ -273,6 +314,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Is slowness a reason to rewrite?", answer: "Not automatically. The first step is to understand what is actually causing the delay and how it affects the business." },
       { question: "What if we lack good performance metrics?", answer: "That is a useful finding in itself. Part of stabilisation is often better visibility into system behaviour." },
       { question: "Can performance work happen incrementally?", answer: "Yes. For many business apps that is the most practical approach." },
+    ],
+    fitFor: [
+      "companies with a slow or fragile live application",
+      "teams that need to identify the real performance and operational bottlenecks",
+      "product owners deciding between targeted stabilisation and larger structural change",
     ],
     related: ["service-existing-app-takeover", "comparison-rewrite-vs-incremental-app-improvement", "technology-typescript-for-large-web-projects", "inquiry"],
   }),
@@ -301,6 +347,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "How detailed should the audit be?", answer: "Detailed enough to support the first reliable decision about takeover, stabilisation, and next priorities. Not necessarily detailed enough to document every corner of the product." },
       { question: "Can the audit conclude that incremental improvement is better than a rewrite?", answer: "Yes. That is often the most valuable conclusion because it separates the actual problem from frustration with inherited code." },
     ],
+    fitFor: [
+      "companies preparing to inherit an application from a supplier or internal team",
+      "teams without a reliable view of operations, release, and access",
+      "decision-makers who need a clear risk picture and first stabilisation priorities",
+    ],
     related: ["service-existing-app-takeover", "guide-how-to-take-over-an-existing-app-safely", "tool-app-takeover-checklist", "inquiry"],
   }),
   advancedGuide({
@@ -328,6 +379,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Can it be right to rewrite only part of the system?", answer: "Yes. Selective rewrite or extraction of the most problematic areas is often more practical than a full restart." },
       { question: "Should the decision start with an audit?", answer: "For a running business application, yes. Without that, it is hard to separate genuine need from strong frustration." },
     ],
+    fitFor: [
+      "companies considering a full rewrite of a live application",
+      "product and engineering teams separating local debt from structural limits",
+      "leaders who need a decision grounded in operational impact, risk, and change cost",
+    ],
     related: ["comparison-rewrite-vs-incremental-app-improvement", "service-existing-app-takeover", "problem-modernize-legacy-app", "inquiry"],
   }),
   advancedGuide({
@@ -354,6 +410,11 @@ export const advancedGuidePages: ContentPage[] = [
       { question: "Is discovery still necessary for a smaller automation effort?", answer: "Yes, if the work touches several roles, systems, or exception paths. Even a smaller intervention can create new problems without enough process clarity." },
       { question: "Would it be faster to jump straight into implementation?", answer: "Maybe in the short term. In the long term you risk implementing the wrong intervention or automating around the wrong problem." },
       { question: "Can discovery conclude that automation is not the right move yet?", answer: "Yes. That is a valuable outcome if it prevents an expensive project with little real impact." },
+    ],
+    fitFor: [
+      "companies with repeated manual work across several systems",
+      "process owners mapping exceptions, data, and responsibility boundaries",
+      "teams choosing the first practical automation intervention",
     ],
     related: ["service-automations-and-integrations", "tool-automation-discovery-checklist", "tool-api-integration-checklist", "inquiry"],
   }),

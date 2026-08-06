@@ -46,12 +46,12 @@ export const homepageFeaturePaths: Record<Locale, string[]> = {
     "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
     "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
     "/cs/sluzby/automatizace-a-integrace/",
-    "/cs/spoluprace-na-kontrakt/",
+    "/cs/sluzby/ai-automatizace-a-integrace/",
   ],
   en: [
     "/en/services/custom-web-application-development/",
     "/en/services/existing-app-takeover/",
     "/en/services/automations-and-integrations/",
-    "/en/contract-development-support/",
+    "/en/services/ai-automation-and-integrations/",
   ],
 };

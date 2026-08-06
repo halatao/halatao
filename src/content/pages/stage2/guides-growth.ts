@@ -142,8 +142,8 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Je audit jen další zdržení před prací?", answer: "Ne. U takeoveru bývá audit nejrychlejší cesta k tomu, aby další práce nebyla postavená na odhadech naslepo." },
     ],
     related: ["service-existing-app-takeover", "guide-how-to-take-over-an-existing-app-safely", "problem-app-takeover", "inquiry"],
-    fitFor: ["firmy přebírající běžící nebo rozpracovanou aplikaci", "buyery, kteří potřebují rozpočet s menší mírou nejistoty", "týmy řešící vendor change nebo ztrátu znalosti"],
-    fitNot: ["greenfield projekt bez takeover kontextu", "buyer očekávající přesnou cenu bez přístupů a mapování", "čistě náborová poptávka"],
+    fitFor: ["firmy přebírající běžící nebo rozpracovanou aplikaci", "zadavatelé, kteří potřebují rozpočet s menší mírou nejistoty", "týmy řešící vendor change nebo ztrátu znalosti"],
+    fitNot: ["greenfield projekt bez takeover kontextu", "zadavatel očekávající přesnou cenu bez přístupů a mapování", "čistě náborová poptávka"],
   }),
   guide({
     translationKey: "guide-when-internal-tool-better-than-saas",
@@ -184,7 +184,7 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Jak poznat, že je ještě brzy na vlastní systém?", answer: "Když je proces stále nejasný, role jsou jednoduché a SaaS nástroj pokrývá většinu práce bez drahých obcházek." },
     ],
     related: ["comparison-custom-vs-saas", "comparison-internal-tool-vs-spreadsheets", "service-internal-tools-development", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
-    fitFor: ["firmy zvažující vlastní interní nástroj", "situace s rostoucí ruční koordinací mimo SaaS", "buyery, kteří chtějí spočítat cenu kompromisů"],
+    fitFor: ["firmy zvažující vlastní interní nástroj", "situace s rostoucí ruční koordinací mimo SaaS", "vedení, které chce spočítat cenu kompromisů"],
     fitNot: ["jednoduchý proces bez integrací a výjimek", "projekty bez ownera interního workflow", "nákupní rozhodnutí čistě podle nejnižší licence"],
   }),
   guide({
@@ -268,8 +268,8 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Is discovery just another delay before real work?", answer: "No. In takeover work discovery is usually the fastest path to avoiding a much more expensive wrong assumption." },
     ],
     related: ["service-existing-app-takeover", "problem-app-takeover", "tool-app-takeover-checklist", "inquiry"],
-    fitFor: ["companies taking over live or unfinished applications", "buyers who need better estimate discipline", "teams facing vendor change or knowledge loss"],
-    fitNot: ["greenfield projects with no inherited stack", "buyers expecting exact pricing with no access or visibility", "recruiter-style outreach"],
+    fitFor: ["companies taking over live or unfinished applications", "decision-makers who need better estimate discipline", "teams facing vendor change or knowledge loss"],
+    fitNot: ["greenfield projects with no inherited stack", "decision-makers expecting exact pricing with no access or visibility", "recruiter-style outreach"],
   }),
   guide({
     translationKey: "guide-when-internal-tool-better-than-saas",
@@ -310,7 +310,7 @@ export const growthGuidePages: ContentPage[] = [
       { question: "How do we know it is still too early?", answer: "Usually when the process is still unstable, the roles are simple, and the SaaS option covers most of the real work without painful workarounds." },
     ],
     related: ["comparison-custom-vs-saas", "comparison-internal-tool-vs-spreadsheets", "service-internal-tools-development", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
-    fitFor: ["companies evaluating internal tool investment", "teams working around SaaS limits", "buyers who want to calculate the cost of compromise"],
+    fitFor: ["companies evaluating internal tool investment", "teams working around SaaS limits", "decision-makers who want to calculate the cost of compromise"],
     fitNot: ["simple workflows with minimal integration or exception logic", "projects with no internal process owner", "buying decisions based only on lowest licence price"],
   }),
   guide({
@@ -407,7 +407,7 @@ export const growthGuidePages: ContentPage[] = [
     ],
     fitFor: [
       "firmy zvažující první AI use case",
-      "buyery, kteří chtějí rozhodnout mezi AI a jednodušší automatizací",
+      "týmy, které chtějí rozhodnout mezi AI a jednodušší automatizací",
       "situace, kde je potřeba odfiltrovat hype od reálného provozního přínosu",
     ],
     fitNot: [
@@ -468,7 +468,7 @@ export const growthGuidePages: ContentPage[] = [
     ],
     fitFor: [
       "companies evaluating a first AI use case",
-      "buyers comparing AI with simpler automation",
+      "decision-makers comparing AI with simpler automation",
       "situations where hype needs to be filtered out from operating value",
     ],
     fitNot: [

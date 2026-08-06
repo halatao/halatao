@@ -366,7 +366,7 @@ export const demandGuidePages: ContentPage[] = [
       "problem-replace-spreadsheets-in-process",
       "inquiry",
     ],
-    fitFor: ["firmy zvažující automatizaci opakovaného procesu", "týmy s ruční koordinací a přepisováním", "buyery, kteří chtějí spočítat přínos před realizací"],
+    fitFor: ["firmy zvažující automatizaci opakovaného procesu", "týmy s ruční koordinací a přepisováním", "vedení, které chce spočítat přínos před realizací"],
     fitNot: ["jednorázové procesy bez opakování", "automatizace bez vlastníka procesu", "nákup nástroje bez jasného use case"],
   }),
   guide({
@@ -615,7 +615,7 @@ export const demandGuidePages: ContentPage[] = [
       "problem-replace-spreadsheets-in-process",
       "inquiry",
     ],
-    fitFor: ["companies considering automation of a repeated process", "teams dealing with manual coordination and data copying", "buyers who want to estimate value before implementation"],
+    fitFor: ["companies considering automation of a repeated process", "teams dealing with manual coordination and data copying", "decision-makers who want to estimate value before implementation"],
     fitNot: ["one-off processes with no repetition", "automation without a process owner", "tool buying with no clear use case"],
   }),
 ];

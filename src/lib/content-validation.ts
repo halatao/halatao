@@ -1,6 +1,12 @@
 // Schema/SEO utility: validation helpers for route integrity, content quality, and launch readiness.
 
 import type { ContentPage, Locale, PageType } from "@/content/types";
+import {
+  advancedGuideKeys,
+  editorialHubKeys,
+  internalContentKeyPattern,
+  internalEditorialCopyPatterns,
+} from "@/lib/editorial-copy";
 import { footerNavigation, homepageFeaturePaths, primaryNavigation } from "@/lib/navigation";
 import {
   buildPagePath,
@@ -110,6 +116,42 @@ function collectPageStrings(page: ContentPage) {
     page.cta.note,
     page.note,
   ].filter((value): value is string => Boolean(value));
+}
+
+function collectVisiblePageStrings(page: ContentPage) {
+  return [
+    page.breadcrumbLabel,
+    page.hero.eyebrow,
+    page.hero.title,
+    page.hero.subtitle,
+    page.hero.primaryCta.label,
+    page.hero.secondaryCta?.label,
+    ...page.intro,
+    ...page.sections.flatMap((section) => [section.title, ...section.body, ...(section.bullets ?? [])]),
+    ...page.faq.flatMap((item) => [item.question, item.answer]),
+    ...page.fit.for,
+    ...page.fit.notFor,
+    page.cta.label,
+    page.cta.note,
+  ].filter((value): value is string => Boolean(value));
+}
+
+function ensureEditorialCopy(page: ContentPage) {
+  if (editorialHubKeys.has(page.translationKey)) {
+    for (const value of collectVisiblePageStrings(page)) {
+      const marker = internalEditorialCopyPatterns.find((pattern) => pattern.test(value));
+      if (marker) {
+        throw new Error(`Hub page ${page.id} exposes internal editorial wording '${marker.source}' in visible copy: '${value}'.`);
+      }
+    }
+  }
+
+  if (advancedGuideKeys.has(page.translationKey)) {
+    const internalFitValue = page.fit.for.find((value) => internalContentKeyPattern.test(value));
+    if (internalFitValue) {
+      throw new Error(`Guide page ${page.id} exposes internal content key '${internalFitValue}' in its audience list.`);
+    }
+  }
 }
 
 function ensureUniqueWithinLocale(
@@ -232,6 +274,14 @@ function getRenderedLinkTargets(
         candidate.segments[0] === page.segments[0],
     )) {
       addHref(buildPagePath(child));
+    }
+    for (const relatedKey of page.related) {
+      const target = (pagesByTranslationKey.get(relatedKey) ?? []).find(
+        (candidate) => candidate.locale === page.locale,
+      );
+      if (target && target.pageType !== "hub" && target.segments.length === 1) {
+        addHref(buildPagePath(target));
+      }
     }
     if (page.translationKey === "hub-locations") {
       for (const relatedKey of page.related) {
@@ -382,6 +432,7 @@ export function validateContentPages(pages: ContentPage[]) {
     ensureProofShape(page);
     ensureRelatedCoverage(page);
     ensureCtaQuality(page);
+    ensureEditorialCopy(page);
 
     for (const value of collectPageStrings(page)) {
       const marker = findSuspiciousEncoding(value);

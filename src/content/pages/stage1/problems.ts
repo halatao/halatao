@@ -313,7 +313,7 @@ export const problemPages: ContentPage[] = [
     fitFor: [
       "firmy, které chtějí AI, ale hledají konkrétní první use case",
       "týmy s opakovanou administrativou, dokumenty nebo příchozí agendou",
-      "buyery, kteří chtějí odlišit smysluplné využití AI od hype",
+      "vedení a týmy, které chtějí odlišit smysluplné využití AI od hype",
     ],
     fitNot: [
       "čistě experimentální AI bez provozního cíle",
@@ -371,7 +371,7 @@ export const problemPages: ContentPage[] = [
     fitFor: [
       "companies looking for a first realistic AI use case",
       "teams with recurring admin, document, or intake-heavy work",
-      "buyers wanting practical AI rather than hype",
+      "decision-makers looking for practical AI rather than hype",
     ],
     fitNot: [
       "purely experimental AI with no operating goal",

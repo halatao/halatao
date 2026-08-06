@@ -4,6 +4,13 @@ import path from "node:path";
 import { expandSeoRedirectRules, nonRegistryHtmlRoutes } from "../config/seo-redirects";
 import { getAllPages } from "../src/content/registry";
 import type { ContentPage, Locale } from "../src/content/types";
+import {
+  advancedGuideKeys,
+  audienceCopyKeys,
+  buyerTerminologyPattern,
+  editorialHubKeys,
+  internalEditorialCopyPatterns,
+} from "../src/lib/editorial-copy";
 import { absoluteUrl, buildPagePath } from "../src/lib/routing";
 import { siteConfig } from "../src/lib/site";
 
@@ -25,6 +32,14 @@ const removedLoserRoutes = [
   "/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace/",
   "/en/services/request-offer-delivery-system/",
 ] as const;
+const expectedHomepageAiPaths = {
+  cs: "/cs/sluzby/ai-automatizace-a-integrace/",
+  en: "/en/services/ai-automation-and-integrations/",
+} as const;
+const expectedContractPaths = {
+  cs: "/cs/spoluprace-na-kontrakt/",
+  en: "/en/contract-development-support/",
+} as const;
 
 const errors: string[] = [];
 
@@ -67,6 +82,14 @@ function normalizeText(value: string) {
     .normalize("NFC")
     .replace(/\s+/gu, " ")
     .trim();
+}
+
+function normalizeVisibleText(html: string) {
+  return normalizeText(
+    html
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, " ")
+      .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, " "),
+  );
 }
 
 function getTags(html: string, tagName: string) {
@@ -280,6 +303,53 @@ function validateP2ContentArtifacts(page: ContentPage, route: string, html: stri
       .filter((attributes) => attributes.get("type") === "checkbox" && attributes.get("data-tool-id") === page.translationKey);
     if (checkboxes.length !== expectedItems) {
       reportError(`${route} renders ${checkboxes.length} work-asset checkboxes; expected ${expectedItems}.`);
+    }
+  }
+}
+
+function validateEditorialContentArtifacts(page: ContentPage, route: string, html: string) {
+  const visibleText = normalizeVisibleText(html);
+
+  if (editorialHubKeys.has(page.translationKey)) {
+    const marker = internalEditorialCopyPatterns.find((pattern) => pattern.test(visibleText));
+    if (marker) {
+      reportError(`${route} renders internal editorial wording matching '${marker.source}'.`);
+    }
+  }
+
+  if (audienceCopyKeys.has(page.translationKey) && buyerTerminologyPattern.test(visibleText)) {
+    reportError(`${route} still renders buyer terminology in user-facing copy.`);
+  }
+
+  if (advancedGuideKeys.has(page.translationKey)) {
+    for (const audience of page.fit.for) {
+      if (!visibleText.includes(normalizeText(audience))) {
+        reportError(`${route} does not render its audience text '${audience}'.`);
+      }
+    }
+  }
+
+  const anchors = getTags(html, "a").map(parseAttributes);
+
+  if (page.pageType === "home") {
+    const featureLinks = anchors
+      .filter((attributes) => (attributes.get("class") ?? "").split(/\s+/).includes("home-service-card"))
+      .map((attributes) => attributes.get("href"));
+    const expectedPath = expectedHomepageAiPaths[page.locale];
+    if (featureLinks[3] !== expectedPath) {
+      reportError(`${route} fourth service card links to '${featureLinks[3] ?? "(missing)"}', expected '${expectedPath}'.`);
+    }
+  }
+
+  if (page.translationKey === "hub-services") {
+    const expectedPath = expectedContractPaths[page.locale];
+    const contractCards = anchors.filter(
+      (attributes) =>
+        (attributes.get("class") ?? "").split(/\s+/).includes("link-card") &&
+        attributes.get("href") === expectedPath,
+    );
+    if (contractCards.length !== 1) {
+      reportError(`${route} must render exactly one contract service card to '${expectedPath}'; found ${contractCards.length}.`);
     }
   }
 }
@@ -776,6 +846,7 @@ for (const page of pages) {
   validateMainLandmark(route, html);
   validateJsonLdSyntax(route, html);
   validateP2ContentArtifacts(page, route, html);
+  validateEditorialContentArtifacts(page, route, html);
 
   const actualHreflangs = readHreflangMap(route, html);
   const expectedAlternates = expectedHreflangs(page, pagesByTranslationKey);

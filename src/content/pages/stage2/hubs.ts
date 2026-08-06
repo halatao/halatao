@@ -55,8 +55,8 @@ function hub(seed: HubSeed): ContentPage {
         title: isCs ? "Kdy je tato sekce nejužitečnější" : "When this section is most useful",
         body: [
           isCs
-            ? "Tato sekce pomáhá buyerovi udělat lepší rozhodnutí dřív, než se projekt zbytečně rozběhne špatným směrem."
-            : "This section helps a buyer make a better decision before the project gathers momentum in the wrong direction.",
+            ? "Tato sekce pomáhá srovnat možnosti a udělat informovanější rozhodnutí dřív, než se projekt vydá špatným směrem."
+            : "This section helps teams compare the options and make a better decision before the project gathers momentum in the wrong direction.",
         ],
         bullets: seed.fit,
       },
@@ -64,8 +64,8 @@ function hub(seed: HubSeed): ContentPage {
         title: isCs ? "Jak navázat dál" : "How to continue",
         body: [
           isCs
-            ? "Začněte child page nejbližší aktuálnímu rozhodnutí a pak pokračujte na související service page, case study nebo inquiry."
-            : "Start with the child page closest to the current decision and then continue to the relevant service, case study, or inquiry path.",
+            ? "Vyberte téma nejbližší aktuálnímu rozhodnutí. U každého najdete související službu, praktický příklad nebo možnost probrat vlastní situaci."
+            : "Choose the topic closest to the current decision. Each one links to a relevant service, practical example, or a way to discuss your situation.",
         ],
         bullets: seed.decision,
       },
@@ -103,12 +103,12 @@ export const stage2HubPages: ContentPage[] = [
     breadcrumbLabel: "Srovnání pro chvíli, kdy potřebujete udělat rozumné dodavatelské nebo produktové rozhodnutí",
     description: "Přehled srovnávacích stránek pro build vs buy, kontraktor vs agentura, Next.js vs SPA a rewrite vs postupný rozvoj aplikace.",
     heroTitle: "Rozhodovací stránky pro chvíli, kdy nestačí obecný názor z internetu",
-    heroSubtitle: "Sekce pro buyery, kteří potřebují porovnat dvě realistické varianty a pochopit jejich dopad na delivery, náklady a provoz.",
+    heroSubtitle: "Sekce pro firmy a týmy, které potřebují porovnat dvě realistické varianty a pochopit jejich dopad na realizaci, náklady a provoz.",
     intro: [
-      "Comparison pages jsou psané pro reálná obchodní a delivery rozhodnutí, ne pro technologické flamewary.",
+      "Praktická srovnání jsou psaná pro reálná obchodní a projektová rozhodnutí, ne pro technologické spory bez kontextu.",
       "Pomáhají tam, kde je potřeba udělat build-vs-buy rozhodnutí, vybrat model spolupráce, zhodnotit architektonický směr nebo rozhodnout mezi rewrite a postupným rozvojem.",
     ],
-    overview: "Každá child page dává přímou odpověď, kdy je silnější varianta A, kdy varianta B, a podle čeho má buyer rozhodovat v reálném kontextu projektu.",
+    overview: "Každé srovnání přímo vysvětluje, kdy je silnější varianta A, kdy varianta B a podle čeho rozhodovat v reálném kontextu projektu.",
     fit: [
       "výběr mezi SaaS a vývojem na míru",
       "volba kontraktora nebo agentury",
@@ -118,12 +118,12 @@ export const stage2HubPages: ContentPage[] = [
     decision: [
       "otevřete srovnání, které dnes blokuje rozhodnutí",
       "použijte ho jako rámec pro interní debatu nebo budget",
-      "po rozhodnutí pokračujte na service page nebo inquiry",
+      "po rozhodnutí pokračujte na související službu nebo popis projektu",
     ],
     faq: [
       { question: "Jsou srovnání neutrální za každou cenu?", answer: "Ne. Jsou praktická a poctivě říkají, kdy která varianta dává větší smysl." },
       { question: "Mají smysl i pro netechnický management?", answer: "Ano. Jazyk je vedený hlavně přes provozní dopad, risk a economics, ne přes framework tribalismus." },
-      { question: "Vedou srovnání na další komerční krok?", answer: "Ano. Každá stránka vede na odpovídající služby, case studies nebo inquiry flow." },
+      { question: "Vedou srovnání na další praktický krok?", answer: "Ano. Každé srovnání odkazuje na odpovídající služby, praktické příklady a možnost popsat vlastní projekt." },
     ],
     related: [
       "comparison-custom-vs-saas",
@@ -138,15 +138,15 @@ export const stage2HubPages: ContentPage[] = [
     slug: "comparisons",
     segment: "comparisons",
     title: "Comparisons for software buying decisions",
-    breadcrumbLabel: "Comparison pages for buyers making a real software decision",
+    breadcrumbLabel: "Practical comparisons for real software decisions",
     description: "Decision pages covering custom vs SaaS, contract developer vs agency, Next.js vs SPA, and rewrite vs incremental improvement.",
     heroTitle: "Decision support when generic internet advice is not enough",
-    heroSubtitle: "For buyers who need to compare two realistic paths and understand the impact on delivery, cost, and operations.",
+    heroSubtitle: "For companies and teams comparing two realistic paths and their impact on delivery, cost, and operations.",
     intro: [
       "These pages are written for practical buying and delivery decisions rather than technical culture-war traffic.",
       "They help with build-vs-buy choices, supplier model evaluation, architecture direction, and the question of rewrite versus incremental improvement.",
     ],
-    overview: "Each child page gives a direct answer, shows where option A is stronger, where option B is stronger, and which criteria should shape the decision in a live project.",
+    overview: "Each comparison gives a direct answer, shows where option A is stronger, where option B is stronger, and which criteria should shape a live project decision.",
     fit: [
       "build-vs-buy decisions",
       "agency vs contract model evaluation",
@@ -156,12 +156,12 @@ export const stage2HubPages: ContentPage[] = [
     decision: [
       "open the comparison closest to the blocked decision",
       "use it as a frame for internal alignment or budget discussion",
-      "continue into the relevant service or inquiry path once direction is clearer",
+      "continue to the relevant service or describe the project once direction is clearer",
     ],
     faq: [
-      { question: "Are the comparison pages neutral at all costs?", answer: "No. They are practical and explicit about where each option is stronger." },
-      { question: "Are they useful for non-technical buyers too?", answer: "Yes. The framing is built around operational impact, risk, and economics rather than framework tribalism." },
-      { question: "Do they connect to commercial next steps?", answer: "Yes. Every page links onward to the relevant services, supporting content, and inquiry flow." },
+      { question: "Are the comparisons neutral at all costs?", answer: "No. They are practical and explicit about where each option is stronger." },
+      { question: "Are they useful for non-technical decision-makers too?", answer: "Yes. The framing is built around operational impact, risk, and economics rather than framework tribalism." },
+      { question: "Do they connect to practical next steps?", answer: "Yes. Every comparison links to the relevant services, supporting content, and a way to describe the project." },
     ],
     related: [
       "comparison-custom-vs-saas",
@@ -181,24 +181,24 @@ export const stage2HubPages: ContentPage[] = [
     heroTitle: "Příklady řešení jako rozhodovací pomůcka, ne galerie screenshotů",
     heroSubtitle: "Sekce pro firmy, které vědí, že potřebují systém, ale chtějí si lépe představit jeho správný tvar a první rozsah.",
     intro: [
-      "Use cases pomáhají buyerovi představit si typ řešení bez vymýšlení falešných referencí nebo přepálených claims.",
+      "Příklady řešení ukazují možný tvar systému bez vymýšlení falešných referencí nebo přehnaných slibů.",
       "Jsou nejužitečnější ve chvíli, kdy firma potřebuje systém, ale chce si ujasnit vhodný model aplikace, scope a návaznost na interní proces.",
     ],
     overview: "Najdete tu klientské portály, interní administrace, dashboardy, workflow aplikace i další reprezentativní scénáře podle problému, který mají řešit.",
     fit: [
-      "buyer hledá vhodný tvar řešení",
+      "firma hledá vhodný tvar řešení",
       "tým potřebuje interně srovnat scope nového systému",
       "firma si chce ujasnit, jaký typ aplikace bude nejlepší první krok",
     ],
     decision: [
-      "otevřete use case nejbližší cílovému workflow",
-      "pokračujte na odpovídající service page nebo case study",
-      "pokud už je řešení dost konkrétní, přejděte na inquiry",
+      "otevřete příklad nejbližší cílovému workflow",
+      "pokračujte na odpovídající službu nebo praktickou ukázku projektu",
+      "pokud už je řešení dost konkrétní, popište vlastní projekt",
     ],
     faq: [
-      { question: "Jsou use-case stránky konkrétní reference?", answer: "Ne. Jsou to reprezentativní modely typických řešení, které pomáhají buyerovi ujasnit scope a fit." },
-      { question: "Mohu podle use case rovnou poptat projekt?", answer: "Ano. Use cases jsou psané tak, aby fungovaly jako most mezi úvodní představou a konkrétním zadáním." },
-      { question: "Vedou use cases i na komerční další krok?", answer: "Ano. Každý use case odkazuje na relevantní služby a inquiry flow." },
+      { question: "Jsou tyto příklady konkrétní reference?", answer: "Ne. Jsou to reprezentativní modely typických řešení, které pomáhají ujasnit rozsah a vhodný směr." },
+      { question: "Mohu podle příkladu rovnou poptat projekt?", answer: "Ano. Příklady fungují jako most mezi úvodní představou a konkrétním zadáním." },
+      { question: "Vedou příklady i na další praktický krok?", answer: "Ano. Každý odkazuje na relevantní služby a možnost popsat vlastní projekt." },
     ],
     related: [
       "use-case-b2b-client-portal",
@@ -222,24 +222,24 @@ export const stage2HubPages: ContentPage[] = [
     heroTitle: "Representative solution shapes instead of fake product theatre",
     heroSubtitle: "Useful when the company knows it needs a system but wants to clarify the right application shape before detailed scoping.",
     intro: [
-      "Use-case pages help buyers picture the type of system they need without pretending to be named client showcases.",
+      "These examples help companies picture the type of system they need without pretending to be named client showcases.",
       "They are most useful when a team is clear on the problem but still wants to define the right model of application, first scope, and business fit.",
     ],
     overview: "The section covers client portals, internal admin systems, dashboards, approval systems, workflow applications, and AI-supported operating scenarios built around common business needs.",
     fit: [
-      "buyers exploring the right solution shape",
+      "companies exploring the right solution shape",
       "teams aligning internally on the likely scope of a new system",
       "companies comparing several types of business application before delivery starts",
     ],
     decision: [
       "open the use case closest to the target workflow",
-      "continue to the relevant service or case-study page",
-      "move to inquiry when the project shape is concrete enough to discuss",
+      "continue to the relevant service or practical project example",
+      "describe the project when its shape is concrete enough to discuss",
     ],
     faq: [
       { question: "Are these pages tied to named client work?", answer: "No. They are representative solution patterns designed to help with scoping and buying decisions." },
       { question: "Can they support internal alignment?", answer: "Yes. That is one of their main purposes." },
-      { question: "Do they connect into commercial next steps?", answer: "Yes. Every use case is linked back to relevant services and inquiry paths." },
+      { question: "Do they connect to practical next steps?", answer: "Yes. Every example links back to relevant services and a way to describe the project." },
     ],
     related: [
       "use-case-b2b-client-portal",
@@ -264,23 +264,23 @@ export const stage2HubPages: ContentPage[] = [
     heroSubtitle: "Sekce ukazuje reprezentativní scénáře podobných projektů, jejich výchozí situaci, zvolený přístup a typ změny, kterou mohou přinést.",
     intro: [
       "Případovky jsou záměrně anonymizované a nesnaží se nahrazovat poctivou argumentaci vymyšlenými výsledky nebo marketingovou nadsázkou.",
-      "Jsou nejcennější ve chvíli, kdy si buyer potřebuje ověřit, jak může podobný projekt vypadat v realistickém rámci a bez přikrášlení.",
+      "Jsou nejcennější ve chvíli, kdy si firma potřebuje ověřit, jak může podobný projekt vypadat v realistickém rámci a bez přikrášlení.",
     ],
     overview: "Najdete tu scénáře pro takeover existující aplikace, interní nástroj pro operativu a integraci několika systémů s velkým podílem ruční práce.",
     fit: [
-      "ověření podobného typu projektu bez fake proof layeru",
+      "ověření podobného typu projektu bez vymyšlených důkazů nebo metrik",
       "interní sdílení realistického delivery scénáře",
-      "buyer chce vidět, jak vypadá rozumný postup u podobné situace",
+      "firma chce vidět, jak vypadá rozumný postup u podobné situace",
     ],
     decision: [
       "otevřete scénář nejbližší vaší situaci",
-      "navazující service page nebo guide použijte pro konkrétní rozhodnutí",
-      "pokud je scénář blízko vašemu projektu, pokračujte na inquiry",
+      "pro konkrétní rozhodnutí navazujte související službou nebo průvodcem",
+      "pokud je scénář blízko vašemu projektu, popište vlastní situaci",
     ],
     faq: [
       { question: "Proč nejsou uvedená přesná čísla a jména klientů?", answer: "Nechci vymýšlet metriky ani porušovat důvěrnost. Důležitější je typ problému, přístup a forma změny." },
       { question: "Jsou případovky založené na reálných projektech?", answer: "Ano, ale v anonymizované a zobecněné podobě." },
-      { question: "Vedou případovky i na komerční další krok?", answer: "Ano. Každá odkazuje na relevantní službu, problem page nebo inquiry flow." },
+      { question: "Vedou případovky i na další praktický krok?", answer: "Ano. Každá odkazuje na relevantní službu, související problém a možnost popsat vlastní projekt." },
     ],
     related: [
       "case-study-existing-app-takeover",
@@ -300,23 +300,23 @@ export const stage2HubPages: ContentPage[] = [
     heroSubtitle: "This section shows the type of project situation, the delivery approach chosen, and the kind of change similar work can create.",
     intro: [
       "These case studies are intentionally anonymised and representative. They are designed to be useful rather than decorative.",
-      "They help when a buyer wants to see how similar situations are usually handled in practice without inflated proof claims.",
+      "They help companies see how similar situations are usually handled in practice without inflated proof claims.",
     ],
     overview: "The section covers inherited-app takeover, internal operations tooling, and multi-system integration scenarios with honest framing.",
     fit: [
-      "buyers validating a similar project pattern",
+      "companies validating a similar project pattern",
       "teams who need a realistic delivery narrative internally",
       "companies that want proof framing without fake metrics",
     ],
     decision: [
       "open the case study closest to your situation",
-      "use the linked service or guide page for the commercial next step",
-      "move to inquiry when the scenario feels close enough to discuss concretely",
+      "use the linked service or guide for the next concrete decision",
+      "describe your project when the scenario feels close enough to discuss concretely",
     ],
     faq: [
       { question: "Why are there no exact performance or revenue numbers?", answer: "Because the goal is honesty. The pages focus on real project shape, not invented precision." },
       { question: "Are these grounded in real work?", answer: "Yes, but presented in anonymised and representative form." },
-      { question: "Do they connect into commercial next steps?", answer: "Yes. Every page links onward to the relevant service and inquiry path." },
+      { question: "Do they connect to practical next steps?", answer: "Yes. Every case study links to the relevant service and a way to describe the project." },
     ],
     related: [
       "case-study-existing-app-takeover",
@@ -333,25 +333,25 @@ export const stage2HubPages: ContentPage[] = [
     breadcrumbLabel: "Průvodce pro firmy, které si chtějí lépe srovnat projekt před realizací",
     description: "Průvodci pro zadání webové aplikace, bezpečné převzetí aplikace, nacenění takeoveru, interní systém vs SaaS, AI ve firmě a potřebu seniorní kontraktní kapacity.",
     heroTitle: "Průvodce pro rozhodnutí před projektem, ne generický dev blog",
-    heroSubtitle: "Sekce pro buyery, kteří si chtějí lépe srovnat scope, takeover, build-vs-buy, AI fit nebo otázku externí seniorní kapacity ještě před realizací.",
+    heroSubtitle: "Sekce pro firmy a týmy, které si chtějí lépe srovnat rozsah, převzetí aplikace, vývoj oproti nákupu nebo využití AI ještě před realizací.",
     intro: [
-      "Guide pages pomáhají buyerovi udělat lepší první rozhodnutí a zkrátit cestu k rozumnému dalšímu kroku.",
+      "Průvodci pomáhají firmám udělat lepší první rozhodnutí a zkrátit cestu k rozumnému dalšímu kroku.",
       "Najdete tu průvodce pro zadání aplikace, takeover, pricing takeoveru, interní systém místo SaaS i posouzení, kdy ve firmě dává smysl AI a kdy je lepší začít jednodušší automatizací nebo úpravou workflow.",
     ],
     overview: "Obsah je strukturovaný kolem přímé odpovědi, doporučeného postupu, častých chyb a formy výsledku, který má podobné rozhodnutí přinést.",
     fit: [
       "firmy ve fázi před prvním větším rozhodnutím",
       "týmy, které si chtějí srovnat scope nebo takeover",
-      "buyery, kteří chtějí zlepšit kvalitu zadání a méně střílet naslepo",
+      "zadavatele, kteří chtějí zlepšit kvalitu zadání a méně střílet naslepo",
     ],
     decision: [
       "otevřete průvodce podle toho, co je právě nejasné",
-      "pokračujte na související service page nebo tool page",
-      "jakmile je rozhodnutí dost konkrétní, přejděte na inquiry",
+      "pokračujte na související službu nebo praktickou šablonu",
+      "jakmile je rozhodnutí dost konkrétní, popište vlastní projekt",
     ],
     faq: [
       { question: "Jsou průvodci určené i pro netechnické zadavatele?", answer: "Ano. Jsou psané hlavně pro business a delivery rozhodnutí, ne pro čistě technické publikum." },
-      { question: "Mají průvodci návaznost na komerční stránky?", answer: "Ano. Každý je propojený s relevantní službou, comparison page nebo tool page." },
+      { question: "Mají průvodci návaznost na další praktický krok?", answer: "Ano. Každý je propojený s relevantní službou, praktickým srovnáním nebo šablonou." },
       { question: "Mají smysl i u urgentních takeover situací?", answer: "Ano, hlavně takeover průvodci. Pomohou rychleji srovnat priority a formu první etapy." },
     ],
     related: [
@@ -372,21 +372,21 @@ export const stage2HubPages: ContentPage[] = [
     breadcrumbLabel: "Guides for companies clarifying a project before delivery starts",
     description: "Guides for scoping a custom web app, taking over an existing app safely, pricing takeover work, SaaS vs internal tooling, AI fit in business processes, and deciding on senior contract support.",
     heroTitle: "Guides for pre-project clarity, not generic developer-blog traffic",
-    heroSubtitle: "For buyers trying to clarify scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",
+    heroSubtitle: "For companies and teams clarifying scope, takeover, build-vs-buy, AI fit, or the need for senior contract capacity before delivery starts.",
     intro: [
-      "These guide pages are designed to improve the quality of early project decisions and reduce avoidable delivery confusion.",
+      "These guides are designed to improve the quality of early project decisions and reduce avoidable delivery confusion.",
       "The section covers project scoping, inherited-app takeover, takeover pricing, internal tool vs SaaS, and the question of when AI fits a business process versus when simpler automation or workflow changes should come first.",
     ],
     overview: "Each guide is organised around a direct answer, a recommended approach, common mistakes, and the kind of decision result the guide should create.",
     fit: [
-      "buyers preparing the first serious delivery phase",
+      "decision-makers preparing the first serious delivery phase",
       "teams clarifying scope or takeover decisions",
       "companies pressure-testing build-vs-buy or staffing choices",
     ],
     decision: [
       "open the guide that matches the current uncertainty",
       "continue into the linked service or template pages",
-      "move to inquiry once the decision is concrete enough to discuss directly",
+      "describe the project once the decision is concrete enough to discuss directly",
     ],
     faq: [
       { question: "Are these guides aimed only at technical teams?", answer: "No. They are written for commercial and delivery-side readers as much as for engineers." },

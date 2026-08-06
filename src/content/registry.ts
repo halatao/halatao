@@ -110,14 +110,25 @@ export function getSectionChildren(page: ContentPage) {
     return [];
   }
 
-  return allPages
+  const sectionChildren = allPages
     .filter(
       (candidate) =>
         candidate.locale === page.locale &&
         candidate.pageType !== "hub" &&
         candidate.segments.length > 1 &&
         candidate.segments[0] === page.segments[0],
-    )
+    );
+
+  const childIds = new Set(sectionChildren.map((candidate) => candidate.id));
+  const supplementalChildren = getRelatedPages(page).filter(
+    (candidate) =>
+      candidate.locale === page.locale &&
+      candidate.pageType !== "hub" &&
+      candidate.segments.length === 1 &&
+      !childIds.has(candidate.id),
+  );
+
+  return [...sectionChildren, ...supplementalChildren]
     .sort((left, right) => left.breadcrumbLabel.localeCompare(right.breadcrumbLabel, page.locale));
 }
 

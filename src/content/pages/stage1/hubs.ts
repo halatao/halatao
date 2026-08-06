@@ -55,8 +55,8 @@ function hub(seed: HubSeed): ContentPage {
         title: isCs ? "Kdy začít právě tady" : "When to start here",
         body: [
           isCs
-            ? "Tato sekce funguje jako komerční rozcestník. Pomůže vám vybrat správný typ spolupráce podle projektové situace, ne podle náhodného technologického štítku."
-            : "This section works as a commercial starting point. It helps you choose the right collaboration model based on the actual project situation rather than a loose technology label.",
+            ? "Začněte zde, pokud potřebujete rychle pojmenovat svou situaci a zjistit, jaký typ pomoci nebo dalšího postupu pro ni dává smysl."
+            : "Start here when you need to describe the current situation clearly and understand which type of help or next step fits it.",
         ],
         bullets: seed.fit,
       },
@@ -64,8 +64,8 @@ function hub(seed: HubSeed): ContentPage {
         title: isCs ? "Jak pokračovat dál" : "How to continue",
         body: [
           isCs
-            ? "Nejlepší další krok je otevřít stránku nejbližší aktuální situaci a odtud pokračovat do souvisejícího problému, srovnání nebo inquiry flow."
-            : "The best next move is to open the page closest to your current situation and then continue into the linked problem, comparison, or inquiry path.",
+            ? "Vyberte téma nejbližší tomu, co právě řešíte. U každého najdete praktické souvislosti i vhodný způsob, jak navázat."
+            : "Choose the topic closest to what you are dealing with now. Each one provides practical context and a sensible way to continue.",
         ],
         bullets: seed.decision,
       },
@@ -105,21 +105,21 @@ export const stage1HubPages: ContentPage[] = [
     heroTitle: "Vyberte službu podle projektové situace, ne podle buzzwordu",
     heroSubtitle: "Sekce pro firmy a týmy, které řeší nový vývoj, takeover, interní systém, automatizace nebo potřebu seniorní kontraktní kapacity.",
     intro: [
-      "Tato sekce je hlavní komerční vstup pro buyery, kteří už vědí, že řeší software projekt nebo delivery problém s reálným dopadem na firmu.",
-      "Najdete tu služby pro nový vývoj, převzetí existující aplikace, interní nástroje, systémy pro poptávky, nabídky a realizaci, automatizace a integrace i přímou kontraktní spolupráci uvnitř týmu.",
+      "Tady najdete pomoc pro nový vývoj, převzetí existující aplikace i zlepšení systému, který už firma používá.",
+      "Jednotlivé služby pokrývají webové aplikace, interní systémy, řízení poptávek a zakázek, automatizace, integrace, praktické využití AI i seniorní kontraktní spolupráci.",
     ],
-    overview: "Každá child page vysvětluje, kdy daná služba dává smysl, jaké typy zadání mívají dobrý fit, co typicky dodávám a jak vypadá rozumný další krok.",
+    overview: "U každé služby zjistíte, pro jakou situaci je vhodná, co spolupráce obvykle zahrnuje a jak může vypadat první smysluplná etapa.",
     fit: [
       "nový software pro důležitý proces",
-      "běžící aplikace po dodavateli nebo bez ownershipu",
+      "běžící aplikace po dodavateli nebo bez jasné technické odpovědnosti",
       "interní workflow a reporting, které už neudrží tabulky",
       "manuální práce a přepisování mezi několika systémy",
-      "projekt, kterému chybí seniorní technický ownership",
+      "projekt, kterému chybí seniorní technické vedení",
     ],
     decision: [
       "začněte službou nejbližší aktuální situaci",
-      "pokračujte na související problem page nebo comparison page",
-      "pokud už je fit jasný, přejděte rovnou na popis projektu",
+      "podle potřeby si projděte související problém nebo praktické srovnání",
+      "pokud už je vhodné zadání jasné, přejděte rovnou na popis projektu",
     ],
     faq: [
       { question: "Jak vybrat správnou službu?", answer: "Podle hlavního tlaku v projektu: nový build, takeover, interní systém, automatizace nebo doplnění seniorní kapacity do týmu." },
@@ -146,24 +146,24 @@ export const stage1HubPages: ContentPage[] = [
     heroTitle: "Choose the service by the delivery situation, not the buzzword",
     heroSubtitle: "A commercial overview for companies facing new product delivery, inherited-app risk, internal-tool needs, automation pressure, or the need for senior contract capacity.",
     intro: [
-      "This section is the main commercial entry point for buyers who already know they have a real software delivery problem or a project with operational weight.",
-      "It covers greenfield delivery, existing app takeover, internal tooling, systems for requests, offers, and delivery jobs, automations and integrations, and senior contract support inside an existing team.",
+      "This section covers help with new delivery, taking over an existing application, and improving software the company already relies on.",
+      "The services include custom web applications, internal systems, request and job management, automation, integrations, practical AI use, and senior contract support.",
     ],
-    overview: "Each child page explains where the service fits, which kinds of projects are a strong match, what the work typically includes, and what the next sensible step should be.",
+    overview: "Each service explains the situations it fits, what the collaboration usually includes, and what a sensible first phase can look like.",
     fit: [
       "new business-critical software",
       "running applications after a supplier or team change",
       "internal workflows that outgrew spreadsheets and inboxes",
       "manual cross-system work slowing operations down",
-      "projects missing senior technical ownership",
+      "projects missing senior technical leadership",
     ],
     decision: [
       "start with the service closest to the current situation",
-      "follow into the linked problem or comparison pages",
-      "move to inquiry once the project fit is clear enough to discuss",
+      "use the related problem guidance or practical comparison when useful",
+      "describe the project once the right direction is clear enough to discuss",
     ],
     faq: [
-      { question: "How should I choose the right service page?", answer: "Start with the strongest source of delivery pressure: new build, inherited app, internal tool, automation, or embedded senior contract support." },
+      { question: "How should I choose the right service?", answer: "Start with the strongest source of delivery pressure: new build, inherited app, internal tool, automation, or embedded senior contract support." },
       { question: "Can several service models combine?", answer: "Yes. Takeover often leads into structured improvement, internal tools often overlap with integrations, and contract support can complement both." },
       { question: "Is contract support part of the same offer?", answer: "Yes. It is a defined delivery model for teams that need direct senior capacity inside their existing setup." },
     ],
@@ -187,25 +187,25 @@ export const stage1HubPages: ContentPage[] = [
     heroTitle: "Začněte podle problému, ne podle technologie",
     heroSubtitle: "Sekce pro chvíli, kdy ještě není jasné, jaký model spolupráce nebo řešení bude správný, ale tlak v projektu už je zřejmý.",
     intro: [
-      "Problem pages pomáhají buyerovi nejdřív pojmenovat situaci a riziko, teprve potom vybírat konkrétní službu nebo technický směr.",
+      "Tato sekce pomáhá nejdřív pojmenovat situaci, její příznaky a provozní rizika. Teprve potom má smysl vybírat konkrétní službu nebo technický směr.",
       "Najdete tu běžné situace kolem převzetí aplikace, interního systému, integrací, chybějící seniorní kapacity, klientského portálu i záchrany rozdělaného projektu.",
     ],
-    overview: "Každá child page popisuje typické symptomy, proč je rizikové nic nedělat, jak poznat dobrý fit a jaký první krok obvykle dává smysl.",
+    overview: "U každé situace najdete typické příznaky, rizika dalšího odkládání a první krok, který obvykle pomůže získat lepší přehled.",
     fit: [
       "situace, kde je nejprve potřeba srovnat problém",
       "projekty s nejasným delivery modelem",
       "firmy řešící kombinaci technického a provozního tlaku",
-      "buyery, kteří potřebují lepší rámec před budgetem nebo scopem",
+      "vedení a zadavatele, kteří potřebují lepší rámec před rozpočtem nebo vymezením rozsahu",
     ],
     decision: [
       "otevřete problém nejbližší aktuální realitě",
-      "z něj pokračujte na odpovídající service page nebo guide",
+      "navazujte odpovídající službou nebo praktickým návodem",
       "pokud je situace dost konkrétní, přejděte na popis projektu",
     ],
     faq: [
       { question: "Je lepší začít problémovou nebo službovou stránkou?", answer: "Pokud si nejste jistí správným modelem spolupráce, problémová stránka bývá lepší start než služba." },
-      { question: "Jsou tyto stránky jen SEO rozcestník?", answer: "Ne. Jsou psané jako rozhodovací obsah pro reálné delivery situace a vedou dál na konkrétní komerční další krok." },
-      { question: "Vedou problémové stránky i na služby a inquiry?", answer: "Ano. Každá je propojená s nejbližší službou, relevantním průvodcem a inquiry flow." },
+      { question: "K čemu tento přehled slouží?", answer: "Pomáhá pojmenovat reálnou projektovou situaci a vybrat vhodný další krok bez předčasného rozhodnutí o technologii." },
+      { question: "Najdu odsud také vhodnou službu nebo návod?", answer: "Ano. Každé téma navazuje na nejbližší službu, relevantního průvodce a možnost popsat vlastní projekt." },
     ],
     related: [
       "problem-app-takeover",
@@ -227,25 +227,25 @@ export const stage1HubPages: ContentPage[] = [
     heroTitle: "Start from the problem shape, not the implementation label",
     heroSubtitle: "Useful when the delivery model is still unclear but the pressure inside the project is already real.",
     intro: [
-      "These pages help buyers describe the situation and risk first, and only then choose the right service or technical direction.",
+      "This section helps teams describe the situation, its symptoms, and its operational risks before choosing a service or technical direction.",
       "The section covers inherited applications, internal tools, integrations, missing senior capacity, client portals, slow products, and incomplete projects that need to be rescued.",
     ],
-    overview: "Each child page explains the main symptoms, the cost of leaving the situation alone, what a strong fit looks like, and which next step usually makes sense.",
+    overview: "Each topic explains the main symptoms, the risk of leaving the situation unresolved, and the first step that usually brings useful clarity.",
     fit: [
       "teams that need to frame the problem before choosing a supplier model",
       "projects where the delivery path is still unclear",
-      "buyers dealing with both technical and operational pressure",
+      "leaders and teams dealing with both technical and operational pressure",
       "companies trying to improve the decision frame before budget or scope",
     ],
     decision: [
-      "open the problem page closest to current reality",
-      "follow into the linked service or guide pages",
-      "move to inquiry when the situation is concrete enough to discuss directly",
+      "open the topic closest to current reality",
+      "continue with the relevant service or practical guide",
+      "describe the project when the situation is concrete enough to discuss directly",
     ],
     faq: [
       { question: "Should I start here or on the services section?", answer: "Start here when the problem is clearer than the preferred delivery model." },
-      { question: "Are these pages only an SEO index?", answer: "No. They are written as real decision support for delivery buyers and connect directly to the commercial next step." },
-      { question: "Do the problem pages lead into services and inquiry?", answer: "Yes. Each one is wired into the relevant service, guide, and inquiry flow." },
+      { question: "What is this overview for?", answer: "It helps frame a real delivery situation and choose a sensible next step without committing to a technology too early." },
+      { question: "Can I continue to a relevant service or guide?", answer: "Yes. Each topic links to the closest service, practical guide, and a way to describe your project." },
     ],
     related: [
       "problem-app-takeover",

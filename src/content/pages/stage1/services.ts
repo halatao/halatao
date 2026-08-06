@@ -491,7 +491,7 @@ export const servicePages: ContentPage[] = [
     fitFor: [
       "firmy s opakovanou administrativní nebo textovou agendou",
       "procesy, kde AI dává smysl jako vrstva nad systémem nebo workflow",
-      "buyery, kteří chtějí praktické využití AI místo hype implementace",
+      "firmy, které chtějí praktické využití AI místo hype implementace",
     ],
     fitNot: [
       "AI projekt bez jasného use case a ownera procesu",
@@ -555,7 +555,7 @@ export const servicePages: ContentPage[] = [
     fitFor: [
       "companies with recurring text-heavy or admin-heavy operations",
       "processes where AI extends an internal tool or workflow",
-      "buyers who want practical AI, not theatre",
+      "companies that want practical AI, not theatre",
     ],
     fitNot: [
       "AI projects with no use case or process owner",
