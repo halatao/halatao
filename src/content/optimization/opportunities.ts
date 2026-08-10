@@ -425,7 +425,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs",
     rationale: "Primary Czech money page. It should be continuously tuned against the strongest buyer-intent queries and Search Console snippets.",
     triggerSignals: ["High impressions but weak homepage CTR", "Broad service-intent queries landing on homepage", "Inquiry conversion weaker than service pages"],
-    supportingLinks: ["/cs/sluzby", "/cs/popsat-projekt"],
+    supportingLinks: ["/cs/sluzby", "/cs/kontakt"],
   }),
   candidate({
     id: "rewrite-en-home",
@@ -449,7 +449,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru",
     rationale: "Core Czech service page for commercial demand capture.",
     triggerSignals: ["Money-term impressions rise", "CTR underperforms service cluster average", "Clicks do not reach inquiry"],
-    supportingLinks: ["/cs/popsat-projekt", "/cs/srovnani/vyvoj-na-miru-vs-saas"],
+    supportingLinks: ["/cs/kontakt", "/cs/srovnani/vyvoj-na-miru-vs-saas"],
   }),
   candidate({
     id: "rewrite-en-custom-app-service",
@@ -473,7 +473,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace",
     rationale: "One of the strongest conversion pages for takeover/rescue demand.",
     triggerSignals: ["Takeover impressions rise", "Rescue queries land here with low CTR", "Users click but stall before inquiry"],
-    supportingLinks: ["/cs/popsat-projekt", "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika"],
+    supportingLinks: ["/cs/kontakt", "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika"],
   }),
   candidate({
     id: "rewrite-en-takeover-service",
@@ -497,7 +497,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/sluzby/automatizace-a-integrace",
     rationale: "Strong commercial landing flow with clear revenue-adjacent buyer intent.",
     triggerSignals: ["Integration/automation impressions rise", "Low CTR from API or workflow queries", "Clicks fail to reach inquiry"],
-    supportingLinks: ["/cs/sablony/discovery-checklist-pro-automatizace", "/cs/popsat-projekt"],
+    supportingLinks: ["/cs/sablony/discovery-checklist-pro-automatizace", "/cs/kontakt"],
   }),
   candidate({
     id: "rewrite-cs-app-takeover-problem",
@@ -509,7 +509,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci",
     rationale: "A strong entry page for problem-shaped takeover demand that should route into the commercial path faster.",
     triggerSignals: ["Problem-intent impressions rise", "Weak CTR on takeover problem terms", "Service page gets stronger conversion than problem page"],
-    supportingLinks: ["/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace", "/cs/popsat-projekt"],
+    supportingLinks: ["/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace", "/cs/kontakt"],
   }),
   candidate({
     id: "rewrite-cs-custom-vs-saas",
@@ -521,7 +521,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/srovnani/vyvoj-na-miru-vs-saas",
     rationale: "Top comparison page with high potential to create mid-funnel commercial demand.",
     triggerSignals: ["Comparison impressions rise", "CTR problem on build-vs-buy queries", "Clicks do not route into services"],
-    supportingLinks: ["/cs/sluzby/vyvoj-webovych-aplikaci-na-miru", "/cs/popsat-projekt"],
+    supportingLinks: ["/cs/sluzby/vyvoj-webovych-aplikaci-na-miru", "/cs/kontakt"],
   }),
   candidate({
     id: "rewrite-cs-inquiry",
@@ -530,7 +530,7 @@ export const REWRITE_CANDIDATES: ContentOpportunityCandidate[] = [
     clusterId: "assess_project_fit",
     priority: "HIGH_PRIORITY_MONEY",
     targetAction: "REWRITE_EXISTING",
-    currentPath: "/cs/popsat-projekt",
+    currentPath: "/cs/kontakt",
     rationale: "Critical conversion page. Messaging should track the highest-performing commercial entry paths.",
     triggerSignals: ["Clicks rise across money pages but inquiry conversion lags", "Contract-support traffic stalls before submit", "Mismatch between landing-page promise and inquiry framing"],
     supportingLinks: ["/cs", "/cs/jak-spoluprace-probiha"],
@@ -596,7 +596,7 @@ export const EXPANSION_CANDIDATES: ContentOpportunityCandidate[] = [
     currentPath: "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace",
     rationale: "Likely winner for broad but still commercial guide intent.",
     triggerSignals: ["Guide impressions rise", "Users ask scope / MVP / brief-related questions", "Templates need stronger parent page support"],
-    supportingLinks: ["/cs/sablony/brief-na-webovou-aplikaci", "/cs/popsat-projekt"],
+    supportingLinks: ["/cs/sablony/brief-na-webovou-aplikaci", "/cs/kontakt"],
   }),
   candidate({
     id: "expand-en-guide-takeover-pricing",
@@ -611,14 +611,14 @@ export const EXPANSION_CANDIDATES: ContentOpportunityCandidate[] = [
     supportingLinks: ["/en/services/existing-app-takeover", "/en/templates/app-takeover-checklist"],
   }),
   candidate({
-    id: "expand-cs-b2b-portal-usecase",
+    id: "expand-cs-client-portal-usecase",
     candidateType: "expand",
     locale: "cs",
     clusterId: "b2b_portal_use_case",
     priority: "MEDIUM_CLUSTER_EXPANSION",
     targetAction: "EXPAND_EXISTING",
-    currentPath: "/cs/priklady/b2b-klientsky-portal",
-    rationale: "Likely to collect high-intent portal traffic if query variants start clustering.",
+    currentPath: "/cs/priklady/klientsky-portal",
+    rationale: "Canonical client-portal use case can collect adjacent B2B variants without splitting intent across near-duplicate pages.",
     triggerSignals: ["Portal impressions rise", "Need more supporting scenarios", "Problem page and use-case page begin to share query family"],
     supportingLinks: ["/cs/sluzby/vyvoj-webovych-aplikaci-na-miru", "/cs/problemy/potrebujeme-klientsky-portal"],
   }),
@@ -1032,18 +1032,6 @@ export const CONSOLIDATION_CANDIDATES: ContentOpportunityCandidate[] = [
     triggerSignals: ["Identical English query family for two assets", "No clear difference in click-through or commercial progression"],
     supportingLinks: ["/en/templates/automation-discovery-checklist", "/en/services/automations-and-integrations"],
   }),
-  candidate({
-    id: "watch-en-management-dashboard-usecase",
-    candidateType: "consolidate",
-    locale: "en",
-    clusterId: "reporting_dashboard_use_case",
-    priority: "MERGE_OR_PRUNE",
-    targetAction: "MERGE_INTO_HUB",
-    currentPath: "/en/use-cases/management-dashboard",
-    rationale: "Keep only if it builds a real business-intent cluster rather than broad BI/reporting traffic.",
-    triggerSignals: ["Broad dashboard traffic with weak leads", "Low query distinctiveness compared to hub and internal-tools pages"],
-    supportingLinks: ["/en/use-cases", "/en/services/internal-tools-development"],
-  }),
 ];
 
 export const INITIAL_AUDIT_NOTES: ContentAuditNote[] = [
@@ -1119,7 +1107,7 @@ export const INITIAL_AUDIT_NOTES: ContentAuditNote[] = [
     notes: ["Trust-building process page. Review whether it supports money pages and inquiry flow rather than acting as a dead-end informational stop."],
   },
   {
-    pagePath: "/cs/popsat-projekt",
+    pagePath: "/cs/kontakt",
     locale: "cs",
     contentStatus: "core",
     optimizationPriority: "HIGH_PRIORITY_MONEY",

@@ -56,7 +56,7 @@ export default function NotFound() {
                       služeb. Pro poptávku nebo technický kontext můžete rovnou popsat situaci.
                     </p>
                     <div className="hero-actions">
-                      <Link className="button button-secondary" href="/cs/popsat-projekt/">
+                      <Link className="button button-secondary" href="/cs/kontakt/">
                         Popsat situaci
                       </Link>
                       <Link className="button button-secondary" href="/en/services/">

@@ -79,7 +79,7 @@ function hub(seed: HubSeed): ContentPage {
     cta: isCs
       ? {
           label: "Popsat situaci",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Pokud už řešíte podobné rozhodnutí v reálném projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {
@@ -201,9 +201,9 @@ export const stage2HubPages: ContentPage[] = [
       { question: "Vedou příklady i na další praktický krok?", answer: "Ano. Každý odkazuje na relevantní služby a možnost popsat vlastní projekt." },
     ],
     related: [
-      "use-case-b2b-client-portal",
+      "use-case-client-portal",
       "use-case-internal-admin-system",
-      "use-case-management-dashboard",
+      "use-case-reporting-dashboard",
       "use-case-workflow-app-for-teams",
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",
@@ -242,9 +242,9 @@ export const stage2HubPages: ContentPage[] = [
       { question: "Do they connect to practical next steps?", answer: "Yes. Every example links back to relevant services and a way to describe the project." },
     ],
     related: [
-      "use-case-b2b-client-portal",
+      "use-case-client-portal",
       "use-case-internal-admin-system",
-      "use-case-management-dashboard",
+      "use-case-reporting-dashboard",
       "use-case-workflow-app-for-teams",
       "use-case-workflow-automation-tools",
       "use-case-ai-internal-documents",

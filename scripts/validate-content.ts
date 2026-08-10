@@ -1,31 +1,27 @@
-import { getAllPages, getMigrationSummary, getSectionChildren } from "../src/content/registry";
+import { getAllPages, getMigrationSummary } from "../src/content/registry";
 import { homepageFeaturePaths } from "../src/lib/navigation";
 
 const pages = getAllPages();
 const summary = getMigrationSummary();
 
-const expectedAiPaths = {
-  cs: "/cs/sluzby/ai-automatizace-a-integrace/",
-  en: "/en/services/ai-automation-and-integrations/",
+const expectedHomepageFeaturePaths = {
+  cs: [
+    "/cs/sluzby/tvorba-webovych-stranek/",
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+    "/cs/sluzby/automatizace-a-integrace/",
+  ],
+  en: [
+    "/en/services/company-website-development/",
+    "/en/services/custom-web-application-development/",
+    "/en/services/automations-and-integrations/",
+  ],
 } as const;
 
 for (const locale of ["cs", "en"] as const) {
-  if (homepageFeaturePaths[locale][3] !== expectedAiPaths[locale]) {
-    throw new Error(`Homepage ${locale} AI feature must link to ${expectedAiPaths[locale]}.`);
-  }
-
-  const serviceHub = pages.find(
-    (page) => page.translationKey === "hub-services" && page.locale === locale,
-  );
-  if (!serviceHub) {
-    throw new Error(`Missing ${locale} services hub.`);
-  }
-
-  const contractCards = getSectionChildren(serviceHub).filter(
-    (page) => page.translationKey === "contract-support",
-  );
-  if (contractCards.length !== 1) {
-    throw new Error(`Services hub ${serviceHub.id} must render contract-support exactly once.`);
+  const actualFeaturePaths = homepageFeaturePaths[locale];
+  const expectedFeaturePaths = expectedHomepageFeaturePaths[locale];
+  if (actualFeaturePaths.length !== expectedFeaturePaths.length || actualFeaturePaths.some((path, index) => path !== expectedFeaturePaths[index])) {
+    throw new Error(`Homepage ${locale} feature paths do not match the three primary services.`);
   }
 }
 

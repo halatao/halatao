@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "canonicalOrigin": "https://www.halatao.cz",
-  "generatedRuleCount": 641,
+  "generatedRuleCount": 668,
   "rules": {
     "/": {
       "target": "/cs/",
@@ -22,7 +22,7 @@
       "category": "legacy"
     },
     "/automatizace/dekuji.html": {
-      "target": "/cs/popsat-projekt/dekuji/",
+      "target": "/cs/kontakt/dekuji/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
@@ -35,6 +35,18 @@
     },
     "/cs": {
       "target": "/cs/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/audit-automatizace": {
+      "target": "/cs/audit-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/audit-automatizace/index.html": {
+      "target": "/cs/audit-automatizace/",
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
@@ -53,6 +65,30 @@
     },
     "/cs/jak-spoluprace-probiha/index.html": {
       "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/kontakt": {
+      "target": "/cs/kontakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/kontakt/dekuji": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/kontakt/dekuji/index.html": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/kontakt/index.html": {
+      "target": "/cs/kontakt/",
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
@@ -177,29 +213,53 @@
       "query": "preserve",
       "category": "canonicalization"
     },
-    "/cs/popsat-projekt": {
-      "target": "/cs/popsat-projekt/",
+    "/cs/o-mne": {
+      "target": "/cs/o-mne/",
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/cs/o-mne/index.html": {
+      "target": "/cs/o-mne/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/popsat-projekt": {
+      "target": "/cs/kontakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
+    },
+    "/cs/popsat-projekt/": {
+      "target": "/cs/kontakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/cs/popsat-projekt/dekuji": {
-      "target": "/cs/popsat-projekt/dekuji/",
+      "target": "/cs/kontakt/dekuji/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/cs/popsat-projekt/dekuji/": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/cs/popsat-projekt/dekuji/index.html": {
-      "target": "/cs/popsat-projekt/dekuji/",
+      "target": "/cs/kontakt/dekuji/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/cs/popsat-projekt/index.html": {
-      "target": "/cs/popsat-projekt/",
+      "target": "/cs/kontakt/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/cs/priklady": {
       "target": "/cs/priklady/",
@@ -232,28 +292,40 @@
       "category": "canonicalization"
     },
     "/cs/priklady/b2b-klientsky-portal": {
-      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "target": "/cs/priklady/klientsky-portal/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/cs/priklady/b2b-klientsky-portal/": {
+      "target": "/cs/priklady/klientsky-portal/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/cs/priklady/b2b-klientsky-portal/index.html": {
-      "target": "/cs/priklady/b2b-klientsky-portal/",
+      "target": "/cs/priklady/klientsky-portal/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/cs/priklady/dashboard-pro-management": {
-      "target": "/cs/priklady/dashboard-pro-management/",
+      "target": "/cs/priklady/reporting-dashboard/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/cs/priklady/dashboard-pro-management/": {
+      "target": "/cs/priklady/reporting-dashboard/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/cs/priklady/dashboard-pro-management/index.html": {
-      "target": "/cs/priklady/dashboard-pro-management/",
+      "target": "/cs/priklady/reporting-dashboard/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/cs/priklady/index.html": {
       "target": "/cs/priklady/",
@@ -879,6 +951,18 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/reference": {
+      "target": "/cs/reference/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/reference/index.html": {
+      "target": "/cs/reference/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
     "/cs/sablony": {
       "target": "/cs/sablony/",
       "status": 308,
@@ -982,16 +1066,22 @@
       "category": "canonicalization"
     },
     "/cs/sluzby/ai-automatizace-a-integrace": {
-      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "target": "/cs/sluzby/automatizace-a-integrace/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/cs/sluzby/ai-automatizace-a-integrace/": {
+      "target": "/cs/sluzby/automatizace-a-integrace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/cs/sluzby/ai-automatizace-a-integrace/index.html": {
-      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
+      "target": "/cs/sluzby/automatizace-a-integrace/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/cs/sluzby/automatizace-a-integrace": {
       "target": "/cs/sluzby/automatizace-a-integrace/",
@@ -1064,6 +1154,18 @@
       "status": 308,
       "query": "preserve",
       "category": "content-merge"
+    },
+    "/cs/sluzby/tvorba-webovych-stranek": {
+      "target": "/cs/sluzby/tvorba-webovych-stranek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/cs/sluzby/tvorba-webovych-stranek/index.html": {
+      "target": "/cs/sluzby/tvorba-webovych-stranek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
     },
     "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru": {
       "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
@@ -1251,6 +1353,24 @@
       "query": "preserve",
       "category": "legacy"
     },
+    "/cz/audit-automatizace": {
+      "target": "/cs/audit-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/audit-automatizace/": {
+      "target": "/cs/audit-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/audit-automatizace/index.html": {
+      "target": "/cs/audit-automatizace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cz/index.html": {
       "target": "/cs/",
       "status": 308,
@@ -1271,6 +1391,42 @@
     },
     "/cz/jak-spoluprace-probiha/index.html": {
       "target": "/cs/jak-spoluprace-probiha/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt": {
+      "target": "/cs/kontakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt/": {
+      "target": "/cs/kontakt/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt/dekuji": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt/dekuji/": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt/dekuji/index.html": {
+      "target": "/cs/kontakt/dekuji/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/kontakt/index.html": {
+      "target": "/cs/kontakt/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
@@ -1347,38 +1503,20 @@
       "query": "preserve",
       "category": "legacy"
     },
-    "/cz/popsat-projekt": {
-      "target": "/cs/popsat-projekt/",
+    "/cz/o-mne": {
+      "target": "/cs/o-mne/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
     },
-    "/cz/popsat-projekt/": {
-      "target": "/cs/popsat-projekt/",
+    "/cz/o-mne/": {
+      "target": "/cs/o-mne/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
     },
-    "/cz/popsat-projekt/dekuji": {
-      "target": "/cs/popsat-projekt/dekuji/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/popsat-projekt/dekuji/": {
-      "target": "/cs/popsat-projekt/dekuji/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/popsat-projekt/dekuji/index.html": {
-      "target": "/cs/popsat-projekt/dekuji/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/popsat-projekt/index.html": {
-      "target": "/cs/popsat-projekt/",
+    "/cz/o-mne/index.html": {
+      "target": "/cs/o-mne/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
@@ -1427,42 +1565,6 @@
     },
     "/cz/priklady/ai-zpracovani-prichozi-agendy/index.html": {
       "target": "/cs/priklady/ai-zpracovani-prichozi-agendy/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/b2b-klientsky-portal": {
-      "target": "/cs/priklady/b2b-klientsky-portal/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/b2b-klientsky-portal/": {
-      "target": "/cs/priklady/b2b-klientsky-portal/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/b2b-klientsky-portal/index.html": {
-      "target": "/cs/priklady/b2b-klientsky-portal/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/dashboard-pro-management": {
-      "target": "/cs/priklady/dashboard-pro-management/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/dashboard-pro-management/": {
-      "target": "/cs/priklady/dashboard-pro-management/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/priklady/dashboard-pro-management/index.html": {
-      "target": "/cs/priklady/dashboard-pro-management/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
@@ -2265,6 +2367,24 @@
       "query": "preserve",
       "category": "legacy"
     },
+    "/cz/reference": {
+      "target": "/cs/reference/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/reference/": {
+      "target": "/cs/reference/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/reference/index.html": {
+      "target": "/cs/reference/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cz/sablony": {
       "target": "/cs/sablony/",
       "status": 308,
@@ -2421,24 +2541,6 @@
       "query": "preserve",
       "category": "legacy"
     },
-    "/cz/sluzby/ai-automatizace-a-integrace": {
-      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/sluzby/ai-automatizace-a-integrace/": {
-      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
-    "/cz/sluzby/ai-automatizace-a-integrace/index.html": {
-      "target": "/cs/sluzby/ai-automatizace-a-integrace/",
-      "status": 308,
-      "query": "preserve",
-      "category": "legacy"
-    },
     "/cz/sluzby/automatizace-a-integrace": {
       "target": "/cs/sluzby/automatizace-a-integrace/",
       "status": 308,
@@ -2513,6 +2615,24 @@
     },
     "/cz/sluzby/system-pro-rizeni-poptavek-a-zakazek/index.html": {
       "target": "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/tvorba-webovych-stranek": {
+      "target": "/cs/sluzby/tvorba-webovych-stranek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/tvorba-webovych-stranek/": {
+      "target": "/cs/sluzby/tvorba-webovych-stranek/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cz/sluzby/tvorba-webovych-stranek/index.html": {
+      "target": "/cs/sluzby/tvorba-webovych-stranek/",
       "status": 308,
       "query": "preserve",
       "category": "legacy"
@@ -3333,6 +3453,18 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/en/references": {
+      "target": "/en/references/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/references/index.html": {
+      "target": "/en/references/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
     "/en/services": {
       "target": "/en/services/",
       "status": 308,
@@ -3358,16 +3490,22 @@
       "category": "legacy"
     },
     "/en/services/ai-automation-and-integrations": {
-      "target": "/en/services/ai-automation-and-integrations/",
+      "target": "/en/services/automations-and-integrations/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/en/services/ai-automation-and-integrations/": {
+      "target": "/en/services/automations-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/en/services/ai-automation-and-integrations/index.html": {
-      "target": "/en/services/ai-automation-and-integrations/",
+      "target": "/en/services/automations-and-integrations/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/en/services/automations-and-integrations": {
       "target": "/en/services/automations-and-integrations/",
@@ -3377,6 +3515,18 @@
     },
     "/en/services/automations-and-integrations/index.html": {
       "target": "/en/services/automations-and-integrations/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/company-website-development": {
+      "target": "/en/services/company-website-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "canonicalization"
+    },
+    "/en/services/company-website-development/index.html": {
+      "target": "/en/services/company-website-development/",
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
@@ -3676,16 +3826,22 @@
       "category": "canonicalization"
     },
     "/en/use-cases/b2b-client-portal": {
-      "target": "/en/use-cases/b2b-client-portal/",
+      "target": "/en/use-cases/client-portal-development/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/en/use-cases/b2b-client-portal/": {
+      "target": "/en/use-cases/client-portal-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/en/use-cases/b2b-client-portal/index.html": {
-      "target": "/en/use-cases/b2b-client-portal/",
+      "target": "/en/use-cases/client-portal-development/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/en/use-cases/client-portal-development": {
       "target": "/en/use-cases/client-portal-development/",
@@ -3730,16 +3886,22 @@
       "category": "canonicalization"
     },
     "/en/use-cases/management-dashboard": {
-      "target": "/en/use-cases/management-dashboard/",
+      "target": "/en/use-cases/reporting-dashboard-development/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
+    },
+    "/en/use-cases/management-dashboard/": {
+      "target": "/en/use-cases/reporting-dashboard-development/",
+      "status": 308,
+      "query": "preserve",
+      "category": "content-merge"
     },
     "/en/use-cases/management-dashboard/index.html": {
-      "target": "/en/use-cases/management-dashboard/",
+      "target": "/en/use-cases/reporting-dashboard-development/",
       "status": 308,
       "query": "preserve",
-      "category": "canonicalization"
+      "category": "content-merge"
     },
     "/en/use-cases/operations-system-for-a-service-team": {
       "target": "/en/use-cases/operations-system-for-a-service-team/",

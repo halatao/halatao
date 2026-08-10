@@ -1,10 +1,12 @@
 // Safe to edit manually: central content registry and lookup helpers.
 
 import { corePages } from "@/content/pages/stage1/core";
+import { auditPages } from "@/content/pages/stage1/audit";
 import { stage1HubPages } from "@/content/pages/stage1/hubs";
 import { problemPages } from "@/content/pages/stage1/problems";
 import { growthProblemPages } from "@/content/pages/stage1/problems-growth";
 import { servicePages } from "@/content/pages/stage1/services";
+import { referencePages } from "@/content/pages/stage1/references";
 import { caseStudyPages } from "@/content/pages/stage2/case-studies";
 import { comparisonPages } from "@/content/pages/stage2/comparisons";
 import { guidePages } from "@/content/pages/stage2/guides";
@@ -25,8 +27,10 @@ import { buildLocalizedPath, buildPagePath } from "@/lib/routing";
 
 const allPages = [
   ...corePages,
+  ...auditPages,
   ...stage1HubPages,
   ...servicePages,
+  ...referencePages,
   ...problemPages,
   ...growthProblemPages,
   ...stage2HubPages,

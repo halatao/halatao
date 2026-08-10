@@ -15,7 +15,7 @@ export function SiteFrame({
 }) {
   const isStandaloneLanding =
     locale === "cs" &&
-    page.translationKey === "service-automations-and-integrations";
+    page.translationKey === "automation-audit";
 
   if (isStandaloneLanding) {
     return <>{children}</>;

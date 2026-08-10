@@ -87,7 +87,7 @@ function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
     cta: isCs
       ? {
           label: "Probrat podobné zadání",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Stačí krátce popsat proces, role a co dnes nefunguje. Navrhnu rozumný další krok.",
         }
       : {
@@ -101,7 +101,7 @@ function defineGrowthUseCasePage(seed: UseCaseSeed): ContentPage {
   });
 }
 
-export const growthUseCasePages: ContentPage[] = [
+const growthUseCasePageDefinitions: ContentPage[] = [
   defineGrowthUseCasePage({
     translationKey: "use-case-b2b-partner-portal",
     locale: "cs",
@@ -139,7 +139,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Musí portál od začátku řešit všechny scénáře spolupráce?", answer: "Nemusí. Lepší je začít několika nejčastějšími interakcemi, které odlehčí podporu a zpřehlední provoz." },
       { question: "Lze portál napojit na stávající interní systémy?", answer: "Ano. Právě vazba na interní data a workflow je pro podobný projekt klíčová." },
     ],
-    related: ["service-custom-web-app-development", "use-case-b2b-client-portal", "problem-client-portal", "inquiry"],
+    related: ["service-custom-web-app-development", "use-case-client-portal", "problem-client-portal", "inquiry"],
     fitFor: ["B2B firmy s opakovanou spoluprací s partnery", "týmy, které chtějí snížit servisní overhead kolem partnerů", "situace, kde má portál jasnou vazbu na interní proces a data"],
     fitNot: ["jednoduchá prezentační sekce pro partnery bez workflow", "portál bez návaznosti na interní systém", "projekty bez ownera partnerského procesu"],
   }),
@@ -180,7 +180,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Musí systém od začátku pokrýt všechny typy případů?", answer: "Nemusí. Často dává smysl začít jedním typem workflow nebo jednou provozně nejbolestivější oblastí." },
       { question: "Lze ho propojit s dalšími firemními nástroji?", answer: "Ano. U servisní operativy bývá návaznost na další systémy často důležitá pro rychlost i spolehlivost procesu." },
     ],
-    related: ["service-internal-tools-development", "service-ai-automation-and-integrations", "use-case-ai-intake-triage", "use-case-workflow-automation-tools", "problem-replace-spreadsheets-in-process", "inquiry"],
+    related: ["service-internal-tools-development", "service-automations-and-integrations", "use-case-ai-intake-triage", "use-case-workflow-automation-tools", "problem-replace-spreadsheets-in-process", "inquiry"],
     fitFor: ["servisní nebo provozní týmy s opakovaným workflow", "firmy, které chtějí zkrátit ruční koordinaci a zlepšit dohled", "procesy s více rolemi, termíny a výjimkami"],
     fitNot: ["jednoduchá evidence bez návazného workflow", "projekty bez ownera servisního procesu", "situace, kde jde jen o kosmetický redesign bez provozní změny"],
   }),
@@ -221,7 +221,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Lze portál napojit na stávající interní systém?", answer: "Ano. Právě návaznost na interní data a workflow je pro podobný projekt klíčová." },
       { question: "Je portál vhodný i bez interní administrace?", answer: "Většinou ne. Dobře fungující portál bývá navázaný na rozumné backoffice rozhraní." },
     ],
-    related: ["service-custom-web-app-development", "problem-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
+    related: ["service-custom-web-app-development", "problem-client-portal", "use-case-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
     fitFor: ["B2B firmy s opakovanou klientskou komunikací", "služby a provozy s dokumenty, stavy a samoobsluhou", "týmy, které chtějí snížit support overhead"],
     fitNot: ["jednorázová prezentační microsite", "portál bez návaznosti na interní data", "projekty bez jasného provozního use case"],
   }),
@@ -311,10 +311,10 @@ export const growthUseCasePages: ContentPage[] = [
     translationKey: "use-case-workflow-app-for-teams",
     locale: "cs",
     slug: "workflow-aplikace-pro-tym",
-    title: "Automatizace týmového workflow a procesů | Bc. Ondřej Halata",
-    breadcrumbLabel: "Automatizace týmového procesu místo ruční koordinace",
-    description: "Příklad aplikace pro automatizaci workflow, opakovaných stavů, rolí a návazných kroků tam, kde dnes proces drží tabulky, chaty a ruční dohledávání.",
-    primaryQuery: "automatizace workflow",
+    title: "Workflow aplikace pro tým | Role, stavy a návazné kroky",
+    breadcrumbLabel: "Workflow aplikace pro tým",
+    description: "Příklad workflow aplikace pro tým s rolemi, stavy, termíny a návaznými kroky tam, kde proces dnes drží tabulky, chaty a ruční dohledávání.",
+    primaryQuery: "workflow aplikace pro tým",
     heroTitle: "Jeden řízený proces místo přeposílání, tabulek a ručního dohledávání",
     heroSubtitle: "Pro týmy, kde se stejný proces opakuje stále dokola a dnes je příliš závislý na ruční koordinaci.",
     intro: [
@@ -344,7 +344,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Dá se spustit jen pro jednu část procesu?", answer: "Ano. To bývá často nejrozumnější první krok." },
       { question: "Lze kombinovat workflow aplikaci a automatizace?", answer: "Ano. V praxi se tyto dvě vrstvy často doplňují." },
     ],
-    related: ["service-internal-tools-development", "service-automations-and-integrations", "service-ai-automation-and-integrations", "use-case-workflow-automation-tools", "inquiry"],
+    related: ["service-internal-tools-development", "service-automations-and-integrations", "use-case-workflow-automation-tools", "inquiry"],
     fitFor: ["týmy s opakovaným multi-step procesem", "provozy s více rolemi a výjimkami", "firmy, které chtějí zkrátit průchod a zlepšit dohled"],
     fitNot: ["jednoduchý seznam úkolů bez workflow", "proces bez jasných stavů a odpovědností", "projekty bez ochoty popsat skutečný provoz"],
   }),
@@ -385,7 +385,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Can it connect to an existing internal system?", answer: "Yes. In most cases the portal is only valuable if it is grounded in internal workflow and data." },
       { question: "Do we also need an admin side?", answer: "Usually yes. A useful portal normally depends on a sensible internal operating layer as well." },
     ],
-    related: ["service-custom-web-app-development", "problem-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
+    related: ["service-custom-web-app-development", "problem-client-portal", "use-case-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
     fitFor: ["B2B companies with repeated client communication", "services with document and status handling", "teams that want to reduce support cost through self-service"],
     fitNot: ["one-off brochure sites", "a portal with no internal data connection", "projects with no operational use case behind them"],
   }),
@@ -508,7 +508,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Can this start with only one part of the process?", answer: "Yes. That is often the most sensible first step." },
       { question: "Can it combine with automation work?", answer: "Yes. In practice the application and automation layers often reinforce each other." },
     ],
-    related: ["service-internal-tools-development", "service-automations-and-integrations", "service-ai-automation-and-integrations", "use-case-workflow-automation-tools", "inquiry"],
+    related: ["service-internal-tools-development", "service-automations-and-integrations", "use-case-workflow-automation-tools", "inquiry"],
     fitFor: ["teams with repeatable multi-step operations", "business processes with several roles and exception paths", "buyers trying to shorten cycle time and improve control"],
     fitNot: ["simple task lists with no workflow logic", "processes with no clear states or ownership", "projects with no willingness to describe the real operating model"],
   }),
@@ -549,7 +549,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Does the portal need to cover every partner scenario from day one?", answer: "No. It is usually better to start with the few interactions that reduce support load and improve clarity fastest." },
       { question: "Can the portal connect to existing internal systems?", answer: "Yes. The link to internal data and workflow is usually what makes the portal genuinely useful." },
     ],
-    related: ["service-custom-web-app-development", "use-case-b2b-client-portal", "problem-client-portal", "inquiry"],
+    related: ["service-custom-web-app-development", "use-case-client-portal", "problem-client-portal", "inquiry"],
     fitFor: ["B2B companies working with recurring partner interactions", "teams trying to reduce support overhead around partners", "situations where the portal clearly connects to internal process and data"],
     fitNot: ["simple presentation-only partner areas", "portals with no connection to internal systems", "projects with no owner for the partner workflow"],
   }),
@@ -590,7 +590,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Does the system need to cover every case type from day one?", answer: "No. It is often better to start with one workflow or the most painful operational area first." },
       { question: "Can it connect to the rest of the company stack?", answer: "Yes. For service operations that integration is often important to speed and reliability." },
     ],
-    related: ["service-internal-tools-development", "service-ai-automation-and-integrations", "use-case-ai-intake-triage", "use-case-workflow-automation-tools", "problem-replace-spreadsheets-in-process", "inquiry"],
+    related: ["service-internal-tools-development", "service-automations-and-integrations", "use-case-ai-intake-triage", "use-case-workflow-automation-tools", "problem-replace-spreadsheets-in-process", "inquiry"],
     fitFor: ["service or operations teams with recurring workflow", "companies trying to reduce manual coordination and improve visibility", "processes with several roles, deadlines, and exception paths"],
     fitNot: ["simple tracking with no real workflow", "projects with no owner of the service process", "cosmetic redesigns with no operational change"],
   }),
@@ -634,7 +634,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Nahradí to zkušené lidi v týmu?", answer: "Ne. Cílem je zkrátit dohledávání a snížit rutinní závislost na konkrétních lidech, ne nahradit jejich know-how." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
+      "service-automations-and-integrations",
       "service-internal-tools-development",
       "problem-ai-in-business-process",
       "guide-when-ai-integration-makes-sense",
@@ -692,7 +692,7 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Does this replace experienced people?", answer: "No. The goal is to reduce repetitive lookup work and dependency on manual knowledge transfer, not to replace team expertise." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
+      "service-automations-and-integrations",
       "service-internal-tools-development",
       "problem-ai-in-business-process",
       "guide-when-ai-integration-makes-sense",
@@ -750,7 +750,6 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Lze to napojit na existující systémy?", answer: "Ano. Právě návaznost na ticketing, CRM, interní systém nebo další workflow bývá klíčová pro reálný přínos." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
       "service-automations-and-integrations",
       "problem-ai-in-business-process",
       "guide-when-ai-integration-makes-sense",
@@ -808,7 +807,6 @@ export const growthUseCasePages: ContentPage[] = [
       { question: "Can this connect to current systems?", answer: "Yes. The integration with ticketing, CRM, internal tools, or the rest of the workflow is usually what makes the solution actually valuable." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
       "service-automations-and-integrations",
       "problem-ai-in-business-process",
       "guide-when-ai-integration-makes-sense",
@@ -893,7 +891,7 @@ export const growthUseCasePages: ContentPage[] = [
       { label: "Nechat si podobný systém navrhnout a vytvořit", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
       { label: "Připravit automatizaci zpracování poptávek krok za krokem", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
       { label: "Poznat rizika řízení procesu v Excelu a e-mailu", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
-      { label: "Popsat podobný use case", href: "/cs/popsat-projekt/" },
+      { label: "Popsat podobný use case", href: "/cs/kontakt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",
@@ -974,3 +972,12 @@ export const growthUseCasePages: ContentPage[] = [
     ],
   }),
 ];
+
+const consolidatedUseCaseKeys = new Set([
+  "use-case-b2b-client-portal",
+  "use-case-management-dashboard",
+]);
+
+export const growthUseCasePages = growthUseCasePageDefinitions.filter(
+  (page) => !consolidatedUseCaseKeys.has(page.translationKey),
+);

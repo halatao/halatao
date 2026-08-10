@@ -22,6 +22,12 @@ function home(locale: Locale, input: {
   engagementBullets: string[];
   faq: FAQItem[];
   related: string[];
+  sections?: ContentPage["sections"];
+  heroEyebrow?: string;
+  heroPrimaryCta?: ContentPage["hero"]["primaryCta"];
+  heroSecondaryCta?: ContentPage["hero"]["secondaryCta"];
+  cta?: ContentPage["cta"];
+  note?: string;
 }): ContentPage {
   const isCs = locale === "cs";
   return definePage({
@@ -34,17 +40,17 @@ function home(locale: Locale, input: {
     title: input.title,
     breadcrumbLabel: input.breadcrumbLabel,
     description: input.description,
-    primaryQuery: isCs ? "webové aplikace na míru" : "custom web applications",
+    primaryQuery: isCs ? "Ondřej Halata weby aplikace automatizace" : "custom web applications",
     intent: "commercial",
     hero: {
-      eyebrow: "Bc. Ondřej Halata",
+      eyebrow: input.heroEyebrow ?? "Bc. Ondřej Halata",
       title: input.heroTitle,
       subtitle: input.heroSubtitle,
-      primaryCta: { label: isCs ? "Popsat situaci" : "Describe situation", href: buildInquiryHref(locale) },
-      secondaryCta: { label: isCs ? "Domluvit úvodní schůzku" : "Book an intro call", href: "https://calendly.com/ondrej-halata/30min" },
+      primaryCta: input.heroPrimaryCta ?? { label: isCs ? "Popsat situaci" : "Describe situation", href: buildInquiryHref(locale) },
+      secondaryCta: input.heroSecondaryCta ?? { label: isCs ? "Domluvit úvodní schůzku" : "Book an intro call", href: "https://calendly.com/ondrej-halata/30min" },
     },
     intro: input.intro,
-    sections: [
+    sections: input.sections ?? [
       { title: isCs ? "S čím pomohu" : "What I help with", body: isCs ? [
         "Některé firmy potřebují nový web nebo aplikaci. Jiné potřebují zjednodušit existující systém, propojit nástroje nebo omezit ruční práci.",
       ] : [
@@ -82,12 +88,13 @@ function home(locale: Locale, input: {
         ? ["náborové dotazy a job hledání", "obecné firemní weby bez aplikace", "projekty postavené jen na nejnižší ceně"]
         : ["recruiter outreach", "generic brochure websites", "lowest-cost-only projects"],
     },
-    cta: isCs
-      ? { label: "Popsat situaci", href: "/cs/popsat-projekt", note: "Stačí stručně popsat situaci. Ozvu se s návrhem dalšího postupu." }
-      : { label: "Describe situation", href: "/en/discuss-your-project", note: "A short description is enough. I will suggest next steps and whether the collaboration makes sense." },
+    cta: input.cta ?? (isCs
+      ? { label: "Popsat situaci", href: "/cs/kontakt", note: "Stačí stručně popsat situaci. Ozvu se s návrhem dalšího postupu." }
+      : { label: "Describe situation", href: "/en/discuss-your-project", note: "A short description is enough. I will suggest next steps and whether the collaboration makes sense." }),
     seo: { title: input.title, description: input.description },
     schema: { includeProfessionalService: true, includePerson: true, includeWebSite: true, includeFaq: true },
     indexable: true,
+    note: input.note,
   });
 }
 
@@ -141,7 +148,7 @@ function simplePage(locale: Locale, input: {
     related: input.related,
     fit: { for: input.fitFor, notFor: input.fitNot },
     cta: isCs
-      ? { label: "Popsat situaci", href: "/cs/popsat-projekt", note: "Stačí základní kontext. Ozvu se s realistickým dalším krokem." }
+      ? { label: "Popsat situaci", href: "/cs/kontakt", note: "Stačí základní kontext. Ozvu se s realistickým dalším krokem." }
       : { label: "Describe situation", href: "/en/discuss-your-project", note: "A short project summary is enough to start the conversation." },
     seo: { title: input.title, description: input.description },
     schema: { includeFaq: input.faq.length > 0 },
@@ -151,17 +158,51 @@ function simplePage(locale: Locale, input: {
 
 export const corePages: ContentPage[] = [
   home("cs", {
-    title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
-    breadcrumbLabel: "Webové aplikace na míru pro firemní procesy",
-    description: "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
-    heroTitle: "Vyvíjím weby, aplikace a automatizace pro firmy.",
-    heroSubtitle: "Pomáhám firmám zjednodušit práci, propojit systémy a rozvíjet software, který používají každý den.",
+    title: "Webové aplikace, firemní weby a automatizace | Ondřej Halata",
+    breadcrumbLabel: "Firemní weby, aplikace a automatizace",
+    description: "Navrhuji a dodávám firemní weby, webové aplikace a automatizace, které firmám usnadňují prodej, správu důležitých procesů a každodenní práci.",
+    heroTitle: "Weby, aplikace a automatizace, které firmě usnadní práci.",
+    heroSubtitle: "Pomáhám firmám srozumitelně představit nabídku, dostat pořádek do důležitých procesů a omezit ruční práci mezi používanými nástroji. Projekt řešíte přímo se mnou od návrhu po spuštění.",
+    heroPrimaryCta: { label: "Popsat projekt", href: "/cs/kontakt/" },
+    heroSecondaryCta: { label: "Domluvit úvodní schůzku", href: "https://calendly.com/ondrej-halata/30min" },
+    note: "Vlastní i klientské projekty řeším od návrhu až po uvedení do provozu.",
     intro: [
-      "Jsem Ondřej Halata, vývojář webových aplikací a interních systémů. Pomáhám firmám navrhnout nové řešení, převzít existující aplikaci nebo zautomatizovat proces, který dnes zabírá zbytečně moc času.",
-      "Do projektů vstupuji jako technický partner pro konkrétní situaci systému, technického směru nebo realizace. Řeším strukturu, kód, provoz i praktické dopady na práci lidí, kteří systém používají.",
-      "Pracuji jak na vlastních a přímých klientských projektech, tak kontraktorsky v týmech firem a software housů.",
+      "Pracuji na webových aplikacích, interních systémech a komerčním softwaru. Vedle vlastních a přímých klientských projektů mám zkušenost s vývojem a údržbou existujících codebase, školením uživatelů, provozem a spoluprací napříč technickými i netechnickými rolemi.",
+      "Řeším frontend, backend, databáze, API, Linux, Docker a cloudový provoz. AI používám při analýzách i implementaci, ale výsledné změny kontroluji v kontextu architektury, dat a požadovaného chování.",
+      "Projekt mohu dodat samostatně. Pokud rozsah vyžaduje další role, umím zapojit ověřeného vývojáře nebo projektové řízení a zůstat odpovědný za technickou část.",
     ],
-    services: ["Nový web nebo aplikace", "Rozvoj a stabilizace", "Integrace dat, nástrojů a systémů", "Automatizace a praktické zapojení AI"],
+    services: ["Webové stránky", "Aplikace a systémy", "Automatizace"],
+    sections: [
+      {
+        title: "Vyberte podle toho, co dnes řešíte.",
+        body: ["Každá služba začíná konkrétní situací ve firmě. Vyberte oblast, která je vaší situaci nejblíž, nebo mi ji rovnou popište."],
+        bullets: ["Webové stránky", "Aplikace a systémy", "Automatizace"],
+      },
+      {
+        title: "Různé typy práce, stejná odpovědnost za výsledek.",
+        body: ["Veřejné ukázky zahrnují firemní weby, AI aplikaci, CRM i marketplace. Každý projekt vznikal s jiným cílem, ale vždy s důrazem na to, aby byl pro uživatele srozumitelný a fungoval v provozu."],
+      },
+      {
+        title: "Poptávky, nabídky a zakázky bez tabulek a dohledávání.",
+        body: ["Když obchod a realizace pracují nad stejnou zakázkou v několika nástrojích, navrhnu společnou evidenci, jasné stavy a návaznost dalších kroků."],
+      },
+      {
+        title: "Jak spolupráce obvykle probíhá.",
+        body: ["Nemusíte mít hotové technické zadání. Cílem prvního kontaktu je pochopit situaci a určit nejbližší rozumný krok."],
+        bullets: [
+          "Pochopím situaci: co dnes funguje, kde se ztrácí čas a čeho má projekt dosáhnout.",
+          "Navrhnu rozsah: vymezíme první celek, který má praktický přínos a nepřidává zbytečnou složitost.",
+          "Dodám a spustím: řešení průběžně ověřujeme, dokončíme a připravím je pro běžný provoz.",
+        ],
+      },
+      {
+        title: "Projekt neodevzdávám přes prostředníka.",
+        body: [
+          "Jsem Ondřej Halata, full-stack vývojář. Vlastní i klientské projekty řeším od návrhu po provoz a vedle samostatných dodávek mám zkušenost s komerčním softwarem, existujícími codebase i spoluprací v týmech.",
+          "AI používám při analýze a implementaci, ale každou změnu procházím v kontextu dat, architektury a očekávaného chování. Výstup musí fungovat i mimo demonstraci.",
+        ],
+      },
+    ],
     fit: ["firma potřebuje vlastní aplikaci pro důležitý proces", "existující systém je potřeba převzít, zjednodušit nebo dál rozvíjet", "integrace mezi systémy začínají být kritické", "tým potřebuje seniorní technickou kapacitu pro konkrétní část projektu"],
     process: ["pochopení kontextu, cílů a omezení projektu", "návrh konkrétního postupu a první etapy", "zapojení do vývoje samostatně nebo v týmu", "průběžné rozhodování podle reality projektu"],
     outcomes: ["jasnější technický směr a další kroky", "použitelná první verze nebo stabilnější existující systém", "méně ruční práce a méně ad hoc řešení", "lepší návaznost mezi procesem, daty a aplikací"],
@@ -187,13 +228,15 @@ export const corePages: ContentPage[] = [
       "možnost pokračovat dlouhodobě, pokud dává spolupráce smysl",
     ],
     faq: [
-      { question: "Je spolupráce vhodná i pro firmy, které už mají vlastní tým?", answer: "Ano. Mohu převzít samostatný workstream, doplnit seniorní kapacitu nebo fungovat jako kontraktor uvnitř existujícího týmu." },
-      { question: "Dává smysl ozvat se, když zatím nevíme přesný rozsah?", answer: "Ano. Právě tehdy má smysl nejdřív zmapovat situaci, rizika a první rozumný krok místo velkého odhadu naslepo." },
-      { question: "Řešíte spíš nové projekty, nebo existující aplikace?", answer: "Obojí. U nových projektů pomáhám s návrhem první verze, datovým modelem, rolemi uživatelů a návazností na proces. U existujících aplikací řeším převzetí, stabilizaci, zjednodušení a další rozvoj." },
-      { question: "Nejsem si jistý, jestli potřebuji web, aplikaci nebo automatizaci. Má smysl se ozvat?", answer: "Ano. Často stačí krátce popsat situaci, co dnes řešíte ručně, v tabulkách nebo v nevyhovujícím systému. Podle toho navrhnu, jestli dává smysl menší úprava, nový web, interní aplikace, automatizace nebo nejdřív krátká analýza." },
+      { question: "Má smysl se ozvat, když ještě nemáme hotové zadání?", answer: "Ano. Stačí popsat současnou situaci, kdo bude řešení používat a co má být po dokončení jednodušší nebo možné. Z toho lze navrhnout další krok a první rozsah." },
+      { question: "Dodáváte projekt opravdu sám?", answer: "U menších a středních projektů obvykle ano: od návrhu přes vývoj až po nasazení. Pokud rozsah vyžaduje více kapacity nebo specializaci, domluvíme složení malého týmu předem." },
+      { question: "Pracujete i na existujících aplikacích?", answer: "Ano. Mohu aplikaci převzít, zmapovat její rizika, stabilizovat kritická místa a navázat dalším vývojem bez automatického tlaku na celkový přepis." },
+      { question: "Používáte při vývoji AI?", answer: "Ano, jako nástroj pro analýzu, implementaci a kontrolu variant. Vygenerovaný kód ani technická rozhodnutí nepřebírám bez kontroly; ověřuji je proti zadání, testům a fungování zbytku aplikace." },
+      { question: "Budeme závislí na vašem hostingu nebo vlastním systému?", answer: "Ne. Preferuji řešení, která lze předat včetně zdrojového kódu a provozovat na účtech klienta nebo přestěhovat k jinému dodavateli." },
     ],
     related: [
       "service-custom-web-app-development",
+      "service-company-websites",
       "service-existing-app-takeover",
       "comparison-custom-vs-saas",
       "guide-how-to-scope-a-custom-web-application",
@@ -201,6 +244,11 @@ export const corePages: ContentPage[] = [
       "problem-app-takeover",
       "inquiry",
     ],
+    cta: {
+      label: "Popsat projekt",
+      href: "/cs/kontakt/",
+      note: "Stačí několik vět o současném stavu a cílovém výsledku. Ozvu se s konkrétní reakcí a návrhem dalšího kroku.",
+    },
   }),
   home("en", {
     title: "Web applications for business-critical processes | Bc. Ondřej Halata",
@@ -213,7 +261,7 @@ export const corePages: ContentPage[] = [
       "I join projects as a technical partner for a specific system, situation or delivery need. I work with structure, code, operations and the practical impact on people who use the system.",
       "I work on direct client and own projects, as well as contractor-based cooperation inside company and software house teams.",
     ],
-    services: ["New website or application", "Improvement and stabilization", "Data, tool and system integrations", "Automation and practical AI use"],
+    services: ["Custom applications and internal systems", "Existing application takeover and development", "Automation and system integrations"],
     fit: ["the company needs a dedicated application for an important process", "an existing system needs to be taken over, simplified, or improved", "integrations between systems are becoming critical", "the team needs senior technical capacity for a specific part of the project"],
     process: ["understand project context, goals, and constraints", "define the next step and first meaningful phase", "work independently or as part of the team", "adjust decisions based on real project needs"],
     outcomes: ["clearer technical direction and next steps", "a usable first version or a more stable existing system", "less manual work and fewer ad hoc fixes", "better alignment between process, data, and application"],
@@ -316,36 +364,6 @@ export const corePages: ContentPage[] = [
     fitFor: ["new projects and inherited-app situations", "buyers who want visible progress and practical decisions", "teams that need senior technical judgement"],
     fitNot: ["projects with no decision-maker", "work with no willingness to prioritise", "anonymous commodity staffing requests"],
   }),
-  simplePage("cs", {
-    translationKey: "inquiry",
-    pageType: "inquiry",
-    slug: "popsat-projekt",
-    segments: ["popsat-projekt"],
-    title: "Popsat situaci | Bc. Ondřej Halata",
-    breadcrumbLabel: "Popsat situaci a probrat další krok",
-    description: "Pošlete stručný kontext projektu, aplikace nebo procesu. Ozvu se s návrhem dalšího kroku a s realistickým zhodnocením fitu.",
-    primaryQuery: "popsat projekt",
-    heroTitle: "Popište stručně, co potřebujete vyřešit",
-    heroSubtitle: "Nemusíte mít hotové zadání. Stačí pár vět o tom, co dnes nefunguje, co chcete změnit a jaký výsledek očekáváte.",
-    intro: [
-      "Napište klidně jen stručně, co dnes nefunguje, čeho se to týká a co by se mělo změnit.",
-      "Podle toho navrhnu další rozumný krok. Může to být menší úprava, nový web, aplikace, automatizace, převzetí existujícího řešení nebo krátká technická analýza.",
-    ],
-    sections: [
-      { title: "Co je užitečné poslat", body: ["Čím konkrétnější kontext, tím přesněji lze určit další krok."], bullets: ["stručný popis situace", "cílový výsledek projektu", "časový tlak nebo důležité omezení", "informace o existující aplikaci nebo procesech"] },
-      { title: "Jak odpovídám", body: ["Typicky navrhnu, zda dává smysl krátké úvodní volání, takeover audit, scope workshop nebo rovnou první implementační etapa."] },
-      { title: "Kdy je spolupráce vhodná", body: ["Silný fit bývá u firemních aplikací, interních nástrojů, takeover projektů a automatizačních situací s reálným provozním dopadem."] },
-    ],
-    faq: [
-      { question: "Mohu napsat i bez detailního zadání?", answer: "Ano. Stačí stručně popsat situaci, co dnes nefunguje a jaký výsledek očekáváte. Pokud bude potřeba, doptám se na detaily." },
-      { question: "Řešíte i urgentní takeover nebo stabilizaci?", answer: "Ano, ale u existujících systémů je nejdřív potřeba rychle pochopit stav, rizika a priority. Podle toho navrhnu první rozumný krok." },
-      { question: "Je možné domluvit rovnou termín hovoru?", answer: "Ano. Pokud je pro vás rychlejší krátký hovor, můžete si naplánovat úvodní schůzku nebo mi nejdřív poslat stručný kontext." },
-      { question: "Co když nakonec projekt nebude fit?", answer: "Řeknu to rovnou. Pokud spolupráce nebude dávat smysl, nebudu proces zbytečně natahovat." },
-    ],
-    related: ["process-delivery", "service-custom-web-app-development", "service-existing-app-takeover", "service-internal-tools-development", "service-automations-and-integrations"],
-    fitFor: ["nový web, aplikace nebo interní systém", "úpravy a rozvoj existujícího řešení", "automatizace ruční práce nebo propojení nástrojů", "převzetí, stabilizace nebo technické posouzení systému"],
-    fitNot: ["čistě šablonové weby bez individuálního zadání", "jednorázové drobnosti bez širšího kontextu", "projekty bez jasného cíle nebo vlastníka"],
-  }),
   simplePage("en", {
     translationKey: "inquiry",
     pageType: "inquiry",
@@ -444,7 +462,7 @@ export const corePages: ContentPage[] = [
     translationKey: "thank-you",
     pageType: "inquiry",
     slug: "dekuji",
-    segments: ["popsat-projekt", "dekuji"],
+    segments: ["kontakt", "dekuji"],
     title: "Děkuji, zprávu mám | Bc. Ondřej Halata",
     breadcrumbLabel: "Děkuji, zprávu mám.",
     description: "Potvrzení odeslání popisu situace s informací, že navrhnu další rozumný krok a případně se doptám na potřebné detaily.",
@@ -491,5 +509,105 @@ export const corePages: ContentPage[] = [
     fitFor: ["companies that already sent project context", "buyers who want to book the first call immediately"],
     fitNot: ["indexable landing use"],
     indexable: false,
+  }),
+  definePage({
+    translationKey: "about",
+    translationAvailability: "optional",
+    stage: 1,
+    locale: "cs",
+    pageType: "about",
+    slug: "o-mne",
+    segments: ["o-mne"],
+    title: "O mně | Full-stack vývojář pro weby, aplikace a automatizace | Ondřej Halata",
+    breadcrumbLabel: "O mně",
+    description: "Poznejte Ondřeje Halatu, full-stack vývojáře pro firemní weby, aplikace a automatizace. Projekty řeší od návrhu a vývoje až po uvedení do provozu.",
+    primaryQuery: "full-stack vývojář Ondřej Halata",
+    intent: "commercial",
+    hero: {
+      eyebrow: "O mně",
+      title: "Jsem Ondřej Halata, full-stack vývojář.",
+      subtitle: "Navrhuji, vyvíjím a provozuji firemní weby, aplikace a automatizace. Pracuji přímo s klienty i jako součást vývojových týmů.",
+      primaryCta: { label: "Popsat projekt", href: "/cs/kontakt/" },
+      secondaryCta: { label: "Domluvit úvodní schůzku", href: "https://calendly.com/ondrej-halata/30min" },
+    },
+    intro: [
+      "Vlastní a klientské projekty stavím od nuly: od struktury a prvního návrhu přes frontend, backend a data až po nasazení a běžný provoz.",
+      "Vedle samostatných dodávek mám zkušenost s komerčními aplikacemi, interními systémy a existujícími codebase. Řešil jsem databáze, migrace, provozní problémy, školení i komunikaci s lidmi, kteří software skutečně používají.",
+    ],
+    sections: [
+      {
+        title: "Vývoj v celém kontextu projektu",
+        body: ["Nejsem zaměřený jen na jednu vrstvu aplikace. Potřebuji rozumět tomu, proč řešení vzniká, kdo s ním bude pracovat, jaká data zpracovává a co bude potřeba pro jeho spolehlivý provoz."],
+        bullets: ["návrh produktu a uživatelských cest", "frontend, backend, databáze a integrace", "Linux, Docker, cloudové nasazení a provoz"],
+      },
+      {
+        title: "Projekty, za kterými stojím",
+        body: ["Veřejné reference níže jsem navrhl, realizoval a uvedl do provozu. Ukazují různé části mé práce: vlastní digitální produkt, CRM pro konkrétní obor i marketplace s uživateli, nabídkami a správou obsahu."],
+      },
+      {
+        title: "AI používám při práci, ne místo kontroly",
+        body: ["AI mi pomáhá při analýze, návrhu i implementaci a používám ji také při tvorbě vlastních nástrojů. Každou změnu ale procházím v kontextu zadání, dat, architektury a očekávaného chování produktu."],
+        bullets: ["rychleji připravím a porovnám možné varianty", "kontroluji změny před jejich zařazením do projektu", "za výsledné řešení a jeho chování odpovídám já"],
+      },
+    ],
+    faq: [],
+    related: ["references", "service-company-websites", "service-custom-web-app-development", "inquiry"],
+    fit: {
+      for: ["firmy, které hledají přímého technického partnera", "projekty, kde je důležitý návrh i vlastní realizace", "týmy, které potřebují převzít vymezenou technickou oblast"],
+      notFor: ["anonymní poptávky bez kontextu", "projekty postavené pouze na nejnižší ceně"],
+    },
+    cta: { label: "Popsat projekt", href: "/cs/kontakt/", note: "Stačí krátce popsat současnou situaci a očekávaný výsledek." },
+    seo: {
+      title: "O mně | Full-stack vývojář pro weby, aplikace a automatizace | Ondřej Halata",
+      description: "Poznejte Ondřeje Halatu, full-stack vývojáře pro firemní weby, aplikace a automatizace. Projekty řeší od návrhu a vývoje až po uvedení do provozu.",
+    },
+    schema: { includePerson: true, includeProfessionalService: true },
+    indexable: true,
+  }),
+  definePage({
+    translationKey: "inquiry",
+    stage: 1,
+    locale: "cs",
+    pageType: "contact",
+    slug: "kontakt",
+    segments: ["kontakt"],
+    title: "Kontakt a popis projektu | Weby, aplikace a automatizace | Ondřej Halata",
+    breadcrumbLabel: "Kontakt",
+    description: "Popište stručně projekt nebo situaci, zavolejte či si rezervujte úvodní schůzku s Ondřejem Halatou. Hotové technické zadání nepotřebujete.",
+    primaryQuery: "kontakt vývojář webové aplikace",
+    intent: "transactional",
+    hero: {
+      eyebrow: "Kontakt",
+      title: "Popište, co potřebujete vyřešit.",
+      subtitle: "Nemusíte připravovat technické zadání. Stačí několik vět o současném stavu a výsledku, ke kterému se chcete dostat.",
+      primaryCta: { label: "Popsat projekt", href: "#contact-form" },
+    },
+    intro: [
+      "Napište klidně jen stručně, co dnes nefunguje nebo co se má změnit.",
+      "Podle toho navrhnu rozumný další krok.",
+    ],
+    sections: [
+      { title: "Co je užitečné poslat", body: ["Čím konkrétnější kontext, tím přesněji lze určit další krok."], bullets: ["stručný popis situace", "cílový výsledek projektu", "časový tlak nebo důležité omezení", "informace o existující aplikaci nebo procesech"] },
+      { title: "Co bude následovat", body: ["Ozvu se s návrhem dalšího kroku. Podle situace to může být krátký hovor, rychlé technické posouzení nebo rovnou vymezení první části realizace."] },
+      { title: "Kdy je spolupráce vhodná", body: ["Nejčastěji pomáhám tam, kde má nový web, aplikace nebo propojení nástrojů zjednodušit konkrétní práci firmy, případně převzít řešení, které je potřeba stabilizovat a dál rozvíjet."] },
+    ],
+    faq: [
+      { question: "Mohu napsat i bez detailního zadání?", answer: "Ano. Stačí stručně popsat situaci, co dnes nefunguje a jaký výsledek očekáváte. Pokud bude potřeba, doptám se na detaily." },
+      { question: "Řešíte i urgentní takeover nebo stabilizaci?", answer: "Ano, ale u existujících systémů je nejdřív potřeba rychle pochopit stav, rizika a priority. Podle toho navrhnu první rozumný krok." },
+      { question: "Je možné domluvit rovnou termín hovoru?", answer: "Ano. Pokud je pro vás rychlejší krátký hovor, můžete si naplánovat úvodní schůzku nebo mi nejdřív poslat stručný kontext." },
+      { question: "Co když nakonec projekt nebude fit?", answer: "Řeknu to rovnou. Pokud spolupráce nebude dávat smysl, nebudu proces zbytečně natahovat." },
+    ],
+    related: ["service-company-websites", "service-custom-web-app-development", "service-automations-and-integrations", "process-delivery"],
+    fit: {
+      for: ["nový web, aplikace nebo interní systém", "úpravy a rozvoj existujícího řešení", "automatizace ruční práce nebo propojení nástrojů", "převzetí, stabilizace nebo technické posouzení systému"],
+      notFor: ["čistě šablonové weby bez individuálního zadání", "jednorázové drobnosti bez širšího kontextu", "projekty bez jasného cíle nebo vlastníka"],
+    },
+    cta: { label: "Popsat projekt", href: "#contact-form", note: "Napište několik vět. Odpovím s dalším rozumným krokem." },
+    seo: {
+      title: "Kontakt a popis projektu | Weby, aplikace a automatizace | Ondřej Halata",
+      description: "Popište stručně projekt nebo situaci, zavolejte či si rezervujte úvodní schůzku s Ondřejem Halatou. Hotové technické zadání nepotřebujete.",
+    },
+    schema: { includeProfessionalService: true },
+    indexable: true,
   }),
 ];

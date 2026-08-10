@@ -207,7 +207,7 @@ export const guidePages: ContentPage[] = [
       { question: "Může být první krok jen menší prototyp nebo MVP?", answer: "Ano. To je často nejrozumnější způsob, jak ověřit prioritu bez zbytečného přestřelení projektu." },
       { question: "Lze kombinovat hotový nástroj a vývoj na míru?", answer: "Ano. V praxi to bývá velmi rozumná kombinace." },
     ],
-    related: ["comparison-custom-vs-saas", "service-custom-web-app-development", "use-case-b2b-client-portal", "contract-support"],
+    related: ["comparison-custom-vs-saas", "service-custom-web-app-development", "use-case-client-portal", "contract-support"],
   }),
   guide({
     translationKey: "guide-how-to-scope-a-custom-web-application",
@@ -324,6 +324,6 @@ export const guidePages: ContentPage[] = [
       { question: "Can the first step be a small MVP?", answer: "Yes. That is often the most sensible way to validate priorities without overshooting the investment." },
       { question: "Can companies combine standard tools and custom software?", answer: "Yes. In practice that is often the strongest model." },
     ],
-    related: ["comparison-custom-vs-saas", "service-custom-web-app-development", "use-case-b2b-client-portal", "contract-support"],
+    related: ["comparison-custom-vs-saas", "service-custom-web-app-development", "use-case-client-portal", "contract-support"],
   }),
 ];

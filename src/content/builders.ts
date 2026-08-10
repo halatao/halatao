@@ -8,12 +8,12 @@ import type {
 } from "@/content/types";
 
 const inquiryHrefByLocale: Record<Locale, string> = {
-  cs: "/cs/popsat-projekt/",
+  cs: "/cs/kontakt/",
   en: "/en/discuss-your-project/",
 };
 
 const thankYouHrefByLocale: Record<Locale, string> = {
-  cs: "/cs/popsat-projekt/dekuji/",
+  cs: "/cs/kontakt/dekuji/",
   en: "/en/discuss-your-project/thank-you/",
 };
 

@@ -88,7 +88,7 @@ function guide(seed: GuideSeed): ContentPage {
     cta: isCs
       ? {
           label: "Popsat situaci",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Pokud řešíte podobné rozhodnutí u reálného projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {
@@ -397,9 +397,8 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Je lepší začít chatbotem nebo interním use casem?", answer: "Často je silnější začít interním nebo provozním use casem, kde lze rychleji ověřit reálný přínos a kvalitu výsledku." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
-      "problem-ai-in-business-process",
       "service-automations-and-integrations",
+      "problem-ai-in-business-process",
       "service-internal-tools-development",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",
@@ -458,9 +457,8 @@ export const growthGuidePages: ContentPage[] = [
       { question: "Should we start with a chatbot or an internal use case?", answer: "An internal or operations use case is often the better first step because value and result quality are easier to validate." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
-      "problem-ai-in-business-process",
       "service-automations-and-integrations",
+      "problem-ai-in-business-process",
       "service-internal-tools-development",
       "use-case-ai-internal-documents",
       "use-case-ai-intake-triage",

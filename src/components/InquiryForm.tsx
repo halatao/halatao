@@ -9,12 +9,13 @@ import { trackAnalyticsEvent } from "@/lib/analytics";
 
 const copy = {
   cs: {
-    heading: "Popis situace",
+    heading: "Co potřebujete vyřešit?",
     description: "Stačí pár vět. Nemusíte mít hotové zadání ani technický rozsah.",
-    name: "Jméno",
-    email: "E-mail",
+    requiredNote: "Povinná pole jsou označená *.",
+    name: "Jméno *",
+    email: "E-mail *",
     company: "Firma / web",
-    message: "Co potřebujete vyřešit?",
+    message: "Co potřebujete vyřešit? *",
     placeholder: "Například: máme web, který se špatně spravuje; potřebujeme interní evidenci; chceme propojit systémy; potřebujeme převzít existující aplikaci…",
     submit: "Odeslat popis situace",
     pending: "Odesílám…",
@@ -24,10 +25,11 @@ const copy = {
   en: {
     heading: "Situation description",
     description: "A few sentences are enough. You do not need a complete specification or technical scope.",
-    name: "Name",
-    email: "E-mail",
+    requiredNote: "Required fields are marked with *.",
+    name: "Name *",
+    email: "E-mail *",
     company: "Company / website",
-    message: "What do you need to solve?",
+    message: "What do you need to solve? *",
     placeholder: "For example: we have a website that is hard to manage; we need an internal system; we want to connect tools; we need to take over an existing application…",
     submit: "Send situation description",
     pending: "Sending…",
@@ -100,6 +102,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
       <div className="form-copy">
         <h2>{labels.heading}</h2>
         <p>{labels.description}</p>
+        <p className="form-required-note">{labels.requiredNote}</p>
       </div>
       <form className="inquiry-form" onFocusCapture={onFocusCapture} onSubmit={onSubmit}>
         <input aria-hidden="true" autoComplete="off" className="honeypot" name="website" tabIndex={-1} />

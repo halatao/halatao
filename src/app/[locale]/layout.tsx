@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Manrope, Source_Serif_4 } from "next/font/google";
 
 import "@/app/globals.css";
+import "@/app/migration.css";
 import { AnalyticsNoScript, AnalyticsScripts } from "@/components/AnalyticsScripts";
 import { localeDefinitions } from "@/content/taxonomies/locales";
 

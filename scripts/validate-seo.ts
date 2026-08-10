@@ -25,6 +25,12 @@ const requiredLocationRoutes = [
   "/cs/lokality/ostrava/",
 ] as const;
 const removedLoserRoutes = [
+  "/cs/sluzby/ai-automatizace-a-integrace/",
+  "/en/services/ai-automation-and-integrations/",
+  "/cs/priklady/b2b-klientsky-portal/",
+  "/en/use-cases/b2b-client-portal/",
+  "/cs/priklady/dashboard-pro-management/",
+  "/en/use-cases/management-dashboard/",
   "/cs/priklady/workflow-poptavka-nabidka-realizace/",
   "/en/use-cases/request-offer-delivery-workflow/",
   "/cs/problemy/poptavky-nabidky-a-realizace-v-tabulkach-a-emailu/",
@@ -32,15 +38,18 @@ const removedLoserRoutes = [
   "/cs/sluzby/system-pro-rizeni-poptavek-nabidek-a-realizace/",
   "/en/services/request-offer-delivery-system/",
 ] as const;
-const expectedHomepageAiPaths = {
-  cs: "/cs/sluzby/ai-automatizace-a-integrace/",
-  en: "/en/services/ai-automation-and-integrations/",
+const expectedHomepageFeaturePaths = {
+  cs: [
+    "/cs/sluzby/tvorba-webovych-stranek/",
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+    "/cs/sluzby/automatizace-a-integrace/",
+  ],
+  en: [
+    "/en/services/company-website-development/",
+    "/en/services/custom-web-application-development/",
+    "/en/services/automations-and-integrations/",
+  ],
 } as const;
-const expectedContractPaths = {
-  cs: "/cs/spoluprace-na-kontrakt/",
-  en: "/en/contract-development-support/",
-} as const;
-
 const errors: string[] = [];
 
 function reportError(message: string) {
@@ -90,6 +99,27 @@ function normalizeVisibleText(html: string) {
       .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, " ")
       .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, " "),
   );
+}
+
+function validateFaqVisibility(page: ContentPage, route: string, html: string) {
+  if (!page.schema.includeFaq || page.faq.length === 0) {
+    return;
+  }
+
+  const visibleText = normalizeVisibleText(html);
+
+  for (const item of page.faq) {
+    const question = normalizeText(item.question);
+    const answer = normalizeText(item.answer);
+
+    if (!visibleText.includes(question)) {
+      reportError(`${route} emits FAQ schema but does not render the question "${item.question}" as visible content.`);
+    }
+
+    if (!visibleText.includes(answer)) {
+      reportError(`${route} emits FAQ schema but does not render the answer for "${item.question}" as visible content.`);
+    }
+  }
 }
 
 function getTags(html: string, tagName: string) {
@@ -176,7 +206,7 @@ function validateCanonical(route: string, html: string, canonicalRoute = route) 
   }
 }
 
-function validateRobots(route: string, html: string, indexable: boolean) {
+function validateRobots(route: string, html: string, indexable: boolean, follow = indexable) {
   const robotsTags = getTags(html, "meta")
     .map(parseAttributes)
     .filter((attributes) => attributes.get("name")?.toLowerCase() === "robots");
@@ -200,8 +230,16 @@ function validateRobots(route: string, html: string, indexable: boolean) {
     if (!directives.has("follow") || directives.has("nofollow")) {
       reportError(`${route} is indexable but does not render an explicit index,follow policy.`);
     }
-  } else if (!directives.has("noindex") || directives.has("index")) {
-    reportError(`${route} is non-indexable in the registry but rendered robots directives are '${[...directives].join(", ")}'.`);
+  } else {
+    if (!directives.has("noindex") || directives.has("index")) {
+      reportError(`${route} is non-indexable in the registry but rendered robots directives are '${[...directives].join(", ")}'.`);
+    }
+    if (follow && (!directives.has("follow") || directives.has("nofollow"))) {
+      reportError(`${route} must render noindex,follow; found '${[...directives].join(", ")}'.`);
+    }
+    if (!follow && (!directives.has("nofollow") || directives.has("follow"))) {
+      reportError(`${route} must render noindex,nofollow; found '${[...directives].join(", ")}'.`);
+    }
   }
 }
 
@@ -335,23 +373,12 @@ function validateEditorialContentArtifacts(page: ContentPage, route: string, htm
     const featureLinks = anchors
       .filter((attributes) => (attributes.get("class") ?? "").split(/\s+/).includes("home-service-card"))
       .map((attributes) => attributes.get("href"));
-    const expectedPath = expectedHomepageAiPaths[page.locale];
-    if (featureLinks[3] !== expectedPath) {
-      reportError(`${route} fourth service card links to '${featureLinks[3] ?? "(missing)"}', expected '${expectedPath}'.`);
+    const expectedPaths = expectedHomepageFeaturePaths[page.locale];
+    if (featureLinks.length !== expectedPaths.length || featureLinks.some((path, index) => path !== expectedPaths[index])) {
+      reportError(`${route} service cards do not match the expected three primary service paths.`);
     }
   }
 
-  if (page.translationKey === "hub-services") {
-    const expectedPath = expectedContractPaths[page.locale];
-    const contractCards = anchors.filter(
-      (attributes) =>
-        (attributes.get("class") ?? "").split(/\s+/).includes("link-card") &&
-        attributes.get("href") === expectedPath,
-    );
-    if (contractCards.length !== 1) {
-      reportError(`${route} must render exactly one contract service card to '${expectedPath}'; found ${contractCards.length}.`);
-    }
-  }
 }
 
 type HreflangMap = Map<string, string>;
@@ -565,7 +592,7 @@ function validateRootFallback(
   }
 
   validateCanonical(route, html, "/cs/");
-  validateRobots(route, html, false);
+  validateRobots(route, html, false, true);
   validateH1(route, html);
 
   const robotsTags = getTags(html, "meta")
@@ -840,11 +867,12 @@ for (const page of pages) {
   }
 
   validateCanonical(route, html);
-  validateRobots(route, html, page.indexable);
+  validateRobots(route, html, page.indexable, page.follow ?? page.indexable);
   validateHtmlLanguage(route, html, page.locale);
   validateH1(route, html, page.hero.title);
   validateMainLandmark(route, html);
   validateJsonLdSyntax(route, html);
+  validateFaqVisibility(page, route, html);
   validateP2ContentArtifacts(page, route, html);
   validateEditorialContentArtifacts(page, route, html);
 

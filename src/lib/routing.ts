@@ -14,7 +14,7 @@ const sectionLabels: Record<Locale, Record<string, string>> = {
     technologie: "Technologie",
     sablony: "Šablony",
     lokality: "Lokality",
-    "popsat-projekt": "Popsat situaci",
+    kontakt: "Kontakt",
   },
   en: {
     services: "Services",

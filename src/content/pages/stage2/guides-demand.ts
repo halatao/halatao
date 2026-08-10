@@ -92,7 +92,7 @@ function guide(seed: GuideSeed): ContentPage {
     cta: isCs
       ? {
           label: "Popsat situaci",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Stačí krátce popsat současný proces, kde vzniká ruční práce a co má být lepší.",
         }
       : {
@@ -168,7 +168,7 @@ export const demandGuidePages: ContentPage[] = [
       { label: "Jak takový systém konkrétně funguje", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
       { label: "Podle čeho poznat, že Excel a e-mail přestávají stačit", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
       { label: "Projít discovery checklist před návrhem automatizace", href: "/cs/sablony/discovery-checklist-pro-automatizace/" },
-      { label: "Probrat první automatizační etapu", href: "/cs/popsat-projekt/" },
+      { label: "Probrat první automatizační etapu", href: "/cs/kontakt/" },
     ],
     fitFor: ["firmy s opakovaným příjmem poptávek", "týmy, kde se poptávky ručně třídí a předávají", "procesy navazující na nabídku nebo realizaci"],
     fitNot: ["jednorázové poptávky bez opakování", "proces bez jasné odpovědnosti", "snaha koupit nástroj bez změny workflow"],
@@ -213,7 +213,6 @@ export const demandGuidePages: ContentPage[] = [
     ],
     related: [
       "service-sales-and-job-tracking-system",
-      "service-sales-and-job-tracking-system",
       "service-internal-tools-development",
       "problem-sales-offers-delivery-chaos",
       "problem-replace-spreadsheets-in-process",
@@ -231,7 +230,7 @@ export const demandGuidePages: ContentPage[] = [
     title: "Dashboard pro management z více systémů | Bc. Ondřej Halata",
     breadcrumbLabel: "Dashboard pro management z více systémů bez ručního reportingu",
     description: "Praktický průvodce pro firmy, které skládají reporting z více systémů a chtějí management dashboard s jasným původem dat.",
-    primaryQuery: "dashboard pro management",
+    primaryQuery: "jak vytvořit dashboard pro management",
     heroTitle: "Management dashboard má ukázat stav firmy, ne jen hezké grafy",
     heroSubtitle: "Jak navrhnout dashboard nad daty z více systémů tak, aby byl použitelný pro rozhodování a ne jen další report navíc.",
     intro: [
@@ -263,7 +262,6 @@ export const demandGuidePages: ContentPage[] = [
       { question: "Má dashboard smysl i pro operativu?", answer: "Ano. Často je užitečný i pro týmové leadery nebo provozní role, které potřebují včas vidět výjimky." },
     ],
     related: [
-      "use-case-management-dashboard",
       "use-case-reporting-dashboard",
       "service-internal-tools-development",
       "service-automations-and-integrations",
@@ -328,7 +326,7 @@ export const demandGuidePages: ContentPage[] = [
     title: "Kdy se vyplatí automatizace firemního procesu | Bc. Ondřej Halata",
     breadcrumbLabel: "Kdy se vyplatí automatizace firemního procesu",
     description: "Praktický průvodce pro firmy, které zvažují automatizaci procesu a chtějí rozlišit skutečný přínos od zbytečné technologické složitosti.",
-    primaryQuery: "automatizace procesů ve firmě",
+    primaryQuery: "kdy se vyplatí automatizace firemního procesu",
     heroTitle: "Automatizace se vyplatí jen tam, kde řeší opakovaný a měřitelný problém",
     heroSubtitle: "Jak poznat dobrý automatizační use case, co spočítat předem a proč nezačínat nástrojem.",
     intro: [
@@ -512,7 +510,6 @@ export const demandGuidePages: ContentPage[] = [
       { question: "Can a dashboard help operations too?", answer: "Yes. Team leads and operational roles often benefit from seeing exceptions early." },
     ],
     related: [
-      "use-case-management-dashboard",
       "use-case-reporting-dashboard",
       "service-internal-tools-development",
       "service-automations-and-integrations",

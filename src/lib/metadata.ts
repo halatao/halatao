@@ -38,7 +38,10 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
       canonical: absoluteUrl(canonicalPath),
       ...(languages ? { languages } : {}),
     },
-    robots: page.indexable ? { index: true, follow: true } : { index: false, follow: false },
+    robots: {
+      index: page.indexable,
+      follow: page.follow ?? page.indexable,
+    },
     openGraph: {
       type: "website",
       locale: page.locale === "cs" ? "cs_CZ" : "en_US",
@@ -70,9 +73,9 @@ export function buildMetadataForPage(page: ContentPage): Metadata {
 export function buildRootMetadata(): Metadata {
   return {
     metadataBase: new URL(siteConfig.siteUrl),
-    title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
+    title: "Webové aplikace, firemní weby a automatizace | Bc. Ondřej Halata",
     description:
-      "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
+      "Navrhuji a vyvíjím firemní weby, webové aplikace, interní systémy a automatizace pro firmy. Od návrhu po nasazení a provoz.",
     icons: metadataIcons(),
     alternates: {
       canonical: absoluteUrl("/cs/"),
@@ -87,9 +90,9 @@ export function buildRootMetadata(): Metadata {
       type: "website",
       url: absoluteUrl("/cs/"),
       siteName: siteConfig.shortDisplayName,
-      title: "Webové aplikace na míru, takeover a automatizace | Bc. Ondřej Halata",
+      title: "Webové aplikace, firemní weby a automatizace | Bc. Ondřej Halata",
       description:
-        "Vývoj webových aplikací na míru, převzetí existujících aplikací, interní systémy a automatizace procesů pro firmy.",
+        "Navrhuji a vyvíjím firemní weby, webové aplikace, interní systémy a automatizace pro firmy. Od návrhu po nasazení a provoz.",
       images: [
         {
           url: siteConfig.ogImage,

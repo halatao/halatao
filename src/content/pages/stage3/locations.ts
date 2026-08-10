@@ -106,7 +106,7 @@ export const locationPages: ContentPage[] = [
       subtitle: "Webové aplikace, interní systémy, takeover a automatizace řeším podle potřeb projektu; většina práce může probíhat remote a on-site setkání využíváme tam, kde pomůže procesu.",
       primaryCta: {
         label: "Popsat situaci",
-        href: "/cs/popsat-projekt/",
+        href: "/cs/kontakt/",
       },
     },
     intro: [
@@ -182,7 +182,7 @@ export const locationPages: ContentPage[] = [
     },
     cta: {
       label: "Popsat situaci",
-      href: "/cs/popsat-projekt/",
+      href: "/cs/kontakt/",
       note: "Napište, odkud jste, co dnes řešíte a zda dává smysl vzdálený nebo osobní úvod. Navrhnu realistický další krok.",
     },
     seo: {

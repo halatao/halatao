@@ -119,7 +119,7 @@ export const comparisonPages: ContentPage[] = [
       { question: "Kdy je custom development zbytečně brzy?", answer: "Když firma ještě neví, jak přesně bude proces vypadat, a standardní nástroj pokryje většinu práce bez větších kompromisů." },
       { question: "Lze kombinovat SaaS a vlastní vývoj?", answer: "Ano. Často je rozumné nechat standardní části v hotovém nástroji a vlastní logiku řešit na míru kolem něj." },
     ],
-    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-how-to-scope-a-custom-web-application", "use-case-b2b-client-portal", "inquiry"],
+    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-how-to-scope-a-custom-web-application", "use-case-client-portal", "inquiry"],
   }),
   comparison({
     translationKey: "comparison-contractor-vs-agency",
@@ -219,7 +219,7 @@ export const comparisonPages: ContentPage[] = [
       { question: "When is custom development too early?", answer: "When the process is still unclear and a standard tool would cover most of the real work without painful compromise." },
       { question: "Can companies combine SaaS and custom software?", answer: "Yes. Many practical setups keep commodity functions in SaaS and build custom logic around the parts that are genuinely differentiating." },
     ],
-    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-when-internal-tool-better-than-saas", "use-case-b2b-client-portal", "inquiry"],
+    related: ["service-custom-web-app-development", "service-internal-tools-development", "guide-when-internal-tool-better-than-saas", "use-case-client-portal", "inquiry"],
   }),
   comparison({
     translationKey: "comparison-contractor-vs-agency",

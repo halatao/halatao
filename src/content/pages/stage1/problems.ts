@@ -74,7 +74,7 @@ function problem(seed: ProblemSeed): ContentPage {
     cta: isCs
       ? {
           label: "Nezávazně probrat spolupráci",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Stačí krátce popsat stav aplikace nebo procesu a hlavní riziko, které dnes řešíte.",
         }
       : {
@@ -122,12 +122,12 @@ export const problemPages: ContentPage[] = [
     translationKey: "problem-internal-tool",
     locale: "cs",
     slug: "chceme-vyvinout-interni-system",
-    title: "Interní systém na míru pro firmu | Kdy dává smysl a jak začít",
-    breadcrumbLabel: "Kdy dává interní systém na míru smysl",
-    description: "Pomohu navrhnout a dodat interní systém na míru tam, kde firma potřebuje sjednotit workflow, role, data a odpovědnost v jednom vlastním nástroji.",
-    primaryQuery: "interní systém na míru pro firmu",
-    heroTitle: "Interní systém na míru pro důležitý firemní proces",
-    heroSubtitle: "Dává smysl ve chvíli, kdy je potřeba sjednotit workflow, role, data a odpovědnost, ne jen nahradit jednu tabulku.",
+    title: "Kdy firma potřebuje interní systém a jak správně začít | Ondřej Halata",
+    breadcrumbLabel: "Kdy firma potřebuje interní systém",
+    description: "Jak poznat, že tabulky, e-mail a běžné nástroje už důležitému firemnímu procesu nestačí a kdy dává smysl uvažovat o interním systému.",
+    primaryQuery: "kdy firma potřebuje interní systém",
+    heroTitle: "Poznáte, že běžné nástroje už firemnímu procesu nestačí?",
+    heroSubtitle: "Signálem bývá rostoucí ruční koordinace, nejasné stavy a data rozptýlená mezi více místy. Teprve potom dává smysl řešit vlastní systém.",
     intro: [
       "Potřeba interního systému obvykle nevzniká proto, že firma chce vlastní software za každou cenu. Vzniká ve chvíli, kdy důležitý proces potřebuje jeden vlastní nástroj se srozumitelnými rolemi, stavy a daty.",
       "Největší přínos nebývá jen v rychlosti práce, ale v tom, že proces přestane viset na jednotlivcích, různé týmy začnou pracovat nad stejnou realitou a vedení uvidí skutečný stav bez ručně skládaných reportů.",
@@ -172,7 +172,7 @@ export const problemPages: ContentPage[] = [
       { question: "Lze kombinovat audit a následnou implementaci?", answer: "Ano. Úvodní diagnostika může přejít přímo do realizace prioritních kroků." },
       { question: "Pomůžete i s interním systémem kolem integrací?", answer: "Ano. Někdy samotné propojení nestačí a je potřeba doplnit i rozhraní pro lidi nebo kontrolní workflow." },
     ],
-    related: ["service-automations-and-integrations", "service-internal-tools-development", "service-ai-automation-and-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-automation-tools", "use-case-service-team-ops-system", "tool-api-integration-checklist", "inquiry"],
+    related: ["service-automations-and-integrations", "service-internal-tools-development", "guide-how-to-run-automation-discovery", "use-case-workflow-automation-tools", "use-case-service-team-ops-system", "tool-api-integration-checklist", "inquiry"],
     fitFor: ["firmy s více systémy a ruční koordinací", "procesy s vysokou chybovostí při přenosu dat", "týmy, které chtějí lépe řídit opakované workflow"],
     fitNot: ["izolovaný nástroj bez návazností", "projekty bez přístupu k datovým zdrojům", "pouhé pořízení licence bez změny procesu"],
   }),
@@ -259,7 +259,7 @@ export const problemPages: ContentPage[] = [
       { question: "Can the review turn into implementation work?", answer: "Yes. The diagnostic phase can move directly into delivery of the priority steps." },
       { question: "Can you help build a small internal layer around the integrations?", answer: "Yes. Sometimes the connection alone is not enough and users also need visibility, controls, or exception handling." },
     ],
-    related: ["service-automations-and-integrations", "service-ai-automation-and-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-automation-tools", "use-case-service-team-ops-system", "tool-api-integration-checklist", "inquiry"],
+    related: ["service-automations-and-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-automation-tools", "use-case-service-team-ops-system", "tool-api-integration-checklist", "inquiry"],
     fitFor: ["companies with manual cross-system coordination", "teams with high transfer-error risk", "buyers who want better control over repeated workflows"],
     fitNot: ["isolated tools with no dependencies", "projects with no access to source systems", "simple licence purchases with no process change"],
   }),
@@ -302,7 +302,6 @@ export const problemPages: ContentPage[] = [
       { question: "Co když zjistíme, že AI pro náš proces není vhodná?", answer: "To je stále cenný výsledek. Je lepší to zjistit včas, než investovat do vrstvy, která nepřinese odpovídající hodnotu." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
       "service-automations-and-integrations",
       "service-internal-tools-development",
       "guide-when-ai-integration-makes-sense",
@@ -360,7 +359,6 @@ export const problemPages: ContentPage[] = [
       { question: "What if we learn AI is not the right fit?", answer: "That is still valuable. It is better to learn that early than to invest in a layer that will not create enough business value." },
     ],
     related: [
-      "service-ai-automation-and-integrations",
       "service-automations-and-integrations",
       "service-internal-tools-development",
       "guide-when-ai-integration-makes-sense",

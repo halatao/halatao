@@ -20,6 +20,9 @@ export type PageType =
   | "comparison"
   | "use_case"
   | "case_study"
+  | "reference"
+  | "about"
+  | "contact"
   | "guide"
   | "technology"
   | "tool"
@@ -138,6 +141,7 @@ export interface ContentPage {
   seo: SeoFields;
   schema: JsonLdConfig;
   indexable: boolean;
+  follow?: boolean;
   note?: string;
 }
 

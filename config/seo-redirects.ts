@@ -175,7 +175,11 @@ function htmlPathVariants(path: `/${string}/`) {
 
 const nonIndexableTargetReasons = new Map<string, string>([
   [
-    "/cs/popsat-projekt/dekuji/",
+    "/cs/audit-automatizace/",
+    "The audit is an intentional noindex,follow conversion page that remains reachable through canonical and legacy URL variants.",
+  ],
+  [
+    "/cs/kontakt/dekuji/",
     "Canonical path normalization and the historical automation thank-you URL must still reach the intentional noindex thank-you page.",
   ],
   [
@@ -272,6 +276,48 @@ type HistoricalHtmlRoute = {
 };
 
 const historicalHtmlRoutes: readonly HistoricalHtmlRoute[] = [
+  {
+    source: "/cs/popsat-projekt/",
+    target: "/cs/kontakt/",
+    category: "content-merge",
+    reason: "Merge the duplicate Czech project inquiry page into the canonical contact and inquiry page.",
+  },
+  {
+    source: "/cs/sluzby/ai-automatizace-a-integrace/",
+    target: "/cs/sluzby/automatizace-a-integrace/",
+    category: "content-merge",
+    reason: "Merge AI automation into the primary Czech automation and integrations service.",
+  },
+  {
+    source: "/en/services/ai-automation-and-integrations/",
+    target: "/en/services/automations-and-integrations/",
+    category: "content-merge",
+    reason: "Merge AI automation into the primary English automation and integrations service.",
+  },
+  {
+    source: "/cs/priklady/b2b-klientsky-portal/",
+    target: "/cs/priklady/klientsky-portal/",
+    category: "content-merge",
+    reason: "Consolidate overlapping Czech client-portal use cases into the broader intent owner.",
+  },
+  {
+    source: "/en/use-cases/b2b-client-portal/",
+    target: "/en/use-cases/client-portal-development/",
+    category: "content-merge",
+    reason: "Consolidate overlapping English client-portal use cases into the broader intent owner.",
+  },
+  {
+    source: "/cs/priklady/dashboard-pro-management/",
+    target: "/cs/priklady/reporting-dashboard/",
+    category: "content-merge",
+    reason: "Consolidate overlapping Czech management-dashboard use cases into the reporting-dashboard intent owner.",
+  },
+  {
+    source: "/en/use-cases/management-dashboard/",
+    target: "/en/use-cases/reporting-dashboard-development/",
+    category: "content-merge",
+    reason: "Consolidate overlapping English management-dashboard use cases into the reporting-dashboard intent owner.",
+  },
   {
     source: "/cs/lokace/",
     target: "/cs/lokality/",
@@ -376,13 +422,23 @@ const historicalHtmlRules = historicalHtmlRoutes.flatMap((route) =>
   ),
 );
 
+const mergedInquiryThankYouRules = htmlPathVariants("/cs/popsat-projekt/dekuji/").map((source) =>
+  exactRedirect(
+    source,
+    "/cs/kontakt/dekuji/",
+    "content-merge",
+    "Move the Czech inquiry confirmation below the consolidated contact page.",
+    targetOptions("/cs/kontakt/dekuji/", false),
+  ),
+);
+
 const fileLikeLegacyRules: ExactSeoRedirectRule[] = [
   exactRedirect(
     "/automatizace/dekuji.html",
-    "/cs/popsat-projekt/dekuji/",
+    "/cs/kontakt/dekuji/",
     "legacy",
     "Move the historical automation form completion URL to the intentional noindex thank-you page.",
-    targetOptions("/cs/popsat-projekt/dekuji/", false),
+    targetOptions("/cs/kontakt/dekuji/", false),
   ),
 ];
 
@@ -399,6 +455,7 @@ export const seoRedirectManifest: SeoRedirectManifest = {
     ...activeRouteCanonicalizationRules,
     ...legacyCzRules,
     ...historicalHtmlRules,
+    ...mergedInquiryThankYouRules,
     ...fileLikeLegacyRules,
   ],
 };

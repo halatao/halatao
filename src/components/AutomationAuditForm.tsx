@@ -102,18 +102,21 @@ export function AutomationAuditForm() {
 
       <div>
         <label className="automation-field-label" htmlFor="automation-pain-point">
-          Kde dnes ve firmě trávíte nejvíc času ručně?
+          Popište současný proces
         </label>
+        <p className="automation-field-help">
+          Co se dělá ručně, jak často, které systémy používáte a co se stane při chybě nebo zpoždění?
+        </p>
         <textarea id="automation-pain-point" name="pain_point" rows={5} required className="automation-field automation-textarea" />
       </div>
 
       {error ? <p className="automation-form-error">{error}</p> : null}
 
       <button type="submit" className="automation-submit" disabled={pending}>
-        {pending ? "Odesílám…" : "Odeslat a získat doporučení"}
+        {pending ? "Odesílám…" : "Odeslat popis procesu"}
       </button>
 
-      <p className="automation-form-note">Ozvu se osobně do 1 pracovního dne.</p>
+      <p className="automation-form-note">Projdu uvedené informace a ozvu se s doporučením dalšího kroku.</p>
     </form>
   );
 }

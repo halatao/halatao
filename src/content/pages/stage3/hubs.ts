@@ -79,7 +79,7 @@ function hub(seed: HubSeed): ContentPage {
     cta: isCs
       ? {
           label: "Probrat zadání",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Pokud už řešíte konkrétní projekt, navrhnu další krok podle vašeho kontextu a priorit.",
         }
       : {

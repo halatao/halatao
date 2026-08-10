@@ -21,14 +21,14 @@ async function expectRedirect(source: string, expectedTarget: string, status = 3
 }
 
 test("generated artifact exposes the complete categorized redirect manifest", () => {
-  assert.equal(redirectArtifact.generatedRuleCount, 641);
-  assert.equal(Object.keys(rules).length, 641);
+  assert.equal(redirectArtifact.generatedRuleCount, 668);
+  assert.equal(Object.keys(rules).length, 668);
 
   const counts = Object.values(rules).reduce<Record<string, number>>((result, rule) => {
     result[rule.category] = (result[rule.category] ?? 0) + 1;
     return result;
   }, {});
-  assert.deepEqual(counts, { canonicalization: 334, legacy: 289, "content-merge": 18 });
+  assert.deepEqual(counts, { canonicalization: 334, legacy: 292, "content-merge": 42 });
 });
 
 test("every exact manifest source redirects directly and preserves its query", async () => {

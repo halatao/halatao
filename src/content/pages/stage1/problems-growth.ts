@@ -79,7 +79,7 @@ function problem(seed: ProblemSeed): ContentPage {
     cta: isCs
       ? {
           label: "Nezávazně probrat zadání",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Stačí krátce popsat současný stav, největší riziko a očekávaný další krok.",
         }
       : {
@@ -314,7 +314,7 @@ export const growthProblemPages: ContentPage[] = [
     title: "Klientský portál na míru | Dokumenty, stav zakázky a samoobsluha",
     breadcrumbLabel: "Klientský portál na míru pro komunikaci, data a klientskou samoobsluhu",
     description: "Pomohu firmám navrhnout klientský portál na míru tam, kde se opakuje komunikace o stavu zakázek, dokumentech, požadavcích nebo samoobslužných úkonech.",
-    primaryQuery: "klientský portál na míru",
+    primaryQuery: "kdy firma potřebuje klientský portál",
     heroTitle: "Klientský portál místo e-mailového chaosu a ručního posílání dokumentů",
     heroSubtitle: "Typická situace, kdy se opakují stejné dotazy, dokumenty se posílají ručně a firma chce dát klientovi přehlednější samoobslužný vstup.",
     intro: [
@@ -340,7 +340,7 @@ export const growthProblemPages: ContentPage[] = [
       { question: "Musí být portál rozsáhlý od začátku?", answer: "Nemusí. Často je nejlepší začít menší verzí zaměřenou na nejčastější interakce." },
       { question: "Potřebujeme k portálu i interní administraci?", answer: "Velmi často ano. Portál dává smysl jen tehdy, když má i rozumné backoffice zázemí." },
     ],
-    related: ["service-custom-web-app-development", "service-internal-tools-development", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
+    related: ["service-custom-web-app-development", "service-internal-tools-development", "use-case-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
     fitFor: ["firmy s opakovanou klientskou komunikací nad stavem služby", "produkty a služby, kde dává smysl samoobsluha", "týmy, které chtějí propojit klientský vstup s interním procesem"],
     fitNot: ["jednorázové marketingové microsite", "portál bez návaznosti na interní proces nebo data", "projekty s očekáváním čistě vizuálního efektu bez provozní změny"],
   }),
@@ -488,7 +488,7 @@ export const growthProblemPages: ContentPage[] = [
       { question: "Does the portal have to be large from day one?", answer: "No. A focused first version around the most common interactions is often the strongest start." },
       { question: "Do we also need internal admin capability?", answer: "Usually yes. A valuable client portal normally depends on a sensible backoffice layer as well." },
     ],
-    related: ["service-custom-web-app-development", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
+    related: ["service-custom-web-app-development", "use-case-client-portal", "use-case-b2b-partner-portal", "comparison-custom-vs-saas", "inquiry"],
     fitFor: ["companies with repeated client communication around status or documents", "services where self-service would reduce support load", "teams that want the client layer connected to internal workflow"],
     fitNot: ["one-off marketing microsites", "a portal with no connection to internal systems or process", "projects expecting a visual effect with no operational change"],
   }),
@@ -616,7 +616,7 @@ export const growthProblemPages: ContentPage[] = [
       { label: "Zjistit, jak automatizaci poptávek připravit", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
       { label: "Podívat se, jak systém konkrétně funguje", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
       { label: "Nechat si systém navrhnout a vytvořit", href: "/cs/sluzby/system-pro-rizeni-poptavek-a-zakazek/" },
-      { label: "Popsat současný problém", href: "/cs/popsat-projekt/" },
+      { label: "Popsat současný problém", href: "/cs/kontakt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem a navazující realizací",

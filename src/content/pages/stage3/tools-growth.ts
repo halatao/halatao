@@ -85,7 +85,7 @@ function tool(seed: ToolSeed): ContentPage {
     cta: isCs
       ? {
           label: "Probrat zadání",
-          href: "/cs/popsat-projekt",
+          href: "/cs/kontakt",
           note: "Pokud podobný asset potřebujete převést do reálného projektu, stačí krátký kontext a navrhnu další krok.",
         }
       : {

@@ -1,6 +1,7 @@
 ﻿import type { ContentPage } from "@/content/types";
 import {
   CaseStudyTemplate,
+  ContactTemplate,
   ComparisonTemplate,
   GuideTemplate,
   HomeTemplate,
@@ -9,6 +10,8 @@ import {
   LocationTemplate,
   ProblemTemplate,
   ProcessTemplate,
+  ReferenceTemplate,
+  AboutTemplate,
   ServiceTemplate,
   TechnologyTemplate,
   ToolTemplate,
@@ -31,6 +34,12 @@ export function PageRenderer({ page }: { page: ContentPage }) {
       return <UseCaseTemplate page={page} />;
     case "case_study":
       return <CaseStudyTemplate page={page} />;
+    case "reference":
+      return <ReferenceTemplate page={page} />;
+    case "about":
+      return <AboutTemplate page={page} />;
+    case "contact":
+      return <ContactTemplate page={page} />;
     case "guide":
       return <GuideTemplate page={page} />;
     case "technology":

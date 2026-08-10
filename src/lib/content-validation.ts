@@ -23,6 +23,9 @@ const minimumSectionsByType: Record<PageType, number> = {
   comparison: 4,
   use_case: 3,
   case_study: 3,
+  reference: 3,
+  about: 3,
+  contact: 3,
   guide: 3,
   technology: 3,
   tool: 3,
@@ -39,6 +42,9 @@ const minimumRelatedByType: Partial<Record<PageType, number>> = {
   comparison: 4,
   use_case: 4,
   case_study: 4,
+  reference: 4,
+  about: 3,
+  contact: 3,
   guide: 4,
   tool: 4,
   process: 4,
@@ -233,9 +239,7 @@ function getRenderedLinkTargets(
     const target = getInternalTarget(href);
     if (target) targets.push(target);
   };
-  const isStandalone =
-    page.locale === "cs" &&
-    (page.translationKey === "service-automations-and-integrations" || page.translationKey === "thank-you");
+  const isStandalone = page.locale === "cs" && page.translationKey === "automation-audit";
 
   if (!isStandalone) {
     for (const link of [...primaryNavigation[page.locale], ...footerNavigation[page.locale]]) {
@@ -243,7 +247,7 @@ function getRenderedLinkTargets(
     }
   }
 
-  if (page.pageType !== "home" && page.translationKey !== "service-automations-and-integrations") {
+  if (page.pageType !== "home" && !isStandalone) {
     for (const item of getBreadcrumbItems(page).slice(0, -1)) {
       addHref(item.href);
     }
@@ -256,7 +260,7 @@ function getRenderedLinkTargets(
     return targets;
   }
 
-  if (page.translationKey === "service-automations-and-integrations" && page.locale === "cs") {
+  if (page.translationKey === "automation-audit" && page.locale === "cs") {
     for (const link of page.priorityLinks ?? []) addHref(link.href);
     return targets;
   }
@@ -421,7 +425,7 @@ export function validateContentPages(pages: ContentPage[]) {
       }
     }
 
-    if (page.indexable && page.faq.length < 3 && page.pageType !== "inquiry") {
+    if (page.indexable && page.faq.length < 3 && page.pageType !== "inquiry" && page.pageType !== "reference" && page.pageType !== "about" && page.pageType !== "contact") {
       throw new Error(`Page ${page.id} must have at least 3 FAQ entries.`);
     }
 
@@ -454,8 +458,17 @@ export function validateContentPages(pages: ContentPage[]) {
   ensureUniqueWithinLocale(pages, (page) => page.title, "title");
   ensureUniqueWithinLocale(pages, (page) => page.hero.title, "rendered H1");
   ensureUniqueWithinLocale(pages, (page) => page.description, "meta description");
+  ensureUniqueWithinLocale(
+    pages.filter((page) => page.indexable),
+    (page) => page.primaryQuery,
+    "primary query",
+  );
 
   for (const page of pages) {
+    if (new Set(page.related).size !== page.related.length) {
+      throw new Error(`Page ${page.id} contains duplicate related links.`);
+    }
+
     for (const relatedKey of page.related) {
       if (!translationKeys.has(relatedKey)) {
         throw new Error(`Page ${page.id} references missing related key: ${relatedKey}`);

@@ -26,6 +26,13 @@ type ServiceSeed = {
   priorityLinks?: LinkRecord[];
   fitFor: string[];
   fitNot: string[];
+  sections?: PageSection[];
+  eyebrow?: string;
+  primaryCtaLabel?: string;
+  secondaryCta?: LinkRecord;
+  ctaLabel?: string;
+  ctaNote?: string;
+  translationAvailability?: ContentPage["translationAvailability"];
 };
 
 const copy = {
@@ -48,6 +55,8 @@ const copy = {
 } as const;
 
 function makeSections(locale: Locale, seed: ServiceSeed): PageSection[] {
+  if (seed.sections) return seed.sections;
+
   const labels = copy[locale];
   return [
     {
@@ -87,15 +96,16 @@ function service(seed: ServiceSeed): ContentPage {
     description: seed.description,
     primaryQuery: seed.primaryQuery,
     intent: "commercial",
+    translationAvailability: seed.translationAvailability,
     hero: {
-      eyebrow: labels.eyebrow,
+      eyebrow: seed.eyebrow ?? labels.eyebrow,
       title: seed.heroTitle,
       subtitle: seed.heroSubtitle,
       primaryCta: {
-        label: labels.primary,
+        label: seed.primaryCtaLabel ?? labels.primary,
         href: buildInquiryHref(seed.locale),
       },
-      secondaryCta: buildSecondaryCta(seed.locale),
+      secondaryCta: seed.secondaryCta ?? buildSecondaryCta(seed.locale),
     },
     intro: seed.intro,
     sections: makeSections(seed.locale, seed),
@@ -109,9 +119,9 @@ function service(seed: ServiceSeed): ContentPage {
     cta:
       seed.locale === "cs"
         ? {
-            label: "Popsat situaci",
-            href: "/cs/popsat-projekt",
-            note: `Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.`,
+            label: seed.ctaLabel ?? "Popsat situaci",
+            href: "/cs/kontakt",
+            note: seed.ctaNote ?? `Napište stručně situaci, cílový výsledek a omezení projektu. Ozvu se s návrhem dalšího kroku.`,
           }
         : {
             label: "Describe situation",
@@ -134,21 +144,279 @@ function service(seed: ServiceSeed): ContentPage {
   });
 }
 
-export const servicePages: ContentPage[] = [
+const servicePageDefinitions: ContentPage[] = [
+  service({
+    translationKey: "service-company-websites",
+    translationAvailability: "optional",
+    locale: "cs",
+    slug: "tvorba-webovych-stranek",
+    title: "Tvorba webových stránek pro firmy | Ondřej Halata",
+    breadcrumbLabel: "Tvorba firemních webů a katalogů",
+    description: "Navrhnu a vytvořím rychlý firemní web, katalog nebo poptávkovou stránku se správou obsahu, technickým SEO a provozem bez závislosti na WordPressu.",
+    primaryQuery: "tvorba webových stránek",
+    eyebrow: "Firemní weby a katalogy",
+    heroTitle: "Firemní web, který vysvětlí nabídku a přivede zákazníka k dalšímu kroku.",
+    heroSubtitle: "Navrhnu strukturu, vzhled a správu obsahu a web dotáhnu až po napojení domény a spuštění. Bez WordPressu, pluginového balastu a závislosti na uzavřené platformě.",
+    primaryCtaLabel: "Popsat nový web",
+    secondaryCta: { label: "Prohlédnout webové reference", href: "/cs/reference/" },
+    intro: [
+      "Nejdřív si ujasníme, co má návštěvník na webu rychle pochopit a jaký další krok má udělat. Podle nabídky vaší firmy navrhnu strukturu stránek, pořadí informací a cestu ke kontaktu nebo poptávce.",
+      "Výsledkem je web navržený pro konkrétní firmu a její zákazníky. Podle potřeby může obsahovat jednoduchou správu obsahu, katalog produktů či služeb, formuláře, kalkulaci nebo napojení na další nástroje.",
+    ],
+    situationsLead: "Podle množství obsahu a požadovaných funkcí může jít o soustředěnou jednostránkovou prezentaci i rozsáhlejší firemní web.",
+    situations: [],
+    deliveryLead: "Rozsah před zahájením potvrdíme podle skutečných stránek, spravovaného obsahu a funkcí.",
+    delivery: [],
+    processLead: "Nejdřív potvrdíme cíl a strukturu, potom připravím návrh vzhledu a web realizuji včetně spuštění.",
+    resultsLead: "Výsledkem je rychlý, přenositelný web s jasnou nabídkou a cestou k poptávce.",
+    results: [],
+    sections: [
+      {
+        title: "Od jednoduché prezentace po katalog s vlastní logikou",
+        body: ["Rozsah webu volím podle množství obsahu, způsobu rozhodování zákazníka a funkcí, které mají podpořit poptávku."],
+        bullets: [
+          "Jednostránkový web pro konkrétní službu, menší firmu nebo kampaň.",
+          "Vícestránkový firemní web se samostatnými stránkami služeb, produktů, referencí a kontaktu.",
+          "Katalog produktů nebo služeb s kategoriemi, parametry, variantami a navazující poptávkou.",
+          "Formulář, kalkulace nebo napojení na e-mail, CRM či jiný firemní systém.",
+        ],
+      },
+      {
+        title: "Co může být součástí dodávky",
+        body: ["Konkrétní rozsah skládám podle toho, co web skutečně potřebuje pro spuštění a další správu."],
+        bullets: [
+          "návrh informační struktury a hlavních uživatelských cest",
+          "vizuální návrh odpovídající značce a typu zákazníka",
+          "responzivní realizace pro mobil, tablet i desktop",
+          "správa dohodnutých částí obsahu",
+          "kontaktní a poptávkové formuláře",
+          "technický základ SEO, metadata a sitemap",
+          "napojení domény, analytiky a nasazení",
+        ],
+      },
+      {
+        title: "Web pod vaší kontrolou",
+        body: [
+          "Web stavím jako samostatnou aplikaci podle dohodnutého rozsahu. Není závislý na sadě pluginů, které vyžadují průběžné aktualizace a mohou se navzájem ovlivňovat.",
+          "Zdrojový kód i účet pro provoz mohou být pod vaší kontrolou. Pokud budete chtít změnit dodavatele nebo hosting, web je možné předat a přesunout.",
+          "U menších webů mohou být samotné infrastrukturní náklady nulové nebo velmi nízké. Konkrétní provoz zvolíme podle návštěvnosti a použitých funkcí.",
+        ],
+      },
+      {
+        title: "Orientační ceny",
+        body: ["Uvedené ceny jsou výchozí pro domluvený základní rozsah s připravenými podklady a standardními funkcemi. Před zahájením vždy potvrdím konkrétní stránky, spravované části a pevnou cenu."],
+      },
+      {
+        title: "Jak realizace probíhá",
+        body: ["Web vzniká v navazujících krocích s jedním souhrnným kolem připomínek k návrhu."],
+        bullets: [
+          "Potvrdíme obsah, cíl webu a příklady odpovídající očekávanému směru.",
+          "Připravím strukturu a návrh vzhledu k jednomu souhrnnému kolu připomínek.",
+          "Vytvořím web, správu obsahu a domluvené funkce.",
+          "Napojím doménu, ověřím mobilní zobrazení, formuláře a SEO základ a web spustím.",
+        ],
+        listType: "ordered",
+      },
+      {
+        title: "Relevantní realizace",
+        body: ["Podobný rozsah je vidět na firemních a realitních webech se správou obsahu, nabídek a příchozích poptávek."],
+        bullets: ["Kasan & Pelcová", "Prodat-byt.cz", "Viditelný Makléř"],
+      },
+    ],
+    faq: [
+      { question: "Budeme si moci upravovat obsah?", answer: "Ano. Předem si potvrdíme, které části potřebujete spravovat. Typicky jde o texty, služby, produkty, reference, kontakty nebo články. Editor přizpůsobím konkrétnímu obsahu, aby nebyl zbytečně složitý." },
+      { question: "Dodáte i texty a fotografie?", answer: "Potřebuji od vás věcné informace o firmě, službách a zákaznících. Pomohu je uspořádat a upravit pro web. Finální odborné formulace a práva k fotografiím potvrzuje klient; pokud vizuály chybí, lze domluvit jejich přípravu." },
+      { question: "Proč web nestavíte na WordPressu?", answer: "Zaměřuji se na weby a aplikace na míru mimo WordPress a jeho pluginový ekosystém. Umožňuje mi to držet pod kontrolou výkon, datovou strukturu a konkrétní funkce bez závislosti na šabloně." },
+      { question: "Bude web připravený pro vyhledávače?", answer: "Ano. Součástí je technický základ SEO, správné nadpisy a metadata, sitemap, indexovatelnost a výkon. Samotné pozice ale závisejí také na kvalitě obsahu, konkurenci a dlouhodobé práci s webem." },
+      { question: "Kde web poběží?", answer: "Na účtu, nad kterým můžete mít plnou kontrolu, nebo v dohodnutém provozu. Nejste vázaní na moji vlastní uzavřenou platformu a web lze později přesunout." },
+      { question: "Jak dlouho realizace trvá?", answer: "Jednodušší web lze obvykle dodat během jednoho až tří týdnů podle rozsahu a dostupnosti podkladů. Katalog, kalkulace nebo nestandardní napojení mohou termín prodloužit." },
+    ],
+    related: ["references", "service-custom-web-app-development", "hub-services", "inquiry"],
+    priorityLinks: [
+      { label: "Prohlédnout reference", href: "/cs/reference/" },
+      { label: "Popsat nový web", href: "/cs/kontakt/" },
+    ],
+    fitFor: ["firmy, které potřebují novou srozumitelnou prezentaci", "služby a sortiment s navazující poptávkou", "projekty, které chtějí vlastnit zdrojový kód a provoz"],
+    fitNot: ["WordPress a jeho pluginový ekosystém", "neomezené funkce bez předem potvrzeného rozsahu", "e-shop s rozsáhlou transakční logikou v základní ceně"],
+    ctaLabel: "Popsat nový web",
+    ctaNote: "Napište, co firma nabízí, jaký obsah potřebujete a zda má web obsahovat katalog nebo další funkce. Ozvu se s návrhem rozsahu.",
+  }),
+  service({
+    translationKey: "service-company-websites",
+    translationAvailability: "optional",
+    locale: "en",
+    slug: "company-website-development",
+    title: "Company website development | Ondřej Halata",
+    breadcrumbLabel: "Company websites and product catalogues",
+    description: "I design and build fast company websites, catalogues, and enquiry pages with content management, technical SEO, and no dependency on WordPress or a closed platform.",
+    primaryQuery: "company website development",
+    eyebrow: "Company websites and catalogues",
+    heroTitle: "A company website that explains the offer and guides customers to the next step.",
+    heroSubtitle: "I handle the structure, visual direction, content management, domain connection, and launch. The result is a portable website built around the company rather than a plugin stack.",
+    primaryCtaLabel: "Describe the website",
+    secondaryCta: { label: "View website references", href: "/en/references/" },
+    intro: [
+      "We begin with what a visitor needs to understand and which action should follow. I then shape the page structure, information priorities, and route to an enquiry or direct contact.",
+      "The result is designed for a specific company and audience. Depending on the scope, it can include focused content management, a product or service catalogue, forms, calculations, or connections to other business tools.",
+    ],
+    situationsLead: "The scope can range from a focused landing page to a structured multi-page company website or catalogue.",
+    situations: [],
+    deliveryLead: "Before work begins, we confirm the actual pages, editable content, integrations, and launch requirements.",
+    delivery: [],
+    processLead: "We confirm the goal and structure first, then move through visual design, implementation, and launch.",
+    resultsLead: "The outcome is a fast, transferable website with a clear offer and route to an enquiry.",
+    results: [],
+    sections: [
+      {
+        title: "From a focused presentation to a catalogue with custom logic",
+        body: ["The right format depends on the amount of content, the customer's decision process, and the functions needed to support an enquiry."],
+        bullets: [
+          "A focused one-page website for a specific service, smaller company, or campaign.",
+          "A multi-page company website with separate service, product, reference, and contact pages.",
+          "A product or service catalogue with categories, parameters, variants, and an enquiry flow.",
+          "Forms, calculations, or connections to email, CRM, and other company systems.",
+        ],
+      },
+      {
+        title: "What can be included",
+        body: ["The delivery is shaped around what the website genuinely needs for launch and ongoing content management."],
+        bullets: [
+          "information architecture and the main user journeys",
+          "visual design aligned with the brand and audience",
+          "responsive implementation for mobile, tablet, and desktop",
+          "management of the agreed content areas",
+          "contact and enquiry forms",
+          "technical SEO foundations, metadata, and sitemap",
+          "domain connection, analytics, deployment, and launch",
+        ],
+      },
+      {
+        title: "A website under your control",
+        body: [
+          "I build the website as a standalone application for the agreed scope. It does not depend on a collection of plugins that require ongoing updates and can interfere with one another.",
+          "The source code and infrastructure account can remain under your control. The website can be handed over or moved if you later change supplier or hosting.",
+          "For smaller websites, infrastructure costs can be zero or very low. The final setup depends on traffic and the functions being used.",
+        ],
+      },
+      {
+        title: "Indicative pricing",
+        body: ["The final price is confirmed against the agreed pages, editable content, and functions before development begins."],
+      },
+      {
+        title: "How delivery works",
+        body: ["The website is delivered through clear stages with one consolidated feedback round for the visual proposal."],
+        bullets: [
+          "Confirm the content, business goal, and examples that reflect the expected direction.",
+          "Prepare the information structure and visual proposal for consolidated feedback.",
+          "Build the website, content management, and agreed functions.",
+          "Connect the domain, verify responsive behaviour, forms, and technical SEO, then launch.",
+        ],
+        listType: "ordered",
+      },
+      {
+        title: "Relevant projects",
+        body: ["Comparable work includes company and real-estate websites with managed content, listings, catalogues, and enquiry flows."],
+        bullets: ["Kasan & Pelcová", "Prodat-byt.cz", "Viditelný Makléř"],
+      },
+    ],
+    faq: [
+      { question: "Will we be able to edit the content?", answer: "Yes. We agree which areas need to be editable, such as services, products, references, contact details, or articles. The editor is shaped around the actual content instead of exposing unnecessary technical settings." },
+      { question: "Do you also provide copy and photography?", answer: "I need the factual information about the company, services, and customers. I can structure and edit it for the website. Final specialist wording and image rights remain subject to client approval, and missing visuals can be handled separately." },
+      { question: "Why do you not build on WordPress?", answer: "I focus on custom websites and applications outside the WordPress plugin ecosystem. This keeps performance, data structure, and custom functions under control without tying the result to a template or plugin stack." },
+      { question: "Will the website be ready for search engines?", answer: "Yes. The delivery includes technical SEO foundations, headings and metadata, sitemap, indexability, and performance checks. Rankings also depend on content quality, competition, and ongoing work after launch." },
+      { question: "Where will the website run?", answer: "It can run in an account under your control or in an agreed managed setup. You are not locked into a proprietary platform, and the website can be moved later." },
+    ],
+    related: ["references", "service-custom-web-app-development", "hub-services", "inquiry"],
+    priorityLinks: [
+      { label: "View references", href: "/en/references/" },
+      { label: "Describe the website", href: "/en/discuss-your-project/" },
+    ],
+    fitFor: ["companies that need a clearer online presentation", "services and catalogues with an enquiry flow", "projects that want control over source code and hosting"],
+    fitNot: ["WordPress and plugin-based delivery", "unlimited functions without an agreed scope", "large transactional ecommerce within a basic website scope"],
+    ctaLabel: "Describe the website",
+    ctaNote: "Share what the company offers, the content you need, and whether the website should include a catalogue or custom functions. I will suggest a realistic scope.",
+  }),
   service({
     translationKey: "service-custom-web-app-development",
     locale: "cs",
     slug: "vyvoj-webovych-aplikaci-na-miru",
-    title: "Vývoj webových aplikací na míru pro firmy | Bc. Ondřej Halata",
-    breadcrumbLabel: "Vývoj webových aplikací na míru pro firmy",
-    description: "Navrhuji a vyvíjím webové aplikace na míru pro firmy, které potřebují vlastní procesy, role, klientský portál, interní systém nebo napojení na další systémy.",
+    title: "Vývoj webových aplikací na míru pro firmy | Ondřej Halata",
+    breadcrumbLabel: "Webové aplikace a interní systémy",
+    description: "Navrhnu a vyvinu webovou aplikaci od datového modelu a uživatelských rolí přes frontend a backend až po integrace, nasazení a další rozvoj.",
     primaryQuery: "vývoj webových aplikací na míru",
-    heroTitle: "Webová aplikace na míru pro firmy, kterým hotový software nestačí",
-    heroSubtitle: "Nejčastěji pro klientské portály, interní systémy, operativní workflow a aplikace s více rolemi, daty a integracemi.",
+    eyebrow: "Webové aplikace a interní systémy",
+    heroTitle: "Webová aplikace na míru vašemu způsobu práce.",
+    heroSubtitle: "Vytvořím aplikaci pro zákazníky, partnery nebo interní tým a propojím její obrazovky, data i provoz do jednoho funkčního celku.",
+    primaryCtaLabel: "Popsat aplikaci",
+    secondaryCta: { label: "Prohlédnout aplikační reference", href: "/cs/reference/" },
     intro: [
-      "Vývoj webové aplikace na míru dává smysl ve chvíli, kdy firma potřebuje vlastní workflow, role, schvalování nebo napojení na další systémy a hotový nástroj už vytváří víc omezení než hodnoty.",
-      "Nejde jen o napsání funkcí. Důležitý je návrh dat, oprávnění, hranic systému a provozu tak, aby šla aplikace bezpečně rozvíjet i za rok nebo dva bez drahých obcházek.",
-      "Pomohu od zadání přes návrh MVP až po realizaci a další rozvoj. Pokud už máte tým, mohu navázat i uvnitř rozpracovaného produktu.",
+      "Vlastní aplikace dává smysl ve chvíli, kdy se důležitý proces nevejde do hotového nástroje a lidé jeho omezení stále obcházejí ručně.",
+      "Začneme částí, která má pro uživatele konkrétní přínos. Už od návrhu přitom počítám s rolemi, daty, oprávněními a tím, jak bude řešení fungovat po spuštění.",
+    ],
+    sections: [
+      {
+        title: "Kdy vlastní aplikace dává smysl",
+        body: ["Nejčastěji ve chvíli, kdy software přímo ovlivňuje každodenní práci, obsluhu zákazníků nebo vlastní digitální produkt."],
+        bullets: [
+          "Firma má vlastní postup, role nebo schvalování, které obecný systém nepokrývá.",
+          "Uživatelé potřebují pracovat s navazujícími daty na jednom místě.",
+          "Hotový nástroj vyžaduje opakované ruční obcházení důležité části procesu.",
+          "Má vzniknout klientský nebo partnerský portál.",
+          "Firma buduje marketplace, analytický nástroj nebo jiný digitální produkt.",
+          "Existující aplikace potřebuje nový modul nebo další rozvoj.",
+        ],
+      },
+      {
+        title: "Co tvoří funkční aplikaci",
+        body: ["Obrazovky jsou jen jedna část. Dodávku skládám tak, aby spolu od začátku fungovalo používání, pravidla, data i provoz."],
+        bullets: [
+          "Návrh hlavních uživatelů, scénářů a podmínek, podle kterých poznáme hotový výsledek.",
+          "Přehledné formuláře, tabulky, dashboardy a stavy pro běžnou práci.",
+          "Datový model, API, přihlášení, role, oprávnění a kontrola vstupů.",
+          "Napojení externích služeb a převod současných dat.",
+          "Nasazení, logování, zálohování a způsob vydávání dalších změn.",
+        ],
+      },
+      {
+        title: "Jakou podobu může aplikace mít",
+        body: ["Konkrétní funkce vycházejí z procesu, nejčastěji ale řeším některý z těchto typů systému."],
+        bullets: [
+          "Interní systém nebo CRM: Evidence, zakázky, schvalování a každodenní práce týmu.",
+          "Klientský nebo partnerský portál: Přihlášení, dokumenty, stav služby a komunikace na jednom místě.",
+          "Marketplace nebo katalog: Účty, nabídky, vyhledávání, moderace a správa obsahu.",
+          "Analytický nebo AI nástroj: Zpracování dat, vyhodnocení a srozumitelný výstup pro uživatele.",
+        ],
+      },
+      {
+        title: "AI používám jako nástroj, ne jako náhradu kontroly",
+        body: [
+          "AI mi pomáhá při analýze, implementaci a rutinních částech vývoje. Každou změnu ale procházím v kontextu architektury, dat, bezpečnosti a očekávaného chování.",
+          "Pokud je AI součástí produktu, napojuji ji na konkrétní data a pravidla. U důležitých kroků musí být jasné, z čeho výstup vychází a kdy zůstává rozhodnutí na člověku.",
+        ],
+      },
+      {
+        title: "Jak vývoj probíhá",
+        body: ["První rozsah potvrdíme podle problému, uživatelů a cílového výsledku, ne podle seznamu izolovaných funkcí."],
+        bullets: [
+          "Ujasníme si problém, uživatele a současný způsob práce.",
+          "Navrhnu role, data, hlavní scénáře a použitelný první rozsah.",
+          "Aplikaci vytvořím v navazujících celcích a průběžně ověřím kritické scénáře.",
+          "Řešení nasadím, předám a další rozvoj budeme řídit podle reálného používání.",
+        ],
+        listType: "ordered",
+      },
+      {
+        title: "Orientační cenový rámec",
+        body: [
+          "Cena vychází z počtu uživatelů, dat, obrazovek a pravidel, která musí aplikace spolehlivě obsloužit.",
+          "Varianty níže ukazují obvyklé výchozí rozsahy. Před zahájením vždy potvrdím hranice etapy i její pevnou cenu.",
+        ],
+      },
+      {
+        title: "Relevantní realizace",
+        body: ["Další typy aplikací a datové logiky ukazují vlastní analytický produkt a marketplace."],
+        bullets: ["DoporučenoAI", "Swapio"],
+      },
     ],
     situationsLead: "Silný fit bývá tam, kde aplikace řeší provozně důležitý proces a firma potřebuje systém podle vlastní reality, ne další obcházení omezení hotového nástroje.",
     situations: ["klientský portál nebo extranet", "interní administrace a operativa", "workflow a schvalování", "dashboardy a reporting nad vlastními daty"],
@@ -158,19 +426,22 @@ export const servicePages: ContentPage[] = [
     resultsLead: "Výsledkem má být použitelný systém, který pomáhá byznysu, drží technicky pohromadě a dá se bezpečně rozšiřovat.",
     results: ["méně provozních obcházek a ruční práce", "větší jistota dalšího rozvoje", "lepší práce s rolemi a daty", "jasnější architektura než u ad hoc řešení"],
     faq: [
-      { question: "Kolik detailů musíme mít připravených před startem?", answer: "Stačí popsat problém, současný proces a cílový výsledek. Kompletní specifikace nebývá na začátku nutná." },
-      { question: "Umíte navázat i na existující tým?", answer: "Ano. Mohu dodat ucelenou část řešení samostatně nebo doplnit interní tým jako seniorní kontraktor." },
-      { question: "Je možné začít jen MVP verzí?", answer: "Ano. U větších projektů je to často nejlepší cesta, jak ověřit priority a dostat první hodnotu do provozu bez zbytečného přeplnění scope." },
-      { question: "Pomůžete i po spuštění?", answer: "Ano. Běžná spolupráce zahrnuje další rozvoj, technické dluhy, opravy i rozhodování o dalším směru." },
+      { question: "Kolik detailů musíme mít před prvním kontaktem?", answer: "Stačí problém, uživatelé a cílový výsledek. Datový model, technickou architekturu a rozsah první etapy lze připravit společně." },
+      { question: "Dostaneme zdrojový kód?", answer: "Ano, pokud smlouva neurčí jinak. Součástí předání mohou být repozitář, konfigurace, dokumentace a přístupy potřebné k provozu." },
+      { question: "Lze začít menší první etapou?", answer: "Ano. U větších projektů je to běžný postup. První etapa ale musí tvořit použitelný celek a mít jasné akceptační podmínky." },
+      { question: "Můžete pracovat s naším existujícím týmem?", answer: "Ano. Mohu dodat samostatný modul, převzít konkrétní část projektu nebo navázat na existující aplikaci a proces vývoje." },
+      { question: "Co se děje po spuštění?", answer: "Podle dohody zajistím záruční opravy, provozní podporu a další rozvoj, nebo řešení předám vašemu týmu. Rozsah podpory nebude skrytým neurčitým závazkem." },
+      { question: "Řešíte také bezpečnost a provoz?", answer: "Ano v rozsahu odpovídajícím projektu. Patří sem autentizace, oprávnění, validace vstupu, práce s citlivými přístupy, logování, zálohování a kontrola kritických chybových scénářů." },
     ],
-    related: ["comparison-custom-vs-saas", "guide-how-to-scope-a-custom-web-application", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "problem-client-portal", "problem-internal-tool", "hub-locations", "inquiry"],
+    related: ["service-internal-tools-development", "service-sales-and-job-tracking-system", "service-existing-app-takeover", "service-automations-and-integrations", "references", "inquiry"],
     priorityLinks: [
-      { label: "Jak zadat vývoj webové aplikace", href: "/cs/pruvodce/jak-zadat-vyvoj-webove-aplikace" },
-      { label: "Kdy dává smysl vývoj na míru místo SaaS", href: "/cs/srovnani/vyvoj-na-miru-vs-saas" },
-      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
+      { label: "Prohlédnout aplikační reference", href: "/cs/reference/" },
+      { label: "Popsat aplikaci", href: "/cs/kontakt/" },
     ],
     fitFor: ["firmy s vlastním workflow a více rolemi", "projekty, kde SaaS nástroj vytváří zbytečné kompromisy", "týmy, které chtějí aplikaci dlouhodobě rozvíjet"],
     fitNot: ["jednoduché prezentační weby", "jednorázové microsites bez logiky", "projekty řízené jen nejnižší cenou bez ownershipu"],
+    ctaLabel: "Popsat aplikaci",
+    ctaNote: "Napište, kdo bude aplikaci používat, jaký proces má řešit a co dnes nefunguje. Navrhnu realistický rozsah první etapy.",
   }),
   service({
     translationKey: "service-existing-app-takeover",
@@ -213,7 +484,7 @@ export const servicePages: ContentPage[] = [
       { label: "Postup bezpečného převzetí existující aplikace", href: "/cs/pruvodce/jak-prevzit-existujici-aplikaci-bez-rizika/" },
       { label: "Co ovlivňuje nacenění převzetí aplikace", href: "/cs/pruvodce/jak-nacenit-prevzeti-aplikace/" },
       { label: "Projít checklist přístupů, prostředí a release procesu", href: "/cs/sablony/checklist-prevzeti-aplikace/" },
-      { label: "Popsat aplikaci k převzetí", href: "/cs/popsat-projekt/" },
+      { label: "Popsat aplikaci k převzetí", href: "/cs/kontakt/" },
     ],
     fitFor: ["běžící aplikace po původním dodavateli", "rozpracované projekty bez technického vedení", "systémy, které potřebují stabilizaci před dalším růstem"],
     fitNot: ["projekty bez přístupu do repozitářů a infrastruktury", "čistě kosmetické redesigny", "okamžitý rewrite bez auditu a priorit"],
@@ -246,11 +517,11 @@ export const servicePages: ContentPage[] = [
       { question: "Pomůžete i s převodem z tabulek nebo starých nástrojů?", answer: "Ano. Součástí může být migrace dat, napojení na stávající systémy i postupný přechod bez tvrdého vypnutí starého řešení." },
       { question: "Dá se interní systém spojit s reportingem?", answer: "Ano. Reporting dává největší smysl tam, kde stojí na kvalitních datech z každodenního provozu." },
     ],
-    related: ["comparison-custom-vs-saas", "comparison-internal-tool-vs-spreadsheets", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "use-case-internal-admin-system", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
+    related: ["comparison-custom-vs-saas", "comparison-internal-tool-vs-spreadsheets", "problem-internal-tool", "problem-replace-spreadsheets-in-process", "use-case-internal-admin-system", "use-case-service-team-ops-system", "service-automations-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
     priorityLinks: [
       { label: "Kdy dává smysl interní systém místo SaaS", href: "/cs/pruvodce/kdy-dava-smysl-interni-system-misto-saas" },
       { label: "Jak řídit zakázky bez Excelu", href: "/cs/pruvodce/jak-ridit-zakazky-bez-excelu" },
-      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
+      { label: "Popsat situaci", href: "/cs/kontakt" },
     ],
     fitFor: ["firmy, kterým nestačí sdílené tabulky a e-maily", "provozy s více rolemi a odpovědnostmi", "týmy, které chtějí lepší dohled nad operativou"],
     fitNot: ["jednoduchá evidence pro jednoho uživatele", "projekty bez vlastníka procesu na straně klienta", "nákup hotového SaaS bez potřeby přizpůsobení"],
@@ -259,16 +530,74 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-automations-and-integrations",
     locale: "cs",
     slug: "automatizace-a-integrace",
-    title: "Automatizace a integrace systémů pro firmy | Bc. Ondřej Halata",
-    breadcrumbLabel: "Automatizace procesů a integrace systémů ve firmě",
-    description: "Pomohu firmám najít a odstranit ruční práci, přepisování dat a zbytečné kontroly pomocí automatizace procesů, API integrací a úprav interního workflow.",
+    title: "Automatizace firemních procesů a integrace systémů | Ondřej Halata",
+    breadcrumbLabel: "Automatizace a propojení systémů",
+    description: "Propojím firemní systémy a omezím ruční práci pomocí API integrací, datových konektorů, automatizovaného workflow a praktického zapojení AI.",
     primaryQuery: "automatizace firemních procesů",
-    heroTitle: "Kde firmu brzdí ruční práce, Excel a nepřipojené systémy?",
-    heroSubtitle: "Pro firmy, kde se data přepisují mezi ERP, CRM, e-shopem, tabulkami a interními nástroji a důležité workflow stojí na ruční koordinaci.",
+    eyebrow: "Automatizace a propojení systémů",
+    heroTitle: "Automatizace, která propojí systémy a omezí ruční práci.",
+    heroSubtitle: "Navážu na nástroje, které už používáte, a vytvořím spolehlivý tok dat od jednoho konektoru po širší firemní proces.",
+    primaryCtaLabel: "Popsat proces nebo integraci",
+    secondaryCta: { label: "Prověřit možnosti automatizace", href: "/cs/audit-automatizace/" },
     intro: [
-      "Automatizace procesů dává největší smysl tam, kde firma opakovaně ztrácí čas na ručních krocích mezi několika systémy. Typicky jde o přepisování dat, kontrolu stavů, ruční spouštění návazných akcí nebo reporty z více zdrojů.",
-      "První krok ale není automatizovat všechno. Nejdřív je potřeba pochopit, kde vzniká největší ztráta, kde se data rozbíjejí a které zásahy opravdu zlepší provoz místo přidání další vrstvy chaosu.",
-      "Pomohu navrhnout menší první etapu, která zlepší provozní návaznost mezi systémy a ověří, kde dávají integrace a automatizace největší smysl.",
+      "Nejdřív společně najdeme ruční krok, který se opakuje, zabírá čas nebo vytváří zbytečné chyby. Teprve potom vybírám vhodný způsob automatizace.",
+      "Začít můžeme jedním konkrétním přenosem dat. Řešení ale od začátku počítá s kontrolou výsledku, výpadkem služby i možností bezpečného opakování.",
+    ],
+    sections: [
+      {
+        title: "Kde se automatizace nejčastěji vyplatí",
+        body: ["Dobrým začátkem je opakovaný krok mezi lidmi a systémy, jehož výsledek lze jednoznačně zkontrolovat."],
+        bullets: [
+          "Údaje se ručně přepisují mezi e-mailem, tabulkou, CRM, ERP nebo účetnictvím.",
+          "Lidé opakovaně kontrolují platby, stavy, termíny nebo chybějící dokumenty.",
+          "Poptávka se ručně třídí a předává dalšímu člověku.",
+          "Report se skládá z několika exportů a ručních úprav.",
+          "Stejný dokument nebo záznam vzniká ve více systémech.",
+          "Chyba přenosu se zjistí až ve chvíli, kdy chybí navazující výsledek.",
+        ],
+      },
+      {
+        title: "Jak spolehlivá automatizace funguje",
+        body: ["Nejde jen o jednorázový skript. Automatizace musí bezpečně převzít vstup, použít domluvená pravidla a předat ověřitelný výsledek."],
+        bullets: [
+          "Vstupy: Formuláře, e-maily, dokumenty, exporty nebo data z API.",
+          "Zpracování: Kontrola, transformace a mapování hodnot podle firemních pravidel.",
+          "Výstup: CRM, účetnictví, e-shop, interní systém, report nebo upozornění.",
+          "Provozní ochrana: Kontrola duplicit, opakování dočasných chyb, logování a možnost ručního zásahu.",
+        ],
+      },
+      {
+        title: "AI zapojuji jen tam, kde přináší konkrétní hodnotu",
+        body: [
+          "AI může třídit text, získávat informace z dokumentů, připravit návrh odpovědi nebo pomoci s hledáním v interních podkladech.",
+          "Pevná pravidla zůstávají vhodnější pro výpočty, účetní mapování a další kroky, kde musí být výsledek vždy stejný. Výstup AI proto podle rizika doplňuji validací nebo lidským schválením.",
+        ],
+      },
+      {
+        title: "Jak realizace probíhá",
+        body: ["Nejdřív řešíme proces a data, teprve potom konkrétní technologii."],
+        bullets: [
+          "Projdeme současný proces, používané systémy a nejčastější výjimky.",
+          "Oddělím vhodné automatické kroky od rozhodnutí, která mají zůstat na člověku.",
+          "Navrhnu a nasadím nejmenší etapu s kontrolovatelným výsledkem.",
+          "Po ověření v provozu můžeme přidat další pravidla, systémy nebo klienty.",
+        ],
+        listType: "ordered",
+      },
+      {
+        title: "Orientační ceny",
+        body: [
+          "Cena závisí na počtu napojených systémů, množství výjimek a tom, jak důležitý je automatizovaný proces pro běžný provoz.",
+          "Začít lze analýzou, jedním konkrétním konektorem nebo řešením doplněným o správu a monitoring.",
+        ],
+      },
+      {
+        title: "Relevantní zkušenost",
+        body: [
+          "Pohoda XML ukazuje převod a mapování dokladů pro účetní systém. DoporučenoAI praktické zapojení AI do analytického workflow.",
+          "Další komerční zkušenosti zahrnují interní systémy, databáze, integrace a provoz, které nelze vždy veřejně popsat do detailu.",
+        ],
+      },
     ],
     situationsLead: "Tato služba dává smysl, když mezi systémy vzniká opakovaná ruční práce, která brzdí kapacitu lidí a vytváří chybovost.",
     situations: ["přepisování mezi ERP, CRM, e-shopem a tabulkami", "ruční kontrola plateb, termínů nebo stavů", "reporty skládané z více zdrojů", "schvalování bez jednotných pravidel", "API napojení mezi firemními systémy"],
@@ -278,19 +607,21 @@ export const servicePages: ContentPage[] = [
     resultsLead: "Dobrý výsledek není co nejvíc automatických kroků, ale přehledný tok dat a menší závislost firmy na ruční koordinaci.",
     results: ["úspora času na opakovaných úkolech", "méně chyb při přepisování", "lepší návaznost mezi systémy", "jasnější podklad pro další investice do provozu"],
     faq: [
-      { question: "Je vhodné automatizovat i menší firmu?", answer: "Ano, pokud se opakuje dost ruční práce nebo je provoz závislý na několika lidech. Rozhodující není velikost firmy, ale dopad procesu." },
-      { question: "Řešíte pouze integrace přes API?", answer: "Ne. API je jen jedna část. Často je potřeba upravit i interní workflow, datový model nebo způsob práce lidí." },
-      { question: "Umíte navázat i realizací po auditu?", answer: "Ano. Mohu dodat návrh, technickou realizaci i další rozvoj. Není nutné hledat jiného dodavatele pro samotnou implementaci." },
-      { question: "Co když je problém spíš v procesu než v technologii?", answer: "I to je užitečný výstup. Lepší je pojmenovat procesní problém včas, než investovat do automatizace, která nic podstatného nezlepší." },
+      { question: "Je automatizace vhodná i pro menší firmu?", answer: "Ano, pokud se stejný proces opakuje dost často nebo závisí na jednom člověku. Velikost firmy je méně důležitá než četnost, chybovost a dopad konkrétního kroku." },
+      { question: "Musíme měnit systémy, které už používáme?", answer: "Obvykle ne. Nejdřív prověřím jejich API, exporty a další možnosti napojení. Cílem je využít existující nástroje a doplnit mezi nimi spolehlivou návaznost." },
+      { question: "Co když externí API nebo cílový systém vypadne?", answer: "Návrh počítá s logováním, opakováním dočasných chyb a ochranou proti duplicitám. Konkrétní úroveň odolnosti se určí podle dopadu výpadku." },
+      { question: "Je součástí i dlouhodobý provoz?", answer: "Může být, ale není automaticky skrytý v ceně realizace. Můžeme domluvit placené zásahy podle skutečného času, pravidelnou podporu nebo předání provozu vašemu týmu." },
+      { question: "Kolik stojí první posouzení?", answer: "Krátký úvodní rozhovor a základní ověření směru jsou zdarma. Pokud je potřeba projít více systémů, dat a výjimek, samostatná analýza se obvykle pohybuje mezi 1 500 a 4 000 Kč podle náročnosti. Cenu potvrdím předem." },
     ],
-    related: ["problem-system-integrations", "problem-replace-spreadsheets-in-process", "guide-how-to-run-automation-discovery", "use-case-workflow-app-for-teams", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "problem-ai-in-business-process", "use-case-ai-intake-triage", "tool-api-integration-checklist", "tool-automation-discovery-checklist", "inquiry"],
+    related: ["automation-audit", "guide-how-to-automate-request-processing", "service-sales-and-job-tracking-system", "service-custom-web-app-development", "inquiry"],
     priorityLinks: [
-      { label: "Jak automatizovat zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek" },
-      { label: "Jak odhalit ruční přepisování dat", href: "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat" },
-      { label: "Popsat situaci", href: "/cs/popsat-projekt" },
+      { label: "Prověřit možnosti automatizace", href: "/cs/audit-automatizace/" },
+      { label: "Popsat proces nebo integraci", href: "/cs/kontakt/" },
     ],
     fitFor: ["firmy s více systémy a ručním přepisováním", "procesy závislé na ruční kontrole a dohledávání", "projekty, kde se má nejdřív zmapovat přínos automatizace"],
     fitNot: ["automatizace bez znalosti procesu a dopadu", "jednorázové skripty bez provozní odpovědnosti", "projekty postavené jen na nákupu no-code licence bez integrací"],
+    ctaLabel: "Popsat proces nebo integraci",
+    ctaNote: "Napište, co se dnes dělá ručně, které systémy používáte a co se stane při chybě. Navrhnu další rozumný krok.",
   }),
   service({
     translationKey: "service-custom-web-app-development",
@@ -320,7 +651,7 @@ export const servicePages: ContentPage[] = [
       { question: "Can we start with an MVP?", answer: "Yes. For larger initiatives, a well-scoped MVP is often the safest way to validate priorities without overbuilding the first release." },
       { question: "Do you stay involved after launch?", answer: "Yes. Ongoing support can cover improvements, bug fixing, technical debt reduction, performance work, and structured next-phase planning." },
     ],
-    related: ["problem-client-portal", "comparison-custom-vs-saas", "use-case-b2b-client-portal", "use-case-b2b-partner-portal", "case-study-internal-tool-for-operations", "inquiry"],
+    related: ["problem-client-portal", "comparison-custom-vs-saas", "use-case-client-portal", "use-case-b2b-partner-portal", "case-study-internal-tool-for-operations", "inquiry"],
     priorityLinks: [
       { label: "How to scope a custom web application", href: "/en/guides/how-to-scope-a-custom-web-application" },
       { label: "Custom development vs SaaS", href: "/en/comparisons/custom-web-app-vs-saas-tool" },
@@ -389,7 +720,7 @@ export const servicePages: ContentPage[] = [
       { question: "Can you help migrate from spreadsheets or old tools?", answer: "Yes. That can include staged migration, data import, and integration work so the new tool supports the transition instead of disrupting it." },
       { question: "Can internal tools include dashboards and reporting?", answer: "Yes. Reporting is often most valuable when it sits on top of better operational data collected through the tool itself." },
     ],
-    related: ["problem-internal-tool", "problem-replace-spreadsheets-in-process", "comparison-internal-tool-vs-spreadsheets", "use-case-internal-approval-system", "service-ai-automation-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
+    related: ["problem-internal-tool", "problem-replace-spreadsheets-in-process", "comparison-internal-tool-vs-spreadsheets", "use-case-internal-approval-system", "service-automations-and-integrations", "use-case-ai-internal-documents", "tool-excel-to-internal-tool-migration-checklist", "inquiry"],
     priorityLinks: [
       { label: "When an internal tool is better than SaaS", href: "/en/guides/when-an-internal-tool-is-better-than-saas" },
       { label: "How to manage jobs without Excel", href: "/en/guides/how-to-manage-jobs-without-excel" },
@@ -426,7 +757,7 @@ export const servicePages: ContentPage[] = [
       { question: "Can you implement the changes after the review?", answer: "Yes. I can stay involved from the initial mapping stage through delivery and follow-up improvement work." },
       { question: "What if the real problem is a broken process, not missing automation?", answer: "That is still a useful outcome. It is better to identify a process issue early than to spend money automating something that will remain inefficient." },
     ],
-    related: ["problem-system-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-app-for-teams", "use-case-service-team-ops-system", "service-ai-automation-and-integrations", "problem-ai-in-business-process", "use-case-ai-intake-triage", "tool-automation-discovery-checklist", "inquiry"],
+    related: ["problem-system-integrations", "guide-how-to-run-automation-discovery", "use-case-workflow-app-for-teams", "use-case-service-team-ops-system", "problem-ai-in-business-process", "use-case-ai-intake-triage", "tool-automation-discovery-checklist", "inquiry"],
     priorityLinks: [
       { label: "How to automate request processing", href: "/en/guides/how-to-automate-request-processing" },
       { label: "How to find manual data re-entry", href: "/en/guides/how-to-find-manual-data-reentry" },
@@ -567,11 +898,11 @@ export const servicePages: ContentPage[] = [
     translationKey: "service-sales-and-job-tracking-system",
     locale: "cs",
     slug: "system-pro-rizeni-poptavek-a-zakazek",
-    title: "Systém pro řízení poptávek a zakázek na míru | Bc. Ondřej Halata",
+    title: "Systém pro evidenci a řízení zakázek na míru | Ondřej Halata",
     breadcrumbLabel: "Systém pro řízení poptávek a zakázek na míru",
     description: "Navrhnu a vyvinu interní systém pro řízení poptávek, nabídek a zakázek včetně rolí, stavů, předávání práce a napojení na používané firemní nástroje.",
-    primaryQuery: "vývoj systému pro řízení poptávek a zakázek",
-    heroTitle: "Navrhnu a vytvořím systém pro řízení poptávek a zakázek",
+    primaryQuery: "evidence zakázek",
+    heroTitle: "Poptávky, nabídky a zakázky v jednom systému",
     heroSubtitle: "Řešení na míru propojí poptávku, nabídku a realizaci, nastaví role a stavy a naváže na nástroje, které už firma používá.",
     intro: [
       "Ve většině firem nevzniká chaos proto, že by lidé nechtěli mít pořádek. Vzniká ve chvíli, kdy poptávky, nabídky a realizace žijí v různých tabulkách, e-mailech a hlavách lidí.",
@@ -625,7 +956,7 @@ export const servicePages: ContentPage[] = [
       { label: "Jak konkrétně funguje systém od poptávky po realizaci", href: "/cs/priklady/system-pro-poptavky-nabidky-a-realizaci/" },
       { label: "Jak připravit automatizaci zpracování poptávek", href: "/cs/pruvodce/jak-automatizovat-zpracovani-poptavek/" },
       { label: "Jak poznat rizika řízení poptávek a zakázek v Excelu a e-mailu", href: "/cs/problemy/poptavky-nabidky-a-realizace-v-excelu-a-emailu/" },
-      { label: "Popsat požadovaný systém", href: "/cs/popsat-projekt/" },
+      { label: "Popsat požadovaný systém", href: "/cs/kontakt/" },
     ],
     fitFor: [
       "firmy se zakázkovým obchodem nebo realizací",
@@ -711,3 +1042,8 @@ export const servicePages: ContentPage[] = [
     ],
   }),
 ];
+
+// AI is presented as a capability within automation delivery, not as a separate service.
+export const servicePages = servicePageDefinitions.filter(
+  (page) => page.translationKey !== "service-ai-automation-and-integrations",
+);

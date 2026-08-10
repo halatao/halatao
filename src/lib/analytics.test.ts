@@ -53,7 +53,7 @@ test("analytics records a sanitized, query-free in-memory context after consent"
   const { dataLayer, location } = installBrowserContext(true);
 
   initializeAnalyticsContext();
-  location.pathname = "/cs/popsat-projekt/";
+  location.pathname = "/cs/kontakt/";
   location.search = "?utm_source=must-not-overwrite";
   initializeAnalyticsContext();
   trackAnalyticsEvent("generate_lead", {
@@ -65,7 +65,7 @@ test("analytics records a sanitized, query-free in-memory context after consent"
     {
       event: "generate_lead",
       locale: "cs",
-      page_path: "/cs/popsat-projekt/",
+      page_path: "/cs/kontakt/",
       landing_page: "/cs/sluzby/interni-systemy-na-miru/",
       referrer_host: "example.org",
       traffic_source: "googlescript",

@@ -25,7 +25,6 @@ export const audienceCopyKeys = new Set([
   "guide-when-ai-integration-makes-sense",
   "guide-when-internal-tool-better-than-saas",
   "guide-when-process-automation-pays-off",
-  "service-ai-automation-and-integrations",
 ]);
 
 export const internalEditorialCopyPatterns = [
