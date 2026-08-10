@@ -21,14 +21,14 @@ async function expectRedirect(source: string, expectedTarget: string, status = 3
 }
 
 test("generated artifact exposes the complete categorized redirect manifest", () => {
-  assert.equal(redirectArtifact.generatedRuleCount, 668);
-  assert.equal(Object.keys(rules).length, 668);
+  assert.equal(redirectArtifact.generatedRuleCount, 707);
+  assert.equal(Object.keys(rules).length, 707);
 
   const counts = Object.values(rules).reduce<Record<string, number>>((result, rule) => {
     result[rule.category] = (result[rule.category] ?? 0) + 1;
     return result;
   }, {});
-  assert.deepEqual(counts, { canonicalization: 334, legacy: 292, "content-merge": 42 });
+  assert.deepEqual(counts, { canonicalization: 334, legacy: 331, "content-merge": 42 });
 });
 
 test("every exact manifest source redirects directly and preserves its query", async () => {
@@ -134,6 +134,19 @@ test("required merge, GSC, location, automation and exact Czech legacy families 
     "/en/services-1/",
     "/en/templates/release-process-stabilization-checklist-2/",
     "/cs/problemy/potrebujeme-klientsky-portal-2/",
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/-2/",
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool-2/",
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/-2/",
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/-2/",
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru-2/",
+    "/en/comparisons/custom-web-app-vs-saas-tool-2/",
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/-2/",
+    "/en/comparisons/-1/",
+    "/cs/srovnani/interni-system-vs-excel-a-email-2/",
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace-2/",
+    "/en/templates/api-integration-checklist-2/",
+    "/cs/pripadovky/interni-nastroj-pro-operativu-2/",
+    "/en/guides/how-to-run-an-app-takeover-audit-2/",
     "/cs/pruvodce/jak-odhalit-rucni-prepisovani-dat-2/",
     "/cs/lokace/",
     "/cs/lokace/praha/",

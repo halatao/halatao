@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "canonicalOrigin": "https://www.halatao.cz",
-  "generatedRuleCount": 668,
+  "generatedRuleCount": 707,
   "rules": {
     "/": {
       "target": "/cs/",
@@ -489,6 +489,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/pripadovky/interni-nastroj-pro-operativu-2": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pripadovky/interni-nastroj-pro-operativu-2/": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pripadovky/interni-nastroj-pro-operativu-2/index.html": {
+      "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cs/pripadovky/interni-nastroj-pro-operativu/index.html": {
       "target": "/cs/pripadovky/interni-nastroj-pro-operativu/",
       "status": 308,
@@ -669,6 +687,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/-2": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/-2/": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/-2/index.html": {
+      "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/index.html": {
       "target": "/cs/problemy/potrebujeme-prevzit-rozpracovanou-aplikaci/",
       "status": 308,
@@ -813,6 +849,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/-2": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/-2/": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/-2/index.html": {
+      "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/index.html": {
       "target": "/cs/pruvodce/jak-poznat-ze-aplikace-opravdu-potrebuje-rewrite/",
       "status": 308,
@@ -944,6 +998,24 @@
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/-2": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/-2/": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/-2/index.html": {
+      "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
     },
     "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/index.html": {
       "target": "/cs/pruvodce/kdy-se-vyplati-automatizace-procesu/",
@@ -1119,6 +1191,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace-2": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace-2/": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace-2/index.html": {
+      "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/index.html": {
       "target": "/cs/sluzby/prevzeti-a-rozvoj-existujici-aplikace/",
       "status": 308,
@@ -1173,6 +1263,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru-2": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru-2/": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru-2/index.html": {
+      "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/index.html": {
       "target": "/cs/sluzby/vyvoj-webovych-aplikaci-na-miru/",
       "status": 308,
@@ -1220,6 +1328,24 @@
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/cs/srovnani/interni-system-vs-excel-a-email-2": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/srovnani/interni-system-vs-excel-a-email-2/": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/cs/srovnani/interni-system-vs-excel-a-email-2/index.html": {
+      "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
     },
     "/cs/srovnani/interni-system-vs-excel-a-email/index.html": {
       "target": "/cs/srovnani/interni-system-vs-excel-a-email/",
@@ -2943,6 +3069,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/en/comparisons/-1": {
+      "target": "/en/comparisons/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/comparisons/-1/": {
+      "target": "/en/comparisons/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/comparisons/-1/index.html": {
+      "target": "/en/comparisons/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/en/comparisons/contract-developer-vs-agency": {
       "target": "/en/comparisons/contract-developer-vs-agency/",
       "status": 308,
@@ -2960,6 +3104,24 @@
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/en/comparisons/custom-web-app-vs-saas-tool-2": {
+      "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/comparisons/custom-web-app-vs-saas-tool-2/": {
+      "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/comparisons/custom-web-app-vs-saas-tool-2/index.html": {
+      "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
     },
     "/en/comparisons/custom-web-app-vs-saas-tool/index.html": {
       "target": "/en/comparisons/custom-web-app-vs-saas-tool/",
@@ -3164,6 +3326,24 @@
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/en/guides/how-to-run-an-app-takeover-audit-2": {
+      "target": "/en/guides/how-to-run-an-app-takeover-audit/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/guides/how-to-run-an-app-takeover-audit-2/": {
+      "target": "/en/guides/how-to-run-an-app-takeover-audit/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/guides/how-to-run-an-app-takeover-audit-2/index.html": {
+      "target": "/en/guides/how-to-run-an-app-takeover-audit/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
     },
     "/en/guides/how-to-run-an-app-takeover-audit/index.html": {
       "target": "/en/guides/how-to-run-an-app-takeover-audit/",
@@ -3675,6 +3855,24 @@
       "query": "preserve",
       "category": "canonicalization"
     },
+    "/en/templates/api-integration-checklist-2": {
+      "target": "/en/templates/api-integration-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/api-integration-checklist-2/": {
+      "target": "/en/templates/api-integration-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/api-integration-checklist-2/index.html": {
+      "target": "/en/templates/api-integration-checklist/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
     "/en/templates/api-integration-checklist/index.html": {
       "target": "/en/templates/api-integration-checklist/",
       "status": 308,
@@ -3710,6 +3908,42 @@
       "status": 308,
       "query": "preserve",
       "category": "canonicalization"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool-2": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool-2/": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool-2/index.html": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/-2": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/-2/": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
+    },
+    "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/-2/index.html": {
+      "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",
+      "status": 308,
+      "query": "preserve",
+      "category": "legacy"
     },
     "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/index.html": {
       "target": "/en/templates/checklist-for-migrating-from-spreadsheets-to-an-internal-tool/",

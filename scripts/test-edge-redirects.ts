@@ -12,7 +12,12 @@ const concurrency = Number.parseInt(process.env.SEO_EDGE_CONCURRENCY ?? "6", 10)
 const dryRun = process.argv.includes("--dry-run");
 const requestMethods = ["GET", "HEAD"] as const;
 const canonicalAssetPaths = [...pathPolicy.systemFiles, "/og/halatao-social.svg"] as const;
-const originFilePaths = [...canonicalAssetPaths, "/favicon.ico"] as const;
+// Cloudflare Managed robots.txt may serve a hostname-specific 200 response
+// before the Worker runs. It is verified separately below.
+const originFilePaths = [
+  ...canonicalAssetPaths.filter((path) => path !== "/robots.txt"),
+  "/favicon.ico",
+] as const;
 const unknownAssetPath = "/_next/static/seo-edge-intentionally-missing.js";
 
 type Failure = { request: string; message: string };
@@ -181,6 +186,43 @@ async function main() {
           failures.push({ request: `${method} ${fileSource}`, message: error instanceof Error ? error.message : String(error) });
         }
       }
+    }
+  }
+
+  for (const origin of [...originPolicy.redirectOrigins, canonicalOrigin]) {
+    const source = withProbe(new URL("/robots.txt", origin)).toString();
+    const expected = expectedLocation("/robots.txt");
+
+    try {
+      const response = await request(source);
+
+      if (origin !== canonicalOrigin && response.status === 308) {
+        if (response.headers.get("location") !== expected) {
+          failures.push({
+            request: source,
+            message: `robots origin normalization must lead to '${expected}', received '${response.headers.get("location")}'`,
+          });
+        }
+        continue;
+      }
+
+      if (response.status !== 200) {
+        failures.push({
+          request: source,
+          message: `managed robots expected 200 or canonical 308, received ${response.status}`,
+        });
+        continue;
+      }
+
+      const body = await response.text();
+      if (!/Content-Signal:\s*search=yes/i.test(body)) {
+        failures.push({ request: source, message: "managed robots.txt must explicitly allow search indexing" });
+      }
+      if (origin === canonicalOrigin && !body.includes(`${canonicalOrigin}/sitemap.xml`)) {
+        failures.push({ request: source, message: "canonical robots.txt must reference the canonical sitemap" });
+      }
+    } catch (error) {
+      failures.push({ request: source, message: error instanceof Error ? error.message : String(error) });
     }
   }
 
