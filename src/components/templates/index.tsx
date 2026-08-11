@@ -95,6 +95,13 @@ const featuredProjects = {
       href: "https://prodat-byt.cz/",
       image: "/work/prodat-byt.png",
     },
+    {
+      name: "Pohoda XML",
+      type: "automatizační nástroj",
+      description: "Nástroj pro převod a mapování dokladů do formátu použitelného v účetním systému POHODA.",
+      href: "https://pohoda.halatao.cz/",
+      image: "/work/pohoda-isdoc.png",
+    },
   ],
   en: [
     {
@@ -152,6 +159,13 @@ const featuredProjects = {
       description: "A real-estate service website guiding visitors through their property sale options.",
       href: "https://prodat-byt.cz/",
       image: "/work/prodat-byt.png",
+    },
+    {
+      name: "Pohoda XML",
+      type: "automation tool",
+      description: "A tool for converting and mapping documents into a format usable by the POHODA accounting system.",
+      href: "https://pohoda.halatao.cz/",
+      image: "/work/pohoda-isdoc.png",
     },
   ],
 } as const;
@@ -241,18 +255,9 @@ const serviceProjectNames: Partial<Record<string, string[]>> = {
 };
 
 function getServiceProjects(page: ContentPage) {
-  const automationProject = {
-    name: "Pohoda XML",
-    type: page.locale === "cs" ? "automatizační nástroj" : "automation tool",
-    description: page.locale === "cs"
-      ? "Nástroj pro převod a mapování dokladů do formátu použitelného v účetním systému POHODA."
-      : "A tool for converting and mapping documents into a format usable by the POHODA accounting system.",
-    href: "https://pohoda.halatao.cz/",
-    image: "/work/pohoda-isdoc.png",
-  };
   const names = new Set(serviceProjectNames[page.translationKey] ?? []);
 
-  return [...featuredProjects[page.locale], automationProject].filter((project) => names.has(project.name));
+  return featuredProjects[page.locale].filter((project) => names.has(project.name));
 }
 
 function projectLogo(name: string, decorative: boolean) {
@@ -2061,9 +2066,11 @@ export function CaseStudyTemplate({ page }: TemplateProps) { return <GenericTemp
 export function ReferenceTemplate({ page }: TemplateProps) {
   const projects = featuredProjects[page.locale];
   const applicationNames = new Set(["DoporučenoAI", "RelioCRM", "Swapio", "eMamky", "Novinex"]);
+  const automationNames = new Set(["Pohoda XML"]);
   const applications = projects.filter((project) => applicationNames.has(project.name));
-  const websites = projects.filter((project) => !applicationNames.has(project.name));
-  const [applicationSection, websiteSection, teamSection] = page.sections;
+  const automations = projects.filter((project) => automationNames.has(project.name));
+  const websites = projects.filter((project) => !applicationNames.has(project.name) && !automationNames.has(project.name));
+  const [applicationSection, websiteSection, automationSection, teamSection] = page.sections;
 
   const renderProjectGrid = (items: ReadonlyArray<(typeof projects)[number]>) => (
     <div className="home-project-grid reference-project-grid">
@@ -2102,6 +2109,15 @@ export function ReferenceTemplate({ page }: TemplateProps) {
             {websiteSection.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
           {renderProjectGrid(websites)}
+        </div>
+      </section>
+      <section className="band-section reference-portfolio-section">
+        <div className="band-shell">
+          <div className="reference-section-heading">
+            <h2>{automationSection.title}</h2>
+            {automationSection.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          </div>
+          {renderProjectGrid(automations)}
         </div>
       </section>
       <section className="band-section">
