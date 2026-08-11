@@ -1070,7 +1070,8 @@ body .home-service-card h3 { color: #17211d; font-size: 1.4rem; letter-spacing: 
 body .home-service-card p { color: #526058; }
 body .home-service-card .home-service-price {
   display: block;
-  margin-top: 1.5rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
   color: #1d4ed8;
   font-size: 1.35rem;
   line-height: 1.2;
@@ -1078,7 +1079,7 @@ body .home-service-card .home-service-price {
 body .home-service-card .home-service-link,
 body .home-reference-intro .text-link,
 body .home-about-copy .text-link { color: #2f6950; }
-body .home-service-card .home-service-link { margin-top: auto; padding-top: 2rem; }
+body .home-service-card .home-service-link { padding-top: 2rem; }
 body .home-reference-intro {
   display: block;
   max-width: 52rem;
