@@ -41,63 +41,77 @@ const featuredProjects = {
   cs: [
     {
       name: "Viditelný Makléř",
-      type: "firemní web",
+      type: "vlastní projekt · firemní web",
       description: "Firemní web pro prezentaci služeb a obchodní podporu realitních makléřů.",
       href: "https://www.viditelnymakler.cz/",
       image: "/work/viditelny-makler.png",
     },
     {
       name: "DoporučenoAI",
-      type: "AI aplikace",
+      type: "vlastní produkt · AI aplikace",
       description: "Aplikace pro analýzu viditelnosti webu v odpovědích AI nástrojů.",
       href: "https://www.doporucenoai.cz/",
       image: "/work/doporuceno-ai.png",
     },
     {
-      name: "RelioCRM",
-      type: "CRM systém",
+      name: "RealioCRM",
+      type: "vlastní produkt · CRM systém",
       description: "CRM systém pro práci s kontakty, nemovitostmi a obchodními případy.",
       href: "https://crm.halatao.cz/",
       image: "/work/realio-crm.png",
     },
     {
+      name: "Odhad123",
+      type: "klientská realizace · realitní aplikace",
+      description: "Platforma pro získání odhadu ceny nemovitosti s vedeným zadáním pro byty, domy a pozemky.",
+      href: "https://www.odhad123.cz/",
+      image: "/work/odhad123.png",
+    },
+    {
+      name: "Worket.cz",
+      type: "klientská realizace · pracovní portál",
+      description: "Pracovní portál s nabídkami práce, profily uchazečů, reakcemi, uživatelskými účty a administrací.",
+      href: "https://worket.cz/",
+      image: "/work/worket.png",
+    },
+    {
       name: "Kasan & Pelcová",
-      type: "realitní web",
+      type: "klientská realizace · realitní web",
       description: "Realitní web se správou nabídek, obsahu a příchozích poptávek.",
       href: "https://www.kasanpelcova.cz/",
       image: "/work/kasan-pelcova.png",
     },
     {
       name: "eMamky",
-      type: "publikační webová aplikace",
+      type: "klientská realizace · publikační aplikace",
       description: "Jedna ze dvou obsahových mutací vlastní publikační platformy s redakční správou, kategoriemi a vyhledáváním.",
       href: "https://emamky.cz/",
       image: "/work/emamky.png",
     },
     {
       name: "Novinex",
-      type: "publikační webová aplikace",
+      type: "klientská realizace · publikační aplikace",
       description: "Druhá obsahová mutace stejné publikační platformy, přizpůsobená odlišnému zaměření a obsahu.",
       href: "https://novinex.cz/",
       image: "/work/novinex.png",
     },
     {
       name: "Swapio",
-      type: "marketplace",
+      type: "klientská realizace · marketplace",
       description: "Bazarový marketplace pro vystavování, vyhledávání a správu nabídek.",
       href: "https://swapio.cz/",
       image: "/work/swapio.png",
     },
     {
       name: "Prodat-byt.cz",
-      type: "realitní web",
+      type: "vlastní projekt · realitní web",
       description: "Web realitní služby, který návštěvníka provádí možnostmi prodeje nemovitosti.",
       href: "https://prodat-byt.cz/",
       image: "/work/prodat-byt.png",
     },
     {
       name: "Pohoda XML",
-      type: "automatizační nástroj",
+      type: "klientská realizace · automatizační nástroj",
       description: "Nástroj pro převod a mapování dokladů do formátu použitelného v účetním systému POHODA.",
       href: "https://pohoda.halatao.cz/",
       image: "/work/pohoda-isdoc.png",
@@ -106,63 +120,77 @@ const featuredProjects = {
   en: [
     {
       name: "Viditelný Makléř",
-      type: "company website",
+      type: "own project · company website",
       description: "A company website supporting real-estate agents in presenting their services and generating business.",
       href: "https://www.viditelnymakler.cz/",
       image: "/work/viditelny-makler.png",
     },
     {
       name: "DoporučenoAI",
-      type: "AI application",
+      type: "own product · AI application",
       description: "An application analysing website visibility in answers produced by AI tools.",
       href: "https://www.doporucenoai.cz/",
       image: "/work/doporuceno-ai.png",
     },
     {
-      name: "RelioCRM",
-      type: "CRM system",
+      name: "RealioCRM",
+      type: "own product · CRM system",
       description: "A CRM system for managing contacts, properties and business cases.",
       href: "https://crm.halatao.cz/",
       image: "/work/realio-crm.png",
     },
     {
+      name: "Odhad123",
+      type: "client project · property application",
+      description: "A property valuation platform with guided data collection for apartments, houses and land.",
+      href: "https://www.odhad123.cz/",
+      image: "/work/odhad123.png",
+    },
+    {
+      name: "Worket.cz",
+      type: "client project · job portal",
+      description: "A job portal with job listings, candidate profiles, applications, user accounts and administration.",
+      href: "https://worket.cz/",
+      image: "/work/worket.png",
+    },
+    {
       name: "Kasan & Pelcová",
-      type: "real-estate website",
+      type: "client project · real-estate website",
       description: "A real-estate website with management of listings, content and incoming enquiries.",
       href: "https://www.kasanpelcova.cz/",
       image: "/work/kasan-pelcova.png",
     },
     {
       name: "eMamky",
-      type: "custom publishing application",
+      type: "client project · publishing application",
       description: "One of two content brands running on a custom publishing platform with editorial management, categories and search.",
       href: "https://emamky.cz/",
       image: "/work/emamky.png",
     },
     {
       name: "Novinex",
-      type: "custom publishing application",
+      type: "client project · publishing application",
       description: "The second content brand built on the same publishing platform and adapted to a different editorial focus.",
       href: "https://novinex.cz/",
       image: "/work/novinex.png",
     },
     {
       name: "Swapio",
-      type: "marketplace",
+      type: "client project · marketplace",
       description: "A marketplace for publishing, finding and managing listings.",
       href: "https://swapio.cz/",
       image: "/work/swapio.png",
     },
     {
       name: "Prodat-byt.cz",
-      type: "real-estate website",
+      type: "own project · real-estate website",
       description: "A real-estate service website guiding visitors through their property sale options.",
       href: "https://prodat-byt.cz/",
       image: "/work/prodat-byt.png",
     },
     {
       name: "Pohoda XML",
-      type: "automation tool",
+      type: "client project · automation tool",
       description: "A tool for converting and mapping documents into a format usable by the POHODA accounting system.",
       href: "https://pohoda.halatao.cz/",
       image: "/work/pohoda-isdoc.png",
@@ -173,7 +201,7 @@ const featuredProjects = {
 const homepageProjectNames = new Set([
   "Viditelný Makléř",
   "DoporučenoAI",
-  "RelioCRM",
+  "RealioCRM",
   "Swapio",
 ]);
 
@@ -184,7 +212,9 @@ function getHomepageProjects(locale: "cs" | "en") {
 const serviceHubLogoProjects = [
   { name: "Viditelný Makléř", href: "https://www.viditelnymakler.cz/" },
   { name: "DoporučenoAI", href: "https://www.doporucenoai.cz/" },
-  { name: "RelioCRM", href: "https://crm.halatao.cz/" },
+  { name: "RealioCRM", href: "https://crm.halatao.cz/" },
+  { name: "Odhad123", href: "https://www.odhad123.cz/" },
+  { name: "Worket.cz", href: "https://worket.cz/" },
   { name: "Kasan & Pelcová", href: "https://www.kasanpelcova.cz/" },
   { name: "eMamky", href: "https://emamky.cz/" },
   { name: "Novinex", href: "https://novinex.cz/" },
@@ -202,7 +232,7 @@ const serviceVisuals: Partial<Record<string, { image: string; href: string; name
   "service-custom-web-app-development": {
     image: "/work/realio-crm.png",
     href: "https://crm.halatao.cz/",
-    name: "RelioCRM",
+    name: "RealioCRM",
   },
   "service-existing-app-takeover": {
     image: "/work/swapio.png",
@@ -212,7 +242,7 @@ const serviceVisuals: Partial<Record<string, { image: string; href: string; name
   "service-internal-tools-development": {
     image: "/work/realio-crm.png",
     href: "https://crm.halatao.cz/",
-    name: "RelioCRM",
+    name: "RealioCRM",
   },
   "service-automations-and-integrations": {
     image: "/work/pohoda-isdoc.png",
@@ -222,7 +252,7 @@ const serviceVisuals: Partial<Record<string, { image: string; href: string; name
   "service-sales-and-job-tracking-system": {
     image: "/work/realio-crm.png",
     href: "https://crm.halatao.cz/",
-    name: "RelioCRM",
+    name: "RealioCRM",
   },
 };
 
@@ -233,12 +263,14 @@ const staticImageDimensions: Record<string, { width: number; height: number }> =
   "/work/kasan-pelcova-nemovitosti.png": { width: 1250, height: 703 },
   "/work/kasan-pelcova.png": { width: 1265, height: 712 },
   "/work/novinex.png": { width: 1265, height: 712 },
+  "/work/odhad123.png": { width: 1250, height: 703 },
   "/work/pohoda-isdoc.png": { width: 1280, height: 720 },
   "/work/prodat-byt.png": { width: 1265, height: 712 },
   "/work/realio-crm-jobs.png": { width: 1280, height: 720 },
   "/work/realio-crm.png": { width: 1280, height: 720 },
   "/work/swapio.png": { width: 1265, height: 712 },
   "/work/viditelny-makler.png": { width: 1265, height: 712 },
+  "/work/worket.png": { width: 1440, height: 4103 },
 };
 
 function getStaticImageDimensions(src: string) {
@@ -248,10 +280,10 @@ function getStaticImageDimensions(src: string) {
 const serviceProjectNames: Partial<Record<string, string[]>> = {
   "service-company-websites": ["Viditelný Makléř", "Kasan & Pelcová", "Prodat-byt.cz"],
   "service-custom-web-app-development": ["DoporučenoAI", "Swapio"],
-  "service-existing-app-takeover": ["Swapio", "RelioCRM"],
-  "service-internal-tools-development": ["RelioCRM", "DoporučenoAI"],
+  "service-existing-app-takeover": ["Swapio", "RealioCRM"],
+  "service-internal-tools-development": ["RealioCRM", "DoporučenoAI"],
   "service-automations-and-integrations": ["Pohoda XML", "DoporučenoAI"],
-  "service-sales-and-job-tracking-system": ["RelioCRM"],
+  "service-sales-and-job-tracking-system": ["RealioCRM"],
 };
 
 function getServiceProjects(page: ContentPage) {
@@ -278,7 +310,7 @@ function projectLogo(name: string, decorative: boolean) {
     );
   }
 
-  if (name === "RelioCRM") {
+  if (name === "RealioCRM") {
     return (
       <span className="project-logo project-logo-relio">
         <span className="project-logo-relio-icon" aria-hidden="true">R</span>
@@ -1017,7 +1049,7 @@ function WebsiteRangeSection({ section }: { section: PageSection }) {
     { name: "Prodat-byt.cz", image: "/work/prodat-byt.png", href: "https://prodat-byt.cz/" },
     { name: "Viditelný Makléř", image: "/work/viditelny-makler.png", href: "https://www.viditelnymakler.cz/" },
     { name: "Kasan & Pelcová", image: "/work/kasan-pelcova.png", href: "https://www.kasanpelcova.cz/" },
-    { name: "RelioCRM", image: "/work/realio-crm.png", href: "https://crm.halatao.cz/" },
+    { name: "RealioCRM", image: "/work/realio-crm.png", href: "https://crm.halatao.cz/" },
   ];
 
   return (
@@ -2065,7 +2097,7 @@ export function CaseStudyTemplate({ page }: TemplateProps) { return <GenericTemp
 
 export function ReferenceTemplate({ page }: TemplateProps) {
   const projects = featuredProjects[page.locale];
-  const applicationNames = new Set(["DoporučenoAI", "RelioCRM", "Swapio", "eMamky", "Novinex"]);
+  const applicationNames = new Set(["DoporučenoAI", "RealioCRM", "Odhad123", "Worket.cz", "Swapio", "eMamky", "Novinex"]);
   const automationNames = new Set(["Pohoda XML"]);
   const applications = projects.filter((project) => applicationNames.has(project.name));
   const automations = projects.filter((project) => automationNames.has(project.name));
@@ -2145,7 +2177,7 @@ export function ReferenceTemplate({ page }: TemplateProps) {
 export function AboutTemplate({ page }: TemplateProps) {
   const [workSection, experienceSection, valuesSection] = page.sections;
   const aboutProjects = featuredProjects.cs.filter((project) =>
-    ["DoporučenoAI", "RelioCRM", "Swapio"].includes(project.name),
+    ["DoporučenoAI", "RealioCRM", "Swapio"].includes(project.name),
   );
 
   return (

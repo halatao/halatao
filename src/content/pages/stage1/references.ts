@@ -17,7 +17,7 @@ export const referencePages: ContentPage[] = [
     intent: "commercial",
     hero: {
       eyebrow: "Vybrané realizace",
-      title: "Weby, aplikace a automatizace, které jsem navrhl, vytvořil a uvedl do provozu.",
+      title: "Weby, aplikace a automatizace, které jsem navrhl a vytvořil.",
       subtitle: "Ukázky zahrnují vlastní produkty i projekty pro klienty. U každého uvádím, co řeší pro uživatele a jakou část dodávky jsem měl na starost.",
       primaryCta: { label: "Popsat podobný projekt", href: "/cs/kontakt/" },
     },
@@ -28,8 +28,8 @@ export const referencePages: ContentPage[] = [
     sections: [
       {
         title: "Aplikace a systémy",
-        body: ["Vlastní produkty a systémy, kde je vedle rozhraní důležitá také práce s daty, rolemi a navazujícím workflow."],
-        bullets: ["DoporučenoAI", "RelioCRM", "Swapio", "eMamky", "Novinex"],
+        body: ["Vlastní a klientské produkty, kde je vedle rozhraní důležitá také práce s daty, rolemi a navazujícím workflow."],
+        bullets: ["DoporučenoAI", "RealioCRM", "Odhad123", "Worket.cz", "Swapio", "eMamky", "Novinex"],
       },
       {
         title: "Firemní weby",
@@ -82,7 +82,7 @@ export const referencePages: ContentPage[] = [
     intent: "commercial",
     hero: {
       eyebrow: "Selected work",
-      title: "Websites, applications, and automation tools I designed, built, and brought into operation.",
+      title: "Websites, applications, and automation tools I designed and built.",
       subtitle: "The selection includes my own products and direct client work. Each example explains what it does for users and the part of delivery I was responsible for.",
       primaryCta: { label: "Discuss a similar project", href: "/en/discuss-your-project/" },
     },
@@ -93,8 +93,8 @@ export const referencePages: ContentPage[] = [
     sections: [
       {
         title: "Applications and systems",
-        body: ["Products and systems where user interfaces are backed by data, roles, administration, and connected workflows."],
-        bullets: ["DoporučenoAI", "RelioCRM", "Swapio", "eMamky", "Novinex"],
+        body: ["Own and client products where user interfaces are backed by data, roles, administration, and connected workflows."],
+        bullets: ["DoporučenoAI", "RealioCRM", "Odhad123", "Worket.cz", "Swapio", "eMamky", "Novinex"],
       },
       {
         title: "Company websites",
