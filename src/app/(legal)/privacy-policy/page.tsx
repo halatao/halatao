@@ -82,6 +82,12 @@ export default function PrivacyPolicyPage() {
           Tyto nástroje mohou pracovat s technickými údaji, například informacemi o zařízení, prohlížeči, návštěvě webu
           nebo interakci s reklamou.
         </p>
+        <p>
+          Pro vyhodnocení reklam v ChatGPT může web po udělení marketingového souhlasu používat OpenAI Ads Measurement
+          Pixel. Ten může propojit odeslanou poptávku s předchozím kliknutím na reklamu a může pracovat s identifikátorem
+          reklamního kliknutí nebo bezpečně hashovanými kontaktními údaji. Nezpracovaná hodnota kontaktních údajů se v
+          rámci automatického rozšířeného párování společnosti OpenAI neodesílá.
+        </p>
         {siteConfig.cookiebotId ? (
           <p>
             Pokud web používá cookies nebo podobné technologie vyžadující souhlas, nastavení souhlasů se řídí cookie

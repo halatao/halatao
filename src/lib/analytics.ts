@@ -24,6 +24,7 @@ declare global {
   interface Window {
     Cookiebot?: {
       consent?: {
+        marketing?: boolean;
         statistics?: boolean;
       };
     };

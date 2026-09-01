@@ -12,7 +12,7 @@ export const legalContact = {
   domain: siteConfig.domain,
 };
 
-export const legalLastUpdated = "23. června 2026";
+export const legalLastUpdated = "1. září 2026";
 
 export function ContactDetails({ showPhone = false }: { showPhone?: boolean }) {
   return (

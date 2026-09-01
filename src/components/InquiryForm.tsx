@@ -6,6 +6,7 @@ import { FocusEvent, FormEvent, useRef, useState } from "react";
 import type { Locale } from "@/content/types";
 import { buildThankYouHref } from "@/content/builders";
 import { trackAnalyticsEvent } from "@/lib/analytics";
+import { trackOpenAiAdsLead } from "@/lib/openai-ads";
 
 const copy = {
   cs: {
@@ -82,6 +83,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
       }
 
       trackAnalyticsEvent("generate_lead", { form_id: "project_inquiry", lead_type: "project_inquiry" });
+      trackOpenAiAdsLead();
       router.push(buildThankYouHref(locale));
     } catch {
       trackAnalyticsEvent("form_submit_error", { error_type: "network", form_id: "project_inquiry" });
