@@ -4,7 +4,17 @@ import type { Locale } from "@/content/types";
 
 export function CookieSettingsButton({ locale }: { locale: Locale }) {
   function openSettings() {
-    window.Cookiebot?.renew?.();
+    const openCookiebot = () => {
+      window.Cookiebot?.renew?.();
+      window.Cookiebot?.show?.();
+    };
+
+    if (window.Cookiebot) {
+      openCookiebot();
+      return;
+    }
+
+    window.addEventListener("CookiebotOnConsentReady", openCookiebot, { once: true });
   }
 
   return (

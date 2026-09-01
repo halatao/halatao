@@ -28,6 +28,7 @@ declare global {
         statistics?: boolean;
       };
       renew?: () => void;
+      show?: () => void;
     };
     dataLayer?: Array<Record<string, unknown>>;
   }
