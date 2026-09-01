@@ -1647,14 +1647,24 @@ body .footer-column h2 {
 }
 
 body .site-footer .footer-column a,
-body .site-footer .footer-socials a {
+body .site-footer .footer-socials a,
+body .site-footer .footer-cookie-button {
   color: #cbd5e1 !important;
   font-size: 0.95rem;
   line-height: 1.55;
 }
 
 body .site-footer .footer-column a:hover,
-body .site-footer .footer-socials a:hover { color: #ffffff !important; }
+body .site-footer .footer-socials a:hover,
+body .site-footer .footer-cookie-button:hover { color: #ffffff !important; }
+
+body .site-footer .footer-cookie-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
 
 body .footer-bottom {
   display: flex;

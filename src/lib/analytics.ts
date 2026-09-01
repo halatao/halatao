@@ -27,6 +27,7 @@ declare global {
         marketing?: boolean;
         statistics?: boolean;
       };
+      renew?: () => void;
     };
     dataLayer?: Array<Record<string, unknown>>;
   }

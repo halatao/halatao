@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { CookieSettingsButton } from "@/components/CookieSettingsButton";
 import type { LinkRecord, Locale } from "@/content/types";
 import { siteConfig } from "@/lib/site";
 
@@ -87,6 +88,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
       <div className="shell footer-bottom">
         <div className="footer-brand"><span>{siteConfig.displayName}</span> &copy; 2026</div>
         <div className="footer-socials">
+          <CookieSettingsButton locale={locale} />
           <Link href={siteConfig.linkedIn} target="_blank">
             LinkedIn
           </Link>
