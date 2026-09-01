@@ -24,7 +24,7 @@ function installBrowserContext(statisticsConsent: boolean) {
   Object.defineProperty(globalThis, "window", {
     configurable: true,
     value: {
-      Cookiebot: { consent: { statistics: statisticsConsent } },
+      HalataoConsent: { analytics: statisticsConsent, marketing: false },
       dataLayer,
       location,
     },

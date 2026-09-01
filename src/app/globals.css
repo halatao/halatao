@@ -16,6 +16,31 @@
   --radius-xl: 1rem;
 }
 
+#cc-main {
+  --cc-font-family: var(--font-sans), "Segoe UI", system-ui, sans-serif;
+  --cc-bg: #ffffff;
+  --cc-primary-color: #0f172a;
+  --cc-secondary-color: #475569;
+  --cc-btn-primary-bg: #2563eb;
+  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-border-color: #2563eb;
+  --cc-btn-primary-hover-bg: #1d4ed8;
+  --cc-btn-primary-hover-color: #ffffff;
+  --cc-btn-primary-hover-border-color: #1d4ed8;
+  --cc-btn-secondary-bg: #ffffff;
+  --cc-btn-secondary-color: #0f172a;
+  --cc-btn-secondary-border-color: #cbd5e1;
+  --cc-btn-secondary-hover-bg: #f1f5f9;
+  --cc-btn-secondary-hover-color: #0f172a;
+  --cc-btn-secondary-hover-border-color: #94a3b8;
+  --cc-toggle-on-bg: #2563eb;
+  --cc-toggle-off-bg: #cbd5e1;
+  --cc-link-color: #1d4ed8;
+  --cc-modal-border-radius: 8px;
+  --cc-btn-border-radius: 6px;
+  --cc-z-index: 2147483646;
+}
+
 * {
   box-sizing: border-box;
 }

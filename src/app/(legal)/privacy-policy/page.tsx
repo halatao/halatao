@@ -88,12 +88,10 @@ export default function PrivacyPolicyPage() {
           reklamního kliknutí nebo bezpečně hashovanými kontaktními údaji. Nezpracovaná hodnota kontaktních údajů se v
           rámci automatického rozšířeného párování společnosti OpenAI neodesílá.
         </p>
-        {siteConfig.cookiebotId ? (
-          <p>
-            Pokud web používá cookies nebo podobné technologie vyžadující souhlas, nastavení souhlasů se řídí cookie
-            lištou dostupnou na webu.
-          </p>
-        ) : null}
+        <p>
+          Nastavení analytických a marketingových technologií se řídí cookie lištou dostupnou na webu. Své rozhodnutí
+          můžete kdykoli změnit pomocí odkazu Nastavení cookies v patičce.
+        </p>
       </LegalSection>
 
       <LegalSection title="Meta / Facebook aplikace MCP">

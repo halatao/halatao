@@ -3,14 +3,14 @@
 import { useEffect } from "react";
 
 import { initializeAnalyticsContext, trackAnalyticsEvent, type AnalyticsEventName } from "@/lib/analytics";
+import { CONSENT_UPDATED_EVENT } from "@/lib/consent";
 
 const explicitEvents = new Set<AnalyticsEventName>(["seo_cta_click", "service_cta_click"]);
 
 export function AnalyticsEvents() {
   useEffect(() => {
     initializeAnalyticsContext();
-    window.addEventListener("CookiebotOnAccept", initializeAnalyticsContext);
-    window.addEventListener("CookiebotOnConsentReady", initializeAnalyticsContext);
+    window.addEventListener(CONSENT_UPDATED_EVENT, initializeAnalyticsContext);
 
     function handleClick(event: MouseEvent) {
       if (!(event.target instanceof Element)) return;
@@ -48,8 +48,7 @@ export function AnalyticsEvents() {
     document.addEventListener("click", handleClick);
     document.addEventListener("change", handleChange);
     return () => {
-      window.removeEventListener("CookiebotOnAccept", initializeAnalyticsContext);
-      window.removeEventListener("CookiebotOnConsentReady", initializeAnalyticsContext);
+      window.removeEventListener(CONSENT_UPDATED_EVENT, initializeAnalyticsContext);
       document.removeEventListener("click", handleClick);
       document.removeEventListener("change", handleChange);
     };

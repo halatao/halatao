@@ -1,3 +1,5 @@
+import { hasAnalyticsConsent } from "@/lib/consent";
+
 export type AnalyticsEventName =
   | "booking_click"
   | "contact_email_click"
@@ -22,15 +24,7 @@ let analyticsContext: AnalyticsContext | undefined;
 
 declare global {
   interface Window {
-    Cookiebot?: {
-      consent?: {
-        marketing?: boolean;
-        statistics?: boolean;
-      };
-      renew?: () => void;
-      show?: () => void;
-    };
-    dataLayer?: Array<Record<string, unknown>>;
+    dataLayer?: Array<Record<string, unknown> | IArguments | unknown[]>;
   }
 }
 
@@ -46,7 +40,7 @@ function sanitizeCampaignValue(value: string | null) {
 }
 
 export function initializeAnalyticsContext() {
-  if (typeof window === "undefined" || window.Cookiebot?.consent?.statistics !== true || analyticsContext) return;
+  if (typeof window === "undefined" || !hasAnalyticsConsent() || analyticsContext) return;
 
   try {
     const query = new URLSearchParams(window.location.search);
@@ -73,7 +67,7 @@ function getAnalyticsContext() {
 }
 
 export function trackAnalyticsEvent(event: AnalyticsEventName, parameters: AnalyticsParameters = {}) {
-  if (typeof window === "undefined" || window.Cookiebot?.consent?.statistics !== true) return;
+  if (typeof window === "undefined" || !hasAnalyticsConsent()) return;
 
   window.dataLayer ??= [];
   window.dataLayer.push({

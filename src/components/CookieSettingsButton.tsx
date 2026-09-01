@@ -1,20 +1,11 @@
 "use client";
 
 import type { Locale } from "@/content/types";
+import { SHOW_CONSENT_PREFERENCES_EVENT } from "@/lib/consent";
 
 export function CookieSettingsButton({ locale }: { locale: Locale }) {
   function openSettings() {
-    const openCookiebot = () => {
-      window.Cookiebot?.renew?.();
-      window.Cookiebot?.show?.();
-    };
-
-    if (window.Cookiebot) {
-      openCookiebot();
-      return;
-    }
-
-    window.addEventListener("CookiebotOnConsentReady", openCookiebot, { once: true });
+    window.dispatchEvent(new Event(SHOW_CONSENT_PREFERENCES_EVENT));
   }
 
   return (

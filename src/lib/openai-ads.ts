@@ -1,3 +1,4 @@
+import { hasMarketingConsent } from "@/lib/consent";
 import { siteConfig } from "@/lib/site";
 
 const pixelScriptUrl = "https://bzrcdn.openai.com/sdk/oaiq.min.js";
@@ -14,10 +15,6 @@ declare global {
 }
 
 let initialized = false;
-
-function hasMarketingConsent() {
-  return window.Cookiebot?.consent?.marketing === true;
-}
 
 export function initializeOpenAiAdsPixel() {
   if (
